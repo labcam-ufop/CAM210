@@ -1,0 +1,5 @@
+ build/default/production/main7seg4.d  \
+ build/default/production/main7seg4.p1:  \
+ main7seg4.c  \
+configbits.h  \
+display7s.h  \

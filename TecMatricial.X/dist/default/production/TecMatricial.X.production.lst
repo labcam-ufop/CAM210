@@ -1,0 +1,1068 @@
+
+
+Microchip MPLAB XC8 Assembler V2.31 build 20201012212115 
+                                                                                               Wed Nov 18 13:38:38 2020
+
+Microchip MPLAB XC8 C Compiler v2.31 (Free license) build 20201012212115 Og1 
+     1                           	processor	18F4550
+     2                           	fnconf	rparam,??,?,0
+     3                           	pagewidth 120
+     4                           	opt	flic
+     5                           	psect	nvCOMRAM,global,class=COMRAM,space=1,delta=1,lowdata,noexec
+     6                           	psect	cinit,global,reloc=2,class=CODE,delta=1
+     7                           	psect	cstackCOMRAM,global,class=COMRAM,space=1,delta=1,lowdata,noexec
+     8                           	psect	text0,global,reloc=2,class=CODE,delta=1
+     9                           	psect	text1,global,reloc=2,class=CODE,delta=1
+    10                           	psect	intsave_regs,global,class=BIGRAM,space=1,delta=1,noexec
+    11                           	psect	rparam,global,class=COMRAM,space=1,delta=1,noexec
+    12                           	psect	idloc,global,abs,ovrld,class=IDLOC,space=5,delta=1,noexec
+    13                           	psect	config,global,abs,ovrld,class=CONFIG,space=4,delta=1,noexec
+    14  0000                     
+    15                           ; Version 2.20
+    16                           ; Generated 12/02/2020 GMT
+    17                           ; 
+    18                           ; Copyright © 2020, Microchip Technology Inc. and its subsidiaries ("Microchip")
+    19                           ; All rights reserved.
+    20                           ; 
+    21                           ; This software is developed by Microchip Technology Inc. and its subsidiaries ("Microch
+      +                          ip").
+    22                           ; 
+    23                           ; Redistribution and use in source and binary forms, with or without modification, are
+    24                           ; permitted provided that the following conditions are met:
+    25                           ; 
+    26                           ;     1. Redistributions of source code must retain the above copyright notice, this lis
+      +                          t of
+    27                           ;        conditions and the following disclaimer.
+    28                           ; 
+    29                           ;     2. Redistributions in binary form must reproduce the above copyright notice, this 
+      +                          list
+    30                           ;        of conditions and the following disclaimer in the documentation and/or other
+    31                           ;        materials provided with the distribution.
+    32                           ; 
+    33                           ;     3. Microchip's name may not be used to endorse or promote products derived from th
+      +                          is
+    34                           ;        software without specific prior written permission.
+    35                           ; 
+    36                           ; THIS SOFTWARE IS PROVIDED BY MICROCHIP "AS IS" AND ANY EXPRESS OR IMPLIED WARRANTIES,
+    37                           ; INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS F
+      +                          OR
+    38                           ; PURPOSE ARE DISCLAIMED.  IN NO EVENT SHALL MICROCHIP BE LIABLE FOR ANY DIRECT, INDIREC
+      +                          T,
+    39                           ; INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING BUT NOT LIMITED TO
+    40                           ; PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA OR PROFITS; OR BUSINESS
+    41                           ; INTERRUPTION) HOWSOEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, ST
+      +                          RICT
+    42                           ; LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE U
+      +                          SE OF
+    43                           ; THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+    44                           ; 
+    45                           ; 
+    46                           ; Code-generator required, PIC18F4550 Definitions
+    47                           ; 
+    48                           ; SFR Addresses
+    49  0000                     
+    50                           	psect	nvCOMRAM
+    51  000003                     __pnvCOMRAM:
+    52                           	callstack 0
+    53  000003                     _tecla:
+    54                           	callstack 0
+    55  000003                     	ds	1
+    56  0000                     _PORTDbits	set	3971
+    57  0000                     _LATBbits	set	3978
+    58  0000                     _LATEbits	set	3981
+    59  0000                     _LATCbits	set	3979
+    60  0000                     _LATE	set	3981
+    61  0000                     _PORTE	set	3972
+    62  0000                     _LATD	set	3980
+    63  0000                     _PORTD	set	3971
+    64  0000                     _LATC	set	3979
+    65  0000                     _PORTC	set	3970
+    66  0000                     _LATB	set	3978
+    67  0000                     _PORTB	set	3969
+    68  0000                     _TRISE	set	3990
+    69  0000                     _TRISD	set	3989
+    70  0000                     _TRISC	set	3988
+    71  0000                     _TRISB	set	3987
+    72  0000                     _INTCON2bits	set	4081
+    73  0000                     _ADCON1	set	4033
+    74  0000                     _ADCON0	set	4034
+    75                           
+    76                           ; #config settings
+    77                           
+    78                           	psect	cinit
+    79  007D02                     __pcinit:
+    80                           	callstack 0
+    81  007D02                     start_initialization:
+    82                           	callstack 0
+    83  007D02                     __initialization:
+    84                           	callstack 0
+    85  007D02                     end_of_initialization:
+    86                           	callstack 0
+    87  007D02                     __end_of__initialization:
+    88                           	callstack 0
+    89  007D02  0100               	movlb	0
+    90  007D04  EF84  F03E         	goto	_main	;jump to C main() function
+    91                           
+    92                           	psect	cstackCOMRAM
+    93  000001                     __pcstackCOMRAM:
+    94                           	callstack 0
+    95  000001                     ??_teclado:
+    96  000001                     
+    97                           ; 1 bytes @ 0x0
+    98  000001                     	ds	1
+    99  000002                     teclado@key:
+   100                           	callstack 0
+   101                           
+   102                           ; 1 bytes @ 0x1
+   103  000002                     	ds	1
+   104  000003                     
+   105                           ; 1 bytes @ 0x2
+   106 ;;
+   107 ;;Main: autosize = 0, tempsize = 0, incstack = 0, save=0
+   108 ;;
+   109 ;; *************** function _main *****************
+   110 ;; Defined at:
+   111 ;;		line 34 in file "mainTecMatric.c"
+   112 ;; Parameters:    Size  Location     Type
+   113 ;;		None
+   114 ;; Auto vars:     Size  Location     Type
+   115 ;;		None
+   116 ;; Return value:  Size  Location     Type
+   117 ;;                  1    wreg      void 
+   118 ;; Registers used:
+   119 ;;		wreg, status,2, status,0, cstack
+   120 ;; Tracked objects:
+   121 ;;		On entry : 0/0
+   122 ;;		On exit  : 0/0
+   123 ;;		Unchanged: 0/0
+   124 ;; Data sizes:     COMRAM   BANK0   BANK1   BANK2   BANK3   BANK4   BANK5   BANK6   BANK7
+   125 ;;      Params:         0       0       0       0       0       0       0       0       0
+   126 ;;      Locals:         0       0       0       0       0       0       0       0       0
+   127 ;;      Temps:          0       0       0       0       0       0       0       0       0
+   128 ;;      Totals:         0       0       0       0       0       0       0       0       0
+   129 ;;Total ram usage:        0 bytes
+   130 ;; Hardware stack levels required when called:    1
+   131 ;; This function calls:
+   132 ;;		_teclado
+   133 ;; This function is called by:
+   134 ;;		Startup code after reset
+   135 ;; This function uses a non-reentrant model
+   136 ;;
+   137                           
+   138                           	psect	text0
+   139  007D08                     __ptext0:
+   140                           	callstack 0
+   141  007D08                     _main:
+   142                           	callstack 30
+   143  007D08                     
+   144                           ;mainTecMatric.c: 36: ADCON0 = 0b00000000;
+   145  007D08  0E00               	movlw	0
+   146  007D0A  6EC2               	movwf	194,c	;volatile
+   147                           
+   148                           ;mainTecMatric.c: 37: ADCON1 = 0b00001111;
+   149  007D0C  0E0F               	movlw	15
+   150  007D0E  6EC1               	movwf	193,c	;volatile
+   151  007D10                     
+   152                           ;mainTecMatric.c: 41: INTCON2bits.RBPU = 1;
+   153  007D10  8EF1               	bsf	241,7,c	;volatile
+   154                           
+   155                           ;mainTecMatric.c: 43: TRISB = 0b00000000;
+   156  007D12  0E00               	movlw	0
+   157  007D14  6E93               	movwf	147,c	;volatile
+   158                           
+   159                           ;mainTecMatric.c: 44: TRISC = 0b00000000;
+   160  007D16  0E00               	movlw	0
+   161  007D18  6E94               	movwf	148,c	;volatile
+   162                           
+   163                           ;mainTecMatric.c: 45: TRISD = 0b00001111;
+   164  007D1A  0E0F               	movlw	15
+   165  007D1C  6E95               	movwf	149,c	;volatile
+   166                           
+   167                           ;mainTecMatric.c: 46: TRISE = 0b00000000;
+   168  007D1E  0E00               	movlw	0
+   169  007D20  6E96               	movwf	150,c	;volatile
+   170  007D22                     
+   171                           ;mainTecMatric.c: 48: PORTB = 0xFF;
+   172  007D22  6881               	setf	129,c	;volatile
+   173  007D24                     
+   174                           ;mainTecMatric.c: 49: LATB = 0xFF;
+   175  007D24  688A               	setf	138,c	;volatile
+   176                           
+   177                           ;mainTecMatric.c: 50: PORTC = 0;
+   178  007D26  0E00               	movlw	0
+   179  007D28  6E82               	movwf	130,c	;volatile
+   180                           
+   181                           ;mainTecMatric.c: 51: LATC = 0;
+   182  007D2A  0E00               	movlw	0
+   183  007D2C  6E8B               	movwf	139,c	;volatile
+   184                           
+   185                           ;mainTecMatric.c: 52: PORTD = 0;
+   186  007D2E  0E00               	movlw	0
+   187  007D30  6E83               	movwf	131,c	;volatile
+   188                           
+   189                           ;mainTecMatric.c: 53: LATD = 0;
+   190  007D32  0E00               	movlw	0
+   191  007D34  6E8C               	movwf	140,c	;volatile
+   192                           
+   193                           ;mainTecMatric.c: 54: PORTE = 0;
+   194  007D36  0E00               	movlw	0
+   195  007D38  6E84               	movwf	132,c	;volatile
+   196                           
+   197                           ;mainTecMatric.c: 55: LATE = 0;
+   198  007D3A  0E00               	movlw	0
+   199  007D3C  6E8D               	movwf	141,c	;volatile
+   200  007D3E                     l49:
+   201  007D3E  0004               	clrwdt		;# 
+   202  007D40                     
+   203                           ;mainTecMatric.c: 59: tecla = teclado();
+   204  007D40  ECC6  F03E         	call	_teclado	;wreg free
+   205  007D44  6E03               	movwf	_tecla^0,c
+   206  007D46                     
+   207                           ;mainTecMatric.c: 60: if (tecla == '1')
+   208  007D46  0E31               	movlw	49
+   209  007D48  1803               	xorwf	_tecla^0,w,c
+   210  007D4A  A4D8               	btfss	status,2,c
+   211  007D4C  EFAA  F03E         	goto	u251
+   212  007D50  EFAC  F03E         	goto	u250
+   213  007D54                     u251:
+   214  007D54  EFAD  F03E         	goto	l957
+   215  007D58                     u250:
+   216  007D58                     
+   217                           ;mainTecMatric.c: 61: {;mainTecMatric.c: 62: LATCbits.LC0 = 1;
+   218  007D58  808B               	bsf	139,0,c	;volatile
+   219  007D5A                     l957:
+   220                           
+   221                           ;mainTecMatric.c: 63: };mainTecMatric.c: 64: if (tecla == '2')
+   222  007D5A  0E32               	movlw	50
+   223  007D5C  1803               	xorwf	_tecla^0,w,c
+   224  007D5E  A4D8               	btfss	status,2,c
+   225  007D60  EFB4  F03E         	goto	u261
+   226  007D64  EFB6  F03E         	goto	u260
+   227  007D68                     u261:
+   228  007D68  EFB7  F03E         	goto	l961
+   229  007D6C                     u260:
+   230  007D6C                     
+   231                           ;mainTecMatric.c: 65: {;mainTecMatric.c: 66: LATEbits.LE0 = 1;
+   232  007D6C  808D               	bsf	141,0,c	;volatile
+   233  007D6E                     l961:
+   234                           
+   235                           ;mainTecMatric.c: 67: };mainTecMatric.c: 68: if (tecla == '3')
+   236  007D6E  0E33               	movlw	51
+   237  007D70  1803               	xorwf	_tecla^0,w,c
+   238  007D72  A4D8               	btfss	status,2,c
+   239  007D74  EFBE  F03E         	goto	u271
+   240  007D78  EFC0  F03E         	goto	u270
+   241  007D7C                     u271:
+   242  007D7C  EF9F  F03E         	goto	l49
+   243  007D80                     u270:
+   244  007D80                     
+   245                           ;mainTecMatric.c: 69: {;mainTecMatric.c: 70: LATCbits.LC0 = 0;
+   246  007D80  908B               	bcf	139,0,c	;volatile
+   247                           
+   248                           ;mainTecMatric.c: 71: LATEbits.LE0 = 0;
+   249  007D82  908D               	bcf	141,0,c	;volatile
+   250  007D84  EF9F  F03E         	goto	l49
+   251  007D88  EF00  F000         	goto	start
+   252  007D8C                     __end_of_main:
+   253                           	callstack 0
+   254                           
+   255 ;; *************** function _teclado *****************
+   256 ;; Defined at:
+   257 ;;		line 78 in file "mainTecMatric.c"
+   258 ;; Parameters:    Size  Location     Type
+   259 ;;		None
+   260 ;; Auto vars:     Size  Location     Type
+   261 ;;  key             1    1[COMRAM] unsigned char 
+   262 ;; Return value:  Size  Location     Type
+   263 ;;                  1    wreg      unsigned char 
+   264 ;; Registers used:
+   265 ;;		wreg, status,2
+   266 ;; Tracked objects:
+   267 ;;		On entry : 0/0
+   268 ;;		On exit  : 0/0
+   269 ;;		Unchanged: 0/0
+   270 ;; Data sizes:     COMRAM   BANK0   BANK1   BANK2   BANK3   BANK4   BANK5   BANK6   BANK7
+   271 ;;      Params:         0       0       0       0       0       0       0       0       0
+   272 ;;      Locals:         1       0       0       0       0       0       0       0       0
+   273 ;;      Temps:          1       0       0       0       0       0       0       0       0
+   274 ;;      Totals:         2       0       0       0       0       0       0       0       0
+   275 ;;Total ram usage:        2 bytes
+   276 ;; Hardware stack levels used:    1
+   277 ;; This function calls:
+   278 ;;		Nothing
+   279 ;; This function is called by:
+   280 ;;		_main
+   281 ;; This function uses a non-reentrant model
+   282 ;;
+   283                           
+   284                           	psect	text1
+   285  007D8C                     __ptext1:
+   286                           	callstack 0
+   287  007D8C                     _teclado:
+   288                           	callstack 30
+   289  007D8C                     
+   290                           ;mainTecMatric.c: 80: char key = ' ';
+   291  007D8C  0E20               	movlw	32
+   292  007D8E  6E02               	movwf	teclado@key^0,c
+   293  007D90                     
+   294                           ;mainTecMatric.c: 81: LATBbits.LB0 = 1; LATBbits.LB1 = 1; LATBbits.LB2 = 1;
+   295  007D90  808A               	bsf	138,0,c	;volatile
+   296  007D92  828A               	bsf	138,1,c	;volatile
+   297  007D94  848A               	bsf	138,2,c	;volatile
+   298  007D96                     
+   299                           ;mainTecMatric.c: 82: LATBbits.LB0 = 0;
+   300  007D96  908A               	bcf	138,0,c	;volatile
+   301  007D98                     
+   302                           ;mainTecMatric.c: 83: if(!PORTDbits.RD3) {_delay((unsigned long)((20)*(8000000/4000.0)))
+      +                          ; if (!PORTDbits.RD3){key = '1'; }}
+   303  007D98  B683               	btfsc	131,3,c	;volatile
+   304  007D9A  EFD1  F03E         	goto	u11
+   305  007D9E  EFD3  F03E         	goto	u10
+   306  007DA2                     u11:
+   307  007DA2  EFE5  F03E         	goto	l58
+   308  007DA6                     u10:
+   309  007DA6  0E34               	movlw	52
+   310  007DA8  6E01               	movwf	??_teclado^0,c
+   311  007DAA  0EF2               	movlw	242
+   312  007DAC                     u287:
+   313  007DAC  2EE8               	decfsz	wreg,f,c
+   314  007DAE  D7FE               	bra	u287
+   315  007DB0  2E01               	decfsz	??_teclado^0,f,c
+   316  007DB2  D7FC               	bra	u287
+   317  007DB4  B683               	btfsc	131,3,c	;volatile
+   318  007DB6  EFDF  F03E         	goto	u21
+   319  007DBA  EFE1  F03E         	goto	u20
+   320  007DBE                     u21:
+   321  007DBE  EF2E  F03F         	goto	l875
+   322  007DC2                     u20:
+   323  007DC2  0E31               	movlw	49
+   324  007DC4  6E02               	movwf	teclado@key^0,c
+   325  007DC6  EF2E  F03F         	goto	l875
+   326  007DCA                     l58:
+   327                           
+   328                           ;mainTecMatric.c: 84: else if(!PORTDbits.RD2) {_delay((unsigned long)((20)*(8000000/4000
+      +                          .0))); if (!PORTDbits.RD2){key = '4'; }}
+   329  007DCA  B483               	btfsc	131,2,c	;volatile
+   330  007DCC  EFEA  F03E         	goto	u31
+   331  007DD0  EFEC  F03E         	goto	u30
+   332  007DD4                     u31:
+   333  007DD4  EFFE  F03E         	goto	l61
+   334  007DD8                     u30:
+   335  007DD8  0E34               	movlw	52
+   336  007DDA  6E01               	movwf	??_teclado^0,c
+   337  007DDC  0EF2               	movlw	242
+   338  007DDE                     u297:
+   339  007DDE  2EE8               	decfsz	wreg,f,c
+   340  007DE0  D7FE               	bra	u297
+   341  007DE2  2E01               	decfsz	??_teclado^0,f,c
+   342  007DE4  D7FC               	bra	u297
+   343  007DE6  B483               	btfsc	131,2,c	;volatile
+   344  007DE8  EFF8  F03E         	goto	u41
+   345  007DEC  EFFA  F03E         	goto	u40
+   346  007DF0                     u41:
+   347  007DF0  EF2E  F03F         	goto	l875
+   348  007DF4                     u40:
+   349  007DF4  0E34               	movlw	52
+   350  007DF6  6E02               	movwf	teclado@key^0,c
+   351  007DF8  EF2E  F03F         	goto	l875
+   352  007DFC                     l61:
+   353                           
+   354                           ;mainTecMatric.c: 85: else if(!PORTDbits.RD1) {_delay((unsigned long)((20)*(8000000/4000
+      +                          .0))); if (!PORTDbits.RD1){key = '7'; }}
+   355  007DFC  B283               	btfsc	131,1,c	;volatile
+   356  007DFE  EF03  F03F         	goto	u51
+   357  007E02  EF05  F03F         	goto	u50
+   358  007E06                     u51:
+   359  007E06  EF17  F03F         	goto	l64
+   360  007E0A                     u50:
+   361  007E0A  0E34               	movlw	52
+   362  007E0C  6E01               	movwf	??_teclado^0,c
+   363  007E0E  0EF2               	movlw	242
+   364  007E10                     u307:
+   365  007E10  2EE8               	decfsz	wreg,f,c
+   366  007E12  D7FE               	bra	u307
+   367  007E14  2E01               	decfsz	??_teclado^0,f,c
+   368  007E16  D7FC               	bra	u307
+   369  007E18  B283               	btfsc	131,1,c	;volatile
+   370  007E1A  EF11  F03F         	goto	u61
+   371  007E1E  EF13  F03F         	goto	u60
+   372  007E22                     u61:
+   373  007E22  EF2E  F03F         	goto	l875
+   374  007E26                     u60:
+   375  007E26  0E37               	movlw	55
+   376  007E28  6E02               	movwf	teclado@key^0,c
+   377  007E2A  EF2E  F03F         	goto	l875
+   378  007E2E                     l64:
+   379                           
+   380                           ;mainTecMatric.c: 86: else if(!PORTDbits.RD0) {_delay((unsigned long)((20)*(8000000/4000
+      +                          .0))); if (!PORTDbits.RD0){key = 'x'; }}
+   381  007E2E  B083               	btfsc	131,0,c	;volatile
+   382  007E30  EF1C  F03F         	goto	u71
+   383  007E34  EF1E  F03F         	goto	u70
+   384  007E38                     u71:
+   385  007E38  EF2E  F03F         	goto	l875
+   386  007E3C                     u70:
+   387  007E3C  0E34               	movlw	52
+   388  007E3E  6E01               	movwf	??_teclado^0,c
+   389  007E40  0EF2               	movlw	242
+   390  007E42                     u317:
+   391  007E42  2EE8               	decfsz	wreg,f,c
+   392  007E44  D7FE               	bra	u317
+   393  007E46  2E01               	decfsz	??_teclado^0,f,c
+   394  007E48  D7FC               	bra	u317
+   395  007E4A  B083               	btfsc	131,0,c	;volatile
+   396  007E4C  EF2A  F03F         	goto	u81
+   397  007E50  EF2C  F03F         	goto	u80
+   398  007E54                     u81:
+   399  007E54  EF2E  F03F         	goto	l875
+   400  007E58                     u80:
+   401  007E58  0E78               	movlw	120
+   402  007E5A  6E02               	movwf	teclado@key^0,c
+   403  007E5C                     l875:
+   404                           
+   405                           ;mainTecMatric.c: 88: LATBbits.LB0 = 1;
+   406  007E5C  808A               	bsf	138,0,c	;volatile
+   407  007E5E                     
+   408                           ;mainTecMatric.c: 89: LATBbits.LB1 = 0;
+   409  007E5E  928A               	bcf	138,1,c	;volatile
+   410  007E60                     
+   411                           ;mainTecMatric.c: 91: if(!PORTDbits.RD3) {_delay((unsigned long)((20)*(8000000/4000.0)))
+      +                          ; if (!PORTDbits.RD3){key = '2'; }}
+   412  007E60  B683               	btfsc	131,3,c	;volatile
+   413  007E62  EF35  F03F         	goto	u91
+   414  007E66  EF37  F03F         	goto	u90
+   415  007E6A                     u91:
+   416  007E6A  EF49  F03F         	goto	l69
+   417  007E6E                     u90:
+   418  007E6E  0E34               	movlw	52
+   419  007E70  6E01               	movwf	??_teclado^0,c
+   420  007E72  0EF2               	movlw	242
+   421  007E74                     u327:
+   422  007E74  2EE8               	decfsz	wreg,f,c
+   423  007E76  D7FE               	bra	u327
+   424  007E78  2E01               	decfsz	??_teclado^0,f,c
+   425  007E7A  D7FC               	bra	u327
+   426  007E7C  B683               	btfsc	131,3,c	;volatile
+   427  007E7E  EF43  F03F         	goto	u101
+   428  007E82  EF45  F03F         	goto	u100
+   429  007E86                     u101:
+   430  007E86  EF92  F03F         	goto	l905
+   431  007E8A                     u100:
+   432  007E8A  0E32               	movlw	50
+   433  007E8C  6E02               	movwf	teclado@key^0,c
+   434  007E8E  EF92  F03F         	goto	l905
+   435  007E92                     l69:
+   436                           
+   437                           ;mainTecMatric.c: 92: else if(!PORTDbits.RD2) {_delay((unsigned long)((20)*(8000000/4000
+      +                          .0))); if (!PORTDbits.RD2){key = '5'; }}
+   438  007E92  B483               	btfsc	131,2,c	;volatile
+   439  007E94  EF4E  F03F         	goto	u111
+   440  007E98  EF50  F03F         	goto	u110
+   441  007E9C                     u111:
+   442  007E9C  EF62  F03F         	goto	l72
+   443  007EA0                     u110:
+   444  007EA0  0E34               	movlw	52
+   445  007EA2  6E01               	movwf	??_teclado^0,c
+   446  007EA4  0EF2               	movlw	242
+   447  007EA6                     u337:
+   448  007EA6  2EE8               	decfsz	wreg,f,c
+   449  007EA8  D7FE               	bra	u337
+   450  007EAA  2E01               	decfsz	??_teclado^0,f,c
+   451  007EAC  D7FC               	bra	u337
+   452  007EAE  B483               	btfsc	131,2,c	;volatile
+   453  007EB0  EF5C  F03F         	goto	u121
+   454  007EB4  EF5E  F03F         	goto	u120
+   455  007EB8                     u121:
+   456  007EB8  EF92  F03F         	goto	l905
+   457  007EBC                     u120:
+   458  007EBC  0E35               	movlw	53
+   459  007EBE  6E02               	movwf	teclado@key^0,c
+   460  007EC0  EF92  F03F         	goto	l905
+   461  007EC4                     l72:
+   462                           
+   463                           ;mainTecMatric.c: 93: else if(!PORTDbits.RD1) {_delay((unsigned long)((20)*(8000000/4000
+      +                          .0))); if (!PORTDbits.RD1){key = '8'; }}
+   464  007EC4  B283               	btfsc	131,1,c	;volatile
+   465  007EC6  EF67  F03F         	goto	u131
+   466  007ECA  EF69  F03F         	goto	u130
+   467  007ECE                     u131:
+   468  007ECE  EF7B  F03F         	goto	l75
+   469  007ED2                     u130:
+   470  007ED2  0E34               	movlw	52
+   471  007ED4  6E01               	movwf	??_teclado^0,c
+   472  007ED6  0EF2               	movlw	242
+   473  007ED8                     u347:
+   474  007ED8  2EE8               	decfsz	wreg,f,c
+   475  007EDA  D7FE               	bra	u347
+   476  007EDC  2E01               	decfsz	??_teclado^0,f,c
+   477  007EDE  D7FC               	bra	u347
+   478  007EE0  B283               	btfsc	131,1,c	;volatile
+   479  007EE2  EF75  F03F         	goto	u141
+   480  007EE6  EF77  F03F         	goto	u140
+   481  007EEA                     u141:
+   482  007EEA  EF92  F03F         	goto	l905
+   483  007EEE                     u140:
+   484  007EEE  0E38               	movlw	56
+   485  007EF0  6E02               	movwf	teclado@key^0,c
+   486  007EF2  EF92  F03F         	goto	l905
+   487  007EF6                     l75:
+   488                           
+   489                           ;mainTecMatric.c: 94: else if(!PORTDbits.RD0) {_delay((unsigned long)((20)*(8000000/4000
+      +                          .0))); if (!PORTDbits.RD0){key = '0'; }}
+   490  007EF6  B083               	btfsc	131,0,c	;volatile
+   491  007EF8  EF80  F03F         	goto	u151
+   492  007EFC  EF82  F03F         	goto	u150
+   493  007F00                     u151:
+   494  007F00  EF92  F03F         	goto	l905
+   495  007F04                     u150:
+   496  007F04  0E34               	movlw	52
+   497  007F06  6E01               	movwf	??_teclado^0,c
+   498  007F08  0EF2               	movlw	242
+   499  007F0A                     u357:
+   500  007F0A  2EE8               	decfsz	wreg,f,c
+   501  007F0C  D7FE               	bra	u357
+   502  007F0E  2E01               	decfsz	??_teclado^0,f,c
+   503  007F10  D7FC               	bra	u357
+   504  007F12  B083               	btfsc	131,0,c	;volatile
+   505  007F14  EF8E  F03F         	goto	u161
+   506  007F18  EF90  F03F         	goto	u160
+   507  007F1C                     u161:
+   508  007F1C  EF92  F03F         	goto	l905
+   509  007F20                     u160:
+   510  007F20  0E30               	movlw	48
+   511  007F22  6E02               	movwf	teclado@key^0,c
+   512  007F24                     l905:
+   513                           
+   514                           ;mainTecMatric.c: 96: LATBbits.LB1 = 1;
+   515  007F24  828A               	bsf	138,1,c	;volatile
+   516  007F26                     
+   517                           ;mainTecMatric.c: 97: LATBbits.LB2 = 0;
+   518  007F26  948A               	bcf	138,2,c	;volatile
+   519  007F28                     
+   520                           ;mainTecMatric.c: 99: if(!PORTDbits.RD3) {_delay((unsigned long)((20)*(8000000/4000.0)))
+      +                          ; if (!PORTDbits.RD3){key = '3'; }}
+   521  007F28  B683               	btfsc	131,3,c	;volatile
+   522  007F2A  EF99  F03F         	goto	u171
+   523  007F2E  EF9B  F03F         	goto	u170
+   524  007F32                     u171:
+   525  007F32  EFAD  F03F         	goto	l80
+   526  007F36                     u170:
+   527  007F36  0E34               	movlw	52
+   528  007F38  6E01               	movwf	??_teclado^0,c
+   529  007F3A  0EF2               	movlw	242
+   530  007F3C                     u367:
+   531  007F3C  2EE8               	decfsz	wreg,f,c
+   532  007F3E  D7FE               	bra	u367
+   533  007F40  2E01               	decfsz	??_teclado^0,f,c
+   534  007F42  D7FC               	bra	u367
+   535  007F44  B683               	btfsc	131,3,c	;volatile
+   536  007F46  EFA7  F03F         	goto	u181
+   537  007F4A  EFA9  F03F         	goto	u180
+   538  007F4E                     u181:
+   539  007F4E  EFF6  F03F         	goto	l935
+   540  007F52                     u180:
+   541  007F52  0E33               	movlw	51
+   542  007F54  6E02               	movwf	teclado@key^0,c
+   543  007F56  EFF6  F03F         	goto	l935
+   544  007F5A                     l80:
+   545                           
+   546                           ;mainTecMatric.c: 100: else if(!PORTDbits.RD2) {_delay((unsigned long)((20)*(8000000/400
+      +                          0.0))); if (!PORTDbits.RD2){key = '6'; }}
+   547  007F5A  B483               	btfsc	131,2,c	;volatile
+   548  007F5C  EFB2  F03F         	goto	u191
+   549  007F60  EFB4  F03F         	goto	u190
+   550  007F64                     u191:
+   551  007F64  EFC6  F03F         	goto	l83
+   552  007F68                     u190:
+   553  007F68  0E34               	movlw	52
+   554  007F6A  6E01               	movwf	??_teclado^0,c
+   555  007F6C  0EF2               	movlw	242
+   556  007F6E                     u377:
+   557  007F6E  2EE8               	decfsz	wreg,f,c
+   558  007F70  D7FE               	bra	u377
+   559  007F72  2E01               	decfsz	??_teclado^0,f,c
+   560  007F74  D7FC               	bra	u377
+   561  007F76  B483               	btfsc	131,2,c	;volatile
+   562  007F78  EFC0  F03F         	goto	u201
+   563  007F7C  EFC2  F03F         	goto	u200
+   564  007F80                     u201:
+   565  007F80  EFF6  F03F         	goto	l935
+   566  007F84                     u200:
+   567  007F84  0E36               	movlw	54
+   568  007F86  6E02               	movwf	teclado@key^0,c
+   569  007F88  EFF6  F03F         	goto	l935
+   570  007F8C                     l83:
+   571                           
+   572                           ;mainTecMatric.c: 101: else if(!PORTDbits.RD1) {_delay((unsigned long)((20)*(8000000/400
+      +                          0.0))); if (!PORTDbits.RD1){key = '9'; }}
+   573  007F8C  B283               	btfsc	131,1,c	;volatile
+   574  007F8E  EFCB  F03F         	goto	u211
+   575  007F92  EFCD  F03F         	goto	u210
+   576  007F96                     u211:
+   577  007F96  EFDF  F03F         	goto	l86
+   578  007F9A                     u210:
+   579  007F9A  0E34               	movlw	52
+   580  007F9C  6E01               	movwf	??_teclado^0,c
+   581  007F9E  0EF2               	movlw	242
+   582  007FA0                     u387:
+   583  007FA0  2EE8               	decfsz	wreg,f,c
+   584  007FA2  D7FE               	bra	u387
+   585  007FA4  2E01               	decfsz	??_teclado^0,f,c
+   586  007FA6  D7FC               	bra	u387
+   587  007FA8  B283               	btfsc	131,1,c	;volatile
+   588  007FAA  EFD9  F03F         	goto	u221
+   589  007FAE  EFDB  F03F         	goto	u220
+   590  007FB2                     u221:
+   591  007FB2  EFF6  F03F         	goto	l935
+   592  007FB6                     u220:
+   593  007FB6  0E39               	movlw	57
+   594  007FB8  6E02               	movwf	teclado@key^0,c
+   595  007FBA  EFF6  F03F         	goto	l935
+   596  007FBE                     l86:
+   597                           
+   598                           ;mainTecMatric.c: 102: else if(!PORTDbits.RD0) {_delay((unsigned long)((20)*(8000000/400
+      +                          0.0))); if (!PORTDbits.RD0){key = '-'; }}
+   599  007FBE  B083               	btfsc	131,0,c	;volatile
+   600  007FC0  EFE4  F03F         	goto	u231
+   601  007FC4  EFE6  F03F         	goto	u230
+   602  007FC8                     u231:
+   603  007FC8  EFF6  F03F         	goto	l935
+   604  007FCC                     u230:
+   605  007FCC  0E34               	movlw	52
+   606  007FCE  6E01               	movwf	??_teclado^0,c
+   607  007FD0  0EF2               	movlw	242
+   608  007FD2                     u397:
+   609  007FD2  2EE8               	decfsz	wreg,f,c
+   610  007FD4  D7FE               	bra	u397
+   611  007FD6  2E01               	decfsz	??_teclado^0,f,c
+   612  007FD8  D7FC               	bra	u397
+   613  007FDA  B083               	btfsc	131,0,c	;volatile
+   614  007FDC  EFF2  F03F         	goto	u241
+   615  007FE0  EFF4  F03F         	goto	u240
+   616  007FE4                     u241:
+   617  007FE4  EFF6  F03F         	goto	l935
+   618  007FE8                     u240:
+   619  007FE8  0E2D               	movlw	45
+   620  007FEA  6E02               	movwf	teclado@key^0,c
+   621  007FEC                     l935:
+   622                           
+   623                           ;mainTecMatric.c: 104: LATBbits.LB2 = 1;
+   624  007FEC  848A               	bsf	138,2,c	;volatile
+   625  007FEE                     
+   626                           ;mainTecMatric.c: 105: _delay((unsigned long)((5)*(8000000/4000.0)));
+   627  007FEE  0E0D               	movlw	13
+   628  007FF0  6E01               	movwf	??_teclado^0,c
+   629  007FF2  0EFC               	movlw	252
+   630  007FF4                     u407:
+   631  007FF4  2EE8               	decfsz	wreg,f,c
+   632  007FF6  D7FE               	bra	u407
+   633  007FF8  2E01               	decfsz	??_teclado^0,f,c
+   634  007FFA  D7FC               	bra	u407
+   635  007FFC                     
+   636                           ;mainTecMatric.c: 107: return(key);
+   637  007FFC  5002               	movf	teclado@key^0,w,c
+   638  007FFE  0012               	return		;funcret
+   639  008000                     __end_of_teclado:
+   640                           	callstack 0
+   641  0000                     
+   642                           	psect	rparam
+   643  0000                     
+   644                           	psect	idloc
+   645                           
+   646                           ;Config register IDLOC0 @ 0x200000
+   647                           ;	unspecified, using default values
+   648  200000                     	org	2097152
+   649  200000  FF                 	db	255
+   650                           
+   651                           ;Config register IDLOC1 @ 0x200001
+   652                           ;	unspecified, using default values
+   653  200001                     	org	2097153
+   654  200001  FF                 	db	255
+   655                           
+   656                           ;Config register IDLOC2 @ 0x200002
+   657                           ;	unspecified, using default values
+   658  200002                     	org	2097154
+   659  200002  FF                 	db	255
+   660                           
+   661                           ;Config register IDLOC3 @ 0x200003
+   662                           ;	unspecified, using default values
+   663  200003                     	org	2097155
+   664  200003  FF                 	db	255
+   665                           
+   666                           ;Config register IDLOC4 @ 0x200004
+   667                           ;	unspecified, using default values
+   668  200004                     	org	2097156
+   669  200004  FF                 	db	255
+   670                           
+   671                           ;Config register IDLOC5 @ 0x200005
+   672                           ;	unspecified, using default values
+   673  200005                     	org	2097157
+   674  200005  FF                 	db	255
+   675                           
+   676                           ;Config register IDLOC6 @ 0x200006
+   677                           ;	unspecified, using default values
+   678  200006                     	org	2097158
+   679  200006  FF                 	db	255
+   680                           
+   681                           ;Config register IDLOC7 @ 0x200007
+   682                           ;	unspecified, using default values
+   683  200007                     	org	2097159
+   684  200007  FF                 	db	255
+   685                           
+   686                           	psect	config
+   687                           
+   688                           ;Config register CONFIG1L @ 0x300000
+   689                           ;	PLL Prescaler Selection bits
+   690                           ;	PLLDIV = 1, No prescale (4 MHz oscillator input drives PLL directly)
+   691                           ;	System Clock Postscaler Selection bits
+   692                           ;	CPUDIV = OSC1_PLL2, [Primary Oscillator Src: /1][96 MHz PLL Src: /2]
+   693                           ;	USB Clock Selection bit (used in Full-Speed USB mode only; UCFG:FSEN = 1)
+   694                           ;	USBDIV = 1, USB clock source comes directly from the primary oscillator block with no 
+      +                          postscale
+   695  300000                     	org	3145728
+   696  300000  00                 	db	0
+   697                           
+   698                           ;Config register CONFIG1H @ 0x300001
+   699                           ;	Oscillator Selection bits
+   700                           ;	FOSC = HS, HS oscillator (HS)
+   701                           ;	Fail-Safe Clock Monitor Enable bit
+   702                           ;	FCMEN = OFF, Fail-Safe Clock Monitor disabled
+   703                           ;	Internal/External Oscillator Switchover bit
+   704                           ;	IESO = OFF, Oscillator Switchover mode disabled
+   705  300001                     	org	3145729
+   706  300001  0C                 	db	12
+   707                           
+   708                           ;Config register CONFIG2L @ 0x300002
+   709                           ;	Power-up Timer Enable bit
+   710                           ;	PWRT = OFF, PWRT disabled
+   711                           ;	Brown-out Reset Enable bits
+   712                           ;	BOR = ON, Brown-out Reset enabled in hardware only (SBOREN is disabled)
+   713                           ;	Brown-out Reset Voltage bits
+   714                           ;	BORV = 3, Minimum setting 2.05V
+   715                           ;	USB Voltage Regulator Enable bit
+   716                           ;	VREGEN = OFF, USB voltage regulator disabled
+   717  300002                     	org	3145730
+   718  300002  1F                 	db	31
+   719                           
+   720                           ;Config register CONFIG2H @ 0x300003
+   721                           ;	Watchdog Timer Enable bit
+   722                           ;	WDT = ON, WDT enabled
+   723                           ;	Watchdog Timer Postscale Select bits
+   724                           ;	WDTPS = 32768, 1:32768
+   725  300003                     	org	3145731
+   726  300003  1F                 	db	31
+   727                           
+   728                           ; Padding undefined space
+   729  300004                     	org	3145732
+   730  300004  FF                 	db	255
+   731                           
+   732                           ;Config register CONFIG3H @ 0x300005
+   733                           ;	CCP2 MUX bit
+   734                           ;	CCP2MX = ON, CCP2 input/output is multiplexed with RC1
+   735                           ;	PORTB A/D Enable bit
+   736                           ;	PBADEN = OFF, PORTB<4:0> pins are configured as digital I/O on Reset
+   737                           ;	Low-Power Timer 1 Oscillator Enable bit
+   738                           ;	LPT1OSC = OFF, Timer1 configured for higher power operation
+   739                           ;	MCLR Pin Enable bit
+   740                           ;	MCLRE = ON, MCLR pin enabled; RE3 input pin disabled
+   741  300005                     	org	3145733
+   742  300005  81                 	db	129
+   743                           
+   744                           ;Config register CONFIG4L @ 0x300006
+   745                           ;	Stack Full/Underflow Reset Enable bit
+   746                           ;	STVREN = ON, Stack full/underflow will cause Reset
+   747                           ;	Single-Supply ICSP Enable bit
+   748                           ;	LVP = ON, Single-Supply ICSP enabled
+   749                           ;	Dedicated In-Circuit Debug/Programming Port (ICPORT) Enable bit
+   750                           ;	ICPRT = OFF, ICPORT disabled
+   751                           ;	Extended Instruction Set Enable bit
+   752                           ;	XINST = OFF, Instruction set extension and Indexed Addressing mode disabled (Legacy mo
+      +                          de)
+   753                           ;	Background Debugger Enable bit
+   754                           ;	DEBUG = 0x1, unprogrammed default
+   755  300006                     	org	3145734
+   756  300006  85                 	db	133
+   757                           
+   758                           ; Padding undefined space
+   759  300007                     	org	3145735
+   760  300007  FF                 	db	255
+   761                           
+   762                           ;Config register CONFIG5L @ 0x300008
+   763                           ;	Code Protection bit
+   764                           ;	CP0 = OFF, Block 0 (000800-001FFFh) is not code-protected
+   765                           ;	Code Protection bit
+   766                           ;	CP1 = OFF, Block 1 (002000-003FFFh) is not code-protected
+   767                           ;	Code Protection bit
+   768                           ;	CP2 = OFF, Block 2 (004000-005FFFh) is not code-protected
+   769                           ;	Code Protection bit
+   770                           ;	CP3 = OFF, Block 3 (006000-007FFFh) is not code-protected
+   771  300008                     	org	3145736
+   772  300008  0F                 	db	15
+   773                           
+   774                           ;Config register CONFIG5H @ 0x300009
+   775                           ;	Boot Block Code Protection bit
+   776                           ;	CPB = OFF, Boot block (000000-0007FFh) is not code-protected
+   777                           ;	Data EEPROM Code Protection bit
+   778                           ;	CPD = OFF, Data EEPROM is not code-protected
+   779  300009                     	org	3145737
+   780  300009  C0                 	db	192
+   781                           
+   782                           ;Config register CONFIG6L @ 0x30000A
+   783                           ;	Write Protection bit
+   784                           ;	WRT0 = OFF, Block 0 (000800-001FFFh) is not write-protected
+   785                           ;	Write Protection bit
+   786                           ;	WRT1 = OFF, Block 1 (002000-003FFFh) is not write-protected
+   787                           ;	Write Protection bit
+   788                           ;	WRT2 = OFF, Block 2 (004000-005FFFh) is not write-protected
+   789                           ;	Write Protection bit
+   790                           ;	WRT3 = OFF, Block 3 (006000-007FFFh) is not write-protected
+   791  30000A                     	org	3145738
+   792  30000A  0F                 	db	15
+   793                           
+   794                           ;Config register CONFIG6H @ 0x30000B
+   795                           ;	Configuration Register Write Protection bit
+   796                           ;	WRTC = OFF, Configuration registers (300000-3000FFh) are not write-protected
+   797                           ;	Boot Block Write Protection bit
+   798                           ;	WRTB = OFF, Boot block (000000-0007FFh) is not write-protected
+   799                           ;	Data EEPROM Write Protection bit
+   800                           ;	WRTD = OFF, Data EEPROM is not write-protected
+   801  30000B                     	org	3145739
+   802  30000B  E0                 	db	224
+   803                           
+   804                           ;Config register CONFIG7L @ 0x30000C
+   805                           ;	Table Read Protection bit
+   806                           ;	EBTR0 = OFF, Block 0 (000800-001FFFh) is not protected from table reads executed in ot
+      +                          her blocks
+   807                           ;	Table Read Protection bit
+   808                           ;	EBTR1 = OFF, Block 1 (002000-003FFFh) is not protected from table reads executed in ot
+      +                          her blocks
+   809                           ;	Table Read Protection bit
+   810                           ;	EBTR2 = OFF, Block 2 (004000-005FFFh) is not protected from table reads executed in ot
+      +                          her blocks
+   811                           ;	Table Read Protection bit
+   812                           ;	EBTR3 = OFF, Block 3 (006000-007FFFh) is not protected from table reads executed in ot
+      +                          her blocks
+   813  30000C                     	org	3145740
+   814  30000C  0F                 	db	15
+   815                           
+   816                           ;Config register CONFIG7H @ 0x30000D
+   817                           ;	Boot Block Table Read Protection bit
+   818                           ;	EBTRB = OFF, Boot block (000000-0007FFh) is not protected from table reads executed in
+      +                           other blocks
+   819  30000D                     	org	3145741
+   820  30000D  40                 	db	64
+   821                           tosu	equ	0xFFF
+   822                           tosh	equ	0xFFE
+   823                           tosl	equ	0xFFD
+   824                           stkptr	equ	0xFFC
+   825                           pclatu	equ	0xFFB
+   826                           pclath	equ	0xFFA
+   827                           pcl	equ	0xFF9
+   828                           tblptru	equ	0xFF8
+   829                           tblptrh	equ	0xFF7
+   830                           tblptrl	equ	0xFF6
+   831                           tablat	equ	0xFF5
+   832                           prodh	equ	0xFF4
+   833                           prodl	equ	0xFF3
+   834                           indf0	equ	0xFEF
+   835                           postinc0	equ	0xFEE
+   836                           postdec0	equ	0xFED
+   837                           preinc0	equ	0xFEC
+   838                           plusw0	equ	0xFEB
+   839                           fsr0h	equ	0xFEA
+   840                           fsr0l	equ	0xFE9
+   841                           wreg	equ	0xFE8
+   842                           indf1	equ	0xFE7
+   843                           postinc1	equ	0xFE6
+   844                           postdec1	equ	0xFE5
+   845                           preinc1	equ	0xFE4
+   846                           plusw1	equ	0xFE3
+   847                           fsr1h	equ	0xFE2
+   848                           fsr1l	equ	0xFE1
+   849                           bsr	equ	0xFE0
+   850                           indf2	equ	0xFDF
+   851                           postinc2	equ	0xFDE
+   852                           postdec2	equ	0xFDD
+   853                           preinc2	equ	0xFDC
+   854                           plusw2	equ	0xFDB
+   855                           fsr2h	equ	0xFDA
+   856                           fsr2l	equ	0xFD9
+   857                           status	equ	0xFD8
+
+Data Sizes:
+    Strings     0
+    Constant    0
+    Data        0
+    BSS         0
+    Persistent  1
+    Stack       0
+
+Auto Spaces:
+    Space          Size  Autos    Used
+    COMRAM           95      2       3
+    BANK0           160      0       0
+    BANK1           256      0       0
+    BANK2           256      0       0
+    BANK3           256      0       0
+    BANK4           256      0       0
+    BANK5           256      0       0
+    BANK6           256      0       0
+    BANK7           256      0       0
+
+Pointer List with Targets:
+
+    None.
+
+Critical Paths under _main in COMRAM
+
+    _main->_teclado
+
+Critical Paths under _main in BANK0
+
+    None.
+
+Critical Paths under _main in BANK1
+
+    None.
+
+Critical Paths under _main in BANK2
+
+    None.
+
+Critical Paths under _main in BANK3
+
+    None.
+
+Critical Paths under _main in BANK4
+
+    None.
+
+Critical Paths under _main in BANK5
+
+    None.
+
+Critical Paths under _main in BANK6
+
+    None.
+
+Critical Paths under _main in BANK7
+
+    None.
+
+Call Graph Tables:
+
+ ---------------------------------------------------------------------------------
+ (Depth) Function   	        Calls       Base Space   Used Autos Params    Refs
+ ---------------------------------------------------------------------------------
+ (0) _main                                                 0     0      0      15
+                            _teclado
+ ---------------------------------------------------------------------------------
+ (1) _teclado                                              2     2      0      15
+                                              0 COMRAM     2     2      0
+ ---------------------------------------------------------------------------------
+ Estimated maximum stack depth 1
+ ---------------------------------------------------------------------------------
+
+ Call Graph Graphs:
+
+ _main (ROOT)
+   _teclado
+
+ Address spaces:
+Name               Size   Autos  Total    Cost      Usage
+BITCOMRAM           5F      0       0       0        0.0%
+EEDATA             100      0       0       0        0.0%
+NULL                 0      0       0       0        0.0%
+CODE                 0      0       0       0        0.0%
+COMRAM              5F      2       3       1        3.2%
+STACK                0      0       0       2        0.0%
+DATA                 0      0       3       3        0.0%
+BITBANK0            A0      0       0       4        0.0%
+BANK0               A0      0       0       5        0.0%
+BITBANK1           100      0       0       6        0.0%
+BANK1              100      0       0       7        0.0%
+BITBANK2           100      0       0       8        0.0%
+BANK2              100      0       0       9        0.0%
+BITBANK3           100      0       0      10        0.0%
+BANK3              100      0       0      11        0.0%
+BITBANK4           100      0       0      12        0.0%
+BANK4              100      0       0      13        0.0%
+BITBANK5           100      0       0      14        0.0%
+BANK5              100      0       0      15        0.0%
+BITBANK6           100      0       0      16        0.0%
+BANK6              100      0       0      17        0.0%
+BITBANK7           100      0       0      18        0.0%
+BANK7              100      0       0      19        0.0%
+ABS                  0      0       3      20        0.0%
+BIGRAM             7FF      0       0      21        0.0%
+BITSFR               0      0       0     200        0.0%
+SFR                  0      0       0     200        0.0%
+
+
+Microchip Technology PIC18 Macro Assembler V2.31 build 20201012212115 
+Symbol Table                                                                                   Wed Nov 18 13:38:38 2020
+
+                     l61 7DFC                       l80 7F5A                       l72 7EC4  
+                     l64 7E2E                       l49 7D3E                       l58 7DCA  
+                     l91 7FFE                       l83 7F8C                       l75 7EF6  
+                     l69 7E92                       l86 7FBE                       u10 7DA6  
+                     u11 7DA2                       u20 7DC2                       u21 7DBE  
+                     u30 7DD8                       u31 7DD4                       u40 7DF4  
+                     u41 7DF0                       u50 7E0A                       u51 7E06  
+                     u60 7E26                       u61 7E22                       u70 7E3C  
+                     u71 7E38                       u80 7E58                       u81 7E54  
+                     u90 7E6E                       u91 7E6A                      l901 7F12  
+                    l911 7F36                      l903 7F20                      l921 7F84  
+                    l913 7F44                      l905 7F24                      l841 7D90  
+                    l931 7FDA                      l923 7F9A                      l915 7F52  
+                    l907 7F26                      l851 7DA6                      l843 7D92  
+                    l933 7FE8                      l925 7FA8                      l917 7F68  
+                    l909 7F28                      l861 7DF4                      l853 7DB4  
+                    l845 7D94                      l927 7FB6                      l919 7F76  
+                    l935 7FEC                      l871 7E4A                      l863 7E0A  
+                    l855 7DC2                      l847 7D96                      l839 7D8C  
+                    l951 7D40                      l943 7D08                      l937 7FEE  
+                    l929 7FCC                      l881 7E6E                      l873 7E58  
+                    l865 7E18                      l857 7DD8                      l849 7D98  
+                    l961 7D6E                      l953 7D46                      l945 7D10  
+                    l939 7FFC                      l891 7EBC                      l883 7E7C  
+                    l867 7E26                      l859 7DE6                      l875 7E5C  
+                    l963 7D80                      l955 7D58                      l947 7D22  
+                    l893 7ED2                      l885 7E8A                      l877 7E5E  
+                    l869 7E3C                      l957 7D5A                      l949 7D24  
+                    l895 7EE0                      l887 7EA0                      l879 7E60  
+                    l959 7D6C                      l897 7EEE                      l889 7EAE  
+                    l899 7F04                      u100 7E8A                      u101 7E86  
+                    u110 7EA0                      u111 7E9C                      u200 7F84  
+                    u120 7EBC                      u201 7F80                      u121 7EB8  
+                    u210 7F9A                      u130 7ED2                      u211 7F96  
+                    u131 7ECE                      u220 7FB6                      u140 7EEE  
+                    u221 7FB2                      u141 7EEA                      u230 7FCC  
+                    u150 7F04                      u231 7FC8                      u151 7F00  
+                    u240 7FE8                      u160 7F20                      u241 7FE4  
+                    u161 7F1C                      u170 7F36                      u250 7D58  
+                    u171 7F32                      u307 7E10                      u251 7D54  
+                    u180 7F52                      u260 7D6C                      u181 7F4E  
+                    u317 7E42                      u261 7D68                      u190 7F68  
+                    u270 7D80                      u407 7FF4                      u191 7F64  
+                    u327 7E74                      u271 7D7C                      u337 7EA6  
+                    u347 7ED8                      u357 7F0A                      u367 7F3C  
+                    u287 7DAC                      u377 7F6E                      u297 7DDE  
+                    u387 7FA0                      u397 7FD2                      wreg 000FE8  
+                   _LATB 000F8A                     _LATC 000F8B                     _LATD 000F8C  
+                   _LATE 000F8D                     _main 7D08                     start 0000  
+           ___param_bank 000000                    ?_main 0001                    _PORTB 000F81  
+                  _PORTC 000F82                    _PORTD 000F83                    _PORTE 000F84  
+                  _TRISB 000F93                    _TRISC 000F94                    _TRISD 000F95  
+                  _TRISE 000F96                    _tecla 0003          __end_of_teclado 8000  
+                  status 000FD8          __initialization 7D02             __end_of_main 7D8C  
+                 ??_main 0003            __activetblptr 000000                   _ADCON0 000FC2  
+                 _ADCON1 000FC1                ??_teclado 0001               __accesstop 0060  
+__end_of__initialization 7D02            ___rparam_used 000001           __pcstackCOMRAM 0001  
+             __pnvCOMRAM 0003                  __Hparam 0000                  __Lparam 0000  
+                __pcinit 7D02                  __ramtop 0800                  __ptext0 7D08  
+                __ptext1 7D8C                  _teclado 7D8C     end_of_initialization 7D02  
+              _PORTDbits 000F83      start_initialization 7D02               teclado@key 0002  
+               ?_teclado 0001                 _LATBbits 000F8A                 _LATCbits 000F8B  
+               _LATEbits 000F8D              _INTCON2bits 000FF1                 __Hrparam 0000  
+               __Lrparam 0000         __size_of_teclado 0274            __size_of_main 0084  
