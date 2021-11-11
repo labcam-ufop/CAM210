@@ -1,0 +1,239 @@
+C:\Documents and Settings\Alan\Local Settings\Application Data\Temporary Projects\Serial\bin\Debug\Serial.exe
+C:\Documents and Settings\Alan\Local Settings\Application Data\Temporary Projects\Serial\bin\Debug\Serial.pdb
+C:\Documents and Settings\Alan\Local Settings\Application Data\Temporary Projects\Serial\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Alan\Local Settings\Application Data\Temporary Projects\Serial\obj\x86\Debug\Serial.Form1.resources
+C:\Documents and Settings\Alan\Local Settings\Application Data\Temporary Projects\Serial\obj\x86\Debug\Serial.Properties.Resources.resources
+C:\Documents and Settings\Alan\Local Settings\Application Data\Temporary Projects\Serial\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Documents and Settings\Alan\Local Settings\Application Data\Temporary Projects\Serial\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Documents and Settings\Alan\Local Settings\Application Data\Temporary Projects\Serial\obj\x86\Debug\Serial.exe
+C:\Documents and Settings\Alan\Local Settings\Application Data\Temporary Projects\Serial\obj\x86\Debug\Serial.pdb
+D:\UFOP\2012-2\CAT341 - MCU APLICADO A ENG CONTROLE\CAT341\EXEMPLOS\Visual C#\Serial\Serial\obj\x86\Debug\Serial.exe
+D:\UFOP\2012-2\CAT341 - MCU APLICADO A ENG CONTROLE\CAT341\EXEMPLOS\Visual C#\Serial\Serial\obj\x86\Debug\Serial.pdb
+D:\UFOP\2012-2\CAT341 - MCU APLICADO A ENG CONTROLE\CAT341\EXEMPLOS\Visual C#\Serial\Serial\bin\Debug\Serial.exe
+D:\UFOP\2012-2\CAT341 - MCU APLICADO A ENG CONTROLE\CAT341\EXEMPLOS\Visual C#\Serial\Serial\bin\Debug\Serial.pdb
+D:\UFOP\2012-2\CAT341 - MCU APLICADO A ENG CONTROLE\CAT341\EXEMPLOS\Visual C#\Serial\Serial\obj\x86\Debug\ResolveAssemblyReference.cache
+D:\UFOP\2012-2\CAT341 - MCU APLICADO A ENG CONTROLE\CAT341\EXEMPLOS\Visual C#\Serial\Serial\obj\x86\Debug\Serial.Form1.resources
+D:\UFOP\2012-2\CAT341 - MCU APLICADO A ENG CONTROLE\CAT341\EXEMPLOS\Visual C#\Serial\Serial\obj\x86\Debug\Serial.Properties.Resources.resources
+D:\UFOP\2012-2\CAT341 - MCU APLICADO A ENG CONTROLE\CAT341\EXEMPLOS\Visual C#\Serial\Serial\obj\x86\Debug\GenerateResource.read.1.tlog
+D:\UFOP\2012-2\CAT341 - MCU APLICADO A ENG CONTROLE\CAT341\EXEMPLOS\Visual C#\Serial\Serial\obj\x86\Debug\GenerateResource.write.1.tlog
+D:\UFOP\2012-2\CAT341 - MCU APLICADO A ENG CONTROLE\CAT341\EXEMPLOS\Visual C#\SerialBanco\Serial\obj\x86\Debug\Serial.exe
+D:\UFOP\2012-2\CAT341 - MCU APLICADO A ENG CONTROLE\CAT341\EXEMPLOS\Visual C#\SerialBanco\Serial\obj\x86\Debug\Serial.pdb
+D:\UFOP\2012-2\CAT341 - MCU APLICADO A ENG CONTROLE\CAT341\EXEMPLOS\Visual C#\SerialBanco\Serial\obj\x86\Debug\ResolveAssemblyReference.cache
+D:\UFOP\2012-2\CAT341 - MCU APLICADO A ENG CONTROLE\CAT341\EXEMPLOS\Visual C#\SerialBanco\Serial\obj\x86\Debug\Serial.Form1.resources
+D:\UFOP\2012-2\CAT341 - MCU APLICADO A ENG CONTROLE\CAT341\EXEMPLOS\Visual C#\SerialBanco\Serial\obj\x86\Debug\Serial.Properties.Resources.resources
+D:\UFOP\2012-2\CAT341 - MCU APLICADO A ENG CONTROLE\CAT341\EXEMPLOS\Visual C#\SerialBanco\Serial\obj\x86\Debug\GenerateResource.read.1.tlog
+D:\UFOP\2012-2\CAT341 - MCU APLICADO A ENG CONTROLE\CAT341\EXEMPLOS\Visual C#\SerialBanco\Serial\obj\x86\Debug\GenerateResource.write.1.tlog
+D:\UFOP\2012-2\CAT341 - MCU APLICADO A ENG CONTROLE\CAT341\EXEMPLOS\Visual C#\SerialBanco\Serial\bin\Debug\Serial.exe.config
+D:\UFOP\2012-2\CAT341 - MCU APLICADO A ENG CONTROLE\CAT341\EXEMPLOS\Visual C#\SerialBanco\Serial\bin\Debug\Serial.exe
+D:\UFOP\2012-2\CAT341 - MCU APLICADO A ENG CONTROLE\CAT341\EXEMPLOS\Visual C#\SerialBanco\Serial\bin\Debug\Serial.pdb
+D:\UFOP\2012-2\CAT341 - MCU APLICADO A ENG CONTROLE\CAT341\EXEMPLOS\Visual C#\SerialBanco\Serial\obj\x86\Debug\Serial.Form2.resources
+D:\MATERIAL DE ESTUDO\VIÇOSA - PÓS-GRADUAÇÃO UFV\TESE\CIRCUITO MEDICAO\C#\SerialBanco\Serial\bin\Debug\Serial.exe.config
+D:\MATERIAL DE ESTUDO\VIÇOSA - PÓS-GRADUAÇÃO UFV\TESE\CIRCUITO MEDICAO\C#\SerialBanco\Serial\obj\x86\Debug\Serial.exe
+D:\MATERIAL DE ESTUDO\VIÇOSA - PÓS-GRADUAÇÃO UFV\TESE\CIRCUITO MEDICAO\C#\SerialBanco\Serial\obj\x86\Debug\Serial.pdb
+D:\MATERIAL DE ESTUDO\VIÇOSA - PÓS-GRADUAÇÃO UFV\TESE\CIRCUITO MEDICAO\C#\SerialBanco\Serial\bin\Debug\Serial.exe
+D:\MATERIAL DE ESTUDO\VIÇOSA - PÓS-GRADUAÇÃO UFV\TESE\CIRCUITO MEDICAO\C#\SerialBanco\Serial\bin\Debug\Serial.pdb
+D:\MATERIAL DE ESTUDO\VIÇOSA - PÓS-GRADUAÇÃO UFV\TESE\CIRCUITO MEDICAO\C#\SerialBanco\Serial\obj\x86\Debug\ResolveAssemblyReference.cache
+D:\MATERIAL DE ESTUDO\VIÇOSA - PÓS-GRADUAÇÃO UFV\TESE\CIRCUITO MEDICAO\C#\SerialBanco\Serial\obj\x86\Debug\Serial.Form1.resources
+D:\MATERIAL DE ESTUDO\VIÇOSA - PÓS-GRADUAÇÃO UFV\TESE\CIRCUITO MEDICAO\C#\SerialBanco\Serial\obj\x86\Debug\Serial.Form2.resources
+D:\MATERIAL DE ESTUDO\VIÇOSA - PÓS-GRADUAÇÃO UFV\TESE\CIRCUITO MEDICAO\C#\SerialBanco\Serial\obj\x86\Debug\Serial.Properties.Resources.resources
+D:\MATERIAL DE ESTUDO\VIÇOSA - PÓS-GRADUAÇÃO UFV\TESE\CIRCUITO MEDICAO\C#\SerialBanco\Serial\obj\x86\Debug\GenerateResource.read.1.tlog
+D:\MATERIAL DE ESTUDO\VIÇOSA - PÓS-GRADUAÇÃO UFV\TESE\CIRCUITO MEDICAO\C#\SerialBanco\Serial\obj\x86\Debug\GenerateResource.write.1.tlog
+D:\MATERIAL DE ESTUDO\VIÇOSA - PÓS-GRADUAÇÃO UFV\TESE\CIRCUITO MEDICAO\C#\SerialBanco\Serial\bin\Debug\AGauge.dll
+D:\MATERIAL DE ESTUDO\VIÇOSA - PÓS-GRADUAÇÃO UFV\TESE\CIRCUITO MEDICAO\C#\SerialBanco\Serial\bin\Debug\XYGraph.dll
+D:\MATERIAL DE ESTUDO\VIÇOSA - PÓS-GRADUAÇÃO UFV\TESE\CIRCUITO MEDICAO\C#\SerialBanco\Serial\bin\Debug\nunit.framework.dll
+D:\MATERIAL DE ESTUDO\VIÇOSA - PÓS-GRADUAÇÃO UFV\TESE\CIRCUITO MEDICAO\C#\SerialBanco\Serial\bin\Debug\StatDescriptive.dll
+D:\MATERIAL DE ESTUDO\VIÇOSA - PÓS-GRADUAÇÃO UFV\TESE\CIRCUITO MEDICAO\C#\SerialBanco\Serial\bin\Debug\StatDescriptive.pdb
+D:\MATERIAL DE ESTUDO\VIÇOSA - PÓS-GRADUAÇÃO UFV\TESE\CIRCUITO MEDICAO\C#\back up of SerialBanco\Serial\bin\Debug\Serial.exe.config
+D:\MATERIAL DE ESTUDO\VIÇOSA - PÓS-GRADUAÇÃO UFV\TESE\CIRCUITO MEDICAO\C#\back up of SerialBanco\Serial\obj\x86\Debug\Serial.exe
+D:\MATERIAL DE ESTUDO\VIÇOSA - PÓS-GRADUAÇÃO UFV\TESE\CIRCUITO MEDICAO\C#\back up of SerialBanco\Serial\obj\x86\Debug\Serial.pdb
+D:\MATERIAL DE ESTUDO\VIÇOSA - PÓS-GRADUAÇÃO UFV\TESE\CIRCUITO MEDICAO\C#\back up of SerialBanco\Serial\bin\Debug\Serial.exe
+D:\MATERIAL DE ESTUDO\VIÇOSA - PÓS-GRADUAÇÃO UFV\TESE\CIRCUITO MEDICAO\C#\back up of SerialBanco\Serial\bin\Debug\Serial.pdb
+D:\MATERIAL DE ESTUDO\VIÇOSA - PÓS-GRADUAÇÃO UFV\TESE\CIRCUITO MEDICAO\C#\back up of SerialBanco\Serial\bin\Debug\AGauge.dll
+D:\MATERIAL DE ESTUDO\VIÇOSA - PÓS-GRADUAÇÃO UFV\TESE\CIRCUITO MEDICAO\C#\back up of SerialBanco\Serial\bin\Debug\nunit.framework.dll
+D:\MATERIAL DE ESTUDO\VIÇOSA - PÓS-GRADUAÇÃO UFV\TESE\CIRCUITO MEDICAO\C#\back up of SerialBanco\Serial\bin\Debug\StatDescriptive.dll
+D:\MATERIAL DE ESTUDO\VIÇOSA - PÓS-GRADUAÇÃO UFV\TESE\CIRCUITO MEDICAO\C#\back up of SerialBanco\Serial\bin\Debug\XYGraph.dll
+D:\MATERIAL DE ESTUDO\VIÇOSA - PÓS-GRADUAÇÃO UFV\TESE\CIRCUITO MEDICAO\C#\back up of SerialBanco\Serial\bin\Debug\StatDescriptive.pdb
+D:\MATERIAL DE ESTUDO\VIÇOSA - PÓS-GRADUAÇÃO UFV\TESE\CIRCUITO MEDICAO\C#\back up of SerialBanco\Serial\obj\x86\Debug\ResolveAssemblyReference.cache
+D:\MATERIAL DE ESTUDO\VIÇOSA - PÓS-GRADUAÇÃO UFV\TESE\CIRCUITO MEDICAO\C#\back up of SerialBanco\Serial\obj\x86\Debug\Serial.Form1.resources
+D:\MATERIAL DE ESTUDO\VIÇOSA - PÓS-GRADUAÇÃO UFV\TESE\CIRCUITO MEDICAO\C#\back up of SerialBanco\Serial\obj\x86\Debug\Serial.Form2.resources
+D:\MATERIAL DE ESTUDO\VIÇOSA - PÓS-GRADUAÇÃO UFV\TESE\CIRCUITO MEDICAO\C#\back up of SerialBanco\Serial\obj\x86\Debug\Serial.Properties.Resources.resources
+D:\MATERIAL DE ESTUDO\VIÇOSA - PÓS-GRADUAÇÃO UFV\TESE\CIRCUITO MEDICAO\C#\back up of SerialBanco\Serial\obj\x86\Debug\GenerateResource.read.1.tlog
+D:\MATERIAL DE ESTUDO\VIÇOSA - PÓS-GRADUAÇÃO UFV\TESE\CIRCUITO MEDICAO\C#\back up of SerialBanco\Serial\obj\x86\Debug\GenerateResource.write.1.tlog
+D:\MATERIAL DE ESTUDO\VIÇOSA - PÓS-GRADUAÇÃO UFV\TESE\CIRCUITO MEDICAO\C#\IrrigoSystem\Serial\bin\Debug\Serial.exe.config
+D:\MATERIAL DE ESTUDO\VIÇOSA - PÓS-GRADUAÇÃO UFV\TESE\CIRCUITO MEDICAO\C#\IrrigoSystem\Serial\obj\x86\Debug\Serial.exe
+D:\MATERIAL DE ESTUDO\VIÇOSA - PÓS-GRADUAÇÃO UFV\TESE\CIRCUITO MEDICAO\C#\IrrigoSystem\Serial\obj\x86\Debug\Serial.pdb
+D:\MATERIAL DE ESTUDO\VIÇOSA - PÓS-GRADUAÇÃO UFV\TESE\CIRCUITO MEDICAO\C#\IrrigoSystem\Serial\bin\Debug\Serial.exe
+D:\MATERIAL DE ESTUDO\VIÇOSA - PÓS-GRADUAÇÃO UFV\TESE\CIRCUITO MEDICAO\C#\IrrigoSystem\Serial\bin\Debug\Serial.pdb
+D:\MATERIAL DE ESTUDO\VIÇOSA - PÓS-GRADUAÇÃO UFV\TESE\CIRCUITO MEDICAO\C#\IrrigoSystem\Serial\bin\Debug\AGauge.dll
+D:\MATERIAL DE ESTUDO\VIÇOSA - PÓS-GRADUAÇÃO UFV\TESE\CIRCUITO MEDICAO\C#\IrrigoSystem\Serial\bin\Debug\nunit.framework.dll
+D:\MATERIAL DE ESTUDO\VIÇOSA - PÓS-GRADUAÇÃO UFV\TESE\CIRCUITO MEDICAO\C#\IrrigoSystem\Serial\bin\Debug\StatDescriptive.dll
+D:\MATERIAL DE ESTUDO\VIÇOSA - PÓS-GRADUAÇÃO UFV\TESE\CIRCUITO MEDICAO\C#\IrrigoSystem\Serial\bin\Debug\XYGraph.dll
+D:\MATERIAL DE ESTUDO\VIÇOSA - PÓS-GRADUAÇÃO UFV\TESE\CIRCUITO MEDICAO\C#\IrrigoSystem\Serial\bin\Debug\StatDescriptive.pdb
+D:\MATERIAL DE ESTUDO\VIÇOSA - PÓS-GRADUAÇÃO UFV\TESE\CIRCUITO MEDICAO\C#\IrrigoSystem\Serial\obj\x86\Debug\ResolveAssemblyReference.cache
+D:\MATERIAL DE ESTUDO\VIÇOSA - PÓS-GRADUAÇÃO UFV\TESE\CIRCUITO MEDICAO\C#\IrrigoSystem\Serial\obj\x86\Debug\Serial.Form1.resources
+D:\MATERIAL DE ESTUDO\VIÇOSA - PÓS-GRADUAÇÃO UFV\TESE\CIRCUITO MEDICAO\C#\IrrigoSystem\Serial\obj\x86\Debug\Serial.Form2.resources
+D:\MATERIAL DE ESTUDO\VIÇOSA - PÓS-GRADUAÇÃO UFV\TESE\CIRCUITO MEDICAO\C#\IrrigoSystem\Serial\obj\x86\Debug\Serial.Properties.Resources.resources
+D:\MATERIAL DE ESTUDO\VIÇOSA - PÓS-GRADUAÇÃO UFV\TESE\CIRCUITO MEDICAO\C#\IrrigoSystem\Serial\obj\x86\Debug\GenerateResource.read.1.tlog
+D:\MATERIAL DE ESTUDO\VIÇOSA - PÓS-GRADUAÇÃO UFV\TESE\CIRCUITO MEDICAO\C#\IrrigoSystem\Serial\obj\x86\Debug\GenerateResource.write.1.tlog
+D:\MATERIAL DE ESTUDO\VIÇOSA - PÓS-GRADUAÇÃO UFV\TESE\CIRCUITO MEDICAO\C#\IrrigoSystem2\Serial\bin\Debug\Serial.exe.config
+D:\MATERIAL DE ESTUDO\VIÇOSA - PÓS-GRADUAÇÃO UFV\TESE\CIRCUITO MEDICAO\C#\IrrigoSystem2\Serial\obj\x86\Debug\Serial.exe
+D:\MATERIAL DE ESTUDO\VIÇOSA - PÓS-GRADUAÇÃO UFV\TESE\CIRCUITO MEDICAO\C#\IrrigoSystem2\Serial\obj\x86\Debug\Serial.pdb
+D:\MATERIAL DE ESTUDO\VIÇOSA - PÓS-GRADUAÇÃO UFV\TESE\CIRCUITO MEDICAO\C#\IrrigoSystem2\Serial\bin\Debug\Serial.exe
+D:\MATERIAL DE ESTUDO\VIÇOSA - PÓS-GRADUAÇÃO UFV\TESE\CIRCUITO MEDICAO\C#\IrrigoSystem2\Serial\bin\Debug\Serial.pdb
+D:\MATERIAL DE ESTUDO\VIÇOSA - PÓS-GRADUAÇÃO UFV\TESE\CIRCUITO MEDICAO\C#\IrrigoSystem2\Serial\bin\Debug\AGauge.dll
+D:\MATERIAL DE ESTUDO\VIÇOSA - PÓS-GRADUAÇÃO UFV\TESE\CIRCUITO MEDICAO\C#\IrrigoSystem2\Serial\bin\Debug\nunit.framework.dll
+D:\MATERIAL DE ESTUDO\VIÇOSA - PÓS-GRADUAÇÃO UFV\TESE\CIRCUITO MEDICAO\C#\IrrigoSystem2\Serial\bin\Debug\StatDescriptive.dll
+D:\MATERIAL DE ESTUDO\VIÇOSA - PÓS-GRADUAÇÃO UFV\TESE\CIRCUITO MEDICAO\C#\IrrigoSystem2\Serial\bin\Debug\XYGraph.dll
+D:\MATERIAL DE ESTUDO\VIÇOSA - PÓS-GRADUAÇÃO UFV\TESE\CIRCUITO MEDICAO\C#\IrrigoSystem2\Serial\bin\Debug\StatDescriptive.pdb
+D:\MATERIAL DE ESTUDO\VIÇOSA - PÓS-GRADUAÇÃO UFV\TESE\CIRCUITO MEDICAO\C#\IrrigoSystem2\Serial\obj\x86\Debug\ResolveAssemblyReference.cache
+D:\MATERIAL DE ESTUDO\VIÇOSA - PÓS-GRADUAÇÃO UFV\TESE\CIRCUITO MEDICAO\C#\IrrigoSystem2\Serial\obj\x86\Debug\Serial.Form1.resources
+D:\MATERIAL DE ESTUDO\VIÇOSA - PÓS-GRADUAÇÃO UFV\TESE\CIRCUITO MEDICAO\C#\IrrigoSystem2\Serial\obj\x86\Debug\Serial.Form2.resources
+D:\MATERIAL DE ESTUDO\VIÇOSA - PÓS-GRADUAÇÃO UFV\TESE\CIRCUITO MEDICAO\C#\IrrigoSystem2\Serial\obj\x86\Debug\Serial.Properties.Resources.resources
+D:\MATERIAL DE ESTUDO\VIÇOSA - PÓS-GRADUAÇÃO UFV\TESE\CIRCUITO MEDICAO\C#\IrrigoSystem2\Serial\obj\x86\Debug\GenerateResource.read.1.tlog
+D:\MATERIAL DE ESTUDO\VIÇOSA - PÓS-GRADUAÇÃO UFV\TESE\CIRCUITO MEDICAO\C#\IrrigoSystem2\Serial\obj\x86\Debug\GenerateResource.write.1.tlog
+D:\MATERIAL DE ESTUDO\VIÇOSA - PÓS-GRADUAÇÃO UFV\TESE\CIRCUITO MEDICAO\C#\IrrigoSystem2\Serial\bin\Debug\Ilan.Google.API.dll
+D:\MATERIAL DE ESTUDO\VIÇOSA - PÓS-GRADUAÇÃO UFV\TESE\CIRCUITO MEDICAO\C#\IrrigoSystem2\Serial\bin\Debug\Database1.mdf
+D:\MATERIAL DE ESTUDO\VIÇOSA - PÓS-GRADUAÇÃO UFV\TESE\CIRCUITO MEDICAO\C#\IrrigoSystem2\Serial\bin\Debug\Database1_log.ldf
+D:\MATERIAL DE ESTUDO\VIÇOSA - PÓS-GRADUAÇÃO UFV\TESE\CIRCUITO MEDICAO\C#\IrrigoSystem2\Serial\obj\x86\Debug\GenerateResource.read.330.tlog
+D:\MATERIAL DE ESTUDO\VIÇOSA - PÓS-GRADUAÇÃO UFV\TESE\CIRCUITO MEDICAO\C#\IrrigoSystem2\Serial\obj\x86\Debug\GenerateResource.write.305.tlog
+D:\MATERIAL DE ESTUDO\VIÇOSA - PÓS-GRADUAÇÃO UFV\TESE\CIRCUITO MEDICAO\C#\IrrigoSystem2\Serial\obj\x86\Debug\GenerateResource.write.308.tlog
+D:\MATERIAL DE ESTUDO\VIÇOSA - PÓS-GRADUAÇÃO UFV\TESE\CIRCUITO MEDICAO\C#\IrrigoSystem2\Serial\obj\x86\Debug\GenerateResource.read.318.tlog
+D:\MATERIAL DE ESTUDO\VIÇOSA - PÓS-GRADUAÇÃO UFV\TESE\CIRCUITO MEDICAO\C#\IrrigoSystem2\Serial\obj\x86\Debug\GenerateResource.read.321.tlog
+D:\MATERIAL DE ESTUDO\VIÇOSA - PÓS-GRADUAÇÃO UFV\TESE\CIRCUITO MEDICAO\C#\IrrigoSystem2\Serial\obj\x86\Debug\GenerateResource.read.322.tlog
+D:\MATERIAL DE ESTUDO\VIÇOSA - PÓS-GRADUAÇÃO UFV\TESE\CIRCUITO MEDICAO\C#\IrrigoSystem2\Serial\obj\x86\Debug\GenerateResource.read.331.tlog
+D:\MATERIAL DE ESTUDO\VIÇOSA - PÓS-GRADUAÇÃO UFV\TESE\CIRCUITO MEDICAO\C#\IrrigoSystem2\Serial\obj\x86\Debug\GenerateResource.read.333.tlog
+D:\MATERIAL DE ESTUDO\VIÇOSA - PÓS-GRADUAÇÃO UFV\TESE\CIRCUITO MEDICAO\C#\IrrigoSystem2\Serial\obj\x86\Debug\GenerateResource.write.333.tlog
+D:\MATERIAL DE ESTUDO\VIÇOSA - PÓS-GRADUAÇÃO UFV\TESE\CIRCUITO MEDICAO\C#\IrrigoSystem2\Serial\obj\x86\Debug\GenerateResource.read.386.tlog
+D:\MATERIAL DE ESTUDO\VIÇOSA - PÓS-GRADUAÇÃO UFV\TESE\CIRCUITO MEDICAO\C#\IrrigoSystem2\Serial\obj\x86\Debug\GenerateResource.write.339.tlog
+D:\MATERIAL DE ESTUDO\VIÇOSA - PÓS-GRADUAÇÃO UFV\TESE\CIRCUITO MEDICAO\C#\IrrigoSystem2\Serial\obj\x86\Debug\GenerateResource.write.361.tlog
+D:\MATERIAL DE ESTUDO\VIÇOSA - PÓS-GRADUAÇÃO UFV\TESE\CIRCUITO MEDICAO\C#\IrrigoSystem2\Serial\obj\x86\Debug\GenerateResource.read.372.tlog
+D:\MATERIAL DE ESTUDO\VIÇOSA - PÓS-GRADUAÇÃO UFV\TESE\CIRCUITO MEDICAO\C#\IrrigoSystem2\Serial\obj\x86\Debug\GenerateResource.read.377.tlog
+D:\MATERIAL DE ESTUDO\VIÇOSA - PÓS-GRADUAÇÃO UFV\TESE\CIRCUITO MEDICAO\C#\IrrigoSystem2\Serial\obj\x86\Debug\GenerateResource.read.381.tlog
+D:\MATERIAL DE ESTUDO\VIÇOSA - PÓS-GRADUAÇÃO UFV\TESE\CIRCUITO MEDICAO\C#\IrrigoSystem2\Serial\obj\x86\Debug\GenerateResource.read.389.tlog
+D:\MATERIAL DE ESTUDO\VIÇOSA - PÓS-GRADUAÇÃO UFV\TESE\CIRCUITO MEDICAO\C#\IrrigoSystem2\Serial\obj\x86\Debug\GenerateResource.read.391.tlog
+D:\MATERIAL DE ESTUDO\VIÇOSA - PÓS-GRADUAÇÃO UFV\TESE\CIRCUITO MEDICAO\C#\IrrigoSystem2\Serial\obj\x86\Debug\GenerateResource.write.389.tlog
+D:\MATERIAL DE ESTUDO\VIÇOSA - PÓS-GRADUAÇÃO UFV\TESE\CIRCUITO MEDICAO\C#\IrrigoSystem2\Serial\obj\x86\Debug\GenerateResource.read.373.tlog
+D:\MATERIAL DE ESTUDO\VIÇOSA - PÓS-GRADUAÇÃO UFV\TESE\CIRCUITO MEDICAO\C#\IrrigoSystem2\Serial\obj\x86\Debug\GenerateResource.write.373.tlog
+D:\MATERIAL DE ESTUDO\VIÇOSA - PÓS-GRADUAÇÃO UFV\TESE\CIRCUITO MEDICAO\C#\IrrigoSystem2\Serial\obj\x86\Debug\GenerateResource.read.15425.tlog
+D:\MATERIAL DE ESTUDO\VIÇOSA - PÓS-GRADUAÇÃO UFV\TESE\CIRCUITO MEDICAO\C#\IrrigoSystem2\Serial\obj\x86\Debug\GenerateResource.read.15432.tlog
+D:\MATERIAL DE ESTUDO\VIÇOSA - PÓS-GRADUAÇÃO UFV\TESE\CIRCUITO MEDICAO\C#\IrrigoSystem2\Serial\obj\x86\Debug\GenerateResource.write.15473.tlog
+D:\MATERIAL DE ESTUDO\VIÇOSA - PÓS-GRADUAÇÃO UFV\TESE\CIRCUITO MEDICAO\C#\IrrigoSystem2\Serial\obj\x86\Debug\GenerateResource.read.344.tlog
+D:\MATERIAL DE ESTUDO\VIÇOSA - PÓS-GRADUAÇÃO UFV\TESE\CIRCUITO MEDICAO\C#\IrrigoSystem2\Serial\obj\x86\Debug\GenerateResource.write.562.tlog
+C:\Documents and Settings\Alan\My Documents\Dropbox\VIÇOSA - PÓS-GRADUAÇÃO UFV\TESE\CIRCUITO MEDICAO\C#\IrrigoSystem2\Serial\bin\Debug\Serial.exe.config
+C:\Documents and Settings\Alan\My Documents\Dropbox\VIÇOSA - PÓS-GRADUAÇÃO UFV\TESE\CIRCUITO MEDICAO\C#\IrrigoSystem2\Serial\obj\x86\Debug\Serial.exe
+C:\Documents and Settings\Alan\My Documents\Dropbox\VIÇOSA - PÓS-GRADUAÇÃO UFV\TESE\CIRCUITO MEDICAO\C#\IrrigoSystem2\Serial\obj\x86\Debug\Serial.pdb
+C:\Documents and Settings\Alan\My Documents\Dropbox\VIÇOSA - PÓS-GRADUAÇÃO UFV\TESE\CIRCUITO MEDICAO\C#\IrrigoSystem2\Serial\bin\Debug\Database1.mdf
+C:\Documents and Settings\Alan\My Documents\Dropbox\VIÇOSA - PÓS-GRADUAÇÃO UFV\TESE\CIRCUITO MEDICAO\C#\IrrigoSystem2\Serial\bin\Debug\Database1_log.ldf
+C:\Documents and Settings\Alan\My Documents\Dropbox\VIÇOSA - PÓS-GRADUAÇÃO UFV\TESE\CIRCUITO MEDICAO\C#\IrrigoSystem2\Serial\bin\Debug\Serial.exe
+C:\Documents and Settings\Alan\My Documents\Dropbox\VIÇOSA - PÓS-GRADUAÇÃO UFV\TESE\CIRCUITO MEDICAO\C#\IrrigoSystem2\Serial\bin\Debug\Serial.pdb
+C:\Documents and Settings\Alan\My Documents\Dropbox\VIÇOSA - PÓS-GRADUAÇÃO UFV\TESE\CIRCUITO MEDICAO\C#\IrrigoSystem2\Serial\bin\Debug\nunit.framework.dll
+C:\Documents and Settings\Alan\My Documents\Dropbox\VIÇOSA - PÓS-GRADUAÇÃO UFV\TESE\CIRCUITO MEDICAO\C#\IrrigoSystem2\Serial\bin\Debug\StatDescriptive.dll
+C:\Documents and Settings\Alan\My Documents\Dropbox\VIÇOSA - PÓS-GRADUAÇÃO UFV\TESE\CIRCUITO MEDICAO\C#\IrrigoSystem2\Serial\bin\Debug\StatDescriptive.pdb
+C:\Documents and Settings\Alan\My Documents\Dropbox\VIÇOSA - PÓS-GRADUAÇÃO UFV\TESE\CIRCUITO MEDICAO\C#\IrrigoSystem2\Serial\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Alan\My Documents\Dropbox\VIÇOSA - PÓS-GRADUAÇÃO UFV\TESE\CIRCUITO MEDICAO\C#\IrrigoSystem2\Serial\obj\x86\Debug\Serial.Form1.resources
+C:\Documents and Settings\Alan\My Documents\Dropbox\VIÇOSA - PÓS-GRADUAÇÃO UFV\TESE\CIRCUITO MEDICAO\C#\IrrigoSystem2\Serial\obj\x86\Debug\Serial.Form2.resources
+C:\Documents and Settings\Alan\My Documents\Dropbox\VIÇOSA - PÓS-GRADUAÇÃO UFV\TESE\CIRCUITO MEDICAO\C#\IrrigoSystem2\Serial\obj\x86\Debug\Serial.Properties.Resources.resources
+C:\Documents and Settings\Alan\My Documents\Dropbox\VIÇOSA - PÓS-GRADUAÇÃO UFV\TESE\CIRCUITO MEDICAO\C#\IrrigoSystem2\Serial\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Documents and Settings\Alan\My Documents\Dropbox\VIÇOSA - PÓS-GRADUAÇÃO UFV\TESE\CIRCUITO MEDICAO\C#\IrrigoSystem2\Serial\obj\x86\Debug\GenerateResource.read.15425.tlog
+C:\Documents and Settings\Alan\My Documents\Dropbox\VIÇOSA - PÓS-GRADUAÇÃO UFV\TESE\CIRCUITO MEDICAO\C#\IrrigoSystem2\Serial\obj\x86\Debug\GenerateResource.read.15432.tlog
+C:\Documents and Settings\Alan\My Documents\Dropbox\VIÇOSA - PÓS-GRADUAÇÃO UFV\TESE\CIRCUITO MEDICAO\C#\IrrigoSystem2\Serial\obj\x86\Debug\GenerateResource.read.318.tlog
+C:\Documents and Settings\Alan\My Documents\Dropbox\VIÇOSA - PÓS-GRADUAÇÃO UFV\TESE\CIRCUITO MEDICAO\C#\IrrigoSystem2\Serial\obj\x86\Debug\GenerateResource.read.321.tlog
+C:\Documents and Settings\Alan\My Documents\Dropbox\VIÇOSA - PÓS-GRADUAÇÃO UFV\TESE\CIRCUITO MEDICAO\C#\IrrigoSystem2\Serial\obj\x86\Debug\GenerateResource.read.322.tlog
+C:\Documents and Settings\Alan\My Documents\Dropbox\VIÇOSA - PÓS-GRADUAÇÃO UFV\TESE\CIRCUITO MEDICAO\C#\IrrigoSystem2\Serial\obj\x86\Debug\GenerateResource.read.330.tlog
+C:\Documents and Settings\Alan\My Documents\Dropbox\VIÇOSA - PÓS-GRADUAÇÃO UFV\TESE\CIRCUITO MEDICAO\C#\IrrigoSystem2\Serial\obj\x86\Debug\GenerateResource.read.331.tlog
+C:\Documents and Settings\Alan\My Documents\Dropbox\VIÇOSA - PÓS-GRADUAÇÃO UFV\TESE\CIRCUITO MEDICAO\C#\IrrigoSystem2\Serial\obj\x86\Debug\GenerateResource.read.333.tlog
+C:\Documents and Settings\Alan\My Documents\Dropbox\VIÇOSA - PÓS-GRADUAÇÃO UFV\TESE\CIRCUITO MEDICAO\C#\IrrigoSystem2\Serial\obj\x86\Debug\GenerateResource.read.344.tlog
+C:\Documents and Settings\Alan\My Documents\Dropbox\VIÇOSA - PÓS-GRADUAÇÃO UFV\TESE\CIRCUITO MEDICAO\C#\IrrigoSystem2\Serial\obj\x86\Debug\GenerateResource.read.372.tlog
+C:\Documents and Settings\Alan\My Documents\Dropbox\VIÇOSA - PÓS-GRADUAÇÃO UFV\TESE\CIRCUITO MEDICAO\C#\IrrigoSystem2\Serial\obj\x86\Debug\GenerateResource.read.373.tlog
+C:\Documents and Settings\Alan\My Documents\Dropbox\VIÇOSA - PÓS-GRADUAÇÃO UFV\TESE\CIRCUITO MEDICAO\C#\IrrigoSystem2\Serial\obj\x86\Debug\GenerateResource.read.377.tlog
+C:\Documents and Settings\Alan\My Documents\Dropbox\VIÇOSA - PÓS-GRADUAÇÃO UFV\TESE\CIRCUITO MEDICAO\C#\IrrigoSystem2\Serial\obj\x86\Debug\GenerateResource.read.381.tlog
+C:\Documents and Settings\Alan\My Documents\Dropbox\VIÇOSA - PÓS-GRADUAÇÃO UFV\TESE\CIRCUITO MEDICAO\C#\IrrigoSystem2\Serial\obj\x86\Debug\GenerateResource.read.386.tlog
+C:\Documents and Settings\Alan\My Documents\Dropbox\VIÇOSA - PÓS-GRADUAÇÃO UFV\TESE\CIRCUITO MEDICAO\C#\IrrigoSystem2\Serial\obj\x86\Debug\GenerateResource.read.389.tlog
+C:\Documents and Settings\Alan\My Documents\Dropbox\VIÇOSA - PÓS-GRADUAÇÃO UFV\TESE\CIRCUITO MEDICAO\C#\IrrigoSystem2\Serial\obj\x86\Debug\GenerateResource.read.391.tlog
+C:\Documents and Settings\Alan\My Documents\Dropbox\VIÇOSA - PÓS-GRADUAÇÃO UFV\TESE\CIRCUITO MEDICAO\C#\IrrigoSystem2\Serial\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Documents and Settings\Alan\My Documents\Dropbox\VIÇOSA - PÓS-GRADUAÇÃO UFV\TESE\CIRCUITO MEDICAO\C#\IrrigoSystem2\Serial\obj\x86\Debug\GenerateResource.write.15473.tlog
+C:\Documents and Settings\Alan\My Documents\Dropbox\VIÇOSA - PÓS-GRADUAÇÃO UFV\TESE\CIRCUITO MEDICAO\C#\IrrigoSystem2\Serial\obj\x86\Debug\GenerateResource.write.305.tlog
+C:\Documents and Settings\Alan\My Documents\Dropbox\VIÇOSA - PÓS-GRADUAÇÃO UFV\TESE\CIRCUITO MEDICAO\C#\IrrigoSystem2\Serial\obj\x86\Debug\GenerateResource.write.308.tlog
+C:\Documents and Settings\Alan\My Documents\Dropbox\VIÇOSA - PÓS-GRADUAÇÃO UFV\TESE\CIRCUITO MEDICAO\C#\IrrigoSystem2\Serial\obj\x86\Debug\GenerateResource.write.333.tlog
+C:\Documents and Settings\Alan\My Documents\Dropbox\VIÇOSA - PÓS-GRADUAÇÃO UFV\TESE\CIRCUITO MEDICAO\C#\IrrigoSystem2\Serial\obj\x86\Debug\GenerateResource.write.339.tlog
+C:\Documents and Settings\Alan\My Documents\Dropbox\VIÇOSA - PÓS-GRADUAÇÃO UFV\TESE\CIRCUITO MEDICAO\C#\IrrigoSystem2\Serial\obj\x86\Debug\GenerateResource.write.361.tlog
+C:\Documents and Settings\Alan\My Documents\Dropbox\VIÇOSA - PÓS-GRADUAÇÃO UFV\TESE\CIRCUITO MEDICAO\C#\IrrigoSystem2\Serial\obj\x86\Debug\GenerateResource.write.373.tlog
+C:\Documents and Settings\Alan\My Documents\Dropbox\VIÇOSA - PÓS-GRADUAÇÃO UFV\TESE\CIRCUITO MEDICAO\C#\IrrigoSystem2\Serial\obj\x86\Debug\GenerateResource.write.389.tlog
+C:\Documents and Settings\Alan\My Documents\Dropbox\VIÇOSA - PÓS-GRADUAÇÃO UFV\TESE\CIRCUITO MEDICAO\C#\IrrigoSystem2\Serial\obj\x86\Debug\GenerateResource.write.562.tlog
+C:\Users\UFOP\Dropbox\IRRIGOSYSTEM\IrrigoSystem2\Serial\bin\Debug\Serial.exe.config
+C:\Users\UFOP\Dropbox\IRRIGOSYSTEM\IrrigoSystem2\Serial\obj\x86\Debug\Serial.exe
+C:\Users\UFOP\Dropbox\IRRIGOSYSTEM\IrrigoSystem2\Serial\obj\x86\Debug\Serial.pdb
+C:\Users\ALAN\Dropbox\IRRIGOSYSTEM\IrrigoSystem2\Serial\bin\Debug\Database1.mdf
+C:\Users\ALAN\Dropbox\IRRIGOSYSTEM\IrrigoSystem2\Serial\bin\Debug\Database1_log.ldf
+C:\Users\ALAN\Dropbox\IRRIGOSYSTEM\IrrigoSystem2\Serial\bin\Debug\Serial.exe.config
+C:\Users\ALAN\Dropbox\IRRIGOSYSTEM\IrrigoSystem2\Serial\bin\Debug\Serial.exe.manifest
+C:\Users\ALAN\Dropbox\IRRIGOSYSTEM\IrrigoSystem2\Serial\bin\Debug\Serial.application
+C:\Users\ALAN\Dropbox\IRRIGOSYSTEM\IrrigoSystem2\Serial\bin\Debug\Serial.exe
+C:\Users\ALAN\Dropbox\IRRIGOSYSTEM\IrrigoSystem2\Serial\bin\Debug\Serial.pdb
+C:\Users\ALAN\Dropbox\IRRIGOSYSTEM\IrrigoSystem2\Serial\bin\Debug\en\Serial.resources.dll
+C:\Users\ALAN\Dropbox\IRRIGOSYSTEM\IrrigoSystem2\Serial\bin\Debug\pt\Serial.resources.dll
+C:\Users\ALAN\Dropbox\IRRIGOSYSTEM\IrrigoSystem2\Serial\bin\Debug\nunit.framework.dll
+C:\Users\ALAN\Dropbox\IRRIGOSYSTEM\IrrigoSystem2\Serial\bin\Debug\StatDescriptive.dll
+C:\Users\ALAN\Dropbox\IRRIGOSYSTEM\IrrigoSystem2\Serial\bin\Debug\StatDescriptive.pdb
+C:\Users\ALAN\Dropbox\IRRIGOSYSTEM\IrrigoSystem2\Serial\obj\x86\Debug\Serial.Form1.resources
+C:\Users\ALAN\Dropbox\IRRIGOSYSTEM\IrrigoSystem2\Serial\obj\x86\Debug\Serial.Form2.resources
+C:\Users\ALAN\Dropbox\IRRIGOSYSTEM\IrrigoSystem2\Serial\obj\x86\Debug\Serial.Properties.Resources.resources
+C:\Users\ALAN\Dropbox\IRRIGOSYSTEM\IrrigoSystem2\Serial\obj\x86\Debug\Serial.Resource.Res.en.resources
+C:\Users\ALAN\Dropbox\IRRIGOSYSTEM\IrrigoSystem2\Serial\obj\x86\Debug\Serial.Resource.Res.pt.resources
+C:\Users\ALAN\Dropbox\IRRIGOSYSTEM\IrrigoSystem2\Serial\obj\x86\Debug\Serial.csproj.GenerateResource.Cache
+C:\Users\ALAN\Dropbox\IRRIGOSYSTEM\IrrigoSystem2\Serial\obj\x86\Debug\en\Serial.resources.dll
+C:\Users\ALAN\Dropbox\IRRIGOSYSTEM\IrrigoSystem2\Serial\obj\x86\Debug\pt\Serial.resources.dll
+C:\Users\ALAN\Dropbox\IRRIGOSYSTEM\IrrigoSystem2\Serial\obj\x86\Debug\Serial.exe.manifest
+C:\Users\ALAN\Dropbox\IRRIGOSYSTEM\IrrigoSystem2\Serial\obj\x86\Debug\Serial.application
+C:\Users\ALAN\Dropbox\IRRIGOSYSTEM\IrrigoSystem2\Serial\obj\x86\Debug\Serial.exe
+C:\Users\ALAN\Dropbox\IRRIGOSYSTEM\IrrigoSystem2\Serial\obj\x86\Debug\Serial.pdb
+C:\Users\ALAN\Dropbox\IRRIGOSYSTEM\IrrigoSystem2\Serial\obj\x86\Debug\Serial.csprojResolveAssemblyReference.cache
+C:\Users\alankardek\Dropbox\IRRIGOSYSTEM\IrrigoSystem2\Serial\bin\Debug\Database1.mdf
+C:\Users\alankardek\Dropbox\IRRIGOSYSTEM\IrrigoSystem2\Serial\bin\Debug\Database1_log.ldf
+C:\Users\alankardek\Dropbox\IRRIGOSYSTEM\IrrigoSystem2\Serial\bin\Debug\Serial.exe.config
+C:\Users\alankardek\Dropbox\IRRIGOSYSTEM\IrrigoSystem2\Serial\bin\Debug\Serial.exe.manifest
+C:\Users\alankardek\Dropbox\IRRIGOSYSTEM\IrrigoSystem2\Serial\bin\Debug\Serial.application
+C:\Users\alankardek\Dropbox\IRRIGOSYSTEM\IrrigoSystem2\Serial\bin\Debug\Serial.exe
+C:\Users\alankardek\Dropbox\IRRIGOSYSTEM\IrrigoSystem2\Serial\bin\Debug\Serial.pdb
+C:\Users\alankardek\Dropbox\IRRIGOSYSTEM\IrrigoSystem2\Serial\bin\Debug\en\Serial.resources.dll
+C:\Users\alankardek\Dropbox\IRRIGOSYSTEM\IrrigoSystem2\Serial\bin\Debug\pt\Serial.resources.dll
+C:\Users\alankardek\Dropbox\IRRIGOSYSTEM\IrrigoSystem2\Serial\bin\Debug\nunit.framework.dll
+C:\Users\alankardek\Dropbox\IRRIGOSYSTEM\IrrigoSystem2\Serial\bin\Debug\StatDescriptive.dll
+C:\Users\alankardek\Dropbox\IRRIGOSYSTEM\IrrigoSystem2\Serial\bin\Debug\StatDescriptive.pdb
+C:\Users\alankardek\Dropbox\IRRIGOSYSTEM\IrrigoSystem2\Serial\obj\x86\Debug\Serial.Form1.resources
+C:\Users\alankardek\Dropbox\IRRIGOSYSTEM\IrrigoSystem2\Serial\obj\x86\Debug\Serial.Form2.resources
+C:\Users\alankardek\Dropbox\IRRIGOSYSTEM\IrrigoSystem2\Serial\obj\x86\Debug\Serial.Properties.Resources.resources
+C:\Users\alankardek\Dropbox\IRRIGOSYSTEM\IrrigoSystem2\Serial\obj\x86\Debug\Serial.Resource.Res.en.resources
+C:\Users\alankardek\Dropbox\IRRIGOSYSTEM\IrrigoSystem2\Serial\obj\x86\Debug\Serial.Resource.Res.pt.resources
+C:\Users\alankardek\Dropbox\IRRIGOSYSTEM\IrrigoSystem2\Serial\obj\x86\Debug\Serial.csproj.GenerateResource.Cache
+C:\Users\alankardek\Dropbox\IRRIGOSYSTEM\IrrigoSystem2\Serial\obj\x86\Debug\en\Serial.resources.dll
+C:\Users\alankardek\Dropbox\IRRIGOSYSTEM\IrrigoSystem2\Serial\obj\x86\Debug\pt\Serial.resources.dll
+C:\Users\alankardek\Dropbox\IRRIGOSYSTEM\IrrigoSystem2\Serial\obj\x86\Debug\Serial.exe.manifest
+C:\Users\alankardek\Dropbox\IRRIGOSYSTEM\IrrigoSystem2\Serial\obj\x86\Debug\Serial.application
+C:\Users\alankardek\Dropbox\IRRIGOSYSTEM\IrrigoSystem2\Serial\obj\x86\Debug\Serial.exe
+C:\Users\alankardek\Dropbox\IRRIGOSYSTEM\IrrigoSystem2\Serial\obj\x86\Debug\Serial.pdb
+C:\Users\alankardek\Dropbox\IRRIGOSYSTEM\IrrigoSystem2\Serial\obj\x86\Debug\Serial.csprojResolveAssemblyReference.cache
+C:\Users\user\Dropbox\IRRIGOSYSTEM\IrrigoSystem2\Serial\bin\Debug\Database1.mdf
+C:\Users\user\Dropbox\IRRIGOSYSTEM\IrrigoSystem2\Serial\bin\Debug\Database1_log.ldf
+C:\Users\user\Dropbox\IRRIGOSYSTEM\IrrigoSystem2\Serial\bin\Debug\Serial.exe.config
+C:\Users\user\Dropbox\IRRIGOSYSTEM\IrrigoSystem2\Serial\bin\Debug\Serial.exe.manifest
+C:\Users\user\Dropbox\IRRIGOSYSTEM\IrrigoSystem2\Serial\bin\Debug\Serial.application
+C:\Users\user\Dropbox\IRRIGOSYSTEM\IrrigoSystem2\Serial\bin\Debug\Serial.exe
+C:\Users\user\Dropbox\IRRIGOSYSTEM\IrrigoSystem2\Serial\bin\Debug\Serial.pdb
+C:\Users\user\Dropbox\IRRIGOSYSTEM\IrrigoSystem2\Serial\bin\Debug\en\Serial.resources.dll
+C:\Users\user\Dropbox\IRRIGOSYSTEM\IrrigoSystem2\Serial\bin\Debug\pt\Serial.resources.dll
+C:\Users\user\Dropbox\IRRIGOSYSTEM\IrrigoSystem2\Serial\bin\Debug\nunit.framework.dll
+C:\Users\user\Dropbox\IRRIGOSYSTEM\IrrigoSystem2\Serial\bin\Debug\StatDescriptive.dll
+C:\Users\user\Dropbox\IRRIGOSYSTEM\IrrigoSystem2\Serial\bin\Debug\StatDescriptive.pdb
+C:\Users\user\Dropbox\IRRIGOSYSTEM\IrrigoSystem2\Serial\obj\x86\Debug\Serial.Form1.resources
+C:\Users\user\Dropbox\IRRIGOSYSTEM\IrrigoSystem2\Serial\obj\x86\Debug\Serial.Form2.resources
+C:\Users\user\Dropbox\IRRIGOSYSTEM\IrrigoSystem2\Serial\obj\x86\Debug\Serial.Properties.Resources.resources
+C:\Users\user\Dropbox\IRRIGOSYSTEM\IrrigoSystem2\Serial\obj\x86\Debug\Serial.Resource.Res.en.resources
+C:\Users\user\Dropbox\IRRIGOSYSTEM\IrrigoSystem2\Serial\obj\x86\Debug\Serial.Resource.Res.pt.resources
+C:\Users\user\Dropbox\IRRIGOSYSTEM\IrrigoSystem2\Serial\obj\x86\Debug\Serial.csproj.GenerateResource.Cache
+C:\Users\user\Dropbox\IRRIGOSYSTEM\IrrigoSystem2\Serial\obj\x86\Debug\en\Serial.resources.dll
+C:\Users\user\Dropbox\IRRIGOSYSTEM\IrrigoSystem2\Serial\obj\x86\Debug\pt\Serial.resources.dll
+C:\Users\user\Dropbox\IRRIGOSYSTEM\IrrigoSystem2\Serial\obj\x86\Debug\Serial.exe.manifest
+C:\Users\user\Dropbox\IRRIGOSYSTEM\IrrigoSystem2\Serial\obj\x86\Debug\Serial.application
+C:\Users\user\Dropbox\IRRIGOSYSTEM\IrrigoSystem2\Serial\obj\x86\Debug\Serial.exe
+C:\Users\user\Dropbox\IRRIGOSYSTEM\IrrigoSystem2\Serial\obj\x86\Debug\Serial.pdb
