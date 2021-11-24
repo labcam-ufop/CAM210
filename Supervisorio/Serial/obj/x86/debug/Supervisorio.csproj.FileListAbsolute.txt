@@ -62,3 +62,19 @@ H:\Meu Drive\7_PROJETOS\2021 - Especializacao\Material\Supervisorio\Serial\obj\x
 H:\Meu Drive\7_PROJETOS\2021 - Especializacao\Material\Supervisorio\Serial\obj\x86\Debug\Supervisorio.csproj.CopyComplete
 H:\Meu Drive\7_PROJETOS\2021 - Especializacao\Material\Supervisorio\Serial\obj\x86\Debug\Serial.exe
 H:\Meu Drive\7_PROJETOS\2021 - Especializacao\Material\Supervisorio\Serial\obj\x86\Debug\Serial.pdb
+D:\Drive\alankardek\2_UFOP_MATERIAL_DISCP\CAM210 - Git\CAM210\Supervisorio\Serial\obj\x86\Debug\Supervisorio.csproj.AssemblyReference.cache
+D:\Drive\alankardek\2_UFOP_MATERIAL_DISCP\CAM210 - Git\CAM210\Supervisorio\Serial\obj\x86\Debug\Serial.Form1.resources
+D:\Drive\alankardek\2_UFOP_MATERIAL_DISCP\CAM210 - Git\CAM210\Supervisorio\Serial\obj\x86\Debug\Serial.Form2.resources
+D:\Drive\alankardek\2_UFOP_MATERIAL_DISCP\CAM210 - Git\CAM210\Supervisorio\Serial\obj\x86\Debug\Serial.Properties.Resources.resources
+D:\Drive\alankardek\2_UFOP_MATERIAL_DISCP\CAM210 - Git\CAM210\Supervisorio\Serial\obj\x86\Debug\Supervisorio.csproj.GenerateResource.cache
+D:\Drive\alankardek\2_UFOP_MATERIAL_DISCP\CAM210 - Git\CAM210\Supervisorio\Serial\obj\x86\Debug\Supervisorio.csproj.CoreCompileInputs.cache
+D:\Drive\alankardek\2_UFOP_MATERIAL_DISCP\CAM210 - Git\CAM210\Supervisorio\Serial\obj\x86\Debug\Serial.exe
+D:\Drive\alankardek\2_UFOP_MATERIAL_DISCP\CAM210 - Git\CAM210\Supervisorio\Serial\obj\x86\Debug\Serial.pdb
+D:\Drive\alankardek\2_UFOP_MATERIAL_DISCP\CAM210 - Git\CAM210\Supervisorio\Serial\bin\Debug\Serial.exe.config
+D:\Drive\alankardek\2_UFOP_MATERIAL_DISCP\CAM210 - Git\CAM210\Supervisorio\Serial\bin\Debug\Serial.exe.manifest
+D:\Drive\alankardek\2_UFOP_MATERIAL_DISCP\CAM210 - Git\CAM210\Supervisorio\Serial\bin\Debug\Serial.application
+D:\Drive\alankardek\2_UFOP_MATERIAL_DISCP\CAM210 - Git\CAM210\Supervisorio\Serial\bin\Debug\Serial.exe
+D:\Drive\alankardek\2_UFOP_MATERIAL_DISCP\CAM210 - Git\CAM210\Supervisorio\Serial\bin\Debug\Serial.pdb
+D:\Drive\alankardek\2_UFOP_MATERIAL_DISCP\CAM210 - Git\CAM210\Supervisorio\Serial\obj\x86\Debug\Serial.exe.manifest
+D:\Drive\alankardek\2_UFOP_MATERIAL_DISCP\CAM210 - Git\CAM210\Supervisorio\Serial\obj\x86\Debug\Serial.application
+D:\Drive\alankardek\2_UFOP_MATERIAL_DISCP\CAM210 - Git\CAM210\Supervisorio\Serial\obj\x86\Debug\Supervisorio.csproj.CopyComplete

@@ -66,14 +66,14 @@
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Serial.exe" size="112640">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Serial.exe" size="112128">
       <assemblyIdentity name="Serial" version="1.0.0.0" language="neutral" processorArchitecture="x86" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
-        <dsig:DigestValue>0eHv2XuMd2PZX3t72bw/PQ0F0dk=</dsig:DigestValue>
+        <dsig:DigestValue>4wFl/CTb6R+Re/k4Pwz5AO3YlZM=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
