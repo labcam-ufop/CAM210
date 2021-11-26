@@ -29,12 +29,12 @@
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
-            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea11 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
-            System.Windows.Forms.DataVisualization.Charting.Legend legend11 = new System.Windows.Forms.DataVisualization.Charting.Legend();
-            System.Windows.Forms.DataVisualization.Charting.Series series11 = new System.Windows.Forms.DataVisualization.Charting.Series();
-            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea12 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
-            System.Windows.Forms.DataVisualization.Charting.Legend legend12 = new System.Windows.Forms.DataVisualization.Charting.Legend();
-            System.Windows.Forms.DataVisualization.Charting.Series series12 = new System.Windows.Forms.DataVisualization.Charting.Series();
+            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea1 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
+            System.Windows.Forms.DataVisualization.Charting.Legend legend1 = new System.Windows.Forms.DataVisualization.Charting.Legend();
+            System.Windows.Forms.DataVisualization.Charting.Series series1 = new System.Windows.Forms.DataVisualization.Charting.Series();
+            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea2 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
+            System.Windows.Forms.DataVisualization.Charting.Legend legend2 = new System.Windows.Forms.DataVisualization.Charting.Legend();
+            System.Windows.Forms.DataVisualization.Charting.Series series2 = new System.Windows.Forms.DataVisualization.Charting.Series();
             this.comboBox1 = new System.Windows.Forms.ComboBox();
             this.serialPort1 = new System.IO.Ports.SerialPort(this.components);
             this.textBoxEntrada = new System.Windows.Forms.TextBox();
@@ -71,6 +71,9 @@
             this.aChart1 = new System.Windows.Forms.DataVisualization.Charting.Chart();
             this.tabControl1 = new System.Windows.Forms.TabControl();
             this.tabPageComunic = new System.Windows.Forms.TabPage();
+            this.groupBox2 = new System.Windows.Forms.GroupBox();
+            this.btLiga = new System.Windows.Forms.Button();
+            this.btdesliga = new System.Windows.Forms.Button();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.label4 = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
@@ -91,9 +94,7 @@
             this.Column8 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Column9 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.timerChart1 = new System.Windows.Forms.Timer(this.components);
-            this.btLiga = new System.Windows.Forms.Button();
-            this.btdesliga = new System.Windows.Forms.Button();
-            this.groupBox2 = new System.Windows.Forms.GroupBox();
+            this.btTeste = new System.Windows.Forms.Button();
             this.groupBoxComSerial.SuspendLayout();
             this.menuStrip1.SuspendLayout();
             this.groupBoxMedicoes.SuspendLayout();
@@ -103,11 +104,11 @@
             ((System.ComponentModel.ISupportInitialize)(this.aChart1)).BeginInit();
             this.tabControl1.SuspendLayout();
             this.tabPageComunic.SuspendLayout();
+            this.groupBox2.SuspendLayout();
             this.groupBox1.SuspendLayout();
             this.tabPageMed.SuspendLayout();
             this.tabPage1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridViewSensor)).BeginInit();
-            this.groupBox2.SuspendLayout();
             this.SuspendLayout();
             // 
             // comboBox1
@@ -329,7 +330,7 @@
             // sairToolStripMenuItem
             // 
             this.sairToolStripMenuItem.Name = "sairToolStripMenuItem";
-            this.sairToolStripMenuItem.Size = new System.Drawing.Size(117, 26);
+            this.sairToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
             this.sairToolStripMenuItem.Text = "Sair";
             this.sairToolStripMenuItem.Click += new System.EventHandler(this.sairToolStripMenuItem_Click);
             // 
@@ -344,7 +345,7 @@
             // sobreToolStripMenuItem
             // 
             this.sobreToolStripMenuItem.Name = "sobreToolStripMenuItem";
-            this.sobreToolStripMenuItem.Size = new System.Drawing.Size(131, 26);
+            this.sobreToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
             this.sobreToolStripMenuItem.Text = "Sobre";
             this.sobreToolStripMenuItem.Click += new System.EventHandler(this.sobreToolStripMenuItem_Click);
             // 
@@ -662,36 +663,36 @@
             // 
             // aChart2
             // 
-            chartArea11.Name = "ChartArea1";
-            this.aChart2.ChartAreas.Add(chartArea11);
-            legend11.Name = "Legend1";
-            this.aChart2.Legends.Add(legend11);
+            chartArea1.Name = "ChartArea1";
+            this.aChart2.ChartAreas.Add(chartArea1);
+            legend1.Name = "Legend1";
+            this.aChart2.Legends.Add(legend1);
             this.aChart2.Location = new System.Drawing.Point(8, 366);
             this.aChart2.Margin = new System.Windows.Forms.Padding(4);
             this.aChart2.Name = "aChart2";
-            series11.ChartArea = "ChartArea1";
-            series11.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Area;
-            series11.Legend = "Legend1";
-            series11.Name = "Temperatura Filtrada";
-            this.aChart2.Series.Add(series11);
+            series1.ChartArea = "ChartArea1";
+            series1.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Area;
+            series1.Legend = "Legend1";
+            series1.Name = "Temperatura Filtrada";
+            this.aChart2.Series.Add(series1);
             this.aChart2.Size = new System.Drawing.Size(944, 350);
             this.aChart2.TabIndex = 22;
             this.aChart2.Text = "chart1";
             // 
             // aChart1
             // 
-            chartArea12.Name = "ChartArea1";
-            this.aChart1.ChartAreas.Add(chartArea12);
-            legend12.Name = "Legend1";
-            this.aChart1.Legends.Add(legend12);
+            chartArea2.Name = "ChartArea1";
+            this.aChart1.ChartAreas.Add(chartArea2);
+            legend2.Name = "Legend1";
+            this.aChart1.Legends.Add(legend2);
             this.aChart1.Location = new System.Drawing.Point(8, 23);
             this.aChart1.Margin = new System.Windows.Forms.Padding(4);
             this.aChart1.Name = "aChart1";
-            series12.ChartArea = "ChartArea1";
-            series12.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Area;
-            series12.Legend = "Legend1";
-            series12.Name = "Temperatura";
-            this.aChart1.Series.Add(series12);
+            series2.ChartArea = "ChartArea1";
+            series2.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Area;
+            series2.Legend = "Legend1";
+            series2.Name = "Temperatura";
+            this.aChart1.Series.Add(series2);
             this.aChart1.Size = new System.Drawing.Size(944, 350);
             this.aChart1.TabIndex = 21;
             this.aChart1.Text = "aChart";
@@ -710,6 +711,7 @@
             // 
             // tabPageComunic
             // 
+            this.tabPageComunic.Controls.Add(this.btTeste);
             this.tabPageComunic.Controls.Add(this.groupBox2);
             this.tabPageComunic.Controls.Add(this.groupBox1);
             this.tabPageComunic.Controls.Add(this.groupBoxComSerial);
@@ -721,6 +723,37 @@
             this.tabPageComunic.TabIndex = 0;
             this.tabPageComunic.Text = "Comunicação";
             this.tabPageComunic.UseVisualStyleBackColor = true;
+            // 
+            // groupBox2
+            // 
+            this.groupBox2.Controls.Add(this.btLiga);
+            this.groupBox2.Controls.Add(this.btdesliga);
+            this.groupBox2.Location = new System.Drawing.Point(860, 137);
+            this.groupBox2.Name = "groupBox2";
+            this.groupBox2.Size = new System.Drawing.Size(267, 100);
+            this.groupBox2.TabIndex = 64;
+            this.groupBox2.TabStop = false;
+            this.groupBox2.Text = "Heater";
+            // 
+            // btLiga
+            // 
+            this.btLiga.Location = new System.Drawing.Point(6, 21);
+            this.btLiga.Name = "btLiga";
+            this.btLiga.Size = new System.Drawing.Size(75, 44);
+            this.btLiga.TabIndex = 62;
+            this.btLiga.Text = "Liga";
+            this.btLiga.UseVisualStyleBackColor = true;
+            this.btLiga.Click += new System.EventHandler(this.btLiga_Click);
+            // 
+            // btdesliga
+            // 
+            this.btdesliga.Location = new System.Drawing.Point(99, 21);
+            this.btdesliga.Name = "btdesliga";
+            this.btdesliga.Size = new System.Drawing.Size(75, 44);
+            this.btdesliga.TabIndex = 63;
+            this.btdesliga.Text = "desliga";
+            this.btdesliga.UseVisualStyleBackColor = true;
+            this.btdesliga.Click += new System.EventHandler(this.btdesliga_Click);
             // 
             // groupBox1
             // 
@@ -912,36 +945,14 @@
             // 
             this.timerChart1.Interval = 1000;
             // 
-            // btLiga
+            // btTeste
             // 
-            this.btLiga.Location = new System.Drawing.Point(6, 21);
-            this.btLiga.Name = "btLiga";
-            this.btLiga.Size = new System.Drawing.Size(75, 44);
-            this.btLiga.TabIndex = 62;
-            this.btLiga.Text = "Liga";
-            this.btLiga.UseVisualStyleBackColor = true;
-            this.btLiga.Click += new System.EventHandler(this.btLiga_Click);
-            // 
-            // btdesliga
-            // 
-            this.btdesliga.Location = new System.Drawing.Point(99, 21);
-            this.btdesliga.Name = "btdesliga";
-            this.btdesliga.Size = new System.Drawing.Size(75, 44);
-            this.btdesliga.TabIndex = 63;
-            this.btdesliga.Text = "desliga";
-            this.btdesliga.UseVisualStyleBackColor = true;
-            this.btdesliga.Click += new System.EventHandler(this.btdesliga_Click);
-            // 
-            // groupBox2
-            // 
-            this.groupBox2.Controls.Add(this.btLiga);
-            this.groupBox2.Controls.Add(this.btdesliga);
-            this.groupBox2.Location = new System.Drawing.Point(860, 137);
-            this.groupBox2.Name = "groupBox2";
-            this.groupBox2.Size = new System.Drawing.Size(267, 100);
-            this.groupBox2.TabIndex = 64;
-            this.groupBox2.TabStop = false;
-            this.groupBox2.Text = "Heater";
+            this.btTeste.Location = new System.Drawing.Point(882, 266);
+            this.btTeste.Name = "btTeste";
+            this.btTeste.Size = new System.Drawing.Size(152, 69);
+            this.btTeste.TabIndex = 65;
+            this.btTeste.Text = "Teste";
+            this.btTeste.UseVisualStyleBackColor = true;
             // 
             // Form1
             // 
@@ -954,7 +965,7 @@
             this.MainMenuStrip = this.menuStrip1;
             this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "Form1";
-            this.Text = "Supervisório - Especialização";
+            this.Text = "Supervisório";
             this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
             this.groupBoxComSerial.ResumeLayout(false);
             this.groupBoxComSerial.PerformLayout();
@@ -969,12 +980,12 @@
             ((System.ComponentModel.ISupportInitialize)(this.aChart1)).EndInit();
             this.tabControl1.ResumeLayout(false);
             this.tabPageComunic.ResumeLayout(false);
+            this.groupBox2.ResumeLayout(false);
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
             this.tabPageMed.ResumeLayout(false);
             this.tabPage1.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.dataGridViewSensor)).EndInit();
-            this.groupBox2.ResumeLayout(false);
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -1044,6 +1055,7 @@
         private System.Windows.Forms.Button btLiga;
         private System.Windows.Forms.Button btdesliga;
         private System.Windows.Forms.GroupBox groupBox2;
+        private System.Windows.Forms.Button btTeste;
     }
 }
 
