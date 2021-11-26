@@ -1,0 +1,113 @@
+C:\Users\ALAN\Dropbox\2_UFOP_MATERIAL_DISCP\SUPERVISORIO_XBEE\Serial\bin\Debug\Serial.exe.config
+C:\Users\ALAN\Dropbox\2_UFOP_MATERIAL_DISCP\SUPERVISORIO_XBEE\Serial\bin\Debug\Serial.exe.manifest
+C:\Users\ALAN\Dropbox\2_UFOP_MATERIAL_DISCP\SUPERVISORIO_XBEE\Serial\bin\Debug\Serial.application
+C:\Users\ALAN\Dropbox\2_UFOP_MATERIAL_DISCP\SUPERVISORIO_XBEE\Serial\bin\Debug\Serial.exe
+C:\Users\ALAN\Dropbox\2_UFOP_MATERIAL_DISCP\SUPERVISORIO_XBEE\Serial\bin\Debug\Serial.pdb
+C:\Users\ALAN\Dropbox\2_UFOP_MATERIAL_DISCP\SUPERVISORIO_XBEE\Serial\bin\Debug\StatDescriptive.pdb
+C:\Users\ALAN\Dropbox\2_UFOP_MATERIAL_DISCP\SUPERVISORIO_XBEE\Serial\obj\x86\Debug\Serial.Form1.resources
+C:\Users\ALAN\Dropbox\2_UFOP_MATERIAL_DISCP\SUPERVISORIO_XBEE\Serial\obj\x86\Debug\Serial.Form2.resources
+C:\Users\ALAN\Dropbox\2_UFOP_MATERIAL_DISCP\SUPERVISORIO_XBEE\Serial\obj\x86\Debug\Serial.Properties.Resources.resources
+C:\Users\ALAN\Dropbox\2_UFOP_MATERIAL_DISCP\SUPERVISORIO_XBEE\Serial\obj\x86\Debug\Supervisorio_Xbee.csproj.GenerateResource.Cache
+C:\Users\ALAN\Dropbox\2_UFOP_MATERIAL_DISCP\SUPERVISORIO_XBEE\Serial\obj\x86\Debug\Serial.exe.manifest
+C:\Users\ALAN\Dropbox\2_UFOP_MATERIAL_DISCP\SUPERVISORIO_XBEE\Serial\obj\x86\Debug\Serial.application
+C:\Users\ALAN\Dropbox\2_UFOP_MATERIAL_DISCP\SUPERVISORIO_XBEE\Serial\obj\x86\Debug\Serial.exe
+C:\Users\ALAN\Dropbox\2_UFOP_MATERIAL_DISCP\SUPERVISORIO_XBEE\Serial\obj\x86\Debug\Serial.pdb
+C:\Users\ALAN\Dropbox\2_UFOP_MATERIAL_DISCP\SUPERVISORIO_XBEE\Serial\obj\x86\Debug\Supervisorio_Xbee.csprojResolveAssemblyReference.cache
+D:\Dropbox\2_UFOP_MATERIAL_DISCP\SUPERVISORIO_XBEE\Serial\bin\Debug\Serial.exe.config
+D:\Dropbox\2_UFOP_MATERIAL_DISCP\SUPERVISORIO_XBEE\Serial\obj\x86\Debug\Serial.exe
+D:\Dropbox\2_UFOP_MATERIAL_DISCP\SUPERVISORIO_XBEE\Serial\obj\x86\Debug\Serial.pdb
+D:\Dropbox\2_UFOP_MATERIAL_DISCP\SUPERVISORIO_XBEE\Serial\obj\x86\Debug\Supervisorio_Xbee.csprojResolveAssemblyReference.cache
+D:\Dropbox\2_UFOP_MATERIAL_DISCP\SUPERVISORIO_XBEE\Serial\obj\x86\Debug\Serial.Form1.resources
+D:\Dropbox\2_UFOP_MATERIAL_DISCP\SUPERVISORIO_XBEE\Serial\obj\x86\Debug\Serial.Form2.resources
+D:\Dropbox\2_UFOP_MATERIAL_DISCP\SUPERVISORIO_XBEE\Serial\obj\x86\Debug\Serial.Properties.Resources.resources
+D:\Dropbox\2_UFOP_MATERIAL_DISCP\SUPERVISORIO_XBEE\Serial\obj\x86\Debug\Supervisorio_Xbee.csproj.GenerateResource.Cache
+D:\Dropbox\2_UFOP_MATERIAL_DISCP\SUPERVISORIO_XBEE\Serial\bin\Debug\Serial.exe.manifest
+D:\Dropbox\2_UFOP_MATERIAL_DISCP\SUPERVISORIO_XBEE\Serial\bin\Debug\Serial.application
+D:\Dropbox\2_UFOP_MATERIAL_DISCP\SUPERVISORIO_XBEE\Serial\bin\Debug\Serial.exe
+D:\Dropbox\2_UFOP_MATERIAL_DISCP\SUPERVISORIO_XBEE\Serial\bin\Debug\Serial.pdb
+D:\Dropbox\2_UFOP_MATERIAL_DISCP\SUPERVISORIO_XBEE\Serial\bin\Debug\nunit.framework.dll
+D:\Dropbox\2_UFOP_MATERIAL_DISCP\SUPERVISORIO_XBEE\Serial\bin\Debug\StatDescriptive.dll
+D:\Dropbox\2_UFOP_MATERIAL_DISCP\SUPERVISORIO_XBEE\Serial\bin\Debug\StatDescriptive.pdb
+D:\Dropbox\2_UFOP_MATERIAL_DISCP\SUPERVISORIO_XBEE\Serial\obj\x86\Debug\Serial.exe.manifest
+D:\Dropbox\2_UFOP_MATERIAL_DISCP\SUPERVISORIO_XBEE\Serial\obj\x86\Debug\Serial.application
+C:\Users\01511203\OneDrive - Vale S.A\@Mestrado ITV\CAM210 - Sistema Embarcados\SUPERVISORIO_XBEE\Serial\bin\Debug\Serial.exe.config
+C:\Users\01511203\OneDrive - Vale S.A\@Mestrado ITV\CAM210 - Sistema Embarcados\SUPERVISORIO_XBEE\Serial\bin\Debug\Serial.exe.manifest
+C:\Users\01511203\OneDrive - Vale S.A\@Mestrado ITV\CAM210 - Sistema Embarcados\SUPERVISORIO_XBEE\Serial\bin\Debug\Serial.application
+C:\Users\01511203\OneDrive - Vale S.A\@Mestrado ITV\CAM210 - Sistema Embarcados\SUPERVISORIO_XBEE\Serial\bin\Debug\Serial.exe
+C:\Users\01511203\OneDrive - Vale S.A\@Mestrado ITV\CAM210 - Sistema Embarcados\SUPERVISORIO_XBEE\Serial\bin\Debug\Serial.pdb
+C:\Users\01511203\OneDrive - Vale S.A\@Mestrado ITV\CAM210 - Sistema Embarcados\SUPERVISORIO_XBEE\Serial\bin\Debug\StatDescriptive.pdb
+C:\Users\01511203\OneDrive - Vale S.A\@Mestrado ITV\CAM210 - Sistema Embarcados\SUPERVISORIO_XBEE\Serial\obj\x86\Debug\Supervisorio_Xbee.csprojResolveAssemblyReference.cache
+C:\Users\01511203\OneDrive - Vale S.A\@Mestrado ITV\CAM210 - Sistema Embarcados\SUPERVISORIO_XBEE\Serial\obj\x86\Debug\Serial.Form1.resources
+C:\Users\01511203\OneDrive - Vale S.A\@Mestrado ITV\CAM210 - Sistema Embarcados\SUPERVISORIO_XBEE\Serial\obj\x86\Debug\Serial.Form2.resources
+C:\Users\01511203\OneDrive - Vale S.A\@Mestrado ITV\CAM210 - Sistema Embarcados\SUPERVISORIO_XBEE\Serial\obj\x86\Debug\Serial.Properties.Resources.resources
+C:\Users\01511203\OneDrive - Vale S.A\@Mestrado ITV\CAM210 - Sistema Embarcados\SUPERVISORIO_XBEE\Serial\obj\x86\Debug\Supervisorio_Xbee.csproj.GenerateResource.Cache
+C:\Users\01511203\OneDrive - Vale S.A\@Mestrado ITV\CAM210 - Sistema Embarcados\SUPERVISORIO_XBEE\Serial\obj\x86\Debug\Supervisorio_Xbee.csproj.CoreCompileInputs.cache
+C:\Users\01511203\OneDrive - Vale S.A\@Mestrado ITV\CAM210 - Sistema Embarcados\SUPERVISORIO_XBEE\Serial\obj\x86\Debug\Serial.exe.manifest
+C:\Users\01511203\OneDrive - Vale S.A\@Mestrado ITV\CAM210 - Sistema Embarcados\SUPERVISORIO_XBEE\Serial\obj\x86\Debug\Serial.application
+C:\Users\01511203\OneDrive - Vale S.A\@Mestrado ITV\CAM210 - Sistema Embarcados\SUPERVISORIO_XBEE\Serial\obj\x86\Debug\Serial.exe
+C:\Users\01511203\OneDrive - Vale S.A\@Mestrado ITV\CAM210 - Sistema Embarcados\SUPERVISORIO_XBEE\Serial\obj\x86\Debug\Serial.pdb
+C:\Users\01511203\OneDrive - Vale S.A\@Mestrado ITV\CAM210 - Sistema Embarcados\praticas\Prática 4\SCADA\Serial\bin\Debug\Serial.exe.config
+C:\Users\01511203\OneDrive - Vale S.A\@Mestrado ITV\CAM210 - Sistema Embarcados\praticas\Prática 4\SCADA\Serial\bin\Debug\Serial.exe.manifest
+C:\Users\01511203\OneDrive - Vale S.A\@Mestrado ITV\CAM210 - Sistema Embarcados\praticas\Prática 4\SCADA\Serial\bin\Debug\Serial.application
+C:\Users\01511203\OneDrive - Vale S.A\@Mestrado ITV\CAM210 - Sistema Embarcados\praticas\Prática 4\SCADA\Serial\bin\Debug\Serial.exe
+C:\Users\01511203\OneDrive - Vale S.A\@Mestrado ITV\CAM210 - Sistema Embarcados\praticas\Prática 4\SCADA\Serial\bin\Debug\Serial.pdb
+C:\Users\01511203\OneDrive - Vale S.A\@Mestrado ITV\CAM210 - Sistema Embarcados\praticas\Prática 4\SCADA\Serial\bin\Debug\StatDescriptive.pdb
+C:\Users\01511203\OneDrive - Vale S.A\@Mestrado ITV\CAM210 - Sistema Embarcados\praticas\Prática 4\SCADA\Serial\obj\x86\Debug\Supervisorio_Xbee.csprojResolveAssemblyReference.cache
+C:\Users\01511203\OneDrive - Vale S.A\@Mestrado ITV\CAM210 - Sistema Embarcados\praticas\Prática 4\SCADA\Serial\obj\x86\Debug\Serial.Form1.resources
+C:\Users\01511203\OneDrive - Vale S.A\@Mestrado ITV\CAM210 - Sistema Embarcados\praticas\Prática 4\SCADA\Serial\obj\x86\Debug\Serial.Form2.resources
+C:\Users\01511203\OneDrive - Vale S.A\@Mestrado ITV\CAM210 - Sistema Embarcados\praticas\Prática 4\SCADA\Serial\obj\x86\Debug\Serial.Properties.Resources.resources
+C:\Users\01511203\OneDrive - Vale S.A\@Mestrado ITV\CAM210 - Sistema Embarcados\praticas\Prática 4\SCADA\Serial\obj\x86\Debug\Supervisorio_Xbee.csproj.GenerateResource.Cache
+C:\Users\01511203\OneDrive - Vale S.A\@Mestrado ITV\CAM210 - Sistema Embarcados\praticas\Prática 4\SCADA\Serial\obj\x86\Debug\Supervisorio_Xbee.csproj.CoreCompileInputs.cache
+C:\Users\01511203\OneDrive - Vale S.A\@Mestrado ITV\CAM210 - Sistema Embarcados\praticas\Prática 4\SCADA\Serial\obj\x86\Debug\Serial.exe.manifest
+C:\Users\01511203\OneDrive - Vale S.A\@Mestrado ITV\CAM210 - Sistema Embarcados\praticas\Prática 4\SCADA\Serial\obj\x86\Debug\Serial.application
+C:\Users\01511203\OneDrive - Vale S.A\@Mestrado ITV\CAM210 - Sistema Embarcados\praticas\Prática 4\SCADA\Serial\obj\x86\Debug\Serial.exe
+C:\Users\01511203\OneDrive - Vale S.A\@Mestrado ITV\CAM210 - Sistema Embarcados\praticas\Prática 4\SCADA\Serial\obj\x86\Debug\Serial.pdb
+C:\Users\ALAN\Dropbox\1_UFOP_PERIODO_LETIVO\2017-1\CAM210\LuizBarata\Prática 4\Prática 4\SCADA\Serial\bin\Debug\Serial.exe.config
+C:\Users\ALAN\Dropbox\1_UFOP_PERIODO_LETIVO\2017-1\CAM210\LuizBarata\Prática 4\Prática 4\SCADA\Serial\obj\x86\Debug\Serial.pdb
+D:\Dropbox\2_UFOP_MATERIAL_DISCP\CAM210 - SISTEMAS EMBARCADOS\PRATICAS\P4\Gabarito\Supervisorio\serial\bin\Debug\Serial.exe.config
+D:\Dropbox\2_UFOP_MATERIAL_DISCP\CAM210 - SISTEMAS EMBARCADOS\PRATICAS\P4\Gabarito\Supervisorio\serial\bin\Debug\Serial.exe.manifest
+D:\Dropbox\2_UFOP_MATERIAL_DISCP\CAM210 - SISTEMAS EMBARCADOS\PRATICAS\P4\Gabarito\Supervisorio\serial\bin\Debug\Serial.application
+D:\Dropbox\2_UFOP_MATERIAL_DISCP\CAM210 - SISTEMAS EMBARCADOS\PRATICAS\P4\Gabarito\Supervisorio\serial\bin\Debug\Serial.exe
+D:\Dropbox\2_UFOP_MATERIAL_DISCP\CAM210 - SISTEMAS EMBARCADOS\PRATICAS\P4\Gabarito\Supervisorio\serial\bin\Debug\Serial.pdb
+D:\Dropbox\2_UFOP_MATERIAL_DISCP\CAM210 - SISTEMAS EMBARCADOS\PRATICAS\P4\Gabarito\Supervisorio\serial\bin\Debug\StatDescriptive.pdb
+D:\Dropbox\2_UFOP_MATERIAL_DISCP\CAM210 - SISTEMAS EMBARCADOS\PRATICAS\P4\Gabarito\Supervisorio\serial\obj\x86\Debug\Supervisorio_Xbee.csprojResolveAssemblyReference.cache
+D:\Dropbox\2_UFOP_MATERIAL_DISCP\CAM210 - SISTEMAS EMBARCADOS\PRATICAS\P4\Gabarito\Supervisorio\serial\obj\x86\Debug\Serial.Form1.resources
+D:\Dropbox\2_UFOP_MATERIAL_DISCP\CAM210 - SISTEMAS EMBARCADOS\PRATICAS\P4\Gabarito\Supervisorio\serial\obj\x86\Debug\Serial.Form2.resources
+D:\Dropbox\2_UFOP_MATERIAL_DISCP\CAM210 - SISTEMAS EMBARCADOS\PRATICAS\P4\Gabarito\Supervisorio\serial\obj\x86\Debug\Serial.Properties.Resources.resources
+D:\Dropbox\2_UFOP_MATERIAL_DISCP\CAM210 - SISTEMAS EMBARCADOS\PRATICAS\P4\Gabarito\Supervisorio\serial\obj\x86\Debug\Supervisorio_Xbee.csproj.GenerateResource.Cache
+D:\Dropbox\2_UFOP_MATERIAL_DISCP\CAM210 - SISTEMAS EMBARCADOS\PRATICAS\P4\Gabarito\Supervisorio\serial\obj\x86\Debug\Serial.exe.manifest
+D:\Dropbox\2_UFOP_MATERIAL_DISCP\CAM210 - SISTEMAS EMBARCADOS\PRATICAS\P4\Gabarito\Supervisorio\serial\obj\x86\Debug\Serial.application
+D:\Dropbox\2_UFOP_MATERIAL_DISCP\CAM210 - SISTEMAS EMBARCADOS\PRATICAS\P4\Gabarito\Supervisorio\serial\obj\x86\Debug\Serial.exe
+D:\Dropbox\2_UFOP_MATERIAL_DISCP\CAM210 - SISTEMAS EMBARCADOS\PRATICAS\P4\Gabarito\Supervisorio\serial\obj\x86\Debug\Serial.pdb
+C:\Users\ALAN\Dropbox\2_UFOP_MATERIAL_DISCP\CAM210 - SISTEMAS EMBARCADOS\EXEMPLOS\ArduinoSupervisorio\Supervisorio\serial\bin\Debug\Serial.exe.config
+C:\Users\ALAN\Dropbox\2_UFOP_MATERIAL_DISCP\CAM210 - SISTEMAS EMBARCADOS\EXEMPLOS\ArduinoSupervisorio\Supervisorio\serial\obj\x86\Debug\Serial.exe
+C:\Users\ALAN\Dropbox\2_UFOP_MATERIAL_DISCP\CAM210 - SISTEMAS EMBARCADOS\EXEMPLOS\ArduinoSupervisorio\Supervisorio\serial\obj\x86\Debug\Serial.pdb
+C:\Users\ALAN\Dropbox\2_UFOP_MATERIAL_DISCP\CAM210 - SISTEMAS EMBARCADOS\EXEMPLOS\ArduinoSupervisorio\Supervisorio\serial\bin\Debug\Serial.exe.manifest
+C:\Users\ALAN\Dropbox\2_UFOP_MATERIAL_DISCP\CAM210 - SISTEMAS EMBARCADOS\EXEMPLOS\ArduinoSupervisorio\Supervisorio\serial\bin\Debug\Serial.application
+C:\Users\ALAN\Dropbox\2_UFOP_MATERIAL_DISCP\CAM210 - SISTEMAS EMBARCADOS\EXEMPLOS\ArduinoSupervisorio\Supervisorio\serial\bin\Debug\Serial.exe
+C:\Users\ALAN\Dropbox\2_UFOP_MATERIAL_DISCP\CAM210 - SISTEMAS EMBARCADOS\EXEMPLOS\ArduinoSupervisorio\Supervisorio\serial\bin\Debug\Serial.pdb
+C:\Users\ALAN\Dropbox\2_UFOP_MATERIAL_DISCP\CAM210 - SISTEMAS EMBARCADOS\EXEMPLOS\ArduinoSupervisorio\Supervisorio\serial\bin\Debug\StatDescriptive.pdb
+C:\Users\ALAN\Dropbox\2_UFOP_MATERIAL_DISCP\CAM210 - SISTEMAS EMBARCADOS\EXEMPLOS\ArduinoSupervisorio\Supervisorio\serial\obj\x86\Debug\Supervisorio_Xbee.csprojResolveAssemblyReference.cache
+C:\Users\ALAN\Dropbox\2_UFOP_MATERIAL_DISCP\CAM210 - SISTEMAS EMBARCADOS\EXEMPLOS\ArduinoSupervisorio\Supervisorio\serial\obj\x86\Debug\Serial.Form1.resources
+C:\Users\ALAN\Dropbox\2_UFOP_MATERIAL_DISCP\CAM210 - SISTEMAS EMBARCADOS\EXEMPLOS\ArduinoSupervisorio\Supervisorio\serial\obj\x86\Debug\Serial.Form2.resources
+C:\Users\ALAN\Dropbox\2_UFOP_MATERIAL_DISCP\CAM210 - SISTEMAS EMBARCADOS\EXEMPLOS\ArduinoSupervisorio\Supervisorio\serial\obj\x86\Debug\Serial.Properties.Resources.resources
+C:\Users\ALAN\Dropbox\2_UFOP_MATERIAL_DISCP\CAM210 - SISTEMAS EMBARCADOS\EXEMPLOS\ArduinoSupervisorio\Supervisorio\serial\obj\x86\Debug\Supervisorio_Xbee.csproj.GenerateResource.Cache
+C:\Users\ALAN\Dropbox\2_UFOP_MATERIAL_DISCP\CAM210 - SISTEMAS EMBARCADOS\EXEMPLOS\ArduinoSupervisorio\Supervisorio\serial\obj\x86\Debug\Serial.exe.manifest
+C:\Users\ALAN\Dropbox\2_UFOP_MATERIAL_DISCP\CAM210 - SISTEMAS EMBARCADOS\EXEMPLOS\ArduinoSupervisorio\Supervisorio\serial\obj\x86\Debug\Serial.application
+G:\Meu Drive\1_UFOP_PERIODO_LETIVO\2020-2\CAM210\EXEMPLOS\ArduinoSupervisorio\Supervisorio\Serial\bin\Debug\Serial.exe.config
+G:\Meu Drive\1_UFOP_PERIODO_LETIVO\2020-2\CAM210\EXEMPLOS\ArduinoSupervisorio\Supervisorio\Serial\bin\Debug\Serial.exe.manifest
+G:\Meu Drive\1_UFOP_PERIODO_LETIVO\2020-2\CAM210\EXEMPLOS\ArduinoSupervisorio\Supervisorio\Serial\bin\Debug\Serial.application
+G:\Meu Drive\1_UFOP_PERIODO_LETIVO\2020-2\CAM210\EXEMPLOS\ArduinoSupervisorio\Supervisorio\Serial\bin\Debug\Serial.exe
+G:\Meu Drive\1_UFOP_PERIODO_LETIVO\2020-2\CAM210\EXEMPLOS\ArduinoSupervisorio\Supervisorio\Serial\bin\Debug\Serial.pdb
+G:\Meu Drive\1_UFOP_PERIODO_LETIVO\2020-2\CAM210\EXEMPLOS\ArduinoSupervisorio\Supervisorio\Serial\bin\Debug\StatDescriptive.pdb
+G:\Meu Drive\1_UFOP_PERIODO_LETIVO\2020-2\CAM210\EXEMPLOS\ArduinoSupervisorio\Supervisorio\Serial\obj\x86\Debug\Supervisorio_Xbee.csprojAssemblyReference.cache
+G:\Meu Drive\1_UFOP_PERIODO_LETIVO\2020-2\CAM210\EXEMPLOS\ArduinoSupervisorio\Supervisorio\Serial\obj\x86\Debug\Serial.Form1.resources
+G:\Meu Drive\1_UFOP_PERIODO_LETIVO\2020-2\CAM210\EXEMPLOS\ArduinoSupervisorio\Supervisorio\Serial\obj\x86\Debug\Serial.Form2.resources
+G:\Meu Drive\1_UFOP_PERIODO_LETIVO\2020-2\CAM210\EXEMPLOS\ArduinoSupervisorio\Supervisorio\Serial\obj\x86\Debug\Serial.Properties.Resources.resources
+G:\Meu Drive\1_UFOP_PERIODO_LETIVO\2020-2\CAM210\EXEMPLOS\ArduinoSupervisorio\Supervisorio\Serial\obj\x86\Debug\Supervisorio_Xbee.csproj.GenerateResource.cache
+G:\Meu Drive\1_UFOP_PERIODO_LETIVO\2020-2\CAM210\EXEMPLOS\ArduinoSupervisorio\Supervisorio\Serial\obj\x86\Debug\Supervisorio_Xbee.csproj.CoreCompileInputs.cache
+G:\Meu Drive\1_UFOP_PERIODO_LETIVO\2020-2\CAM210\EXEMPLOS\ArduinoSupervisorio\Supervisorio\Serial\obj\x86\Debug\Serial.exe.manifest
+G:\Meu Drive\1_UFOP_PERIODO_LETIVO\2020-2\CAM210\EXEMPLOS\ArduinoSupervisorio\Supervisorio\Serial\obj\x86\Debug\Serial.application
+G:\Meu Drive\1_UFOP_PERIODO_LETIVO\2020-2\CAM210\EXEMPLOS\ArduinoSupervisorio\Supervisorio\Serial\obj\x86\Debug\Supervisorio_Xbee.csproj.CopyComplete
+G:\Meu Drive\1_UFOP_PERIODO_LETIVO\2020-2\CAM210\EXEMPLOS\ArduinoSupervisorio\Supervisorio\Serial\obj\x86\Debug\Serial.exe
+G:\Meu Drive\1_UFOP_PERIODO_LETIVO\2020-2\CAM210\EXEMPLOS\ArduinoSupervisorio\Supervisorio\Serial\obj\x86\Debug\Serial.pdb
