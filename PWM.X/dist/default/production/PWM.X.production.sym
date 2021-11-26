@@ -106,12 +106,14 @@ __Lfardata 0 0 FARRAM 0
 __Habs1 0 0 ABS 0
 __Labs1 0 0 ABS 0
 _ADRESL FC3 0 ABS 0
+isa$xinst 0 0 ABS 0
 __HnvFARRAM 0 0 FARRAM 0
 __end_of_Lcd_Chr_CP A1E 0 CODE 0
 __LnvFARRAM 0 0 FARRAM 0
 __end_of_dpowers 60B 0 SMALLCONST 0
 __Hdata 0 0 ABS 0
 __Ldata 0 0 ABS 0
+isa$std 1 0 ABS 0
 stackhi 5FF 0 ABS 0
 sprintf@sp D 0 COMRAM 1
 __Htemp 0 0 COMRAM 1
@@ -344,32 +346,32 @@ cstackCOMRAM 1 2A COMRAM 1 1
 text1 612 12D7 CODE 612 0
 %locals
 dist/default/production\PWM.X.production.o
-D:/MPLABX/XC8/pic/include/proc\pic18f4520.h
-C:\Users\Alan Kardek\AppData\Local\Temp\s2vc.s
-1102 1256 0 CODE 0
-1104 1256 0 CODE 0
-1107 1256 0 CODE 0
-1131 1256 0 CODE 0
-1132 1258 0 CODE 0
-1133 125A 0 CODE 0
-1134 125C 0 CODE 0
-1135 125E 0 CODE 0
-1136 1260 0 CODE 0
-1137 1262 0 CODE 0
-1138 1264 0 CODE 0
-1139 1268 0 CODE 0
-1140 126A 0 CODE 0
-1144 126E 0 CODE 0
-1145 1272 0 CODE 0
-1146 1274 0 CODE 0
+C:/Program Files/Microchip/MPLABX/v5.50/packs/Microchip/PIC18Fxxxx_DFP/1.2.26/xc8\pic\include\proc\pic18f4520.h
+C:\Users\Alan Kardek\AppData\Local\Temp\xcAs68g.s
+1103 1256 0 CODE 0
+1105 1256 0 CODE 0
+1108 1256 0 CODE 0
+1132 1256 0 CODE 0
+1133 1258 0 CODE 0
+1134 125A 0 CODE 0
+1135 125C 0 CODE 0
+1136 125E 0 CODE 0
+1137 1260 0 CODE 0
+1138 1262 0 CODE 0
+1139 1264 0 CODE 0
+1140 1268 0 CODE 0
+1141 126A 0 CODE 0
+1145 126E 0 CODE 0
+1146 1272 0 CODE 0
 1147 1274 0 CODE 0
-1148 1276 0 CODE 0
-1149 1278 0 CODE 0
-1155 127A 0 CODE 0
-1158 127A 0 CODE 0
-1159 127C 0 CODE 0
-1160 127E 0 CODE 0
-1161 1280 0 CODE 0
+1148 1274 0 CODE 0
+1149 1276 0 CODE 0
+1150 1278 0 CODE 0
+1156 127A 0 CODE 0
+1159 127A 0 CODE 0
+1160 127C 0 CODE 0
+1161 127E 0 CODE 0
+1162 1280 0 CODE 0
 mainPWM.c
 32 E58 0 CODE 0
 34 E58 0 CODE 0
@@ -405,7 +407,7 @@ mainPWM.c
 78 ED4 0 CODE 0
 79 EF0 0 CODE 0
 80 F02 0 CODE 0
-D:\MPLABX\XC8\pic\sources\c90\common\doprnt.c
+C:\Program Files\Microchip\xc8\v2.32\pic\sources\c90\common\doprnt.c
 505 612 0 CODE 0
 550 612 0 CODE 0
 553 61A 0 CODE 0
@@ -417,6 +419,7 @@ D:\MPLABX\XC8\pic\sources\c90\common\doprnt.c
 597 654 0 CODE 0
 598 656 0 CODE 0
 568 65A 0 CODE 0
+568 668 0 CODE 0
 614 672 0 CODE 0
 615 690 0 CODE 0
 617 698 0 CODE 0
@@ -425,6 +428,8 @@ D:\MPLABX\XC8\pic\sources\c90\common\doprnt.c
 844 702 0 CODE 0
 845 706 0 CODE 0
 661 70A 0 CODE 0
+661 720 0 CODE 0
+661 728 0 CODE 0
 1312 732 0 CODE 0
 1331 74A 0 CODE 0
 1332 74E 0 CODE 0
@@ -448,18 +453,18 @@ D:\MPLABX\XC8\pic\sources\c90\common\doprnt.c
 553 8BA 0 CODE 0
 1564 8DC 0 CODE 0
 1567 8E8 0 CODE 0
-D:\MPLABX\XC8\pic\sources\c90\common\isdigit.c
+C:\Program Files\Microchip\xc8\v2.32\pic\sources\c90\common\isdigit.c
 8 1224 0 CODE 0
 14 1226 0 CODE 0
 15 1254 0 CODE 0
-D:\MPLABX\XC8\pic\sources\c90\common\Umul16.c
+C:\Program Files\Microchip\xc8\v2.32\pic\sources\c90\common\Umul16.c
 15 12B0 0 CODE 0
 37 12B0 0 CODE 0
 38 12BC 0 CODE 0
 39 12C4 0 CODE 0
 52 12CC 0 CODE 0
 53 12D4 0 CODE 0
-D:\MPLABX\XC8\pic\sources\c90\common\lwmod.c
+C:\Program Files\Microchip\xc8\v2.32\pic\sources\c90\common\lwmod.c
 7 11C0 0 CODE 0
 12 11C0 0 CODE 0
 13 11D2 0 CODE 0
@@ -474,7 +479,7 @@ D:\MPLABX\XC8\pic\sources\c90\common\lwmod.c
 23 121A 0 CODE 0
 24 121A 0 CODE 0
 25 1222 0 CODE 0
-D:\MPLABX\XC8\pic\sources\c90\common\lwdiv.c
+C:\Program Files\Microchip\xc8\v2.32\pic\sources\c90\common\lwdiv.c
 7 10E2 0 CODE 0
 13 10E2 0 CODE 0
 14 10EA 0 CODE 0
@@ -509,7 +514,7 @@ pwm.c
 107 102E 0 CODE 0
 108 1046 0 CODE 0
 109 1056 0 CODE 0
-D:\MPLABX\XC8\pic\sources\c90\common\Umul32.c
+C:\Program Files\Microchip\xc8\v2.32\pic\sources\c90\common\Umul32.c
 15 1156 0 CODE 0
 119 1156 0 CODE 0
 121 1166 0 CODE 0
@@ -519,7 +524,7 @@ D:\MPLABX\XC8\pic\sources\c90\common\Umul32.c
 125 1198 0 CODE 0
 128 11AE 0 CODE 0
 129 11BE 0 CODE 0
-D:\MPLABX\XC8\pic\sources\c90\common\__lldiv.c
+C:\Program Files\Microchip\xc8\v2.32\pic\sources\c90\common\__lldiv.c
 7 F22 0 CODE 0
 13 F22 0 CODE 0
 14 F32 0 CODE 0
@@ -559,7 +564,7 @@ pwm.c
 68 E4A 0 CODE 0
 71 E52 0 CODE 0
 73 E56 0 CODE 0
-D:\MPLABX\XC8\pic\sources\c90\common\aldiv.c
+C:\Program Files\Microchip\xc8\v2.32\pic\sources\c90\common\aldiv.c
 7 C5A 0 CODE 0
 13 C5A 0 CODE 0
 14 C5E 0 CODE 0
@@ -593,6 +598,10 @@ flexlcd.h
 103 1072 0 CODE 0
 104 107C 0 CODE 0
 99 1086 0 CODE 0
+99 108A 0 CODE 0
+99 1092 0 CODE 0
+99 109A 0 CODE 0
+99 10A2 0 CODE 0
 107 10AC 0 CODE 0
 108 10B2 0 CODE 0
 110 10B6 0 CODE 0

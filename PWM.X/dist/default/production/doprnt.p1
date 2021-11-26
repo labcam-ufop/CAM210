@@ -1,13 +1,13 @@
 Version 3.2 HI-TECH Software Intermediate Code
-"10 D:\MPLABX\XC8\pic\include\c90\stdarg.h
+"10 C:\Program Files\Microchip\xc8\v2.32\pic\include\c90\stdarg.h
 [v ___va_start `(*v ~T0 @X0 0 ef ]
 [p i ___va_start ]
-"7 D:\MPLABX\XC8\pic\include\c90\ctype.h
+"7 C:\Program Files\Microchip\xc8\v2.32\pic\include\c90\ctype.h
 [v _isdigit `(b ~T0 @X0 0 ef1`uc ]
-"13 D:\MPLABX\XC8\pic\include\c90\stdarg.h
+"13 C:\Program Files\Microchip\xc8\v2.32\pic\include\c90\stdarg.h
 [v ___va_arg `(*v ~T0 @X0 0 ev`*v ]
 [p i ___va_arg ]
-[; ;include\__size_t.h: 4: typedef unsigned size_t;
+[; ;xc8\pic\include\__size_t.h: 4: typedef unsigned size_t;
 [; ;stdarg.h: 7: typedef void * va_list[1];
 [; ;stdarg.h: 10: extern void * __va_start(void);
 [; ;stdarg.h: 13: extern void * __va_arg(void *, ...);
@@ -153,7 +153,7 @@ Version 3.2 HI-TECH Software Intermediate Code
 [; ;math.h: 53: extern double fmod(double, double);
 [; ;math.h: 54: extern double trunc(double);
 [; ;math.h: 55: extern double round(double);
-"12 D:\MPLABX\XC8\pic\sources\c90\common\doprnt.c
+"12 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c90\common\doprnt.c
 [p n 350 ]
 "358
 [v _dpowers `Cui ~T0 @X0 -> 0 `x s ]

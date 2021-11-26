@@ -1,9 +1,9 @@
 
 
-Microchip MPLAB XC8 Assembler V2.31 build 20201012212115 
-                                                                                               Thu Dec 03 14:40:23 2020
+Microchip MPLAB XC8 Assembler V2.32 build 20210201212658 
+                                                                                               Wed Nov 24 18:08:31 2021
 
-Microchip MPLAB XC8 C Compiler v2.31 (Free license) build 20201012212115 Og1 
+Microchip MPLAB XC8 C Compiler v2.32 (Free license) build 20210201212658 Og1 
      1                           	processor	18F4520
      2                           	fnconf	rparam,??,?,0
      3                           	pagewidth 120
@@ -83,7 +83,7 @@ Microchip MPLAB XC8 C Compiler v2.31 (Free license) build 20201012212115 Og1
     69                           	callstack 0
     70                           
     71                           ;initializer for _duty
-    72  0012D6  00FF               	dw	255
+    72  0012D6  000C               	dw	12
     73                           
     74                           	psect	smallconst
     75  000600                     __psmallconst:
@@ -403,7 +403,7 @@ Microchip MPLAB XC8 C Compiler v2.31 (Free license) build 20201012212115 Og1
    389 ;;      Temps:          2       0       0       0       0       0       0
    390 ;;      Totals:         2       0       0       0       0       0       0
    391 ;;Total ram usage:        2 bytes
-   392 ;; Hardware stack levels required when called:    2
+   392 ;; Hardware stack levels required when called: 2
    393 ;; This function calls:
    394 ;;		_Lcd_Cmd
    395 ;;		_Lcd_Init
@@ -525,7 +525,7 @@ Microchip MPLAB XC8 C Compiler v2.31 (Free license) build 20201012212115 Og1
    511  000EC2  0004               	clrwdt		;# 
    512  000EC4                     
    513                           ;mainPWM.c: 75: PWM1_Set_Duty(duty);
-   514  000EC4  0EFF               	movlw	255
+   514  000EC4  0E0C               	movlw	12
    515  000EC6  ECE3  F007         	call	_PWM1_Set_Duty
    516  000ECA                     
    517                           ;mainPWM.c: 76: count = TMR1L;
@@ -580,7 +580,7 @@ Microchip MPLAB XC8 C Compiler v2.31 (Free license) build 20201012212115 Og1
    566                           
    567 ;; *************** function _sprintf *****************
    568 ;; Defined at:
-   569 ;;		line 505 in file "D:\MPLABX\XC8\pic\sources\c90\common\doprnt.c"
+   569 ;;		line 505 in file "C:\Program Files\Microchip\xc8\v2.32\pic\sources\c90\common\doprnt.c"
    570 ;; Parameters:    Size  Location     Type
    571 ;;  sp              2   12[COMRAM] PTR unsigned char 
    572 ;;		 -> str(5), 
@@ -611,8 +611,8 @@ Microchip MPLAB XC8 C Compiler v2.31 (Free license) build 20201012212115 Og1
    597 ;;      Temps:          4       0       0       0       0       0       0
    598 ;;      Totals:        19       0       0       0       0       0       0
    599 ;;Total ram usage:       19 bytes
-   600 ;; Hardware stack levels used:    1
-   601 ;; Hardware stack levels required when called:    1
+   600 ;; Hardware stack levels used: 1
+   601 ;; Hardware stack levels required when called: 1
    602 ;; This function calls:
    603 ;;		___lwdiv
    604 ;;		___lwmod
@@ -1062,7 +1062,7 @@ Microchip MPLAB XC8 C Compiler v2.31 (Free license) build 20201012212115 Og1
   1042                           
   1043 ;; *************** function _isdigit *****************
   1044 ;; Defined at:
-  1045 ;;		line 8 in file "D:\MPLABX\XC8\pic\sources\c90\common\isdigit.c"
+  1045 ;;		line 8 in file "C:\Program Files\Microchip\xc8\v2.32\pic\sources\c90\common\isdigit.c"
   1046 ;; Parameters:    Size  Location     Type
   1047 ;;  c               1    wreg     unsigned char 
   1048 ;; Auto vars:     Size  Location     Type
@@ -1081,7 +1081,7 @@ Microchip MPLAB XC8 C Compiler v2.31 (Free license) build 20201012212115 Og1
   1061 ;;      Temps:          1       0       0       0       0       0       0
   1062 ;;      Totals:         3       0       0       0       0       0       0
   1063 ;;Total ram usage:        3 bytes
-  1064 ;; Hardware stack levels used:    1
+  1064 ;; Hardware stack levels used: 1
   1065 ;; This function calls:
   1066 ;;		Nothing
   1067 ;; This function is called by:
@@ -1125,7 +1125,7 @@ Microchip MPLAB XC8 C Compiler v2.31 (Free license) build 20201012212115 Og1
   1105                           
   1106 ;; *************** function ___wmul *****************
   1107 ;; Defined at:
-  1108 ;;		line 15 in file "D:\MPLABX\XC8\pic\sources\c90\common\Umul16.c"
+  1108 ;;		line 15 in file "C:\Program Files\Microchip\xc8\v2.32\pic\sources\c90\common\Umul16.c"
   1109 ;; Parameters:    Size  Location     Type
   1110 ;;  multiplier      2    0[COMRAM] unsigned int 
   1111 ;;  multiplicand    2    2[COMRAM] unsigned int 
@@ -1145,7 +1145,7 @@ Microchip MPLAB XC8 C Compiler v2.31 (Free license) build 20201012212115 Og1
   1125 ;;      Temps:          0       0       0       0       0       0       0
   1126 ;;      Totals:         6       0       0       0       0       0       0
   1127 ;;Total ram usage:        6 bytes
-  1128 ;; Hardware stack levels used:    1
+  1128 ;; Hardware stack levels used: 1
   1129 ;; This function calls:
   1130 ;;		Nothing
   1131 ;; This function is called by:
@@ -1178,7 +1178,7 @@ Microchip MPLAB XC8 C Compiler v2.31 (Free license) build 20201012212115 Og1
   1158                           
   1159 ;; *************** function ___lwmod *****************
   1160 ;; Defined at:
-  1161 ;;		line 7 in file "D:\MPLABX\XC8\pic\sources\c90\common\lwmod.c"
+  1161 ;;		line 7 in file "C:\Program Files\Microchip\xc8\v2.32\pic\sources\c90\common\lwmod.c"
   1162 ;; Parameters:    Size  Location     Type
   1163 ;;  dividend        2    7[COMRAM] unsigned int 
   1164 ;;  divisor         2    9[COMRAM] unsigned int 
@@ -1198,7 +1198,7 @@ Microchip MPLAB XC8 C Compiler v2.31 (Free license) build 20201012212115 Og1
   1178 ;;      Temps:          0       0       0       0       0       0       0
   1179 ;;      Totals:         5       0       0       0       0       0       0
   1180 ;;Total ram usage:        5 bytes
-  1181 ;; Hardware stack levels used:    1
+  1181 ;; Hardware stack levels used: 1
   1182 ;; This function calls:
   1183 ;;		Nothing
   1184 ;; This function is called by:
@@ -1264,7 +1264,7 @@ Microchip MPLAB XC8 C Compiler v2.31 (Free license) build 20201012212115 Og1
   1244                           
   1245 ;; *************** function ___lwdiv *****************
   1246 ;; Defined at:
-  1247 ;;		line 7 in file "D:\MPLABX\XC8\pic\sources\c90\common\lwdiv.c"
+  1247 ;;		line 7 in file "C:\Program Files\Microchip\xc8\v2.32\pic\sources\c90\common\lwdiv.c"
   1248 ;; Parameters:    Size  Location     Type
   1249 ;;  dividend        2    0[COMRAM] unsigned int 
   1250 ;;  divisor         2    2[COMRAM] unsigned int 
@@ -1285,7 +1285,7 @@ Microchip MPLAB XC8 C Compiler v2.31 (Free license) build 20201012212115 Og1
   1265 ;;      Temps:          0       0       0       0       0       0       0
   1266 ;;      Totals:         7       0       0       0       0       0       0
   1267 ;;Total ram usage:        7 bytes
-  1268 ;; Hardware stack levels used:    1
+  1268 ;; Hardware stack levels used: 1
   1269 ;; This function calls:
   1270 ;;		Nothing
   1271 ;; This function is called by:
@@ -1378,7 +1378,7 @@ Microchip MPLAB XC8 C Compiler v2.31 (Free license) build 20201012212115 Og1
   1358 ;;      Temps:          0       0       0       0       0       0       0
   1359 ;;      Totals:         0       0       0       0       0       0       0
   1360 ;;Total ram usage:        0 bytes
-  1361 ;; Hardware stack levels used:    1
+  1361 ;; Hardware stack levels used: 1
   1362 ;; This function calls:
   1363 ;;		Nothing
   1364 ;; This function is called by:
@@ -1450,8 +1450,8 @@ Microchip MPLAB XC8 C Compiler v2.31 (Free license) build 20201012212115 Og1
   1430 ;;      Temps:          2       0       0       0       0       0       0
   1431 ;;      Totals:         5       0       0       0       0       0       0
   1432 ;;Total ram usage:        5 bytes
-  1433 ;; Hardware stack levels used:    1
-  1434 ;; Hardware stack levels required when called:    1
+  1433 ;; Hardware stack levels used: 1
+  1434 ;; Hardware stack levels required when called: 1
   1435 ;; This function calls:
   1436 ;;		___lldiv
   1437 ;;		___lmul
@@ -1540,7 +1540,7 @@ Microchip MPLAB XC8 C Compiler v2.31 (Free license) build 20201012212115 Og1
   1519                           
   1520 ;; *************** function ___lmul *****************
   1521 ;; Defined at:
-  1522 ;;		line 15 in file "D:\MPLABX\XC8\pic\sources\c90\common\Umul32.c"
+  1522 ;;		line 15 in file "C:\Program Files\Microchip\xc8\v2.32\pic\sources\c90\common\Umul32.c"
   1523 ;; Parameters:    Size  Location     Type
   1524 ;;  multiplier      4    0[COMRAM] unsigned long 
   1525 ;;  multiplicand    4    4[COMRAM] unsigned long 
@@ -1560,7 +1560,7 @@ Microchip MPLAB XC8 C Compiler v2.31 (Free license) build 20201012212115 Og1
   1539 ;;      Temps:          0       0       0       0       0       0       0
   1540 ;;      Totals:        12       0       0       0       0       0       0
   1541 ;;Total ram usage:       12 bytes
-  1542 ;; Hardware stack levels used:    1
+  1542 ;; Hardware stack levels used: 1
   1543 ;; This function calls:
   1544 ;;		Nothing
   1545 ;; This function is called by:
@@ -1627,7 +1627,7 @@ Microchip MPLAB XC8 C Compiler v2.31 (Free license) build 20201012212115 Og1
   1606                           
   1607 ;; *************** function ___lldiv *****************
   1608 ;; Defined at:
-  1609 ;;		line 7 in file "D:\MPLABX\XC8\pic\sources\c90\common\__lldiv.c"
+  1609 ;;		line 7 in file "C:\Program Files\Microchip\xc8\v2.32\pic\sources\c90\common\__lldiv.c"
   1610 ;; Parameters:    Size  Location     Type
   1611 ;;  dividend        4   12[COMRAM] unsigned long 
   1612 ;;  divisor         4   16[COMRAM] unsigned long 
@@ -1648,7 +1648,7 @@ Microchip MPLAB XC8 C Compiler v2.31 (Free license) build 20201012212115 Og1
   1627 ;;      Temps:          0       0       0       0       0       0       0
   1628 ;;      Totals:        13       0       0       0       0       0       0
   1629 ;;Total ram usage:       13 bytes
-  1630 ;; Hardware stack levels used:    1
+  1630 ;; Hardware stack levels used: 1
   1631 ;; This function calls:
   1632 ;;		Nothing
   1633 ;; This function is called by:
@@ -1763,8 +1763,8 @@ Microchip MPLAB XC8 C Compiler v2.31 (Free license) build 20201012212115 Og1
   1742 ;;      Temps:          4       0       0       0       0       0       0
   1743 ;;      Totals:         8       0       0       0       0       0       0
   1744 ;;Total ram usage:        8 bytes
-  1745 ;; Hardware stack levels used:    1
-  1746 ;; Hardware stack levels required when called:    1
+  1745 ;; Hardware stack levels used: 1
+  1746 ;; Hardware stack levels required when called: 1
   1747 ;; This function calls:
   1748 ;;		___aldiv
   1749 ;; This function is called by:
@@ -1930,7 +1930,7 @@ Microchip MPLAB XC8 C Compiler v2.31 (Free license) build 20201012212115 Og1
   1909                           
   1910 ;; *************** function ___aldiv *****************
   1911 ;; Defined at:
-  1912 ;;		line 7 in file "D:\MPLABX\XC8\pic\sources\c90\common\aldiv.c"
+  1912 ;;		line 7 in file "C:\Program Files\Microchip\xc8\v2.32\pic\sources\c90\common\aldiv.c"
   1913 ;; Parameters:    Size  Location     Type
   1914 ;;  dividend        4    0[COMRAM] long 
   1915 ;;  divisor         4    4[COMRAM] long 
@@ -1952,7 +1952,7 @@ Microchip MPLAB XC8 C Compiler v2.31 (Free license) build 20201012212115 Og1
   1931 ;;      Temps:          0       0       0       0       0       0       0
   1932 ;;      Totals:        14       0       0       0       0       0       0
   1933 ;;Total ram usage:       14 bytes
-  1934 ;; Hardware stack levels used:    1
+  1934 ;; Hardware stack levels used: 1
   1935 ;; This function calls:
   1936 ;;		Nothing
   1937 ;; This function is called by:
@@ -2123,8 +2123,8 @@ Microchip MPLAB XC8 C Compiler v2.31 (Free license) build 20201012212115 Og1
   2102 ;;      Temps:          0       0       0       0       0       0       0
   2103 ;;      Totals:         5       0       0       0       0       0       0
   2104 ;;Total ram usage:        5 bytes
-  2105 ;; Hardware stack levels used:    1
-  2106 ;; Hardware stack levels required when called:    1
+  2105 ;; Hardware stack levels used: 1
+  2106 ;; Hardware stack levels required when called: 1
   2107 ;; This function calls:
   2108 ;;		_Lcd_Chr_CP
   2109 ;;		_Lcd_Cmd
@@ -2241,7 +2241,7 @@ Microchip MPLAB XC8 C Compiler v2.31 (Free license) build 20201012212115 Og1
   2220 ;;      Temps:          2       0       0       0       0       0       0
   2221 ;;      Totals:         3       0       0       0       0       0       0
   2222 ;;Total ram usage:        3 bytes
-  2223 ;; Hardware stack levels used:    1
+  2223 ;; Hardware stack levels used: 1
   2224 ;; This function calls:
   2225 ;;		Nothing
   2226 ;; This function is called by:
@@ -2463,8 +2463,8 @@ Microchip MPLAB XC8 C Compiler v2.31 (Free license) build 20201012212115 Og1
   2435 ;;      Temps:          1       0       0       0       0       0       0
   2436 ;;      Totals:         2       0       0       0       0       0       0
   2437 ;;Total ram usage:        2 bytes
-  2438 ;; Hardware stack levels used:    1
-  2439 ;; Hardware stack levels required when called:    1
+  2438 ;; Hardware stack levels used: 1
+  2439 ;; Hardware stack levels required when called: 1
   2440 ;; This function calls:
   2441 ;;		_Lcd_Cmd
   2442 ;; This function is called by:
@@ -2711,7 +2711,7 @@ Microchip MPLAB XC8 C Compiler v2.31 (Free license) build 20201012212115 Og1
   2677 ;;      Temps:          2       0       0       0       0       0       0
   2678 ;;      Totals:         3       0       0       0       0       0       0
   2679 ;;Total ram usage:        3 bytes
-  2680 ;; Hardware stack levels used:    1
+  2680 ;; Hardware stack levels used: 1
   2681 ;; This function calls:
   2682 ;;		Nothing
   2683 ;; This function is called by:
@@ -3314,8 +3314,8 @@ DATA                 0      0      2A       3        0.0%
 CODE                 0      0       0       0        0.0%
 
 
-Microchip Technology PIC18 Macro Assembler V2.31 build 20201012212115 
-Symbol Table                                                                                   Thu Dec 03 14:40:23 2020
+Microchip Technology PIC18 Macro Assembler V2.32 build 20210201212658 
+Symbol Table                                                                                   Wed Nov 24 18:08:31 2021
 
                      l60 12A0                       l54 0E56                       l63 12AE  
                      l57 1290                       l66 1056                       l59 129E  
@@ -3451,52 +3451,53 @@ Symbol Table                                                                    
                  ___lmul 1156              ?_Lcd_Chr_CP 0001                ??___aldiv 0009  
                  ___wmul 12B0      __size_of_PWM1_Start 002C                ??___lldiv 0015  
               ??___lwdiv 0005                ??___lwmod 000C                   clear_0 1274  
-           __pdataCOMRAM 0029                ??_isdigit 0001             __mediumconst 0000  
-                 tblptrh 000FF7                   tblptrl 000FF6                   tblptru 000FF8  
-              ??_sprintf 0013               __accesstop 0080  __end_of__initialization 127A  
-          ___rparam_used 000001           __pcstackCOMRAM 0001    __end_of_PWM1_Set_Duty 1058  
-              ?_Lcd_Init 0001             sprintf@width 001D      __size_of_Lcd_Chr_CP 0134  
-                ?___lmul 0001                  ?___wmul 0001                  _CCP1CON 000FBD  
-         ___lmul@product 0009             ??_PWM1_Start 0001               ??_Lcd_Init 0004  
-                _Lcd_Cmd 0A1E                  _Lcd_Out 1058                  __Hparam 0000  
-                __Lparam 0000                  ___aldiv 0C5A          __size_of___lmul 006A  
-                ___lldiv 0F22          __size_of___wmul 0026                  ___lwdiv 10E2  
-                ___lwmod 11C0       __end_of_PWM1_Start 12B0             __psmallconst 0600  
-                __pcinit 1256                  __ramtop 0600                  __ptext0 0E58  
-                __ptext1 0612                  __ptext2 1224                  __ptext3 12B0  
-                __ptext4 11C0                  __ptext5 10E2                  __ptext6 1284  
-                __ptext7 0FC6                  __ptext8 1156                  __ptext9 0F22  
-                _dpowers 0601                _T2CONbits 000FCA                  _isdigit 1224  
-       ___aldiv@dividend 0001                  _sprintf 0612     end_of_initialization 127A  
-          __Lmediumconst 0000          ___lldiv@divisor 0011          ___lldiv@counter 0019  
-       ___aldiv@quotient 000B             ??_Lcd_Chr_CP 0001                  postdec2 000FDD  
-                postinc0 000FEE                  postinc2 000FDE                _PWM1_Init 0D66  
-              _PORTCbits 000F82                _PORTDbits 000F83                _PORTEbits 000F84  
-              _TRISCbits 000F94                _TRISDbits 000F95                _TRISEbits 000F96  
-         PWM1_Set_Duty@d 001C       __end_of_Lcd_Chr_CP 0A1E           __end_of___lmul 11C0  
-         __end_of___wmul 12D6            __pidataCOMRAM 12D6               ?_PWM1_Init 000F  
-    start_initialization 1256            Lcd_Out@buffer 0005        __size_of_Lcd_Init 0110  
-               ??___lmul 0009                 ??___wmul 0005              __pbssCOMRAM 0022  
-           _isdigit$1229 0002   __size_of_PWM1_Set_Duty 0092                 ?_Lcd_Cmd 0001  
-            sprintf@flag 0019                 ?_Lcd_Out 0004              sprintf@prec 001C  
-       ___lwdiv@dividend 0001                 ?___aldiv 0001                 ?___lldiv 000D  
-               ?___lwdiv 0001                 ?___lwmod 0008              ??_PWM1_Init 0011  
-            __smallconst 0600                 ?_isdigit 0001         ___lwdiv@quotient 0005  
-               ?_sprintf 000D               PWM1_Init@f 000F          ___aldiv@divisor 0005  
-        ___aldiv@counter 0009           ___wmul@product 0005            PWM1_Init@temp 0015  
-               _PIR1bits 000F9E                 Lcd_Out@x 0004                 Lcd_Out@y 0007  
-          _PWM1_Set_Duty 0FC6             Lcd_Init@data 0005               _ADCON0bits 000FC2  
-      ___wmul@multiplier 0001                 _Lcd_Init 0B4A        ___lmul@multiplier 0001  
-            _INTCON2bits 000FF1         __size_of_Lcd_Cmd 012C         __size_of_Lcd_Out 008A  
-               __Hrparam 0000                 __Lrparam 0000           ?_PWM1_Set_Duty 0001  
-       __size_of___aldiv 010C         __size_of___lldiv 00A4         __size_of___lwdiv 0074  
-       __size_of___lwmod 0064               sprintf@val 001A         __size_of_isdigit 0032  
-         Lcd_Chr_CP@data 0003          ___lwdiv@divisor 0003          ___lwdiv@counter 0007  
-               __ptext10 0D66                 __ptext11 0C5A                 __ptext12 1058  
-               __ptext13 08EA                 __ptext14 0B4A                 __ptext15 0A1E  
-       __size_of_sprintf 02D8              Lcd_Cmd@data 0003            __size_of_main 00CA  
-            Lcd_Out@data 0008                 isdigit@c 0003                sprintf@ap 0017  
-              sprintf@sp 000D         ___lwmod@dividend 0008         ___lldiv@dividend 000D  
-        ??_PWM1_Set_Duty 001A                 sprintf@c 001F                 sprintf@f 000F  
-       ___lldiv@quotient 0015          ___lwmod@divisor 000A          ___lwmod@counter 000C  
-           ___aldiv@sign 000A               _PWM1_Start 1284  
+                 isa$std 000001             __pdataCOMRAM 0029                ??_isdigit 0001  
+           __mediumconst 0000                   tblptrh 000FF7                   tblptrl 000FF6  
+                 tblptru 000FF8                ??_sprintf 0013               __accesstop 0080  
+__end_of__initialization 127A            ___rparam_used 000001           __pcstackCOMRAM 0001  
+  __end_of_PWM1_Set_Duty 1058                ?_Lcd_Init 0001             sprintf@width 001D  
+    __size_of_Lcd_Chr_CP 0134                  ?___lmul 0001                  ?___wmul 0001  
+                _CCP1CON 000FBD           ___lmul@product 0009             ??_PWM1_Start 0001  
+             ??_Lcd_Init 0004                  _Lcd_Cmd 0A1E                  _Lcd_Out 1058  
+                __Hparam 0000                  __Lparam 0000                  ___aldiv 0C5A  
+        __size_of___lmul 006A                  ___lldiv 0F22          __size_of___wmul 0026  
+                ___lwdiv 10E2                  ___lwmod 11C0       __end_of_PWM1_Start 12B0  
+           __psmallconst 0600                  __pcinit 1256                  __ramtop 0600  
+                __ptext0 0E58                  __ptext1 0612                  __ptext2 1224  
+                __ptext3 12B0                  __ptext4 11C0                  __ptext5 10E2  
+                __ptext6 1284                  __ptext7 0FC6                  __ptext8 1156  
+                __ptext9 0F22                  _dpowers 0601                _T2CONbits 000FCA  
+                _isdigit 1224         ___aldiv@dividend 0001                  _sprintf 0612  
+   end_of_initialization 127A            __Lmediumconst 0000          ___lldiv@divisor 0011  
+        ___lldiv@counter 0019         ___aldiv@quotient 000B             ??_Lcd_Chr_CP 0001  
+                postdec2 000FDD                  postinc0 000FEE                  postinc2 000FDE  
+              _PWM1_Init 0D66                _PORTCbits 000F82                _PORTDbits 000F83  
+              _PORTEbits 000F84                _TRISCbits 000F94                _TRISDbits 000F95  
+              _TRISEbits 000F96           PWM1_Set_Duty@d 001C       __end_of_Lcd_Chr_CP 0A1E  
+         __end_of___lmul 11C0           __end_of___wmul 12D6            __pidataCOMRAM 12D6  
+             ?_PWM1_Init 000F      start_initialization 1256            Lcd_Out@buffer 0005  
+      __size_of_Lcd_Init 0110                 ??___lmul 0009                 ??___wmul 0005  
+            __pbssCOMRAM 0022             _isdigit$1229 0002   __size_of_PWM1_Set_Duty 0092  
+               ?_Lcd_Cmd 0001              sprintf@flag 0019                 ?_Lcd_Out 0004  
+            sprintf@prec 001C         ___lwdiv@dividend 0001                 ?___aldiv 0001  
+               ?___lldiv 000D                 ?___lwdiv 0001                 ?___lwmod 0008  
+            ??_PWM1_Init 0011              __smallconst 0600                 ?_isdigit 0001  
+       ___lwdiv@quotient 0005                 ?_sprintf 000D               PWM1_Init@f 000F  
+        ___aldiv@divisor 0005          ___aldiv@counter 0009           ___wmul@product 0005  
+          PWM1_Init@temp 0015                 _PIR1bits 000F9E                 Lcd_Out@x 0004  
+               Lcd_Out@y 0007            _PWM1_Set_Duty 0FC6             Lcd_Init@data 0005  
+             _ADCON0bits 000FC2        ___wmul@multiplier 0001                 _Lcd_Init 0B4A  
+      ___lmul@multiplier 0001              _INTCON2bits 000FF1         __size_of_Lcd_Cmd 012C  
+       __size_of_Lcd_Out 008A                 __Hrparam 0000                 __Lrparam 0000  
+         ?_PWM1_Set_Duty 0001         __size_of___aldiv 010C         __size_of___lldiv 00A4  
+       __size_of___lwdiv 0074         __size_of___lwmod 0064               sprintf@val 001A  
+       __size_of_isdigit 0032           Lcd_Chr_CP@data 0003          ___lwdiv@divisor 0003  
+        ___lwdiv@counter 0007                 __ptext10 0D66                 __ptext11 0C5A  
+               __ptext12 1058                 __ptext13 08EA                 __ptext14 0B4A  
+               __ptext15 0A1E         __size_of_sprintf 02D8              Lcd_Cmd@data 0003  
+          __size_of_main 00CA                 isa$xinst 000000              Lcd_Out@data 0008  
+               isdigit@c 0003                sprintf@ap 0017                sprintf@sp 000D  
+       ___lwmod@dividend 0008         ___lldiv@dividend 000D          ??_PWM1_Set_Duty 001A  
+               sprintf@c 001F                 sprintf@f 000F         ___lldiv@quotient 0015  
+        ___lwmod@divisor 000A          ___lwmod@counter 000C             ___aldiv@sign 000A  
+             _PWM1_Start 1284  

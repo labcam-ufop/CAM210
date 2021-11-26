@@ -15,7 +15,7 @@
 
 
 //Variables
-unsigned int duty = 255, count = 0; // 0 a 255
+unsigned int duty = 12, count = 0; // 0 a 255
 char str[5];
 
 // saídas (colunas), ativadas por 0
