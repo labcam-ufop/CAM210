@@ -4,6 +4,8 @@
  *
  * Created on 12 de Novembro de 2020, 12:13
  */
+// Funciona no simulador PICSimLab, com a placa PICGênios
+// Funciona na placa de desenvolvimento Exto NEO201
 
 #include "configbits.h"
 #define _XTAL_FREQ 8000000
@@ -80,7 +82,7 @@ void interrupt isr(void){
         {
             count = 0;
             LATBbits.LATB1 = ~LATBbits.LATB1;
-            PORTD = display7s(tmp);
+            LATD = display7s(tmp);
             tmp++;
             if (tmp > 15)
             {

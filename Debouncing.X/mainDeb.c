@@ -4,6 +4,8 @@
  *
  * Created on 12 de Novembro de 2020, 12:13
  */
+// Funciona na Placa Exto NEO201 e na PicGenios
+// alterar flexlcd.h para o LCD funcionar em cada uma das placas
 
 #include "configbits.h"
 #define _XTAL_FREQ 8000000
@@ -26,7 +28,7 @@ void main(void)
     //ADCON2 = 0b00000000;
     //INTCON = 0b00000000;
     //INTCON2 = 0b00000000;
-    INTCON2bits.RBPU = 0; // habilita pull up porta b
+    INTCON2bits.RBPU = 1; // habilita pull up porta b
     TRISB = 0b00000011; 
     TRISD = 0x00; 
     PORTB = 0; 

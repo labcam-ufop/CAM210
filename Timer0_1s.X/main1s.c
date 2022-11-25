@@ -21,6 +21,7 @@ void main(void)
     /// Configure Ports
     ////////////////////////
     TRISB = 0b00000001; //All pins as output
+    TRISC = 0b00000001;
     TRISD = 0b00000000; //All pins as output
     PORTB = 0; //All pins off
     LATB = 0; //All pins off

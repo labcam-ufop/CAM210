@@ -23,14 +23,19 @@
    For e-mail suggestions :  lcgamboa@yahoo.com
    ######################################################################## */
 
+// PLACA NEXSTO NE0201
 
-#define TL1 0x01
-#define TL2 0x02
-#define TL3 0x04
 
-#define TC1 PORTDbits.RD3
-#define TC2 PORTDbits.RD2
-#define TC3 PORTDbits.RD1
-#define TC4 PORTDbits.RD0
+// ENTRADAS (colunas)
+#define C1 PORTBbits.RB3
+#define C2 PORTBbits.RB2
+#define C3 PORTBbits.RB1
+#define C4 PORTBbits.RB0
 
-unsigned char tc_tecla(unsigned int timeout); /*timeout=0 no time out*/ 
+// SAÍDAS (linhas)
+#define L1 PORTBbits.RB4 // 
+#define L2 PORTBbits.RB5
+#define L3 PORTBbits.RB6
+#define L4 PORTBbits.RB7
+
+unsigned char tc_tecla(); /*timeout=0 no time out*/ 

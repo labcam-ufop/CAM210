@@ -1,53 +1,86 @@
 [p GLOBOPT AUTOSTATIC IEEE_FLT IEEE_DBL LFSROK EMI_WORD ]
 [d version 1.1 ]
 [d edition pro ]
-[d chip 18F4550 ]
+[d chip 18F4520 ]
 [d frameptr 4065 ]
-"26 G:\Meu Drive\1_UFOP_PERIODO_LETIVO\2020-2\CAM210\Projetos\LCD_tecl2.X\atraso.c
-[v _atraso_ms atraso_ms `(v  1 e 1 0 ]
-"4 D:\MPLABX\XC8\pic\sources\c90\common\fleq.c
+"4 C:\Program Files\Microchip\xc8\v2.36\pic\sources\c90\common\fleq.c
 [v ___fleq __fleq `(b  1 e 0 0 ]
-"62 D:\MPLABX\XC8\pic\sources\c90\common\float.c
+"62 C:\Program Files\Microchip\xc8\v2.36\pic\sources\c90\common\float.c
 [v ___ftpack __ftpack `(f  1 e 4 0 ]
-"86 D:\MPLABX\XC8\pic\sources\c90\common\ftadd.c
+"86 C:\Program Files\Microchip\xc8\v2.36\pic\sources\c90\common\ftadd.c
 [v ___ftadd __ftadd `(f  1 e 4 0 ]
-"54 D:\MPLABX\XC8\pic\sources\c90\common\ftdiv.c
+"54 C:\Program Files\Microchip\xc8\v2.36\pic\sources\c90\common\ftdiv.c
 [v ___ftdiv __ftdiv `(f  1 e 4 0 ]
-"62 D:\MPLABX\XC8\pic\sources\c90\common\ftmul.c
+"62 C:\Program Files\Microchip\xc8\v2.36\pic\sources\c90\common\ftmul.c
 [v ___ftmul __ftmul `(f  1 e 4 0 ]
-"19 D:\MPLABX\XC8\pic\sources\c90\common\ftsub.c
+"19 C:\Program Files\Microchip\xc8\v2.36\pic\sources\c90\common\ftsub.c
 [v ___ftsub __ftsub `(f  1 e 4 0 ]
-"10 D:\MPLABX\XC8\pic\sources\c90\common\sprcadd.c
+"10 C:\Program Files\Microchip\xc8\v2.36\pic\sources\c90\common\sprcadd.c
 [v ___fladd __fladd `(d  1 e 4 0 ]
 "245
 [v ___flsub __flsub `(d  1 e 4 0 ]
-"11 D:\MPLABX\XC8\pic\sources\c90\common\sprcdiv.c
+"11 C:\Program Files\Microchip\xc8\v2.36\pic\sources\c90\common\sprcdiv.c
 [v ___fldiv __fldiv `(d  1 e 4 0 ]
-"8 D:\MPLABX\XC8\pic\sources\c90\common\sprcmul.c
+"8 C:\Program Files\Microchip\xc8\v2.36\pic\sources\c90\common\sprcmul.c
 [v ___flmul __flmul `(d  1 e 4 0 ]
-"15 D:\MPLABX\XC8\pic\sources\c90\common\Umul32.c
+"15 C:\Program Files\Microchip\xc8\v2.36\pic\sources\c90\common\Umul32.c
 [v ___lmul __lmul `(ul  1 e 4 0 ]
-"91 D:\MPLABX\XC8\pic\sources\c90\common\Umul64.c
+"91 C:\Program Files\Microchip\xc8\v2.36\pic\sources\c90\common\Umul64.c
 [v ___omul __omul `(ul  1 e 4 0 ]
-"53 G:\Meu Drive\1_UFOP_PERIODO_LETIVO\2020-2\CAM210\Projetos\LCD_tecl2.X\flexlcd.h
+"76 C:\Users\ufop\Downloads\CAM210-main\CAM210-main\LCD_tecl2.X\flexlcd.h
 [v _Lcd_Init Lcd_Init `(v  1 e 1 0 ]
-"95
+"120
 [v _Lcd_Out Lcd_Out `(v  1 e 1 0 ]
-"137
+"162
 [v _Lcd_Chr_CP Lcd_Chr_CP `(v  1 e 1 0 ]
-"151
+"176
 [v _Lcd_Cmd Lcd_Cmd `(v  1 e 1 0 ]
-"18 G:\Meu Drive\1_UFOP_PERIODO_LETIVO\2020-2\CAM210\Projetos\LCD_tecl2.X\mainLCDtecl2.c
+"24 C:\Users\ufop\Downloads\CAM210-main\CAM210-main\LCD_tecl2.X\mainLCDtecl2.c
 [v _main main `(v  1 e 1 0 ]
-"32 G:\Meu Drive\1_UFOP_PERIODO_LETIVO\2020-2\CAM210\Projetos\LCD_tecl2.X\teclado.c
+"7 C:\Users\ufop\Downloads\CAM210-main\CAM210-main\LCD_tecl2.X\teclado.c
 [v _tc_tecla tc_tecla `(uc  1 e 1 0 ]
-"2454 D:/MPLABX/XC8/pic/include/proc\pic18f4550.h
+"271 C:/Users/ufop/.mchp_packs/Microchip/PIC18Fxxxx_DFP/1.2.26/xc8\pic\include\proc\pic18f4520.h
 [v _PORTB PORTB `VEuc  1 e 1 @3969 ]
-"2564
+[s S24 . 1 `uc 1 RB0 1 0 :1:0 
+`uc 1 RB1 1 0 :1:1 
+`uc 1 RB2 1 0 :1:2 
+`uc 1 RB3 1 0 :1:3 
+`uc 1 RB4 1 0 :1:4 
+`uc 1 RB5 1 0 :1:5 
+`uc 1 RB6 1 0 :1:6 
+`uc 1 RB7 1 0 :1:7 
+]
+"315
+[s S33 . 1 `uc 1 INT0 1 0 :1:0 
+`uc 1 INT1 1 0 :1:1 
+`uc 1 INT2 1 0 :1:2 
+`uc 1 CCP2 1 0 :1:3 
+`uc 1 KBI0 1 0 :1:4 
+`uc 1 KBI1 1 0 :1:5 
+`uc 1 KBI2 1 0 :1:6 
+`uc 1 KBI3 1 0 :1:7 
+]
+[s S42 . 1 `uc 1 AN12 1 0 :1:0 
+`uc 1 AN10 1 0 :1:1 
+`uc 1 AN8 1 0 :1:2 
+`uc 1 AN9 1 0 :1:3 
+`uc 1 AN11 1 0 :1:4 
+`uc 1 PGM 1 0 :1:5 
+`uc 1 PGC 1 0 :1:6 
+`uc 1 PGD 1 0 :1:7 
+]
+[s S51 . 1 `uc 1 FLT0 1 0 :1:0 
+]
+[s S53 . 1 `uc 1 . 1 0 :3:0 
+`uc 1 CCP2_PA2 1 0 :1:3 
+]
+[u S56 . 1 `S24 1 . 1 0 `S33 1 . 1 0 `S42 1 . 1 0 `S51 1 . 1 0 `S53 1 . 1 0 ]
+[v _PORTBbits PORTBbits `VES56  1 e 1 @3969 ]
+"450
 [v _PORTC PORTC `VEuc  1 e 1 @3970 ]
-"2706
+"632
 [v _PORTD PORTD `VEuc  1 e 1 @3971 ]
-[s S25 . 1 `uc 1 RD0 1 0 :1:0 
+[s S120 . 1 `uc 1 RD0 1 0 :1:0 
 `uc 1 RD1 1 0 :1:1 
 `uc 1 RD2 1 0 :1:2 
 `uc 1 RD3 1 0 :1:3 
@@ -56,71 +89,85 @@
 `uc 1 RD6 1 0 :1:6 
 `uc 1 RD7 1 0 :1:7 
 ]
-"2737
-[s S34 . 1 `uc 1 SPP0 1 0 :1:0 
-`uc 1 SPP1 1 0 :1:1 
-`uc 1 SPP2 1 0 :1:2 
-`uc 1 SPP3 1 0 :1:3 
-`uc 1 SPP4 1 0 :1:4 
-`uc 1 SPP5 1 0 :1:5 
-`uc 1 SPP6 1 0 :1:6 
-`uc 1 SPP7 1 0 :1:7 
+"669
+[s S286 . 1 `uc 1 PSP0 1 0 :1:0 
+`uc 1 PSP1 1 0 :1:1 
+`uc 1 PSP2 1 0 :1:2 
+`uc 1 PSP3 1 0 :1:3 
+`uc 1 PSP4 1 0 :1:4 
+`uc 1 PSP5 1 0 :1:5 
+`uc 1 PSP6 1 0 :1:6 
+`uc 1 PSP7 1 0 :1:7 
 ]
-[s S43 . 1 `uc 1 . 1 0 :7:0 
+[s S295 . 1 `uc 1 . 1 0 :5:0 
+`uc 1 P1B 1 0 :1:5 
+`uc 1 P1C 1 0 :1:6 
+`uc 1 P1D 1 0 :1:7 
+]
+[s S300 . 1 `uc 1 . 1 0 :7:0 
 `uc 1 SS2 1 0 :1:7 
 ]
-[u S46 . 1 `S25 1 . 1 0 `S34 1 . 1 0 `S43 1 . 1 0 ]
-[v _PORTDbits PORTDbits `VES46  1 e 1 @3971 ]
-"2827
+[u S303 . 1 `S120 1 . 1 0 `S286 1 . 1 0 `S295 1 . 1 0 `S300 1 . 1 0 ]
+[v _PORTDbits PORTDbits `VES303  1 e 1 @3971 ]
+"774
 [v _PORTE PORTE `VEuc  1 e 1 @3972 ]
-[s S178 . 1 `uc 1 RE0 1 0 :1:0 
+[s S160 . 1 `uc 1 RE0 1 0 :1:0 
 `uc 1 RE1 1 0 :1:1 
 `uc 1 RE2 1 0 :1:2 
 `uc 1 RE3 1 0 :1:3 
-`uc 1 . 1 0 :3:4 
-`uc 1 RDPU 1 0 :1:7 
 ]
-"2869
-[s S185 . 1 `uc 1 CK1SPP 1 0 :1:0 
-`uc 1 CK2SPP 1 0 :1:1 
-`uc 1 OESPP 1 0 :1:2 
+"832
+[s S188 . 1 `uc 1 RD 1 0 :1:0 
+`uc 1 WR 1 0 :1:1 
+`uc 1 CS 1 0 :1:2 
+`uc 1 MCLR 1 0 :1:3 
 ]
-[s S189 . 1 `uc 1 PD2 1 0 :1:0 
+[s S193 . 1 `uc 1 NOT_RD 1 0 :1:0 
+]
+[s S195 . 1 `uc 1 . 1 0 :1:0 
+`uc 1 NOT_WR 1 0 :1:1 
+]
+[s S198 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 NOT_CS 1 0 :1:2 
+]
+[s S201 . 1 `uc 1 . 1 0 :3:0 
+`uc 1 NOT_MCLR 1 0 :1:3 
+]
+[s S204 . 1 `uc 1 nRD 1 0 :1:0 
+`uc 1 nWR 1 0 :1:1 
+`uc 1 nCS 1 0 :1:2 
+`uc 1 nMCLR 1 0 :1:3 
+]
+[s S209 . 1 `uc 1 AN5 1 0 :1:0 
+`uc 1 AN6 1 0 :1:1 
+`uc 1 AN7 1 0 :1:2 
+`uc 1 VPP 1 0 :1:3 
+]
+[s S214 . 1 `uc 1 PD2 1 0 :1:0 
 `uc 1 PC2 1 0 :1:1 
 `uc 1 CCP10 1 0 :1:2 
 `uc 1 CCP9E 1 0 :1:3 
-`uc 1 . 1 0 :3:4 
-`uc 1 CCP2E 1 0 :1:7 
 ]
-[s S196 . 1 `uc 1 RDE 1 0 :1:0 
+[s S219 . 1 `uc 1 RDE 1 0 :1:0 
 `uc 1 WRE 1 0 :1:1 
-`uc 1 CS 1 0 :1:2 
-`uc 1 PC3E 1 0 :1:3 
-`uc 1 . 1 0 :3:4 
-`uc 1 PA2E 1 0 :1:7 
-]
-[s S203 . 1 `uc 1 . 1 0 :2:0 
 `uc 1 PB2 1 0 :1:2 
-`uc 1 . 1 0 :4:3 
-`uc 1 RE7 1 0 :1:7 
+`uc 1 PC3E 1 0 :1:3 
 ]
-[u S208 . 1 `S178 1 . 1 0 `S185 1 . 1 0 `S189 1 . 1 0 `S196 1 . 1 0 `S203 1 . 1 0 ]
-[v _PORTEbits PORTEbits `VES208  1 e 1 @3972 ]
-"3074
-[v _LATB LATB `VEuc  1 e 1 @3978 ]
-"3186
+[u S224 . 1 `S160 1 . 1 0 `S188 1 . 1 0 `S193 1 . 1 0 `S195 1 . 1 0 `S198 1 . 1 0 `S201 1 . 1 0 `S204 1 . 1 0 `S209 1 . 1 0 `S214 1 . 1 0 `S219 1 . 1 0 ]
+[v _PORTEbits PORTEbits `VES224  1 e 1 @3972 ]
+"1201
 [v _LATC LATC `VEuc  1 e 1 @3979 ]
-"3264
+"1313
 [v _LATD LATD `VEuc  1 e 1 @3980 ]
-"3376
+"1425
 [v _LATE LATE `VEuc  1 e 1 @3981 ]
-"3626
+"1699
 [v _TRISB TRISB `VEuc  1 e 1 @3987 ]
-"3848
+"1921
 [v _TRISC TRISC `VEuc  1 e 1 @3988 ]
-"4002
+"2143
 [v _TRISD TRISD `VEuc  1 e 1 @3989 ]
-[s S92 . 1 `uc 1 TRISD0 1 0 :1:0 
+[s S111 . 1 `uc 1 TRISD0 1 0 :1:0 
 `uc 1 TRISD1 1 0 :1:1 
 `uc 1 TRISD2 1 0 :1:2 
 `uc 1 TRISD3 1 0 :1:3 
@@ -129,100 +176,98 @@
 `uc 1 TRISD6 1 0 :1:6 
 `uc 1 TRISD7 1 0 :1:7 
 ]
-"4034
-[u S110 . 1 `S92 1 . 1 0 `S25 1 . 1 0 ]
-[v _TRISDbits TRISDbits `VES110  1 e 1 @3989 ]
-"4224
+"2175
+[u S129 . 1 `S111 1 . 1 0 `S120 1 . 1 0 ]
+[v _TRISDbits TRISDbits `VES129  1 e 1 @3989 ]
+"2365
 [v _TRISE TRISE `VEuc  1 e 1 @3990 ]
-[s S132 . 1 `uc 1 TRISE0 1 0 :1:0 
+[s S151 . 1 `uc 1 TRISE0 1 0 :1:0 
 `uc 1 TRISE1 1 0 :1:1 
 `uc 1 TRISE2 1 0 :1:2 
+`uc 1 . 1 0 :1:3 
+`uc 1 PSPMODE 1 0 :1:4 
+`uc 1 IBOV 1 0 :1:5 
+`uc 1 OBF 1 0 :1:6 
+`uc 1 IBF 1 0 :1:7 
 ]
-"4246
-[s S136 . 1 `uc 1 RE0 1 0 :1:0 
-`uc 1 RE1 1 0 :1:1 
-`uc 1 RE2 1 0 :1:2 
-]
-[u S140 . 1 `S132 1 . 1 0 `S136 1 . 1 0 ]
-[v _TRISEbits TRISEbits `VES140  1 e 1 @3990 ]
-"6582
+"2393
+[u S165 . 1 `S151 1 . 1 0 `S160 1 . 1 0 ]
+[v _TRISEbits TRISEbits `VES165  1 e 1 @3990 ]
+"4690
 [v _ADCON1 ADCON1 `VEuc  1 e 1 @4033 ]
-"6667
+"4775
 [v _ADCON0 ADCON0 `VEuc  1 e 1 @4034 ]
-"8414
+"6530
 [v _INTCON3 INTCON3 `VEuc  1 e 1 @4080 ]
-"8506
+"6622
 [v _INTCON2 INTCON2 `VEuc  1 e 1 @4081 ]
-"8583
+[s S351 . 1 `uc 1 . 1 0 :7:0 
+`uc 1 NOT_RBPU 1 0 :1:7 
+]
+"6647
+[s S354 . 1 `uc 1 RBIP 1 0 :1:0 
+`uc 1 . 1 0 :1:1 
+`uc 1 TMR0IP 1 0 :1:2 
+`uc 1 . 1 0 :1:3 
+`uc 1 INTEDG2 1 0 :1:4 
+`uc 1 INTEDG1 1 0 :1:5 
+`uc 1 INTEDG0 1 0 :1:6 
+`uc 1 nRBPU 1 0 :1:7 
+]
+[s S363 . 1 `uc 1 . 1 0 :7:0 
+`uc 1 RBPU 1 0 :1:7 
+]
+[u S366 . 1 `S351 1 . 1 0 `S354 1 . 1 0 `S363 1 . 1 0 ]
+[v _INTCON2bits INTCON2bits `VES366  1 e 1 @4081 ]
+"6692
 [v _INTCON INTCON `VEuc  1 e 1 @4082 ]
-"15 G:\Meu Drive\1_UFOP_PERIODO_LETIVO\2020-2\CAM210\Projetos\LCD_tecl2.X\mainLCDtecl2.c
+"22 C:\Users\ufop\Downloads\CAM210-main\CAM210-main\LCD_tecl2.X\mainLCDtecl2.c
 [v _tecla tecla `uc  1 e 1 0 ]
-"30 G:\Meu Drive\1_UFOP_PERIODO_LETIVO\2020-2\CAM210\Projetos\LCD_tecl2.X\teclado.c
-[v _linha linha `C[4]uc  1 e 4 0 ]
-"18 G:\Meu Drive\1_UFOP_PERIODO_LETIVO\2020-2\CAM210\Projetos\LCD_tecl2.X\mainLCDtecl2.c
+"24
 [v _main main `(v  1 e 1 0 ]
 {
-"105
+"120
 } 0
-"32 G:\Meu Drive\1_UFOP_PERIODO_LETIVO\2020-2\CAM210\Projetos\LCD_tecl2.X\teclado.c
+"7 C:\Users\ufop\Downloads\CAM210-main\CAM210-main\LCD_tecl2.X\teclado.c
 [v _tc_tecla tc_tecla `(uc  1 e 1 0 ]
 {
-"34
-[v tc_tecla@to to `ui  1 a 2 7 ]
-"35
-[v tc_tecla@i i `uc  1 a 1 11 ]
-"36
-[v tc_tecla@ret ret `uc  1 a 1 10 ]
-"37
-[v tc_tecla@tmp tmp `uc  1 a 1 9 ]
-"32
-[v tc_tecla@timeout timeout `ui  1 p 2 5 ]
-"59
+"9
+[v tc_tecla@key key `uc  1 a 1 1 ]
+"50
 } 0
-"26 G:\Meu Drive\1_UFOP_PERIODO_LETIVO\2020-2\CAM210\Projetos\LCD_tecl2.X\atraso.c
-[v _atraso_ms atraso_ms `(v  1 e 1 0 ]
-{
-"28
-[v atraso_ms@i i `ui  1 a 2 2 ]
-"29
-[v atraso_ms@j j `uc  1 a 1 4 ]
-"26
-[v atraso_ms@valor valor `ui  1 p 2 0 ]
-"45
-} 0
-"95 G:\Meu Drive\1_UFOP_PERIODO_LETIVO\2020-2\CAM210\Projetos\LCD_tecl2.X\flexlcd.h
+"120 C:\Users\ufop\Downloads\CAM210-main\CAM210-main\LCD_tecl2.X\flexlcd.h
 [v _Lcd_Out Lcd_Out `(v  1 e 1 0 ]
 {
 [v Lcd_Out@y y `uc  1 a 1 wreg ]
-"97
+"122
 [v Lcd_Out@data data `uc  1 a 1 7 ]
-"95
+"120
 [v Lcd_Out@y y `uc  1 a 1 wreg ]
 [v Lcd_Out@x x `uc  1 p 1 3 ]
 [v Lcd_Out@buffer buffer `*.25Cuc  1 p 2 4 ]
 [v Lcd_Out@y y `uc  1 a 1 6 ]
-"113
+"138
 } 0
-"137
+"162
 [v _Lcd_Chr_CP Lcd_Chr_CP `(v  1 e 1 0 ]
 {
 [v Lcd_Chr_CP@data data `uc  1 a 1 wreg ]
 [v Lcd_Chr_CP@data data `uc  1 a 1 wreg ]
 [v Lcd_Chr_CP@data data `uc  1 a 1 2 ]
-"148
+"173
 } 0
-"53
+"76
 [v _Lcd_Init Lcd_Init `(v  1 e 1 0 ]
 {
-"54
+"77
 [v Lcd_Init@data data `uc  1 a 1 4 ]
-"92
+"117
 } 0
-"151
+"176
 [v _Lcd_Cmd Lcd_Cmd `(v  1 e 1 0 ]
 {
 [v Lcd_Cmd@data data `uc  1 a 1 wreg ]
 [v Lcd_Cmd@data data `uc  1 a 1 wreg ]
 [v Lcd_Cmd@data data `uc  1 a 1 2 ]
-"162
+"187
 } 0

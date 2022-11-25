@@ -1,9 +1,9 @@
 
 
-Microchip MPLAB XC8 Assembler V2.31 build 20201012212115 
-                                                                                               Tue Feb 02 17:39:15 2021
+Microchip MPLAB XC8 Assembler V2.36 build 20220127204148 
+                                                                                               Tue Nov 22 16:44:29 2022
 
-Microchip MPLAB XC8 C Compiler v2.31 (Free license) build 20201012212115 Og1 
+Microchip MPLAB XC8 C Compiler v2.36 (Free license) build 20220127204148 Og1 
      1                           	processor	18F4520
      2                           	fnconf	rparam,??,?,0
      3                           	pagewidth 120
@@ -62,16 +62,16 @@ Microchip MPLAB XC8 C Compiler v2.31 (Free license) build 20201012212115 Og1
     48                           ; 
     49                           ; SFR Addresses
     50  0000                     _LATDbits	set	3980
-    51  0000                     _T0CON	set	4053
-    52  0000                     _INTCONbits	set	4082
-    53  0000                     _INTCON2bits	set	4081
+    51  0000                     _PORTB	set	3969
+    52  0000                     _TRISB	set	3987
+    53  0000                     _TRISD	set	3989
     54  0000                     _ADCON1	set	4033
-    55  0000                     _LATD	set	3980
-    56  0000                     _PORTD	set	3971
-    57  0000                     _LATB	set	3978
-    58  0000                     _PORTB	set	3969
-    59  0000                     _TRISD	set	3989
-    60  0000                     _TRISB	set	3987
+    55  0000                     _PORTD	set	3971
+    56  0000                     _LATB	set	3978
+    57  0000                     _LATD	set	3980
+    58  0000                     _T0CON	set	4053
+    59  0000                     _INTCON2bits	set	4081
+    60  0000                     _INTCONbits	set	4082
     61                           
     62                           ; #config settings
     63                           
@@ -127,7 +127,7 @@ Microchip MPLAB XC8 C Compiler v2.31 (Free license) build 20201012212115 Og1
    113 ;;      Temps:          2       0       0       0       0       0       0
    114 ;;      Totals:         2       0       0       0       0       0       0
    115 ;;Total ram usage:        2 bytes
-   116 ;; Hardware stack levels required when called:    1
+   116 ;; Hardware stack levels required when called: 1
    117 ;; This function calls:
    118 ;;		Nothing
    119 ;; This function is called by:
@@ -255,7 +255,7 @@ Microchip MPLAB XC8 C Compiler v2.31 (Free license) build 20201012212115 Og1
    241 ;;      Temps:          1       0       0       0       0       0       0
    242 ;;      Totals:         1       0       0       0       0       0       0
    243 ;;Total ram usage:        1 bytes
-   244 ;; Hardware stack levels used:    1
+   244 ;; Hardware stack levels used: 1
    245 ;; This function calls:
    246 ;;		Nothing
    247 ;; This function is called by:
@@ -690,16 +690,27 @@ BITBANK3           100      0       0      10        0.0%
 BANK3              100      0       0      11        0.0%
 BITBANK4           100      0       0      12        0.0%
 BANK4              100      0       0      13        0.0%
-BANK5              100      0       0      14        0.0%
-ABS                  0      0       0      15        0.0%
-BITBANK5           100      0       0      16        0.0%
-BIGRAM             5FF      0       0      17        0.0%
+BITBANK5           100      0       0      14        0.0%
+BANK5              100      0       0      15        0.0%
+BITBIGSFRhhhh        D      0       0      16        0.0%
+BITBIGSFRhhhlh      1B      0       0      17        0.0%
+BITBIGSFRhhhll      13      0       0      18        0.0%
+BITBIGSFRhhl        2B      0       0      19        0.0%
+BITBIGSFRhl          1      0       0      20        0.0%
+BITBIGSFRlhhh        6      0       0      21        0.0%
+BITBIGSFRlhhl        1      0       0      22        0.0%
+BITBIGSFRlhlh        6      0       0      23        0.0%
+BITBIGSFRlhll        1      0       0      24        0.0%
+BITBIGSFRll          1      0       0      25        0.0%
+ABS                  0      0       0      26        0.0%
+BIGRAM             5FF      0       0      27        0.0%
+BIGSFR               0      0       0     200        0.0%
 BITSFR               0      0       0     200        0.0%
 SFR                  0      0       0     200        0.0%
 
 
-Microchip Technology PIC18 Macro Assembler V2.31 build 20201012212115 
-Symbol Table                                                                                   Tue Feb 02 17:39:15 2021
+Microchip Technology PIC18 Macro Assembler V2.36 build 20220127204148 
+Symbol Table                                                                                   Tue Nov 22 16:44:29 2022
 
                      l29 0040                       u10 0052                       u11 004C  
                      u16 0054                       u67 006E                      l801 003E  
@@ -720,11 +731,11 @@ Symbol Table                                                                    
                  i2u2_41 0090                   i2u3_40 00A6                   i2u3_41 00A0  
                  i2u3_46 00A8                   i2u4_40 00C4                   i2u4_41 00C0  
                  i2u5_40 00D6                   i2u5_41 00D0                   i2u5_46 00D8  
-             __accesstop 0080  __end_of__initialization 00EE            ___rparam_used 000001  
-         __pcstackCOMRAM 0001                  __Hparam 0000                  __Lparam 0000  
-                __pcinit 00EE                  __ramtop 0600                  __ptext0 0012  
-           __size_of_isr 00E6           __pintcode_body 0084     end_of_initialization 00EE  
+                 isa$std 000001               __accesstop 0080  __end_of__initialization 00EE  
+          ___rparam_used 000001           __pcstackCOMRAM 0001                  __Hparam 0000  
+                __Lparam 0000                  __pcinit 00EE                  __ramtop 0600  
+                __ptext0 0012           __pintcode_body 0084     end_of_initialization 00EE  
                 int_func 0084      start_initialization 00EE              __end_of_isr 00EE  
               __pintcode 0008                 _LATDbits 000F8C              _INTCON2bits 000FF1  
-               __Hrparam 0000                 __Lrparam 0000            __size_of_main 0072  
+               __Hrparam 0000                 __Lrparam 0000                 isa$xinst 000000  
                int$flags 0004               _INTCONbits 000FF2                 intlevel2 0000  

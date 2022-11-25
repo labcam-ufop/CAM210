@@ -1,6 +1,5 @@
 __S0 8000 0 ABS 0
 __S1 4 0 ABS 0
-__S2 0 0 ABS 0
 __S4 0 0 ABS 0
 __S5 0 0 ABS 0
 __Hintentry 0 0 ABS 0
@@ -9,7 +8,7 @@ _LATB F8A 0 ABS 0
 _LATC F8B 0 ABS 0
 _LATD F8C 0 ABS 0
 _LATE F8D 0 ABS 0
-_main 7D08 0 CODE 0
+_main 7CEA 0 CODE 0
 ___sp 0 0 STACK 2
 start 0 0 CODE 0
 _TRISB F93 0 ABS 0
@@ -44,6 +43,8 @@ __Hnvrram 0 0 COMRAM 1
 __Lnvrram 0 0 COMRAM 1
 _ADCON0 FC2 0 ABS 0
 _ADCON1 FC1 0 ABS 0
+__Hbigsfr 0 0 ABS 0
+__Lbigsfr 0 0 ABS 0
 __Heeprom_data 0 0 EEDATA 0
 __Leeprom_data 0 0 EEDATA 0
 _LATBbits F8A 0 ABS 0
@@ -71,18 +72,22 @@ __Hfardata 0 0 FARRAM 0
 __Lfardata 0 0 FARRAM 0
 __Habs1 0 0 ABS 0
 __Labs1 0 0 ABS 0
+isa$xinst 0 0 ABS 0
 __HnvFARRAM 0 0 FARRAM 0
 __LnvFARRAM 0 0 FARRAM 0
 __HnvCOMRAM 0 0 ABS 0
 __LnvCOMRAM 0 0 ABS 0
+___heap_hi 0 0 ABS 0
 __pnvCOMRAM 3 0 COMRAM 1
-__size_of_teclado 0 0 ABS 0
 __Hdata 0 0 ABS 0
 __Ldata 0 0 ABS 0
-stackhi 7FF 0 ABS 0
+isa$std 1 0 ABS 0
+stackhi 0 0 ABS 0
+__Hheap 0 0 HEAP 7
+__Lheap 0 0 HEAP 7
 __Htemp 0 0 COMRAM 1
 __Ltemp 0 0 COMRAM 1
-stacklo 60 0 ABS 0
+stacklo 0 0 ABS 0
 __Hrbit 0 0 COMRAM 1
 __Lrbit 0 0 COMRAM 1
 __Hinit 4 0 CODE 0
@@ -90,11 +95,12 @@ __Linit 0 0 CODE 0
 __Hintcodelo 0 0 CODE 0
 __Lintcodelo 0 0 CODE 0
 __Hrbss 0 0 COMRAM 1
-__end_of_main 7D8C 0 CODE 0
+__end_of_main 7D6E 0 CODE 0
 __Lrbss 0 0 COMRAM 1
 __Htext 0 0 ABS 0
 __Ltext 0 0 ABS 0
-end_of_initialization 7D02 0 CODE 0
+___heap_lo 0 0 ABS 0
+end_of_initialization 7CE4 0 CODE 0
 _PORTDbits F83 0 ABS 0
 __Hibigdata 0 0 CODE 0
 __Libigdata 0 0 CODE 0
@@ -122,13 +128,13 @@ __Htext0 0 0 ABS 0
 __Ltext0 0 0 ABS 0
 __Htext1 0 0 ABS 0
 __Ltext1 0 0 ABS 0
-__ptext0 7D08 0 CODE 0
+__ptext0 7CEA 0 CODE 0
 _INTCON2bits FF1 0 ABS 0
-__ptext1 7D8C 0 CODE 0
+__ptext1 7D6E 0 CODE 0
 __Hclrtext 0 0 ABS 0
 __Lclrtext 0 0 ABS 0
 __end_of_teclado 8000 0 CODE 0
-__end_of__initialization 7D02 0 CODE 0
+__end_of__initialization 7CE4 0 CODE 0
 ___rparam_used 1 0 ABS 0
 __Hidata 0 0 CODE 0
 __Lidata 0 0 CODE 0
@@ -144,7 +150,7 @@ __Hspace_0 8000 0 ABS 0
 __HcstackCOMRAM 0 0 ABS 0
 __Lspace_0 0 0 ABS 0
 __LcstackCOMRAM 0 0 ABS 0
-_teclado 7D8C 0 CODE 0
+_teclado 7D6E 0 CODE 0
 __pcstackCOMRAM 1 0 COMRAM 1
 __Hspace_1 4 0 ABS 0
 __Lspace_1 0 0 ABS 0
@@ -156,10 +162,9 @@ __Hnvbit 0 0 COMRAM 1
 __Lnvbit 0 0 COMRAM 1
 __Hcinit 0 0 ABS 0
 __Lcinit 0 0 ABS 0
-__pcinit 7D02 0 CODE 0
+__pcinit 7CE4 0 CODE 0
 __ramtop 800 0 RAM 0
 __mediumconst 0 0 MEDIUMCONST 0
-__size_of_main 0 0 ABS 0
 __Hconst 0 0 CONST 0
 __Lconst 0 0 CONST 0
 __Hspace_4 60000E 0 ABS 0
@@ -177,74 +182,74 @@ intlevel0 0 0 CODE 0
 intlevel1 0 0 CODE 0
 intlevel2 0 0 CODE 0
 intlevel3 0 0 CODE 0
-start_initialization 7D02 0 CODE 0
-__initialization 7D02 0 CODE 0
+start_initialization 7CE4 0 CODE 0
+__initialization 7CE4 0 CODE 0
 __activetblptr 0 0 ABS 0
 %segments
 reset_vec 0 3 CODE 0 0
 cstackCOMRAM 1 3 COMRAM 1 1
-text1 7D8C 7FFF CODE 7D8C 0
-text0 7D08 7D8B CODE 7D08 0
-cinit 7D02 7D07 CODE 7D02 0
+text1 7D6E 7FFF CODE 7D6E 0
+text0 7CEA 7D6D CODE 7CEA 0
+cinit 7CE4 7CE9 CODE 7CE4 0
 %locals
 dist/default/production\TecMatricial.X.production.o
-D:/MPLABX/XC8/pic/include/proc\pic18f4550.h
-C:\Users\Alan Kardek\AppData\Local\Temp\sf48.s
-543 7D02 0 CODE 0
-545 7D02 0 CODE 0
-548 7D02 0 CODE 0
-554 7D02 0 CODE 0
-556 7D02 0 CODE 0
-557 7D04 0 CODE 0
+../../../../../../Program Files/Microchip/xc8/v2.36/pic/include/proc\pic18f4550.h
+C:\Users\ufop\AppData\Local\Temp\xcAs738.s
+544 7CE4 0 CODE 0
+546 7CE4 0 CODE 0
+549 7CE4 0 CODE 0
+555 7CE4 0 CODE 0
+557 7CE4 0 CODE 0
+558 7CE6 0 CODE 0
 mainTecMatric.c
-34 7D08 0 CODE 0
-36 7D08 0 CODE 0
-37 7D0C 0 CODE 0
-41 7D10 0 CODE 0
-43 7D12 0 CODE 0
-44 7D16 0 CODE 0
-45 7D1A 0 CODE 0
-46 7D1E 0 CODE 0
-48 7D22 0 CODE 0
-49 7D24 0 CODE 0
-50 7D26 0 CODE 0
-51 7D2A 0 CODE 0
-52 7D2E 0 CODE 0
-53 7D32 0 CODE 0
-54 7D36 0 CODE 0
-55 7D3A 0 CODE 0
-56 7D3E 0 CODE 0
-58 7D3E 0 CODE 0
-59 7D40 0 CODE 0
-60 7D46 0 CODE 0
-62 7D58 0 CODE 0
-64 7D5A 0 CODE 0
-66 7D6C 0 CODE 0
-68 7D6E 0 CODE 0
-70 7D80 0 CODE 0
-71 7D82 0 CODE 0
+36 7CEA 0 CODE 0
+38 7CEA 0 CODE 0
+39 7CEE 0 CODE 0
+43 7CF2 0 CODE 0
+45 7CF4 0 CODE 0
+46 7CF8 0 CODE 0
+47 7CFC 0 CODE 0
+48 7D00 0 CODE 0
+50 7D04 0 CODE 0
+51 7D06 0 CODE 0
+52 7D08 0 CODE 0
+53 7D0C 0 CODE 0
+54 7D10 0 CODE 0
+55 7D14 0 CODE 0
+56 7D18 0 CODE 0
+57 7D1C 0 CODE 0
+58 7D20 0 CODE 0
+60 7D20 0 CODE 0
+61 7D22 0 CODE 0
+62 7D28 0 CODE 0
+64 7D3A 0 CODE 0
+66 7D3C 0 CODE 0
+68 7D4E 0 CODE 0
+70 7D50 0 CODE 0
+72 7D62 0 CODE 0
+73 7D64 0 CODE 0
 mainTecMatric.c
-78 7D8C 0 CODE 0
-80 7D8C 0 CODE 0
-81 7D90 0 CODE 0
-82 7D96 0 CODE 0
-83 7D98 0 CODE 0
-84 7DCA 0 CODE 0
-85 7DFC 0 CODE 0
-86 7E2E 0 CODE 0
-88 7E5C 0 CODE 0
-89 7E5E 0 CODE 0
-91 7E60 0 CODE 0
-92 7E92 0 CODE 0
-93 7EC4 0 CODE 0
-94 7EF6 0 CODE 0
-96 7F24 0 CODE 0
-97 7F26 0 CODE 0
-99 7F28 0 CODE 0
-100 7F5A 0 CODE 0
-101 7F8C 0 CODE 0
-102 7FBE 0 CODE 0
-104 7FEC 0 CODE 0
-105 7FEE 0 CODE 0
-107 7FFC 0 CODE 0
-108 7FFE 0 CODE 0
+80 7D6E 0 CODE 0
+82 7D6E 0 CODE 0
+83 7D72 0 CODE 0
+84 7D78 0 CODE 0
+85 7D7A 0 CODE 0
+86 7DAE 0 CODE 0
+87 7DE2 0 CODE 0
+88 7E16 0 CODE 0
+90 7E46 0 CODE 0
+91 7E48 0 CODE 0
+93 7E4A 0 CODE 0
+94 7E7E 0 CODE 0
+95 7EB2 0 CODE 0
+96 7EE6 0 CODE 0
+98 7F16 0 CODE 0
+99 7F18 0 CODE 0
+101 7F1A 0 CODE 0
+102 7F4E 0 CODE 0
+103 7F82 0 CODE 0
+104 7FB6 0 CODE 0
+106 7FE6 0 CODE 0
+107 7FE8 0 CODE 0
+109 7FFC 0 CODE 0
+110 7FFE 0 CODE 0

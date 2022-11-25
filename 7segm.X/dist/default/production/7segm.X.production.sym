@@ -1,6 +1,5 @@
 __S0 1FA 0 ABS 0
 __S1 7 0 ABS 0
-__S2 0 0 ABS 0
 __S4 0 0 ABS 0
 __S5 0 0 ABS 0
 __Hintentry 0 0 ABS 0
@@ -43,7 +42,6 @@ __Hcomram 0 0 ABS 0
 __Lcomram 0 0 ABS 0
 __Hsfr 0 0 ABS 0
 __Lsfr 0 0 ABS 0
-__size_of_isr 0 0 ABS 0
 __Hbss 0 0 RAM 1
 __Lbss 0 0 RAM 1
 ___param_bank 0 0 ABS 0
@@ -53,6 +51,8 @@ _count 1 0 COMRAM 1
 int$flags 6 0 COMRAM 1
 _ADCON1 FC1 0 ABS 0
 __end_of_display7s 106 0 CODE 0
+__Hbigsfr 0 0 ABS 0
+__Lbigsfr 0 0 ABS 0
 __Heeprom_data 0 0 EEDATA 0
 __Leeprom_data 0 0 EEDATA 0
 _LATAbits F89 0 ABS 0
@@ -63,8 +63,8 @@ __Hbigbss 0 0 BIGRAM 1
 __Lbigbss 0 0 BIGRAM 1
 __Hintret 0 0 ABS 0
 __Lintret 0 0 ABS 0
-__Hramtop 800 0 RAM 0
-__Lramtop 800 0 RAM 0
+__Hramtop 600 0 RAM 0
+__Lramtop 600 0 RAM 0
 __Hstruct 0 0 COMRAM 1
 __Lstruct 0 0 COMRAM 1
 __Hbigdata 0 0 BIGRAM 1
@@ -80,14 +80,19 @@ __Lfardata 0 0 FARRAM 0
 __pintcode 8 0 CODE 0
 __Habs1 0 0 ABS 0
 __Labs1 0 0 ABS 0
+isa$xinst 0 0 ABS 0
 __HnvFARRAM 0 0 FARRAM 0
 __LnvFARRAM 0 0 FARRAM 0
+___heap_hi 0 0 ABS 0
 __Hdata 0 0 ABS 0
 __Ldata 0 0 ABS 0
-stackhi 7FF 0 ABS 0
+isa$std 1 0 ABS 0
+stackhi 0 0 ABS 0
+__Hheap 0 0 HEAP 7
+__Lheap 0 0 HEAP 7
 __Htemp 7 0 COMRAM 1
 __Ltemp 6 0 COMRAM 1
-stacklo 60 0 ABS 0
+stacklo 0 0 ABS 0
 display7s@v 4 0 COMRAM 1
 __Hrbit 0 0 COMRAM 1
 __Lrbit 0 0 COMRAM 1
@@ -100,6 +105,7 @@ __end_of_main 1E6 0 CODE 0
 __Lrbss 0 0 COMRAM 1
 __Htext 0 0 ABS 0
 __Ltext 0 0 ABS 0
+___heap_lo 0 0 ABS 0
 end_of_initialization 1EC 0 CODE 0
 __Hibigdata 0 0 CODE 0
 __Libigdata 0 0 CODE 0
@@ -119,10 +125,6 @@ __Hbank5 0 0 ABS 0
 __Lbank5 0 0 ABS 0
 __Hpowerup E 0 CODE 0
 __Lpowerup E 0 CODE 0
-__Hbank6 0 0 ABS 0
-__Lbank6 0 0 ABS 0
-__Hbank7 0 0 ABS 0
-__Lbank7 0 0 ABS 0
 __Htext0 0 0 ABS 0
 __Ltext0 0 0 ABS 0
 __ptext0 198 0 CODE 0
@@ -148,7 +150,7 @@ __Lstack 0 0 STACK 2
 int_func 106 0 CODE 0
 __Hparam 0 0 COMRAM 1
 __Lparam 0 0 COMRAM 1
-__Hspace_0 800 0 ABS 0
+__Hspace_0 600 0 ABS 0
 __HcstackCOMRAM 0 0 ABS 0
 __Lspace_0 0 0 ABS 0
 __LcstackCOMRAM 0 0 ABS 0
@@ -165,9 +167,8 @@ __Lnvbit 0 0 COMRAM 1
 __Hcinit 0 0 ABS 0
 __Lcinit 0 0 ABS 0
 __pcinit 1E6 0 CODE 0
-__ramtop 800 0 RAM 0
+__ramtop 600 0 RAM 0
 __mediumconst 0 0 MEDIUMCONST 0
-__size_of_main 0 0 ABS 0
 __Hconst 0 0 CONST 0
 __Lconst 0 0 CONST 0
 __Hspace_4 60000E 0 ABS 0
@@ -178,7 +179,7 @@ _INTCONbits FF2 0 ABS 0
 __smallconst 0 0 SMALLCONST 0
 __Hreset_vec 4 0 CODE 0
 __Lreset_vec 0 0 CODE 0
-__accesstop 60 0 ABS 0
+__accesstop 80 0 ABS 0
 __Hintcode_body 0 0 ABS 0
 __Lintcode_body 0 0 ABS 0
 __pintcode_body 106 0 CODE 0
@@ -186,7 +187,6 @@ intlevel0 0 0 CODE 0
 intlevel1 0 0 CODE 0
 intlevel2 0 0 CODE 0
 intlevel3 0 0 CODE 0
-__size_of_display7s 0 0 ABS 0
 start_initialization 1E6 0 CODE 0
 __initialization 1E6 0 CODE 0
 __activetblptr 2 0 ABS 0
@@ -196,22 +196,22 @@ intcode 8 1F9 CODE 8 0
 bssCOMRAM 1 6 COMRAM 1 1
 %locals
 dist/default/production\7segm.X.production.o
-D:/MPLABX/XC8/pic/include/proc\pic18f4550.h
-C:\Users\Alan Kardek\AppData\Local\Temp\scgk.s
-535 1E6 0 CODE 0
-537 1E6 0 CODE 0
-540 1E6 0 CODE 0
-555 1E6 0 CODE 0
-556 1E8 0 CODE 0
-557 1EA 0 CODE 0
-563 1EC 0 CODE 0
-565 1EC 0 CODE 0
-566 1EE 0 CODE 0
-568 1F0 0 CODE 0
-569 1F2 0 CODE 0
-570 1F4 0 CODE 0
-571 1F6 0 CODE 0
-main.c
+../../../../../../Program Files/Microchip/xc8/v2.36/pic/include/proc\pic18f4520.h
+C:\Users\ufop\AppData\Local\Temp\xcAsaeo.s
+467 1E6 0 CODE 0
+469 1E6 0 CODE 0
+472 1E6 0 CODE 0
+487 1E6 0 CODE 0
+488 1E8 0 CODE 0
+489 1EA 0 CODE 0
+495 1EC 0 CODE 0
+497 1EC 0 CODE 0
+498 1EE 0 CODE 0
+500 1F0 0 CODE 0
+501 1F2 0 CODE 0
+502 1F4 0 CODE 0
+503 1F6 0 CODE 0
+main7seg.c
 17 198 0 CODE 0
 22 198 0 CODE 0
 23 19C 0 CODE 0
@@ -235,11 +235,11 @@ main.c
 54 1DA 0 CODE 0
 55 1DC 0 CODE 0
 57 1DC 0 CODE 0
-C:\Users\Alan Kardek\AppData\Local\Temp\scgk.s
-937 8 0 CODE 0
-main.c
+C:\Users\ufop\AppData\Local\Temp\xcAsaeo.s
+855 8 0 CODE 0
+main7seg.c
 68 8 0 CODE 0
-main.c
+main7seg.c
 68 106 0 CODE 0
 69 108 0 CODE 0
 71 116 0 CODE 0
@@ -277,4 +277,20 @@ display7s.c
 70 72 0 CODE 0
 72 78 0 CODE 0
 37 7E 0 CODE 0
+37 82 0 CODE 0
+37 8A 0 CODE 0
+37 92 0 CODE 0
+37 9A 0 CODE 0
+37 A2 0 CODE 0
+37 AA 0 CODE 0
+37 B2 0 CODE 0
+37 BA 0 CODE 0
+37 C2 0 CODE 0
+37 CA 0 CODE 0
+37 D2 0 CODE 0
+37 DA 0 CODE 0
+37 E2 0 CODE 0
+37 EA 0 CODE 0
+37 F2 0 CODE 0
+37 FA 0 CODE 0
 74 104 0 CODE 0

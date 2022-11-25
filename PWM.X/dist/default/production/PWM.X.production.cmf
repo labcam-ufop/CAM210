@@ -7,39 +7,30 @@
 # Each line that follows describes a psect in that object file, until
 # the next object file.  The lines that describe a psect have the
 # format:
-#    <psect name> <class name> <space> <link address> <load addresses> <length> <delta>
+#    <psect name> <class name> <space> <link address> <load addresses> <length> <delta> <reloc>
 # All addresses and the length are given in unqualified hexadecimal
 # in delta units.  Any other numeric values are decimal.
 %PSECTS
-$C:\Users\Alan Kardek\AppData\Local\Temp\xcAs68g.o
-idloc IDLOC 5 200000 200000 8 1
-init CODE 0 0 0 4 1
-config CONFIG 4 300000 300000 E 1
+$C:\Users\ufop\AppData\Local\Temp\xcAs5s0.o
+idloc IDLOC 5 200000 200000 8 1 1
+init CODE 0 0 0 4 1 2
+config CONFIG 4 300000 300000 E 1 1
 $dist/default/production\PWM.X.production.o
-cinit CODE 0 1256 1256 2E 1
-idloc IDLOC 5 200000 200000 8 1
-text0 CODE 0 E58 E58 CA 1
-text1 CODE 0 612 612 2D8 1
-text2 CODE 0 1224 1224 32 1
-text3 CODE 0 12B0 12B0 26 1
-text4 CODE 0 11C0 11C0 64 1
-text5 CODE 0 10E2 10E2 74 1
-text6 CODE 0 1284 1284 2C 1
-text7 CODE 0 FC6 FC6 92 1
-text8 CODE 0 1156 1156 6A 1
-text9 CODE 0 F22 F22 A4 1
-text10 CODE 0 D66 D66 F2 1
-text11 CODE 0 C5A C5A 10C 1
-text12 CODE 0 1058 1058 8A 1
-text13 CODE 0 8EA 8EA 134 1
-text14 CODE 0 B4A B4A 110 1
-text15 CODE 0 A1E A1E 12C 1
-idataCOMRAM CODE 0 12D6 12D6 2 1
-cstackCOMRAM COMRAM 1 1 1 21 1
-smallconst SMALLCONST 0 600 600 12 1
-dataCOMRAM COMRAM 1 29 29 2 1
-bssCOMRAM COMRAM 1 22 22 7 1
-config CONFIG 4 300000 300000 E 1
+cinit CODE 0 CD0 CD0 22 1 2
+idloc IDLOC 5 200000 200000 8 1 1
+text0 CODE 0 C22 C22 82 1 2
+text1 CODE 0 CA4 CA4 2C 1 2
+text2 CODE 0 AA0 AA0 F2 1 2
+text3 CODE 0 994 994 10C 1 2
+text4 CODE 0 B92 B92 90 1 2
+text5 CODE 0 624 624 134 1 2
+text6 CODE 0 884 884 110 1 2
+text7 CODE 0 758 758 12C 1 2
+idataCOMRAM CODE 0 CF2 CF2 2 1 1
+cstackCOMRAM COMRAM 1 1 1 16 1 1
+smallconst SMALLCONST 0 600 600 24 1 2
+dataCOMRAM COMRAM 1 17 17 2 1 1
+config CONFIG 4 300000 300000 E 1 1
 # %UNUSED Section
 # This section enumerates the unused ranges of each CLASS. Each entry
 # is described on a single line as follows:
@@ -55,15 +46,15 @@ BANK3 300-3FF 1
 BANK4 400-4FF 1
 BANK5 500-5FF 1
 CONST 4-5FF 1
-CONST 12D8-7FFF 1
-STACK 80-5FF 1
-SMALLCONST 12D8-7FFF 1
+CONST CF4-7FFF 1
+SMALLCONST CF4-7FFF 1
 CODE 4-5FF 1
-CODE 12D8-7FFF 1
-BIGRAM 2B-5FF 1
-COMRAM 2B-7F 1
+CODE CF4-7FFF 1
+BIGRAM 19-5FF 1
+BIGSFR F80-FFF 1
+COMRAM 19-7F 1
 EEDATA F00000-F000FF 1
-MEDIUMCONST 12D8-7FFF 1
+MEDIUMCONST CF4-7FFF 1
 # %LINETAB Section
 # This section enumerates the file/line to address mappings.
 # The beginning of the section is indicated by %LINETAB.
@@ -78,316 +69,184 @@ MEDIUMCONST 12D8-7FFF 1
 # All other numeric values are in decimal.
 %LINETAB
 $dist/default/production\PWM.X.production.o
-A1E text15 CODE >152:D:\Drive\alankardek\2_UFOP_MATERIAL_DISCP\CAM210 - Git\CAM210\PWM.X\flexlcd.h
-A20 text15 CODE >153:D:\Drive\alankardek\2_UFOP_MATERIAL_DISCP\CAM210 - Git\CAM210\PWM.X\flexlcd.h
-A24 text15 CODE >154:D:\Drive\alankardek\2_UFOP_MATERIAL_DISCP\CAM210 - Git\CAM210\PWM.X\flexlcd.h
-A64 text15 CODE >155:D:\Drive\alankardek\2_UFOP_MATERIAL_DISCP\CAM210 - Git\CAM210\PWM.X\flexlcd.h
-AA2 text15 CODE >156:D:\Drive\alankardek\2_UFOP_MATERIAL_DISCP\CAM210 - Git\CAM210\PWM.X\flexlcd.h
-AAA text15 CODE >157:D:\Drive\alankardek\2_UFOP_MATERIAL_DISCP\CAM210 - Git\CAM210\PWM.X\flexlcd.h
-AB6 text15 CODE >158:D:\Drive\alankardek\2_UFOP_MATERIAL_DISCP\CAM210 - Git\CAM210\PWM.X\flexlcd.h
-AF8 text15 CODE >159:D:\Drive\alankardek\2_UFOP_MATERIAL_DISCP\CAM210 - Git\CAM210\PWM.X\flexlcd.h
-B26 text15 CODE >160:D:\Drive\alankardek\2_UFOP_MATERIAL_DISCP\CAM210 - Git\CAM210\PWM.X\flexlcd.h
-B2E text15 CODE >161:D:\Drive\alankardek\2_UFOP_MATERIAL_DISCP\CAM210 - Git\CAM210\PWM.X\flexlcd.h
-B3A text15 CODE >162:D:\Drive\alankardek\2_UFOP_MATERIAL_DISCP\CAM210 - Git\CAM210\PWM.X\flexlcd.h
-B48 text15 CODE >163:D:\Drive\alankardek\2_UFOP_MATERIAL_DISCP\CAM210 - Git\CAM210\PWM.X\flexlcd.h
-B4A text14 CODE >54:D:\Drive\alankardek\2_UFOP_MATERIAL_DISCP\CAM210 - Git\CAM210\PWM.X\flexlcd.h
-B4A text14 CODE >56:D:\Drive\alankardek\2_UFOP_MATERIAL_DISCP\CAM210 - Git\CAM210\PWM.X\flexlcd.h
-B4C text14 CODE >57:D:\Drive\alankardek\2_UFOP_MATERIAL_DISCP\CAM210 - Git\CAM210\PWM.X\flexlcd.h
-B4E text14 CODE >58:D:\Drive\alankardek\2_UFOP_MATERIAL_DISCP\CAM210 - Git\CAM210\PWM.X\flexlcd.h
-B50 text14 CODE >59:D:\Drive\alankardek\2_UFOP_MATERIAL_DISCP\CAM210 - Git\CAM210\PWM.X\flexlcd.h
-B52 text14 CODE >60:D:\Drive\alankardek\2_UFOP_MATERIAL_DISCP\CAM210 - Git\CAM210\PWM.X\flexlcd.h
-B54 text14 CODE >61:D:\Drive\alankardek\2_UFOP_MATERIAL_DISCP\CAM210 - Git\CAM210\PWM.X\flexlcd.h
-B56 text14 CODE >62:D:\Drive\alankardek\2_UFOP_MATERIAL_DISCP\CAM210 - Git\CAM210\PWM.X\flexlcd.h
-B58 text14 CODE >63:D:\Drive\alankardek\2_UFOP_MATERIAL_DISCP\CAM210 - Git\CAM210\PWM.X\flexlcd.h
-B5A text14 CODE >64:D:\Drive\alankardek\2_UFOP_MATERIAL_DISCP\CAM210 - Git\CAM210\PWM.X\flexlcd.h
-B5C text14 CODE >65:D:\Drive\alankardek\2_UFOP_MATERIAL_DISCP\CAM210 - Git\CAM210\PWM.X\flexlcd.h
-B5E text14 CODE >66:D:\Drive\alankardek\2_UFOP_MATERIAL_DISCP\CAM210 - Git\CAM210\PWM.X\flexlcd.h
-B60 text14 CODE >67:D:\Drive\alankardek\2_UFOP_MATERIAL_DISCP\CAM210 - Git\CAM210\PWM.X\flexlcd.h
-B62 text14 CODE >68:D:\Drive\alankardek\2_UFOP_MATERIAL_DISCP\CAM210 - Git\CAM210\PWM.X\flexlcd.h
-B70 text14 CODE >69:D:\Drive\alankardek\2_UFOP_MATERIAL_DISCP\CAM210 - Git\CAM210\PWM.X\flexlcd.h
-B7E text14 CODE >70:D:\Drive\alankardek\2_UFOP_MATERIAL_DISCP\CAM210 - Git\CAM210\PWM.X\flexlcd.h
-B8C text14 CODE >71:D:\Drive\alankardek\2_UFOP_MATERIAL_DISCP\CAM210 - Git\CAM210\PWM.X\flexlcd.h
-B9A text14 CODE >72:D:\Drive\alankardek\2_UFOP_MATERIAL_DISCP\CAM210 - Git\CAM210\PWM.X\flexlcd.h
-BA8 text14 CODE >73:D:\Drive\alankardek\2_UFOP_MATERIAL_DISCP\CAM210 - Git\CAM210\PWM.X\flexlcd.h
-BB6 text14 CODE >74:D:\Drive\alankardek\2_UFOP_MATERIAL_DISCP\CAM210 - Git\CAM210\PWM.X\flexlcd.h
-BBA text14 CODE >75:D:\Drive\alankardek\2_UFOP_MATERIAL_DISCP\CAM210 - Git\CAM210\PWM.X\flexlcd.h
-BBA text14 CODE >76:D:\Drive\alankardek\2_UFOP_MATERIAL_DISCP\CAM210 - Git\CAM210\PWM.X\flexlcd.h
-BC4 text14 CODE >77:D:\Drive\alankardek\2_UFOP_MATERIAL_DISCP\CAM210 - Git\CAM210\PWM.X\flexlcd.h
-BCE text14 CODE >78:D:\Drive\alankardek\2_UFOP_MATERIAL_DISCP\CAM210 - Git\CAM210\PWM.X\flexlcd.h
-BD2 text14 CODE >79:D:\Drive\alankardek\2_UFOP_MATERIAL_DISCP\CAM210 - Git\CAM210\PWM.X\flexlcd.h
-BDA text14 CODE >80:D:\Drive\alankardek\2_UFOP_MATERIAL_DISCP\CAM210 - Git\CAM210\PWM.X\flexlcd.h
-BE4 text14 CODE >81:D:\Drive\alankardek\2_UFOP_MATERIAL_DISCP\CAM210 - Git\CAM210\PWM.X\flexlcd.h
-BE6 text14 CODE >82:D:\Drive\alankardek\2_UFOP_MATERIAL_DISCP\CAM210 - Git\CAM210\PWM.X\flexlcd.h
-BF4 text14 CODE >74:D:\Drive\alankardek\2_UFOP_MATERIAL_DISCP\CAM210 - Git\CAM210\PWM.X\flexlcd.h
-C06 text14 CODE >84:D:\Drive\alankardek\2_UFOP_MATERIAL_DISCP\CAM210 - Git\CAM210\PWM.X\flexlcd.h
-C12 text14 CODE >85:D:\Drive\alankardek\2_UFOP_MATERIAL_DISCP\CAM210 - Git\CAM210\PWM.X\flexlcd.h
-C1E text14 CODE >86:D:\Drive\alankardek\2_UFOP_MATERIAL_DISCP\CAM210 - Git\CAM210\PWM.X\flexlcd.h
-C26 text14 CODE >87:D:\Drive\alankardek\2_UFOP_MATERIAL_DISCP\CAM210 - Git\CAM210\PWM.X\flexlcd.h
-C32 text14 CODE >88:D:\Drive\alankardek\2_UFOP_MATERIAL_DISCP\CAM210 - Git\CAM210\PWM.X\flexlcd.h
-C40 text14 CODE >89:D:\Drive\alankardek\2_UFOP_MATERIAL_DISCP\CAM210 - Git\CAM210\PWM.X\flexlcd.h
-C46 text14 CODE >90:D:\Drive\alankardek\2_UFOP_MATERIAL_DISCP\CAM210 - Git\CAM210\PWM.X\flexlcd.h
-C4C text14 CODE >91:D:\Drive\alankardek\2_UFOP_MATERIAL_DISCP\CAM210 - Git\CAM210\PWM.X\flexlcd.h
-C52 text14 CODE >92:D:\Drive\alankardek\2_UFOP_MATERIAL_DISCP\CAM210 - Git\CAM210\PWM.X\flexlcd.h
-C58 text14 CODE >93:D:\Drive\alankardek\2_UFOP_MATERIAL_DISCP\CAM210 - Git\CAM210\PWM.X\flexlcd.h
-8EA text13 CODE >138:D:\Drive\alankardek\2_UFOP_MATERIAL_DISCP\CAM210 - Git\CAM210\PWM.X\flexlcd.h
-8EC text13 CODE >139:D:\Drive\alankardek\2_UFOP_MATERIAL_DISCP\CAM210 - Git\CAM210\PWM.X\flexlcd.h
-8F0 text13 CODE >140:D:\Drive\alankardek\2_UFOP_MATERIAL_DISCP\CAM210 - Git\CAM210\PWM.X\flexlcd.h
-930 text13 CODE >141:D:\Drive\alankardek\2_UFOP_MATERIAL_DISCP\CAM210 - Git\CAM210\PWM.X\flexlcd.h
-96E text13 CODE >142:D:\Drive\alankardek\2_UFOP_MATERIAL_DISCP\CAM210 - Git\CAM210\PWM.X\flexlcd.h
-976 text13 CODE >143:D:\Drive\alankardek\2_UFOP_MATERIAL_DISCP\CAM210 - Git\CAM210\PWM.X\flexlcd.h
-982 text13 CODE >144:D:\Drive\alankardek\2_UFOP_MATERIAL_DISCP\CAM210 - Git\CAM210\PWM.X\flexlcd.h
-9C4 text13 CODE >145:D:\Drive\alankardek\2_UFOP_MATERIAL_DISCP\CAM210 - Git\CAM210\PWM.X\flexlcd.h
-9F2 text13 CODE >146:D:\Drive\alankardek\2_UFOP_MATERIAL_DISCP\CAM210 - Git\CAM210\PWM.X\flexlcd.h
-9FA text13 CODE >147:D:\Drive\alankardek\2_UFOP_MATERIAL_DISCP\CAM210 - Git\CAM210\PWM.X\flexlcd.h
-A06 text13 CODE >148:D:\Drive\alankardek\2_UFOP_MATERIAL_DISCP\CAM210 - Git\CAM210\PWM.X\flexlcd.h
-A1C text13 CODE >149:D:\Drive\alankardek\2_UFOP_MATERIAL_DISCP\CAM210 - Git\CAM210\PWM.X\flexlcd.h
-1058 text12 CODE >96:D:\Drive\alankardek\2_UFOP_MATERIAL_DISCP\CAM210 - Git\CAM210\PWM.X\flexlcd.h
-105A text12 CODE >99:D:\Drive\alankardek\2_UFOP_MATERIAL_DISCP\CAM210 - Git\CAM210\PWM.X\flexlcd.h
-105E text12 CODE >101:D:\Drive\alankardek\2_UFOP_MATERIAL_DISCP\CAM210 - Git\CAM210\PWM.X\flexlcd.h
-1068 text12 CODE >102:D:\Drive\alankardek\2_UFOP_MATERIAL_DISCP\CAM210 - Git\CAM210\PWM.X\flexlcd.h
-1072 text12 CODE >103:D:\Drive\alankardek\2_UFOP_MATERIAL_DISCP\CAM210 - Git\CAM210\PWM.X\flexlcd.h
-107C text12 CODE >104:D:\Drive\alankardek\2_UFOP_MATERIAL_DISCP\CAM210 - Git\CAM210\PWM.X\flexlcd.h
-1086 text12 CODE >99:D:\Drive\alankardek\2_UFOP_MATERIAL_DISCP\CAM210 - Git\CAM210\PWM.X\flexlcd.h
-108A text12 CODE >99:D:\Drive\alankardek\2_UFOP_MATERIAL_DISCP\CAM210 - Git\CAM210\PWM.X\flexlcd.h
-1092 text12 CODE >99:D:\Drive\alankardek\2_UFOP_MATERIAL_DISCP\CAM210 - Git\CAM210\PWM.X\flexlcd.h
-109A text12 CODE >99:D:\Drive\alankardek\2_UFOP_MATERIAL_DISCP\CAM210 - Git\CAM210\PWM.X\flexlcd.h
-10A2 text12 CODE >99:D:\Drive\alankardek\2_UFOP_MATERIAL_DISCP\CAM210 - Git\CAM210\PWM.X\flexlcd.h
-10AC text12 CODE >107:D:\Drive\alankardek\2_UFOP_MATERIAL_DISCP\CAM210 - Git\CAM210\PWM.X\flexlcd.h
-10B2 text12 CODE >108:D:\Drive\alankardek\2_UFOP_MATERIAL_DISCP\CAM210 - Git\CAM210\PWM.X\flexlcd.h
-10B6 text12 CODE >110:D:\Drive\alankardek\2_UFOP_MATERIAL_DISCP\CAM210 - Git\CAM210\PWM.X\flexlcd.h
-10C4 text12 CODE >111:D:\Drive\alankardek\2_UFOP_MATERIAL_DISCP\CAM210 - Git\CAM210\PWM.X\flexlcd.h
-10C8 text12 CODE >108:D:\Drive\alankardek\2_UFOP_MATERIAL_DISCP\CAM210 - Git\CAM210\PWM.X\flexlcd.h
-10E0 text12 CODE >114:D:\Drive\alankardek\2_UFOP_MATERIAL_DISCP\CAM210 - Git\CAM210\PWM.X\flexlcd.h
-C5A text11 CODE >7:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c90\common\aldiv.c
-C5A text11 CODE >13:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c90\common\aldiv.c
-C5E text11 CODE >14:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c90\common\aldiv.c
-C6C text11 CODE >15:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c90\common\aldiv.c
-C7C text11 CODE >16:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c90\common\aldiv.c
-C80 text11 CODE >18:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c90\common\aldiv.c
-C8E text11 CODE >19:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c90\common\aldiv.c
-C9E text11 CODE >20:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c90\common\aldiv.c
-CA2 text11 CODE >22:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c90\common\aldiv.c
-CB2 text11 CODE >23:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c90\common\aldiv.c
-CC8 text11 CODE >24:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c90\common\aldiv.c
-CCC text11 CODE >25:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c90\common\aldiv.c
-CD0 text11 CODE >26:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c90\common\aldiv.c
-CDA text11 CODE >27:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c90\common\aldiv.c
-CDC text11 CODE >25:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c90\common\aldiv.c
-CEA text11 CODE >30:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c90\common\aldiv.c
-CF4 text11 CODE >31:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c90\common\aldiv.c
-D12 text11 CODE >32:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c90\common\aldiv.c
-D22 text11 CODE >33:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c90\common\aldiv.c
-D24 text11 CODE >35:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c90\common\aldiv.c
-D2E text11 CODE >36:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c90\common\aldiv.c
-D34 text11 CODE >38:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c90\common\aldiv.c
-D44 text11 CODE >39:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c90\common\aldiv.c
-D54 text11 CODE >40:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c90\common\aldiv.c
-D64 text11 CODE >41:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c90\common\aldiv.c
-D66 text10 CODE >31:D:\Drive\alankardek\2_UFOP_MATERIAL_DISCP\CAM210 - Git\CAM210\PWM.X\pwm.c
-D66 text10 CODE >39:D:\Drive\alankardek\2_UFOP_MATERIAL_DISCP\CAM210 - Git\CAM210\PWM.X\pwm.c
-D6A text10 CODE >40:D:\Drive\alankardek\2_UFOP_MATERIAL_DISCP\CAM210 - Git\CAM210\PWM.X\pwm.c
-D6C text10 CODE >41:D:\Drive\alankardek\2_UFOP_MATERIAL_DISCP\CAM210 - Git\CAM210\PWM.X\pwm.c
-D6E text10 CODE >43:D:\Drive\alankardek\2_UFOP_MATERIAL_DISCP\CAM210 - Git\CAM210\PWM.X\pwm.c
-D70 text10 CODE >44:D:\Drive\alankardek\2_UFOP_MATERIAL_DISCP\CAM210 - Git\CAM210\PWM.X\pwm.c
-D72 text10 CODE >46:D:\Drive\alankardek\2_UFOP_MATERIAL_DISCP\CAM210 - Git\CAM210\PWM.X\pwm.c
-D76 text10 CODE >51:D:\Drive\alankardek\2_UFOP_MATERIAL_DISCP\CAM210 - Git\CAM210\PWM.X\pwm.c
-D78 text10 CODE >53:D:\Drive\alankardek\2_UFOP_MATERIAL_DISCP\CAM210 - Git\CAM210\PWM.X\pwm.c
-DC2 text10 CODE >55:D:\Drive\alankardek\2_UFOP_MATERIAL_DISCP\CAM210 - Git\CAM210\PWM.X\pwm.c
-DD2 text10 CODE >57:D:\Drive\alankardek\2_UFOP_MATERIAL_DISCP\CAM210 - Git\CAM210\PWM.X\pwm.c
-DD6 text10 CODE >58:D:\Drive\alankardek\2_UFOP_MATERIAL_DISCP\CAM210 - Git\CAM210\PWM.X\pwm.c
-DDA text10 CODE >59:D:\Drive\alankardek\2_UFOP_MATERIAL_DISCP\CAM210 - Git\CAM210\PWM.X\pwm.c
-DDE text10 CODE >60:D:\Drive\alankardek\2_UFOP_MATERIAL_DISCP\CAM210 - Git\CAM210\PWM.X\pwm.c
-E02 text10 CODE >62:D:\Drive\alankardek\2_UFOP_MATERIAL_DISCP\CAM210 - Git\CAM210\PWM.X\pwm.c
-E0A text10 CODE >63:D:\Drive\alankardek\2_UFOP_MATERIAL_DISCP\CAM210 - Git\CAM210\PWM.X\pwm.c
-E26 text10 CODE >64:D:\Drive\alankardek\2_UFOP_MATERIAL_DISCP\CAM210 - Git\CAM210\PWM.X\pwm.c
-E2A text10 CODE >67:D:\Drive\alankardek\2_UFOP_MATERIAL_DISCP\CAM210 - Git\CAM210\PWM.X\pwm.c
-E4A text10 CODE >68:D:\Drive\alankardek\2_UFOP_MATERIAL_DISCP\CAM210 - Git\CAM210\PWM.X\pwm.c
-E52 text10 CODE >71:D:\Drive\alankardek\2_UFOP_MATERIAL_DISCP\CAM210 - Git\CAM210\PWM.X\pwm.c
-E56 text10 CODE >73:D:\Drive\alankardek\2_UFOP_MATERIAL_DISCP\CAM210 - Git\CAM210\PWM.X\pwm.c
-F22 text9 CODE >7:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c90\common\__lldiv.c
-F22 text9 CODE >13:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c90\common\__lldiv.c
-F32 text9 CODE >14:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c90\common\__lldiv.c
-F48 text9 CODE >15:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c90\common\__lldiv.c
-F4C text9 CODE >16:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c90\common\__lldiv.c
-F50 text9 CODE >17:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c90\common\__lldiv.c
-F5A text9 CODE >18:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c90\common\__lldiv.c
-F5C text9 CODE >16:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c90\common\__lldiv.c
-F6A text9 CODE >21:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c90\common\__lldiv.c
-F74 text9 CODE >22:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c90\common\__lldiv.c
-F92 text9 CODE >23:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c90\common\__lldiv.c
-FA2 text9 CODE >24:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c90\common\__lldiv.c
-FA4 text9 CODE >26:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c90\common\__lldiv.c
-FAE text9 CODE >27:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c90\common\__lldiv.c
-FB4 text9 CODE >28:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c90\common\__lldiv.c
-FB4 text9 CODE >29:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c90\common\__lldiv.c
-FC4 text9 CODE >30:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c90\common\__lldiv.c
-1156 text8 CODE >15:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c90\common\Umul32.c
-1156 text8 CODE >119:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c90\common\Umul32.c
-1166 text8 CODE >121:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c90\common\Umul32.c
-1174 text8 CODE >122:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c90\common\Umul32.c
-1184 text8 CODE >123:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c90\common\Umul32.c
-118E text8 CODE >124:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c90\common\Umul32.c
-1198 text8 CODE >125:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c90\common\Umul32.c
-11AE text8 CODE >128:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c90\common\Umul32.c
-11BE text8 CODE >129:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c90\common\Umul32.c
-FC6 text7 CODE >101:D:\Drive\alankardek\2_UFOP_MATERIAL_DISCP\CAM210 - Git\CAM210\PWM.X\pwm.c
-FC8 text7 CODE >105:D:\Drive\alankardek\2_UFOP_MATERIAL_DISCP\CAM210 - Git\CAM210\PWM.X\pwm.c
-102E text7 CODE >107:D:\Drive\alankardek\2_UFOP_MATERIAL_DISCP\CAM210 - Git\CAM210\PWM.X\pwm.c
-1046 text7 CODE >108:D:\Drive\alankardek\2_UFOP_MATERIAL_DISCP\CAM210 - Git\CAM210\PWM.X\pwm.c
-1056 text7 CODE >109:D:\Drive\alankardek\2_UFOP_MATERIAL_DISCP\CAM210 - Git\CAM210\PWM.X\pwm.c
-1284 text6 CODE >76:D:\Drive\alankardek\2_UFOP_MATERIAL_DISCP\CAM210 - Git\CAM210\PWM.X\pwm.c
-1284 text6 CODE >79:D:\Drive\alankardek\2_UFOP_MATERIAL_DISCP\CAM210 - Git\CAM210\PWM.X\pwm.c
-1286 text6 CODE >80:D:\Drive\alankardek\2_UFOP_MATERIAL_DISCP\CAM210 - Git\CAM210\PWM.X\pwm.c
-1288 text6 CODE >83:D:\Drive\alankardek\2_UFOP_MATERIAL_DISCP\CAM210 - Git\CAM210\PWM.X\pwm.c
-128C text6 CODE >86:D:\Drive\alankardek\2_UFOP_MATERIAL_DISCP\CAM210 - Git\CAM210\PWM.X\pwm.c
-128E text6 CODE >90:D:\Drive\alankardek\2_UFOP_MATERIAL_DISCP\CAM210 - Git\CAM210\PWM.X\pwm.c
-1290 text6 CODE >91:D:\Drive\alankardek\2_UFOP_MATERIAL_DISCP\CAM210 - Git\CAM210\PWM.X\pwm.c
-129E text6 CODE >92:D:\Drive\alankardek\2_UFOP_MATERIAL_DISCP\CAM210 - Git\CAM210\PWM.X\pwm.c
-12A0 text6 CODE >93:D:\Drive\alankardek\2_UFOP_MATERIAL_DISCP\CAM210 - Git\CAM210\PWM.X\pwm.c
-12AE text6 CODE >98:D:\Drive\alankardek\2_UFOP_MATERIAL_DISCP\CAM210 - Git\CAM210\PWM.X\pwm.c
-10E2 text5 CODE >7:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c90\common\lwdiv.c
-10E2 text5 CODE >13:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c90\common\lwdiv.c
-10EA text5 CODE >14:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c90\common\lwdiv.c
-10FC text5 CODE >15:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c90\common\lwdiv.c
-1100 text5 CODE >16:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c90\common\lwdiv.c
-1104 text5 CODE >17:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c90\common\lwdiv.c
-110A text5 CODE >18:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c90\common\lwdiv.c
-110C text5 CODE >16:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c90\common\lwdiv.c
-111A text5 CODE >21:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c90\common\lwdiv.c
-1120 text5 CODE >22:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c90\common\lwdiv.c
-1136 text5 CODE >23:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c90\common\lwdiv.c
-113E text5 CODE >24:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c90\common\lwdiv.c
-1140 text5 CODE >26:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c90\common\lwdiv.c
-1146 text5 CODE >27:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c90\common\lwdiv.c
-114C text5 CODE >28:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c90\common\lwdiv.c
-114C text5 CODE >29:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c90\common\lwdiv.c
-1154 text5 CODE >30:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c90\common\lwdiv.c
-11C0 text4 CODE >7:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c90\common\lwmod.c
-11C0 text4 CODE >12:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c90\common\lwmod.c
-11D2 text4 CODE >13:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c90\common\lwmod.c
-11D6 text4 CODE >14:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c90\common\lwmod.c
-11DA text4 CODE >15:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c90\common\lwmod.c
-11E0 text4 CODE >16:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c90\common\lwmod.c
-11E2 text4 CODE >14:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c90\common\lwmod.c
-11F0 text4 CODE >19:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c90\common\lwmod.c
-1206 text4 CODE >20:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c90\common\lwmod.c
-120E text4 CODE >21:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c90\common\lwmod.c
-1214 text4 CODE >22:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c90\common\lwmod.c
-121A text4 CODE >23:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c90\common\lwmod.c
-121A text4 CODE >24:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c90\common\lwmod.c
-1222 text4 CODE >25:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c90\common\lwmod.c
-12B0 text3 CODE >15:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c90\common\Umul16.c
-12B0 text3 CODE >37:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c90\common\Umul16.c
-12BC text3 CODE >38:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c90\common\Umul16.c
-12C4 text3 CODE >39:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c90\common\Umul16.c
-12CC text3 CODE >52:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c90\common\Umul16.c
-12D4 text3 CODE >53:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c90\common\Umul16.c
-1224 text2 CODE >8:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c90\common\isdigit.c
-1226 text2 CODE >14:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c90\common\isdigit.c
-1254 text2 CODE >15:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c90\common\isdigit.c
-612 text1 CODE >505:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c90\common\doprnt.c
-612 text1 CODE >550:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c90\common\doprnt.c
-61A text1 CODE >553:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c90\common\doprnt.c
-61E text1 CODE >555:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c90\common\doprnt.c
-630 text1 CODE >558:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c90\common\doprnt.c
-640 text1 CODE >559:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c90\common\doprnt.c
-644 text1 CODE >563:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c90\common\doprnt.c
-64C text1 CODE >565:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c90\common\doprnt.c
-654 text1 CODE >597:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c90\common\doprnt.c
-656 text1 CODE >598:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c90\common\doprnt.c
-65A text1 CODE >568:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c90\common\doprnt.c
-668 text1 CODE >568:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c90\common\doprnt.c
-672 text1 CODE >614:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c90\common\doprnt.c
-690 text1 CODE >615:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c90\common\doprnt.c
-698 text1 CODE >617:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c90\common\doprnt.c
-6B4 text1 CODE >618:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c90\common\doprnt.c
-6E0 text1 CODE >619:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c90\common\doprnt.c
-702 text1 CODE >844:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c90\common\doprnt.c
-706 text1 CODE >845:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c90\common\doprnt.c
-70A text1 CODE >661:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c90\common\doprnt.c
-720 text1 CODE >661:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c90\common\doprnt.c
-728 text1 CODE >661:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c90\common\doprnt.c
-732 text1 CODE >1312:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c90\common\doprnt.c
-74A text1 CODE >1331:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c90\common\doprnt.c
-74E text1 CODE >1332:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c90\common\doprnt.c
-77C text1 CODE >1331:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c90\common\doprnt.c
-790 text1 CODE >1407:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c90\common\doprnt.c
-7B4 text1 CODE >1408:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c90\common\doprnt.c
-7C0 text1 CODE >1410:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c90\common\doprnt.c
-7C8 text1 CODE >1413:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c90\common\doprnt.c
-7D6 text1 CODE >1441:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c90\common\doprnt.c
-7E8 text1 CODE >1443:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c90\common\doprnt.c
-7F8 text1 CODE >1444:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c90\common\doprnt.c
-814 text1 CODE >1454:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c90\common\doprnt.c
-826 text1 CODE >1456:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c90\common\doprnt.c
-836 text1 CODE >1457:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c90\common\doprnt.c
-84E text1 CODE >1495:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c90\common\doprnt.c
-84E text1 CODE >1498:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c90\common\doprnt.c
-852 text1 CODE >1500:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c90\common\doprnt.c
-856 text1 CODE >1515:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c90\common\doprnt.c
-898 text1 CODE >1550:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c90\common\doprnt.c
-8A8 text1 CODE >1500:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c90\common\doprnt.c
-8BA text1 CODE >553:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c90\common\doprnt.c
-8DC text1 CODE >1564:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c90\common\doprnt.c
-8E8 text1 CODE >1567:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c90\common\doprnt.c
-E58 text0 CODE >32:D:\Drive\alankardek\2_UFOP_MATERIAL_DISCP\CAM210 - Git\CAM210\PWM.X\mainPWM.c
-E58 text0 CODE >34:D:\Drive\alankardek\2_UFOP_MATERIAL_DISCP\CAM210 - Git\CAM210\PWM.X\mainPWM.c
-E5C text0 CODE >35:D:\Drive\alankardek\2_UFOP_MATERIAL_DISCP\CAM210 - Git\CAM210\PWM.X\mainPWM.c
-E60 text0 CODE >38:D:\Drive\alankardek\2_UFOP_MATERIAL_DISCP\CAM210 - Git\CAM210\PWM.X\mainPWM.c
-E62 text0 CODE >39:D:\Drive\alankardek\2_UFOP_MATERIAL_DISCP\CAM210 - Git\CAM210\PWM.X\mainPWM.c
-E66 text0 CODE >42:D:\Drive\alankardek\2_UFOP_MATERIAL_DISCP\CAM210 - Git\CAM210\PWM.X\mainPWM.c
-E6A text0 CODE >43:D:\Drive\alankardek\2_UFOP_MATERIAL_DISCP\CAM210 - Git\CAM210\PWM.X\mainPWM.c
-E6E text0 CODE >46:D:\Drive\alankardek\2_UFOP_MATERIAL_DISCP\CAM210 - Git\CAM210\PWM.X\mainPWM.c
-E70 text0 CODE >47:D:\Drive\alankardek\2_UFOP_MATERIAL_DISCP\CAM210 - Git\CAM210\PWM.X\mainPWM.c
-E74 text0 CODE >48:D:\Drive\alankardek\2_UFOP_MATERIAL_DISCP\CAM210 - Git\CAM210\PWM.X\mainPWM.c
-E78 text0 CODE >49:D:\Drive\alankardek\2_UFOP_MATERIAL_DISCP\CAM210 - Git\CAM210\PWM.X\mainPWM.c
-E7C text0 CODE >50:D:\Drive\alankardek\2_UFOP_MATERIAL_DISCP\CAM210 - Git\CAM210\PWM.X\mainPWM.c
-E80 text0 CODE >52:D:\Drive\alankardek\2_UFOP_MATERIAL_DISCP\CAM210 - Git\CAM210\PWM.X\mainPWM.c
-E84 text0 CODE >53:D:\Drive\alankardek\2_UFOP_MATERIAL_DISCP\CAM210 - Git\CAM210\PWM.X\mainPWM.c
-E88 text0 CODE >54:D:\Drive\alankardek\2_UFOP_MATERIAL_DISCP\CAM210 - Git\CAM210\PWM.X\mainPWM.c
-E8C text0 CODE >55:D:\Drive\alankardek\2_UFOP_MATERIAL_DISCP\CAM210 - Git\CAM210\PWM.X\mainPWM.c
-E90 text0 CODE >56:D:\Drive\alankardek\2_UFOP_MATERIAL_DISCP\CAM210 - Git\CAM210\PWM.X\mainPWM.c
-E94 text0 CODE >57:D:\Drive\alankardek\2_UFOP_MATERIAL_DISCP\CAM210 - Git\CAM210\PWM.X\mainPWM.c
-E98 text0 CODE >58:D:\Drive\alankardek\2_UFOP_MATERIAL_DISCP\CAM210 - Git\CAM210\PWM.X\mainPWM.c
-E9C text0 CODE >59:D:\Drive\alankardek\2_UFOP_MATERIAL_DISCP\CAM210 - Git\CAM210\PWM.X\mainPWM.c
-EA0 text0 CODE >60:D:\Drive\alankardek\2_UFOP_MATERIAL_DISCP\CAM210 - Git\CAM210\PWM.X\mainPWM.c
-EA4 text0 CODE >61:D:\Drive\alankardek\2_UFOP_MATERIAL_DISCP\CAM210 - Git\CAM210\PWM.X\mainPWM.c
-EA8 text0 CODE >64:D:\Drive\alankardek\2_UFOP_MATERIAL_DISCP\CAM210 - Git\CAM210\PWM.X\mainPWM.c
-EAC text0 CODE >65:D:\Drive\alankardek\2_UFOP_MATERIAL_DISCP\CAM210 - Git\CAM210\PWM.X\mainPWM.c
-EB2 text0 CODE >66:D:\Drive\alankardek\2_UFOP_MATERIAL_DISCP\CAM210 - Git\CAM210\PWM.X\mainPWM.c
-EBE text0 CODE >67:D:\Drive\alankardek\2_UFOP_MATERIAL_DISCP\CAM210 - Git\CAM210\PWM.X\mainPWM.c
-EC2 text0 CODE >71:D:\Drive\alankardek\2_UFOP_MATERIAL_DISCP\CAM210 - Git\CAM210\PWM.X\mainPWM.c
-EC2 text0 CODE >73:D:\Drive\alankardek\2_UFOP_MATERIAL_DISCP\CAM210 - Git\CAM210\PWM.X\mainPWM.c
-EC4 text0 CODE >75:D:\Drive\alankardek\2_UFOP_MATERIAL_DISCP\CAM210 - Git\CAM210\PWM.X\mainPWM.c
-ECA text0 CODE >76:D:\Drive\alankardek\2_UFOP_MATERIAL_DISCP\CAM210 - Git\CAM210\PWM.X\mainPWM.c
-ED0 text0 CODE >77:D:\Drive\alankardek\2_UFOP_MATERIAL_DISCP\CAM210 - Git\CAM210\PWM.X\mainPWM.c
-ED4 text0 CODE >78:D:\Drive\alankardek\2_UFOP_MATERIAL_DISCP\CAM210 - Git\CAM210\PWM.X\mainPWM.c
-EF0 text0 CODE >79:D:\Drive\alankardek\2_UFOP_MATERIAL_DISCP\CAM210 - Git\CAM210\PWM.X\mainPWM.c
-F02 text0 CODE >80:D:\Drive\alankardek\2_UFOP_MATERIAL_DISCP\CAM210 - Git\CAM210\PWM.X\mainPWM.c
-1256 cinit CODE >1103:C:\Users\Alan Kardek\AppData\Local\Temp\xcAs68g.s
-1256 cinit CODE >1105:C:\Users\Alan Kardek\AppData\Local\Temp\xcAs68g.s
-1256 cinit CODE >1108:C:\Users\Alan Kardek\AppData\Local\Temp\xcAs68g.s
-1256 cinit CODE >1132:C:\Users\Alan Kardek\AppData\Local\Temp\xcAs68g.s
-1258 cinit CODE >1133:C:\Users\Alan Kardek\AppData\Local\Temp\xcAs68g.s
-125A cinit CODE >1134:C:\Users\Alan Kardek\AppData\Local\Temp\xcAs68g.s
-125C cinit CODE >1135:C:\Users\Alan Kardek\AppData\Local\Temp\xcAs68g.s
-125E cinit CODE >1136:C:\Users\Alan Kardek\AppData\Local\Temp\xcAs68g.s
-1260 cinit CODE >1137:C:\Users\Alan Kardek\AppData\Local\Temp\xcAs68g.s
-1262 cinit CODE >1138:C:\Users\Alan Kardek\AppData\Local\Temp\xcAs68g.s
-1264 cinit CODE >1139:C:\Users\Alan Kardek\AppData\Local\Temp\xcAs68g.s
-1268 cinit CODE >1140:C:\Users\Alan Kardek\AppData\Local\Temp\xcAs68g.s
-126A cinit CODE >1141:C:\Users\Alan Kardek\AppData\Local\Temp\xcAs68g.s
-126E cinit CODE >1145:C:\Users\Alan Kardek\AppData\Local\Temp\xcAs68g.s
-1272 cinit CODE >1146:C:\Users\Alan Kardek\AppData\Local\Temp\xcAs68g.s
-1274 cinit CODE >1147:C:\Users\Alan Kardek\AppData\Local\Temp\xcAs68g.s
-1274 cinit CODE >1148:C:\Users\Alan Kardek\AppData\Local\Temp\xcAs68g.s
-1276 cinit CODE >1149:C:\Users\Alan Kardek\AppData\Local\Temp\xcAs68g.s
-1278 cinit CODE >1150:C:\Users\Alan Kardek\AppData\Local\Temp\xcAs68g.s
-127A cinit CODE >1156:C:\Users\Alan Kardek\AppData\Local\Temp\xcAs68g.s
-127A cinit CODE >1159:C:\Users\Alan Kardek\AppData\Local\Temp\xcAs68g.s
-127C cinit CODE >1160:C:\Users\Alan Kardek\AppData\Local\Temp\xcAs68g.s
-127E cinit CODE >1161:C:\Users\Alan Kardek\AppData\Local\Temp\xcAs68g.s
-1280 cinit CODE >1162:C:\Users\Alan Kardek\AppData\Local\Temp\xcAs68g.s
+758 text7 CODE >174:C:\Users\ufop\Downloads\CAM210-main\CAM210-main\PWM.X\flexlcd.h
+75A text7 CODE >175:C:\Users\ufop\Downloads\CAM210-main\CAM210-main\PWM.X\flexlcd.h
+75E text7 CODE >176:C:\Users\ufop\Downloads\CAM210-main\CAM210-main\PWM.X\flexlcd.h
+79E text7 CODE >177:C:\Users\ufop\Downloads\CAM210-main\CAM210-main\PWM.X\flexlcd.h
+7DC text7 CODE >178:C:\Users\ufop\Downloads\CAM210-main\CAM210-main\PWM.X\flexlcd.h
+7E4 text7 CODE >179:C:\Users\ufop\Downloads\CAM210-main\CAM210-main\PWM.X\flexlcd.h
+7F0 text7 CODE >180:C:\Users\ufop\Downloads\CAM210-main\CAM210-main\PWM.X\flexlcd.h
+832 text7 CODE >181:C:\Users\ufop\Downloads\CAM210-main\CAM210-main\PWM.X\flexlcd.h
+860 text7 CODE >182:C:\Users\ufop\Downloads\CAM210-main\CAM210-main\PWM.X\flexlcd.h
+868 text7 CODE >183:C:\Users\ufop\Downloads\CAM210-main\CAM210-main\PWM.X\flexlcd.h
+874 text7 CODE >184:C:\Users\ufop\Downloads\CAM210-main\CAM210-main\PWM.X\flexlcd.h
+882 text7 CODE >185:C:\Users\ufop\Downloads\CAM210-main\CAM210-main\PWM.X\flexlcd.h
+884 text6 CODE >76:C:\Users\ufop\Downloads\CAM210-main\CAM210-main\PWM.X\flexlcd.h
+884 text6 CODE >78:C:\Users\ufop\Downloads\CAM210-main\CAM210-main\PWM.X\flexlcd.h
+886 text6 CODE >79:C:\Users\ufop\Downloads\CAM210-main\CAM210-main\PWM.X\flexlcd.h
+888 text6 CODE >80:C:\Users\ufop\Downloads\CAM210-main\CAM210-main\PWM.X\flexlcd.h
+88A text6 CODE >81:C:\Users\ufop\Downloads\CAM210-main\CAM210-main\PWM.X\flexlcd.h
+88C text6 CODE >82:C:\Users\ufop\Downloads\CAM210-main\CAM210-main\PWM.X\flexlcd.h
+88E text6 CODE >83:C:\Users\ufop\Downloads\CAM210-main\CAM210-main\PWM.X\flexlcd.h
+890 text6 CODE >84:C:\Users\ufop\Downloads\CAM210-main\CAM210-main\PWM.X\flexlcd.h
+892 text6 CODE >85:C:\Users\ufop\Downloads\CAM210-main\CAM210-main\PWM.X\flexlcd.h
+894 text6 CODE >86:C:\Users\ufop\Downloads\CAM210-main\CAM210-main\PWM.X\flexlcd.h
+896 text6 CODE >87:C:\Users\ufop\Downloads\CAM210-main\CAM210-main\PWM.X\flexlcd.h
+898 text6 CODE >88:C:\Users\ufop\Downloads\CAM210-main\CAM210-main\PWM.X\flexlcd.h
+89A text6 CODE >89:C:\Users\ufop\Downloads\CAM210-main\CAM210-main\PWM.X\flexlcd.h
+89C text6 CODE >90:C:\Users\ufop\Downloads\CAM210-main\CAM210-main\PWM.X\flexlcd.h
+8AA text6 CODE >91:C:\Users\ufop\Downloads\CAM210-main\CAM210-main\PWM.X\flexlcd.h
+8B8 text6 CODE >92:C:\Users\ufop\Downloads\CAM210-main\CAM210-main\PWM.X\flexlcd.h
+8C6 text6 CODE >93:C:\Users\ufop\Downloads\CAM210-main\CAM210-main\PWM.X\flexlcd.h
+8D4 text6 CODE >94:C:\Users\ufop\Downloads\CAM210-main\CAM210-main\PWM.X\flexlcd.h
+8E2 text6 CODE >95:C:\Users\ufop\Downloads\CAM210-main\CAM210-main\PWM.X\flexlcd.h
+8F0 text6 CODE >96:C:\Users\ufop\Downloads\CAM210-main\CAM210-main\PWM.X\flexlcd.h
+8F4 text6 CODE >97:C:\Users\ufop\Downloads\CAM210-main\CAM210-main\PWM.X\flexlcd.h
+8F4 text6 CODE >98:C:\Users\ufop\Downloads\CAM210-main\CAM210-main\PWM.X\flexlcd.h
+8FE text6 CODE >99:C:\Users\ufop\Downloads\CAM210-main\CAM210-main\PWM.X\flexlcd.h
+908 text6 CODE >100:C:\Users\ufop\Downloads\CAM210-main\CAM210-main\PWM.X\flexlcd.h
+90C text6 CODE >101:C:\Users\ufop\Downloads\CAM210-main\CAM210-main\PWM.X\flexlcd.h
+914 text6 CODE >102:C:\Users\ufop\Downloads\CAM210-main\CAM210-main\PWM.X\flexlcd.h
+91E text6 CODE >103:C:\Users\ufop\Downloads\CAM210-main\CAM210-main\PWM.X\flexlcd.h
+920 text6 CODE >104:C:\Users\ufop\Downloads\CAM210-main\CAM210-main\PWM.X\flexlcd.h
+92E text6 CODE >96:C:\Users\ufop\Downloads\CAM210-main\CAM210-main\PWM.X\flexlcd.h
+940 text6 CODE >106:C:\Users\ufop\Downloads\CAM210-main\CAM210-main\PWM.X\flexlcd.h
+94C text6 CODE >107:C:\Users\ufop\Downloads\CAM210-main\CAM210-main\PWM.X\flexlcd.h
+958 text6 CODE >108:C:\Users\ufop\Downloads\CAM210-main\CAM210-main\PWM.X\flexlcd.h
+960 text6 CODE >109:C:\Users\ufop\Downloads\CAM210-main\CAM210-main\PWM.X\flexlcd.h
+96C text6 CODE >110:C:\Users\ufop\Downloads\CAM210-main\CAM210-main\PWM.X\flexlcd.h
+97A text6 CODE >111:C:\Users\ufop\Downloads\CAM210-main\CAM210-main\PWM.X\flexlcd.h
+980 text6 CODE >112:C:\Users\ufop\Downloads\CAM210-main\CAM210-main\PWM.X\flexlcd.h
+986 text6 CODE >113:C:\Users\ufop\Downloads\CAM210-main\CAM210-main\PWM.X\flexlcd.h
+98C text6 CODE >114:C:\Users\ufop\Downloads\CAM210-main\CAM210-main\PWM.X\flexlcd.h
+992 text6 CODE >115:C:\Users\ufop\Downloads\CAM210-main\CAM210-main\PWM.X\flexlcd.h
+624 text5 CODE >160:C:\Users\ufop\Downloads\CAM210-main\CAM210-main\PWM.X\flexlcd.h
+626 text5 CODE >161:C:\Users\ufop\Downloads\CAM210-main\CAM210-main\PWM.X\flexlcd.h
+62A text5 CODE >162:C:\Users\ufop\Downloads\CAM210-main\CAM210-main\PWM.X\flexlcd.h
+66A text5 CODE >163:C:\Users\ufop\Downloads\CAM210-main\CAM210-main\PWM.X\flexlcd.h
+6A8 text5 CODE >164:C:\Users\ufop\Downloads\CAM210-main\CAM210-main\PWM.X\flexlcd.h
+6B0 text5 CODE >165:C:\Users\ufop\Downloads\CAM210-main\CAM210-main\PWM.X\flexlcd.h
+6BC text5 CODE >166:C:\Users\ufop\Downloads\CAM210-main\CAM210-main\PWM.X\flexlcd.h
+6FE text5 CODE >167:C:\Users\ufop\Downloads\CAM210-main\CAM210-main\PWM.X\flexlcd.h
+72C text5 CODE >168:C:\Users\ufop\Downloads\CAM210-main\CAM210-main\PWM.X\flexlcd.h
+734 text5 CODE >169:C:\Users\ufop\Downloads\CAM210-main\CAM210-main\PWM.X\flexlcd.h
+740 text5 CODE >170:C:\Users\ufop\Downloads\CAM210-main\CAM210-main\PWM.X\flexlcd.h
+756 text5 CODE >171:C:\Users\ufop\Downloads\CAM210-main\CAM210-main\PWM.X\flexlcd.h
+B92 text4 CODE >118:C:\Users\ufop\Downloads\CAM210-main\CAM210-main\PWM.X\flexlcd.h
+B94 text4 CODE >121:C:\Users\ufop\Downloads\CAM210-main\CAM210-main\PWM.X\flexlcd.h
+B98 text4 CODE >123:C:\Users\ufop\Downloads\CAM210-main\CAM210-main\PWM.X\flexlcd.h
+BA2 text4 CODE >124:C:\Users\ufop\Downloads\CAM210-main\CAM210-main\PWM.X\flexlcd.h
+BAC text4 CODE >125:C:\Users\ufop\Downloads\CAM210-main\CAM210-main\PWM.X\flexlcd.h
+BB6 text4 CODE >126:C:\Users\ufop\Downloads\CAM210-main\CAM210-main\PWM.X\flexlcd.h
+BC0 text4 CODE >121:C:\Users\ufop\Downloads\CAM210-main\CAM210-main\PWM.X\flexlcd.h
+BC4 text4 CODE >121:C:\Users\ufop\Downloads\CAM210-main\CAM210-main\PWM.X\flexlcd.h
+BCC text4 CODE >121:C:\Users\ufop\Downloads\CAM210-main\CAM210-main\PWM.X\flexlcd.h
+BD4 text4 CODE >121:C:\Users\ufop\Downloads\CAM210-main\CAM210-main\PWM.X\flexlcd.h
+BDC text4 CODE >121:C:\Users\ufop\Downloads\CAM210-main\CAM210-main\PWM.X\flexlcd.h
+BE6 text4 CODE >129:C:\Users\ufop\Downloads\CAM210-main\CAM210-main\PWM.X\flexlcd.h
+BEC text4 CODE >130:C:\Users\ufop\Downloads\CAM210-main\CAM210-main\PWM.X\flexlcd.h
+BF0 text4 CODE >132:C:\Users\ufop\Downloads\CAM210-main\CAM210-main\PWM.X\flexlcd.h
+C00 text4 CODE >133:C:\Users\ufop\Downloads\CAM210-main\CAM210-main\PWM.X\flexlcd.h
+C04 text4 CODE >130:C:\Users\ufop\Downloads\CAM210-main\CAM210-main\PWM.X\flexlcd.h
+C20 text4 CODE >136:C:\Users\ufop\Downloads\CAM210-main\CAM210-main\PWM.X\flexlcd.h
+994 text3 CODE >7:C:\Program Files\Microchip\xc8\v2.36\pic\sources\c90\common\aldiv.c
+994 text3 CODE >13:C:\Program Files\Microchip\xc8\v2.36\pic\sources\c90\common\aldiv.c
+998 text3 CODE >14:C:\Program Files\Microchip\xc8\v2.36\pic\sources\c90\common\aldiv.c
+9A6 text3 CODE >15:C:\Program Files\Microchip\xc8\v2.36\pic\sources\c90\common\aldiv.c
+9B6 text3 CODE >16:C:\Program Files\Microchip\xc8\v2.36\pic\sources\c90\common\aldiv.c
+9BA text3 CODE >18:C:\Program Files\Microchip\xc8\v2.36\pic\sources\c90\common\aldiv.c
+9C8 text3 CODE >19:C:\Program Files\Microchip\xc8\v2.36\pic\sources\c90\common\aldiv.c
+9D8 text3 CODE >20:C:\Program Files\Microchip\xc8\v2.36\pic\sources\c90\common\aldiv.c
+9DC text3 CODE >22:C:\Program Files\Microchip\xc8\v2.36\pic\sources\c90\common\aldiv.c
+9EC text3 CODE >23:C:\Program Files\Microchip\xc8\v2.36\pic\sources\c90\common\aldiv.c
+A02 text3 CODE >24:C:\Program Files\Microchip\xc8\v2.36\pic\sources\c90\common\aldiv.c
+A06 text3 CODE >25:C:\Program Files\Microchip\xc8\v2.36\pic\sources\c90\common\aldiv.c
+A0A text3 CODE >26:C:\Program Files\Microchip\xc8\v2.36\pic\sources\c90\common\aldiv.c
+A14 text3 CODE >27:C:\Program Files\Microchip\xc8\v2.36\pic\sources\c90\common\aldiv.c
+A16 text3 CODE >25:C:\Program Files\Microchip\xc8\v2.36\pic\sources\c90\common\aldiv.c
+A24 text3 CODE >30:C:\Program Files\Microchip\xc8\v2.36\pic\sources\c90\common\aldiv.c
+A2E text3 CODE >31:C:\Program Files\Microchip\xc8\v2.36\pic\sources\c90\common\aldiv.c
+A4C text3 CODE >32:C:\Program Files\Microchip\xc8\v2.36\pic\sources\c90\common\aldiv.c
+A5C text3 CODE >33:C:\Program Files\Microchip\xc8\v2.36\pic\sources\c90\common\aldiv.c
+A5E text3 CODE >35:C:\Program Files\Microchip\xc8\v2.36\pic\sources\c90\common\aldiv.c
+A68 text3 CODE >36:C:\Program Files\Microchip\xc8\v2.36\pic\sources\c90\common\aldiv.c
+A6E text3 CODE >38:C:\Program Files\Microchip\xc8\v2.36\pic\sources\c90\common\aldiv.c
+A7E text3 CODE >39:C:\Program Files\Microchip\xc8\v2.36\pic\sources\c90\common\aldiv.c
+A8E text3 CODE >40:C:\Program Files\Microchip\xc8\v2.36\pic\sources\c90\common\aldiv.c
+A9E text3 CODE >41:C:\Program Files\Microchip\xc8\v2.36\pic\sources\c90\common\aldiv.c
+AA0 text2 CODE >31:C:\Users\ufop\Downloads\CAM210-main\CAM210-main\PWM.X\pwm.c
+AA0 text2 CODE >39:C:\Users\ufop\Downloads\CAM210-main\CAM210-main\PWM.X\pwm.c
+AA4 text2 CODE >40:C:\Users\ufop\Downloads\CAM210-main\CAM210-main\PWM.X\pwm.c
+AA6 text2 CODE >41:C:\Users\ufop\Downloads\CAM210-main\CAM210-main\PWM.X\pwm.c
+AA8 text2 CODE >43:C:\Users\ufop\Downloads\CAM210-main\CAM210-main\PWM.X\pwm.c
+AAA text2 CODE >44:C:\Users\ufop\Downloads\CAM210-main\CAM210-main\PWM.X\pwm.c
+AAC text2 CODE >46:C:\Users\ufop\Downloads\CAM210-main\CAM210-main\PWM.X\pwm.c
+AB0 text2 CODE >51:C:\Users\ufop\Downloads\CAM210-main\CAM210-main\PWM.X\pwm.c
+AB2 text2 CODE >53:C:\Users\ufop\Downloads\CAM210-main\CAM210-main\PWM.X\pwm.c
+AFC text2 CODE >55:C:\Users\ufop\Downloads\CAM210-main\CAM210-main\PWM.X\pwm.c
+B0C text2 CODE >57:C:\Users\ufop\Downloads\CAM210-main\CAM210-main\PWM.X\pwm.c
+B10 text2 CODE >58:C:\Users\ufop\Downloads\CAM210-main\CAM210-main\PWM.X\pwm.c
+B14 text2 CODE >59:C:\Users\ufop\Downloads\CAM210-main\CAM210-main\PWM.X\pwm.c
+B18 text2 CODE >60:C:\Users\ufop\Downloads\CAM210-main\CAM210-main\PWM.X\pwm.c
+B3C text2 CODE >62:C:\Users\ufop\Downloads\CAM210-main\CAM210-main\PWM.X\pwm.c
+B44 text2 CODE >63:C:\Users\ufop\Downloads\CAM210-main\CAM210-main\PWM.X\pwm.c
+B60 text2 CODE >64:C:\Users\ufop\Downloads\CAM210-main\CAM210-main\PWM.X\pwm.c
+B64 text2 CODE >67:C:\Users\ufop\Downloads\CAM210-main\CAM210-main\PWM.X\pwm.c
+B84 text2 CODE >68:C:\Users\ufop\Downloads\CAM210-main\CAM210-main\PWM.X\pwm.c
+B8C text2 CODE >71:C:\Users\ufop\Downloads\CAM210-main\CAM210-main\PWM.X\pwm.c
+B90 text2 CODE >73:C:\Users\ufop\Downloads\CAM210-main\CAM210-main\PWM.X\pwm.c
+CA4 text1 CODE >76:C:\Users\ufop\Downloads\CAM210-main\CAM210-main\PWM.X\pwm.c
+CA4 text1 CODE >79:C:\Users\ufop\Downloads\CAM210-main\CAM210-main\PWM.X\pwm.c
+CA6 text1 CODE >80:C:\Users\ufop\Downloads\CAM210-main\CAM210-main\PWM.X\pwm.c
+CA8 text1 CODE >83:C:\Users\ufop\Downloads\CAM210-main\CAM210-main\PWM.X\pwm.c
+CAC text1 CODE >86:C:\Users\ufop\Downloads\CAM210-main\CAM210-main\PWM.X\pwm.c
+CAE text1 CODE >90:C:\Users\ufop\Downloads\CAM210-main\CAM210-main\PWM.X\pwm.c
+CB0 text1 CODE >91:C:\Users\ufop\Downloads\CAM210-main\CAM210-main\PWM.X\pwm.c
+CBE text1 CODE >92:C:\Users\ufop\Downloads\CAM210-main\CAM210-main\PWM.X\pwm.c
+CC0 text1 CODE >93:C:\Users\ufop\Downloads\CAM210-main\CAM210-main\PWM.X\pwm.c
+CCE text1 CODE >98:C:\Users\ufop\Downloads\CAM210-main\CAM210-main\PWM.X\pwm.c
+C22 text0 CODE >19:C:\Users\ufop\Downloads\CAM210-main\CAM210-main\PWM.X\mainPWM.c
+C22 text0 CODE >21:C:\Users\ufop\Downloads\CAM210-main\CAM210-main\PWM.X\mainPWM.c
+C26 text0 CODE >22:C:\Users\ufop\Downloads\CAM210-main\CAM210-main\PWM.X\mainPWM.c
+C2A text0 CODE >26:C:\Users\ufop\Downloads\CAM210-main\CAM210-main\PWM.X\mainPWM.c
+C2C text0 CODE >28:C:\Users\ufop\Downloads\CAM210-main\CAM210-main\PWM.X\mainPWM.c
+C30 text0 CODE >29:C:\Users\ufop\Downloads\CAM210-main\CAM210-main\PWM.X\mainPWM.c
+C34 text0 CODE >30:C:\Users\ufop\Downloads\CAM210-main\CAM210-main\PWM.X\mainPWM.c
+C38 text0 CODE >31:C:\Users\ufop\Downloads\CAM210-main\CAM210-main\PWM.X\mainPWM.c
+C3C text0 CODE >33:C:\Users\ufop\Downloads\CAM210-main\CAM210-main\PWM.X\mainPWM.c
+C40 text0 CODE >34:C:\Users\ufop\Downloads\CAM210-main\CAM210-main\PWM.X\mainPWM.c
+C44 text0 CODE >35:C:\Users\ufop\Downloads\CAM210-main\CAM210-main\PWM.X\mainPWM.c
+C48 text0 CODE >36:C:\Users\ufop\Downloads\CAM210-main\CAM210-main\PWM.X\mainPWM.c
+C4C text0 CODE >37:C:\Users\ufop\Downloads\CAM210-main\CAM210-main\PWM.X\mainPWM.c
+C50 text0 CODE >38:C:\Users\ufop\Downloads\CAM210-main\CAM210-main\PWM.X\mainPWM.c
+C54 text0 CODE >39:C:\Users\ufop\Downloads\CAM210-main\CAM210-main\PWM.X\mainPWM.c
+C58 text0 CODE >40:C:\Users\ufop\Downloads\CAM210-main\CAM210-main\PWM.X\mainPWM.c
+C5C text0 CODE >42:C:\Users\ufop\Downloads\CAM210-main\CAM210-main\PWM.X\mainPWM.c
+C60 text0 CODE >43:C:\Users\ufop\Downloads\CAM210-main\CAM210-main\PWM.X\mainPWM.c
+C66 text0 CODE >44:C:\Users\ufop\Downloads\CAM210-main\CAM210-main\PWM.X\mainPWM.c
+C78 text0 CODE >45:C:\Users\ufop\Downloads\CAM210-main\CAM210-main\PWM.X\mainPWM.c
+C8A text0 CODE >47:C:\Users\ufop\Downloads\CAM210-main\CAM210-main\PWM.X\mainPWM.c
+C96 text0 CODE >48:C:\Users\ufop\Downloads\CAM210-main\CAM210-main\PWM.X\mainPWM.c
+C9A text0 CODE >50:C:\Users\ufop\Downloads\CAM210-main\CAM210-main\PWM.X\mainPWM.c
+C9A text0 CODE >52:C:\Users\ufop\Downloads\CAM210-main\CAM210-main\PWM.X\mainPWM.c
+CD0 cinit CODE >1100:C:\Users\ufop\AppData\Local\Temp\xcAs5s0.s
+CD0 cinit CODE >1102:C:\Users\ufop\AppData\Local\Temp\xcAs5s0.s
+CD0 cinit CODE >1105:C:\Users\ufop\AppData\Local\Temp\xcAs5s0.s
+CD0 cinit CODE >1121:C:\Users\ufop\AppData\Local\Temp\xcAs5s0.s
+CD2 cinit CODE >1122:C:\Users\ufop\AppData\Local\Temp\xcAs5s0.s
+CD4 cinit CODE >1123:C:\Users\ufop\AppData\Local\Temp\xcAs5s0.s
+CD6 cinit CODE >1124:C:\Users\ufop\AppData\Local\Temp\xcAs5s0.s
+CD8 cinit CODE >1125:C:\Users\ufop\AppData\Local\Temp\xcAs5s0.s
+CDA cinit CODE >1126:C:\Users\ufop\AppData\Local\Temp\xcAs5s0.s
+CDC cinit CODE >1127:C:\Users\ufop\AppData\Local\Temp\xcAs5s0.s
+CDE cinit CODE >1128:C:\Users\ufop\AppData\Local\Temp\xcAs5s0.s
+CE2 cinit CODE >1129:C:\Users\ufop\AppData\Local\Temp\xcAs5s0.s
+CE4 cinit CODE >1130:C:\Users\ufop\AppData\Local\Temp\xcAs5s0.s
+CE8 cinit CODE >1136:C:\Users\ufop\AppData\Local\Temp\xcAs5s0.s
+CE8 cinit CODE >1139:C:\Users\ufop\AppData\Local\Temp\xcAs5s0.s
+CEA cinit CODE >1140:C:\Users\ufop\AppData\Local\Temp\xcAs5s0.s
+CEC cinit CODE >1141:C:\Users\ufop\AppData\Local\Temp\xcAs5s0.s
+CEE cinit CODE >1142:C:\Users\ufop\AppData\Local\Temp\xcAs5s0.s
 # %SYMTAB Section
 # An enumeration of all symbols in the program.
 # The beginning of the section is indicated by %SYMTAB.
@@ -400,97 +259,68 @@ F02 text0 CODE >80:D:\Drive\alankardek\2_UFOP_MATERIAL_DISCP\CAM210 - Git\CAM210
 # was defined in a psect then <psect> will be "-". File-name
 # is the name of the object file in which the symbol was defined.
 %SYMTAB
-___lwmod@counter C 0 COMRAM 1 cstackCOMRAM dist/default/production\PWM.X.production.o
 __Lmediumconst 0 0 MEDIUMCONST 0 mediumconst dist/default/production\PWM.X.production.o
-__Hspace_0 12D8 0 ABS 0 - dist/default/production\PWM.X.production.o
-__Hspace_1 2B 0 ABS 0 - dist/default/production\PWM.X.production.o
+__Hspace_0 CF4 0 ABS 0 - dist/default/production\PWM.X.production.o
+__Hspace_1 19 0 ABS 0 - dist/default/production\PWM.X.production.o
 __Hspace_2 0 0 ABS 0 - dist/default/production\PWM.X.production.o
 __Hspace_4 60000E 0 ABS 0 - dist/default/production\PWM.X.production.o
-_Lcd_Init B4A 0 CODE 0 text14 dist/default/production\PWM.X.production.o
+_Lcd_Init 884 0 CODE 0 text6 dist/default/production\PWM.X.production.o
 __Hibigdata 0 0 CODE 0 ibigdata dist/default/production\PWM.X.production.o
-_PWM1_Init D66 0 CODE 0 text10 dist/default/production\PWM.X.production.o
-__mediumconst 0 0 MEDIUMCONST 0 mediumconst C:\Users\Alan Kardek\AppData\Local\Temp\xcAs68g.o
-PWM1_Set_Duty@d 1C 0 COMRAM 1 cstackCOMRAM dist/default/production\PWM.X.production.o
+_PWM1_Init AA0 0 CODE 0 text2 dist/default/production\PWM.X.production.o
+__mediumconst 0 0 MEDIUMCONST 0 mediumconst C:\Users\ufop\AppData\Local\Temp\xcAs5s0.o
 __Heeprom_data 0 0 EEDATA 0 eeprom_data dist/default/production\PWM.X.production.o
-__end_of_Lcd_Init C5A 0 CODE 0 text14 dist/default/production\PWM.X.production.o
+__end_of_Lcd_Init 994 0 CODE 0 text6 dist/default/production\PWM.X.production.o
 __Lsmallconst 600 0 SMALLCONST 0 smallconst dist/default/production\PWM.X.production.o
-_LATA F89 0 ABS 0 - dist/default/production\PWM.X.production.o
 _LATB F8A 0 ABS 0 - dist/default/production\PWM.X.production.o
 _LATC F8B 0 ABS 0 - dist/default/production\PWM.X.production.o
 _LATD F8C 0 ABS 0 - dist/default/production\PWM.X.production.o
 _LATE F8D 0 ABS 0 - dist/default/production\PWM.X.production.o
-___sp 0 0 STACK 2 stack C:\Users\Alan Kardek\AppData\Local\Temp\xcAs68g.o
-_duty 29 0 COMRAM 1 dataCOMRAM dist/default/production\PWM.X.production.o
-_main E58 0 CODE 0 text0 dist/default/production\PWM.X.production.o
-start 0 0 CODE 0 init C:\Users\Alan Kardek\AppData\Local\Temp\xcAs68g.o
-__size_of___aldiv 0 0 ABS 0 - dist/default/production\PWM.X.production.o
-__size_of_main 0 0 ABS 0 - dist/default/production\PWM.X.production.o
-__size_of___lldiv 0 0 ABS 0 - dist/default/production\PWM.X.production.o
-__size_of___lwdiv 0 0 ABS 0 - dist/default/production\PWM.X.production.o
-__size_of___lwmod 0 0 ABS 0 - dist/default/production\PWM.X.production.o
-__HbssCOMRAM 0 0 ABS 0 bssCOMRAM dist/default/production\PWM.X.production.o
-__end_of_PWM1_Start 12B0 0 CODE 0 text6 dist/default/production\PWM.X.production.o
-?___lmul 1 0 COMRAM 1 cstackCOMRAM dist/default/production\PWM.X.production.o
-?___wmul 1 0 COMRAM 1 cstackCOMRAM dist/default/production\PWM.X.production.o
+___sp 0 0 STACK 2 stack C:\Users\ufop\AppData\Local\Temp\xcAs5s0.o
+_duty 17 0 COMRAM 1 dataCOMRAM dist/default/production\PWM.X.production.o
+_main C22 0 CODE 0 text0 dist/default/production\PWM.X.production.o
+start 0 0 CODE 0 init C:\Users\ufop\AppData\Local\Temp\xcAs5s0.o
+__end_of_PWM1_Start CD0 0 CODE 0 text1 dist/default/production\PWM.X.production.o
 __Hpowerup 0 0 CODE 0 powerup dist/default/production\PWM.X.production.o
 __HdataCOMRAM 0 0 ABS 0 dataCOMRAM dist/default/production\PWM.X.production.o
-__accesstop 80 0 ABS 0 - C:\Users\Alan Kardek\AppData\Local\Temp\xcAs68g.o
-intlevel0 0 0 CODE 0 text C:\Users\Alan Kardek\AppData\Local\Temp\xcAs68g.o
-intlevel1 0 0 CODE 0 text C:\Users\Alan Kardek\AppData\Local\Temp\xcAs68g.o
-intlevel2 0 0 CODE 0 text C:\Users\Alan Kardek\AppData\Local\Temp\xcAs68g.o
-intlevel3 0 0 CODE 0 text C:\Users\Alan Kardek\AppData\Local\Temp\xcAs68g.o
-__LbssCOMRAM 0 0 ABS 0 bssCOMRAM dist/default/production\PWM.X.production.o
+__accesstop 80 0 ABS 0 - C:\Users\ufop\AppData\Local\Temp\xcAs5s0.o
+intlevel0 0 0 CODE 0 text C:\Users\ufop\AppData\Local\Temp\xcAs5s0.o
+intlevel1 0 0 CODE 0 text C:\Users\ufop\AppData\Local\Temp\xcAs5s0.o
+intlevel2 0 0 CODE 0 text C:\Users\ufop\AppData\Local\Temp\xcAs5s0.o
+intlevel3 0 0 CODE 0 text C:\Users\ufop\AppData\Local\Temp\xcAs5s0.o
 Lcd_Chr_CP@data 3 0 COMRAM 1 cstackCOMRAM dist/default/production\PWM.X.production.o
 ___aldiv@divisor 5 0 COMRAM 1 cstackCOMRAM dist/default/production\PWM.X.production.o
 __LnvFARRAM 0 0 FARRAM 0 nvFARRAM dist/default/production\PWM.X.production.o
-_Lcd_Chr_CP 8EA 0 CODE 0 text13 dist/default/production\PWM.X.production.o
+_Lcd_Chr_CP 624 0 CODE 0 text5 dist/default/production\PWM.X.production.o
 __Hifardata 0 0 CODE 0 ifardata dist/default/production\PWM.X.production.o
 ___aldiv@sign A 0 COMRAM 1 cstackCOMRAM dist/default/production\PWM.X.production.o
 __Hclrtext 0 0 ABS 0 clrtext dist/default/production\PWM.X.production.o
-__pidataCOMRAM 12D6 0 CODE 0 idataCOMRAM dist/default/production\PWM.X.production.o
-___wmul@multiplicand 3 0 COMRAM 1 cstackCOMRAM dist/default/production\PWM.X.production.o
+__pidataCOMRAM CF2 0 CODE 0 idataCOMRAM dist/default/production\PWM.X.production.o
 _ADCON0 FC2 0 ABS 0 - dist/default/production\PWM.X.production.o
 _ADCON1 FC1 0 ABS 0 - dist/default/production\PWM.X.production.o
 _ADCON2 FC0 0 ABS 0 - dist/default/production\PWM.X.production.o
 _ADRESH FC4 0 ABS 0 - dist/default/production\PWM.X.production.o
 _ADRESL FC3 0 ABS 0 - dist/default/production\PWM.X.production.o
-___inthi_sp 0 0 STACK 2 stack C:\Users\Alan Kardek\AppData\Local\Temp\xcAs68g.o
-___intlo_sp 0 0 STACK 2 stack C:\Users\Alan Kardek\AppData\Local\Temp\xcAs68g.o
+___inthi_sp 0 0 STACK 2 stack C:\Users\ufop\AppData\Local\Temp\xcAs5s0.o
+___intlo_sp 0 0 STACK 2 stack C:\Users\ufop\AppData\Local\Temp\xcAs5s0.o
 __LdataCOMRAM 0 0 ABS 0 dataCOMRAM dist/default/production\PWM.X.production.o
 _CCPR1L FBE 0 ABS 0 - dist/default/production\PWM.X.production.o
 __Hintcode_body 0 0 ABS 0 intcode_body dist/default/production\PWM.X.production.o
-__end_of___lmul 11C0 0 CODE 0 text8 dist/default/production\PWM.X.production.o
-__end_of___wmul 12D6 0 CODE 0 text3 dist/default/production\PWM.X.production.o
 __Lintsave_regs 0 0 BIGRAM 1 intsave_regs dist/default/production\PWM.X.production.o
-__size_of_sprintf 0 0 ABS 0 - dist/default/production\PWM.X.production.o
 __Hmediumconst 0 0 MEDIUMCONST 0 mediumconst dist/default/production\PWM.X.production.o
 __Hintcodelo 0 0 CODE 0 intcodelo dist/default/production\PWM.X.production.o
-___lwmod@divisor A 0 COMRAM 1 cstackCOMRAM dist/default/production\PWM.X.production.o
-__end_of___aldiv D66 0 CODE 0 text11 dist/default/production\PWM.X.production.o
-__end_of___lldiv FC6 0 CODE 0 text9 dist/default/production\PWM.X.production.o
-__end_of___lwdiv 1156 0 CODE 0 text5 dist/default/production\PWM.X.production.o
-__end_of___lwmod 1224 0 CODE 0 text4 dist/default/production\PWM.X.production.o
-__size_of_isdigit 0 0 ABS 0 - dist/default/production\PWM.X.production.o
-_dpowers 601 0 SMALLCONST 0 smallconst dist/default/production\PWM.X.production.o
-__end_of_Lcd_Chr_CP A1E 0 CODE 0 text13 dist/default/production\PWM.X.production.o
-___lwdiv@quotient 5 0 COMRAM 1 cstackCOMRAM dist/default/production\PWM.X.production.o
+__end_of___aldiv AA0 0 CODE 0 text3 dist/default/production\PWM.X.production.o
+__end_of_Lcd_Chr_CP 758 0 CODE 0 text5 dist/default/production\PWM.X.production.o
 __LidataCOMRAM 0 0 ABS 0 idataCOMRAM dist/default/production\PWM.X.production.o
 _INTCON2bits FF1 0 ABS 0 - dist/default/production\PWM.X.production.o
-___lwmod@dividend 8 0 COMRAM 1 cstackCOMRAM dist/default/production\PWM.X.production.o
-___lldiv@counter 19 0 COMRAM 1 cstackCOMRAM dist/default/production\PWM.X.production.o
 __Lintcodelo 0 0 CODE 0 intcodelo dist/default/production\PWM.X.production.o
-start_initialization 1256 0 CODE 0 cinit dist/default/production\PWM.X.production.o
+start_initialization CD0 0 CODE 0 cinit dist/default/production\PWM.X.production.o
 __HnvFARRAM 0 0 FARRAM 0 nvFARRAM dist/default/production\PWM.X.production.o
 _TRISCbits F94 0 ABS 0 - dist/default/production\PWM.X.production.o
 _TRISDbits F95 0 ABS 0 - dist/default/production\PWM.X.production.o
 _TRISEbits F96 0 ABS 0 - dist/default/production\PWM.X.production.o
 ___aldiv@quotient B 0 COMRAM 1 cstackCOMRAM dist/default/production\PWM.X.production.o
-___lldiv@dividend D 0 COMRAM 1 cstackCOMRAM dist/default/production\PWM.X.production.o
 ___rparam_used 1 0 ABS 0 - dist/default/production\PWM.X.production.o
-isa$xinst 0 0 ABS 0 - C:\Users\Alan Kardek\AppData\Local\Temp\xcAs68g.o
-__size_of_PWM1_Start 0 0 ABS 0 - dist/default/production\PWM.X.production.o
-__size_of_Lcd_Cmd 0 0 ABS 0 - dist/default/production\PWM.X.production.o
-__size_of_Lcd_Out 0 0 ABS 0 - dist/default/production\PWM.X.production.o
+isa$xinst 0 0 ABS 0 - C:\Users\ufop\AppData\Local\Temp\xcAs5s0.o
 __Hbank0 0 0 ABS 0 bank0 dist/default/production\PWM.X.production.o
 __Hbank1 0 0 ABS 0 bank1 dist/default/production\PWM.X.production.o
 __Hbank2 0 0 ABS 0 bank2 dist/default/production\PWM.X.production.o
@@ -513,14 +343,11 @@ __Htext4 0 0 ABS 0 text4 dist/default/production\PWM.X.production.o
 __Htext5 0 0 ABS 0 text5 dist/default/production\PWM.X.production.o
 __Htext6 0 0 ABS 0 text6 dist/default/production\PWM.X.production.o
 __Htext7 0 0 ABS 0 text7 dist/default/production\PWM.X.production.o
-__Htext8 0 0 ABS 0 text8 dist/default/production\PWM.X.production.o
-__Htext9 0 0 ABS 0 text9 dist/default/production\PWM.X.production.o
-___lwdiv@counter 7 0 COMRAM 1 cstackCOMRAM dist/default/production\PWM.X.production.o
 __Hbigbss 0 0 BIGRAM 1 bigbss dist/default/production\PWM.X.production.o
 __Hbigram 0 0 ABS 0 bigram dist/default/production\PWM.X.production.o
-__smallconst 600 0 SMALLCONST 0 smallconst C:\Users\Alan Kardek\AppData\Local\Temp\xcAs68g.o
+__Hbigsfr 0 0 ABS 0 bigsfr dist/default/production\PWM.X.production.o
+__smallconst 600 0 SMALLCONST 0 smallconst C:\Users\ufop\AppData\Local\Temp\xcAs5s0.o
 Lcd_Out@data 8 0 COMRAM 1 cstackCOMRAM dist/default/production\PWM.X.production.o
-__end_of_sprintf 8EA 0 CODE 0 text1 dist/default/production\PWM.X.production.o
 __Hcomram 0 0 ABS 0 comram dist/default/production\PWM.X.production.o
 __Hconfig 30000E 0 CONFIG 4 config dist/default/production\PWM.X.production.o
 __Lbank0 0 0 ABS 0 bank0 dist/default/production\PWM.X.production.o
@@ -529,7 +356,6 @@ __Lbank2 0 0 ABS 0 bank2 dist/default/production\PWM.X.production.o
 __Lbank3 0 0 ABS 0 bank3 dist/default/production\PWM.X.production.o
 __Lbank4 0 0 ABS 0 bank4 dist/default/production\PWM.X.production.o
 __Lbank5 0 0 ABS 0 bank5 dist/default/production\PWM.X.production.o
-__end_of_isdigit 1256 0 CODE 0 text2 dist/default/production\PWM.X.production.o
 __Lcinit 0 0 ABS 0 cinit dist/default/production\PWM.X.production.o
 __Lconst 0 0 CONST 0 const dist/default/production\PWM.X.production.o
 __Lidata 0 0 CODE 0 idata dist/default/production\PWM.X.production.o
@@ -546,8 +372,6 @@ __Ltext4 0 0 ABS 0 text4 dist/default/production\PWM.X.production.o
 __Ltext5 0 0 ABS 0 text5 dist/default/production\PWM.X.production.o
 __Ltext6 0 0 ABS 0 text6 dist/default/production\PWM.X.production.o
 __Ltext7 0 0 ABS 0 text7 dist/default/production\PWM.X.production.o
-__Ltext8 0 0 ABS 0 text8 dist/default/production\PWM.X.production.o
-__Ltext9 0 0 ABS 0 text9 dist/default/production\PWM.X.production.o
 __Hfarbss 0 0 FARRAM 0 farbss dist/default/production\PWM.X.production.o
 __Lintcode_body 0 0 ABS 0 intcode_body dist/default/production\PWM.X.production.o
 _PORTCbits F82 0 ABS 0 - dist/default/production\PWM.X.production.o
@@ -555,6 +379,7 @@ _PORTDbits F83 0 ABS 0 - dist/default/production\PWM.X.production.o
 _PORTEbits F84 0 ABS 0 - dist/default/production\PWM.X.production.o
 __Habs1 0 0 ABS 0 abs1 dist/default/production\PWM.X.production.o
 __Hdata 0 0 ABS 0 data dist/default/production\PWM.X.production.o
+__Hheap 0 0 HEAP 7 heap dist/default/production\PWM.X.production.o
 __Hinit 4 0 CODE 0 init dist/default/production\PWM.X.production.o
 __Hrbit 0 0 COMRAM 1 rbit dist/default/production\PWM.X.production.o
 __Hrbss 0 0 COMRAM 1 rbss dist/default/production\PWM.X.production.o
@@ -562,73 +387,44 @@ __Htemp 0 0 COMRAM 1 temp dist/default/production\PWM.X.production.o
 __Htext 0 0 ABS 0 text dist/default/production\PWM.X.production.o
 __Labs1 0 0 ABS 0 abs1 dist/default/production\PWM.X.production.o
 __Ldata 0 0 ABS 0 data dist/default/production\PWM.X.production.o
+__Lheap 0 0 HEAP 7 heap dist/default/production\PWM.X.production.o
 __Linit 0 0 CODE 0 init dist/default/production\PWM.X.production.o
 __Lrbit 0 0 COMRAM 1 rbit dist/default/production\PWM.X.production.o
 __Lrbss 0 0 COMRAM 1 rbss dist/default/production\PWM.X.production.o
 __Ltemp 0 0 COMRAM 1 temp dist/default/production\PWM.X.production.o
 __Ltext 0 0 ABS 0 text dist/default/production\PWM.X.production.o
-___lmul 1156 0 CODE 0 text8 dist/default/production\PWM.X.production.o
-___wmul 12B0 0 CODE 0 text3 dist/default/production\PWM.X.production.o
 __HcstackCOMRAM 0 0 ABS 0 cstackCOMRAM dist/default/production\PWM.X.production.o
 __Hintret 0 0 ABS 0 intret dist/default/production\PWM.X.production.o
 __Hirdata 0 0 CODE 0 irdata dist/default/production\PWM.X.production.o
-PWM1_Set_Duty@temp 1D 0 COMRAM 1 cstackCOMRAM dist/default/production\PWM.X.production.o
 _PR2 FCB 0 ABS 0 - dist/default/production\PWM.X.production.o
-__S0 12D8 0 ABS 0 - dist/default/production\PWM.X.production.o
-__S1 2B 0 ABS 0 - dist/default/production\PWM.X.production.o
-__S2 0 0 ABS 0 - dist/default/production\PWM.X.production.o
+__S0 CF4 0 ABS 0 - dist/default/production\PWM.X.production.o
+__S1 19 0 ABS 0 - dist/default/production\PWM.X.production.o
 __S4 0 0 ABS 0 - dist/default/production\PWM.X.production.o
 __S5 0 0 ABS 0 - dist/default/production\PWM.X.production.o
-_str 24 0 COMRAM 1 bssCOMRAM dist/default/production\PWM.X.production.o
 PWM1_Init@f F 0 COMRAM 1 cstackCOMRAM dist/default/production\PWM.X.production.o
 __HidataCOMRAM 0 0 ABS 0 idataCOMRAM dist/default/production\PWM.X.production.o
 __Lbigdata 0 0 BIGRAM 1 bigdata dist/default/production\PWM.X.production.o
 __Hnvrram 0 0 COMRAM 1 nvrram dist/default/production\PWM.X.production.o
-sprintf@val 1A 0 COMRAM 1 cstackCOMRAM dist/default/production\PWM.X.production.o
 __Lintentry 0 0 ABS 0 intentry dist/default/production\PWM.X.production.o
-___lldiv@divisor 11 0 COMRAM 1 cstackCOMRAM dist/default/production\PWM.X.production.o
 __Hramtop 600 0 RAM 0 ramtop dist/default/production\PWM.X.production.o
 __Hrparam 0 0 COMRAM 1 rparam dist/default/production\PWM.X.production.o
 __activetblptr 2 0 ABS 0 - dist/default/production\PWM.X.production.o
-__end_of_Lcd_Cmd B4A 0 CODE 0 text15 dist/default/production\PWM.X.production.o
-__end_of_Lcd_Out 10E2 0 CODE 0 text12 dist/default/production\PWM.X.production.o
+__end_of_Lcd_Cmd 884 0 CODE 0 text7 dist/default/production\PWM.X.production.o
+__end_of_Lcd_Out C22 0 CODE 0 text4 dist/default/production\PWM.X.production.o
 __Hstruct 0 0 COMRAM 1 struct dist/default/production\PWM.X.production.o
-__size_of___lmul 0 0 ABS 0 - dist/default/production\PWM.X.production.o
-__size_of___wmul 0 0 ABS 0 - dist/default/production\PWM.X.production.o
-__Htext10 0 0 ABS 0 text10 dist/default/production\PWM.X.production.o
-__Htext11 0 0 ABS 0 text11 dist/default/production\PWM.X.production.o
-__Htext12 0 0 ABS 0 text12 dist/default/production\PWM.X.production.o
-__Htext13 0 0 ABS 0 text13 dist/default/production\PWM.X.production.o
-__Htext14 0 0 ABS 0 text14 dist/default/production\PWM.X.production.o
-__Htext15 0 0 ABS 0 text15 dist/default/production\PWM.X.production.o
-__size_of_Lcd_Chr_CP 0 0 ABS 0 - dist/default/production\PWM.X.production.o
-sprintf@flag 19 0 COMRAM 1 cstackCOMRAM dist/default/production\PWM.X.production.o
-sprintf@prec 1C 0 COMRAM 1 cstackCOMRAM dist/default/production\PWM.X.production.o
-__ptext10 D66 0 CODE 0 text10 dist/default/production\PWM.X.production.o
-__ptext11 C5A 0 CODE 0 text11 dist/default/production\PWM.X.production.o
-__ptext12 1058 0 CODE 0 text12 dist/default/production\PWM.X.production.o
-__ptext13 8EA 0 CODE 0 text13 dist/default/production\PWM.X.production.o
-__ptext14 B4A 0 CODE 0 text14 dist/default/production\PWM.X.production.o
-__ptext15 A1E 0 CODE 0 text15 dist/default/production\PWM.X.production.o
-___aldiv C5A 0 CODE 0 text11 dist/default/production\PWM.X.production.o
-___lldiv F22 0 CODE 0 text9 dist/default/production\PWM.X.production.o
-___lwdiv 10E2 0 CODE 0 text5 dist/default/production\PWM.X.production.o
-___lwmod 11C0 0 CODE 0 text4 dist/default/production\PWM.X.production.o
+___aldiv 994 0 CODE 0 text3 dist/default/production\PWM.X.production.o
 __Lbigbss 0 0 BIGRAM 1 bigbss dist/default/production\PWM.X.production.o
 __Lbigram 0 0 ABS 0 bigram dist/default/production\PWM.X.production.o
-___lmul@multiplier 1 0 COMRAM 1 cstackCOMRAM dist/default/production\PWM.X.production.o
+__Lbigsfr 0 0 ABS 0 bigsfr dist/default/production\PWM.X.production.o
 __Lcomram 0 0 ABS 0 comram dist/default/production\PWM.X.production.o
 __Lconfig 0 0 CONFIG 4 config dist/default/production\PWM.X.production.o
-___wmul@multiplier 1 0 COMRAM 1 cstackCOMRAM dist/default/production\PWM.X.production.o
-_PWM1_Set_Duty FC6 0 CODE 0 text7 dist/default/production\PWM.X.production.o
 Lcd_Out@buffer 5 0 COMRAM 1 cstackCOMRAM dist/default/production\PWM.X.production.o
 __Lfarbss 0 0 FARRAM 0 farbss dist/default/production\PWM.X.production.o
-___lwdiv@divisor 3 0 COMRAM 1 cstackCOMRAM dist/default/production\PWM.X.production.o
 __Lfardata 0 0 FARRAM 0 fardata dist/default/production\PWM.X.production.o
-isa$std 1 0 ABS 0 - C:\Users\Alan Kardek\AppData\Local\Temp\xcAs68g.o
+isa$std 1 0 ABS 0 - C:\Users\ufop\AppData\Local\Temp\xcAs5s0.o
 PWM1_Init@temp 15 0 COMRAM 1 cstackCOMRAM dist/default/production\PWM.X.production.o
-stackhi 5FF 0 ABS 0 - C:\Users\Alan Kardek\AppData\Local\Temp\xcAs68g.o
-stacklo 80 0 ABS 0 - C:\Users\Alan Kardek\AppData\Local\Temp\xcAs68g.o
+stackhi 0 0 ABS 0 - C:\Users\ufop\AppData\Local\Temp\xcAs5s0.o
+stacklo 0 0 ABS 0 - C:\Users\ufop\AppData\Local\Temp\xcAs5s0.o
 __Lintcode 0 0 CODE 0 intcode dist/default/production\PWM.X.production.o
 __Lintret 0 0 ABS 0 intret dist/default/production\PWM.X.production.o
 __Lirdata 0 0 CODE 0 irdata dist/default/production\PWM.X.production.o
@@ -637,81 +433,49 @@ __Lspace_0 0 0 ABS 0 - dist/default/production\PWM.X.production.o
 __Lspace_1 0 0 ABS 0 - dist/default/production\PWM.X.production.o
 __Lspace_2 0 0 ABS 0 - dist/default/production\PWM.X.production.o
 __Lspace_4 0 0 ABS 0 - dist/default/production\PWM.X.production.o
-__pbssCOMRAM 22 0 COMRAM 1 bssCOMRAM dist/default/production\PWM.X.production.o
 _PIR1bits F9E 0 ABS 0 - dist/default/production\PWM.X.production.o
 __LcstackCOMRAM 0 0 ABS 0 cstackCOMRAM dist/default/production\PWM.X.production.o
-end_of_initialization 127A 0 CODE 0 cinit dist/default/production\PWM.X.production.o
+end_of_initialization CE8 0 CODE 0 cinit dist/default/production\PWM.X.production.o
 __Lnvrram 0 0 COMRAM 1 nvrram dist/default/production\PWM.X.production.o
 __Hintentry 0 0 ABS 0 intentry dist/default/production\PWM.X.production.o
 ?___aldiv 1 0 COMRAM 1 cstackCOMRAM dist/default/production\PWM.X.production.o
-___lwdiv@dividend 1 0 COMRAM 1 cstackCOMRAM dist/default/production\PWM.X.production.o
-?___lldiv D 0 COMRAM 1 cstackCOMRAM dist/default/production\PWM.X.production.o
-?___lwdiv 1 0 COMRAM 1 cstackCOMRAM dist/default/production\PWM.X.production.o
-?___lwmod 8 0 COMRAM 1 cstackCOMRAM dist/default/production\PWM.X.production.o
 __Hreset_vec 0 0 CODE 0 reset_vec dist/default/production\PWM.X.production.o
 __Lramtop 600 0 RAM 0 ramtop dist/default/production\PWM.X.production.o
 __Lrparam 0 0 COMRAM 1 rparam dist/default/production\PWM.X.production.o
-__pcinit 1256 0 CODE 0 cinit dist/default/production\PWM.X.production.o
-__ptext0 E58 0 CODE 0 text0 dist/default/production\PWM.X.production.o
-__ptext1 612 0 CODE 0 text1 dist/default/production\PWM.X.production.o
-__ptext2 1224 0 CODE 0 text2 dist/default/production\PWM.X.production.o
-__ptext3 12B0 0 CODE 0 text3 dist/default/production\PWM.X.production.o
-__ptext4 11C0 0 CODE 0 text4 dist/default/production\PWM.X.production.o
-__ptext5 10E2 0 CODE 0 text5 dist/default/production\PWM.X.production.o
-__ptext6 1284 0 CODE 0 text6 dist/default/production\PWM.X.production.o
-__ptext7 FC6 0 CODE 0 text7 dist/default/production\PWM.X.production.o
-__ptext8 1156 0 CODE 0 text8 dist/default/production\PWM.X.production.o
-__ptext9 F22 0 CODE 0 text9 dist/default/production\PWM.X.production.o
+__pcinit CD0 0 CODE 0 cinit dist/default/production\PWM.X.production.o
+__ptext0 C22 0 CODE 0 text0 dist/default/production\PWM.X.production.o
+__ptext1 CA4 0 CODE 0 text1 dist/default/production\PWM.X.production.o
+__ptext2 AA0 0 CODE 0 text2 dist/default/production\PWM.X.production.o
+__ptext3 994 0 CODE 0 text3 dist/default/production\PWM.X.production.o
+__ptext4 B92 0 CODE 0 text4 dist/default/production\PWM.X.production.o
+__ptext5 624 0 CODE 0 text5 dist/default/production\PWM.X.production.o
+__ptext6 884 0 CODE 0 text6 dist/default/production\PWM.X.production.o
+__ptext7 758 0 CODE 0 text7 dist/default/production\PWM.X.production.o
 __Lstruct 0 0 COMRAM 1 struct dist/default/production\PWM.X.production.o
-__Ltext10 0 0 ABS 0 text10 dist/default/production\PWM.X.production.o
-__Ltext11 0 0 ABS 0 text11 dist/default/production\PWM.X.production.o
-__Ltext12 0 0 ABS 0 text12 dist/default/production\PWM.X.production.o
-__Ltext13 0 0 ABS 0 text13 dist/default/production\PWM.X.production.o
-__Ltext14 0 0 ABS 0 text14 dist/default/production\PWM.X.production.o
-__Ltext15 0 0 ABS 0 text15 dist/default/production\PWM.X.production.o
-__ramtop 600 0 RAM 0 ramtop C:\Users\Alan Kardek\AppData\Local\Temp\xcAs68g.o
+__ramtop 600 0 RAM 0 ramtop C:\Users\ufop\AppData\Local\Temp\xcAs5s0.o
 ___aldiv@dividend 1 0 COMRAM 1 cstackCOMRAM dist/default/production\PWM.X.production.o
-_sprintf 612 0 CODE 0 text1 dist/default/production\PWM.X.production.o
 Lcd_Cmd@data 3 0 COMRAM 1 cstackCOMRAM dist/default/production\PWM.X.production.o
 __Lpowerup 0 0 CODE 0 powerup dist/default/production\PWM.X.production.o
 __Leeprom_data 0 0 EEDATA 0 eeprom_data dist/default/production\PWM.X.production.o
-sprintf@ap 17 0 COMRAM 1 cstackCOMRAM dist/default/production\PWM.X.production.o
-sprintf@sp D 0 COMRAM 1 cstackCOMRAM dist/default/production\PWM.X.production.o
-_isdigit 1224 0 CODE 0 text2 dist/default/production\PWM.X.production.o
 __psmallconst 600 0 SMALLCONST 0 smallconst dist/default/production\PWM.X.production.o
 __Lreset_vec 0 0 CODE 0 reset_vec dist/default/production\PWM.X.production.o
+___heap_hi 0 0 ABS 0 - C:\Users\ufop\AppData\Local\Temp\xcAs5s0.o
+___heap_lo 0 0 ABS 0 - C:\Users\ufop\AppData\Local\Temp\xcAs5s0.o
 ___param_bank 0 0 ABS 0 - dist/default/production\PWM.X.production.o
 __Hbigdata 0 0 BIGRAM 1 bigdata dist/default/production\PWM.X.production.o
-__end_of__initialization 127A 0 CODE 0 cinit dist/default/production\PWM.X.production.o
-__size_of_PWM1_Set_Duty 0 0 ABS 0 - dist/default/production\PWM.X.production.o
+__end_of__initialization CE8 0 CODE 0 cinit dist/default/production\PWM.X.production.o
 __Libigdata 0 0 CODE 0 ibigdata dist/default/production\PWM.X.production.o
 Lcd_Out@x 4 0 COMRAM 1 cstackCOMRAM dist/default/production\PWM.X.production.o
 Lcd_Out@y 7 0 COMRAM 1 cstackCOMRAM dist/default/production\PWM.X.production.o
 __Lclrtext 0 0 ABS 0 clrtext dist/default/production\PWM.X.production.o
-___lmul@product 9 0 COMRAM 1 cstackCOMRAM dist/default/production\PWM.X.production.o
-___lmul@multiplicand 5 0 COMRAM 1 cstackCOMRAM dist/default/production\PWM.X.production.o
-___lldiv@quotient 15 0 COMRAM 1 cstackCOMRAM dist/default/production\PWM.X.production.o
 __pcstackCOMRAM 1 0 COMRAM 1 cstackCOMRAM dist/default/production\PWM.X.production.o
 Lcd_Init@data 5 0 COMRAM 1 cstackCOMRAM dist/default/production\PWM.X.production.o
-__size_of_Lcd_Init 0 0 ABS 0 - dist/default/production\PWM.X.production.o
 ___aldiv@counter 9 0 COMRAM 1 cstackCOMRAM dist/default/production\PWM.X.production.o
-sprintf@c 1F 0 COMRAM 1 cstackCOMRAM dist/default/production\PWM.X.production.o
-sprintf@f F 0 COMRAM 1 cstackCOMRAM dist/default/production\PWM.X.production.o
-__end_of_main F22 0 CODE 0 text0 dist/default/production\PWM.X.production.o
-isdigit@c 3 0 COMRAM 1 cstackCOMRAM dist/default/production\PWM.X.production.o
-__end_of_dpowers 60B 0 SMALLCONST 0 smallconst dist/default/production\PWM.X.production.o
-__end_of_PWM1_Set_Duty 1058 0 CODE 0 text7 dist/default/production\PWM.X.production.o
-?_sprintf D 0 COMRAM 1 cstackCOMRAM dist/default/production\PWM.X.production.o
-_isdigit$1229 2 0 COMRAM 1 cstackCOMRAM dist/default/production\PWM.X.production.o
-_PORTA F80 0 ABS 0 - dist/default/production\PWM.X.production.o
+__end_of_main CA4 0 CODE 0 text0 dist/default/production\PWM.X.production.o
 _PORTB F81 0 ABS 0 - dist/default/production\PWM.X.production.o
 _PORTC F82 0 ABS 0 - dist/default/production\PWM.X.production.o
 _PORTD F83 0 ABS 0 - dist/default/production\PWM.X.production.o
 _PORTE F84 0 ABS 0 - dist/default/production\PWM.X.production.o
-_T1CON FCD 0 ABS 0 - dist/default/production\PWM.X.production.o
-_TMR1H FCF 0 ABS 0 - dist/default/production\PWM.X.production.o
-_TMR1L FCE 0 ABS 0 - dist/default/production\PWM.X.production.o
-_TRISA F92 0 ABS 0 - dist/default/production\PWM.X.production.o
 _TRISB F93 0 ABS 0 - dist/default/production\PWM.X.production.o
 _TRISC F94 0 ABS 0 - dist/default/production\PWM.X.production.o
 _TRISD F95 0 ABS 0 - dist/default/production\PWM.X.production.o
@@ -724,21 +488,17 @@ __LRAM 1 0 ABS 0 - dist/default/production\PWM.X.production.o
 __Lbss 0 0 RAM 1 bss dist/default/production\PWM.X.production.o
 __Lram 0 0 ABS 0 ram dist/default/production\PWM.X.production.o
 __Lsfr 0 0 ABS 0 sfr dist/default/production\PWM.X.production.o
-_count 22 0 COMRAM 1 bssCOMRAM dist/default/production\PWM.X.production.o
 _CCP1CON FBD 0 ABS 0 - dist/default/production\PWM.X.production.o
-sprintf@width 1D 0 COMRAM 1 cstackCOMRAM dist/default/production\PWM.X.production.o
-_Lcd_Cmd A1E 0 CODE 0 text15 dist/default/production\PWM.X.production.o
-_Lcd_Out 1058 0 CODE 0 text12 dist/default/production\PWM.X.production.o
-_PWM1_Start 1284 0 CODE 0 text6 dist/default/production\PWM.X.production.o
-__initialization 1256 0 CODE 0 cinit dist/default/production\PWM.X.production.o
-__pdataCOMRAM 29 0 COMRAM 1 dataCOMRAM dist/default/production\PWM.X.production.o
+_Lcd_Cmd 758 0 CODE 0 text7 dist/default/production\PWM.X.production.o
+_Lcd_Out B92 0 CODE 0 text4 dist/default/production\PWM.X.production.o
+_PWM1_Start CA4 0 CODE 0 text1 dist/default/production\PWM.X.production.o
+__initialization CD0 0 CODE 0 cinit dist/default/production\PWM.X.production.o
+__pdataCOMRAM 17 0 COMRAM 1 dataCOMRAM dist/default/production\PWM.X.production.o
 _T2CONbits FCA 0 ABS 0 - dist/default/production\PWM.X.production.o
 __Hfardata 0 0 FARRAM 0 fardata dist/default/production\PWM.X.production.o
-___wmul@product 5 0 COMRAM 1 cstackCOMRAM dist/default/production\PWM.X.production.o
-__end_of_PWM1_Init E58 0 CODE 0 text10 dist/default/production\PWM.X.production.o
-__Hsmallconst 612 0 SMALLCONST 0 smallconst dist/default/production\PWM.X.production.o
+__end_of_PWM1_Init B92 0 CODE 0 text2 dist/default/production\PWM.X.production.o
+__Hsmallconst 624 0 SMALLCONST 0 smallconst dist/default/production\PWM.X.production.o
 __Lifardata 0 0 CODE 0 ifardata dist/default/production\PWM.X.production.o
-__size_of_PWM1_Init 0 0 ABS 0 - dist/default/production\PWM.X.production.o
 __Hintsave_regs 0 0 BIGRAM 1 intsave_regs dist/default/production\PWM.X.production.o
 __Hintcode 0 0 CODE 0 intcode dist/default/production\PWM.X.production.o
 # %SPLITSTAB Section
@@ -765,10 +525,10 @@ __Hintcode 0 0 CODE 0 intcode dist/default/production\PWM.X.production.o
 # and size are in units of delta. The file address is in units of bytes.
 # All other numeric quantities are in decimal.
 %SEGMENTS
-text1 0 612 612 CC6 1
-cstackCOMRAM 1 1 1 2A 1
+text5 0 624 624 6D0 1
+cstackCOMRAM 1 1 1 18 1
 reset_vec 0 0 0 4 1
-smallconst 0 600 600 12 1
+smallconst 0 600 600 24 1
 # %NOTES Section
 # This section contains data of all the note-psects.  The beginning of the section
 # is indicated by %NOTES. The first line indicates the name and decimal

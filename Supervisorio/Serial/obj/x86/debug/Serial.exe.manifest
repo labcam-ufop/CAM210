@@ -66,14 +66,14 @@
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Serial.exe" size="112640">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Serial.exe" size="111616">
       <assemblyIdentity name="Serial" version="1.0.0.0" language="neutral" processorArchitecture="x86" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
-        <dsig:DigestValue>8M48Gnb0ClzgeDiZrKGLsIah5Xc=</dsig:DigestValue>
+        <dsig:DigestValue>MedxOrv3UkivLGJ7rObUePjARsU=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
@@ -101,13 +101,13 @@
       </hash>
     </dependentAssembly>
   </dependency>
-  <file name="Serial.exe.config" size="432">
+  <file name="Serial.exe.config" size="423">
     <hash>
       <dsig:Transforms>
         <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
       </dsig:Transforms>
       <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
-      <dsig:DigestValue>RApuU5ENNgdAhSxHJe53c6Geuc0=</dsig:DigestValue>
+      <dsig:DigestValue>NWXCxO2+kzLGvf5wavczJ1davZk=</dsig:DigestValue>
     </hash>
   </file>
 </asmv1:assembly>

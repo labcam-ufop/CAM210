@@ -8,7 +8,7 @@
 //  Hector Ramos
 //******************************************
 
-
+// PLACA PICGENIOS
 #define LCD_RD7     PORTDbits.RD7       // D7
 #define TRISRD7     TRISDbits.TRISD7
 
@@ -26,6 +26,28 @@
 
 #define LCD_RS      PORTEbits.RE2       // RS
 #define TRISRS      TRISEbits.TRISE1
+
+// PLACA NEXSTO NEO201
+//#define LCD_RD7     PORTDbits.RD7       // D7
+//#define TRISRD7     TRISDbits.TRISD7
+//
+//#define LCD_RD6     PORTDbits.RD6       // D6
+//#define TRISRD6     TRISDbits.TRISD6
+//
+//#define LCD_RD5     PORTDbits.RD5       // D5
+//#define TRISRD5     TRISDbits.TRISD5
+//
+//#define LCD_RD4     PORTDbits.RD4       // D4
+//#define TRISRD4     TRISDbits.TRISD4
+//
+//#define LCD_RW      PORTEbits.RE2       // RW
+//#define TRISRW      TRISEbits.TRISE2
+//
+//#define LCD_EN      PORTEbits.RE1       // EN
+//#define TRISEN      TRISEbits.TRISE1
+//
+//#define LCD_RS      PORTEbits.RE0       // RS
+//#define TRISRS      TRISEbits.TRISE0
 
 //comandos disponibles
 #define      LCD_FIRST_ROW           128

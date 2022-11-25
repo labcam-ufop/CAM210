@@ -5,6 +5,8 @@
  * Created on 12 de Novembro de 2020, 12:13
  */
 
+// Funciona apenas na PICGênios
+
 #include "configbits.h"
 
 #define _XTAL_FREQ 8000000

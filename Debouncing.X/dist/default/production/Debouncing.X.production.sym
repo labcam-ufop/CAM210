@@ -1,6 +1,5 @@
 __S0 8000 0 ABS 0
 __S1 6 0 ABS 0
-__S2 0 0 ABS 0
 __S4 0 0 ABS 0
 __S5 0 0 ABS 0
 __Hintentry 0 0 ABS 0
@@ -35,6 +34,8 @@ __Lbss 0 0 RAM 1
 ___param_bank 0 0 ABS 0
 __Hnvrram 0 0 COMRAM 1
 __Lnvrram 0 0 COMRAM 1
+__Hbigsfr 0 0 ABS 0
+__Lbigsfr 0 0 ABS 0
 __Heeprom_data 0 0 EEDATA 0
 __Leeprom_data 0 0 EEDATA 0
 _LATDbits F8C 0 ABS 0
@@ -61,14 +62,19 @@ __Lfardata 0 0 FARRAM 0
 __Habs1 0 0 ABS 0
 __Labs1 0 0 ABS 0
 _bt_press 28 -23 COMRAM 1
+isa$xinst 0 0 ABS 0
 __HnvFARRAM 0 0 FARRAM 0
 __LnvFARRAM 0 0 FARRAM 0
+___heap_hi 0 0 ABS 0
 __Hdata 0 0 ABS 0
 __Ldata 0 0 ABS 0
-stackhi 5FF 0 ABS 0
+isa$std 1 0 ABS 0
+stackhi 0 0 ABS 0
+__Hheap 0 0 HEAP 7
+__Lheap 0 0 HEAP 7
 __Htemp 0 0 COMRAM 1
 __Ltemp 0 0 COMRAM 1
-stacklo 80 0 ABS 0
+stacklo 0 0 ABS 0
 __Hrbit 0 0 COMRAM 1
 __Lrbit 0 0 COMRAM 1
 __Hinit 4 0 CODE 0
@@ -80,6 +86,7 @@ __end_of_main 8000 0 CODE 0
 __Lrbss 0 0 COMRAM 1
 __Htext 0 0 ABS 0
 __Ltext 0 0 ABS 0
+___heap_lo 0 0 ABS 0
 end_of_initialization 7F1E 0 CODE 0
 _PORTBbits F81 0 ABS 0
 __Hibigdata 0 0 CODE 0
@@ -137,7 +144,6 @@ __Lcinit 0 0 ABS 0
 __pcinit 7F04 0 CODE 0
 __ramtop 600 0 RAM 0
 __mediumconst 0 0 MEDIUMCONST 0
-__size_of_main 0 0 ABS 0
 __Hconst 0 0 CONST 0
 __Lconst 0 0 CONST 0
 __Hspace_4 60000E 0 ABS 0
@@ -174,25 +180,25 @@ cinit 7F04 7F23 CODE 7F04 0
 idataCOMRAM 7F02 7F03 CODE 7F02 0
 %locals
 dist/default/production\Debouncing.X.production.o
-D:/MPLABX/XC8/pic/include/proc\pic18f4520.h
-C:\Users\Alan Kardek\AppData\Local\Temp\s7lo.s
-456 7F04 0 CODE 0
-458 7F04 0 CODE 0
-461 7F04 0 CODE 0
-482 7F04 0 CODE 0
-483 7F06 0 CODE 0
-484 7F08 0 CODE 0
-485 7F0A 0 CODE 0
-486 7F0C 0 CODE 0
-487 7F0E 0 CODE 0
-488 7F10 0 CODE 0
-489 7F12 0 CODE 0
-490 7F16 0 CODE 0
-491 7F18 0 CODE 0
-495 7F1C 0 CODE 0
-501 7F1E 0 CODE 0
-503 7F1E 0 CODE 0
-504 7F20 0 CODE 0
+C:/Users/ufop/.mchp_packs/Microchip/PIC18Fxxxx_DFP/1.2.26/xc8\pic\include\proc\pic18f4520.h
+C:\Users\ufop\AppData\Local\Temp\xcAsbvo.s
+457 7F04 0 CODE 0
+459 7F04 0 CODE 0
+462 7F04 0 CODE 0
+483 7F04 0 CODE 0
+484 7F06 0 CODE 0
+485 7F08 0 CODE 0
+486 7F0A 0 CODE 0
+487 7F0C 0 CODE 0
+488 7F0E 0 CODE 0
+489 7F10 0 CODE 0
+490 7F12 0 CODE 0
+491 7F16 0 CODE 0
+492 7F18 0 CODE 0
+496 7F1C 0 CODE 0
+502 7F1E 0 CODE 0
+504 7F1E 0 CODE 0
+505 7F20 0 CODE 0
 mainDeb.c
 22 7F24 0 CODE 0
 29 7F24 0 CODE 0

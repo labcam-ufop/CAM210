@@ -1,9 +1,9 @@
 
 
-Microchip MPLAB XC8 Assembler V2.31 build 20201012212115 
-                                                                                               Thu Dec 03 17:53:13 2020
+Microchip MPLAB XC8 Assembler V2.36 build 20220127204148 
+                                                                                               Fri Nov 25 16:02:46 2022
 
-Microchip MPLAB XC8 C Compiler v2.31 (Free license) build 20201012212115 Og1 
+Microchip MPLAB XC8 C Compiler v2.36 (Free license) build 20220127204148 Og1 
      1                           	processor	18F4520
      2                           	fnconf	rparam,??,?,0
      3                           	pagewidth 120
@@ -111,53 +111,53 @@ Microchip MPLAB XC8 C Compiler v2.31 (Free license) build 20201012212115 Og1
     97  000609  2710               	dw	10000
     98  00060B                     __end_of_dpowers:
     99                           	callstack 0
-   100  0000                     _TMR0	set	4054
-   101  0000                     _RCREG	set	4014
-   102  0000                     _TXREG	set	4013
-   103  0000                     _RCSTAbits	set	4011
-   104  0000                     _TXSTAbits	set	4012
-   105  0000                     _SPBRG	set	4015
-   106  0000                     _BAUDCONbits	set	4024
-   107  0000                     _LATDbits	set	3980
-   108  0000                     _INTCON	set	4082
-   109  0000                     _T0CON	set	4053
-   110  0000                     _INTCONbits	set	4082
-   111  0000                     _LATE	set	3981
-   112  0000                     _PORTE	set	3972
-   113  0000                     _LATD	set	3980
-   114  0000                     _PORTD	set	3971
-   115  0000                     _LATC	set	3979
-   116  0000                     _PORTC	set	3970
-   117  0000                     _LATB	set	3978
-   118  0000                     _PORTB	set	3969
-   119  0000                     _LATA	set	3977
-   120  0000                     _PORTA	set	3968
-   121  0000                     _TRISE	set	3990
-   122  0000                     _TRISD	set	3989
-   123  0000                     _TRISC	set	3988
-   124  0000                     _TRISB	set	3987
-   125  0000                     _TRISA	set	3986
-   126  0000                     _TMR1H	set	4047
-   127  0000                     _TMR1L	set	4046
-   128  0000                     _T1CON	set	4045
-   129  0000                     _INTCON2bits	set	4081
-   130  0000                     _PORTEbits	set	3972
-   131  0000                     _TRISEbits	set	3990
-   132  0000                     _PIR1bits	set	3998
+   100  0000                     _RCREG	set	4014
+   101  0000                     _TXREG	set	4013
+   102  0000                     _PORTB	set	3969
+   103  0000                     _PORTA	set	3968
+   104  0000                     _TRISB	set	3987
+   105  0000                     _PORTCbits	set	3970
+   106  0000                     _TRISCbits	set	3988
+   107  0000                     _CCP1CON	set	4029
+   108  0000                     _ADRESL	set	4035
+   109  0000                     _ADRESH	set	4036
+   110  0000                     _ADCON2	set	4032
+   111  0000                     _ADCON1	set	4033
+   112  0000                     _ADCON0	set	4034
+   113  0000                     _LATDbits	set	3980
+   114  0000                     _INTCON	set	4082
+   115  0000                     _PORTE	set	3972
+   116  0000                     _PORTD	set	3971
+   117  0000                     _PORTC	set	3970
+   118  0000                     _TRISE	set	3990
+   119  0000                     _TRISD	set	3989
+   120  0000                     _TRISC	set	3988
+   121  0000                     _ADCON0bits	set	4034
+   122  0000                     _T2CONbits	set	4042
+   123  0000                     _CCPR1L	set	4030
+   124  0000                     _TRISEbits	set	3990
+   125  0000                     _PIR1bits	set	3998
+   126  0000                     _TRISDbits	set	3989
+   127  0000                     _LATA	set	3977
+   128  0000                     _TRISA	set	3986
+   129  0000                     _PORTEbits	set	3972
+   130  0000                     _PORTDbits	set	3971
+   131  0000                     _T1CON	set	4045
+   132  0000                     _INTCON2bits	set	4081
    133  0000                     _PR2	set	4043
-   134  0000                     _T2CONbits	set	4042
-   135  0000                     _CCPR1L	set	4030
-   136  0000                     _PORTDbits	set	3971
-   137  0000                     _PORTCbits	set	3970
-   138  0000                     _TRISDbits	set	3989
-   139  0000                     _TRISCbits	set	3988
-   140  0000                     _CCP1CON	set	4029
-   141  0000                     _ADRESL	set	4035
-   142  0000                     _ADRESH	set	4036
-   143  0000                     _ADCON0bits	set	4034
-   144  0000                     _ADCON2	set	4032
-   145  0000                     _ADCON1	set	4033
-   146  0000                     _ADCON0	set	4034
+   134  0000                     _RCSTAbits	set	4011
+   135  0000                     _TXSTAbits	set	4012
+   136  0000                     _SPBRG	set	4015
+   137  0000                     _BAUDCONbits	set	4024
+   138  0000                     _INTCONbits	set	4082
+   139  0000                     _T0CON	set	4053
+   140  0000                     _TMR1H	set	4047
+   141  0000                     _TMR1L	set	4046
+   142  0000                     _LATE	set	3981
+   143  0000                     _LATD	set	3980
+   144  0000                     _LATC	set	3979
+   145  0000                     _LATB	set	3978
+   146  0000                     _TMR0	set	4054
    147  00060B                     STR_2:
    148  00060B  2F                 	db	47
    149  00060C  2A                 	db	42
@@ -514,7 +514,7 @@ Microchip MPLAB XC8 C Compiler v2.31 (Free license) build 20201012212115 Og1
    500 ;;
    501 ;; *************** function _main *****************
    502 ;; Defined at:
-   503 ;;		line 36 in file "mainUART.c"
+   503 ;;		line 26 in file "mainUART.c"
    504 ;; Parameters:    Size  Location     Type
    505 ;;		None
    506 ;; Auto vars:     Size  Location     Type
@@ -533,7 +533,7 @@ Microchip MPLAB XC8 C Compiler v2.31 (Free license) build 20201012212115 Og1
    519 ;;      Temps:          0       0       0       0       0       0       0
    520 ;;      Totals:         0       0       0       0       0       0       0
    521 ;;Total ram usage:        0 bytes
-   522 ;; Hardware stack levels required when called:    5
+   522 ;; Hardware stack levels required when called: 5
    523 ;; This function calls:
    524 ;;		_Lcd_Cmd
    525 ;;		_Lcd_Init
@@ -554,89 +554,89 @@ Microchip MPLAB XC8 C Compiler v2.31 (Free license) build 20201012212115 Og1
    540  00140C                     _main:
    541                           	callstack 26
    542  00140C                     
-   543                           ;mainUART.c: 38: ADCON0 = 0b00000000;
+   543                           ;mainUART.c: 28: ADCON0 = 0b00000000;
    544  00140C  0E00               	movlw	0
    545  00140E  6EC2               	movwf	194,c	;volatile
    546                           
-   547                           ;mainUART.c: 39: ADCON1 = 0x00;
+   547                           ;mainUART.c: 29: ADCON1 = 0x00;
    548  001410  0E00               	movlw	0
    549  001412  6EC1               	movwf	193,c	;volatile
    550  001414                     
-   551                           ;mainUART.c: 42: INTCON2bits.RBPU = 1;
+   551                           ;mainUART.c: 32: INTCON2bits.RBPU = 1;
    552  001414  8EF1               	bsf	241,7,c	;volatile
    553                           
-   554                           ;mainUART.c: 43: T1CON = 0b10000011;
+   554                           ;mainUART.c: 33: T1CON = 0b10000011;
    555  001416  0E83               	movlw	131
    556  001418  6ECD               	movwf	205,c	;volatile
    557                           
-   558                           ;mainUART.c: 46: TMR1L = 0;
+   558                           ;mainUART.c: 36: TMR1L = 0;
    559  00141A  0E00               	movlw	0
    560  00141C  6ECE               	movwf	206,c	;volatile
    561                           
-   562                           ;mainUART.c: 47: TMR1H = 0;
+   562                           ;mainUART.c: 37: TMR1H = 0;
    563  00141E  0E00               	movlw	0
    564  001420  6ECF               	movwf	207,c	;volatile
    565  001422                     
-   566                           ;mainUART.c: 50: TRISA = 0xFF;
+   566                           ;mainUART.c: 40: TRISA = 0xFF;
    567  001422  6892               	setf	146,c	;volatile
    568                           
-   569                           ;mainUART.c: 51: TRISB = 0b00000000;
+   569                           ;mainUART.c: 41: TRISB = 0b00000000;
    570  001424  0E00               	movlw	0
    571  001426  6E93               	movwf	147,c	;volatile
    572                           
-   573                           ;mainUART.c: 52: TRISC = 0b10000001;
+   573                           ;mainUART.c: 42: TRISC = 0b10000001;
    574  001428  0E81               	movlw	129
    575  00142A  6E94               	movwf	148,c	;volatile
    576                           
-   577                           ;mainUART.c: 53: TRISD = 0b00000000;
+   577                           ;mainUART.c: 43: TRISD = 0b00000000;
    578  00142C  0E00               	movlw	0
    579  00142E  6E95               	movwf	149,c	;volatile
    580                           
-   581                           ;mainUART.c: 54: TRISE = 0b00000001;
-   582  001430  0E01               	movlw	1
+   581                           ;mainUART.c: 44: TRISE = 0b00000000;
+   582  001430  0E00               	movlw	0
    583  001432  6E96               	movwf	150,c	;volatile
    584                           
-   585                           ;mainUART.c: 56: PORTA = 0;
+   585                           ;mainUART.c: 46: PORTA = 0;
    586  001434  0E00               	movlw	0
    587  001436  6E80               	movwf	128,c	;volatile
    588                           
-   589                           ;mainUART.c: 57: LATA = 0;
+   589                           ;mainUART.c: 47: LATA = 0;
    590  001438  0E00               	movlw	0
    591  00143A  6E89               	movwf	137,c	;volatile
    592                           
-   593                           ;mainUART.c: 58: PORTB = 0;
+   593                           ;mainUART.c: 48: PORTB = 0;
    594  00143C  0E00               	movlw	0
    595  00143E  6E81               	movwf	129,c	;volatile
    596                           
-   597                           ;mainUART.c: 59: LATB = 0;
+   597                           ;mainUART.c: 49: LATB = 0;
    598  001440  0E00               	movlw	0
    599  001442  6E8A               	movwf	138,c	;volatile
    600                           
-   601                           ;mainUART.c: 60: PORTC = 0;
+   601                           ;mainUART.c: 50: PORTC = 0;
    602  001444  0E00               	movlw	0
    603  001446  6E82               	movwf	130,c	;volatile
    604                           
-   605                           ;mainUART.c: 61: LATC = 0;
+   605                           ;mainUART.c: 51: LATC = 0;
    606  001448  0E00               	movlw	0
    607  00144A  6E8B               	movwf	139,c	;volatile
    608                           
-   609                           ;mainUART.c: 62: PORTD = 0;
+   609                           ;mainUART.c: 52: PORTD = 0;
    610  00144C  0E00               	movlw	0
    611  00144E  6E83               	movwf	131,c	;volatile
    612                           
-   613                           ;mainUART.c: 63: LATD = 0;
+   613                           ;mainUART.c: 53: LATD = 0;
    614  001450  0E00               	movlw	0
    615  001452  6E8C               	movwf	140,c	;volatile
    616                           
-   617                           ;mainUART.c: 64: PORTE = 0;
+   617                           ;mainUART.c: 54: PORTE = 0;
    618  001454  0E00               	movlw	0
    619  001456  6E84               	movwf	132,c	;volatile
    620                           
-   621                           ;mainUART.c: 65: LATE = 0;
+   621                           ;mainUART.c: 55: LATE = 0;
    622  001458  0E00               	movlw	0
    623  00145A  6E8D               	movwf	141,c	;volatile
    624  00145C                     
-   625                           ;mainUART.c: 67: PWM1_Init(1000);
+   625                           ;mainUART.c: 57: PWM1_Init(1000);
    626  00145C  0E03               	movlw	3
    627  00145E  0100               	movlb	0	; () banked
    628  001460  6F8F               	movwf	(PWM1_Init@f+1)& (0+255),b
@@ -644,48 +644,48 @@ Microchip MPLAB XC8 C Compiler v2.31 (Free license) build 20201012212115 Og1
    630  001464  6F8E               	movwf	PWM1_Init@f& (0+255),b
    631  001466  EC8B  F009         	call	_PWM1_Init	;wreg free
    632  00146A                     
-   633                           ;mainUART.c: 68: PWM1_Start();
+   633                           ;mainUART.c: 58: PWM1_Start();
    634  00146A  ECBD  F00C         	call	_PWM1_Start	;wreg free
    635  00146E                     
-   636                           ;mainUART.c: 70: serial_init();
+   636                           ;mainUART.c: 60: serial_init();
    637  00146E  ECE6  F00C         	call	_serial_init	;wreg free
    638  001472                     
-   639                           ;mainUART.c: 71: adc_init();
+   639                           ;mainUART.c: 61: adc_init();
    640  001472  ECFC  F00C         	call	_adc_init	;wreg free
    641  001476                     
-   642                           ;mainUART.c: 72: Lcd_Init();
+   642                           ;mainUART.c: 62: Lcd_Init();
    643  001476  ECB4  F006         	call	_Lcd_Init	;wreg free
    644  00147A                     
-   645                           ;mainUART.c: 73: Lcd_Cmd(12);
+   645                           ;mainUART.c: 63: Lcd_Cmd(12);
    646  00147A  0E0C               	movlw	12
    647  00147C  EC7E  F005         	call	_Lcd_Cmd
    648  001480                     
-   649                           ;mainUART.c: 76: INTCONbits.TMR0IF = 0;
+   649                           ;mainUART.c: 66: INTCONbits.TMR0IF = 0;
    650  001480  94F2               	bcf	242,2,c	;volatile
    651  001482                     
-   652                           ;mainUART.c: 77: INTCONbits.TMR0IE = 1;
+   652                           ;mainUART.c: 67: INTCONbits.TMR0IE = 1;
    653  001482  8AF2               	bsf	242,5,c	;volatile
    654  001484                     
-   655                           ;mainUART.c: 78: T0CON = 0b11000101;
+   655                           ;mainUART.c: 68: T0CON = 0b11000101;
    656  001484  0EC5               	movlw	197
    657  001486  6ED5               	movwf	213,c	;volatile
    658  001488                     
-   659                           ;mainUART.c: 79: TMR0 = 131;
+   659                           ;mainUART.c: 69: TMR0 = 131;
    660  001488  0E00               	movlw	0
    661  00148A  6ED7               	movwf	215,c	;volatile
    662  00148C  0E83               	movlw	131
    663  00148E  6ED6               	movwf	214,c	;volatile
    664  001490                     
-   665                           ;mainUART.c: 80: INTCON = 0b11100000;
+   665                           ;mainUART.c: 70: INTCON = 0b11100000;
    666  001490  0EE0               	movlw	224
    667  001492  6EF2               	movwf	242,c	;volatile
    668  001494                     
-   669                           ;mainUART.c: 82: PORTCbits.RC5 = 1;
+   669                           ;mainUART.c: 72: PORTCbits.RC5 = 1;
    670  001494  8A82               	bsf	130,5,c	;volatile
    671  001496                     l210:
    672  001496  0004               	clrwdt		;# 
    673  001498                     
-   674                           ;mainUART.c: 86: serial_rx_str_until(buffer_rx,20,'\n');
+   674                           ;mainUART.c: 76: serial_rx_str_until(buffer_rx,20,'\n');
    675  001498  0E09               	movlw	low _buffer_rx
    676  00149A  0100               	movlb	0	; () banked
    677  00149C  6F80               	movwf	serial_rx_str_until@buff& (0+255),b
@@ -699,15 +699,15 @@ Microchip MPLAB XC8 C Compiler v2.31 (Free license) build 20201012212115 Og1
    685  0014AC  6F84               	movwf	serial_rx_str_until@term& (0+255),b
    686  0014AE  EC05  F009         	call	_serial_rx_str_until	;wreg free
    687  0014B2                     
-   688                           ;mainUART.c: 87: Lcd_Out(2, 0, buffer_rx);
-   689  0014B2  0E00               	movlw	0
+   688                           ;mainUART.c: 77: Lcd_Out(1, 7, buffer_rx);
+   689  0014B2  0E07               	movlw	7
    690  0014B4  0100               	movlb	0	; () banked
    691  0014B6  6F83               	movwf	Lcd_Out@x& (0+255),b
    692  0014B8  0E09               	movlw	low _buffer_rx
    693  0014BA  6F84               	movwf	Lcd_Out@buffer& (0+255),b
    694  0014BC  0E00               	movlw	high _buffer_rx
    695  0014BE  6F85               	movwf	(Lcd_Out@buffer+1)& (0+255),b
-   696  0014C0  0E02               	movlw	2
+   696  0014C0  0E01               	movlw	1
    697  0014C2  EC02  F00B         	call	_Lcd_Out
    698  0014C6  EF4B  F00A         	goto	l210
    699  0014CA  EF07  F000         	goto	start
@@ -738,8 +738,8 @@ Microchip MPLAB XC8 C Compiler v2.31 (Free license) build 20201012212115 Og1
    724 ;;      Temps:          0       3       0       0       0       0       0
    725 ;;      Totals:         0      10       0       0       0       0       0
    726 ;;Total ram usage:       10 bytes
-   727 ;; Hardware stack levels used:    1
-   728 ;; Hardware stack levels required when called:    3
+   727 ;; Hardware stack levels used: 1
+   728 ;; Hardware stack levels required when called: 3
    729 ;; This function calls:
    730 ;;		Nothing
    731 ;; This function is called by:
@@ -943,8 +943,8 @@ Microchip MPLAB XC8 C Compiler v2.31 (Free license) build 20201012212115 Og1
    929 ;;      Temps:          0       0       0       0       0       0       0
    930 ;;      Totals:         0       0       0       0       0       0       0
    931 ;;Total ram usage:        0 bytes
-   932 ;; Hardware stack levels used:    1
-   933 ;; Hardware stack levels required when called:    3
+   932 ;; Hardware stack levels used: 1
+   933 ;; Hardware stack levels required when called: 3
    934 ;; This function calls:
    935 ;;		Nothing
    936 ;; This function is called by:
@@ -1010,8 +1010,8 @@ Microchip MPLAB XC8 C Compiler v2.31 (Free license) build 20201012212115 Og1
    996 ;;      Temps:          0       0       0       0       0       0       0
    997 ;;      Totals:         0       0       0       0       0       0       0
    998 ;;Total ram usage:        0 bytes
-   999 ;; Hardware stack levels used:    1
-  1000 ;; Hardware stack levels required when called:    3
+   999 ;; Hardware stack levels used: 1
+  1000 ;; Hardware stack levels required when called: 3
   1001 ;; This function calls:
   1002 ;;		Nothing
   1003 ;; This function is called by:
@@ -1061,8 +1061,8 @@ Microchip MPLAB XC8 C Compiler v2.31 (Free license) build 20201012212115 Og1
   1047 ;;      Temps:          0       0       0       0       0       0       0
   1048 ;;      Totals:         0       0       0       0       0       0       0
   1049 ;;Total ram usage:        0 bytes
-  1050 ;; Hardware stack levels used:    1
-  1051 ;; Hardware stack levels required when called:    3
+  1050 ;; Hardware stack levels used: 1
+  1051 ;; Hardware stack levels required when called: 3
   1052 ;; This function calls:
   1053 ;;		Nothing
   1054 ;; This function is called by:
@@ -1133,8 +1133,8 @@ Microchip MPLAB XC8 C Compiler v2.31 (Free license) build 20201012212115 Og1
   1119 ;;      Temps:          0       4       0       0       0       0       0
   1120 ;;      Totals:         0       8       0       0       0       0       0
   1121 ;;Total ram usage:        8 bytes
-  1122 ;; Hardware stack levels used:    1
-  1123 ;; Hardware stack levels required when called:    4
+  1122 ;; Hardware stack levels used: 1
+  1123 ;; Hardware stack levels required when called: 4
   1124 ;; This function calls:
   1125 ;;		___aldiv
   1126 ;; This function is called by:
@@ -1312,7 +1312,7 @@ Microchip MPLAB XC8 C Compiler v2.31 (Free license) build 20201012212115 Og1
   1298                           
   1299 ;; *************** function ___aldiv *****************
   1300 ;; Defined at:
-  1301 ;;		line 7 in file "D:\MPLABX\XC8\pic\sources\c90\common\aldiv.c"
+  1301 ;;		line 7 in file "C:\Program Files\Microchip\xc8\v2.36\pic\sources\c90\common\aldiv.c"
   1302 ;; Parameters:    Size  Location     Type
   1303 ;;  dividend        4    0[BANK0 ] long 
   1304 ;;  divisor         4    4[BANK0 ] long 
@@ -1334,8 +1334,8 @@ Microchip MPLAB XC8 C Compiler v2.31 (Free license) build 20201012212115 Og1
   1320 ;;      Temps:          0       0       0       0       0       0       0
   1321 ;;      Totals:         0      14       0       0       0       0       0
   1322 ;;Total ram usage:       14 bytes
-  1323 ;; Hardware stack levels used:    1
-  1324 ;; Hardware stack levels required when called:    3
+  1323 ;; Hardware stack levels used: 1
+  1324 ;; Hardware stack levels required when called: 3
   1325 ;; This function calls:
   1326 ;;		Nothing
   1327 ;; This function is called by:
@@ -1526,7 +1526,7 @@ Microchip MPLAB XC8 C Compiler v2.31 (Free license) build 20201012212115 Og1
   1512                           
   1513 ;; *************** function _Lcd_Out *****************
   1514 ;; Defined at:
-  1515 ;;		line 96 in file "flexlcd.h"
+  1515 ;;		line 118 in file "flexlcd.h"
   1516 ;; Parameters:    Size  Location     Type
   1517 ;;  y               1    wreg     unsigned char 
   1518 ;;  x               1    3[BANK0 ] unsigned char 
@@ -1549,8 +1549,8 @@ Microchip MPLAB XC8 C Compiler v2.31 (Free license) build 20201012212115 Og1
   1535 ;;      Temps:          0       0       0       0       0       0       0
   1536 ;;      Totals:         0       5       0       0       0       0       0
   1537 ;;Total ram usage:        5 bytes
-  1538 ;; Hardware stack levels used:    1
-  1539 ;; Hardware stack levels required when called:    4
+  1538 ;; Hardware stack levels used: 1
+  1539 ;; Hardware stack levels required when called: 4
   1540 ;; This function calls:
   1541 ;;		_Lcd_Chr_CP
   1542 ;;		_Lcd_Cmd
@@ -1571,7 +1571,7 @@ Microchip MPLAB XC8 C Compiler v2.31 (Free license) build 20201012212115 Og1
   1557  001604  0100               	movlb	0	; () banked
   1558  001606  6F86               	movwf	Lcd_Out@y& (0+255),b
   1559  001608                     
-  1560                           ;flexlcd.h: 98: unsigned char data;;flexlcd.h: 99: switch (y)
+  1560                           ;flexlcd.h: 120: unsigned char data;;flexlcd.h: 121: switch (y)
   1561  001608  EF1A  F00B         	goto	l2521
   1562  00160C                     l2511:
   1563                           
@@ -1627,21 +1627,21 @@ Microchip MPLAB XC8 C Compiler v2.31 (Free license) build 20201012212115 Og1
   1613  00165C                     l2523:
   1614                           
   1615                           ; BSR set to: 0
-  1616                           ;flexlcd.h: 107: Lcd_Cmd(data);
+  1616                           ;flexlcd.h: 129: Lcd_Cmd(data);
   1617  00165C  5187               	movf	Lcd_Out@data& (0+255),w,b
   1618  00165E  EC7E  F005         	call	_Lcd_Cmd
   1619                           
-  1620                           ;flexlcd.h: 108: while(*buffer)
+  1620                           ;flexlcd.h: 130: while(*buffer)
   1621  001662  EF3D  F00B         	goto	l2529
   1622  001666                     l2525:
   1623                           
-  1624                           ;flexlcd.h: 109: {;flexlcd.h: 110: Lcd_Chr_CP(*buffer);
+  1624                           ;flexlcd.h: 131: {;flexlcd.h: 132: Lcd_Chr_CP(*buffer);
   1625  001666  C084  FFD9         	movff	Lcd_Out@buffer,fsr2l
   1626  00166A  C085  FFDA         	movff	Lcd_Out@buffer+1,fsr2h
   1627  00166E  50DF               	movf	indf2,w,c
   1628  001670  ECDF  F004         	call	_Lcd_Chr_CP
   1629  001674                     
-  1630                           ;flexlcd.h: 111: buffer++;
+  1630                           ;flexlcd.h: 133: buffer++;
   1631  001674  0100               	movlb	0	; () banked
   1632  001676  4B84               	infsnz	Lcd_Out@buffer& (0+255),f,b
   1633  001678  2B85               	incf	(Lcd_Out@buffer+1)& (0+255),f,b
@@ -1661,7 +1661,7 @@ Microchip MPLAB XC8 C Compiler v2.31 (Free license) build 20201012212115 Og1
   1647                           
   1648 ;; *************** function _Lcd_Chr_CP *****************
   1649 ;; Defined at:
-  1650 ;;		line 138 in file "flexlcd.h"
+  1650 ;;		line 160 in file "flexlcd.h"
   1651 ;; Parameters:    Size  Location     Type
   1652 ;;  data            1    wreg     unsigned char 
   1653 ;; Auto vars:     Size  Location     Type
@@ -1680,8 +1680,8 @@ Microchip MPLAB XC8 C Compiler v2.31 (Free license) build 20201012212115 Og1
   1666 ;;      Temps:          0       2       0       0       0       0       0
   1667 ;;      Totals:         0       3       0       0       0       0       0
   1668 ;;Total ram usage:        3 bytes
-  1669 ;; Hardware stack levels used:    1
-  1670 ;; Hardware stack levels required when called:    3
+  1669 ;; Hardware stack levels used: 1
+  1670 ;; Hardware stack levels required when called: 3
   1671 ;; This function calls:
   1672 ;;		Nothing
   1673 ;; This function is called by:
@@ -1701,11 +1701,11 @@ Microchip MPLAB XC8 C Compiler v2.31 (Free license) build 20201012212115 Og1
   1687  0009BE  0100               	movlb	0	; () banked
   1688  0009C0  6F82               	movwf	Lcd_Chr_CP@data& (0+255),b
   1689  0009C2                     
-  1690                           ;flexlcd.h: 139: PORTEbits.RE1 = 0; PORTEbits.RE2 = 1;
+  1690                           ;flexlcd.h: 161: PORTEbits.RE1 = 0; PORTEbits.RE2 = 1;
   1691  0009C2  9284               	bcf	132,1,c	;volatile
   1692  0009C4  8484               	bsf	132,2,c	;volatile
   1693  0009C6                     
-  1694                           ;flexlcd.h: 140: PORTDbits.RD7 = (data & 0b10000000)>>7; PORTDbits.RD6 = (data & 0b01000
+  1694                           ;flexlcd.h: 162: PORTDbits.RD7 = (data & 0b10000000)>>7; PORTDbits.RD6 = (data & 0b01000
       +                          000)>>6;
   1695  0009C6  0100               	movlb	0	; () banked
   1696  0009C8  6B80               	clrf	??_Lcd_Chr_CP& (0+255),b
@@ -1741,7 +1741,7 @@ Microchip MPLAB XC8 C Compiler v2.31 (Free license) build 20201012212115 Og1
   1726  000A04  1980               	xorwf	??_Lcd_Chr_CP& (0+255),w,b
   1727  000A06  6E83               	movwf	131,c	;volatile
   1728                           
-  1729                           ;flexlcd.h: 141: PORTDbits.RD5 = (data & 0b00100000)>>5; PORTDbits.RD4 = (data & 0b00010
+  1729                           ;flexlcd.h: 163: PORTDbits.RD5 = (data & 0b00100000)>>5; PORTDbits.RD4 = (data & 0b00010
       +                          000)>>4;
   1730  000A08  C082  F080         	movff	Lcd_Chr_CP@data,??_Lcd_Chr_CP
   1731  000A0C  0E05               	movlw	5
@@ -1774,14 +1774,14 @@ Microchip MPLAB XC8 C Compiler v2.31 (Free license) build 20201012212115 Og1
   1758  000A44  6E83               	movwf	131,c	;volatile
   1759  000A46                     
   1760                           ; BSR set to: 0
-  1761                           ;flexlcd.h: 142: _delay(10);
+  1761                           ;flexlcd.h: 164: _delay(10);
   1762  000A46  0E03               	movlw	3
   1763  000A48                     u1877:
   1764  000A48  2EE8               	decfsz	wreg,f,c
   1765  000A4A  D7FE               	bra	u1877
   1766  000A4C  F000               	nop	
   1767  000A4E                     
-  1768                           ;flexlcd.h: 143: PORTEbits.RE1 = 1; _delay((unsigned long)((5)*(8000000/4000000.0))); PO
+  1768                           ;flexlcd.h: 165: PORTEbits.RE1 = 1; _delay((unsigned long)((5)*(8000000/4000000.0))); PO
       +                          RTEbits.RE1 = 0;
   1769  000A4E  8284               	bsf	132,1,c	;volatile
   1770  000A50  0E03               	movlw	3
@@ -1791,7 +1791,7 @@ Microchip MPLAB XC8 C Compiler v2.31 (Free license) build 20201012212115 Og1
   1774  000A56  F000               	nop	
   1775  000A58  9284               	bcf	132,1,c	;volatile
   1776                           
-  1777                           ;flexlcd.h: 144: PORTDbits.RD7 = (data & 0b00001000)>>3; PORTDbits.RD6 = (data & 0b00000
+  1777                           ;flexlcd.h: 166: PORTDbits.RD7 = (data & 0b00001000)>>3; PORTDbits.RD6 = (data & 0b00000
       +                          100)>>2;
   1778  000A5A  C082  F080         	movff	Lcd_Chr_CP@data,??_Lcd_Chr_CP
   1779  000A5E  0100               	movlb	0	; () banked
@@ -1826,7 +1826,7 @@ Microchip MPLAB XC8 C Compiler v2.31 (Free license) build 20201012212115 Og1
   1808  000A9A  1980               	xorwf	??_Lcd_Chr_CP& (0+255),w,b
   1809  000A9C  6E83               	movwf	131,c	;volatile
   1810                           
-  1811                           ;flexlcd.h: 145: PORTDbits.RD5 = (data & 0b00000010)>>1; PORTDbits.RD4 = (data & 0b00000
+  1811                           ;flexlcd.h: 167: PORTDbits.RD5 = (data & 0b00000010)>>1; PORTDbits.RD4 = (data & 0b00000
       +                          001);
   1812  000A9E  C082  F080         	movff	Lcd_Chr_CP@data,??_Lcd_Chr_CP
   1813  000AA2  90D8               	bcf	status,0,c
@@ -1851,14 +1851,14 @@ Microchip MPLAB XC8 C Compiler v2.31 (Free license) build 20201012212115 Og1
   1832  000ACA  6E83               	movwf	131,c	;volatile
   1833  000ACC                     
   1834                           ; BSR set to: 0
-  1835                           ;flexlcd.h: 146: _delay(10);
+  1835                           ;flexlcd.h: 168: _delay(10);
   1836  000ACC  0E03               	movlw	3
   1837  000ACE                     u1897:
   1838  000ACE  2EE8               	decfsz	wreg,f,c
   1839  000AD0  D7FE               	bra	u1897
   1840  000AD2  F000               	nop	
   1841  000AD4                     
-  1842                           ;flexlcd.h: 147: PORTEbits.RE1 = 1; _delay((unsigned long)((5)*(8000000/4000000.0))); PO
+  1842                           ;flexlcd.h: 169: PORTEbits.RE1 = 1; _delay((unsigned long)((5)*(8000000/4000000.0))); PO
       +                          RTEbits.RE1 = 0;
   1843  000AD4  8284               	bsf	132,1,c	;volatile
   1844  000AD6  0E03               	movlw	3
@@ -1868,7 +1868,7 @@ Microchip MPLAB XC8 C Compiler v2.31 (Free license) build 20201012212115 Og1
   1848  000ADC  F000               	nop	
   1849  000ADE  9284               	bcf	132,1,c	;volatile
   1850  000AE0                     
-  1851                           ;flexlcd.h: 148: _delay((unsigned long)((5)*(8000000/4000000.0))); _delay((unsigned long
+  1851                           ;flexlcd.h: 170: _delay((unsigned long)((5)*(8000000/4000000.0))); _delay((unsigned long
       +                          )((5500)*(8000000/4000000.0)));
   1852  000AE0  0E03               	movlw	3
   1853  000AE2                     u1917:
@@ -1891,7 +1891,7 @@ Microchip MPLAB XC8 C Compiler v2.31 (Free license) build 20201012212115 Og1
   1870                           
   1871 ;; *************** function _Lcd_Init *****************
   1872 ;; Defined at:
-  1873 ;;		line 54 in file "flexlcd.h"
+  1873 ;;		line 76 in file "flexlcd.h"
   1874 ;; Parameters:    Size  Location     Type
   1875 ;;		None
   1876 ;; Auto vars:     Size  Location     Type
@@ -1910,8 +1910,8 @@ Microchip MPLAB XC8 C Compiler v2.31 (Free license) build 20201012212115 Og1
   1889 ;;      Temps:          0       1       0       0       0       0       0
   1890 ;;      Totals:         0       2       0       0       0       0       0
   1891 ;;Total ram usage:        2 bytes
-  1892 ;; Hardware stack levels used:    1
-  1893 ;; Hardware stack levels required when called:    4
+  1892 ;; Hardware stack levels used: 1
+  1893 ;; Hardware stack levels required when called: 4
   1894 ;; This function calls:
   1895 ;;		_Lcd_Cmd
   1896 ;; This function is called by:
@@ -1925,43 +1925,43 @@ Microchip MPLAB XC8 C Compiler v2.31 (Free license) build 20201012212115 Og1
   1904  000D68                     _Lcd_Init:
   1905                           	callstack 26
   1906  000D68                     
-  1907                           ;flexlcd.h: 55: unsigned char data;;flexlcd.h: 56: TRISDbits.TRISD7 = 0;
+  1907                           ;flexlcd.h: 77: unsigned char data;;flexlcd.h: 78: TRISDbits.TRISD7 = 0;
   1908  000D68  9E95               	bcf	149,7,c	;volatile
   1909                           
-  1910                           ;flexlcd.h: 57: TRISDbits.TRISD6 = 0;
+  1910                           ;flexlcd.h: 79: TRISDbits.TRISD6 = 0;
   1911  000D6A  9C95               	bcf	149,6,c	;volatile
   1912                           
-  1913                           ;flexlcd.h: 58: TRISDbits.TRISD5 = 0;
+  1913                           ;flexlcd.h: 80: TRISDbits.TRISD5 = 0;
   1914  000D6C  9A95               	bcf	149,5,c	;volatile
   1915                           
-  1916                           ;flexlcd.h: 59: TRISDbits.TRISD4 = 0;
+  1916                           ;flexlcd.h: 81: TRISDbits.TRISD4 = 0;
   1917  000D6E  9895               	bcf	149,4,c	;volatile
   1918                           
-  1919                           ;flexlcd.h: 60: TRISEbits.TRISE2 = 0;
+  1919                           ;flexlcd.h: 82: TRISEbits.TRISE2 = 0;
   1920  000D70  9496               	bcf	150,2,c	;volatile
   1921                           
-  1922                           ;flexlcd.h: 61: TRISEbits.TRISE1 = 0;
+  1922                           ;flexlcd.h: 83: TRISEbits.TRISE1 = 0;
   1923  000D72  9296               	bcf	150,1,c	;volatile
   1924                           
-  1925                           ;flexlcd.h: 62: PORTDbits.RD7 = 0;
+  1925                           ;flexlcd.h: 84: PORTDbits.RD7 = 0;
   1926  000D74  9E83               	bcf	131,7,c	;volatile
   1927                           
-  1928                           ;flexlcd.h: 63: PORTDbits.RD6 = 0;
+  1928                           ;flexlcd.h: 85: PORTDbits.RD6 = 0;
   1929  000D76  9C83               	bcf	131,6,c	;volatile
   1930                           
-  1931                           ;flexlcd.h: 64: PORTDbits.RD5 = 0;
+  1931                           ;flexlcd.h: 86: PORTDbits.RD5 = 0;
   1932  000D78  9A83               	bcf	131,5,c	;volatile
   1933                           
-  1934                           ;flexlcd.h: 65: PORTDbits.RD4 = 0;
+  1934                           ;flexlcd.h: 87: PORTDbits.RD4 = 0;
   1935  000D7A  9883               	bcf	131,4,c	;volatile
   1936                           
-  1937                           ;flexlcd.h: 66: PORTEbits.RE1 = 0;
+  1937                           ;flexlcd.h: 88: PORTEbits.RE1 = 0;
   1938  000D7C  9284               	bcf	132,1,c	;volatile
   1939                           
-  1940                           ;flexlcd.h: 67: PORTEbits.RE2 = 0;
+  1940                           ;flexlcd.h: 89: PORTEbits.RE2 = 0;
   1941  000D7E  9484               	bcf	132,2,c	;volatile
   1942  000D80                     
-  1943                           ;flexlcd.h: 68: _delay((unsigned long)((5500)*(8000000/4000000.0)));
+  1943                           ;flexlcd.h: 90: _delay((unsigned long)((5500)*(8000000/4000000.0)));
   1944  000D80  0E0F               	movlw	15
   1945  000D82  0100               	movlb	0	; () banked
   1946  000D84  6F83               	movwf	??_Lcd_Init& (0+255),b
@@ -1973,7 +1973,7 @@ Microchip MPLAB XC8 C Compiler v2.31 (Free license) build 20201012212115 Og1
   1952  000D8E  D7FC               	bra	u1937
   1953  000D90  D000               	nop2	
   1954                           
-  1955                           ;flexlcd.h: 69: _delay((unsigned long)((5500)*(8000000/4000000.0)));
+  1955                           ;flexlcd.h: 91: _delay((unsigned long)((5500)*(8000000/4000000.0)));
   1956  000D92  0E0F               	movlw	15
   1957  000D94  0100               	movlb	0	; () banked
   1958  000D96  6F83               	movwf	??_Lcd_Init& (0+255),b
@@ -1985,7 +1985,7 @@ Microchip MPLAB XC8 C Compiler v2.31 (Free license) build 20201012212115 Og1
   1964  000DA0  D7FC               	bra	u1947
   1965  000DA2  D000               	nop2	
   1966                           
-  1967                           ;flexlcd.h: 70: _delay((unsigned long)((5500)*(8000000/4000000.0)));
+  1967                           ;flexlcd.h: 92: _delay((unsigned long)((5500)*(8000000/4000000.0)));
   1968  000DA4  0E0F               	movlw	15
   1969  000DA6  0100               	movlb	0	; () banked
   1970  000DA8  6F83               	movwf	??_Lcd_Init& (0+255),b
@@ -1997,7 +1997,7 @@ Microchip MPLAB XC8 C Compiler v2.31 (Free license) build 20201012212115 Og1
   1976  000DB2  D7FC               	bra	u1957
   1977  000DB4  D000               	nop2	
   1978                           
-  1979                           ;flexlcd.h: 71: _delay((unsigned long)((5500)*(8000000/4000000.0)));
+  1979                           ;flexlcd.h: 93: _delay((unsigned long)((5500)*(8000000/4000000.0)));
   1980  000DB6  0E0F               	movlw	15
   1981  000DB8  0100               	movlb	0	; () banked
   1982  000DBA  6F83               	movwf	??_Lcd_Init& (0+255),b
@@ -2009,7 +2009,7 @@ Microchip MPLAB XC8 C Compiler v2.31 (Free license) build 20201012212115 Og1
   1988  000DC4  D7FC               	bra	u1967
   1989  000DC6  D000               	nop2	
   1990                           
-  1991                           ;flexlcd.h: 72: _delay((unsigned long)((5500)*(8000000/4000000.0)));
+  1991                           ;flexlcd.h: 94: _delay((unsigned long)((5500)*(8000000/4000000.0)));
   1992  000DC8  0E0F               	movlw	15
   1993  000DCA  0100               	movlb	0	; () banked
   1994  000DCC  6F83               	movwf	??_Lcd_Init& (0+255),b
@@ -2021,7 +2021,7 @@ Microchip MPLAB XC8 C Compiler v2.31 (Free license) build 20201012212115 Og1
   2000  000DD6  D7FC               	bra	u1977
   2001  000DD8  D000               	nop2	
   2002                           
-  2003                           ;flexlcd.h: 73: _delay((unsigned long)((5500)*(8000000/4000000.0)));
+  2003                           ;flexlcd.h: 95: _delay((unsigned long)((5500)*(8000000/4000000.0)));
   2004  000DDA  0E0F               	movlw	15
   2005  000DDC  0100               	movlb	0	; () banked
   2006  000DDE  6F83               	movwf	??_Lcd_Init& (0+255),b
@@ -2033,14 +2033,14 @@ Microchip MPLAB XC8 C Compiler v2.31 (Free license) build 20201012212115 Og1
   2012  000DE8  D7FC               	bra	u1987
   2013  000DEA  D000               	nop2	
   2014  000DEC                     
-  2015                           ;flexlcd.h: 74: for(data = 1; data < 4; data ++)
+  2015                           ;flexlcd.h: 96: for(data = 1; data < 4; data ++)
   2016  000DEC  0E01               	movlw	1
   2017  000DEE  0100               	movlb	0	; () banked
   2018  000DF0  6F84               	movwf	Lcd_Init@data& (0+255),b
   2019  000DF2                     l155:
   2020                           
   2021                           ; BSR set to: 0
-  2022                           ;flexlcd.h: 75: {;flexlcd.h: 76: PORTDbits.RD7 = 0; PORTDbits.RD6 = 0; PORTDbits.RD5 = 1
+  2022                           ;flexlcd.h: 97: {;flexlcd.h: 98: PORTDbits.RD7 = 0; PORTDbits.RD6 = 0; PORTDbits.RD5 = 1
       +                          ; PORTDbits.RD4 = 1; PORTEbits.RE1 = 0;
   2023  000DF2  9E83               	bcf	131,7,c	;volatile
   2024  000DF4  9C83               	bcf	131,6,c	;volatile
@@ -2048,7 +2048,7 @@ Microchip MPLAB XC8 C Compiler v2.31 (Free license) build 20201012212115 Og1
   2026  000DF8  8883               	bsf	131,4,c	;volatile
   2027  000DFA  9284               	bcf	132,1,c	;volatile
   2028                           
-  2029                           ;flexlcd.h: 77: PORTEbits.RE2 = 0; PORTDbits.RD7 = 0; PORTDbits.RD6 = 0; PORTDbits.RD5 =
+  2029                           ;flexlcd.h: 99: PORTEbits.RE2 = 0; PORTDbits.RD7 = 0; PORTDbits.RD6 = 0; PORTDbits.RD5 =
       +                           1; PORTDbits.RD4 = 1;
   2030  000DFC  9484               	bcf	132,2,c	;volatile
   2031  000DFE  9E83               	bcf	131,7,c	;volatile
@@ -2056,30 +2056,30 @@ Microchip MPLAB XC8 C Compiler v2.31 (Free license) build 20201012212115 Og1
   2033  000E02  8A83               	bsf	131,5,c	;volatile
   2034  000E04  8883               	bsf	131,4,c	;volatile
   2035                           
-  2036                           ;flexlcd.h: 78: PORTEbits.RE1 = 1; PORTEbits.RE2 = 0;
+  2036                           ;flexlcd.h: 100: PORTEbits.RE1 = 1; PORTEbits.RE2 = 0;
   2037  000E06  8284               	bsf	132,1,c	;volatile
   2038  000E08  9484               	bcf	132,2,c	;volatile
   2039  000E0A                     
   2040                           ; BSR set to: 0
-  2041                           ;flexlcd.h: 79: _delay((unsigned long)((5)*(8000000/4000000.0)));
+  2041                           ;flexlcd.h: 101: _delay((unsigned long)((5)*(8000000/4000000.0)));
   2042  000E0A  0E03               	movlw	3
   2043  000E0C                     u1997:
   2044  000E0C  2EE8               	decfsz	wreg,f,c
   2045  000E0E  D7FE               	bra	u1997
   2046  000E10  F000               	nop	
   2047  000E12                     
-  2048                           ;flexlcd.h: 80: PORTDbits.RD7 = 0; PORTDbits.RD6 = 0; PORTDbits.RD5 = 1; PORTDbits.RD4 =
-      +                           1; PORTEbits.RE1 = 0;
+  2048                           ;flexlcd.h: 102: PORTDbits.RD7 = 0; PORTDbits.RD6 = 0; PORTDbits.RD5 = 1; PORTDbits.RD4 
+      +                          = 1; PORTEbits.RE1 = 0;
   2049  000E12  9E83               	bcf	131,7,c	;volatile
   2050  000E14  9C83               	bcf	131,6,c	;volatile
   2051  000E16  8A83               	bsf	131,5,c	;volatile
   2052  000E18  8883               	bsf	131,4,c	;volatile
   2053  000E1A  9284               	bcf	132,1,c	;volatile
   2054  000E1C                     
-  2055                           ;flexlcd.h: 81: PORTEbits.RE2 = 0;
+  2055                           ;flexlcd.h: 103: PORTEbits.RE2 = 0;
   2056  000E1C  9484               	bcf	132,2,c	;volatile
   2057                           
-  2058                           ;flexlcd.h: 82: _delay((unsigned long)((5500)*(8000000/4000000.0)));
+  2058                           ;flexlcd.h: 104: _delay((unsigned long)((5500)*(8000000/4000000.0)));
   2059  000E1E  0E0F               	movlw	15
   2060  000E20  0100               	movlb	0	; () banked
   2061  000E22  6F83               	movwf	??_Lcd_Init& (0+255),b
@@ -2101,8 +2101,8 @@ Microchip MPLAB XC8 C Compiler v2.31 (Free license) build 20201012212115 Og1
   2077  000E44                     u1750:
   2078  000E44                     
   2079                           ; BSR set to: 0
-  2080                           ;flexlcd.h: 83: };flexlcd.h: 84: PORTDbits.RD7 = 0; PORTDbits.RD6 = 0; PORTDbits.RD5 = 1
-      +                          ; PORTDbits.RD4 = 0; PORTEbits.RE1 = 0; PORTEbits.RE2 = 0;
+  2080                           ;flexlcd.h: 105: };flexlcd.h: 106: PORTDbits.RD7 = 0; PORTDbits.RD6 = 0; PORTDbits.RD5 =
+      +                           1; PORTDbits.RD4 = 0; PORTEbits.RE1 = 0; PORTEbits.RE2 = 0;
   2081  000E44  9E83               	bcf	131,7,c	;volatile
   2082  000E46  9C83               	bcf	131,6,c	;volatile
   2083  000E48  8A83               	bsf	131,5,c	;volatile
@@ -2110,8 +2110,8 @@ Microchip MPLAB XC8 C Compiler v2.31 (Free license) build 20201012212115 Og1
   2085  000E4C  9284               	bcf	132,1,c	;volatile
   2086  000E4E  9484               	bcf	132,2,c	;volatile
   2087                           
-  2088                           ;flexlcd.h: 85: PORTDbits.RD7 = 0; PORTDbits.RD6 = 0; PORTDbits.RD5 = 1; PORTDbits.RD4 =
-      +                           0; PORTEbits.RE1 = 1; PORTEbits.RE2 = 0;
+  2088                           ;flexlcd.h: 107: PORTDbits.RD7 = 0; PORTDbits.RD6 = 0; PORTDbits.RD5 = 1; PORTDbits.RD4 
+      +                          = 0; PORTEbits.RE1 = 1; PORTEbits.RE2 = 0;
   2089  000E50  9E83               	bcf	131,7,c	;volatile
   2090  000E52  9C83               	bcf	131,6,c	;volatile
   2091  000E54  8A83               	bsf	131,5,c	;volatile
@@ -2120,15 +2120,15 @@ Microchip MPLAB XC8 C Compiler v2.31 (Free license) build 20201012212115 Og1
   2094  000E5A  9484               	bcf	132,2,c	;volatile
   2095  000E5C                     
   2096                           ; BSR set to: 0
-  2097                           ;flexlcd.h: 86: _delay((unsigned long)((5)*(8000000/4000000.0)));
+  2097                           ;flexlcd.h: 108: _delay((unsigned long)((5)*(8000000/4000000.0)));
   2098  000E5C  0E03               	movlw	3
   2099  000E5E                     u2017:
   2100  000E5E  2EE8               	decfsz	wreg,f,c
   2101  000E60  D7FE               	bra	u2017
   2102  000E62  F000               	nop	
   2103  000E64                     
-  2104                           ;flexlcd.h: 87: PORTDbits.RD7 = 0; PORTDbits.RD6 = 0; PORTDbits.RD5 = 1; PORTDbits.RD4 =
-      +                           0; PORTEbits.RE1 = 0; PORTEbits.RE2 = 0;
+  2104                           ;flexlcd.h: 109: PORTDbits.RD7 = 0; PORTDbits.RD6 = 0; PORTDbits.RD5 = 1; PORTDbits.RD4 
+      +                          = 0; PORTEbits.RE1 = 0; PORTEbits.RE2 = 0;
   2105  000E64  9E83               	bcf	131,7,c	;volatile
   2106  000E66  9C83               	bcf	131,6,c	;volatile
   2107  000E68  8A83               	bsf	131,5,c	;volatile
@@ -2136,7 +2136,7 @@ Microchip MPLAB XC8 C Compiler v2.31 (Free license) build 20201012212115 Og1
   2109  000E6C  9284               	bcf	132,1,c	;volatile
   2110  000E6E  9484               	bcf	132,2,c	;volatile
   2111                           
-  2112                           ;flexlcd.h: 88: _delay((unsigned long)((5500)*(8000000/4000000.0)));
+  2112                           ;flexlcd.h: 110: _delay((unsigned long)((5500)*(8000000/4000000.0)));
   2113  000E70  0E0F               	movlw	15
   2114  000E72  0100               	movlb	0	; () banked
   2115  000E74  6F83               	movwf	??_Lcd_Init& (0+255),b
@@ -2161,7 +2161,7 @@ Microchip MPLAB XC8 C Compiler v2.31 (Free license) build 20201012212115 Og1
   2134                           
   2135 ;; *************** function _Lcd_Cmd *****************
   2136 ;; Defined at:
-  2137 ;;		line 152 in file "flexlcd.h"
+  2137 ;;		line 174 in file "flexlcd.h"
   2138 ;; Parameters:    Size  Location     Type
   2139 ;;  data            1    wreg     unsigned char 
   2140 ;; Auto vars:     Size  Location     Type
@@ -2180,8 +2180,8 @@ Microchip MPLAB XC8 C Compiler v2.31 (Free license) build 20201012212115 Og1
   2153 ;;      Temps:          0       2       0       0       0       0       0
   2154 ;;      Totals:         0       3       0       0       0       0       0
   2155 ;;Total ram usage:        3 bytes
-  2156 ;; Hardware stack levels used:    1
-  2157 ;; Hardware stack levels required when called:    3
+  2156 ;; Hardware stack levels used: 1
+  2157 ;; Hardware stack levels required when called: 3
   2158 ;; This function calls:
   2159 ;;		Nothing
   2160 ;; This function is called by:
@@ -2203,11 +2203,11 @@ Microchip MPLAB XC8 C Compiler v2.31 (Free license) build 20201012212115 Og1
   2176  000AFC  0100               	movlb	0	; () banked
   2177  000AFE  6F82               	movwf	Lcd_Cmd@data& (0+255),b
   2178  000B00                     
-  2179                           ;flexlcd.h: 153: PORTEbits.RE1 = 0; PORTEbits.RE2 = 0;
+  2179                           ;flexlcd.h: 175: PORTEbits.RE1 = 0; PORTEbits.RE2 = 0;
   2180  000B00  9284               	bcf	132,1,c	;volatile
   2181  000B02  9484               	bcf	132,2,c	;volatile
   2182  000B04                     
-  2183                           ;flexlcd.h: 154: PORTDbits.RD7 = (data & 0b10000000)>>7; PORTDbits.RD6 = (data & 0b01000
+  2183                           ;flexlcd.h: 176: PORTDbits.RD7 = (data & 0b10000000)>>7; PORTDbits.RD6 = (data & 0b01000
       +                          000)>>6;
   2184  000B04  0100               	movlb	0	; () banked
   2185  000B06  6B80               	clrf	??_Lcd_Cmd& (0+255),b
@@ -2243,7 +2243,7 @@ Microchip MPLAB XC8 C Compiler v2.31 (Free license) build 20201012212115 Og1
   2215  000B42  1980               	xorwf	??_Lcd_Cmd& (0+255),w,b
   2216  000B44  6E83               	movwf	131,c	;volatile
   2217                           
-  2218                           ;flexlcd.h: 155: PORTDbits.RD5 = (data & 0b00100000)>>5; PORTDbits.RD4 = (data & 0b00010
+  2218                           ;flexlcd.h: 177: PORTDbits.RD5 = (data & 0b00100000)>>5; PORTDbits.RD4 = (data & 0b00010
       +                          000)>>4;
   2219  000B46  C082  F080         	movff	Lcd_Cmd@data,??_Lcd_Cmd
   2220  000B4A  0E05               	movlw	5
@@ -2276,14 +2276,14 @@ Microchip MPLAB XC8 C Compiler v2.31 (Free license) build 20201012212115 Og1
   2247  000B82  6E83               	movwf	131,c	;volatile
   2248  000B84                     
   2249                           ; BSR set to: 0
-  2250                           ;flexlcd.h: 156: _delay(10);
+  2250                           ;flexlcd.h: 178: _delay(10);
   2251  000B84  0E03               	movlw	3
   2252  000B86                     u2037:
   2253  000B86  2EE8               	decfsz	wreg,f,c
   2254  000B88  D7FE               	bra	u2037
   2255  000B8A  F000               	nop	
   2256  000B8C                     
-  2257                           ;flexlcd.h: 157: PORTEbits.RE1 = 1; _delay((unsigned long)((5)*(8000000/4000000.0))); PO
+  2257                           ;flexlcd.h: 179: PORTEbits.RE1 = 1; _delay((unsigned long)((5)*(8000000/4000000.0))); PO
       +                          RTEbits.RE1 = 0;
   2258  000B8C  8284               	bsf	132,1,c	;volatile
   2259  000B8E  0E03               	movlw	3
@@ -2293,7 +2293,7 @@ Microchip MPLAB XC8 C Compiler v2.31 (Free license) build 20201012212115 Og1
   2263  000B94  F000               	nop	
   2264  000B96  9284               	bcf	132,1,c	;volatile
   2265                           
-  2266                           ;flexlcd.h: 158: PORTDbits.RD7 = (data & 0b00001000)>>3; PORTDbits.RD6 = (data & 0b00000
+  2266                           ;flexlcd.h: 180: PORTDbits.RD7 = (data & 0b00001000)>>3; PORTDbits.RD6 = (data & 0b00000
       +                          100)>>2;
   2267  000B98  C082  F080         	movff	Lcd_Cmd@data,??_Lcd_Cmd
   2268  000B9C  0100               	movlb	0	; () banked
@@ -2328,7 +2328,7 @@ Microchip MPLAB XC8 C Compiler v2.31 (Free license) build 20201012212115 Og1
   2297  000BD8  1980               	xorwf	??_Lcd_Cmd& (0+255),w,b
   2298  000BDA  6E83               	movwf	131,c	;volatile
   2299                           
-  2300                           ;flexlcd.h: 159: PORTDbits.RD5 = (data & 0b00000010)>>1; PORTDbits.RD4 = (data & 0b00000
+  2300                           ;flexlcd.h: 181: PORTDbits.RD5 = (data & 0b00000010)>>1; PORTDbits.RD4 = (data & 0b00000
       +                          001);
   2301  000BDC  C082  F080         	movff	Lcd_Cmd@data,??_Lcd_Cmd
   2302  000BE0  90D8               	bcf	status,0,c
@@ -2353,14 +2353,14 @@ Microchip MPLAB XC8 C Compiler v2.31 (Free license) build 20201012212115 Og1
   2321  000C08  6E83               	movwf	131,c	;volatile
   2322  000C0A                     
   2323                           ; BSR set to: 0
-  2324                           ;flexlcd.h: 160: _delay(10);
+  2324                           ;flexlcd.h: 182: _delay(10);
   2325  000C0A  0E03               	movlw	3
   2326  000C0C                     u2057:
   2327  000C0C  2EE8               	decfsz	wreg,f,c
   2328  000C0E  D7FE               	bra	u2057
   2329  000C10  F000               	nop	
   2330  000C12                     
-  2331                           ;flexlcd.h: 161: PORTEbits.RE1 = 1; _delay((unsigned long)((5)*(8000000/4000000.0))); PO
+  2331                           ;flexlcd.h: 183: PORTEbits.RE1 = 1; _delay((unsigned long)((5)*(8000000/4000000.0))); PO
       +                          RTEbits.RE1 = 0;
   2332  000C12  8284               	bsf	132,1,c	;volatile
   2333  000C14  0E03               	movlw	3
@@ -2370,7 +2370,7 @@ Microchip MPLAB XC8 C Compiler v2.31 (Free license) build 20201012212115 Og1
   2337  000C1A  F000               	nop	
   2338  000C1C  9284               	bcf	132,1,c	;volatile
   2339  000C1E                     
-  2340                           ;flexlcd.h: 162: _delay((unsigned long)((5500)*(8000000/4000000.0)));
+  2340                           ;flexlcd.h: 184: _delay((unsigned long)((5500)*(8000000/4000000.0)));
   2341  000C1E  0E0F               	movlw	15
   2342  000C20  0100               	movlb	0	; () banked
   2343  000C22  6F80               	movwf	??_Lcd_Cmd& (0+255),b
@@ -2387,7 +2387,7 @@ Microchip MPLAB XC8 C Compiler v2.31 (Free license) build 20201012212115 Og1
   2354                           
   2355 ;; *************** function _isr *****************
   2356 ;; Defined at:
-  2357 ;;		line 91 in file "mainUART.c"
+  2357 ;;		line 81 in file "mainUART.c"
   2358 ;; Parameters:    Size  Location     Type
   2359 ;;		None
   2360 ;; Auto vars:     Size  Location     Type
@@ -2406,8 +2406,8 @@ Microchip MPLAB XC8 C Compiler v2.31 (Free license) build 20201012212115 Og1
   2373 ;;      Temps:          9       0       0       0       0       0       0
   2374 ;;      Totals:         9       0       0       0       0       0       0
   2375 ;;Total ram usage:        9 bytes
-  2376 ;; Hardware stack levels used:    1
-  2377 ;; Hardware stack levels required when called:    2
+  2376 ;; Hardware stack levels used: 1
+  2377 ;; Hardware stack levels required when called: 2
   2378 ;; This function calls:
   2379 ;;		_PWM1_Set_Duty
   2380 ;;		_adc_amostra
@@ -2444,7 +2444,7 @@ Microchip MPLAB XC8 C Compiler v2.31 (Free license) build 20201012212115 Og1
   2411  000C4C  CFF8 F05C          	movff	tblptru,??_isr+7
   2412  000C50  CFF5 F05D          	movff	tablat,??_isr+8
   2413  000C54                     
-  2414                           ;mainUART.c: 93: if (INTCONbits.TMR0IF == 1)
+  2414                           ;mainUART.c: 83: if (INTCONbits.TMR0IF == 1)
   2415  000C54  A4F2               	btfss	242,2,c	;volatile
   2416  000C56  EF2F  F006         	goto	i2u153_41
   2417  000C5A  EF31  F006         	goto	i2u153_40
@@ -2452,20 +2452,20 @@ Microchip MPLAB XC8 C Compiler v2.31 (Free license) build 20201012212115 Og1
   2419  000C5E  EFA2  F006         	goto	i2l221
   2420  000C62                     i2u153_40:
   2421  000C62                     
-  2422                           ;mainUART.c: 94: {;mainUART.c: 95: INTCONbits.TMR0IF = 0;
+  2422                           ;mainUART.c: 84: {;mainUART.c: 85: INTCONbits.TMR0IF = 0;
   2423  000C62  94F2               	bcf	242,2,c	;volatile
   2424  000C64                     
-  2425                           ;mainUART.c: 96: TMR0 = 131;
+  2425                           ;mainUART.c: 86: TMR0 = 131;
   2426  000C64  0E00               	movlw	0
   2427  000C66  6ED7               	movwf	215,c	;volatile
   2428  000C68  0E83               	movlw	131
   2429  000C6A  6ED6               	movwf	214,c	;volatile
   2430  000C6C                     
-  2431                           ;mainUART.c: 97: count ++;
+  2431                           ;mainUART.c: 87: count ++;
   2432  000C6C  4A03               	infsnz	_count^0,f,c
   2433  000C6E  2A04               	incf	(_count+1)^0,f,c
   2434  000C70                     
-  2435                           ;mainUART.c: 98: if (count == 250)
+  2435                           ;mainUART.c: 88: if (count == 250)
   2436  000C70  0EFA               	movlw	250
   2437  000C72  1803               	xorwf	_count^0,w,c
   2438  000C74  1004               	iorwf	(_count+1)^0,w,c
@@ -2476,17 +2476,17 @@ Microchip MPLAB XC8 C Compiler v2.31 (Free license) build 20201012212115 Og1
   2443  000C80  EFA2  F006         	goto	i2l221
   2444  000C84                     i2u154_40:
   2445  000C84                     
-  2446                           ;mainUART.c: 99: {;mainUART.c: 100: count = 0;
+  2446                           ;mainUART.c: 89: {;mainUART.c: 90: count = 0;
   2447  000C84  0E00               	movlw	0
   2448  000C86  6E04               	movwf	(_count+1)^0,c
   2449  000C88  0E00               	movlw	0
   2450  000C8A  6E03               	movwf	_count^0,c
   2451  000C8C                     
-  2452                           ;mainUART.c: 101: segundos++;
+  2452                           ;mainUART.c: 91: segundos++;
   2453  000C8C  4A07               	infsnz	_segundos^0,f,c
   2454  000C8E  2A08               	incf	(_segundos+1)^0,f,c
   2455  000C90                     
-  2456                           ;mainUART.c: 102: LATDbits.LATD1 = ~LATDbits.LATD1;
+  2456                           ;mainUART.c: 92: LATDbits.LATD1 = ~LATDbits.LATD1;
   2457  000C90  B28C               	btfsc	140,1,c	;volatile
   2458  000C92  EF4D  F006         	goto	i2u155_41
   2459  000C96  EF50  F006         	goto	i2u155_40
@@ -2505,19 +2505,19 @@ Microchip MPLAB XC8 C Compiler v2.31 (Free license) build 20201012212115 Og1
   2472  000CAE  1855               	xorwf	??_isr^0,w,c
   2473  000CB0  6E8C               	movwf	140,c	;volatile
   2474  000CB2                     
-  2475                           ;mainUART.c: 103: PWM1_Set_Duty(duty);
+  2475                           ;mainUART.c: 93: PWM1_Set_Duty(duty);
   2476  000CB2  505E               	movf	_duty^0,w,c
   2477  000CB4  ECB9  F00A         	call	_PWM1_Set_Duty
   2478  000CB8                     
-  2479                           ;mainUART.c: 104: infrav = TMR1L;
+  2479                           ;mainUART.c: 94: infrav = TMR1L;
   2480  000CB8  CFCE F005          	movff	4046,_infrav	;volatile
   2481  000CBC  6A06               	clrf	(_infrav+1)^0,c
   2482  000CBE                     
-  2483                           ;mainUART.c: 105: infrav += TMR1H<<8;
+  2483                           ;mainUART.c: 95: infrav += TMR1H<<8;
   2484  000CBE  50CF               	movf	207,w,c	;volatile
   2485  000CC0  2606               	addwf	(_infrav+1)^0,f,c
   2486  000CC2                     
-  2487                           ;mainUART.c: 106: sprintf(str, "%05u", infrav);
+  2487                           ;mainUART.c: 96: sprintf(str, "%05u", infrav);
   2488  000CC2  0E31               	movlw	low _str
   2489  000CC4  6E42               	movwf	sprintf@sp^0,c
   2490  000CC6  0E00               	movlw	high _str
@@ -2530,7 +2530,7 @@ Microchip MPLAB XC8 C Compiler v2.31 (Free license) build 20201012212115 Og1
   2497  000CD6  C006  F047         	movff	_infrav+1,?_sprintf+5
   2498  000CDA  EC0D  F003         	call	_sprintf	;wreg free
   2499  000CDE                     
-  2500                           ;mainUART.c: 107: Lcd_Out(1, 0, str);
+  2500                           ;mainUART.c: 97: Lcd_Out(1, 0, str);
   2501  000CDE  0E00               	movlw	0
   2502  000CE0  6E39               	movwf	i2Lcd_Out@x^0,c
   2503  000CE2  0E31               	movlw	low _str
@@ -2540,13 +2540,13 @@ Microchip MPLAB XC8 C Compiler v2.31 (Free license) build 20201012212115 Og1
   2507  000CEA  0E01               	movlw	1
   2508  000CEC  EC4A  F00B         	call	i2_Lcd_Out
   2509  000CF0                     
-  2510                           ;mainUART.c: 108: result = adc_amostra(1);
-  2511  000CF0  0E01               	movlw	1
+  2510                           ;mainUART.c: 98: result = adc_amostra(0);
+  2511  000CF0  0E00               	movlw	0
   2512  000CF2  EC8F  F00B         	call	_adc_amostra
   2513  000CF6  C036  F001         	movff	?_adc_amostra,_result
   2514  000CFA  C037  F002         	movff	?_adc_amostra+1,_result+1
   2515  000CFE                     
-  2516                           ;mainUART.c: 109: sprintf(buffer_tx, "/*%04d/\n", result);
+  2516                           ;mainUART.c: 99: sprintf(buffer_tx, "/*%04d/\n", result);
   2517  000CFE  0E1D               	movlw	low _buffer_tx
   2518  000D00  6E42               	movwf	sprintf@sp^0,c
   2519  000D02  0E00               	movlw	high _buffer_tx
@@ -2559,14 +2559,14 @@ Microchip MPLAB XC8 C Compiler v2.31 (Free license) build 20201012212115 Og1
   2526  000D12  C002  F047         	movff	_result+1,?_sprintf+5
   2527  000D16  EC0D  F003         	call	_sprintf	;wreg free
   2528  000D1A                     
-  2529                           ;mainUART.c: 110: serial_tx_str(buffer_tx);
+  2529                           ;mainUART.c: 100: serial_tx_str(buffer_tx);
   2530  000D1A  0E1D               	movlw	low _buffer_tx
   2531  000D1C  6E37               	movwf	serial_tx_str@val^0,c
   2532  000D1E  0E00               	movlw	high _buffer_tx
   2533  000D20  6E38               	movwf	(serial_tx_str@val+1)^0,c
   2534  000D22  EC6E  F00C         	call	_serial_tx_str	;wreg free
   2535  000D26                     
-  2536                           ;mainUART.c: 111: if (segundos>160)
+  2536                           ;mainUART.c: 101: if (segundos>160)
   2537  000D26  5008               	movf	(_segundos+1)^0,w,c
   2538  000D28  E109               	bnz	i2u156_40
   2539  000D2A  0EA1               	movlw	161
@@ -2578,7 +2578,7 @@ Microchip MPLAB XC8 C Compiler v2.31 (Free license) build 20201012212115 Og1
   2545  000D38  EFA2  F006         	goto	i2l221
   2546  000D3C                     i2u156_40:
   2547  000D3C                     
-  2548                           ;mainUART.c: 112: {;mainUART.c: 113: duty = 178;
+  2548                           ;mainUART.c: 102: {;mainUART.c: 103: duty = 178;
   2549  000D3C  0E00               	movlw	0
   2550  000D3E  6E5F               	movwf	(_duty+1)^0,c
   2551  000D40  0EB2               	movlw	178
@@ -2599,7 +2599,7 @@ Microchip MPLAB XC8 C Compiler v2.31 (Free license) build 20201012212115 Og1
   2566                           
   2567 ;; *************** function i2_Lcd_Out *****************
   2568 ;; Defined at:
-  2569 ;;		line 96 in file "flexlcd.h"
+  2569 ;;		line 118 in file "flexlcd.h"
   2570 ;; Parameters:    Size  Location     Type
   2571 ;;  y               1    wreg     unsigned char 
   2572 ;;  x               1    3[COMRAM] unsigned char 
@@ -2622,8 +2622,8 @@ Microchip MPLAB XC8 C Compiler v2.31 (Free license) build 20201012212115 Og1
   2589 ;;      Temps:          0       0       0       0       0       0       0
   2590 ;;      Totals:         5       0       0       0       0       0       0
   2591 ;;Total ram usage:        5 bytes
-  2592 ;; Hardware stack levels used:    1
-  2593 ;; Hardware stack levels required when called:    1
+  2592 ;; Hardware stack levels used: 1
+  2593 ;; Hardware stack levels required when called: 1
   2594 ;; This function calls:
   2595 ;;		i2_Lcd_Chr_CP
   2596 ;;		i2_Lcd_Cmd
@@ -2642,7 +2642,7 @@ Microchip MPLAB XC8 C Compiler v2.31 (Free license) build 20201012212115 Og1
   2609                           ;i2Lcd_Out@y stored from wreg
   2610  001694  6E3C               	movwf	i2Lcd_Out@y^0,c
   2611  001696                     
-  2612                           ;flexlcd.h: 98: unsigned char data;;flexlcd.h: 99: switch (y)
+  2612                           ;flexlcd.h: 120: unsigned char data;;flexlcd.h: 121: switch (y)
   2613  001696  EF61  F00B         	goto	i2l2241
   2614  00169A                     i2l2231:
   2615  00169A  5039               	movf	i2Lcd_Out@x^0,w,c
@@ -2688,21 +2688,21 @@ Microchip MPLAB XC8 C Compiler v2.31 (Free license) build 20201012212115 Og1
   2655  0016E4  EF74  F00B         	goto	i2l2243
   2656  0016E8                     i2l2243:
   2657                           
-  2658                           ;flexlcd.h: 107: Lcd_Cmd(data);
+  2658                           ;flexlcd.h: 129: Lcd_Cmd(data);
   2659  0016E8  503D               	movf	i2Lcd_Out@data^0,w,c
   2660  0016EA  ECE8  F007         	call	i2_Lcd_Cmd
   2661                           
-  2662                           ;flexlcd.h: 108: while(*buffer)
+  2662                           ;flexlcd.h: 130: while(*buffer)
   2663  0016EE  EF82  F00B         	goto	i2l2249
   2664  0016F2                     i2l2245:
   2665                           
-  2666                           ;flexlcd.h: 109: {;flexlcd.h: 110: Lcd_Chr_CP(*buffer);
+  2666                           ;flexlcd.h: 131: {;flexlcd.h: 132: Lcd_Chr_CP(*buffer);
   2667  0016F2  C03A  FFD9         	movff	i2Lcd_Out@buffer,fsr2l
   2668  0016F6  C03B  FFDA         	movff	i2Lcd_Out@buffer+1,fsr2h
   2669  0016FA  50DF               	movf	indf2,w,c
   2670  0016FC  EC4E  F007         	call	i2_Lcd_Chr_CP
   2671  001700                     
-  2672                           ;flexlcd.h: 111: buffer++;
+  2672                           ;flexlcd.h: 133: buffer++;
   2673  001700  4A3A               	infsnz	i2Lcd_Out@buffer^0,f,c
   2674  001702  2A3B               	incf	(i2Lcd_Out@buffer+1)^0,f,c
   2675  001704                     i2l2249:
@@ -2721,7 +2721,7 @@ Microchip MPLAB XC8 C Compiler v2.31 (Free license) build 20201012212115 Og1
   2688                           
   2689 ;; *************** function i2_Lcd_Cmd *****************
   2690 ;; Defined at:
-  2691 ;;		line 152 in file "flexlcd.h"
+  2691 ;;		line 174 in file "flexlcd.h"
   2692 ;; Parameters:    Size  Location     Type
   2693 ;;  data            1    wreg     unsigned char 
   2694 ;; Auto vars:     Size  Location     Type
@@ -2740,7 +2740,7 @@ Microchip MPLAB XC8 C Compiler v2.31 (Free license) build 20201012212115 Og1
   2707 ;;      Temps:          2       0       0       0       0       0       0
   2708 ;;      Totals:         3       0       0       0       0       0       0
   2709 ;;Total ram usage:        3 bytes
-  2710 ;; Hardware stack levels used:    1
+  2710 ;; Hardware stack levels used: 1
   2711 ;; This function calls:
   2712 ;;		Nothing
   2713 ;; This function is called by:
@@ -2758,11 +2758,11 @@ Microchip MPLAB XC8 C Compiler v2.31 (Free license) build 20201012212115 Og1
   2725                           ;i2Lcd_Cmd@data stored from wreg
   2726  000FD0  6E38               	movwf	i2Lcd_Cmd@data^0,c
   2727  000FD2                     
-  2728                           ;flexlcd.h: 153: PORTEbits.RE1 = 0; PORTEbits.RE2 = 0;
+  2728                           ;flexlcd.h: 175: PORTEbits.RE1 = 0; PORTEbits.RE2 = 0;
   2729  000FD2  9284               	bcf	132,1,c	;volatile
   2730  000FD4  9484               	bcf	132,2,c	;volatile
   2731  000FD6                     
-  2732                           ;flexlcd.h: 154: PORTDbits.RD7 = (data & 0b10000000)>>7; PORTDbits.RD6 = (data & 0b01000
+  2732                           ;flexlcd.h: 176: PORTDbits.RD7 = (data & 0b10000000)>>7; PORTDbits.RD6 = (data & 0b01000
       +                          000)>>6;
   2733  000FD6  6A36               	clrf	??i2_Lcd_Cmd^0,c
   2734  000FD8  AE38               	btfss	i2Lcd_Cmd@data^0,7,c
@@ -2797,7 +2797,7 @@ Microchip MPLAB XC8 C Compiler v2.31 (Free license) build 20201012212115 Og1
   2763  001012  1836               	xorwf	??i2_Lcd_Cmd^0,w,c
   2764  001014  6E83               	movwf	131,c	;volatile
   2765                           
-  2766                           ;flexlcd.h: 155: PORTDbits.RD5 = (data & 0b00100000)>>5; PORTDbits.RD4 = (data & 0b00010
+  2766                           ;flexlcd.h: 177: PORTDbits.RD5 = (data & 0b00100000)>>5; PORTDbits.RD4 = (data & 0b00010
       +                          000)>>4;
   2767  001016  C038  F036         	movff	i2Lcd_Cmd@data,??i2_Lcd_Cmd
   2768  00101A  0E05               	movlw	5
@@ -2829,14 +2829,14 @@ Microchip MPLAB XC8 C Compiler v2.31 (Free license) build 20201012212115 Og1
   2794  001050  1836               	xorwf	??i2_Lcd_Cmd^0,w,c
   2795  001052  6E83               	movwf	131,c	;volatile
   2796  001054                     
-  2797                           ;flexlcd.h: 156: _delay(10);
+  2797                           ;flexlcd.h: 178: _delay(10);
   2798  001054  0E03               	movlw	3
   2799  001056                     i2u208_47:
   2800  001056  2EE8               	decfsz	wreg,f,c
   2801  001058  D7FE               	bra	i2u208_47
   2802  00105A  F000               	nop	
   2803  00105C                     
-  2804                           ;flexlcd.h: 157: PORTEbits.RE1 = 1; _delay((unsigned long)((5)*(8000000/4000000.0))); PO
+  2804                           ;flexlcd.h: 179: PORTEbits.RE1 = 1; _delay((unsigned long)((5)*(8000000/4000000.0))); PO
       +                          RTEbits.RE1 = 0;
   2805  00105C  8284               	bsf	132,1,c	;volatile
   2806  00105E  0E03               	movlw	3
@@ -2846,7 +2846,7 @@ Microchip MPLAB XC8 C Compiler v2.31 (Free license) build 20201012212115 Og1
   2810  001064  F000               	nop	
   2811  001066  9284               	bcf	132,1,c	;volatile
   2812                           
-  2813                           ;flexlcd.h: 158: PORTDbits.RD7 = (data & 0b00001000)>>3; PORTDbits.RD6 = (data & 0b00000
+  2813                           ;flexlcd.h: 180: PORTDbits.RD7 = (data & 0b00001000)>>3; PORTDbits.RD6 = (data & 0b00000
       +                          100)>>2;
   2814  001068  C038  F036         	movff	i2Lcd_Cmd@data,??i2_Lcd_Cmd
   2815  00106C  90D8               	bcf	status,0,c
@@ -2880,7 +2880,7 @@ Microchip MPLAB XC8 C Compiler v2.31 (Free license) build 20201012212115 Og1
   2843  0010A6  1836               	xorwf	??i2_Lcd_Cmd^0,w,c
   2844  0010A8  6E83               	movwf	131,c	;volatile
   2845                           
-  2846                           ;flexlcd.h: 159: PORTDbits.RD5 = (data & 0b00000010)>>1; PORTDbits.RD4 = (data & 0b00000
+  2846                           ;flexlcd.h: 181: PORTDbits.RD5 = (data & 0b00000010)>>1; PORTDbits.RD4 = (data & 0b00000
       +                          001);
   2847  0010AA  C038  F036         	movff	i2Lcd_Cmd@data,??i2_Lcd_Cmd
   2848  0010AE  90D8               	bcf	status,0,c
@@ -2904,14 +2904,14 @@ Microchip MPLAB XC8 C Compiler v2.31 (Free license) build 20201012212115 Og1
   2866  0010D4  1836               	xorwf	??i2_Lcd_Cmd^0,w,c
   2867  0010D6  6E83               	movwf	131,c	;volatile
   2868  0010D8                     
-  2869                           ;flexlcd.h: 160: _delay(10);
+  2869                           ;flexlcd.h: 182: _delay(10);
   2870  0010D8  0E03               	movlw	3
   2871  0010DA                     i2u210_47:
   2872  0010DA  2EE8               	decfsz	wreg,f,c
   2873  0010DC  D7FE               	bra	i2u210_47
   2874  0010DE  F000               	nop	
   2875  0010E0                     
-  2876                           ;flexlcd.h: 161: PORTEbits.RE1 = 1; _delay((unsigned long)((5)*(8000000/4000000.0))); PO
+  2876                           ;flexlcd.h: 183: PORTEbits.RE1 = 1; _delay((unsigned long)((5)*(8000000/4000000.0))); PO
       +                          RTEbits.RE1 = 0;
   2877  0010E0  8284               	bsf	132,1,c	;volatile
   2878  0010E2  0E03               	movlw	3
@@ -2921,7 +2921,7 @@ Microchip MPLAB XC8 C Compiler v2.31 (Free license) build 20201012212115 Og1
   2882  0010E8  F000               	nop	
   2883  0010EA  9284               	bcf	132,1,c	;volatile
   2884  0010EC                     
-  2885                           ;flexlcd.h: 162: _delay((unsigned long)((5500)*(8000000/4000000.0)));
+  2885                           ;flexlcd.h: 184: _delay((unsigned long)((5500)*(8000000/4000000.0)));
   2886  0010EC  0E0F               	movlw	15
   2887  0010EE  6E36               	movwf	??i2_Lcd_Cmd^0,c
   2888  0010F0  0E48               	movlw	72
@@ -2936,7 +2936,7 @@ Microchip MPLAB XC8 C Compiler v2.31 (Free license) build 20201012212115 Og1
   2897                           
   2898 ;; *************** function i2_Lcd_Chr_CP *****************
   2899 ;; Defined at:
-  2900 ;;		line 138 in file "flexlcd.h"
+  2900 ;;		line 160 in file "flexlcd.h"
   2901 ;; Parameters:    Size  Location     Type
   2902 ;;  data            1    wreg     unsigned char 
   2903 ;; Auto vars:     Size  Location     Type
@@ -2955,7 +2955,7 @@ Microchip MPLAB XC8 C Compiler v2.31 (Free license) build 20201012212115 Og1
   2916 ;;      Temps:          2       0       0       0       0       0       0
   2917 ;;      Totals:         3       0       0       0       0       0       0
   2918 ;;Total ram usage:        3 bytes
-  2919 ;; Hardware stack levels used:    1
+  2919 ;; Hardware stack levels used: 1
   2920 ;; This function calls:
   2921 ;;		Nothing
   2922 ;; This function is called by:
@@ -2973,11 +2973,11 @@ Microchip MPLAB XC8 C Compiler v2.31 (Free license) build 20201012212115 Og1
   2934                           ;i2Lcd_Chr_CP@data stored from wreg
   2935  000E9C  6E38               	movwf	i2Lcd_Chr_CP@data^0,c
   2936  000E9E                     
-  2937                           ;flexlcd.h: 139: PORTEbits.RE1 = 0; PORTEbits.RE2 = 1;
+  2937                           ;flexlcd.h: 161: PORTEbits.RE1 = 0; PORTEbits.RE2 = 1;
   2938  000E9E  9284               	bcf	132,1,c	;volatile
   2939  000EA0  8484               	bsf	132,2,c	;volatile
   2940  000EA2                     
-  2941                           ;flexlcd.h: 140: PORTDbits.RD7 = (data & 0b10000000)>>7; PORTDbits.RD6 = (data & 0b01000
+  2941                           ;flexlcd.h: 162: PORTDbits.RD7 = (data & 0b10000000)>>7; PORTDbits.RD6 = (data & 0b01000
       +                          000)>>6;
   2942  000EA2  6A36               	clrf	??i2_Lcd_Chr_CP^0,c
   2943  000EA4  AE38               	btfss	i2Lcd_Chr_CP@data^0,7,c
@@ -3012,7 +3012,7 @@ Microchip MPLAB XC8 C Compiler v2.31 (Free license) build 20201012212115 Og1
   2972  000EDE  1836               	xorwf	??i2_Lcd_Chr_CP^0,w,c
   2973  000EE0  6E83               	movwf	131,c	;volatile
   2974                           
-  2975                           ;flexlcd.h: 141: PORTDbits.RD5 = (data & 0b00100000)>>5; PORTDbits.RD4 = (data & 0b00010
+  2975                           ;flexlcd.h: 163: PORTDbits.RD5 = (data & 0b00100000)>>5; PORTDbits.RD4 = (data & 0b00010
       +                          000)>>4;
   2976  000EE2  C038  F036         	movff	i2Lcd_Chr_CP@data,??i2_Lcd_Chr_CP
   2977  000EE6  0E05               	movlw	5
@@ -3044,14 +3044,14 @@ Microchip MPLAB XC8 C Compiler v2.31 (Free license) build 20201012212115 Og1
   3003  000F1C  1836               	xorwf	??i2_Lcd_Chr_CP^0,w,c
   3004  000F1E  6E83               	movwf	131,c	;volatile
   3005  000F20                     
-  3006                           ;flexlcd.h: 142: _delay(10);
+  3006                           ;flexlcd.h: 164: _delay(10);
   3007  000F20  0E03               	movlw	3
   3008  000F22                     i2u213_47:
   3009  000F22  2EE8               	decfsz	wreg,f,c
   3010  000F24  D7FE               	bra	i2u213_47
   3011  000F26  F000               	nop	
   3012  000F28                     
-  3013                           ;flexlcd.h: 143: PORTEbits.RE1 = 1; _delay((unsigned long)((5)*(8000000/4000000.0))); PO
+  3013                           ;flexlcd.h: 165: PORTEbits.RE1 = 1; _delay((unsigned long)((5)*(8000000/4000000.0))); PO
       +                          RTEbits.RE1 = 0;
   3014  000F28  8284               	bsf	132,1,c	;volatile
   3015  000F2A  0E03               	movlw	3
@@ -3061,7 +3061,7 @@ Microchip MPLAB XC8 C Compiler v2.31 (Free license) build 20201012212115 Og1
   3019  000F30  F000               	nop	
   3020  000F32  9284               	bcf	132,1,c	;volatile
   3021                           
-  3022                           ;flexlcd.h: 144: PORTDbits.RD7 = (data & 0b00001000)>>3; PORTDbits.RD6 = (data & 0b00000
+  3022                           ;flexlcd.h: 166: PORTDbits.RD7 = (data & 0b00001000)>>3; PORTDbits.RD6 = (data & 0b00000
       +                          100)>>2;
   3023  000F34  C038  F036         	movff	i2Lcd_Chr_CP@data,??i2_Lcd_Chr_CP
   3024  000F38  90D8               	bcf	status,0,c
@@ -3095,7 +3095,7 @@ Microchip MPLAB XC8 C Compiler v2.31 (Free license) build 20201012212115 Og1
   3052  000F72  1836               	xorwf	??i2_Lcd_Chr_CP^0,w,c
   3053  000F74  6E83               	movwf	131,c	;volatile
   3054                           
-  3055                           ;flexlcd.h: 145: PORTDbits.RD5 = (data & 0b00000010)>>1; PORTDbits.RD4 = (data & 0b00000
+  3055                           ;flexlcd.h: 167: PORTDbits.RD5 = (data & 0b00000010)>>1; PORTDbits.RD4 = (data & 0b00000
       +                          001);
   3056  000F76  C038  F036         	movff	i2Lcd_Chr_CP@data,??i2_Lcd_Chr_CP
   3057  000F7A  90D8               	bcf	status,0,c
@@ -3119,14 +3119,14 @@ Microchip MPLAB XC8 C Compiler v2.31 (Free license) build 20201012212115 Og1
   3075  000FA0  1836               	xorwf	??i2_Lcd_Chr_CP^0,w,c
   3076  000FA2  6E83               	movwf	131,c	;volatile
   3077  000FA4                     
-  3078                           ;flexlcd.h: 146: _delay(10);
+  3078                           ;flexlcd.h: 168: _delay(10);
   3079  000FA4  0E03               	movlw	3
   3080  000FA6                     i2u215_47:
   3081  000FA6  2EE8               	decfsz	wreg,f,c
   3082  000FA8  D7FE               	bra	i2u215_47
   3083  000FAA  F000               	nop	
   3084  000FAC                     
-  3085                           ;flexlcd.h: 147: PORTEbits.RE1 = 1; _delay((unsigned long)((5)*(8000000/4000000.0))); PO
+  3085                           ;flexlcd.h: 169: PORTEbits.RE1 = 1; _delay((unsigned long)((5)*(8000000/4000000.0))); PO
       +                          RTEbits.RE1 = 0;
   3086  000FAC  8284               	bsf	132,1,c	;volatile
   3087  000FAE  0E03               	movlw	3
@@ -3136,7 +3136,7 @@ Microchip MPLAB XC8 C Compiler v2.31 (Free license) build 20201012212115 Og1
   3091  000FB4  F000               	nop	
   3092  000FB6  9284               	bcf	132,1,c	;volatile
   3093  000FB8                     
-  3094                           ;flexlcd.h: 148: _delay((unsigned long)((5)*(8000000/4000000.0))); _delay((unsigned long
+  3094                           ;flexlcd.h: 170: _delay((unsigned long)((5)*(8000000/4000000.0))); _delay((unsigned long
       +                          )((5500)*(8000000/4000000.0)));
   3095  000FB8  0E03               	movlw	3
   3096  000FBA                     i2u217_47:
@@ -3157,7 +3157,7 @@ Microchip MPLAB XC8 C Compiler v2.31 (Free license) build 20201012212115 Og1
   3111                           
   3112 ;; *************** function _sprintf *****************
   3113 ;; Defined at:
-  3114 ;;		line 505 in file "D:\MPLABX\XC8\pic\sources\c90\common\doprnt.c"
+  3114 ;;		line 505 in file "C:\Program Files\Microchip\xc8\v2.36\pic\sources\c90\common\doprnt.c"
   3115 ;; Parameters:    Size  Location     Type
   3116 ;;  sp              2   12[COMRAM] PTR unsigned char 
   3117 ;;		 -> buffer_tx(20), str(5), 
@@ -3188,8 +3188,8 @@ Microchip MPLAB XC8 C Compiler v2.31 (Free license) build 20201012212115 Og1
   3142 ;;      Temps:          4       0       0       0       0       0       0
   3143 ;;      Totals:        19       0       0       0       0       0       0
   3144 ;;Total ram usage:       19 bytes
-  3145 ;; Hardware stack levels used:    1
-  3146 ;; Hardware stack levels required when called:    1
+  3145 ;; Hardware stack levels used: 1
+  3146 ;; Hardware stack levels required when called: 1
   3147 ;; This function calls:
   3148 ;;		___lwdiv
   3149 ;;		___lwmod
@@ -3749,7 +3749,7 @@ Microchip MPLAB XC8 C Compiler v2.31 (Free license) build 20201012212115 Og1
   3696                           
   3697 ;; *************** function _isdigit *****************
   3698 ;; Defined at:
-  3699 ;;		line 8 in file "D:\MPLABX\XC8\pic\sources\c90\common\isdigit.c"
+  3699 ;;		line 8 in file "C:\Program Files\Microchip\xc8\v2.36\pic\sources\c90\common\isdigit.c"
   3700 ;; Parameters:    Size  Location     Type
   3701 ;;  c               1    wreg     unsigned char 
   3702 ;; Auto vars:     Size  Location     Type
@@ -3768,7 +3768,7 @@ Microchip MPLAB XC8 C Compiler v2.31 (Free license) build 20201012212115 Og1
   3715 ;;      Temps:          1       0       0       0       0       0       0
   3716 ;;      Totals:         3       0       0       0       0       0       0
   3717 ;;Total ram usage:        3 bytes
-  3718 ;; Hardware stack levels used:    1
+  3718 ;; Hardware stack levels used: 1
   3719 ;; This function calls:
   3720 ;;		Nothing
   3721 ;; This function is called by:
@@ -3812,7 +3812,7 @@ Microchip MPLAB XC8 C Compiler v2.31 (Free license) build 20201012212115 Og1
   3759                           
   3760 ;; *************** function ___wmul *****************
   3761 ;; Defined at:
-  3762 ;;		line 15 in file "D:\MPLABX\XC8\pic\sources\c90\common\Umul16.c"
+  3762 ;;		line 15 in file "C:\Program Files\Microchip\xc8\v2.36\pic\sources\c90\common\Umul16.c"
   3763 ;; Parameters:    Size  Location     Type
   3764 ;;  multiplier      2    0[COMRAM] unsigned int 
   3765 ;;  multiplicand    2    2[COMRAM] unsigned int 
@@ -3832,7 +3832,7 @@ Microchip MPLAB XC8 C Compiler v2.31 (Free license) build 20201012212115 Og1
   3779 ;;      Temps:          0       0       0       0       0       0       0
   3780 ;;      Totals:         6       0       0       0       0       0       0
   3781 ;;Total ram usage:        6 bytes
-  3782 ;; Hardware stack levels used:    1
+  3782 ;; Hardware stack levels used: 1
   3783 ;; This function calls:
   3784 ;;		Nothing
   3785 ;; This function is called by:
@@ -3865,7 +3865,7 @@ Microchip MPLAB XC8 C Compiler v2.31 (Free license) build 20201012212115 Og1
   3812                           
   3813 ;; *************** function ___lwmod *****************
   3814 ;; Defined at:
-  3815 ;;		line 7 in file "D:\MPLABX\XC8\pic\sources\c90\common\lwmod.c"
+  3815 ;;		line 7 in file "C:\Program Files\Microchip\xc8\v2.36\pic\sources\c90\common\lwmod.c"
   3816 ;; Parameters:    Size  Location     Type
   3817 ;;  dividend        2    7[COMRAM] unsigned int 
   3818 ;;  divisor         2    9[COMRAM] unsigned int 
@@ -3885,7 +3885,7 @@ Microchip MPLAB XC8 C Compiler v2.31 (Free license) build 20201012212115 Og1
   3832 ;;      Temps:          0       0       0       0       0       0       0
   3833 ;;      Totals:         5       0       0       0       0       0       0
   3834 ;;Total ram usage:        5 bytes
-  3835 ;; Hardware stack levels used:    1
+  3835 ;; Hardware stack levels used: 1
   3836 ;; This function calls:
   3837 ;;		Nothing
   3838 ;; This function is called by:
@@ -3951,7 +3951,7 @@ Microchip MPLAB XC8 C Compiler v2.31 (Free license) build 20201012212115 Og1
   3898                           
   3899 ;; *************** function ___lwdiv *****************
   3900 ;; Defined at:
-  3901 ;;		line 7 in file "D:\MPLABX\XC8\pic\sources\c90\common\lwdiv.c"
+  3901 ;;		line 7 in file "C:\Program Files\Microchip\xc8\v2.36\pic\sources\c90\common\lwdiv.c"
   3902 ;; Parameters:    Size  Location     Type
   3903 ;;  dividend        2    0[COMRAM] unsigned int 
   3904 ;;  divisor         2    2[COMRAM] unsigned int 
@@ -3972,7 +3972,7 @@ Microchip MPLAB XC8 C Compiler v2.31 (Free license) build 20201012212115 Og1
   3919 ;;      Temps:          0       0       0       0       0       0       0
   3920 ;;      Totals:         7       0       0       0       0       0       0
   3921 ;;Total ram usage:        7 bytes
-  3922 ;; Hardware stack levels used:    1
+  3922 ;; Hardware stack levels used: 1
   3923 ;; This function calls:
   3924 ;;		Nothing
   3925 ;; This function is called by:
@@ -4066,8 +4066,8 @@ Microchip MPLAB XC8 C Compiler v2.31 (Free license) build 20201012212115 Og1
   4013 ;;      Temps:          0       0       0       0       0       0       0
   4014 ;;      Totals:         3       0       0       0       0       0       0
   4015 ;;Total ram usage:        3 bytes
-  4016 ;; Hardware stack levels used:    1
-  4017 ;; Hardware stack levels required when called:    1
+  4016 ;; Hardware stack levels used: 1
+  4017 ;; Hardware stack levels required when called: 1
   4018 ;; This function calls:
   4019 ;;		_serial_tx
   4020 ;; This function is called by:
@@ -4140,7 +4140,7 @@ Microchip MPLAB XC8 C Compiler v2.31 (Free license) build 20201012212115 Og1
   4087 ;;      Temps:          0       0       0       0       0       0       0
   4088 ;;      Totals:         1       0       0       0       0       0       0
   4089 ;;Total ram usage:        1 bytes
-  4090 ;; Hardware stack levels used:    1
+  4090 ;; Hardware stack levels used: 1
   4091 ;; This function calls:
   4092 ;;		Nothing
   4093 ;; This function is called by:
@@ -4192,7 +4192,7 @@ Microchip MPLAB XC8 C Compiler v2.31 (Free license) build 20201012212115 Og1
   4139 ;;      Temps:          4       0       0       0       0       0       0
   4140 ;;      Totals:         7       0       0       0       0       0       0
   4141 ;;Total ram usage:        7 bytes
-  4142 ;; Hardware stack levels used:    1
+  4142 ;; Hardware stack levels used: 1
   4143 ;; This function calls:
   4144 ;;		Nothing
   4145 ;; This function is called by:
@@ -4315,8 +4315,8 @@ Microchip MPLAB XC8 C Compiler v2.31 (Free license) build 20201012212115 Og1
   4262 ;;      Temps:          2       0       0       0       0       0       0
   4263 ;;      Totals:         5       0       0       0       0       0       0
   4264 ;;Total ram usage:        5 bytes
-  4265 ;; Hardware stack levels used:    1
-  4266 ;; Hardware stack levels required when called:    1
+  4265 ;; Hardware stack levels used: 1
+  4266 ;; Hardware stack levels required when called: 1
   4267 ;; This function calls:
   4268 ;;		___lldiv
   4269 ;;		___lmul
@@ -4405,7 +4405,7 @@ Microchip MPLAB XC8 C Compiler v2.31 (Free license) build 20201012212115 Og1
   4351                           
   4352 ;; *************** function ___lmul *****************
   4353 ;; Defined at:
-  4354 ;;		line 15 in file "D:\MPLABX\XC8\pic\sources\c90\common\Umul32.c"
+  4354 ;;		line 15 in file "C:\Program Files\Microchip\xc8\v2.36\pic\sources\c90\common\Umul32.c"
   4355 ;; Parameters:    Size  Location     Type
   4356 ;;  multiplier      4    0[COMRAM] unsigned long 
   4357 ;;  multiplicand    4    4[COMRAM] unsigned long 
@@ -4425,7 +4425,7 @@ Microchip MPLAB XC8 C Compiler v2.31 (Free license) build 20201012212115 Og1
   4371 ;;      Temps:          0       0       0       0       0       0       0
   4372 ;;      Totals:        12       0       0       0       0       0       0
   4373 ;;Total ram usage:       12 bytes
-  4374 ;; Hardware stack levels used:    1
+  4374 ;; Hardware stack levels used: 1
   4375 ;; This function calls:
   4376 ;;		Nothing
   4377 ;; This function is called by:
@@ -4492,7 +4492,7 @@ Microchip MPLAB XC8 C Compiler v2.31 (Free license) build 20201012212115 Og1
   4438                           
   4439 ;; *************** function ___lldiv *****************
   4440 ;; Defined at:
-  4441 ;;		line 7 in file "D:\MPLABX\XC8\pic\sources\c90\common\__lldiv.c"
+  4441 ;;		line 7 in file "C:\Program Files\Microchip\xc8\v2.36\pic\sources\c90\common\__lldiv.c"
   4442 ;; Parameters:    Size  Location     Type
   4443 ;;  dividend        4   12[COMRAM] unsigned long 
   4444 ;;  divisor         4   16[COMRAM] unsigned long 
@@ -4513,7 +4513,7 @@ Microchip MPLAB XC8 C Compiler v2.31 (Free license) build 20201012212115 Og1
   4459 ;;      Temps:          0       0       0       0       0       0       0
   4460 ;;      Totals:        13       0       0       0       0       0       0
   4461 ;;Total ram usage:       13 bytes
-  4462 ;; Hardware stack levels used:    1
+  4462 ;; Hardware stack levels used: 1
   4463 ;; This function calls:
   4464 ;;		Nothing
   4465 ;; This function is called by:
@@ -4707,9 +4707,9 @@ Microchip MPLAB XC8 C Compiler v2.31 (Free license) build 20201012212115 Og1
   4653                           ;	Low-Power Timer1 Oscillator Enable bit
   4654                           ;	LPT1OSC = OFF, Timer1 configured for higher power operation
   4655                           ;	MCLR Pin Enable bit
-  4656                           ;	MCLRE = ON, MCLR pin enabled; RE3 input pin disabled
+  4656                           ;	MCLRE = OFF, RE3 input pin enabled; MCLR disabled
   4657  300005                     	org	3145733
-  4658  300005  81                 	db	129
+  4658  300005  01                 	db	1
   4659                           
   4660                           ;Config register CONFIG4L @ 0x300006
   4661                           ;	Stack Full/Underflow Reset Enable bit
@@ -5091,10 +5091,10 @@ Call Graph Tables:
 
  Address spaces:
 Name               Size   Autos  Total    Cost      Usage
-BIGRAM             5FF      0       0      17        0.0%
+BIGRAM             5FF      0       0      29        0.0%
 EEDATA             100      0       0       0        0.0%
-BITBANK5           100      0       0      16        0.0%
-BANK5              100      0       0      14        0.0%
+BITBANK5           100      0       0      14        0.0%
+BANK5              100      0       0      15        0.0%
 BITBANK4           100      0       0      12        0.0%
 BANK4              100      0       0      13        0.0%
 BITBANK3           100      0       0      10        0.0%
@@ -5107,292 +5107,297 @@ BITBANK0            80      0       0       4        0.0%
 BANK0               80     16      16       5       17.2%
 BITCOMRAM           7E      0       0       0        0.0%
 COMRAM              7E     28      5F       1       75.4%
+BITBIGSFRhhhlhh     19      0       0      17        0.0%
+BITBIGSFRhhhh        D      0       0      16        0.0%
+BITBIGSFRllhhll      C      0       0      24        0.0%
+BITBIGSFRllhhlh      8      0       0      23        0.0%
+BITBIGSFRllhl        7      0       0      25        0.0%
+BITBIGSFRhhhlhl      5      0       0      18        0.0%
+BITBIGSFRhhl         5      0       0      20        0.0%
+BITBIGSFRllhhh       4      0       0      22        0.0%
+BITBIGSFRlllhlh      4      0       0      26        0.0%
+BITBIGSFRlllhll      4      0       0      27        0.0%
+BITBIGSFRhhhll       1      0       0      19        0.0%
+BITBIGSFRlh          1      0       0      21        0.0%
+BIGSFR               0      0       0     200        0.0%
 BITSFR               0      0       0     200        0.0%
 SFR                  0      0       0     200        0.0%
 STACK                0      0       0       2        0.0%
 NULL                 0      0       0       0        0.0%
-ABS                  0      0      75      15        0.0%
+ABS                  0      0      75      28        0.0%
 DATA                 0      0      75       3        0.0%
 CODE                 0      0       0       0        0.0%
 
 
-Microchip Technology PIC18 Macro Assembler V2.31 build 20201012212115 
-Symbol Table                                                                                   Thu Dec 03 17:53:13 2020
+Microchip Technology PIC18 Macro Assembler V2.36 build 20220127204148 
+Symbol Table                                                                                   Fri Nov 25 16:02:46 2022
 
-       ??_serial_rx_str_until 0085                            l15 1A04                            l60 1996  
-                          l54 140A                            l63 19A4                            l57 1986  
-                          l59 1994             PWM1_Set_Duty@temp 0052           ___wmul@multiplicand 0038  
-        __size_of_adc_amostra 007C                           l210 1496                           l240 19E0  
-                         l170 1692                           l306 1314                           l155 0DF2  
-                         l156 0E44                           l157 0E9A                           l186 0AFA  
-                         l442 1208                           l189 0C30                           l294 1226  
-                         _PR2 000FCB                           _isr 0008                           _str 0031  
-                         wreg 000FE8                          l2321 0B00                          l2401 11D2  
-                        l2331 0B96                          l2323 0B04                          l2403 11D8  
-                        l2411 19F8                          l2341 0C1E                          l2333 0C0A  
-                        l2325 0B84                          l2501 0E8E                          l2405 11E8  
-                        l2421 1320                          l2413 1316                          l2335 0C12  
-                        l2327 0B8C                          l2503 0E8E                          l2351 0A50  
-                        l2343 09C2                          l2511 160C                          l2407 11F8  
-                        l2431 138A                          l2423 1326                          l2415 131A  
-                        l2337 0C14                          l2329 0B8E                          l2505 0E94  
-                        l2361 0ADE                          l2353 0A58                          l2345 09C6  
-                        l2513 1616                          l2521 1634                          l2441 13FE  
-                        l2433 1392                          l2425 1328                          l2417 131C  
-                        l2601 140C                          l2339 0C1C                          l2507 0E94  
-                        l2363 0AE0                          l2355 0ACC                          l2347 0A46  
-                        l2515 1620                          l2523 165C                          l2371 1110  
-                        l2435 13B6                          l2443 1406                          l2427 1374  
-                        l2419 131E                          l2451 1984                          l2531 19CC  
-                        l2611 146E                          l2603 1414                          l2453 0D68  
-                        l2365 0AE8                          l2357 0AD4                          l2349 0A4E  
-                        l2525 1666                          l2517 162A                          l2509 1608  
-                        l2381 1146                          l2373 1120                          l2437 13BE  
-                        l2429 1386                          l2445 197A                          l2541 19D8  
-                        l2533 19CE                          l2621 1482                          l2613 1472  
-                        l2605 1422                          l2471 0E18                          l2463 0E0A  
-                        l2455 0D80                          l2359 0AD6                          l2527 1674  
-                        l2391 118E                          l2383 1156                          l2375 1124  
-                        l2367 10FC                          l2439 13DE                          l2447 197E  
-                        l2543 19DA                          l2535 19D2                          l2551 1218  
-                        l2631 1498                          l2623 1484                          l2615 1476  
-                        l2607 145C                          l2481 0E64                          l2473 0E1A  
-                        l2465 0E12                          l2457 0DEC                          l2529 167A  
-                        l2393 1198                          l2385 116C                          l2377 1132  
-                        l2369 1102                          l2449 1982                          l2545 19DC  
-                        l2537 19D4                          l2561 1260                          l2553 122A  
-                        l2633 14B2                          l2625 1488                          l2617 147A  
-                        l2609 146A                          l2491 0E6E                          l2483 0E66  
-                        l2475 0E1C                          l2467 0E14                          l2395 11B6  
-                        l2387 1174                          l2379 1142                          l2547 19DE  
-                        l2539 19D6                          l2571 12C4                          l2563 1272  
-                        l2555 1232                          l2627 1490                          l2619 1480  
-                        l2493 0E82                          l2485 0E68                          l2477 0E30  
-                        l2469 0E16                          l2397 11C6                          l2389 1180  
-                        l2573 12DA                          l2565 1276                          l2557 123E  
-                        l2549 120A                          l2629 1494                          l2495 0E82  
-                        l2487 0E6A                          l2479 0E5C                          l2399 11C8  
-                        l2575 1304                          l2567 1284                          l2559 1252  
-                        l2497 0E88                          l2489 0E6C                          l2569 129A  
-                        l2499 0E88                          ?_isr 0036                          STR_1 0614  
-                        STR_2 060B                          u2007 0E26                          u2017 0E5E  
-                        u2027 0E78                          u2037 0B86                          _LATA 000F89  
-                        _LATB 000F8A                          u2047 0B90                          _LATC 000F8B  
-                        _LATD 000F8C                          u2057 0C0C                          _LATE 000F8D  
-                        u2067 0C16                          u1700 1386                          u2077 0C26  
-                        u1605 09D0                          u1701 1382                          u1630 1110  
-                        u1710 13B6                          u1615 09EA                          u1631 110C  
-                        u1711 13B2                          u1640 1132                          u1800 1284  
-                        u1625 0A10                          u1641 112E                          u1801 1280  
-                        u1650 116C                          u1730 1994                          u1810 129A  
-                        u1651 1168                          u1731 1990                          u1811 1296  
-                        u1660 118E                          u1740 19A4                          u1820 12C4  
-                        u1661 118A                          u1725 13EE                          u1741 19A0  
-                        u1821 12C0                          u1750 0E44                          u1670 11B6  
-                        u1830 12DA                          u1575 0B0E                          u1751 0E40  
-                        u1671 11B2                          u1831 12D6                          u1760 1692  
-                        u1680 11E8                          u1840 1304                          u1585 0B28  
-                        u1761 168E                          u1681 11E4                          u1841 1300  
-                        u1770 1218                          u1595 0B4E                          u1907 0AD8  
-                        u1771 1214                          u1780 1226                          u1917 0AE2  
-                        u1781 1222                          u1790 1260                          u1927 0AF0  
-                        u1695 1348                          u1791 125C                          u1937 0D88  
-                        u1947 0D9A                          u1867 1246                          u1957 0DAC  
-                        u1877 0A48                          u1967 0DBE                          u1887 0A52  
-                        u1977 0DD0                          u1897 0ACE                          u1987 0DE2  
-                        i2l20 175A                          u1997 0E0C                          i2l23 175C  
-                        i2l26 1798                          i2l66 1602                          _TMR0 000FD6  
-                        _main 140C                          _duty 005E                          fsr2h 000FDA  
-                        indf2 000FDF                          fsr2l 000FD9                          btemp 0060  
-                        prodh 000FF4                          prodl 000FF3                          start 000E  
-             __end_of_Lcd_Cmd 0C32               __end_of_Lcd_Out 1694                  ___param_bank 000000  
-                  _Lcd_Chr_CP 09BE                         ??_isr 0055               __end_of___aldiv 120A  
-                       ?_main 0036               __end_of___lldiv 1572                         _T0CON 000FD5  
-                       _T1CON 000FCD               __end_of___lwdiv 180E               __end_of___lwmod 18DC  
-                       i2l221 0D44                         i2l170 171C                         i2l243 19E8  
-                       i2l252 1914                         i2l246 19F6                         i2l334 0748  
-                       i2l360 09BC                         i2l186 0FCE                         i2l363 19CA  
-                       i2l189 10FA                         i2l390 1560                         i2l374 1866  
-                       i2l375 1876                         i2l397 1570                         i2l842 1804  
-                       i2l852 18D2                         i2l849 180C                         i2l859 18DA  
-                       _RCREG 000FAE                         _TMR1H 000FCF                         _TMR1L 000FCE  
-                       _SPBRG 000FAF                         _PORTA 000F80                         _PORTB 000F81  
-                       _PORTC 000F82                         _PORTD 000F83                         _PORTE 000F84  
-                       _TRISA 000F92                         _TRISB 000F93                         _TRISC 000F94  
-                       _TRISD 000F95                         _TRISE 000F96                         _TXREG 000FAD  
-         ___lmul@multiplicand 003A            __size_of_PWM1_Init 00F6                   ?_PWM1_Start 0036  
-          __size_ofi2_Lcd_Cmd 012C            __size_ofi2_Lcd_Out 008A               __end_of_dpowers 060B  
-                       _count 0003               __end_of_isdigit 197A                         tablat 000FF5  
-                       ttemp5 0061                         ttemp6 0064                         ttemp7 0068  
-                       status 000FD8                         wtemp8 0061               __end_of_sprintf 09BE  
-            __end_of_Lcd_Init 0E9C               __initialization 1916                  __end_of_main 14CE  
-            serial_tx_str@val 0037                        ??_main 0096                 __activetblptr 000002  
-                      _ADCON0 000FC2                        _ADCON1 000FC1                        _ADCON2 000FC0  
-                      _ADRESH 000FC4                        _ADRESL 000FC3                        _CCPR1L 000FBE  
-            __end_of_adc_init 1A06                        i2l2001 1734                        i2l1027 1978  
-                      i2l2005 173C                        i2l2101 061A                        i2l2007 176A  
-                      i2l2111 065C                        i2l2103 0626                        i2l2201 0912  
-                      i2l2121 06A0                        i2l2105 0638                        i2l2043 1574  
-                      i2l2211 0978                        i2l2203 091E                        i2l2123 06BC  
-                      i2l2115 0662                        i2l2107 0644                        i2l2045 15DA  
-                      i2l2221 18DC                        i2l2213 097C                        i2l2205 0922  
-                      i2l2141 077C                        i2l2125 06E4                        i2l2133 0710  
-                      i2l2117 067A                        i2l2109 064C                        i2l2301 0CB2  
-                      i2l2047 15F2                        i2l1159 19E4                        i2l2223 18E4  
-                      i2l2207 092A                        i2l2143 0780                        i2l2135 0756  
-                      i2l2127 06E8                        i2l2119 0698                        i2l2215 098E  
-                      i2l2231 169A                        i2l2311 0CF0                        i2l2303 0CB8  
-                      i2l2225 18F6                        i2l2209 096C                        i2l2161 07D8  
-                      i2l2137 0766                        i2l2145 078C                        i2l2217 09B0  
-                      i2l2129 070A                        i2l2233 16A4                        i2l2241 16C2  
-                      i2l2313 0CFE                        i2l2305 0CBE                        i2l2227 18F8  
-                      i2l2171 083C                        i2l2163 07EA                        i2l2155 07A8  
-                      i2l2147 079C                        i2l2139 076E                        i2l2235 16AE  
-                      i2l2243 16E8                        i2l2315 0D1A                        i2l2307 0CC2  
-                      i2l2181 0880                        i2l2173 0848                        i2l2165 07FC  
-                      i2l2149 07A4                        i2l2245 16F2                        i2l2237 16B8  
-                      i2l2229 1696                        i2l2317 0D26                        i2l2309 0CDE  
-                      i2l2183 0884                        i2l2191 08C2                        i2l2175 0850  
-                      i2l2167 0812                        i2l2159 07D6                        i2l2247 1700  
-                      i2l2319 0D3C                        i2l2193 08D4                        i2l2185 0896  
-                      i2l2177 085E                        i2l2169 0818                        i2l2249 1704  
-                      i2l2195 08E0                        i2l2187 08A2                        i2l2179 0874  
-                      i2l2291 0C6C                        i2l1821 195E                        i2l2197 08E4  
-                      i2l2189 08A6                        i2l2293 0C70                        i2l2285 0C54  
-                      i2l1911 179A                        i2l1831 19C2                        i2l1823 196E  
-                      i2l2199 08FC                        i2l2295 0C84                        i2l2287 0C62  
-                      i2l1841 183C                        i2l1921 17D2                        i2l1913 17A2  
-                      i2l1825 1972                        i2l1817 194A                        i2l2297 0C8C  
-                      i2l2289 0C64                        i2l1851 14FC                        i2l1843 1846  
-                      i2l1835 180E                        i2l1931 17FE                        i2l1923 17D8  
-                      i2l1915 17B4                        i2l1819 194E                        i2l2299 0C90  
-                      i2l1861 154E                        i2l1853 1508                        i2l1845 14CE  
-                      i2l1837 181E                        i2l1925 17EE                        i2l1917 17BC  
-                      i2l1941 18A8                        i2l1933 1878                        i2l1829 19A6  
-                      i2l1863 1550                        i2l1855 1516                        i2l1847 14DE  
-                      i2l1839 182C                        i2l1927 17F6                        i2l1919 17C4  
-                      i2l1943 18BE                        i2l1935 188A                        i2l1951 0EA2  
-                      i2l1865 155A                        i2l1857 1520                        i2l1849 14F4  
-                      i2l1929 17F8                        i2l1945 18C6                        i2l1937 1892  
-                      i2l1961 0FA4                        i2l1953 0F20                        i2l1859 153E  
-                      i2l1947 18CC                        i2l1939 189A                        i2l1971 0FC0  
-                      i2l1963 0FAC                        i2l1955 0F28                        i2l1965 0FAE  
-                      i2l1957 0F2A                        i2l1949 0E9E                        i2l1981 105E  
-                      i2l1973 0FD2                        i2l1967 0FB6                        i2l1959 0F32  
-                      i2l1991 10EA                        i2l1983 1066                        i2l1975 0FD6  
-                      i2l1969 0FB8                        i2l1993 10EC                        i2l1985 10D8  
-                      i2l1977 1054                        i2l1995 1720                        i2l1987 10E0  
-                      i2l1979 105C                        i2l1997 1724                        i2l1989 10E2  
-                      i2l1999 172C                        _INTCON 000FF2                     ??_Lcd_Cmd 0080  
-                   ??_Lcd_Out 0086                        i2u7_40 19F6                        i2u7_41 19F2  
-                ?_serial_init 0036             __end_of_PWM1_Init 140C                        ___lmul 180E  
-                 ?_Lcd_Chr_CP 0036             __end_ofi2_Lcd_Cmd 10FC                     ??___aldiv 0088  
-                      ___wmul 19A6             __end_ofi2_Lcd_Out 171E           __size_of_PWM1_Start 002C  
-                   ??___lldiv 004A                     ??___lwdiv 003A                     ??___lwmod 0041  
-                      _infrav 0005                        clear_0 1934                        _result 0001  
-        serial_rx_str_until@i 0088                  __pdataCOMRAM 005E                     ??_isdigit 0036  
-                __mediumconst 0000                        tblptrh 000FF7                        tblptrl 000FF6  
-                      tblptru 000FF8                     ??_sprintf 0048                    __accesstop 0080  
-     __end_of__initialization 193A                 ___rparam_used 000001                __pcstackCOMRAM 0036  
-       __end_of_PWM1_Set_Duty 1604         __end_of_serial_tx_str 1916                     ?_Lcd_Init 0036  
-                sprintf@width 0052           __size_of_Lcd_Chr_CP 013E   __end_of_serial_rx_str_until 1316  
-                     ?___lmul 0036                       ?___wmul 0036                 ??_adc_amostra 0038  
-                     _CCP1CON 000FBD                ___lmul@product 003E                     ?_adc_init 0036  
-          __size_of_serial_tx 0016                  ??_PWM1_Start 0080                       i2u92_40 195E  
-                     i2u92_41 195A                       i2u93_40 196E                    ??_Lcd_Init 0083  
-                     i2u93_41 196A                       i2u94_40 182C                       i2u94_41 1828  
-                     i2u95_40 1866                       i2u95_41 1862                       i2u96_40 14F4  
-                     i2u96_41 14F0                       i2u97_40 1516                       i2u97_41 1512  
-                     i2u98_40 153E                       i2u98_41 153A                       _Lcd_Cmd 0AFC  
-                     _Lcd_Out 1604                       __Hparam 0000                       __Lparam 0000  
-                     ___aldiv 10FC                 ?i2_Lcd_Chr_CP 0036               __size_of___lmul 006A  
-                     ___lldiv 14CE               __size_of___wmul 0026                       ___lwdiv 179A  
-                     ___lwmod 1878            __end_of_PWM1_Start 19A6          __size_of_serial_init 0016  
-                __psmallconst 0600                       __pcinit 1916                       __ramtop 0600  
-                  ??_adc_init 0080                       __ptext0 140C                       __ptext1 120A  
-                     __ptext2 19CC                       __ptext3 19F8                       __ptext4 197A  
-                     __ptext5 1316                       __ptext6 10FC                       __ptext7 1604  
-                     __ptext8 09BE                       __ptext9 0D68                       _dpowers 0601  
-                   _T2CONbits 000FCA           __end_of_adc_amostra 179A                       _isdigit 1948  
-                __size_of_isr 0D60              ___aldiv@dividend 0080                       _sprintf 061A  
-              __pintcode_body 0C32          end_of_initialization 193A                 __Lmediumconst 0000  
-                     int_func 0C32             __end_of_serial_tx 19F8                 i2Lcd_Cmd@data 0038  
-             ___lldiv@divisor 0046               ___lldiv@counter 004E                ??i2_Lcd_Chr_CP 0036  
-                   _RCSTAbits 000FAB              ___aldiv@quotient 008A                  ??_Lcd_Chr_CP 0080  
-                     postdec2 000FDD                       postinc0 000FEE                       postinc2 000FDE  
-                   _PWM1_Init 1316                     i2_Lcd_Cmd 0FD0                     i2_Lcd_Out 1694  
-                   _PORTCbits 000F82                     _PORTDbits 000F83                     _PORTEbits 000F84  
-               i2Lcd_Out@data 003D                     _TRISCbits 000F94                     _TRISDbits 000F95  
-                   _TRISEbits 000F96                PWM1_Set_Duty@d 0051            __end_of_Lcd_Chr_CP 0AFC  
-                   _TXSTAbits 000FAC                serial_tx_str@i 0039                   _adc_amostra 171E  
-              __end_of___lmul 1878                __end_of___wmul 19CC                   _BAUDCONbits 000FB8  
-               __pidataCOMRAM 1A06                    ?_PWM1_Init 008E                    ?i2_Lcd_Cmd 0036  
-                  ?i2_Lcd_Out 0039           start_initialization 1916                   __end_of_isr 0D68  
-               Lcd_Out@buffer 0084             __size_of_Lcd_Init 0134                      ??___lmul 003E  
-                    ??___wmul 003A             __size_of_adc_init 000E                   __pbssCOMRAM 0001  
-               __pcstackBANK0 0080                  _isdigit$1631 0037          __end_ofi2_Lcd_Chr_CP 0FD0  
-      __size_of_PWM1_Set_Duty 0092                      ?_Lcd_Cmd 0036        __size_of_serial_tx_str 003A  
-                 sprintf@flag 0051                      ?_Lcd_Out 0083                   sprintf@prec 004C  
-            ___lwdiv@dividend 0036              i2Lcd_Chr_CP@data 0038                     __pintcode 0008  
-                    ?___aldiv 0080                      ?___lldiv 0042                      ?___lwdiv 0036  
-                    ?___lwmod 003D  __size_of_serial_rx_str_until 010C                   ??_PWM1_Init 0090  
-                   _buffer_rx 0009                   ??i2_Lcd_Cmd 0036                     _buffer_tx 001D  
-                 ??i2_Lcd_Out 003C                   __smallconst 0600                      ?_isdigit 0036  
-            ___lwdiv@quotient 003A                      ?_sprintf 0042                    PWM1_Init@f 008E  
-             ___aldiv@divisor 0084               ___aldiv@counter 0088                ___wmul@product 003A  
-                    _LATDbits 000F8C                 PWM1_Init@temp 0094                      i2u110_40 18BE  
-                    i2u110_41 18BA                      i2u111_45 0EAA                      i2u112_45 0EC4  
-                    i2u105_40 17B4                      i2u105_41 17B0                      i2u113_45 0EEA  
-                    i2u106_40 17D2                      i2u106_41 17CE                      i2u114_45 0FDE  
-                    i2u210_47 10DA                      i2u107_40 17EE                      i2u107_41 17EA  
-                    i2u115_45 0FF8                      i2u211_47 10E4                      i2u108_40 188A  
-                    i2u140_40 0812                      i2u132_40 0638                      i2u108_41 1886  
-                    i2u140_41 080E                      i2u132_41 0634                      i2u116_45 101E  
-                    i2u212_47 10F2                      i2u117_40 176A                      i2u109_40 18A8  
-                    i2u141_40 083C                      i2u133_40 0698                      i2u117_41 1766  
-                    i2u109_41 18A4                      i2u141_41 0838                      i2u133_41 0694  
-                    i2u213_47 0F22                      i2u150_40 09B0                      i2u142_40 085E  
-                    i2u134_40 0706                      i2u150_41 09AC                      i2u142_41 085A  
-                    i2u134_41 0702                      i2u118_45 1772                      i2u214_47 0F2C  
-                    i2u151_40 1914                      i2u143_40 0874                      i2u135_40 0756  
-                    i2u151_41 1910                      i2u143_41 0870                      i2u135_41 0752  
-                    i2u215_47 0FA6                      i2u144_40 0896                      i2u136_40 077C  
-                    i2u152_40 171C                      i2u144_41 0892                      i2u136_41 0778  
-                    i2u152_41 1718                      i2u216_47 0FB0                      i2u208_47 1056  
-                    i2u145_40 08BE                      i2u137_40 07D2                      i2u153_40 0C62  
-                    i2u145_41 08BA                      i2u137_41 07CE                      i2u153_41 0C5E  
-                    i2u217_47 0FBA                      i2u209_47 1060                      i2u146_40 08D4  
-                    i2u138_40 07EA                      i2u154_40 0C84                      i2u146_41 08D0  
-                    i2u138_41 07E6                      i2u154_41 0C80                      i2u218_47 0FC6  
-                    i2u147_40 08FC                      i2u139_40 07FC                      i2u155_40 0CA0  
-                    i2u147_41 08F8                      i2u139_41 07F8                      i2u155_41 0C9A  
-                    i2u155_46 0CA2                      i2u148_40 0912                      i2u156_40 0D3C  
-                    i2u148_41 090E                      i2u156_41 0D38                      i2u149_40 098E  
-                    i2u149_41 098A                      _PIR1bits 000F9E                 ??_serial_init 0080  
-                   _serial_tx 19E2                      Lcd_Out@x 0083                      Lcd_Out@y 0086  
-               _PWM1_Set_Duty 1572                 _serial_tx_str 18DC                  Lcd_Init@data 0084  
-                  _ADCON0bits 000FC2             ___wmul@multiplier 0036       serial_rx_str_until@buff 0080  
-     serial_rx_str_until@term 0084       serial_rx_str_until@size 0082                      _Lcd_Init 0D68  
-           ___lmul@multiplier 0036                   _INTCON2bits 000FF1              __size_of_Lcd_Cmd 0136  
-            __size_of_Lcd_Out 0090                      __Hrparam 0000                      __Lrparam 0000  
-                  ?_serial_tx 0036                ?_PWM1_Set_Duty 0036                  ?_adc_amostra 0036  
-            __size_of___aldiv 010E                ?_serial_tx_str 0037              __size_of___lldiv 00A4  
-            __size_of___lwdiv 0074              __size_of___lwmod 0064           __end_of_serial_init 19E2  
-                    _adc_init 19F8         __size_ofi2_Lcd_Chr_CP 0134                    sprintf@val 004F  
-            __size_of_isdigit 0032                Lcd_Chr_CP@data 0082               ___lwdiv@divisor 0038  
-             ___lwdiv@counter 003C                      __ptext10 0AFC                      __ptext20 18DC  
-                    __ptext12 1694                      __ptext21 19E2                      __ptext13 0FD0  
-                    __ptext22 171E                      __ptext14 0E9C                      __ptext23 1572  
-                    __ptext15 061A                      __ptext24 180E                      __ptext16 1948  
-                    __ptext25 14CE                      __ptext17 19A6                      __ptext18 1878  
-                    __ptext19 179A              __size_of_sprintf 03A4                   Lcd_Cmd@data 0082  
-               __size_of_main 00C2                      _segundos 0007                      int$flags 0060  
-                i2_Lcd_Chr_CP 0E9C                  serial_tx@val 0036                   Lcd_Out@data 0087  
-                  _INTCONbits 000FF2                      isdigit@c 0038                      intlevel2 0000  
-         _serial_rx_str_until 120A                     sprintf@ap 004D                     sprintf@sp 0042  
-            ___lwmod@dividend 003D              ___lldiv@dividend 0042               ??_PWM1_Set_Duty 004F  
-                 ??_serial_tx 0036                   _serial_init 19CC                    i2Lcd_Out@x 0039  
-                  i2Lcd_Out@y 003C               ??_serial_tx_str 0039          ?_serial_rx_str_until 0080  
-                    sprintf@c 0054                      sprintf@f 0044              ___lldiv@quotient 004A  
-             ___lwmod@divisor 003F               ___lwmod@counter 0041              adc_amostra@canal 003C  
-                ___aldiv@sign 0089                    _PWM1_Start 197A               i2Lcd_Out@buffer 003A  
+      ??_serial_rx_str_until 0085                           l15 1A04                           l60 1996  
+                         l54 140A                           l63 19A4                           l57 1986  
+                         l59 1994            PWM1_Set_Duty@temp 0052          ___wmul@multiplicand 0038  
+                        l210 1496                          l240 19E0                          l170 1692  
+                        l306 1314                          l155 0DF2                          l156 0E44  
+                        l157 0E9A                          l186 0AFA                          l442 1208  
+                        l189 0C30                          l294 1226                          _PR2 000FCB  
+                        _isr 0008                          _str 0031                          wreg 000FE8  
+                       l2321 0B00                         l2401 11D2                         l2331 0B96  
+                       l2323 0B04                         l2403 11D8                         l2411 19F8  
+                       l2341 0C1E                         l2333 0C0A                         l2325 0B84  
+                       l2501 0E8E                         l2405 11E8                         l2421 1320  
+                       l2413 1316                         l2335 0C12                         l2327 0B8C  
+                       l2503 0E8E                         l2351 0A50                         l2343 09C2  
+                       l2511 160C                         l2407 11F8                         l2431 138A  
+                       l2423 1326                         l2415 131A                         l2337 0C14  
+                       l2329 0B8E                         l2505 0E94                         l2361 0ADE  
+                       l2353 0A58                         l2345 09C6                         l2513 1616  
+                       l2521 1634                         l2441 13FE                         l2433 1392  
+                       l2425 1328                         l2417 131C                         l2601 140C  
+                       l2339 0C1C                         l2507 0E94                         l2363 0AE0  
+                       l2355 0ACC                         l2347 0A46                         l2515 1620  
+                       l2523 165C                         l2371 1110                         l2435 13B6  
+                       l2443 1406                         l2427 1374                         l2419 131E  
+                       l2451 1984                         l2531 19CC                         l2611 146E  
+                       l2603 1414                         l2453 0D68                         l2365 0AE8  
+                       l2357 0AD4                         l2349 0A4E                         l2525 1666  
+                       l2517 162A                         l2509 1608                         l2381 1146  
+                       l2373 1120                         l2437 13BE                         l2429 1386  
+                       l2445 197A                         l2541 19D8                         l2533 19CE  
+                       l2621 1482                         l2613 1472                         l2605 1422  
+                       l2471 0E18                         l2463 0E0A                         l2455 0D80  
+                       l2359 0AD6                         l2527 1674                         l2391 118E  
+                       l2383 1156                         l2375 1124                         l2367 10FC  
+                       l2439 13DE                         l2447 197E                         l2543 19DA  
+                       l2535 19D2                         l2551 1218                         l2631 1498  
+                       l2623 1484                         l2615 1476                         l2607 145C  
+                       l2481 0E64                         l2473 0E1A                         l2465 0E12  
+                       l2457 0DEC                         l2529 167A                         l2393 1198  
+                       l2385 116C                         l2377 1132                         l2369 1102  
+                       l2449 1982                         l2545 19DC                         l2537 19D4  
+                       l2561 1260                         l2553 122A                         l2633 14B2  
+                       l2625 1488                         l2617 147A                         l2609 146A  
+                       l2491 0E6E                         l2483 0E66                         l2475 0E1C  
+                       l2467 0E14                         l2395 11B6                         l2387 1174  
+                       l2379 1142                         l2547 19DE                         l2539 19D6  
+                       l2571 12C4                         l2563 1272                         l2555 1232  
+                       l2627 1490                         l2619 1480                         l2493 0E82  
+                       l2485 0E68                         l2477 0E30                         l2469 0E16  
+                       l2397 11C6                         l2389 1180                         l2573 12DA  
+                       l2565 1276                         l2557 123E                         l2549 120A  
+                       l2629 1494                         l2495 0E82                         l2487 0E6A  
+                       l2479 0E5C                         l2399 11C8                         l2575 1304  
+                       l2567 1284                         l2559 1252                         l2497 0E88  
+                       l2489 0E6C                         l2569 129A                         l2499 0E88  
+                       ?_isr 0036                         STR_1 0614                         STR_2 060B  
+                       u2007 0E26                         u2017 0E5E                         u2027 0E78  
+                       u2037 0B86                         _LATA 000F89                         _LATB 000F8A  
+                       u2047 0B90                         _LATC 000F8B                         _LATD 000F8C  
+                       u2057 0C0C                         _LATE 000F8D                         u2067 0C16  
+                       u1700 1386                         u2077 0C26                         u1605 09D0  
+                       u1701 1382                         u1630 1110                         u1710 13B6  
+                       u1615 09EA                         u1631 110C                         u1711 13B2  
+                       u1640 1132                         u1800 1284                         u1625 0A10  
+                       u1641 112E                         u1801 1280                         u1650 116C  
+                       u1730 1994                         u1810 129A                         u1651 1168  
+                       u1731 1990                         u1811 1296                         u1660 118E  
+                       u1740 19A4                         u1820 12C4                         u1661 118A  
+                       u1725 13EE                         u1741 19A0                         u1821 12C0  
+                       u1750 0E44                         u1670 11B6                         u1830 12DA  
+                       u1575 0B0E                         u1751 0E40                         u1671 11B2  
+                       u1831 12D6                         u1760 1692                         u1680 11E8  
+                       u1840 1304                         u1585 0B28                         u1761 168E  
+                       u1681 11E4                         u1841 1300                         u1770 1218  
+                       u1595 0B4E                         u1907 0AD8                         u1771 1214  
+                       u1780 1226                         u1917 0AE2                         u1781 1222  
+                       u1790 1260                         u1927 0AF0                         u1695 1348  
+                       u1791 125C                         u1937 0D88                         u1947 0D9A  
+                       u1867 1246                         u1957 0DAC                         u1877 0A48  
+                       u1967 0DBE                         u1887 0A52                         u1977 0DD0  
+                       u1897 0ACE                         u1987 0DE2                         i2l20 175A  
+                       u1997 0E0C                         i2l23 175C                         i2l26 1798  
+                       i2l66 1602                         _TMR0 000FD6                         _main 140C  
+                       _duty 005E                         fsr2h 000FDA                         indf2 000FDF  
+                       fsr2l 000FD9                         btemp 0060                         prodh 000FF4  
+                       prodl 000FF3                         start 000E              __end_of_Lcd_Cmd 0C32  
+            __end_of_Lcd_Out 1694                 ___param_bank 000000                   _Lcd_Chr_CP 09BE  
+                      ??_isr 0055              __end_of___aldiv 120A                        ?_main 0036  
+            __end_of___lldiv 1572                        _T0CON 000FD5                        _T1CON 000FCD  
+            __end_of___lwdiv 180E              __end_of___lwmod 18DC                        i2l221 0D44  
+                      i2l170 171C                        i2l243 19E8                        i2l252 1914  
+                      i2l246 19F6                        i2l334 0748                        i2l360 09BC  
+                      i2l186 0FCE                        i2l363 19CA                        i2l189 10FA  
+                      i2l390 1560                        i2l374 1866                        i2l375 1876  
+                      i2l397 1570                        i2l842 1804                        i2l852 18D2  
+                      i2l849 180C                        i2l859 18DA                        _RCREG 000FAE  
+                      _TMR1H 000FCF                        _TMR1L 000FCE                        _SPBRG 000FAF  
+                      _PORTA 000F80                        _PORTB 000F81                        _PORTC 000F82  
+                      _PORTD 000F83                        _PORTE 000F84                        _TRISA 000F92  
+                      _TRISB 000F93                        _TRISC 000F94                        _TRISD 000F95  
+                      _TRISE 000F96                        _TXREG 000FAD          ___lmul@multiplicand 003A  
+                ?_PWM1_Start 0036              __end_of_dpowers 060B                        _count 0003  
+            __end_of_isdigit 197A                        tablat 000FF5                        ttemp5 0061  
+                      ttemp6 0064                        ttemp7 0068                        status 000FD8  
+                      wtemp8 0061              __end_of_sprintf 09BE             __end_of_Lcd_Init 0E9C  
+            __initialization 1916                 __end_of_main 14CE             serial_tx_str@val 0037  
+                     ??_main 0096                __activetblptr 000002                       _ADCON0 000FC2  
+                     _ADCON1 000FC1                       _ADCON2 000FC0                       _ADRESH 000FC4  
+                     _ADRESL 000FC3                       _CCPR1L 000FBE             __end_of_adc_init 1A06  
+                     i2l2001 1734                       i2l1027 1978                       i2l2005 173C  
+                     i2l2101 061A                       i2l2007 176A                       i2l2111 065C  
+                     i2l2103 0626                       i2l2201 0912                       i2l2121 06A0  
+                     i2l2105 0638                       i2l2043 1574                       i2l2211 0978  
+                     i2l2203 091E                       i2l2123 06BC                       i2l2115 0662  
+                     i2l2107 0644                       i2l2045 15DA                       i2l2221 18DC  
+                     i2l2213 097C                       i2l2205 0922                       i2l2141 077C  
+                     i2l2125 06E4                       i2l2133 0710                       i2l2117 067A  
+                     i2l2109 064C                       i2l2301 0CB2                       i2l2047 15F2  
+                     i2l1159 19E4                       i2l2223 18E4                       i2l2207 092A  
+                     i2l2143 0780                       i2l2135 0756                       i2l2127 06E8  
+                     i2l2119 0698                       i2l2215 098E                       i2l2231 169A  
+                     i2l2311 0CF0                       i2l2303 0CB8                       i2l2225 18F6  
+                     i2l2209 096C                       i2l2161 07D8                       i2l2137 0766  
+                     i2l2145 078C                       i2l2217 09B0                       i2l2129 070A  
+                     i2l2233 16A4                       i2l2241 16C2                       i2l2313 0CFE  
+                     i2l2305 0CBE                       i2l2227 18F8                       i2l2171 083C  
+                     i2l2163 07EA                       i2l2155 07A8                       i2l2147 079C  
+                     i2l2139 076E                       i2l2235 16AE                       i2l2243 16E8  
+                     i2l2315 0D1A                       i2l2307 0CC2                       i2l2181 0880  
+                     i2l2173 0848                       i2l2165 07FC                       i2l2149 07A4  
+                     i2l2245 16F2                       i2l2237 16B8                       i2l2229 1696  
+                     i2l2317 0D26                       i2l2309 0CDE                       i2l2183 0884  
+                     i2l2191 08C2                       i2l2175 0850                       i2l2167 0812  
+                     i2l2159 07D6                       i2l2247 1700                       i2l2319 0D3C  
+                     i2l2193 08D4                       i2l2185 0896                       i2l2177 085E  
+                     i2l2169 0818                       i2l2249 1704                       i2l2195 08E0  
+                     i2l2187 08A2                       i2l2179 0874                       i2l2291 0C6C  
+                     i2l1821 195E                       i2l2197 08E4                       i2l2189 08A6  
+                     i2l2293 0C70                       i2l2285 0C54                       i2l1911 179A  
+                     i2l1831 19C2                       i2l1823 196E                       i2l2199 08FC  
+                     i2l2295 0C84                       i2l2287 0C62                       i2l1841 183C  
+                     i2l1921 17D2                       i2l1913 17A2                       i2l1825 1972  
+                     i2l1817 194A                       i2l2297 0C8C                       i2l2289 0C64  
+                     i2l1851 14FC                       i2l1843 1846                       i2l1835 180E  
+                     i2l1931 17FE                       i2l1923 17D8                       i2l1915 17B4  
+                     i2l1819 194E                       i2l2299 0C90                       i2l1861 154E  
+                     i2l1853 1508                       i2l1845 14CE                       i2l1837 181E  
+                     i2l1925 17EE                       i2l1917 17BC                       i2l1941 18A8  
+                     i2l1933 1878                       i2l1829 19A6                       i2l1863 1550  
+                     i2l1855 1516                       i2l1847 14DE                       i2l1839 182C  
+                     i2l1927 17F6                       i2l1919 17C4                       i2l1943 18BE  
+                     i2l1935 188A                       i2l1951 0EA2                       i2l1865 155A  
+                     i2l1857 1520                       i2l1849 14F4                       i2l1929 17F8  
+                     i2l1945 18C6                       i2l1937 1892                       i2l1961 0FA4  
+                     i2l1953 0F20                       i2l1859 153E                       i2l1947 18CC  
+                     i2l1939 189A                       i2l1971 0FC0                       i2l1963 0FAC  
+                     i2l1955 0F28                       i2l1965 0FAE                       i2l1957 0F2A  
+                     i2l1949 0E9E                       i2l1981 105E                       i2l1973 0FD2  
+                     i2l1967 0FB6                       i2l1959 0F32                       i2l1991 10EA  
+                     i2l1983 1066                       i2l1975 0FD6                       i2l1969 0FB8  
+                     i2l1993 10EC                       i2l1985 10D8                       i2l1977 1054  
+                     i2l1995 1720                       i2l1987 10E0                       i2l1979 105C  
+                     i2l1997 1724                       i2l1989 10E2                       i2l1999 172C  
+                     _INTCON 000FF2                    ??_Lcd_Cmd 0080                    ??_Lcd_Out 0086  
+                     i2u7_40 19F6                       i2u7_41 19F2                 ?_serial_init 0036  
+          __end_of_PWM1_Init 140C                       ___lmul 180E                  ?_Lcd_Chr_CP 0036  
+          __end_ofi2_Lcd_Cmd 10FC                    ??___aldiv 0088                       ___wmul 19A6  
+          __end_ofi2_Lcd_Out 171E                    ??___lldiv 004A                    ??___lwdiv 003A  
+                  ??___lwmod 0041                       _infrav 0005                       clear_0 1934  
+                     isa$std 000001                       _result 0001         serial_rx_str_until@i 0088  
+               __pdataCOMRAM 005E                    ??_isdigit 0036                 __mediumconst 0000  
+                     tblptrh 000FF7                       tblptrl 000FF6                       tblptru 000FF8  
+                  ??_sprintf 0048                   __accesstop 0080      __end_of__initialization 193A  
+              ___rparam_used 000001               __pcstackCOMRAM 0036        __end_of_PWM1_Set_Duty 1604  
+      __end_of_serial_tx_str 1916                    ?_Lcd_Init 0036                 sprintf@width 0052  
+__end_of_serial_rx_str_until 1316                      ?___lmul 0036                      ?___wmul 0036  
+              ??_adc_amostra 0038                      _CCP1CON 000FBD               ___lmul@product 003E  
+                  ?_adc_init 0036                 ??_PWM1_Start 0080                      i2u92_40 195E  
+                    i2u92_41 195A                      i2u93_40 196E                   ??_Lcd_Init 0083  
+                    i2u93_41 196A                      i2u94_40 182C                      i2u94_41 1828  
+                    i2u95_40 1866                      i2u95_41 1862                      i2u96_40 14F4  
+                    i2u96_41 14F0                      i2u97_40 1516                      i2u97_41 1512  
+                    i2u98_40 153E                      i2u98_41 153A                      _Lcd_Cmd 0AFC  
+                    _Lcd_Out 1604                      __Hparam 0000                      __Lparam 0000  
+                    ___aldiv 10FC                ?i2_Lcd_Chr_CP 0036                      ___lldiv 14CE  
+                    ___lwdiv 179A                      ___lwmod 1878           __end_of_PWM1_Start 19A6  
+               __psmallconst 0600                      __pcinit 1916                      __ramtop 0600  
+                 ??_adc_init 0080                      __ptext0 140C                      __ptext1 120A  
+                    __ptext2 19CC                      __ptext3 19F8                      __ptext4 197A  
+                    __ptext5 1316                      __ptext6 10FC                      __ptext7 1604  
+                    __ptext8 09BE                      __ptext9 0D68                      _dpowers 0601  
+                  _T2CONbits 000FCA          __end_of_adc_amostra 179A                      _isdigit 1948  
+           ___aldiv@dividend 0080                      _sprintf 061A               __pintcode_body 0C32  
+       end_of_initialization 193A                __Lmediumconst 0000                      int_func 0C32  
+          __end_of_serial_tx 19F8                i2Lcd_Cmd@data 0038              ___lldiv@divisor 0046  
+            ___lldiv@counter 004E               ??i2_Lcd_Chr_CP 0036                    _RCSTAbits 000FAB  
+           ___aldiv@quotient 008A                 ??_Lcd_Chr_CP 0080                      postdec2 000FDD  
+                    postinc0 000FEE                      postinc2 000FDE                    _PWM1_Init 1316  
+                  i2_Lcd_Cmd 0FD0                    i2_Lcd_Out 1694                    _PORTCbits 000F82  
+                  _PORTDbits 000F83                    _PORTEbits 000F84                i2Lcd_Out@data 003D  
+                  _TRISCbits 000F94                    _TRISDbits 000F95                    _TRISEbits 000F96  
+             PWM1_Set_Duty@d 0051           __end_of_Lcd_Chr_CP 0AFC                    _TXSTAbits 000FAC  
+             serial_tx_str@i 0039                  _adc_amostra 171E               __end_of___lmul 1878  
+             __end_of___wmul 19CC                  _BAUDCONbits 000FB8                __pidataCOMRAM 1A06  
+                 ?_PWM1_Init 008E                   ?i2_Lcd_Cmd 0036                   ?i2_Lcd_Out 0039  
+        start_initialization 1916                  __end_of_isr 0D68                Lcd_Out@buffer 0084  
+                   ??___lmul 003E                     ??___wmul 003A                  __pbssCOMRAM 0001  
+              __pcstackBANK0 0080                 _isdigit$1631 0037         __end_ofi2_Lcd_Chr_CP 0FD0  
+                   ?_Lcd_Cmd 0036                  sprintf@flag 0051                     ?_Lcd_Out 0083  
+                sprintf@prec 004C             ___lwdiv@dividend 0036             i2Lcd_Chr_CP@data 0038  
+                  __pintcode 0008                     ?___aldiv 0080                     ?___lldiv 0042  
+                   ?___lwdiv 0036                     ?___lwmod 003D                  ??_PWM1_Init 0090  
+                  _buffer_rx 0009                  ??i2_Lcd_Cmd 0036                    _buffer_tx 001D  
+                ??i2_Lcd_Out 003C                  __smallconst 0600                     ?_isdigit 0036  
+           ___lwdiv@quotient 003A                     ?_sprintf 0042                   PWM1_Init@f 008E  
+            ___aldiv@divisor 0084              ___aldiv@counter 0088               ___wmul@product 003A  
+                   _LATDbits 000F8C                PWM1_Init@temp 0094                     i2u110_40 18BE  
+                   i2u110_41 18BA                     i2u111_45 0EAA                     i2u112_45 0EC4  
+                   i2u105_40 17B4                     i2u105_41 17B0                     i2u113_45 0EEA  
+                   i2u106_40 17D2                     i2u106_41 17CE                     i2u114_45 0FDE  
+                   i2u210_47 10DA                     i2u107_40 17EE                     i2u107_41 17EA  
+                   i2u115_45 0FF8                     i2u211_47 10E4                     i2u108_40 188A  
+                   i2u140_40 0812                     i2u132_40 0638                     i2u108_41 1886  
+                   i2u140_41 080E                     i2u132_41 0634                     i2u116_45 101E  
+                   i2u212_47 10F2                     i2u117_40 176A                     i2u109_40 18A8  
+                   i2u141_40 083C                     i2u133_40 0698                     i2u117_41 1766  
+                   i2u109_41 18A4                     i2u141_41 0838                     i2u133_41 0694  
+                   i2u213_47 0F22                     i2u150_40 09B0                     i2u142_40 085E  
+                   i2u134_40 0706                     i2u150_41 09AC                     i2u142_41 085A  
+                   i2u134_41 0702                     i2u118_45 1772                     i2u214_47 0F2C  
+                   i2u151_40 1914                     i2u143_40 0874                     i2u135_40 0756  
+                   i2u151_41 1910                     i2u143_41 0870                     i2u135_41 0752  
+                   i2u215_47 0FA6                     i2u144_40 0896                     i2u136_40 077C  
+                   i2u152_40 171C                     i2u144_41 0892                     i2u136_41 0778  
+                   i2u152_41 1718                     i2u216_47 0FB0                     i2u208_47 1056  
+                   i2u145_40 08BE                     i2u137_40 07D2                     i2u153_40 0C62  
+                   i2u145_41 08BA                     i2u137_41 07CE                     i2u153_41 0C5E  
+                   i2u217_47 0FBA                     i2u209_47 1060                     i2u146_40 08D4  
+                   i2u138_40 07EA                     i2u154_40 0C84                     i2u146_41 08D0  
+                   i2u138_41 07E6                     i2u154_41 0C80                     i2u218_47 0FC6  
+                   i2u147_40 08FC                     i2u139_40 07FC                     i2u155_40 0CA0  
+                   i2u147_41 08F8                     i2u139_41 07F8                     i2u155_41 0C9A  
+                   i2u155_46 0CA2                     i2u148_40 0912                     i2u156_40 0D3C  
+                   i2u148_41 090E                     i2u156_41 0D38                     i2u149_40 098E  
+                   i2u149_41 098A                     _PIR1bits 000F9E                ??_serial_init 0080  
+                  _serial_tx 19E2                     Lcd_Out@x 0083                     Lcd_Out@y 0086  
+              _PWM1_Set_Duty 1572                _serial_tx_str 18DC                 Lcd_Init@data 0084  
+                 _ADCON0bits 000FC2            ___wmul@multiplier 0036      serial_rx_str_until@buff 0080  
+    serial_rx_str_until@term 0084      serial_rx_str_until@size 0082                     _Lcd_Init 0D68  
+          ___lmul@multiplier 0036                  _INTCON2bits 000FF1                     __Hrparam 0000  
+                   __Lrparam 0000                   ?_serial_tx 0036               ?_PWM1_Set_Duty 0036  
+               ?_adc_amostra 0036               ?_serial_tx_str 0037          __end_of_serial_init 19E2  
+                   _adc_init 19F8                   sprintf@val 004F               Lcd_Chr_CP@data 0082  
+            ___lwdiv@divisor 0038              ___lwdiv@counter 003C                     __ptext10 0AFC  
+                   __ptext20 18DC                     __ptext12 1694                     __ptext21 19E2  
+                   __ptext13 0FD0                     __ptext22 171E                     __ptext14 0E9C  
+                   __ptext23 1572                     __ptext15 061A                     __ptext24 180E  
+                   __ptext16 1948                     __ptext25 14CE                     __ptext17 19A6  
+                   __ptext18 1878                     __ptext19 179A                  Lcd_Cmd@data 0082  
+                   _segundos 0007                     isa$xinst 000000                     int$flags 0060  
+               i2_Lcd_Chr_CP 0E9C                 serial_tx@val 0036                  Lcd_Out@data 0087  
+                 _INTCONbits 000FF2                     isdigit@c 0038                     intlevel2 0000  
+        _serial_rx_str_until 120A                    sprintf@ap 004D                    sprintf@sp 0042  
+           ___lwmod@dividend 003D             ___lldiv@dividend 0042              ??_PWM1_Set_Duty 004F  
+                ??_serial_tx 0036                  _serial_init 19CC                   i2Lcd_Out@x 0039  
+                 i2Lcd_Out@y 003C              ??_serial_tx_str 0039         ?_serial_rx_str_until 0080  
+                   sprintf@c 0054                     sprintf@f 0044             ___lldiv@quotient 004A  
+            ___lwmod@divisor 003F              ___lwmod@counter 0041             adc_amostra@canal 003C  
+               ___aldiv@sign 0089                   _PWM1_Start 197A              i2Lcd_Out@buffer 003A  

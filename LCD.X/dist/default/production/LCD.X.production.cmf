@@ -7,52 +7,49 @@
 # Each line that follows describes a psect in that object file, until
 # the next object file.  The lines that describe a psect have the
 # format:
-#    <psect name> <class name> <space> <link address> <load addresses> <length> <delta>
+#    <psect name> <class name> <space> <link address> <load addresses> <length> <delta> <reloc>
 # All addresses and the length are given in unqualified hexadecimal
 # in delta units.  Any other numeric values are decimal.
 %PSECTS
 $dist/default/production\LCD.X.production.o
-cinit CODE 0 F58 F58 E 1
-idloc IDLOC 5 200000 200000 8 1
-text0 CODE 0 824 824 334 1
-text1 CODE 0 EC8 EC8 90 1
-text2 CODE 0 B58 B58 134 1
-text3 CODE 0 DB8 DB8 110 1
-text4 CODE 0 C8C C8C 12C 1
-cstackCOMRAM COMRAM 1 1 1 9 1
-smallconst SMALLCONST 0 800 800 24 1
-bssCOMRAM COMRAM 1 A A 2 1
-config CONFIG 4 300000 300000 E 1
-$C:\Users\Alan Kardek\AppData\Local\Temp\s1ic.o
-idloc IDLOC 5 200000 200000 8 1
-init CODE 0 0 0 4 1
-config CONFIG 4 300000 300000 E 1
+cinit CODE 0 A96 A96 A 1 2
+idloc IDLOC 5 200000 200000 8 1 1
+text0 CODE 0 A24 A24 72 1 2
+text1 CODE 0 994 994 90 1 2
+text2 CODE 0 624 624 134 1 2
+text3 CODE 0 884 884 110 1 2
+text4 CODE 0 758 758 12C 1 2
+cstackCOMRAM COMRAM 1 1 1 8 1 1
+smallconst SMALLCONST 0 600 600 24 1 2
+config CONFIG 4 300000 300000 E 1 1
+$C:\Users\ufop\AppData\Local\Temp\xcAsf7o.o
+idloc IDLOC 5 200000 200000 8 1 1
+init CODE 0 0 0 4 1 2
+config CONFIG 4 300000 300000 E 1 1
 # %UNUSED Section
 # This section enumerates the unused ranges of each CLASS. Each entry
 # is described on a single line as follows:
 #    <class name> <range> <delta>
 # Addresses given in the range are in hexadecimal and units of delta.
 %UNUSED
-RAM 60-7FF 1
-SFR F60-FFF 1
-BANK0 60-FF 1
+RAM 80-5FF 1
+SFR F80-FFF 1
+BANK0 80-FF 1
 BANK1 100-1FF 1
 BANK2 200-2FF 1
 BANK3 300-3FF 1
 BANK4 400-4FF 1
 BANK5 500-5FF 1
-BANK6 600-6FF 1
-BANK7 700-7FF 1
-CONST 4-7FF 1
-CONST F66-7FFF 1
-STACK 60-7FF 1
-SMALLCONST F66-7FFF 1
-CODE 4-7FF 1
-CODE F66-7FFF 1
-BIGRAM C-7FF 1
-COMRAM C-5F 1
+CONST 4-5FF 1
+CONST AA0-7FFF 1
+SMALLCONST AA0-7FFF 1
+CODE 4-5FF 1
+CODE AA0-7FFF 1
+BIGRAM 9-5FF 1
+BIGSFR F80-FFF 1
+COMRAM 9-7F 1
 EEDATA F00000-F000FF 1
-MEDIUMCONST F66-7FFF 1
+MEDIUMCONST AA0-7FFF 1
 # %LINETAB Section
 # This section enumerates the file/line to address mappings.
 # The beginning of the section is indicated by %LINETAB.
@@ -67,140 +64,116 @@ MEDIUMCONST F66-7FFF 1
 # All other numeric values are in decimal.
 %LINETAB
 $dist/default/production\LCD.X.production.o
-C8C text4 CODE >152:G:\Meu Drive\1_UFOP_PERIODO_LETIVO\2020-2\CAM210\Projetos\LCD.X\flexlcd.h
-C8E text4 CODE >153:G:\Meu Drive\1_UFOP_PERIODO_LETIVO\2020-2\CAM210\Projetos\LCD.X\flexlcd.h
-C92 text4 CODE >154:G:\Meu Drive\1_UFOP_PERIODO_LETIVO\2020-2\CAM210\Projetos\LCD.X\flexlcd.h
-CD2 text4 CODE >155:G:\Meu Drive\1_UFOP_PERIODO_LETIVO\2020-2\CAM210\Projetos\LCD.X\flexlcd.h
-D10 text4 CODE >156:G:\Meu Drive\1_UFOP_PERIODO_LETIVO\2020-2\CAM210\Projetos\LCD.X\flexlcd.h
-D18 text4 CODE >157:G:\Meu Drive\1_UFOP_PERIODO_LETIVO\2020-2\CAM210\Projetos\LCD.X\flexlcd.h
-D24 text4 CODE >158:G:\Meu Drive\1_UFOP_PERIODO_LETIVO\2020-2\CAM210\Projetos\LCD.X\flexlcd.h
-D66 text4 CODE >159:G:\Meu Drive\1_UFOP_PERIODO_LETIVO\2020-2\CAM210\Projetos\LCD.X\flexlcd.h
-D94 text4 CODE >160:G:\Meu Drive\1_UFOP_PERIODO_LETIVO\2020-2\CAM210\Projetos\LCD.X\flexlcd.h
-D9C text4 CODE >161:G:\Meu Drive\1_UFOP_PERIODO_LETIVO\2020-2\CAM210\Projetos\LCD.X\flexlcd.h
-DA8 text4 CODE >162:G:\Meu Drive\1_UFOP_PERIODO_LETIVO\2020-2\CAM210\Projetos\LCD.X\flexlcd.h
-DB6 text4 CODE >163:G:\Meu Drive\1_UFOP_PERIODO_LETIVO\2020-2\CAM210\Projetos\LCD.X\flexlcd.h
-DB8 text3 CODE >54:G:\Meu Drive\1_UFOP_PERIODO_LETIVO\2020-2\CAM210\Projetos\LCD.X\flexlcd.h
-DB8 text3 CODE >56:G:\Meu Drive\1_UFOP_PERIODO_LETIVO\2020-2\CAM210\Projetos\LCD.X\flexlcd.h
-DBA text3 CODE >57:G:\Meu Drive\1_UFOP_PERIODO_LETIVO\2020-2\CAM210\Projetos\LCD.X\flexlcd.h
-DBC text3 CODE >58:G:\Meu Drive\1_UFOP_PERIODO_LETIVO\2020-2\CAM210\Projetos\LCD.X\flexlcd.h
-DBE text3 CODE >59:G:\Meu Drive\1_UFOP_PERIODO_LETIVO\2020-2\CAM210\Projetos\LCD.X\flexlcd.h
-DC0 text3 CODE >60:G:\Meu Drive\1_UFOP_PERIODO_LETIVO\2020-2\CAM210\Projetos\LCD.X\flexlcd.h
-DC2 text3 CODE >61:G:\Meu Drive\1_UFOP_PERIODO_LETIVO\2020-2\CAM210\Projetos\LCD.X\flexlcd.h
-DC4 text3 CODE >62:G:\Meu Drive\1_UFOP_PERIODO_LETIVO\2020-2\CAM210\Projetos\LCD.X\flexlcd.h
-DC6 text3 CODE >63:G:\Meu Drive\1_UFOP_PERIODO_LETIVO\2020-2\CAM210\Projetos\LCD.X\flexlcd.h
-DC8 text3 CODE >64:G:\Meu Drive\1_UFOP_PERIODO_LETIVO\2020-2\CAM210\Projetos\LCD.X\flexlcd.h
-DCA text3 CODE >65:G:\Meu Drive\1_UFOP_PERIODO_LETIVO\2020-2\CAM210\Projetos\LCD.X\flexlcd.h
-DCC text3 CODE >66:G:\Meu Drive\1_UFOP_PERIODO_LETIVO\2020-2\CAM210\Projetos\LCD.X\flexlcd.h
-DCE text3 CODE >67:G:\Meu Drive\1_UFOP_PERIODO_LETIVO\2020-2\CAM210\Projetos\LCD.X\flexlcd.h
-DD0 text3 CODE >68:G:\Meu Drive\1_UFOP_PERIODO_LETIVO\2020-2\CAM210\Projetos\LCD.X\flexlcd.h
-DDE text3 CODE >69:G:\Meu Drive\1_UFOP_PERIODO_LETIVO\2020-2\CAM210\Projetos\LCD.X\flexlcd.h
-DEC text3 CODE >70:G:\Meu Drive\1_UFOP_PERIODO_LETIVO\2020-2\CAM210\Projetos\LCD.X\flexlcd.h
-DFA text3 CODE >71:G:\Meu Drive\1_UFOP_PERIODO_LETIVO\2020-2\CAM210\Projetos\LCD.X\flexlcd.h
-E08 text3 CODE >72:G:\Meu Drive\1_UFOP_PERIODO_LETIVO\2020-2\CAM210\Projetos\LCD.X\flexlcd.h
-E16 text3 CODE >73:G:\Meu Drive\1_UFOP_PERIODO_LETIVO\2020-2\CAM210\Projetos\LCD.X\flexlcd.h
-E24 text3 CODE >74:G:\Meu Drive\1_UFOP_PERIODO_LETIVO\2020-2\CAM210\Projetos\LCD.X\flexlcd.h
-E28 text3 CODE >75:G:\Meu Drive\1_UFOP_PERIODO_LETIVO\2020-2\CAM210\Projetos\LCD.X\flexlcd.h
-E28 text3 CODE >76:G:\Meu Drive\1_UFOP_PERIODO_LETIVO\2020-2\CAM210\Projetos\LCD.X\flexlcd.h
-E32 text3 CODE >77:G:\Meu Drive\1_UFOP_PERIODO_LETIVO\2020-2\CAM210\Projetos\LCD.X\flexlcd.h
-E3C text3 CODE >78:G:\Meu Drive\1_UFOP_PERIODO_LETIVO\2020-2\CAM210\Projetos\LCD.X\flexlcd.h
-E40 text3 CODE >79:G:\Meu Drive\1_UFOP_PERIODO_LETIVO\2020-2\CAM210\Projetos\LCD.X\flexlcd.h
-E48 text3 CODE >80:G:\Meu Drive\1_UFOP_PERIODO_LETIVO\2020-2\CAM210\Projetos\LCD.X\flexlcd.h
-E52 text3 CODE >81:G:\Meu Drive\1_UFOP_PERIODO_LETIVO\2020-2\CAM210\Projetos\LCD.X\flexlcd.h
-E54 text3 CODE >82:G:\Meu Drive\1_UFOP_PERIODO_LETIVO\2020-2\CAM210\Projetos\LCD.X\flexlcd.h
-E62 text3 CODE >74:G:\Meu Drive\1_UFOP_PERIODO_LETIVO\2020-2\CAM210\Projetos\LCD.X\flexlcd.h
-E74 text3 CODE >84:G:\Meu Drive\1_UFOP_PERIODO_LETIVO\2020-2\CAM210\Projetos\LCD.X\flexlcd.h
-E80 text3 CODE >85:G:\Meu Drive\1_UFOP_PERIODO_LETIVO\2020-2\CAM210\Projetos\LCD.X\flexlcd.h
-E8C text3 CODE >86:G:\Meu Drive\1_UFOP_PERIODO_LETIVO\2020-2\CAM210\Projetos\LCD.X\flexlcd.h
-E94 text3 CODE >87:G:\Meu Drive\1_UFOP_PERIODO_LETIVO\2020-2\CAM210\Projetos\LCD.X\flexlcd.h
-EA0 text3 CODE >88:G:\Meu Drive\1_UFOP_PERIODO_LETIVO\2020-2\CAM210\Projetos\LCD.X\flexlcd.h
-EAE text3 CODE >89:G:\Meu Drive\1_UFOP_PERIODO_LETIVO\2020-2\CAM210\Projetos\LCD.X\flexlcd.h
-EB4 text3 CODE >90:G:\Meu Drive\1_UFOP_PERIODO_LETIVO\2020-2\CAM210\Projetos\LCD.X\flexlcd.h
-EBA text3 CODE >91:G:\Meu Drive\1_UFOP_PERIODO_LETIVO\2020-2\CAM210\Projetos\LCD.X\flexlcd.h
-EC0 text3 CODE >92:G:\Meu Drive\1_UFOP_PERIODO_LETIVO\2020-2\CAM210\Projetos\LCD.X\flexlcd.h
-EC6 text3 CODE >93:G:\Meu Drive\1_UFOP_PERIODO_LETIVO\2020-2\CAM210\Projetos\LCD.X\flexlcd.h
-B58 text2 CODE >138:G:\Meu Drive\1_UFOP_PERIODO_LETIVO\2020-2\CAM210\Projetos\LCD.X\flexlcd.h
-B5A text2 CODE >139:G:\Meu Drive\1_UFOP_PERIODO_LETIVO\2020-2\CAM210\Projetos\LCD.X\flexlcd.h
-B5E text2 CODE >140:G:\Meu Drive\1_UFOP_PERIODO_LETIVO\2020-2\CAM210\Projetos\LCD.X\flexlcd.h
-B9E text2 CODE >141:G:\Meu Drive\1_UFOP_PERIODO_LETIVO\2020-2\CAM210\Projetos\LCD.X\flexlcd.h
-BDC text2 CODE >142:G:\Meu Drive\1_UFOP_PERIODO_LETIVO\2020-2\CAM210\Projetos\LCD.X\flexlcd.h
-BE4 text2 CODE >143:G:\Meu Drive\1_UFOP_PERIODO_LETIVO\2020-2\CAM210\Projetos\LCD.X\flexlcd.h
-BF0 text2 CODE >144:G:\Meu Drive\1_UFOP_PERIODO_LETIVO\2020-2\CAM210\Projetos\LCD.X\flexlcd.h
-C32 text2 CODE >145:G:\Meu Drive\1_UFOP_PERIODO_LETIVO\2020-2\CAM210\Projetos\LCD.X\flexlcd.h
-C60 text2 CODE >146:G:\Meu Drive\1_UFOP_PERIODO_LETIVO\2020-2\CAM210\Projetos\LCD.X\flexlcd.h
-C68 text2 CODE >147:G:\Meu Drive\1_UFOP_PERIODO_LETIVO\2020-2\CAM210\Projetos\LCD.X\flexlcd.h
-C74 text2 CODE >148:G:\Meu Drive\1_UFOP_PERIODO_LETIVO\2020-2\CAM210\Projetos\LCD.X\flexlcd.h
-C8A text2 CODE >149:G:\Meu Drive\1_UFOP_PERIODO_LETIVO\2020-2\CAM210\Projetos\LCD.X\flexlcd.h
-EC8 text1 CODE >96:G:\Meu Drive\1_UFOP_PERIODO_LETIVO\2020-2\CAM210\Projetos\LCD.X\flexlcd.h
-ECA text1 CODE >99:G:\Meu Drive\1_UFOP_PERIODO_LETIVO\2020-2\CAM210\Projetos\LCD.X\flexlcd.h
-ECE text1 CODE >101:G:\Meu Drive\1_UFOP_PERIODO_LETIVO\2020-2\CAM210\Projetos\LCD.X\flexlcd.h
-ED8 text1 CODE >102:G:\Meu Drive\1_UFOP_PERIODO_LETIVO\2020-2\CAM210\Projetos\LCD.X\flexlcd.h
-EE2 text1 CODE >103:G:\Meu Drive\1_UFOP_PERIODO_LETIVO\2020-2\CAM210\Projetos\LCD.X\flexlcd.h
-EEC text1 CODE >104:G:\Meu Drive\1_UFOP_PERIODO_LETIVO\2020-2\CAM210\Projetos\LCD.X\flexlcd.h
-EF6 text1 CODE >99:G:\Meu Drive\1_UFOP_PERIODO_LETIVO\2020-2\CAM210\Projetos\LCD.X\flexlcd.h
-F1C text1 CODE >107:G:\Meu Drive\1_UFOP_PERIODO_LETIVO\2020-2\CAM210\Projetos\LCD.X\flexlcd.h
-F22 text1 CODE >108:G:\Meu Drive\1_UFOP_PERIODO_LETIVO\2020-2\CAM210\Projetos\LCD.X\flexlcd.h
-F26 text1 CODE >110:G:\Meu Drive\1_UFOP_PERIODO_LETIVO\2020-2\CAM210\Projetos\LCD.X\flexlcd.h
-F36 text1 CODE >111:G:\Meu Drive\1_UFOP_PERIODO_LETIVO\2020-2\CAM210\Projetos\LCD.X\flexlcd.h
-F3A text1 CODE >108:G:\Meu Drive\1_UFOP_PERIODO_LETIVO\2020-2\CAM210\Projetos\LCD.X\flexlcd.h
-F56 text1 CODE >114:G:\Meu Drive\1_UFOP_PERIODO_LETIVO\2020-2\CAM210\Projetos\LCD.X\flexlcd.h
-824 text0 CODE >29:G:\Meu Drive\1_UFOP_PERIODO_LETIVO\2020-2\CAM210\Projetos\LCD.X\mainLCD.c
-824 text0 CODE >36:G:\Meu Drive\1_UFOP_PERIODO_LETIVO\2020-2\CAM210\Projetos\LCD.X\mainLCD.c
-826 text0 CODE >38:G:\Meu Drive\1_UFOP_PERIODO_LETIVO\2020-2\CAM210\Projetos\LCD.X\mainLCD.c
-82A text0 CODE >39:G:\Meu Drive\1_UFOP_PERIODO_LETIVO\2020-2\CAM210\Projetos\LCD.X\mainLCD.c
-82E text0 CODE >40:G:\Meu Drive\1_UFOP_PERIODO_LETIVO\2020-2\CAM210\Projetos\LCD.X\mainLCD.c
-832 text0 CODE >41:G:\Meu Drive\1_UFOP_PERIODO_LETIVO\2020-2\CAM210\Projetos\LCD.X\mainLCD.c
-836 text0 CODE >43:G:\Meu Drive\1_UFOP_PERIODO_LETIVO\2020-2\CAM210\Projetos\LCD.X\mainLCD.c
-83A text0 CODE >44:G:\Meu Drive\1_UFOP_PERIODO_LETIVO\2020-2\CAM210\Projetos\LCD.X\mainLCD.c
-83E text0 CODE >45:G:\Meu Drive\1_UFOP_PERIODO_LETIVO\2020-2\CAM210\Projetos\LCD.X\mainLCD.c
-842 text0 CODE >46:G:\Meu Drive\1_UFOP_PERIODO_LETIVO\2020-2\CAM210\Projetos\LCD.X\mainLCD.c
-846 text0 CODE >47:G:\Meu Drive\1_UFOP_PERIODO_LETIVO\2020-2\CAM210\Projetos\LCD.X\mainLCD.c
-84A text0 CODE >48:G:\Meu Drive\1_UFOP_PERIODO_LETIVO\2020-2\CAM210\Projetos\LCD.X\mainLCD.c
-84E text0 CODE >49:G:\Meu Drive\1_UFOP_PERIODO_LETIVO\2020-2\CAM210\Projetos\LCD.X\mainLCD.c
-852 text0 CODE >50:G:\Meu Drive\1_UFOP_PERIODO_LETIVO\2020-2\CAM210\Projetos\LCD.X\mainLCD.c
-856 text0 CODE >52:G:\Meu Drive\1_UFOP_PERIODO_LETIVO\2020-2\CAM210\Projetos\LCD.X\mainLCD.c
-85A text0 CODE >53:G:\Meu Drive\1_UFOP_PERIODO_LETIVO\2020-2\CAM210\Projetos\LCD.X\mainLCD.c
-860 text0 CODE >54:G:\Meu Drive\1_UFOP_PERIODO_LETIVO\2020-2\CAM210\Projetos\LCD.X\mainLCD.c
-872 text0 CODE >55:G:\Meu Drive\1_UFOP_PERIODO_LETIVO\2020-2\CAM210\Projetos\LCD.X\mainLCD.c
-884 text0 CODE >56:G:\Meu Drive\1_UFOP_PERIODO_LETIVO\2020-2\CAM210\Projetos\LCD.X\mainLCD.c
-884 text0 CODE >58:G:\Meu Drive\1_UFOP_PERIODO_LETIVO\2020-2\CAM210\Projetos\LCD.X\mainLCD.c
-886 text0 CODE >59:G:\Meu Drive\1_UFOP_PERIODO_LETIVO\2020-2\CAM210\Projetos\LCD.X\mainLCD.c
-88C text0 CODE >60:G:\Meu Drive\1_UFOP_PERIODO_LETIVO\2020-2\CAM210\Projetos\LCD.X\mainLCD.c
-88E text0 CODE >61:G:\Meu Drive\1_UFOP_PERIODO_LETIVO\2020-2\CAM210\Projetos\LCD.X\mainLCD.c
-8C2 text0 CODE >62:G:\Meu Drive\1_UFOP_PERIODO_LETIVO\2020-2\CAM210\Projetos\LCD.X\mainLCD.c
-8F6 text0 CODE >63:G:\Meu Drive\1_UFOP_PERIODO_LETIVO\2020-2\CAM210\Projetos\LCD.X\mainLCD.c
-92A text0 CODE >64:G:\Meu Drive\1_UFOP_PERIODO_LETIVO\2020-2\CAM210\Projetos\LCD.X\mainLCD.c
-95A text0 CODE >66:G:\Meu Drive\1_UFOP_PERIODO_LETIVO\2020-2\CAM210\Projetos\LCD.X\mainLCD.c
-95C text0 CODE >67:G:\Meu Drive\1_UFOP_PERIODO_LETIVO\2020-2\CAM210\Projetos\LCD.X\mainLCD.c
-95E text0 CODE >69:G:\Meu Drive\1_UFOP_PERIODO_LETIVO\2020-2\CAM210\Projetos\LCD.X\mainLCD.c
-992 text0 CODE >70:G:\Meu Drive\1_UFOP_PERIODO_LETIVO\2020-2\CAM210\Projetos\LCD.X\mainLCD.c
-9C6 text0 CODE >71:G:\Meu Drive\1_UFOP_PERIODO_LETIVO\2020-2\CAM210\Projetos\LCD.X\mainLCD.c
-9FA text0 CODE >72:G:\Meu Drive\1_UFOP_PERIODO_LETIVO\2020-2\CAM210\Projetos\LCD.X\mainLCD.c
-A28 text0 CODE >74:G:\Meu Drive\1_UFOP_PERIODO_LETIVO\2020-2\CAM210\Projetos\LCD.X\mainLCD.c
-A2A text0 CODE >75:G:\Meu Drive\1_UFOP_PERIODO_LETIVO\2020-2\CAM210\Projetos\LCD.X\mainLCD.c
-A2C text0 CODE >77:G:\Meu Drive\1_UFOP_PERIODO_LETIVO\2020-2\CAM210\Projetos\LCD.X\mainLCD.c
-A60 text0 CODE >78:G:\Meu Drive\1_UFOP_PERIODO_LETIVO\2020-2\CAM210\Projetos\LCD.X\mainLCD.c
-A94 text0 CODE >79:G:\Meu Drive\1_UFOP_PERIODO_LETIVO\2020-2\CAM210\Projetos\LCD.X\mainLCD.c
-AC8 text0 CODE >80:G:\Meu Drive\1_UFOP_PERIODO_LETIVO\2020-2\CAM210\Projetos\LCD.X\mainLCD.c
-AF8 text0 CODE >82:G:\Meu Drive\1_UFOP_PERIODO_LETIVO\2020-2\CAM210\Projetos\LCD.X\mainLCD.c
-AFA text0 CODE >83:G:\Meu Drive\1_UFOP_PERIODO_LETIVO\2020-2\CAM210\Projetos\LCD.X\mainLCD.c
-B0E text0 CODE >84:G:\Meu Drive\1_UFOP_PERIODO_LETIVO\2020-2\CAM210\Projetos\LCD.X\mainLCD.c
-B12 text0 CODE >85:G:\Meu Drive\1_UFOP_PERIODO_LETIVO\2020-2\CAM210\Projetos\LCD.X\mainLCD.c
-B24 text0 CODE >87:G:\Meu Drive\1_UFOP_PERIODO_LETIVO\2020-2\CAM210\Projetos\LCD.X\mainLCD.c
-B26 text0 CODE >89:G:\Meu Drive\1_UFOP_PERIODO_LETIVO\2020-2\CAM210\Projetos\LCD.X\mainLCD.c
-B38 text0 CODE >91:G:\Meu Drive\1_UFOP_PERIODO_LETIVO\2020-2\CAM210\Projetos\LCD.X\mainLCD.c
-B3A text0 CODE >93:G:\Meu Drive\1_UFOP_PERIODO_LETIVO\2020-2\CAM210\Projetos\LCD.X\mainLCD.c
-B4C text0 CODE >95:G:\Meu Drive\1_UFOP_PERIODO_LETIVO\2020-2\CAM210\Projetos\LCD.X\mainLCD.c
-B4E text0 CODE >96:G:\Meu Drive\1_UFOP_PERIODO_LETIVO\2020-2\CAM210\Projetos\LCD.X\mainLCD.c
-F58 cinit CODE >587:C:\Users\Alan Kardek\AppData\Local\Temp\s1ic.s
-F58 cinit CODE >589:C:\Users\Alan Kardek\AppData\Local\Temp\s1ic.s
-F58 cinit CODE >592:C:\Users\Alan Kardek\AppData\Local\Temp\s1ic.s
-F58 cinit CODE >607:C:\Users\Alan Kardek\AppData\Local\Temp\s1ic.s
-F5A cinit CODE >608:C:\Users\Alan Kardek\AppData\Local\Temp\s1ic.s
-F5C cinit CODE >614:C:\Users\Alan Kardek\AppData\Local\Temp\s1ic.s
-F5C cinit CODE >617:C:\Users\Alan Kardek\AppData\Local\Temp\s1ic.s
-F5E cinit CODE >618:C:\Users\Alan Kardek\AppData\Local\Temp\s1ic.s
-F60 cinit CODE >619:C:\Users\Alan Kardek\AppData\Local\Temp\s1ic.s
-F62 cinit CODE >620:C:\Users\Alan Kardek\AppData\Local\Temp\s1ic.s
+758 text4 CODE >174:C:\Users\ufop\Downloads\CAM210-main\CAM210-main\LCD.X\flexlcd.h
+75A text4 CODE >175:C:\Users\ufop\Downloads\CAM210-main\CAM210-main\LCD.X\flexlcd.h
+75E text4 CODE >176:C:\Users\ufop\Downloads\CAM210-main\CAM210-main\LCD.X\flexlcd.h
+79E text4 CODE >177:C:\Users\ufop\Downloads\CAM210-main\CAM210-main\LCD.X\flexlcd.h
+7DC text4 CODE >178:C:\Users\ufop\Downloads\CAM210-main\CAM210-main\LCD.X\flexlcd.h
+7E4 text4 CODE >179:C:\Users\ufop\Downloads\CAM210-main\CAM210-main\LCD.X\flexlcd.h
+7F0 text4 CODE >180:C:\Users\ufop\Downloads\CAM210-main\CAM210-main\LCD.X\flexlcd.h
+832 text4 CODE >181:C:\Users\ufop\Downloads\CAM210-main\CAM210-main\LCD.X\flexlcd.h
+860 text4 CODE >182:C:\Users\ufop\Downloads\CAM210-main\CAM210-main\LCD.X\flexlcd.h
+868 text4 CODE >183:C:\Users\ufop\Downloads\CAM210-main\CAM210-main\LCD.X\flexlcd.h
+874 text4 CODE >184:C:\Users\ufop\Downloads\CAM210-main\CAM210-main\LCD.X\flexlcd.h
+882 text4 CODE >185:C:\Users\ufop\Downloads\CAM210-main\CAM210-main\LCD.X\flexlcd.h
+884 text3 CODE >76:C:\Users\ufop\Downloads\CAM210-main\CAM210-main\LCD.X\flexlcd.h
+884 text3 CODE >78:C:\Users\ufop\Downloads\CAM210-main\CAM210-main\LCD.X\flexlcd.h
+886 text3 CODE >79:C:\Users\ufop\Downloads\CAM210-main\CAM210-main\LCD.X\flexlcd.h
+888 text3 CODE >80:C:\Users\ufop\Downloads\CAM210-main\CAM210-main\LCD.X\flexlcd.h
+88A text3 CODE >81:C:\Users\ufop\Downloads\CAM210-main\CAM210-main\LCD.X\flexlcd.h
+88C text3 CODE >82:C:\Users\ufop\Downloads\CAM210-main\CAM210-main\LCD.X\flexlcd.h
+88E text3 CODE >83:C:\Users\ufop\Downloads\CAM210-main\CAM210-main\LCD.X\flexlcd.h
+890 text3 CODE >84:C:\Users\ufop\Downloads\CAM210-main\CAM210-main\LCD.X\flexlcd.h
+892 text3 CODE >85:C:\Users\ufop\Downloads\CAM210-main\CAM210-main\LCD.X\flexlcd.h
+894 text3 CODE >86:C:\Users\ufop\Downloads\CAM210-main\CAM210-main\LCD.X\flexlcd.h
+896 text3 CODE >87:C:\Users\ufop\Downloads\CAM210-main\CAM210-main\LCD.X\flexlcd.h
+898 text3 CODE >88:C:\Users\ufop\Downloads\CAM210-main\CAM210-main\LCD.X\flexlcd.h
+89A text3 CODE >89:C:\Users\ufop\Downloads\CAM210-main\CAM210-main\LCD.X\flexlcd.h
+89C text3 CODE >90:C:\Users\ufop\Downloads\CAM210-main\CAM210-main\LCD.X\flexlcd.h
+8AA text3 CODE >91:C:\Users\ufop\Downloads\CAM210-main\CAM210-main\LCD.X\flexlcd.h
+8B8 text3 CODE >92:C:\Users\ufop\Downloads\CAM210-main\CAM210-main\LCD.X\flexlcd.h
+8C6 text3 CODE >93:C:\Users\ufop\Downloads\CAM210-main\CAM210-main\LCD.X\flexlcd.h
+8D4 text3 CODE >94:C:\Users\ufop\Downloads\CAM210-main\CAM210-main\LCD.X\flexlcd.h
+8E2 text3 CODE >95:C:\Users\ufop\Downloads\CAM210-main\CAM210-main\LCD.X\flexlcd.h
+8F0 text3 CODE >96:C:\Users\ufop\Downloads\CAM210-main\CAM210-main\LCD.X\flexlcd.h
+8F4 text3 CODE >97:C:\Users\ufop\Downloads\CAM210-main\CAM210-main\LCD.X\flexlcd.h
+8F4 text3 CODE >98:C:\Users\ufop\Downloads\CAM210-main\CAM210-main\LCD.X\flexlcd.h
+8FE text3 CODE >99:C:\Users\ufop\Downloads\CAM210-main\CAM210-main\LCD.X\flexlcd.h
+908 text3 CODE >100:C:\Users\ufop\Downloads\CAM210-main\CAM210-main\LCD.X\flexlcd.h
+90C text3 CODE >101:C:\Users\ufop\Downloads\CAM210-main\CAM210-main\LCD.X\flexlcd.h
+914 text3 CODE >102:C:\Users\ufop\Downloads\CAM210-main\CAM210-main\LCD.X\flexlcd.h
+91E text3 CODE >103:C:\Users\ufop\Downloads\CAM210-main\CAM210-main\LCD.X\flexlcd.h
+920 text3 CODE >104:C:\Users\ufop\Downloads\CAM210-main\CAM210-main\LCD.X\flexlcd.h
+92E text3 CODE >96:C:\Users\ufop\Downloads\CAM210-main\CAM210-main\LCD.X\flexlcd.h
+940 text3 CODE >106:C:\Users\ufop\Downloads\CAM210-main\CAM210-main\LCD.X\flexlcd.h
+94C text3 CODE >107:C:\Users\ufop\Downloads\CAM210-main\CAM210-main\LCD.X\flexlcd.h
+958 text3 CODE >108:C:\Users\ufop\Downloads\CAM210-main\CAM210-main\LCD.X\flexlcd.h
+960 text3 CODE >109:C:\Users\ufop\Downloads\CAM210-main\CAM210-main\LCD.X\flexlcd.h
+96C text3 CODE >110:C:\Users\ufop\Downloads\CAM210-main\CAM210-main\LCD.X\flexlcd.h
+97A text3 CODE >111:C:\Users\ufop\Downloads\CAM210-main\CAM210-main\LCD.X\flexlcd.h
+980 text3 CODE >112:C:\Users\ufop\Downloads\CAM210-main\CAM210-main\LCD.X\flexlcd.h
+986 text3 CODE >113:C:\Users\ufop\Downloads\CAM210-main\CAM210-main\LCD.X\flexlcd.h
+98C text3 CODE >114:C:\Users\ufop\Downloads\CAM210-main\CAM210-main\LCD.X\flexlcd.h
+992 text3 CODE >115:C:\Users\ufop\Downloads\CAM210-main\CAM210-main\LCD.X\flexlcd.h
+624 text2 CODE >160:C:\Users\ufop\Downloads\CAM210-main\CAM210-main\LCD.X\flexlcd.h
+626 text2 CODE >161:C:\Users\ufop\Downloads\CAM210-main\CAM210-main\LCD.X\flexlcd.h
+62A text2 CODE >162:C:\Users\ufop\Downloads\CAM210-main\CAM210-main\LCD.X\flexlcd.h
+66A text2 CODE >163:C:\Users\ufop\Downloads\CAM210-main\CAM210-main\LCD.X\flexlcd.h
+6A8 text2 CODE >164:C:\Users\ufop\Downloads\CAM210-main\CAM210-main\LCD.X\flexlcd.h
+6B0 text2 CODE >165:C:\Users\ufop\Downloads\CAM210-main\CAM210-main\LCD.X\flexlcd.h
+6BC text2 CODE >166:C:\Users\ufop\Downloads\CAM210-main\CAM210-main\LCD.X\flexlcd.h
+6FE text2 CODE >167:C:\Users\ufop\Downloads\CAM210-main\CAM210-main\LCD.X\flexlcd.h
+72C text2 CODE >168:C:\Users\ufop\Downloads\CAM210-main\CAM210-main\LCD.X\flexlcd.h
+734 text2 CODE >169:C:\Users\ufop\Downloads\CAM210-main\CAM210-main\LCD.X\flexlcd.h
+740 text2 CODE >170:C:\Users\ufop\Downloads\CAM210-main\CAM210-main\LCD.X\flexlcd.h
+756 text2 CODE >171:C:\Users\ufop\Downloads\CAM210-main\CAM210-main\LCD.X\flexlcd.h
+994 text1 CODE >118:C:\Users\ufop\Downloads\CAM210-main\CAM210-main\LCD.X\flexlcd.h
+996 text1 CODE >121:C:\Users\ufop\Downloads\CAM210-main\CAM210-main\LCD.X\flexlcd.h
+99A text1 CODE >123:C:\Users\ufop\Downloads\CAM210-main\CAM210-main\LCD.X\flexlcd.h
+9A4 text1 CODE >124:C:\Users\ufop\Downloads\CAM210-main\CAM210-main\LCD.X\flexlcd.h
+9AE text1 CODE >125:C:\Users\ufop\Downloads\CAM210-main\CAM210-main\LCD.X\flexlcd.h
+9B8 text1 CODE >126:C:\Users\ufop\Downloads\CAM210-main\CAM210-main\LCD.X\flexlcd.h
+9C2 text1 CODE >121:C:\Users\ufop\Downloads\CAM210-main\CAM210-main\LCD.X\flexlcd.h
+9C6 text1 CODE >121:C:\Users\ufop\Downloads\CAM210-main\CAM210-main\LCD.X\flexlcd.h
+9CE text1 CODE >121:C:\Users\ufop\Downloads\CAM210-main\CAM210-main\LCD.X\flexlcd.h
+9D6 text1 CODE >121:C:\Users\ufop\Downloads\CAM210-main\CAM210-main\LCD.X\flexlcd.h
+9DE text1 CODE >121:C:\Users\ufop\Downloads\CAM210-main\CAM210-main\LCD.X\flexlcd.h
+9E8 text1 CODE >129:C:\Users\ufop\Downloads\CAM210-main\CAM210-main\LCD.X\flexlcd.h
+9EE text1 CODE >130:C:\Users\ufop\Downloads\CAM210-main\CAM210-main\LCD.X\flexlcd.h
+9F2 text1 CODE >132:C:\Users\ufop\Downloads\CAM210-main\CAM210-main\LCD.X\flexlcd.h
+A02 text1 CODE >133:C:\Users\ufop\Downloads\CAM210-main\CAM210-main\LCD.X\flexlcd.h
+A06 text1 CODE >130:C:\Users\ufop\Downloads\CAM210-main\CAM210-main\LCD.X\flexlcd.h
+A22 text1 CODE >136:C:\Users\ufop\Downloads\CAM210-main\CAM210-main\LCD.X\flexlcd.h
+A24 text0 CODE >17:C:\Users\ufop\Downloads\CAM210-main\CAM210-main\LCD.X\mainLCD.c
+A24 text0 CODE >19:C:\Users\ufop\Downloads\CAM210-main\CAM210-main\LCD.X\mainLCD.c
+A28 text0 CODE >20:C:\Users\ufop\Downloads\CAM210-main\CAM210-main\LCD.X\mainLCD.c
+A2C text0 CODE >24:C:\Users\ufop\Downloads\CAM210-main\CAM210-main\LCD.X\mainLCD.c
+A2E text0 CODE >26:C:\Users\ufop\Downloads\CAM210-main\CAM210-main\LCD.X\mainLCD.c
+A32 text0 CODE >27:C:\Users\ufop\Downloads\CAM210-main\CAM210-main\LCD.X\mainLCD.c
+A36 text0 CODE >28:C:\Users\ufop\Downloads\CAM210-main\CAM210-main\LCD.X\mainLCD.c
+A3A text0 CODE >29:C:\Users\ufop\Downloads\CAM210-main\CAM210-main\LCD.X\mainLCD.c
+A3E text0 CODE >31:C:\Users\ufop\Downloads\CAM210-main\CAM210-main\LCD.X\mainLCD.c
+A42 text0 CODE >32:C:\Users\ufop\Downloads\CAM210-main\CAM210-main\LCD.X\mainLCD.c
+A46 text0 CODE >33:C:\Users\ufop\Downloads\CAM210-main\CAM210-main\LCD.X\mainLCD.c
+A4A text0 CODE >34:C:\Users\ufop\Downloads\CAM210-main\CAM210-main\LCD.X\mainLCD.c
+A4E text0 CODE >35:C:\Users\ufop\Downloads\CAM210-main\CAM210-main\LCD.X\mainLCD.c
+A52 text0 CODE >36:C:\Users\ufop\Downloads\CAM210-main\CAM210-main\LCD.X\mainLCD.c
+A56 text0 CODE >37:C:\Users\ufop\Downloads\CAM210-main\CAM210-main\LCD.X\mainLCD.c
+A5A text0 CODE >38:C:\Users\ufop\Downloads\CAM210-main\CAM210-main\LCD.X\mainLCD.c
+A5E text0 CODE >40:C:\Users\ufop\Downloads\CAM210-main\CAM210-main\LCD.X\mainLCD.c
+A62 text0 CODE >41:C:\Users\ufop\Downloads\CAM210-main\CAM210-main\LCD.X\mainLCD.c
+A68 text0 CODE >42:C:\Users\ufop\Downloads\CAM210-main\CAM210-main\LCD.X\mainLCD.c
+A7A text0 CODE >43:C:\Users\ufop\Downloads\CAM210-main\CAM210-main\LCD.X\mainLCD.c
+A8C text0 CODE >44:C:\Users\ufop\Downloads\CAM210-main\CAM210-main\LCD.X\mainLCD.c
+A8C text0 CODE >46:C:\Users\ufop\Downloads\CAM210-main\CAM210-main\LCD.X\mainLCD.c
+A96 cinit CODE >515:C:\Users\ufop\AppData\Local\Temp\xcAsf7o.s
+A96 cinit CODE >517:C:\Users\ufop\AppData\Local\Temp\xcAsf7o.s
+A96 cinit CODE >520:C:\Users\ufop\AppData\Local\Temp\xcAsf7o.s
+A96 cinit CODE >526:C:\Users\ufop\AppData\Local\Temp\xcAsf7o.s
+A96 cinit CODE >529:C:\Users\ufop\AppData\Local\Temp\xcAsf7o.s
+A98 cinit CODE >530:C:\Users\ufop\AppData\Local\Temp\xcAsf7o.s
+A9A cinit CODE >531:C:\Users\ufop\AppData\Local\Temp\xcAsf7o.s
+A9C cinit CODE >532:C:\Users\ufop\AppData\Local\Temp\xcAsf7o.s
 # %SYMTAB Section
 # An enumeration of all symbols in the program.
 # The beginning of the section is indicated by %SYMTAB.
@@ -214,61 +187,57 @@ F62 cinit CODE >620:C:\Users\Alan Kardek\AppData\Local\Temp\s1ic.s
 # is the name of the object file in which the symbol was defined.
 %SYMTAB
 __Lmediumconst 0 0 MEDIUMCONST 0 mediumconst dist/default/production\LCD.X.production.o
-__Hspace_0 F66 0 ABS 0 - dist/default/production\LCD.X.production.o
-__Hspace_1 C 0 ABS 0 - dist/default/production\LCD.X.production.o
+__Hspace_0 AA0 0 ABS 0 - dist/default/production\LCD.X.production.o
+__Hspace_1 9 0 ABS 0 - dist/default/production\LCD.X.production.o
 __Hspace_2 0 0 ABS 0 - dist/default/production\LCD.X.production.o
 __Hspace_4 60000E 0 ABS 0 - dist/default/production\LCD.X.production.o
-_Lcd_Init DB8 0 CODE 0 text3 dist/default/production\LCD.X.production.o
+_Lcd_Init 884 0 CODE 0 text3 dist/default/production\LCD.X.production.o
 __Hibigdata 0 0 CODE 0 ibigdata dist/default/production\LCD.X.production.o
-__mediumconst 0 0 MEDIUMCONST 0 mediumconst C:\Users\Alan Kardek\AppData\Local\Temp\s1ic.o
+__mediumconst 0 0 MEDIUMCONST 0 mediumconst C:\Users\ufop\AppData\Local\Temp\xcAsf7o.o
 __Heeprom_data 0 0 EEDATA 0 eeprom_data dist/default/production\LCD.X.production.o
-__end_of_Lcd_Init EC8 0 CODE 0 text3 dist/default/production\LCD.X.production.o
-__Lsmallconst 800 0 SMALLCONST 0 smallconst dist/default/production\LCD.X.production.o
+__end_of_Lcd_Init 994 0 CODE 0 text3 dist/default/production\LCD.X.production.o
+__Lsmallconst 600 0 SMALLCONST 0 smallconst dist/default/production\LCD.X.production.o
 _LATB F8A 0 ABS 0 - dist/default/production\LCD.X.production.o
 _LATC F8B 0 ABS 0 - dist/default/production\LCD.X.production.o
 _LATD F8C 0 ABS 0 - dist/default/production\LCD.X.production.o
 _LATE F8D 0 ABS 0 - dist/default/production\LCD.X.production.o
-___sp 0 0 STACK 2 stack C:\Users\Alan Kardek\AppData\Local\Temp\s1ic.o
-_main 824 0 CODE 0 text0 dist/default/production\LCD.X.production.o
-start 0 0 CODE 0 init C:\Users\Alan Kardek\AppData\Local\Temp\s1ic.o
-__size_of_main 0 0 ABS 0 - dist/default/production\LCD.X.production.o
-__HbssCOMRAM 0 0 ABS 0 bssCOMRAM dist/default/production\LCD.X.production.o
+___sp 0 0 STACK 2 stack C:\Users\ufop\AppData\Local\Temp\xcAsf7o.o
+_main A24 0 CODE 0 text0 dist/default/production\LCD.X.production.o
+start 0 0 CODE 0 init C:\Users\ufop\AppData\Local\Temp\xcAsf7o.o
 __Hpowerup 0 0 CODE 0 powerup dist/default/production\LCD.X.production.o
-__accesstop 60 0 ABS 0 - C:\Users\Alan Kardek\AppData\Local\Temp\s1ic.o
-intlevel0 0 0 CODE 0 text C:\Users\Alan Kardek\AppData\Local\Temp\s1ic.o
-intlevel1 0 0 CODE 0 text C:\Users\Alan Kardek\AppData\Local\Temp\s1ic.o
-intlevel2 0 0 CODE 0 text C:\Users\Alan Kardek\AppData\Local\Temp\s1ic.o
-intlevel3 0 0 CODE 0 text C:\Users\Alan Kardek\AppData\Local\Temp\s1ic.o
-__LbssCOMRAM 0 0 ABS 0 bssCOMRAM dist/default/production\LCD.X.production.o
+__accesstop 80 0 ABS 0 - C:\Users\ufop\AppData\Local\Temp\xcAsf7o.o
+intlevel0 0 0 CODE 0 text C:\Users\ufop\AppData\Local\Temp\xcAsf7o.o
+intlevel1 0 0 CODE 0 text C:\Users\ufop\AppData\Local\Temp\xcAsf7o.o
+intlevel2 0 0 CODE 0 text C:\Users\ufop\AppData\Local\Temp\xcAsf7o.o
+intlevel3 0 0 CODE 0 text C:\Users\ufop\AppData\Local\Temp\xcAsf7o.o
 Lcd_Chr_CP@data 3 0 COMRAM 1 cstackCOMRAM dist/default/production\LCD.X.production.o
 __LnvFARRAM 0 0 FARRAM 0 nvFARRAM dist/default/production\LCD.X.production.o
-_Lcd_Chr_CP B58 0 CODE 0 text2 dist/default/production\LCD.X.production.o
+_Lcd_Chr_CP 624 0 CODE 0 text2 dist/default/production\LCD.X.production.o
 __Hifardata 0 0 CODE 0 ifardata dist/default/production\LCD.X.production.o
 __Hclrtext 0 0 ABS 0 clrtext dist/default/production\LCD.X.production.o
-___inthi_sp 0 0 STACK 2 stack C:\Users\Alan Kardek\AppData\Local\Temp\s1ic.o
-___intlo_sp 0 0 STACK 2 stack C:\Users\Alan Kardek\AppData\Local\Temp\s1ic.o
+_ADCON0 FC2 0 ABS 0 - dist/default/production\LCD.X.production.o
+_ADCON1 FC1 0 ABS 0 - dist/default/production\LCD.X.production.o
+___inthi_sp 0 0 STACK 2 stack C:\Users\ufop\AppData\Local\Temp\xcAsf7o.o
+___intlo_sp 0 0 STACK 2 stack C:\Users\ufop\AppData\Local\Temp\xcAsf7o.o
 __Hintcode_body 0 0 ABS 0 intcode_body dist/default/production\LCD.X.production.o
 __Lintsave_regs 0 0 BIGRAM 1 intsave_regs dist/default/production\LCD.X.production.o
 __Hmediumconst 0 0 MEDIUMCONST 0 mediumconst dist/default/production\LCD.X.production.o
 __Hintcodelo 0 0 CODE 0 intcodelo dist/default/production\LCD.X.production.o
-__end_of_Lcd_Chr_CP C8C 0 CODE 0 text2 dist/default/production\LCD.X.production.o
+__end_of_Lcd_Chr_CP 758 0 CODE 0 text2 dist/default/production\LCD.X.production.o
 _INTCON2bits FF1 0 ABS 0 - dist/default/production\LCD.X.production.o
 __Lintcodelo 0 0 CODE 0 intcodelo dist/default/production\LCD.X.production.o
-start_initialization F58 0 CODE 0 cinit dist/default/production\LCD.X.production.o
+start_initialization A96 0 CODE 0 cinit dist/default/production\LCD.X.production.o
 __HnvFARRAM 0 0 FARRAM 0 nvFARRAM dist/default/production\LCD.X.production.o
 _TRISDbits F95 0 ABS 0 - dist/default/production\LCD.X.production.o
 _TRISEbits F96 0 ABS 0 - dist/default/production\LCD.X.production.o
 ___rparam_used 1 0 ABS 0 - dist/default/production\LCD.X.production.o
-__size_of_Lcd_Cmd 0 0 ABS 0 - dist/default/production\LCD.X.production.o
-__size_of_Lcd_Out 0 0 ABS 0 - dist/default/production\LCD.X.production.o
+isa$xinst 0 0 ABS 0 - C:\Users\ufop\AppData\Local\Temp\xcAsf7o.o
 __Hbank0 0 0 ABS 0 bank0 dist/default/production\LCD.X.production.o
 __Hbank1 0 0 ABS 0 bank1 dist/default/production\LCD.X.production.o
 __Hbank2 0 0 ABS 0 bank2 dist/default/production\LCD.X.production.o
 __Hbank3 0 0 ABS 0 bank3 dist/default/production\LCD.X.production.o
 __Hbank4 0 0 ABS 0 bank4 dist/default/production\LCD.X.production.o
 __Hbank5 0 0 ABS 0 bank5 dist/default/production\LCD.X.production.o
-__Hbank6 0 0 ABS 0 bank6 dist/default/production\LCD.X.production.o
-__Hbank7 0 0 ABS 0 bank7 dist/default/production\LCD.X.production.o
 __Hcinit 0 0 ABS 0 cinit dist/default/production\LCD.X.production.o
 __Hconst 0 0 CONST 0 const dist/default/production\LCD.X.production.o
 __Hidata 0 0 CODE 0 idata dist/default/production\LCD.X.production.o
@@ -284,7 +253,8 @@ __Htext3 0 0 ABS 0 text3 dist/default/production\LCD.X.production.o
 __Htext4 0 0 ABS 0 text4 dist/default/production\LCD.X.production.o
 __Hbigbss 0 0 BIGRAM 1 bigbss dist/default/production\LCD.X.production.o
 __Hbigram 0 0 ABS 0 bigram dist/default/production\LCD.X.production.o
-__smallconst 800 0 SMALLCONST 0 smallconst C:\Users\Alan Kardek\AppData\Local\Temp\s1ic.o
+__Hbigsfr 0 0 ABS 0 bigsfr dist/default/production\LCD.X.production.o
+__smallconst 600 0 SMALLCONST 0 smallconst C:\Users\ufop\AppData\Local\Temp\xcAsf7o.o
 Lcd_Out@data 8 0 COMRAM 1 cstackCOMRAM dist/default/production\LCD.X.production.o
 __Hcomram 0 0 ABS 0 comram dist/default/production\LCD.X.production.o
 __Hconfig 30000E 0 CONFIG 4 config dist/default/production\LCD.X.production.o
@@ -294,8 +264,6 @@ __Lbank2 0 0 ABS 0 bank2 dist/default/production\LCD.X.production.o
 __Lbank3 0 0 ABS 0 bank3 dist/default/production\LCD.X.production.o
 __Lbank4 0 0 ABS 0 bank4 dist/default/production\LCD.X.production.o
 __Lbank5 0 0 ABS 0 bank5 dist/default/production\LCD.X.production.o
-__Lbank6 0 0 ABS 0 bank6 dist/default/production\LCD.X.production.o
-__Lbank7 0 0 ABS 0 bank7 dist/default/production\LCD.X.production.o
 __Lcinit 0 0 ABS 0 cinit dist/default/production\LCD.X.production.o
 __Lconst 0 0 CONST 0 const dist/default/production\LCD.X.production.o
 __Lidata 0 0 CODE 0 idata dist/default/production\LCD.X.production.o
@@ -315,6 +283,7 @@ _PORTDbits F83 0 ABS 0 - dist/default/production\LCD.X.production.o
 _PORTEbits F84 0 ABS 0 - dist/default/production\LCD.X.production.o
 __Habs1 0 0 ABS 0 abs1 dist/default/production\LCD.X.production.o
 __Hdata 0 0 ABS 0 data dist/default/production\LCD.X.production.o
+__Hheap 0 0 HEAP 7 heap dist/default/production\LCD.X.production.o
 __Hinit 4 0 CODE 0 init dist/default/production\LCD.X.production.o
 __Hrbit 0 0 COMRAM 1 rbit dist/default/production\LCD.X.production.o
 __Hrbss 0 0 COMRAM 1 rbss dist/default/production\LCD.X.production.o
@@ -322,6 +291,7 @@ __Htemp 0 0 COMRAM 1 temp dist/default/production\LCD.X.production.o
 __Htext 0 0 ABS 0 text dist/default/production\LCD.X.production.o
 __Labs1 0 0 ABS 0 abs1 dist/default/production\LCD.X.production.o
 __Ldata 0 0 ABS 0 data dist/default/production\LCD.X.production.o
+__Lheap 0 0 HEAP 7 heap dist/default/production\LCD.X.production.o
 __Linit 0 0 CODE 0 init dist/default/production\LCD.X.production.o
 __Lrbit 0 0 COMRAM 1 rbit dist/default/production\LCD.X.production.o
 __Lrbss 0 0 COMRAM 1 rbss dist/default/production\LCD.X.production.o
@@ -330,34 +300,30 @@ __Ltext 0 0 ABS 0 text dist/default/production\LCD.X.production.o
 __HcstackCOMRAM 0 0 ABS 0 cstackCOMRAM dist/default/production\LCD.X.production.o
 __Hintret 0 0 ABS 0 intret dist/default/production\LCD.X.production.o
 __Hirdata 0 0 CODE 0 irdata dist/default/production\LCD.X.production.o
-__S0 F66 0 ABS 0 - dist/default/production\LCD.X.production.o
-__S1 C 0 ABS 0 - dist/default/production\LCD.X.production.o
-__S2 0 0 ABS 0 - dist/default/production\LCD.X.production.o
+__S0 AA0 0 ABS 0 - dist/default/production\LCD.X.production.o
+__S1 9 0 ABS 0 - dist/default/production\LCD.X.production.o
 __S4 0 0 ABS 0 - dist/default/production\LCD.X.production.o
 __S5 0 0 ABS 0 - dist/default/production\LCD.X.production.o
-_key A 0 COMRAM 1 bssCOMRAM dist/default/production\LCD.X.production.o
 __Lbigdata 0 0 BIGRAM 1 bigdata dist/default/production\LCD.X.production.o
 __Hnvrram 0 0 COMRAM 1 nvrram dist/default/production\LCD.X.production.o
 __Lintentry 0 0 ABS 0 intentry dist/default/production\LCD.X.production.o
-__Hramtop 800 0 RAM 0 ramtop dist/default/production\LCD.X.production.o
+__Hramtop 600 0 RAM 0 ramtop dist/default/production\LCD.X.production.o
 __Hrparam 0 0 COMRAM 1 rparam dist/default/production\LCD.X.production.o
 __activetblptr 2 0 ABS 0 - dist/default/production\LCD.X.production.o
-__end_of_Lcd_Cmd DB8 0 CODE 0 text4 dist/default/production\LCD.X.production.o
-__end_of_Lcd_Out F58 0 CODE 0 text1 dist/default/production\LCD.X.production.o
+__end_of_Lcd_Cmd 884 0 CODE 0 text4 dist/default/production\LCD.X.production.o
+__end_of_Lcd_Out A24 0 CODE 0 text1 dist/default/production\LCD.X.production.o
 __Hstruct 0 0 COMRAM 1 struct dist/default/production\LCD.X.production.o
-__size_of_Lcd_Chr_CP 0 0 ABS 0 - dist/default/production\LCD.X.production.o
 __Lbigbss 0 0 BIGRAM 1 bigbss dist/default/production\LCD.X.production.o
 __Lbigram 0 0 ABS 0 bigram dist/default/production\LCD.X.production.o
+__Lbigsfr 0 0 ABS 0 bigsfr dist/default/production\LCD.X.production.o
 __Lcomram 0 0 ABS 0 comram dist/default/production\LCD.X.production.o
 __Lconfig 0 0 CONFIG 4 config dist/default/production\LCD.X.production.o
-_LATBbits F8A 0 ABS 0 - dist/default/production\LCD.X.production.o
-_LATCbits F8B 0 ABS 0 - dist/default/production\LCD.X.production.o
-_LATEbits F8D 0 ABS 0 - dist/default/production\LCD.X.production.o
 Lcd_Out@buffer 5 0 COMRAM 1 cstackCOMRAM dist/default/production\LCD.X.production.o
 __Lfarbss 0 0 FARRAM 0 farbss dist/default/production\LCD.X.production.o
 __Lfardata 0 0 FARRAM 0 fardata dist/default/production\LCD.X.production.o
-stackhi 7FF 0 ABS 0 - C:\Users\Alan Kardek\AppData\Local\Temp\s1ic.o
-stacklo 60 0 ABS 0 - C:\Users\Alan Kardek\AppData\Local\Temp\s1ic.o
+isa$std 1 0 ABS 0 - C:\Users\ufop\AppData\Local\Temp\xcAsf7o.o
+stackhi 0 0 ABS 0 - C:\Users\ufop\AppData\Local\Temp\xcAsf7o.o
+stacklo 0 0 ABS 0 - C:\Users\ufop\AppData\Local\Temp\xcAsf7o.o
 __Lintcode 0 0 CODE 0 intcode dist/default/production\LCD.X.production.o
 __Lintret 0 0 ABS 0 intret dist/default/production\LCD.X.production.o
 __Lirdata 0 0 CODE 0 irdata dist/default/production\LCD.X.production.o
@@ -365,38 +331,38 @@ __Lspace_0 0 0 ABS 0 - dist/default/production\LCD.X.production.o
 __Lspace_1 0 0 ABS 0 - dist/default/production\LCD.X.production.o
 __Lspace_2 0 0 ABS 0 - dist/default/production\LCD.X.production.o
 __Lspace_4 0 0 ABS 0 - dist/default/production\LCD.X.production.o
-__pbssCOMRAM A 0 COMRAM 1 bssCOMRAM dist/default/production\LCD.X.production.o
 __LcstackCOMRAM 0 0 ABS 0 cstackCOMRAM dist/default/production\LCD.X.production.o
-end_of_initialization F5C 0 CODE 0 cinit dist/default/production\LCD.X.production.o
+end_of_initialization A96 0 CODE 0 cinit dist/default/production\LCD.X.production.o
 __Lnvrram 0 0 COMRAM 1 nvrram dist/default/production\LCD.X.production.o
 __Hintentry 0 0 ABS 0 intentry dist/default/production\LCD.X.production.o
 __Hreset_vec 0 0 CODE 0 reset_vec dist/default/production\LCD.X.production.o
-__Lramtop 800 0 RAM 0 ramtop dist/default/production\LCD.X.production.o
+__Lramtop 600 0 RAM 0 ramtop dist/default/production\LCD.X.production.o
 __Lrparam 0 0 COMRAM 1 rparam dist/default/production\LCD.X.production.o
-__pcinit F58 0 CODE 0 cinit dist/default/production\LCD.X.production.o
-__ptext0 824 0 CODE 0 text0 dist/default/production\LCD.X.production.o
-__ptext1 EC8 0 CODE 0 text1 dist/default/production\LCD.X.production.o
-__ptext2 B58 0 CODE 0 text2 dist/default/production\LCD.X.production.o
-__ptext3 DB8 0 CODE 0 text3 dist/default/production\LCD.X.production.o
-__ptext4 C8C 0 CODE 0 text4 dist/default/production\LCD.X.production.o
+__pcinit A96 0 CODE 0 cinit dist/default/production\LCD.X.production.o
+__ptext0 A24 0 CODE 0 text0 dist/default/production\LCD.X.production.o
+__ptext1 994 0 CODE 0 text1 dist/default/production\LCD.X.production.o
+__ptext2 624 0 CODE 0 text2 dist/default/production\LCD.X.production.o
+__ptext3 884 0 CODE 0 text3 dist/default/production\LCD.X.production.o
+__ptext4 758 0 CODE 0 text4 dist/default/production\LCD.X.production.o
 __Lstruct 0 0 COMRAM 1 struct dist/default/production\LCD.X.production.o
-__ramtop 800 0 RAM 0 ramtop C:\Users\Alan Kardek\AppData\Local\Temp\s1ic.o
+__ramtop 600 0 RAM 0 ramtop C:\Users\ufop\AppData\Local\Temp\xcAsf7o.o
 Lcd_Cmd@data 3 0 COMRAM 1 cstackCOMRAM dist/default/production\LCD.X.production.o
 __Lpowerup 0 0 CODE 0 powerup dist/default/production\LCD.X.production.o
 __Leeprom_data 0 0 EEDATA 0 eeprom_data dist/default/production\LCD.X.production.o
-__psmallconst 800 0 SMALLCONST 0 smallconst dist/default/production\LCD.X.production.o
+__psmallconst 600 0 SMALLCONST 0 smallconst dist/default/production\LCD.X.production.o
 __Lreset_vec 0 0 CODE 0 reset_vec dist/default/production\LCD.X.production.o
+___heap_hi 0 0 ABS 0 - C:\Users\ufop\AppData\Local\Temp\xcAsf7o.o
+___heap_lo 0 0 ABS 0 - C:\Users\ufop\AppData\Local\Temp\xcAsf7o.o
 ___param_bank 0 0 ABS 0 - dist/default/production\LCD.X.production.o
 __Hbigdata 0 0 BIGRAM 1 bigdata dist/default/production\LCD.X.production.o
-__end_of__initialization F5C 0 CODE 0 cinit dist/default/production\LCD.X.production.o
+__end_of__initialization A96 0 CODE 0 cinit dist/default/production\LCD.X.production.o
 __Libigdata 0 0 CODE 0 ibigdata dist/default/production\LCD.X.production.o
 Lcd_Out@x 4 0 COMRAM 1 cstackCOMRAM dist/default/production\LCD.X.production.o
 Lcd_Out@y 7 0 COMRAM 1 cstackCOMRAM dist/default/production\LCD.X.production.o
 __Lclrtext 0 0 ABS 0 clrtext dist/default/production\LCD.X.production.o
 __pcstackCOMRAM 1 0 COMRAM 1 cstackCOMRAM dist/default/production\LCD.X.production.o
 Lcd_Init@data 5 0 COMRAM 1 cstackCOMRAM dist/default/production\LCD.X.production.o
-__size_of_Lcd_Init 0 0 ABS 0 - dist/default/production\LCD.X.production.o
-__end_of_main B58 0 CODE 0 text0 dist/default/production\LCD.X.production.o
+__end_of_main A96 0 CODE 0 text0 dist/default/production\LCD.X.production.o
 _PORTB F81 0 ABS 0 - dist/default/production\LCD.X.production.o
 _PORTC F82 0 ABS 0 - dist/default/production\LCD.X.production.o
 _PORTD F83 0 ABS 0 - dist/default/production\LCD.X.production.o
@@ -413,12 +379,11 @@ __LRAM 1 0 ABS 0 - dist/default/production\LCD.X.production.o
 __Lbss 0 0 RAM 1 bss dist/default/production\LCD.X.production.o
 __Lram 0 0 ABS 0 ram dist/default/production\LCD.X.production.o
 __Lsfr 0 0 ABS 0 sfr dist/default/production\LCD.X.production.o
-_tecla B 0 COMRAM 1 bssCOMRAM dist/default/production\LCD.X.production.o
-_Lcd_Cmd C8C 0 CODE 0 text4 dist/default/production\LCD.X.production.o
-_Lcd_Out EC8 0 CODE 0 text1 dist/default/production\LCD.X.production.o
-__initialization F58 0 CODE 0 cinit dist/default/production\LCD.X.production.o
+_Lcd_Cmd 758 0 CODE 0 text4 dist/default/production\LCD.X.production.o
+_Lcd_Out 994 0 CODE 0 text1 dist/default/production\LCD.X.production.o
+__initialization A96 0 CODE 0 cinit dist/default/production\LCD.X.production.o
 __Hfardata 0 0 FARRAM 0 fardata dist/default/production\LCD.X.production.o
-__Hsmallconst 824 0 SMALLCONST 0 smallconst dist/default/production\LCD.X.production.o
+__Hsmallconst 624 0 SMALLCONST 0 smallconst dist/default/production\LCD.X.production.o
 __Lifardata 0 0 CODE 0 ifardata dist/default/production\LCD.X.production.o
 __Hintsave_regs 0 0 BIGRAM 1 intsave_regs dist/default/production\LCD.X.production.o
 __Hintcode 0 0 CODE 0 intcode dist/default/production\LCD.X.production.o
@@ -446,10 +411,10 @@ __Hintcode 0 0 CODE 0 intcode dist/default/production\LCD.X.production.o
 # and size are in units of delta. The file address is in units of bytes.
 # All other numeric quantities are in decimal.
 %SEGMENTS
-text0 0 824 824 742 1
-cstackCOMRAM 1 1 1 B 1
+text2 0 624 624 47C 1
+cstackCOMRAM 1 1 1 8 1
 reset_vec 0 0 0 4 1
-smallconst 0 800 800 24 1
+smallconst 0 600 600 24 1
 # %NOTES Section
 # This section contains data of all the note-psects.  The beginning of the section
 # is indicated by %NOTES. The first line indicates the name and decimal

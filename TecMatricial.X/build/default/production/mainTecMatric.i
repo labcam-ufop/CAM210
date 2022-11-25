@@ -26,7 +26,7 @@
 #pragma config CCP2MX = ON
 #pragma config PBADEN = OFF
 #pragma config LPT1OSC = OFF
-#pragma config MCLRE = ON
+#pragma config MCLRE = OFF
 
 
 #pragma config STVREN = ON
@@ -64,17 +64,17 @@
 
 #pragma config EBTRB = OFF
 
-# 18 "D:/MPLABX/XC8/pic/include\xc.h"
+# 18 "../../../../../../Program Files/Microchip/xc8/v2.36/pic/include\xc.h"
 extern const char __xc8_OPTIM_SPEED;
 
 extern double __fpnormalize(double);
 
 
-# 13 "D:\MPLABX\XC8\pic\include\c90\xc8debug.h"
+# 13 "C:\Program Files\Microchip\xc8\v2.36\pic\include\c90\xc8debug.h"
 #pragma intrinsic(__builtin_software_breakpoint)
 extern void __builtin_software_breakpoint(void);
 
-# 13 "D:\MPLABX\XC8\pic\include\c90\stdint.h"
+# 13 "C:\Program Files\Microchip\xc8\v2.36\pic\include\c90\stdint.h"
 typedef signed char int8_t;
 
 # 20
@@ -161,7 +161,7 @@ typedef int16_t intptr_t;
 typedef uint16_t uintptr_t;
 
 
-# 7 "D:/MPLABX/XC8/pic/include\builtins.h"
+# 7 "../../../../../../Program Files/Microchip/xc8/v2.36/pic/include\builtins.h"
 #pragma intrinsic(__nop)
 extern void __nop(void);
 
@@ -174,7 +174,7 @@ extern __nonreentrant void _delaywdt(uint32_t);
 #pragma intrinsic(_delay3)
 extern __nonreentrant void _delay3(uint8_t);
 
-# 53 "D:/MPLABX/XC8/pic/include/proc\pic18f4550.h"
+# 53 "../../../../../../Program Files/Microchip/xc8/v2.36/pic/include/proc\pic18f4550.h"
 extern volatile unsigned char SPPDATA __at(0xF62);
 
 asm("SPPDATA equ 0F62h");
@@ -3402,7 +3402,7 @@ extern volatile unsigned char TOSU __at(0xFFF);
 
 asm("TOSU equ 0FFFh");
 
-# 8905
+# 8909
 extern volatile __bit ABDEN __at(0x7DC0);
 
 
@@ -5709,7 +5709,7 @@ extern volatile __bit nW __at(0x7E3A);
 
 extern volatile __bit nWRITE __at(0x7E3A);
 
-# 19 "D:/MPLABX/XC8/pic/include\pic18.h"
+# 19 "../../../../../../Program Files/Microchip/xc8/v2.36/pic/include\pic18.h"
 __attribute__((__unsupported__("The " "flash_write" " routine is no longer supported. Please use the MPLAB X MCC."))) void flash_write(const unsigned char *, unsigned int, __far unsigned char *);
 __attribute__((__unsupported__("The " "EraseFlash" " routine is no longer supported. Please use the MPLAB X MCC."))) void EraseFlash(unsigned long startaddr, unsigned long endaddr);
 
@@ -5722,10 +5722,10 @@ __attribute__((__unsupported__("The " "Write_b_eep" " routine is no longer suppo
 unsigned char __t1rd16on(void);
 unsigned char __t3rd16on(void);
 
-# 13 "mainTecMatric.c"
+# 15 "mainTecMatric.c"
 char tecla;
 
-# 32
+# 34
 unsigned char teclado(void);
 
 void main(void)
@@ -5777,29 +5777,29 @@ unsigned char teclado(void)
 char key = ' ';
 LATBbits.LB0 = 1; LATBbits.LB1 = 1; LATBbits.LB2 = 1;
 LATBbits.LB0 = 0;
-if(!PORTDbits.RD3) {_delay((unsigned long)((20)*(8000000/4000.0))); if (!PORTDbits.RD3){key = '1'; }}
-else if(!PORTDbits.RD2) {_delay((unsigned long)((20)*(8000000/4000.0))); if (!PORTDbits.RD2){key = '4'; }}
-else if(!PORTDbits.RD1) {_delay((unsigned long)((20)*(8000000/4000.0))); if (!PORTDbits.RD1){key = '7'; }}
-else if(!PORTDbits.RD0) {_delay((unsigned long)((20)*(8000000/4000.0))); if (!PORTDbits.RD0){key = 'x'; }}
+if(!PORTDbits.RD3) {_delaywdt((unsigned long)((20)*(8000000/4000.0))); if (!PORTDbits.RD3){key = '1'; }}
+else if(!PORTDbits.RD2) {_delaywdt((unsigned long)((20)*(8000000/4000.0))); if (!PORTDbits.RD2){key = '4'; }}
+else if(!PORTDbits.RD1) {_delaywdt((unsigned long)((20)*(8000000/4000.0))); if (!PORTDbits.RD1){key = '7'; }}
+else if(!PORTDbits.RD0) {_delaywdt((unsigned long)((20)*(8000000/4000.0))); if (!PORTDbits.RD0){key = 'x'; }}
 
 LATBbits.LB0 = 1;
 LATBbits.LB1 = 0;
 
-if(!PORTDbits.RD3) {_delay((unsigned long)((20)*(8000000/4000.0))); if (!PORTDbits.RD3){key = '2'; }}
-else if(!PORTDbits.RD2) {_delay((unsigned long)((20)*(8000000/4000.0))); if (!PORTDbits.RD2){key = '5'; }}
-else if(!PORTDbits.RD1) {_delay((unsigned long)((20)*(8000000/4000.0))); if (!PORTDbits.RD1){key = '8'; }}
-else if(!PORTDbits.RD0) {_delay((unsigned long)((20)*(8000000/4000.0))); if (!PORTDbits.RD0){key = '0'; }}
+if(!PORTDbits.RD3) {_delaywdt((unsigned long)((20)*(8000000/4000.0))); if (!PORTDbits.RD3){key = '2'; }}
+else if(!PORTDbits.RD2) {_delaywdt((unsigned long)((20)*(8000000/4000.0))); if (!PORTDbits.RD2){key = '5'; }}
+else if(!PORTDbits.RD1) {_delaywdt((unsigned long)((20)*(8000000/4000.0))); if (!PORTDbits.RD1){key = '8'; }}
+else if(!PORTDbits.RD0) {_delaywdt((unsigned long)((20)*(8000000/4000.0))); if (!PORTDbits.RD0){key = '0'; }}
 
 LATBbits.LB1 = 1;
 LATBbits.LB2 = 0;
 
-if(!PORTDbits.RD3) {_delay((unsigned long)((20)*(8000000/4000.0))); if (!PORTDbits.RD3){key = '3'; }}
-else if(!PORTDbits.RD2) {_delay((unsigned long)((20)*(8000000/4000.0))); if (!PORTDbits.RD2){key = '6'; }}
-else if(!PORTDbits.RD1) {_delay((unsigned long)((20)*(8000000/4000.0))); if (!PORTDbits.RD1){key = '9'; }}
-else if(!PORTDbits.RD0) {_delay((unsigned long)((20)*(8000000/4000.0))); if (!PORTDbits.RD0){key = '-'; }}
+if(!PORTDbits.RD3) {_delaywdt((unsigned long)((20)*(8000000/4000.0))); if (!PORTDbits.RD3){key = '3'; }}
+else if(!PORTDbits.RD2) {_delaywdt((unsigned long)((20)*(8000000/4000.0))); if (!PORTDbits.RD2){key = '6'; }}
+else if(!PORTDbits.RD1) {_delaywdt((unsigned long)((20)*(8000000/4000.0))); if (!PORTDbits.RD1){key = '9'; }}
+else if(!PORTDbits.RD0) {_delaywdt((unsigned long)((20)*(8000000/4000.0))); if (!PORTDbits.RD0){key = '-'; }}
 
 LATBbits.LB2 = 1;
-_delay((unsigned long)((5)*(8000000/4000.0)));
+_delaywdt((unsigned long)((5)*(8000000/4000.0)));
 
 return(key);
 }

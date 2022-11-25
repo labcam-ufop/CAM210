@@ -4,6 +4,9 @@
  *
  * Created on 12 de Novembro de 2020, 12:13
  */
+// Funciona na Placa Exto NEO201 e na PicGenios
+// alterar flexlcd.h para o LCD funcionar em cada uma das placas
+
 #define _XTAL_FREQ 8000000
 #include "configbits.h"
 #include <xc.h>
@@ -17,26 +20,15 @@
 unsigned int adcResult;
 char tecla, key;
 float volt = 0;
-char str[4]; date[10], time[10];
+char str[4], date[10], time[10];
 
-//identifiers
-#define rele1 LATCbits.LC0
-#define rele2 LATEbits.LE0
-// saídas (colunas), ativadas por 0
-#define C1 LATBbits.LB0
-#define C2 LATBbits.LB1
-#define C3 LATBbits.LB2
+#define aquecedor LATCbits.LC1
 
-// entradas (linhas), com pull-up externo
-#define L1 PORTDbits.RD3
-#define L2 PORTDbits.RD2
-#define L3 PORTDbits.RD1
-#define L4 PORTDbits.RD0
 
 void main(void) 
 {
     //ADCON0 = 0b00000000;
-    //ADCON1 = 0x6; //configura todos os pinos AD como I/O
+    ADCON1 = 0x6; //configura todos os pinos AD da porta B como I/O
     //ADCON2 = 0b00000000;
     //INTCON = 0b00000000;
     //INTCON2 = 0b00000000;
@@ -63,12 +55,16 @@ void main(void)
     adc_init(); // configura registradores ADCON
     Lcd_Init();
     Lcd_Cmd(LCD_CURSOR_OFF); 
-
+    
+    aquecedor = 1; //Na placa EXTO NEO201, incluir jumper em RC1/SW0 e SW0/Aquecedor
+    // ventilador está em RC2
+    // lm35 em AN0
+    
 unsigned int adc_amostra(unsigned char canal);
     while(1) 
     {
         CLRWDT();
-        adcResult = (adc_amostra(0));
+        adcResult = (adc_amostra(1));  //Sensor de temperatura: PICGêncios AN1, Exto AN0
         volt = (adcResult*5.0)/1023;
         sprintf(str, "ADC = %04d", adcResult);
         Lcd_Out(1, 0, str);

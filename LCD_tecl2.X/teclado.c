@@ -1,61 +1,97 @@
-/* ########################################################################
-
-   PICsim - PIC simulator http://sourceforge.net/projects/picsim/
-
-   ########################################################################
-
-   Copyright (c) : 2015  Luis Claudio Gambôa Lopes
-
-   This program is free software; you can redistribute it and/or modify
-   it under the terms of the GNU General Public License as published by
-   the Free Software Foundation; either version 2, or (at your option)
-   any later version.
-
-   This program is distributed in the hope that it will be useful,
-   but WITHOUT ANY WARRANTY; without even the implied warranty of
-   MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
-   GNU General Public License for more details.
-
-   You should have received a copy of the GNU General Public License
-   along with this program; if not, write to the Free Software
-   Foundation, Inc., 675 Mass Ave, Cambridge, MA 02139, USA.
-
-   For e-mail suggestions :  lcgamboa@yahoo.com
-   ######################################################################## */
 
 #include <xc.h>
 #include "teclado.h"
-#include "atraso.h"
+#define _XTAL_FREQ 8000000
 
-const unsigned char linha[4]= {TL1,TL2,TL3};
 
-unsigned char tc_tecla(unsigned int timeout)
+unsigned char tc_tecla()
 {
-  unsigned int to=0;
-  unsigned char i;
-  unsigned char ret=0;
-  unsigned char tmp=PORTB;
+  unsigned char key;
+
+    L1 = 1; L2 = 1; L3 = 1; L4 = 1;
+    L1 = 0; //habilita primeira coluna
+    if(!C1)        {__delay_ms(20); if (!C1){key = '1';  }}
+    else if(!C2)   {__delay_ms(20); if (!C2){key = '2';  }}
+    else if(!C3)   {__delay_ms(20); if (!C3){key = '3';  }}
+    else if(!C4)   {__delay_ms(20); if (!C4){key = '4';  }}
+
+    L1 = 1;
+    L2 = 0;
+
+//    if(!C1)        {__delay_ms(20); if (!C1){key = '4';  }}
+//    else if(!C2)   {__delay_ms(20); if (!C2){key = '5';  }}
+//    else if(!C3)   {__delay_ms(20); if (!C3){key = '6';  }}
+//    else if(!C4)   {__delay_ms(20); if (!C4){key = 'B';  }}
+
+    L2 = 1;
+    L3 = 0;
+
+    if(!C1)        {__delay_ms(20); if (!C1){key = '5';  }}
+    else if(!C2)   {__delay_ms(20); if (!C2){key = '6';  }}
+    else if(!C3)   {__delay_ms(20); if (!C3){key = '7';  }}
+    else if(!C4)   {__delay_ms(20); if (!C4){key = '8';  }}
+
+    L3 = 1;
+    L4 = 0;
+
+    if(!C1)        {__delay_ms(20); if (!C1){key = '9';  }}
+    else if(!C2)   {__delay_ms(20); if (!C2){key = '0';  }}
+    else if(!C3)   {__delay_ms(20); if (!C3){key = '-';  }}
+    else if(!C4)   {__delay_ms(20); if (!C4){key = 'x';  }}
+
+    L4 = 1;
+
+    __delay_ms(20);
 
 
-  while(((to < timeout)||(!timeout))&&(!ret))  
-  {
-    for(i=0;i<3;i++)
-    {
-      PORTB|=~linha[i];
-      if(!TC1){atraso_ms(20);if(!TC1){while(!TC1);ret= 1+i;break;}};
-      if(!TC2){atraso_ms(20);if(!TC2){while(!TC2);ret= 4+i;break;}};
-      if(!TC3){atraso_ms(20);if(!TC3){while(!TC3);ret= 7+i;break;}};
-      if(!TC4){atraso_ms(20);if(!TC4){while(!TC4);ret= 10+i;break;}};
-      PORTB &=linha[i];
-    };
-    atraso_ms(5);
-    to+=5;
-  }
-  
-  if(!ret)ret=255;
-  if(ret == 11)ret=0;
-  PORTB=tmp;
-  return ret;
+
+  return key;
+
 }
 
+
+//unsigned char tc_tecla()
+//{
+//  unsigned char key;
+//
+//    C1 = 1; C2 = 1; C3 = 1; C4 = 1;
+//    C1 = 0; //habilita primeira coluna
+//    if(!L1)        {__delay_ms(20); if (!L1){key = '1';  }}
+//    else if(!L2)   {__delay_ms(20); if (!L2){key = '4';  }}
+//    else if(!L3)   {__delay_ms(20); if (!L3){key = '7';  }}
+//    else if(!C4)   {__delay_ms(20); if (!L4){key = 'x';  }}
+//
+//    C1 = 1;
+//    C2 = 0;
+//
+//    if(!L1)        {__delay_ms(20); if (!L1){key = '2';  }}
+//    else if(!L2)   {__delay_ms(20); if (!L2){key = '5';  }}
+//    else if(!L3)   {__delay_ms(20); if (!L3){key = '8';  }}
+//    else if(!L4)   {__delay_ms(20); if (!L4){key = '0';  }}
+//
+//    C2 = 1;
+//    C3 = 0;
+//
+//    if(!L1)        {__delay_ms(20); if (!L1){key = '3';  }}
+//    else if(!L2)   {__delay_ms(20); if (!L2){key = '6';  }}
+//    else if(!L3)   {__delay_ms(20); if (!L3){key = '9';  }}
+//    else if(!L4)   {__delay_ms(20); if (!L4){key = '-';  }}
+//
+//    C3 = 1;
+//    C4 = 0;
+//    
+//    if(!L1)        {__delay_ms(20); if (!L1){key = 'A';  }}
+//    else if(!L2)   {__delay_ms(20); if (!L2){key = 'B';  }}
+//    else if(!L3)   {__delay_ms(20); if (!L3){key = 'C';  }}
+//    else if(!L4)   {__delay_ms(20); if (!L4){key = 'D';  }}
+//    
+//    C4 = 1;
+//    
+//    __delay_ms(20);
+//  
+//    
+//
+//  return key;
+
+//}
 

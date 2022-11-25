@@ -71,6 +71,7 @@
             this.aChart1 = new System.Windows.Forms.DataVisualization.Charting.Chart();
             this.tabControl1 = new System.Windows.Forms.TabControl();
             this.tabPageComunic = new System.Windows.Forms.TabPage();
+            this.btTeste = new System.Windows.Forms.Button();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
             this.btLiga = new System.Windows.Forms.Button();
             this.btdesliga = new System.Windows.Forms.Button();
@@ -94,7 +95,6 @@
             this.Column8 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Column9 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.timerChart1 = new System.Windows.Forms.Timer(this.components);
-            this.btTeste = new System.Windows.Forms.Button();
             this.groupBoxComSerial.SuspendLayout();
             this.menuStrip1.SuspendLayout();
             this.groupBoxMedicoes.SuspendLayout();
@@ -114,10 +114,9 @@
             // comboBox1
             // 
             this.comboBox1.FormattingEnabled = true;
-            this.comboBox1.Location = new System.Drawing.Point(142, 30);
-            this.comboBox1.Margin = new System.Windows.Forms.Padding(4);
+            this.comboBox1.Location = new System.Drawing.Point(106, 24);
             this.comboBox1.Name = "comboBox1";
-            this.comboBox1.Size = new System.Drawing.Size(119, 24);
+            this.comboBox1.Size = new System.Drawing.Size(90, 21);
             this.comboBox1.TabIndex = 0;
             this.comboBox1.SelectedIndexChanged += new System.EventHandler(this.comboBox1_SelectedIndexChanged);
             // 
@@ -127,28 +126,25 @@
             // 
             // textBoxEntrada
             // 
-            this.textBoxEntrada.Location = new System.Drawing.Point(8, 89);
-            this.textBoxEntrada.Margin = new System.Windows.Forms.Padding(4);
+            this.textBoxEntrada.Location = new System.Drawing.Point(6, 72);
             this.textBoxEntrada.Multiline = true;
             this.textBoxEntrada.Name = "textBoxEntrada";
-            this.textBoxEntrada.Size = new System.Drawing.Size(824, 239);
+            this.textBoxEntrada.Size = new System.Drawing.Size(619, 195);
             this.textBoxEntrada.TabIndex = 1;
             // 
             // textBoxSaida
             // 
-            this.textBoxSaida.Location = new System.Drawing.Point(9, 364);
-            this.textBoxSaida.Margin = new System.Windows.Forms.Padding(4);
+            this.textBoxSaida.Location = new System.Drawing.Point(7, 296);
             this.textBoxSaida.Multiline = true;
             this.textBoxSaida.Name = "textBoxSaida";
-            this.textBoxSaida.Size = new System.Drawing.Size(457, 41);
+            this.textBoxSaida.Size = new System.Drawing.Size(344, 34);
             this.textBoxSaida.TabIndex = 2;
             // 
             // buttonLimpar
             // 
-            this.buttonLimpar.Location = new System.Drawing.Point(744, 330);
-            this.buttonLimpar.Margin = new System.Windows.Forms.Padding(4);
+            this.buttonLimpar.Location = new System.Drawing.Point(558, 268);
             this.buttonLimpar.Name = "buttonLimpar";
-            this.buttonLimpar.Size = new System.Drawing.Size(89, 28);
+            this.buttonLimpar.Size = new System.Drawing.Size(67, 23);
             this.buttonLimpar.TabIndex = 3;
             this.buttonLimpar.Text = "Limpar";
             this.buttonLimpar.UseVisualStyleBackColor = true;
@@ -156,10 +152,9 @@
             // 
             // buttonEnviar
             // 
-            this.buttonEnviar.Location = new System.Drawing.Point(476, 378);
-            this.buttonEnviar.Margin = new System.Windows.Forms.Padding(4);
+            this.buttonEnviar.Location = new System.Drawing.Point(357, 307);
             this.buttonEnviar.Name = "buttonEnviar";
-            this.buttonEnviar.Size = new System.Drawing.Size(100, 28);
+            this.buttonEnviar.Size = new System.Drawing.Size(75, 23);
             this.buttonEnviar.TabIndex = 4;
             this.buttonEnviar.Text = "Enviar";
             this.buttonEnviar.UseVisualStyleBackColor = true;
@@ -167,10 +162,9 @@
             // 
             // buttonAtualizar
             // 
-            this.buttonAtualizar.Location = new System.Drawing.Point(269, 30);
-            this.buttonAtualizar.Margin = new System.Windows.Forms.Padding(4);
+            this.buttonAtualizar.Location = new System.Drawing.Point(202, 24);
             this.buttonAtualizar.Name = "buttonAtualizar";
-            this.buttonAtualizar.Size = new System.Drawing.Size(100, 28);
+            this.buttonAtualizar.Size = new System.Drawing.Size(75, 23);
             this.buttonAtualizar.TabIndex = 8;
             this.buttonAtualizar.Text = "Atualizar";
             this.buttonAtualizar.UseVisualStyleBackColor = true;
@@ -179,10 +173,9 @@
             // labelSelecPorta
             // 
             this.labelSelecPorta.AutoSize = true;
-            this.labelSelecPorta.Location = new System.Drawing.Point(11, 34);
-            this.labelSelecPorta.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.labelSelecPorta.Location = new System.Drawing.Point(8, 28);
             this.labelSelecPorta.Name = "labelSelecPorta";
-            this.labelSelecPorta.Size = new System.Drawing.Size(123, 17);
+            this.labelSelecPorta.Size = new System.Drawing.Size(93, 13);
             this.labelSelecPorta.TabIndex = 10;
             this.labelSelecPorta.Text = "Selecione a porta:";
             // 
@@ -197,11 +190,9 @@
             this.groupBoxComSerial.Controls.Add(this.buttonLimpar);
             this.groupBoxComSerial.Controls.Add(this.textBoxSaida);
             this.groupBoxComSerial.Controls.Add(this.buttonEnviar);
-            this.groupBoxComSerial.Location = new System.Drawing.Point(11, 7);
-            this.groupBoxComSerial.Margin = new System.Windows.Forms.Padding(4);
+            this.groupBoxComSerial.Location = new System.Drawing.Point(8, 6);
             this.groupBoxComSerial.Name = "groupBoxComSerial";
-            this.groupBoxComSerial.Padding = new System.Windows.Forms.Padding(4);
-            this.groupBoxComSerial.Size = new System.Drawing.Size(841, 420);
+            this.groupBoxComSerial.Size = new System.Drawing.Size(631, 341);
             this.groupBoxComSerial.TabIndex = 11;
             this.groupBoxComSerial.TabStop = false;
             this.groupBoxComSerial.Text = "Comunicação Serial";
@@ -209,31 +200,28 @@
             // labelSaidaDados
             // 
             this.labelSaidaDados.AutoSize = true;
-            this.labelSaidaDados.Location = new System.Drawing.Point(8, 341);
-            this.labelSaidaDados.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.labelSaidaDados.Location = new System.Drawing.Point(6, 277);
             this.labelSaidaDados.Name = "labelSaidaDados";
-            this.labelSaidaDados.Size = new System.Drawing.Size(113, 17);
+            this.labelSaidaDados.Size = new System.Drawing.Size(88, 13);
             this.labelSaidaDados.TabIndex = 12;
             this.labelSaidaDados.Text = "Saída de Dados:";
             // 
             // labelEntradaDados
             // 
             this.labelEntradaDados.AutoSize = true;
-            this.labelEntradaDados.Location = new System.Drawing.Point(8, 69);
-            this.labelEntradaDados.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.labelEntradaDados.Location = new System.Drawing.Point(6, 56);
             this.labelEntradaDados.Name = "labelEntradaDados";
-            this.labelEntradaDados.Size = new System.Drawing.Size(127, 17);
+            this.labelEntradaDados.Size = new System.Drawing.Size(96, 13);
             this.labelEntradaDados.TabIndex = 11;
             this.labelEntradaDados.Text = "Entrada de Dados:";
             // 
             // labelMed6
             // 
             this.labelMed6.AutoSize = true;
-            this.labelMed6.Location = new System.Drawing.Point(216, 197);
-            this.labelMed6.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-            this.labelMed6.MaximumSize = new System.Drawing.Size(53, 16);
+            this.labelMed6.Location = new System.Drawing.Point(162, 160);
+            this.labelMed6.MaximumSize = new System.Drawing.Size(40, 13);
             this.labelMed6.Name = "labelMed6";
-            this.labelMed6.Size = new System.Drawing.Size(16, 16);
+            this.labelMed6.Size = new System.Drawing.Size(13, 13);
             this.labelMed6.TabIndex = 29;
             this.labelMed6.Text = "0";
             // 
@@ -242,22 +230,20 @@
             this.labelMed5.AutoSize = true;
             this.labelMed5.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.labelMed5.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.labelMed5.Location = new System.Drawing.Point(216, 165);
-            this.labelMed5.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-            this.labelMed5.MaximumSize = new System.Drawing.Size(43, 25);
+            this.labelMed5.Location = new System.Drawing.Point(162, 134);
+            this.labelMed5.MaximumSize = new System.Drawing.Size(32, 20);
             this.labelMed5.Name = "labelMed5";
-            this.labelMed5.Size = new System.Drawing.Size(16, 17);
+            this.labelMed5.Size = new System.Drawing.Size(13, 13);
             this.labelMed5.TabIndex = 22;
             this.labelMed5.Text = "0";
             // 
             // labelMed1
             // 
             this.labelMed1.AutoSize = true;
-            this.labelMed1.Location = new System.Drawing.Point(216, 37);
-            this.labelMed1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-            this.labelMed1.MaximumSize = new System.Drawing.Size(37, 16);
+            this.labelMed1.Location = new System.Drawing.Point(162, 30);
+            this.labelMed1.MaximumSize = new System.Drawing.Size(28, 13);
             this.labelMed1.Name = "labelMed1";
-            this.labelMed1.Size = new System.Drawing.Size(16, 16);
+            this.labelMed1.Size = new System.Drawing.Size(13, 13);
             this.labelMed1.TabIndex = 18;
             this.labelMed1.Text = "0";
             // 
@@ -266,43 +252,39 @@
             this.labelMed4.AutoSize = true;
             this.labelMed4.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.labelMed4.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.labelMed4.Location = new System.Drawing.Point(216, 133);
-            this.labelMed4.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-            this.labelMed4.MaximumSize = new System.Drawing.Size(43, 25);
+            this.labelMed4.Location = new System.Drawing.Point(162, 108);
+            this.labelMed4.MaximumSize = new System.Drawing.Size(32, 20);
             this.labelMed4.Name = "labelMed4";
-            this.labelMed4.Size = new System.Drawing.Size(16, 17);
+            this.labelMed4.Size = new System.Drawing.Size(13, 13);
             this.labelMed4.TabIndex = 21;
             this.labelMed4.Text = "0";
             // 
             // labelMed2
             // 
             this.labelMed2.AutoSize = true;
-            this.labelMed2.Location = new System.Drawing.Point(216, 69);
-            this.labelMed2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-            this.labelMed2.MaximumSize = new System.Drawing.Size(37, 16);
+            this.labelMed2.Location = new System.Drawing.Point(162, 56);
+            this.labelMed2.MaximumSize = new System.Drawing.Size(28, 13);
             this.labelMed2.Name = "labelMed2";
-            this.labelMed2.Size = new System.Drawing.Size(16, 16);
+            this.labelMed2.Size = new System.Drawing.Size(13, 13);
             this.labelMed2.TabIndex = 19;
             this.labelMed2.Text = "0";
             // 
             // labelMed3
             // 
             this.labelMed3.AutoSize = true;
-            this.labelMed3.Location = new System.Drawing.Point(216, 101);
-            this.labelMed3.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-            this.labelMed3.MaximumSize = new System.Drawing.Size(37, 16);
+            this.labelMed3.Location = new System.Drawing.Point(162, 82);
+            this.labelMed3.MaximumSize = new System.Drawing.Size(28, 13);
             this.labelMed3.Name = "labelMed3";
-            this.labelMed3.Size = new System.Drawing.Size(16, 16);
+            this.labelMed3.Size = new System.Drawing.Size(13, 13);
             this.labelMed3.TabIndex = 20;
             this.labelMed3.Text = "0";
             // 
             // label18
             // 
             this.label18.AutoSize = true;
-            this.label18.Location = new System.Drawing.Point(264, 37);
-            this.label18.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label18.Location = new System.Drawing.Point(198, 30);
             this.label18.Name = "label18";
-            this.label18.Size = new System.Drawing.Size(61, 17);
+            this.label18.Size = new System.Drawing.Size(47, 13);
             this.label18.TabIndex = 33;
             this.label18.Text = "Unidade";
             // 
@@ -314,8 +296,8 @@
             this.AjudaStripMenuItem});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
-            this.menuStrip1.Padding = new System.Windows.Forms.Padding(5, 2, 0, 2);
-            this.menuStrip1.Size = new System.Drawing.Size(1343, 28);
+            this.menuStrip1.Padding = new System.Windows.Forms.Padding(4, 2, 0, 2);
+            this.menuStrip1.Size = new System.Drawing.Size(1008, 24);
             this.menuStrip1.TabIndex = 12;
             this.menuStrip1.Text = "menuStrip1";
             // 
@@ -324,13 +306,13 @@
             this.ArquivotoolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.sairToolStripMenuItem});
             this.ArquivotoolStripMenuItem.Name = "ArquivotoolStripMenuItem";
-            this.ArquivotoolStripMenuItem.Size = new System.Drawing.Size(75, 24);
+            this.ArquivotoolStripMenuItem.Size = new System.Drawing.Size(61, 20);
             this.ArquivotoolStripMenuItem.Text = "Arquivo";
             // 
             // sairToolStripMenuItem
             // 
             this.sairToolStripMenuItem.Name = "sairToolStripMenuItem";
-            this.sairToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
+            this.sairToolStripMenuItem.Size = new System.Drawing.Size(93, 22);
             this.sairToolStripMenuItem.Text = "Sair";
             this.sairToolStripMenuItem.Click += new System.EventHandler(this.sairToolStripMenuItem_Click);
             // 
@@ -339,13 +321,13 @@
             this.AjudaStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.sobreToolStripMenuItem});
             this.AjudaStripMenuItem.Name = "AjudaStripMenuItem";
-            this.AjudaStripMenuItem.Size = new System.Drawing.Size(62, 24);
+            this.AjudaStripMenuItem.Size = new System.Drawing.Size(50, 20);
             this.AjudaStripMenuItem.Text = "Ajuda";
             // 
             // sobreToolStripMenuItem
             // 
             this.sobreToolStripMenuItem.Name = "sobreToolStripMenuItem";
-            this.sobreToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
+            this.sobreToolStripMenuItem.Size = new System.Drawing.Size(104, 22);
             this.sobreToolStripMenuItem.Text = "Sobre";
             this.sobreToolStripMenuItem.Click += new System.EventHandler(this.sobreToolStripMenuItem_Click);
             // 
@@ -380,8 +362,7 @@
             this.aGauge1.CapText = "";
             this.aGauge1.Center = new System.Drawing.Point(100, 100);
             this.aGauge1.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.aGauge1.Location = new System.Drawing.Point(25, 26);
-            this.aGauge1.Margin = new System.Windows.Forms.Padding(4);
+            this.aGauge1.Location = new System.Drawing.Point(19, 21);
             this.aGauge1.MaxValue = 50F;
             this.aGauge1.MinValue = 0F;
             this.aGauge1.Name = "aGauge1";
@@ -453,7 +434,7 @@
             this.aGauge1.ScaleNumbersRotation = 0;
             this.aGauge1.ScaleNumbersStartScaleLine = 0;
             this.aGauge1.ScaleNumbersStepScaleLines = 1;
-            this.aGauge1.Size = new System.Drawing.Size(276, 139);
+            this.aGauge1.Size = new System.Drawing.Size(207, 113);
             this.aGauge1.TabIndex = 14;
             this.aGauge1.Text = "\\";
             this.aGauge1.Value = 0F;
@@ -489,8 +470,7 @@
             this.aGauge2.CapText = "";
             this.aGauge2.Center = new System.Drawing.Point(100, 100);
             this.aGauge2.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.aGauge2.Location = new System.Drawing.Point(25, 192);
-            this.aGauge2.Margin = new System.Windows.Forms.Padding(4);
+            this.aGauge2.Location = new System.Drawing.Point(19, 156);
             this.aGauge2.MaxValue = 50F;
             this.aGauge2.MinValue = 0F;
             this.aGauge2.Name = "aGauge2";
@@ -562,7 +542,7 @@
             this.aGauge2.ScaleNumbersRotation = 0;
             this.aGauge2.ScaleNumbersStartScaleLine = 0;
             this.aGauge2.ScaleNumbersStepScaleLines = 1;
-            this.aGauge2.Size = new System.Drawing.Size(276, 139);
+            this.aGauge2.Size = new System.Drawing.Size(207, 113);
             this.aGauge2.TabIndex = 15;
             this.aGauge2.Text = "aGauge2";
             this.aGauge2.Value = 0F;
@@ -570,20 +550,18 @@
             // labelTempAmb
             // 
             this.labelTempAmb.AutoSize = true;
-            this.labelTempAmb.Location = new System.Drawing.Point(109, 335);
-            this.labelTempAmb.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.labelTempAmb.Location = new System.Drawing.Point(82, 272);
             this.labelTempAmb.Name = "labelTempAmb";
-            this.labelTempAmb.Size = new System.Drawing.Size(83, 17);
+            this.labelTempAmb.Size = new System.Drawing.Size(62, 13);
             this.labelTempAmb.TabIndex = 16;
             this.labelTempAmb.Text = "Grandeza 2";
             // 
             // labelTempSolo
             // 
             this.labelTempSolo.AutoSize = true;
-            this.labelTempSolo.Location = new System.Drawing.Point(109, 157);
-            this.labelTempSolo.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.labelTempSolo.Location = new System.Drawing.Point(82, 128);
             this.labelTempSolo.Name = "labelTempSolo";
-            this.labelTempSolo.Size = new System.Drawing.Size(83, 17);
+            this.labelTempSolo.Size = new System.Drawing.Size(62, 13);
             this.labelTempSolo.TabIndex = 17;
             this.labelTempSolo.Text = "Grandeza 1";
             // 
@@ -598,11 +576,9 @@
             this.groupBoxMedicoes.Controls.Add(this.labelMed2);
             this.groupBoxMedicoes.Controls.Add(this.labelMed4);
             this.groupBoxMedicoes.Controls.Add(this.labelMed3);
-            this.groupBoxMedicoes.Location = new System.Drawing.Point(972, 7);
-            this.groupBoxMedicoes.Margin = new System.Windows.Forms.Padding(4);
+            this.groupBoxMedicoes.Location = new System.Drawing.Point(729, 6);
             this.groupBoxMedicoes.Name = "groupBoxMedicoes";
-            this.groupBoxMedicoes.Padding = new System.Windows.Forms.Padding(4);
-            this.groupBoxMedicoes.Size = new System.Drawing.Size(348, 374);
+            this.groupBoxMedicoes.Size = new System.Drawing.Size(261, 304);
             this.groupBoxMedicoes.TabIndex = 56;
             this.groupBoxMedicoes.TabStop = false;
             this.groupBoxMedicoes.Text = "Medições";
@@ -610,11 +586,10 @@
             // labelMed7
             // 
             this.labelMed7.AutoSize = true;
-            this.labelMed7.Location = new System.Drawing.Point(216, 229);
-            this.labelMed7.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-            this.labelMed7.MaximumSize = new System.Drawing.Size(53, 16);
+            this.labelMed7.Location = new System.Drawing.Point(162, 186);
+            this.labelMed7.MaximumSize = new System.Drawing.Size(40, 13);
             this.labelMed7.Name = "labelMed7";
-            this.labelMed7.Size = new System.Drawing.Size(16, 16);
+            this.labelMed7.Size = new System.Drawing.Size(13, 13);
             this.labelMed7.TabIndex = 35;
             this.labelMed7.Text = "0";
             // 
@@ -624,11 +599,10 @@
             this.MedicoesTextBox.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.MedicoesTextBox.Cursor = System.Windows.Forms.Cursors.Arrow;
             this.MedicoesTextBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.MedicoesTextBox.Location = new System.Drawing.Point(8, 37);
-            this.MedicoesTextBox.Margin = new System.Windows.Forms.Padding(4);
+            this.MedicoesTextBox.Location = new System.Drawing.Point(6, 30);
             this.MedicoesTextBox.Name = "MedicoesTextBox";
             this.MedicoesTextBox.ReadOnly = true;
-            this.MedicoesTextBox.Size = new System.Drawing.Size(184, 230);
+            this.MedicoesTextBox.Size = new System.Drawing.Size(138, 187);
             this.MedicoesTextBox.TabIndex = 22;
             this.MedicoesTextBox.Text = "Medição 1:\n\nMedição 2:\n\nMedição 3:\n\nMedição 4:\n\nMedição 5:\n\nMedição 6:\n\nMedição 7" +
     ":";
@@ -639,11 +613,9 @@
             this.groupBoxTemperaturas.Controls.Add(this.aGauge1);
             this.groupBoxTemperaturas.Controls.Add(this.aGauge2);
             this.groupBoxTemperaturas.Controls.Add(this.labelTempAmb);
-            this.groupBoxTemperaturas.Location = new System.Drawing.Point(972, 389);
-            this.groupBoxTemperaturas.Margin = new System.Windows.Forms.Padding(4);
+            this.groupBoxTemperaturas.Location = new System.Drawing.Point(729, 316);
             this.groupBoxTemperaturas.Name = "groupBoxTemperaturas";
-            this.groupBoxTemperaturas.Padding = new System.Windows.Forms.Padding(4);
-            this.groupBoxTemperaturas.Size = new System.Drawing.Size(348, 391);
+            this.groupBoxTemperaturas.Size = new System.Drawing.Size(261, 318);
             this.groupBoxTemperaturas.TabIndex = 58;
             this.groupBoxTemperaturas.TabStop = false;
             this.groupBoxTemperaturas.Text = "Indicações";
@@ -652,11 +624,9 @@
             // 
             this.GroupBoxGraficos.Controls.Add(this.aChart2);
             this.GroupBoxGraficos.Controls.Add(this.aChart1);
-            this.GroupBoxGraficos.Location = new System.Drawing.Point(4, 7);
-            this.GroupBoxGraficos.Margin = new System.Windows.Forms.Padding(4);
+            this.GroupBoxGraficos.Location = new System.Drawing.Point(3, 6);
             this.GroupBoxGraficos.Name = "GroupBoxGraficos";
-            this.GroupBoxGraficos.Padding = new System.Windows.Forms.Padding(4);
-            this.GroupBoxGraficos.Size = new System.Drawing.Size(960, 773);
+            this.GroupBoxGraficos.Size = new System.Drawing.Size(720, 628);
             this.GroupBoxGraficos.TabIndex = 59;
             this.GroupBoxGraficos.TabStop = false;
             this.GroupBoxGraficos.Text = "Gráficos";
@@ -667,15 +637,14 @@
             this.aChart2.ChartAreas.Add(chartArea1);
             legend1.Name = "Legend1";
             this.aChart2.Legends.Add(legend1);
-            this.aChart2.Location = new System.Drawing.Point(8, 366);
-            this.aChart2.Margin = new System.Windows.Forms.Padding(4);
+            this.aChart2.Location = new System.Drawing.Point(6, 297);
             this.aChart2.Name = "aChart2";
             series1.ChartArea = "ChartArea1";
             series1.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Area;
             series1.Legend = "Legend1";
             series1.Name = "Temperatura Filtrada";
             this.aChart2.Series.Add(series1);
-            this.aChart2.Size = new System.Drawing.Size(944, 350);
+            this.aChart2.Size = new System.Drawing.Size(708, 284);
             this.aChart2.TabIndex = 22;
             this.aChart2.Text = "chart1";
             // 
@@ -685,15 +654,14 @@
             this.aChart1.ChartAreas.Add(chartArea2);
             legend2.Name = "Legend1";
             this.aChart1.Legends.Add(legend2);
-            this.aChart1.Location = new System.Drawing.Point(8, 23);
-            this.aChart1.Margin = new System.Windows.Forms.Padding(4);
+            this.aChart1.Location = new System.Drawing.Point(6, 19);
             this.aChart1.Name = "aChart1";
             series2.ChartArea = "ChartArea1";
             series2.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Area;
             series2.Legend = "Legend1";
             series2.Name = "Temperatura";
             this.aChart1.Series.Add(series2);
-            this.aChart1.Size = new System.Drawing.Size(944, 350);
+            this.aChart1.Size = new System.Drawing.Size(708, 284);
             this.aChart1.TabIndex = 21;
             this.aChart1.Text = "aChart";
             // 
@@ -702,11 +670,10 @@
             this.tabControl1.Controls.Add(this.tabPageComunic);
             this.tabControl1.Controls.Add(this.tabPageMed);
             this.tabControl1.Controls.Add(this.tabPage1);
-            this.tabControl1.Location = new System.Drawing.Point(2, 32);
-            this.tabControl1.Margin = new System.Windows.Forms.Padding(4);
+            this.tabControl1.Location = new System.Drawing.Point(2, 26);
             this.tabControl1.Name = "tabControl1";
             this.tabControl1.SelectedIndex = 0;
-            this.tabControl1.Size = new System.Drawing.Size(1341, 818);
+            this.tabControl1.Size = new System.Drawing.Size(1006, 665);
             this.tabControl1.TabIndex = 60;
             // 
             // tabPageComunic
@@ -715,31 +682,43 @@
             this.tabPageComunic.Controls.Add(this.groupBox2);
             this.tabPageComunic.Controls.Add(this.groupBox1);
             this.tabPageComunic.Controls.Add(this.groupBoxComSerial);
-            this.tabPageComunic.Location = new System.Drawing.Point(4, 25);
-            this.tabPageComunic.Margin = new System.Windows.Forms.Padding(4);
+            this.tabPageComunic.Location = new System.Drawing.Point(4, 22);
             this.tabPageComunic.Name = "tabPageComunic";
-            this.tabPageComunic.Padding = new System.Windows.Forms.Padding(4);
-            this.tabPageComunic.Size = new System.Drawing.Size(1333, 789);
+            this.tabPageComunic.Padding = new System.Windows.Forms.Padding(3);
+            this.tabPageComunic.Size = new System.Drawing.Size(998, 639);
             this.tabPageComunic.TabIndex = 0;
             this.tabPageComunic.Text = "Comunicação";
             this.tabPageComunic.UseVisualStyleBackColor = true;
+            // 
+            // btTeste
+            // 
+            this.btTeste.Location = new System.Drawing.Point(662, 216);
+            this.btTeste.Margin = new System.Windows.Forms.Padding(2);
+            this.btTeste.Name = "btTeste";
+            this.btTeste.Size = new System.Drawing.Size(114, 56);
+            this.btTeste.TabIndex = 65;
+            this.btTeste.Text = "Teste";
+            this.btTeste.UseVisualStyleBackColor = true;
             // 
             // groupBox2
             // 
             this.groupBox2.Controls.Add(this.btLiga);
             this.groupBox2.Controls.Add(this.btdesliga);
-            this.groupBox2.Location = new System.Drawing.Point(860, 137);
+            this.groupBox2.Location = new System.Drawing.Point(645, 111);
+            this.groupBox2.Margin = new System.Windows.Forms.Padding(2);
             this.groupBox2.Name = "groupBox2";
-            this.groupBox2.Size = new System.Drawing.Size(267, 100);
+            this.groupBox2.Padding = new System.Windows.Forms.Padding(2);
+            this.groupBox2.Size = new System.Drawing.Size(200, 81);
             this.groupBox2.TabIndex = 64;
             this.groupBox2.TabStop = false;
             this.groupBox2.Text = "Heater";
             // 
             // btLiga
             // 
-            this.btLiga.Location = new System.Drawing.Point(6, 21);
+            this.btLiga.Location = new System.Drawing.Point(4, 17);
+            this.btLiga.Margin = new System.Windows.Forms.Padding(2);
             this.btLiga.Name = "btLiga";
-            this.btLiga.Size = new System.Drawing.Size(75, 44);
+            this.btLiga.Size = new System.Drawing.Size(56, 36);
             this.btLiga.TabIndex = 62;
             this.btLiga.Text = "Liga";
             this.btLiga.UseVisualStyleBackColor = true;
@@ -747,9 +726,10 @@
             // 
             // btdesliga
             // 
-            this.btdesliga.Location = new System.Drawing.Point(99, 21);
+            this.btdesliga.Location = new System.Drawing.Point(74, 17);
+            this.btdesliga.Margin = new System.Windows.Forms.Padding(2);
             this.btdesliga.Name = "btdesliga";
-            this.btdesliga.Size = new System.Drawing.Size(75, 44);
+            this.btdesliga.Size = new System.Drawing.Size(56, 36);
             this.btdesliga.TabIndex = 63;
             this.btdesliga.Text = "desliga";
             this.btdesliga.UseVisualStyleBackColor = true;
@@ -763,11 +743,9 @@
             this.groupBox1.Controls.Add(this.label1);
             this.groupBox1.Controls.Add(this.label3);
             this.groupBox1.Controls.Add(this.label2);
-            this.groupBox1.Location = new System.Drawing.Point(860, 7);
-            this.groupBox1.Margin = new System.Windows.Forms.Padding(4);
+            this.groupBox1.Location = new System.Drawing.Point(645, 6);
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Padding = new System.Windows.Forms.Padding(4);
-            this.groupBox1.Size = new System.Drawing.Size(267, 123);
+            this.groupBox1.Size = new System.Drawing.Size(200, 100);
             this.groupBox1.TabIndex = 61;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Exemplo de Recepção de Dados";
@@ -775,60 +753,54 @@
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(30, 34);
-            this.label4.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label4.Location = new System.Drawing.Point(22, 28);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(58, 17);
+            this.label4.Size = new System.Drawing.Size(45, 13);
             this.label4.TabIndex = 61;
             this.label4.Text = "Dado 1:";
             // 
             // label5
             // 
             this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(30, 92);
-            this.label5.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label5.Location = new System.Drawing.Point(22, 75);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(58, 17);
+            this.label5.Size = new System.Drawing.Size(45, 13);
             this.label5.TabIndex = 63;
             this.label5.Text = "Dado 3:";
             // 
             // label6
             // 
             this.label6.AutoSize = true;
-            this.label6.Location = new System.Drawing.Point(30, 62);
-            this.label6.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label6.Location = new System.Drawing.Point(22, 50);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(58, 17);
+            this.label6.Size = new System.Drawing.Size(45, 13);
             this.label6.TabIndex = 62;
             this.label6.Text = "Dado 2:";
             // 
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(125, 34);
-            this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label1.Location = new System.Drawing.Point(94, 28);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(40, 17);
+            this.label1.Size = new System.Drawing.Size(31, 13);
             this.label1.TabIndex = 58;
             this.label1.Text = "0000";
             // 
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(125, 92);
-            this.label3.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label3.Location = new System.Drawing.Point(94, 75);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(40, 17);
+            this.label3.Size = new System.Drawing.Size(31, 13);
             this.label3.TabIndex = 60;
             this.label3.Text = "0000";
             // 
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(125, 62);
-            this.label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label2.Location = new System.Drawing.Point(94, 50);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(40, 17);
+            this.label2.Size = new System.Drawing.Size(31, 13);
             this.label2.TabIndex = 59;
             this.label2.Text = "0000";
             // 
@@ -837,11 +809,10 @@
             this.tabPageMed.Controls.Add(this.groupBoxTemperaturas);
             this.tabPageMed.Controls.Add(this.GroupBoxGraficos);
             this.tabPageMed.Controls.Add(this.groupBoxMedicoes);
-            this.tabPageMed.Location = new System.Drawing.Point(4, 25);
-            this.tabPageMed.Margin = new System.Windows.Forms.Padding(4);
+            this.tabPageMed.Location = new System.Drawing.Point(4, 22);
             this.tabPageMed.Name = "tabPageMed";
-            this.tabPageMed.Padding = new System.Windows.Forms.Padding(4);
-            this.tabPageMed.Size = new System.Drawing.Size(1333, 789);
+            this.tabPageMed.Padding = new System.Windows.Forms.Padding(3);
+            this.tabPageMed.Size = new System.Drawing.Size(998, 639);
             this.tabPageMed.TabIndex = 1;
             this.tabPageMed.Text = "Medições";
             this.tabPageMed.UseVisualStyleBackColor = true;
@@ -849,11 +820,10 @@
             // tabPage1
             // 
             this.tabPage1.Controls.Add(this.dataGridViewSensor);
-            this.tabPage1.Location = new System.Drawing.Point(4, 25);
-            this.tabPage1.Margin = new System.Windows.Forms.Padding(4);
+            this.tabPage1.Location = new System.Drawing.Point(4, 22);
             this.tabPage1.Name = "tabPage1";
-            this.tabPage1.Padding = new System.Windows.Forms.Padding(4);
-            this.tabPage1.Size = new System.Drawing.Size(1333, 789);
+            this.tabPage1.Padding = new System.Windows.Forms.Padding(3);
+            this.tabPage1.Size = new System.Drawing.Size(998, 639);
             this.tabPage1.TabIndex = 5;
             this.tabPage1.Text = "Sensores";
             this.tabPage1.UseVisualStyleBackColor = true;
@@ -872,10 +842,9 @@
             this.Column8,
             this.Column9});
             this.dataGridViewSensor.Location = new System.Drawing.Point(0, 0);
-            this.dataGridViewSensor.Margin = new System.Windows.Forms.Padding(4);
             this.dataGridViewSensor.Name = "dataGridViewSensor";
             this.dataGridViewSensor.RowHeadersWidth = 62;
-            this.dataGridViewSensor.Size = new System.Drawing.Size(1269, 770);
+            this.dataGridViewSensor.Size = new System.Drawing.Size(952, 626);
             this.dataGridViewSensor.TabIndex = 0;
             // 
             // Column1
@@ -945,25 +914,15 @@
             // 
             this.timerChart1.Interval = 1000;
             // 
-            // btTeste
-            // 
-            this.btTeste.Location = new System.Drawing.Point(882, 266);
-            this.btTeste.Name = "btTeste";
-            this.btTeste.Size = new System.Drawing.Size(152, 69);
-            this.btTeste.TabIndex = 65;
-            this.btTeste.Text = "Teste";
-            this.btTeste.UseVisualStyleBackColor = true;
-            // 
             // Form1
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.AutoScroll = true;
-            this.ClientSize = new System.Drawing.Size(1344, 741);
+            this.ClientSize = new System.Drawing.Size(771, 602);
             this.Controls.Add(this.tabControl1);
             this.Controls.Add(this.menuStrip1);
             this.MainMenuStrip = this.menuStrip1;
-            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "Form1";
             this.Text = "Supervisório";
             this.WindowState = System.Windows.Forms.FormWindowState.Maximized;

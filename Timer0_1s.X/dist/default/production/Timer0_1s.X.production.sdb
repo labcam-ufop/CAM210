@@ -1,45 +1,45 @@
 [p GLOBOPT AUTOSTATIC IEEE_FLT IEEE_DBL LFSROK EMI_WORD ]
 [d version 1.1 ]
 [d edition pro ]
-[d chip 18F4550 ]
+[d chip 18F4520 ]
 [d frameptr 4065 ]
-"4 D:\MPLABX\XC8\pic\sources\c90\common\fleq.c
+"4 C:\Program Files\Microchip\xc8\v2.36\pic\sources\c90\common\fleq.c
 [v ___fleq __fleq `(b  1 e 0 0 ]
-"62 D:\MPLABX\XC8\pic\sources\c90\common\float.c
+"62 C:\Program Files\Microchip\xc8\v2.36\pic\sources\c90\common\float.c
 [v ___ftpack __ftpack `(f  1 e 4 0 ]
-"86 D:\MPLABX\XC8\pic\sources\c90\common\ftadd.c
+"86 C:\Program Files\Microchip\xc8\v2.36\pic\sources\c90\common\ftadd.c
 [v ___ftadd __ftadd `(f  1 e 4 0 ]
-"54 D:\MPLABX\XC8\pic\sources\c90\common\ftdiv.c
+"54 C:\Program Files\Microchip\xc8\v2.36\pic\sources\c90\common\ftdiv.c
 [v ___ftdiv __ftdiv `(f  1 e 4 0 ]
-"62 D:\MPLABX\XC8\pic\sources\c90\common\ftmul.c
+"62 C:\Program Files\Microchip\xc8\v2.36\pic\sources\c90\common\ftmul.c
 [v ___ftmul __ftmul `(f  1 e 4 0 ]
-"19 D:\MPLABX\XC8\pic\sources\c90\common\ftsub.c
+"19 C:\Program Files\Microchip\xc8\v2.36\pic\sources\c90\common\ftsub.c
 [v ___ftsub __ftsub `(f  1 e 4 0 ]
-"10 D:\MPLABX\XC8\pic\sources\c90\common\sprcadd.c
+"10 C:\Program Files\Microchip\xc8\v2.36\pic\sources\c90\common\sprcadd.c
 [v ___fladd __fladd `(d  1 e 4 0 ]
 "245
 [v ___flsub __flsub `(d  1 e 4 0 ]
-"11 D:\MPLABX\XC8\pic\sources\c90\common\sprcdiv.c
+"11 C:\Program Files\Microchip\xc8\v2.36\pic\sources\c90\common\sprcdiv.c
 [v ___fldiv __fldiv `(d  1 e 4 0 ]
-"8 D:\MPLABX\XC8\pic\sources\c90\common\sprcmul.c
+"8 C:\Program Files\Microchip\xc8\v2.36\pic\sources\c90\common\sprcmul.c
 [v ___flmul __flmul `(d  1 e 4 0 ]
-"15 D:\MPLABX\XC8\pic\sources\c90\common\Umul32.c
+"15 C:\Program Files\Microchip\xc8\v2.36\pic\sources\c90\common\Umul32.c
 [v ___lmul __lmul `(ul  1 e 4 0 ]
-"91 D:\MPLABX\XC8\pic\sources\c90\common\Umul64.c
+"91 C:\Program Files\Microchip\xc8\v2.36\pic\sources\c90\common\Umul64.c
 [v ___omul __omul `(ul  1 e 4 0 ]
-"18 G:\Meu Drive\1_UFOP_PERIODO_LETIVO\2020-2\CAM210\Projetos\Timer0_1s.X\main.c
+"18 C:\Users\ufop\Downloads\CAM210-main\CAM210-main\Timer0_1s.X\main1s.c
 [v _main main `(v  1 e 1 0 ]
-"64
+"65
 [v _isr isr `II(v  1 e 1 0 ]
-"2454 D:/MPLABX/XC8/pic/include/proc\pic18f4550.h
+"271 C:/Users/ufop/.mchp_packs/Microchip/PIC18Fxxxx_DFP/1.2.26/xc8\pic\include\proc\pic18f4520.h
 [v _PORTB PORTB `VEuc  1 e 1 @3969 ]
-"2706
+"632
 [v _PORTD PORTD `VEuc  1 e 1 @3971 ]
-"3074
+"1089
 [v _LATB LATB `VEuc  1 e 1 @3978 ]
-"3264
+"1313
 [v _LATD LATD `VEuc  1 e 1 @3980 ]
-[s S121 . 1 `uc 1 LATD0 1 0 :1:0 
+[s S118 . 1 `uc 1 LATD0 1 0 :1:0 
 `uc 1 LATD1 1 0 :1:1 
 `uc 1 LATD2 1 0 :1:2 
 `uc 1 LATD3 1 0 :1:3 
@@ -48,8 +48,8 @@
 `uc 1 LATD6 1 0 :1:6 
 `uc 1 LATD7 1 0 :1:7 
 ]
-"3291
-[s S130 . 1 `uc 1 LD0 1 0 :1:0 
+"1340
+[s S127 . 1 `uc 1 LD0 1 0 :1:0 
 `uc 1 LD1 1 0 :1:1 
 `uc 1 LD2 1 0 :1:2 
 `uc 1 LD3 1 0 :1:3 
@@ -58,23 +58,25 @@
 `uc 1 LD6 1 0 :1:6 
 `uc 1 LD7 1 0 :1:7 
 ]
-[u S139 . 1 `S121 1 . 1 0 `S130 1 . 1 0 ]
-[v _LATDbits LATDbits `VES139  1 e 1 @3980 ]
-"3626
+[u S136 . 1 `S118 1 . 1 0 `S127 1 . 1 0 ]
+[v _LATDbits LATDbits `VES136  1 e 1 @3980 ]
+"1699
 [v _TRISB TRISB `VEuc  1 e 1 @3987 ]
-"4002
+"1921
+[v _TRISC TRISC `VEuc  1 e 1 @3988 ]
+"2143
 [v _TRISD TRISD `VEuc  1 e 1 @3989 ]
-"6582
+"4690
 [v _ADCON1 ADCON1 `VEuc  1 e 1 @4033 ]
-"8070
+"6168
 [v _T0CON T0CON `VEuc  1 e 1 @4053 ]
-"8140
+"6251
 [v _TMR0 TMR0 `VEus  1 e 2 @4054 ]
-[s S31 . 1 `uc 1 . 1 0 :7:0 
+[s S32 . 1 `uc 1 . 1 0 :7:0 
 `uc 1 NOT_RBPU 1 0 :1:7 
 ]
-"8533
-[s S34 . 1 `uc 1 RBIP 1 0 :1:0 
+"6647
+[s S35 . 1 `uc 1 RBIP 1 0 :1:0 
 `uc 1 . 1 0 :1:1 
 `uc 1 TMR0IP 1 0 :1:2 
 `uc 1 . 1 0 :1:3 
@@ -83,14 +85,12 @@
 `uc 1 INTEDG0 1 0 :1:6 
 `uc 1 nRBPU 1 0 :1:7 
 ]
-[s S43 . 1 `uc 1 . 1 0 :2:0 
-`uc 1 T0IP 1 0 :1:2 
-`uc 1 . 1 0 :4:3 
+[s S44 . 1 `uc 1 . 1 0 :7:0 
 `uc 1 RBPU 1 0 :1:7 
 ]
-[u S48 . 1 `S31 1 . 1 0 `S34 1 . 1 0 `S43 1 . 1 0 ]
-[v _INTCON2bits INTCON2bits `VES48  1 e 1 @4081 ]
-[s S70 . 1 `uc 1 RBIF 1 0 :1:0 
+[u S47 . 1 `S32 1 . 1 0 `S35 1 . 1 0 `S44 1 . 1 0 ]
+[v _INTCON2bits INTCON2bits `VES47  1 e 1 @4081 ]
+[s S67 . 1 `uc 1 RBIF 1 0 :1:0 
 `uc 1 INT0IF 1 0 :1:1 
 `uc 1 TMR0IF 1 0 :1:2 
 `uc 1 RBIE 1 0 :1:3 
@@ -99,8 +99,8 @@
 `uc 1 PEIE_GIEL 1 0 :1:6 
 `uc 1 GIE_GIEH 1 0 :1:7 
 ]
-"8615
-[s S79 . 1 `uc 1 . 1 0 :1:0 
+"6724
+[s S76 . 1 `uc 1 . 1 0 :1:0 
 `uc 1 INT0F 1 0 :1:1 
 `uc 1 T0IF 1 0 :1:2 
 `uc 1 . 1 0 :1:3 
@@ -109,21 +109,21 @@
 `uc 1 PEIE 1 0 :1:6 
 `uc 1 GIE 1 0 :1:7 
 ]
-[s S88 . 1 `uc 1 . 1 0 :6:0 
+[s S85 . 1 `uc 1 . 1 0 :6:0 
 `uc 1 GIEL 1 0 :1:6 
 `uc 1 GIEH 1 0 :1:7 
 ]
-[u S92 . 1 `S70 1 . 1 0 `S79 1 . 1 0 `S88 1 . 1 0 ]
-[v _INTCONbits INTCONbits `VES92  1 e 1 @4082 ]
-"16 G:\Meu Drive\1_UFOP_PERIODO_LETIVO\2020-2\CAM210\Projetos\Timer0_1s.X\main.c
+[u S89 . 1 `S67 1 . 1 0 `S76 1 . 1 0 `S85 1 . 1 0 ]
+[v _INTCONbits INTCONbits `VES89  1 e 1 @4082 ]
+"16 C:\Users\ufop\Downloads\CAM210-main\CAM210-main\Timer0_1s.X\main1s.c
 [v _count count `i  1 e 2 0 ]
 "18
 [v _main main `(v  1 e 1 0 ]
 {
-"56
+"57
 } 0
-"64
+"65
 [v _isr isr `II(v  1 e 1 0 ]
 {
-"82
+"83
 } 0

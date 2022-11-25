@@ -19,16 +19,6 @@
 unsigned int segundos = 0, duty = 127, infrav = 0, count = 0, result = 0; // 0 a 255
 char str[5], buffer_tx[20], buffer_rx[20];
 
-// saídas (colunas), ativadas por 0
-#define C1 LATBbits.LB0
-#define C2 LATBbits.LB1
-#define C3 LATBbits.LB2
-
-// entradas (linhas), com pull-up externo
-#define L1 PORTDbits.RD3
-#define L2 PORTDbits.RD2
-#define L3 PORTDbits.RD1
-#define L4 PORTDbits.RD0
 
 // resistência de aquecimento RC5
 #define aquec PORTCbits.RC5
@@ -51,7 +41,7 @@ void main(void)
     TRISB = 0b00000000; 
     TRISC = 0b10000001;
     TRISD = 0b00000000; 
-    TRISE = 0b00000001;
+    TRISE = 0b00000000;
     // Clear ports
     PORTA = 0; 
     LATA = 0;
@@ -84,7 +74,7 @@ void main(void)
     {
         CLRWDT();         
         serial_rx_str_until(buffer_rx,20,'\n');  
-        Lcd_Out(2, 0, buffer_rx);
+        Lcd_Out(1, 7, buffer_rx);
     }
     return;
 }
@@ -105,7 +95,7 @@ void interrupt isr(void)
             infrav += TMR1H<<8;
             sprintf(str, "%05u",  infrav);        
             Lcd_Out(1, 0, str);
-            result = adc_amostra(1); // sensor de temperatura LM35 canal 1, 
+            result = adc_amostra(0); // sensor de temperatura LM35 canal 1, 
             sprintf(buffer_tx, "/*%04d/\n", result); 
             serial_tx_str(buffer_tx);   
             if (segundos>160)

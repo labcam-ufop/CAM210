@@ -1,31 +1,39 @@
 ### HEXMate logfile and output summary ###
+
+### Command-line arguments ###
+ dist/default/production\DigitalPorts.X.production.hex
+ -Odist/default/production\DigitalPorts.X.production.hex
+ -logfile=dist/default/production\DigitalPorts.X.production.hxl
+ -addressing=1
+ -break=300000
+
 ### Memory Usage ###
- Unused memory ranges:
+ Intel Hex-file ranges:
+  0h - 3h		(dist/default/production\DigitalPorts.X.production.hex)
+  7FB4h - 7FFFh		(dist/default/production\DigitalPorts.X.production.hex)
+  200000h - 200007h		(dist/default/production\DigitalPorts.X.production.hex)
+  300000h - 30000Dh		(dist/default/production\DigitalPorts.X.production.hex)
+ Unused ranges:
   4h - 7FB3h
   8000h - 1FFFFFh
   200008h - 2FFFFFh
-  30000Eh - 30003Fh
-  
- dist/default/production\DigitalPorts.X.production.hex ranges:
-  0h - 3h
-  7FB4h - 7FFFh
-  200000h - 200007h
-  300000h - 30000Dh
-  
+
 ### Hex Memory Map ###
  Legend:
-  - = Unused memory
-  F = Filled ROM
-  S = Stored serial code
-  A = Stored ASCII string
-  R = Reserved for checksum
-  C = Stored checksum result
-  T = Trailing code
-  & = Find & replace opcode
-  X = Find & delete opcode
-  1 = dist/default/production\DigitalPorts.X.production.hex
-00000000: 1111------------------------------------------------------------
-00007F80: ----------------------------------------------------111111111111
-00007FC0: 1111111111111111111111111111111111111111111111111111111111111111
-00200000: 11111111--------------------------------------------------------
-00300000: 11111111111111--------------------------------------------------
+  -- = Unused memory
+  H1 = Intel Hex-file         (dist/default/production\DigitalPorts.X.production.hex)
+----------------------------------------------------------
+         | 00 01 02 03 04 05 06 07 08 09 0A 0B 0C 0D 0E 0F
+----------------------------------------------------------
+00000000 | H1 H1 H1 H1 -- -- -- -- -- -- -- -- -- -- -- --
+----------------------------------------------------------
+00007FB0 | -- -- -- -- H1 H1 H1 H1 H1 H1 H1 H1 H1 H1 H1 H1
+00007FC0 | H1 H1 H1 H1 H1 H1 H1 H1 H1 H1 H1 H1 H1 H1 H1 H1
+00007FD0 | H1 H1 H1 H1 H1 H1 H1 H1 H1 H1 H1 H1 H1 H1 H1 H1
+00007FE0 | H1 H1 H1 H1 H1 H1 H1 H1 H1 H1 H1 H1 H1 H1 H1 H1
+00007FF0 | H1 H1 H1 H1 H1 H1 H1 H1 H1 H1 H1 H1 H1 H1 H1 H1
+----------------------------------------------------------
+00200000 | H1 H1 H1 H1 H1 H1 H1 H1 -- -- -- -- -- -- -- --
+----------------------------------------------------------
+00300000 | H1 H1 H1 H1 H1 H1 H1 H1 H1 H1 H1 H1 H1 H1 -- --
+00300010 | --

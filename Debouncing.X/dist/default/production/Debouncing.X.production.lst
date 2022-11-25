@@ -1,9 +1,9 @@
 
 
-Microchip MPLAB XC8 Assembler V2.31 build 20201012212115 
-                                                                                               Thu Dec 03 13:40:37 2020
+Microchip MPLAB XC8 Assembler V2.36 build 20220127204148 
+                                                                                               Tue Nov 22 17:56:22 2022
 
-Microchip MPLAB XC8 C Compiler v2.31 (Free license) build 20201012212115 Og1 
+Microchip MPLAB XC8 C Compiler v2.36 (Free license) build 20220127204148 Og1 
      1                           	processor	18F4520
      2                           	fnconf	rparam,??,?,0
      3                           	pagewidth 120
@@ -70,13 +70,13 @@ Microchip MPLAB XC8 C Compiler v2.31 (Free license) build 20201012212115 Og1
     56  007F02  000A               	dw	10
     57  0000                     _LATDbits	set	3980
     58  0000                     _PORTBbits	set	3969
-    59  0000                     _LATD	set	3980
-    60  0000                     _PORTD	set	3971
-    61  0000                     _LATB	set	3978
-    62  0000                     _PORTB	set	3969
-    63  0000                     _TRISD	set	3989
-    64  0000                     _TRISB	set	3987
-    65  0000                     _INTCON2bits	set	4081
+    59  0000                     _PORTB	set	3969
+    60  0000                     _TRISB	set	3987
+    61  0000                     _INTCON2bits	set	4081
+    62  0000                     _TRISD	set	3989
+    63  0000                     _PORTD	set	3971
+    64  0000                     _LATB	set	3978
+    65  0000                     _LATD	set	3980
     66                           
     67                           ; #config settings
     68                           
@@ -198,7 +198,7 @@ Microchip MPLAB XC8 C Compiler v2.31 (Free license) build 20201012212115 Og1
    184  007F3E                     l29:
    185  007F3E  0004               	clrwdt		;# 
    186  007F40                     
-   187                           ;mainDeb.c: 39: if (!PORTBbits.RB0)
+   187                           ;mainDeb.c: 39: if (PORTBbits.RB0==0)
    188  007F40  B081               	btfsc	129,0,c	;volatile
    189  007F42  EFA5  F03F         	goto	u11
    190  007F46  EFA7  F03F         	goto	u10
@@ -595,10 +595,10 @@ Call Graph Tables:
 
  Address spaces:
 Name               Size   Autos  Total    Cost      Usage
-BIGRAM             5FF      0       0      17        0.0%
+BIGRAM             5FF      0       0      25        0.0%
 EEDATA             100      0       0       0        0.0%
-BITBANK5           100      0       0      16        0.0%
-BANK5              100      0       0      14        0.0%
+BITBANK5           100      0       0      14        0.0%
+BANK5              100      0       0      15        0.0%
 BITBANK4           100      0       0      12        0.0%
 BANK4              100      0       0      13        0.0%
 BITBANK3           100      0       0      10        0.0%
@@ -611,17 +611,26 @@ BITBANK0            80      0       0       4        0.0%
 BANK0               80      0       0       5        0.0%
 BITCOMRAM           7F      0       1       0        0.8%
 COMRAM              7F      2       5       1        3.9%
+BITBIGSFRlhh        5B      0       0      17        0.0%
+BITBIGSFRh           E      0       0      16        0.0%
+BITBIGSFRllhhh       6      0       0      19        0.0%
+BITBIGSFRllhlh       6      0       0      21        0.0%
+BITBIGSFRllhhl       1      0       0      20        0.0%
+BITBIGSFRllhll       1      0       0      22        0.0%
+BITBIGSFRlhl         1      0       0      18        0.0%
+BITBIGSFRlll         1      0       0      23        0.0%
+BIGSFR               0      0       0     200        0.0%
 BITSFR               0      0       0     200        0.0%
 SFR                  0      0       0     200        0.0%
 STACK                0      0       0       2        0.0%
 NULL                 0      0       0       0        0.0%
-ABS                  0      0       5      15        0.0%
+ABS                  0      0       5      24        0.0%
 DATA                 0      0       5       3        0.0%
 CODE                 0      0       0       0        0.0%
 
 
-Microchip Technology PIC18 Macro Assembler V2.31 build 20201012212115 
-Symbol Table                                                                                   Thu Dec 03 13:40:37 2020
+Microchip Technology PIC18 Macro Assembler V2.36 build 20220127204148 
+Symbol Table                                                                                   Tue Nov 22 17:56:22 2022
 
                      l32 7F80                       l29 7F3E                       u10 7F4E  
                      u11 7F4A                       u20 7F5C                       u21 7F58  
@@ -638,12 +647,12 @@ Symbol Table                                                                    
                   _PORTB 000F81                    _PORTD 000F83                    _TRISB 000F93  
                   _TRISD 000F95           __pbitbssCOMRAM 0028                    tablat 000FF5  
                   status 000FD8          __initialization 7F04             __end_of_main 8000  
-                 ??_main 0003            __activetblptr 000000             __pdataCOMRAM 0001  
-                 tblptrh 000FF7                   tblptrl 000FF6                   tblptru 000FF8  
-             __accesstop 0080  __end_of__initialization 7F1E            ___rparam_used 000001  
-         __pcstackCOMRAM 0003                  __Hparam 0000                  __Lparam 0000  
-                __pcinit 7F04                  __ramtop 0600                  __ptext0 7F24  
-                _filtro0 0001     end_of_initialization 7F1E                _PORTBbits 000F81  
-          __pidataCOMRAM 7F02      start_initialization 7F04                 _LATDbits 000F8C  
-            _INTCON2bits 000FF1                 __Hrparam 0000                 __Lrparam 0000  
-               _bt_press 0028            __size_of_main 00DC  
+                 ??_main 0003            __activetblptr 000000                   isa$std 000001  
+           __pdataCOMRAM 0001                   tblptrh 000FF7                   tblptrl 000FF6  
+                 tblptru 000FF8               __accesstop 0080  __end_of__initialization 7F1E  
+          ___rparam_used 000001           __pcstackCOMRAM 0003                  __Hparam 0000  
+                __Lparam 0000                  __pcinit 7F04                  __ramtop 0600  
+                __ptext0 7F24                  _filtro0 0001     end_of_initialization 7F1E  
+              _PORTBbits 000F81            __pidataCOMRAM 7F02      start_initialization 7F04  
+               _LATDbits 000F8C              _INTCON2bits 000FF1                 __Hrparam 0000  
+               __Lrparam 0000                 _bt_press 0028                 isa$xinst 000000  

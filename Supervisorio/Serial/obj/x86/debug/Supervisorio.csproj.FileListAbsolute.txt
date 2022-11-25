@@ -78,3 +78,19 @@ D:\Drive\alankardek\2_UFOP_MATERIAL_DISCP\CAM210 - Git\CAM210\Supervisorio\Seria
 D:\Drive\alankardek\2_UFOP_MATERIAL_DISCP\CAM210 - Git\CAM210\Supervisorio\Serial\obj\x86\Debug\Serial.exe.manifest
 D:\Drive\alankardek\2_UFOP_MATERIAL_DISCP\CAM210 - Git\CAM210\Supervisorio\Serial\obj\x86\Debug\Serial.application
 D:\Drive\alankardek\2_UFOP_MATERIAL_DISCP\CAM210 - Git\CAM210\Supervisorio\Serial\obj\x86\Debug\Supervisorio.csproj.CopyComplete
+C:\Users\ufop\Downloads\CAM210-main\CAM210-main\Supervisorio\Serial\bin\Debug\Serial.exe.config
+C:\Users\ufop\Downloads\CAM210-main\CAM210-main\Supervisorio\Serial\bin\Debug\Serial.exe.manifest
+C:\Users\ufop\Downloads\CAM210-main\CAM210-main\Supervisorio\Serial\bin\Debug\Serial.application
+C:\Users\ufop\Downloads\CAM210-main\CAM210-main\Supervisorio\Serial\bin\Debug\Serial.exe
+C:\Users\ufop\Downloads\CAM210-main\CAM210-main\Supervisorio\Serial\bin\Debug\Serial.pdb
+C:\Users\ufop\Downloads\CAM210-main\CAM210-main\Supervisorio\Serial\obj\x86\Debug\Supervisorio.csproj.AssemblyReference.cache
+C:\Users\ufop\Downloads\CAM210-main\CAM210-main\Supervisorio\Serial\obj\x86\Debug\Serial.Form1.resources
+C:\Users\ufop\Downloads\CAM210-main\CAM210-main\Supervisorio\Serial\obj\x86\Debug\Serial.Form2.resources
+C:\Users\ufop\Downloads\CAM210-main\CAM210-main\Supervisorio\Serial\obj\x86\Debug\Serial.Properties.Resources.resources
+C:\Users\ufop\Downloads\CAM210-main\CAM210-main\Supervisorio\Serial\obj\x86\Debug\Supervisorio.csproj.GenerateResource.cache
+C:\Users\ufop\Downloads\CAM210-main\CAM210-main\Supervisorio\Serial\obj\x86\Debug\Supervisorio.csproj.CoreCompileInputs.cache
+C:\Users\ufop\Downloads\CAM210-main\CAM210-main\Supervisorio\Serial\obj\x86\Debug\Serial.exe.manifest
+C:\Users\ufop\Downloads\CAM210-main\CAM210-main\Supervisorio\Serial\obj\x86\Debug\Serial.application
+C:\Users\ufop\Downloads\CAM210-main\CAM210-main\Supervisorio\Serial\obj\x86\Debug\Supervisorio.csproj.CopyComplete
+C:\Users\ufop\Downloads\CAM210-main\CAM210-main\Supervisorio\Serial\obj\x86\Debug\Serial.exe
+C:\Users\ufop\Downloads\CAM210-main\CAM210-main\Supervisorio\Serial\obj\x86\Debug\Serial.pdb

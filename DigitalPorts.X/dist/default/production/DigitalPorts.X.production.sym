@@ -1,6 +1,5 @@
 __S0 8000 0 ABS 0
 __S1 0 0 ABS 0
-__S2 0 0 ABS 0
 __S4 0 0 ABS 0
 __S5 0 0 ABS 0
 __Hintentry 0 0 ABS 0
@@ -38,6 +37,8 @@ __Lbss 0 0 RAM 1
 ___param_bank 0 0 ABS 0
 __Hnvrram 0 0 COMRAM 1
 __Lnvrram 0 0 COMRAM 1
+__Hbigsfr 0 0 ABS 0
+__Lbigsfr 0 0 ABS 0
 __Heeprom_data 0 0 EEDATA 0
 __Leeprom_data 0 0 EEDATA 0
 _LATDbits F8C 0 ABS 0
@@ -63,14 +64,19 @@ __Hfardata 0 0 FARRAM 0
 __Lfardata 0 0 FARRAM 0
 __Habs1 0 0 ABS 0
 __Labs1 0 0 ABS 0
+isa$xinst 0 0 ABS 0
 __HnvFARRAM 0 0 FARRAM 0
 __LnvFARRAM 0 0 FARRAM 0
+___heap_hi 0 0 ABS 0
 __Hdata 0 0 ABS 0
 __Ldata 0 0 ABS 0
-stackhi 5FF 0 ABS 0
+isa$std 1 0 ABS 0
+stackhi 0 0 ABS 0
+__Hheap 0 0 HEAP 7
+__Lheap 0 0 HEAP 7
 __Htemp 0 0 COMRAM 1
 __Ltemp 0 0 COMRAM 1
-stacklo 80 0 ABS 0
+stacklo 0 0 ABS 0
 __Hrbit 0 0 COMRAM 1
 __Lrbit 0 0 COMRAM 1
 __Hinit 4 0 CODE 0
@@ -82,6 +88,7 @@ __end_of_main 8000 0 CODE 0
 __Lrbss 0 0 COMRAM 1
 __Htext 0 0 ABS 0
 __Ltext 0 0 ABS 0
+___heap_lo 0 0 ABS 0
 end_of_initialization 7FB4 0 CODE 0
 _PORTBbits F81 0 ABS 0
 __Hibigdata 0 0 CODE 0
@@ -138,7 +145,6 @@ __Lcinit 0 0 ABS 0
 __pcinit 7FB4 0 CODE 0
 __ramtop 600 0 RAM 0
 __mediumconst 0 0 MEDIUMCONST 0
-__size_of_main 0 0 ABS 0
 __Hconst 0 0 CONST 0
 __Lconst 0 0 CONST 0
 __Hspace_4 60000E 0 ABS 0
@@ -164,14 +170,14 @@ text0 7FBA 7FFF CODE 7FBA 0
 cinit 7FB4 7FB9 CODE 7FB4 0
 %locals
 dist/default/production\DigitalPorts.X.production.o
-D:/MPLABX/XC8/pic/include/proc\pic18f4520.h
-C:\Users\Alan Kardek\AppData\Local\Temp\snhg.s
-452 7FB4 0 CODE 0
-454 7FB4 0 CODE 0
-457 7FB4 0 CODE 0
-463 7FB4 0 CODE 0
-465 7FB4 0 CODE 0
-466 7FB6 0 CODE 0
+C:/Users/ufop/.mchp_packs/Microchip/PIC18Fxxxx_DFP/1.2.26/xc8\pic\include\proc\pic18f4520.h
+C:\Users\ufop\AppData\Local\Temp\xcAs6b4.s
+453 7FB4 0 CODE 0
+455 7FB4 0 CODE 0
+458 7FB4 0 CODE 0
+464 7FB4 0 CODE 0
+466 7FB4 0 CODE 0
+467 7FB6 0 CODE 0
 mainDigPorts.c
 18 7FBA 0 CODE 0
 25 7FBA 0 CODE 0

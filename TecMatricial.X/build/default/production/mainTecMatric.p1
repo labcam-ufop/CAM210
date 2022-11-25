@@ -1,6 +1,6 @@
 Version 3.2 HI-TECH Software Intermediate Code
 [p mainexit ]
-"6667 D:/MPLABX/XC8/pic/include/proc\pic18f4550.h
+"6667 ../../../../../../Program Files/Microchip/xc8/v2.36/pic/include/proc\pic18f4550.h
 [v _ADCON0 `Vuc ~T0 @X0 0 e@4034 ]
 "6582
 [v _ADCON1 `Vuc ~T0 @X0 0 e@4033 ]
@@ -42,9 +42,9 @@ Version 3.2 HI-TECH Software Intermediate Code
 [v _PORTE `Vuc ~T0 @X0 0 e@3972 ]
 "3376
 [v _LATE `Vuc ~T0 @X0 0 e@3981 ]
-"32 mainTecMatric.c
+"34 mainTecMatric.c
 [v _teclado `(uc ~T0 @X0 0 ef ]
-"3192 D:/MPLABX/XC8/pic/include/proc\pic18f4550.h
+"3192 ../../../../../../Program Files/Microchip/xc8/v2.36/pic/include/proc\pic18f4550.h
 [s S128 :1 `uc 1 :1 `uc 1 :1 `uc 1 :3 `uc 1 :1 `uc 1 :1 `uc 1 ]
 [n S128 . LATC0 LATC1 LATC2 . LATC6 LATC7 ]
 "3200
@@ -91,10 +91,10 @@ Version 3.2 HI-TECH Software Intermediate Code
 [n S111 . . . . ]
 "2737
 [v _PORTDbits `VS111 ~T0 @X0 0 e@3971 ]
-[v F38 `(v ~T0 @X0 1 tf1`ul ]
-"12 D:/MPLABX/XC8/pic/include\builtins.h
-[v __delay `JF38 ~T0 @X0 0 e ]
-[p i __delay ]
+[v F41 `(v ~T0 @X0 1 tf1`ul ]
+"14 ../../../../../../Program Files/Microchip/xc8/v2.36/pic/include\builtins.h
+[v __delaywdt `JF41 ~T0 @X0 0 e ]
+[p i __delaywdt ]
 "6 configbits.h
 [p x PLLDIV=1 ]
 "7
@@ -126,7 +126,7 @@ Version 3.2 HI-TECH Software Intermediate Code
 "28
 [p x LPT1OSC=OFF ]
 "29
-[p x MCLRE=ON ]
+[p x MCLRE=OFF ]
 "32
 [p x STVREN=ON ]
 "33
@@ -207,7 +207,7 @@ Version 3.2 HI-TECH Software Intermediate Code
 [; ;include\builtins.h: 14: extern __nonreentrant void _delaywdt(uint32_t);
 [; ;include\builtins.h: 17: extern __nonreentrant void _delay3(uint8_t);
 [; ;proc\pic18f4550.h: 53: extern volatile unsigned char SPPDATA __at(0xF62);
-"55 D:/MPLABX/XC8/pic/include/proc\pic18f4550.h
+"55 ../../../../../../Program Files/Microchip/xc8/v2.36/pic/include/proc\pic18f4550.h
 [; ;proc\pic18f4550.h: 55: asm("SPPDATA equ 0F62h");
 [; <" SPPDATA equ 0F62h ;# ">
 [; ;proc\pic18f4550.h: 58: typedef union {
@@ -2933,775 +2933,775 @@ Version 3.2 HI-TECH Software Intermediate Code
 "8894
 [; ;proc\pic18f4550.h: 8894: asm("TOSU equ 0FFFh");
 [; <" TOSU equ 0FFFh ;# ">
-[; ;proc\pic18f4550.h: 8905: extern volatile __bit ABDEN __at(0x7DC0);
-[; ;proc\pic18f4550.h: 8908: extern volatile __bit ABDOVF __at(0x7DC7);
-[; ;proc\pic18f4550.h: 8911: extern volatile __bit ACKDT __at(0x7E2D);
-[; ;proc\pic18f4550.h: 8914: extern volatile __bit ACKEN __at(0x7E2C);
-[; ;proc\pic18f4550.h: 8917: extern volatile __bit ACKSTAT __at(0x7E2E);
-[; ;proc\pic18f4550.h: 8920: extern volatile __bit ACQT0 __at(0x7E03);
-[; ;proc\pic18f4550.h: 8923: extern volatile __bit ACQT1 __at(0x7E04);
-[; ;proc\pic18f4550.h: 8926: extern volatile __bit ACQT2 __at(0x7E05);
-[; ;proc\pic18f4550.h: 8929: extern volatile __bit ACTVIE __at(0x7B4A);
-[; ;proc\pic18f4550.h: 8932: extern volatile __bit ACTVIF __at(0x7B42);
-[; ;proc\pic18f4550.h: 8935: extern volatile __bit ADCS0 __at(0x7E00);
-[; ;proc\pic18f4550.h: 8938: extern volatile __bit ADCS1 __at(0x7E01);
-[; ;proc\pic18f4550.h: 8941: extern volatile __bit ADCS2 __at(0x7E02);
-[; ;proc\pic18f4550.h: 8944: extern volatile __bit ADDEN __at(0x7D5B);
-[; ;proc\pic18f4550.h: 8947: extern volatile __bit __attribute__((__deprecated__)) ADDR0 __at(0x7B20);
-[; ;proc\pic18f4550.h: 8950: extern volatile __bit __attribute__((__deprecated__)) ADDR1 __at(0x7B21);
-[; ;proc\pic18f4550.h: 8953: extern volatile __bit __attribute__((__deprecated__)) ADDR2 __at(0x7B22);
-[; ;proc\pic18f4550.h: 8956: extern volatile __bit __attribute__((__deprecated__)) ADDR3 __at(0x7B23);
-[; ;proc\pic18f4550.h: 8959: extern volatile __bit ADDR4 __at(0x7B74);
-[; ;proc\pic18f4550.h: 8962: extern volatile __bit ADDR5 __at(0x7B75);
-[; ;proc\pic18f4550.h: 8965: extern volatile __bit ADDR6 __at(0x7B76);
-[; ;proc\pic18f4550.h: 8968: extern volatile __bit ADEN __at(0x7D5B);
-[; ;proc\pic18f4550.h: 8971: extern volatile __bit ADFM __at(0x7E07);
-[; ;proc\pic18f4550.h: 8974: extern volatile __bit ADIE __at(0x7CEE);
-[; ;proc\pic18f4550.h: 8977: extern volatile __bit ADIF __at(0x7CF6);
-[; ;proc\pic18f4550.h: 8980: extern volatile __bit ADIP __at(0x7CFE);
-[; ;proc\pic18f4550.h: 8983: extern volatile __bit ADON __at(0x7E10);
-[; ;proc\pic18f4550.h: 8986: extern volatile __bit AN0 __at(0x7C00);
-[; ;proc\pic18f4550.h: 8989: extern volatile __bit AN1 __at(0x7C01);
-[; ;proc\pic18f4550.h: 8992: extern volatile __bit AN2 __at(0x7C02);
-[; ;proc\pic18f4550.h: 8995: extern volatile __bit AN3 __at(0x7C03);
-[; ;proc\pic18f4550.h: 8998: extern volatile __bit AN4 __at(0x7C05);
-[; ;proc\pic18f4550.h: 9001: extern volatile __bit BCLIE __at(0x7D03);
-[; ;proc\pic18f4550.h: 9004: extern volatile __bit BCLIF __at(0x7D0B);
-[; ;proc\pic18f4550.h: 9007: extern volatile __bit BCLIP __at(0x7D13);
-[; ;proc\pic18f4550.h: 9010: extern volatile __bit BF __at(0x7E38);
-[; ;proc\pic18f4550.h: 9013: extern volatile __bit BGST __at(0x7E95);
-[; ;proc\pic18f4550.h: 9016: extern volatile __bit BOR __at(0x7E80);
-[; ;proc\pic18f4550.h: 9019: extern volatile __bit BRG16 __at(0x7DC3);
-[; ;proc\pic18f4550.h: 9022: extern volatile __bit BRGH __at(0x7D62);
-[; ;proc\pic18f4550.h: 9025: extern volatile __bit BRGH1 __at(0x7D62);
-[; ;proc\pic18f4550.h: 9028: extern volatile __bit BTOEE __at(0x7B5C);
-[; ;proc\pic18f4550.h: 9031: extern volatile __bit BTOEF __at(0x7B54);
-[; ;proc\pic18f4550.h: 9034: extern volatile __bit BTSEE __at(0x7B5F);
-[; ;proc\pic18f4550.h: 9037: extern volatile __bit BTSEF __at(0x7B57);
-[; ;proc\pic18f4550.h: 9040: extern volatile __bit BUSY __at(0x7B24);
-[; ;proc\pic18f4550.h: 9043: extern volatile __bit C1INV __at(0x7DA4);
-[; ;proc\pic18f4550.h: 9046: extern volatile __bit C1OUT __at(0x7DA6);
-[; ;proc\pic18f4550.h: 9049: extern volatile __bit C2INV __at(0x7DA5);
-[; ;proc\pic18f4550.h: 9052: extern volatile __bit C2OUT __at(0x7DA7);
-[; ;proc\pic18f4550.h: 9055: extern volatile __bit CARRY __at(0x7EC0);
-[; ;proc\pic18f4550.h: 9058: extern volatile __bit CCP1 __at(0x7C12);
-[; ;proc\pic18f4550.h: 9061: extern volatile __bit CCP10 __at(0x7C22);
-[; ;proc\pic18f4550.h: 9064: extern volatile __bit CCP1IE __at(0x7CEA);
-[; ;proc\pic18f4550.h: 9067: extern volatile __bit CCP1IF __at(0x7CF2);
-[; ;proc\pic18f4550.h: 9070: extern volatile __bit CCP1IP __at(0x7CFA);
-[; ;proc\pic18f4550.h: 9073: extern volatile __bit CCP1M0 __at(0x7DE8);
-[; ;proc\pic18f4550.h: 9076: extern volatile __bit CCP1M1 __at(0x7DE9);
-[; ;proc\pic18f4550.h: 9079: extern volatile __bit CCP1M2 __at(0x7DEA);
-[; ;proc\pic18f4550.h: 9082: extern volatile __bit CCP1M3 __at(0x7DEB);
-[; ;proc\pic18f4550.h: 9085: extern volatile __bit CCP2 __at(0x7C11);
-[; ;proc\pic18f4550.h: 9088: extern volatile __bit CCP2E __at(0x7C27);
-[; ;proc\pic18f4550.h: 9091: extern volatile __bit CCP2IE __at(0x7D00);
-[; ;proc\pic18f4550.h: 9094: extern volatile __bit CCP2IF __at(0x7D08);
-[; ;proc\pic18f4550.h: 9097: extern volatile __bit CCP2IP __at(0x7D10);
-[; ;proc\pic18f4550.h: 9100: extern volatile __bit CCP2M0 __at(0x7DD0);
-[; ;proc\pic18f4550.h: 9103: extern volatile __bit CCP2M1 __at(0x7DD1);
-[; ;proc\pic18f4550.h: 9106: extern volatile __bit CCP2M2 __at(0x7DD2);
-[; ;proc\pic18f4550.h: 9109: extern volatile __bit CCP2M3 __at(0x7DD3);
-[; ;proc\pic18f4550.h: 9112: extern volatile __bit CCP2_PA2 __at(0x7C0B);
-[; ;proc\pic18f4550.h: 9115: extern volatile __bit CCP9E __at(0x7C23);
-[; ;proc\pic18f4550.h: 9118: extern volatile __bit CFGS __at(0x7D36);
-[; ;proc\pic18f4550.h: 9121: extern volatile __bit CHS0 __at(0x7E12);
-[; ;proc\pic18f4550.h: 9124: extern volatile __bit CHS1 __at(0x7E13);
-[; ;proc\pic18f4550.h: 9127: extern volatile __bit CHS2 __at(0x7E14);
-[; ;proc\pic18f4550.h: 9130: extern volatile __bit CHS3 __at(0x7E15);
-[; ;proc\pic18f4550.h: 9133: extern volatile __bit CHSN3 __at(0x7E0B);
-[; ;proc\pic18f4550.h: 9136: extern volatile __bit CIS __at(0x7DA3);
-[; ;proc\pic18f4550.h: 9139: extern volatile __bit CK __at(0x7C16);
-[; ;proc\pic18f4550.h: 9142: extern volatile __bit CK1SPP __at(0x7C20);
-[; ;proc\pic18f4550.h: 9145: extern volatile __bit CK2SPP __at(0x7C21);
-[; ;proc\pic18f4550.h: 9148: extern volatile __bit CKE __at(0x7E3E);
-[; ;proc\pic18f4550.h: 9151: extern volatile __bit CKP __at(0x7E34);
-[; ;proc\pic18f4550.h: 9154: extern volatile __bit CLK1EN __at(0x7B1C);
-[; ;proc\pic18f4550.h: 9157: extern volatile __bit CLKCFG0 __at(0x7B1E);
-[; ;proc\pic18f4550.h: 9160: extern volatile __bit CLKCFG1 __at(0x7B1F);
-[; ;proc\pic18f4550.h: 9163: extern volatile __bit CM0 __at(0x7DA0);
-[; ;proc\pic18f4550.h: 9166: extern volatile __bit CM1 __at(0x7DA1);
-[; ;proc\pic18f4550.h: 9169: extern volatile __bit CM2 __at(0x7DA2);
-[; ;proc\pic18f4550.h: 9172: extern volatile __bit CMEN0 __at(0x7DA0);
-[; ;proc\pic18f4550.h: 9175: extern volatile __bit CMEN1 __at(0x7DA1);
-[; ;proc\pic18f4550.h: 9178: extern volatile __bit CMEN2 __at(0x7DA2);
-[; ;proc\pic18f4550.h: 9181: extern volatile __bit CMIE __at(0x7D06);
-[; ;proc\pic18f4550.h: 9184: extern volatile __bit CMIF __at(0x7D0E);
-[; ;proc\pic18f4550.h: 9187: extern volatile __bit CMIP __at(0x7D16);
-[; ;proc\pic18f4550.h: 9190: extern volatile __bit CRC16EE __at(0x7B5A);
-[; ;proc\pic18f4550.h: 9193: extern volatile __bit CRC16EF __at(0x7B52);
-[; ;proc\pic18f4550.h: 9196: extern volatile __bit CRC5EE __at(0x7B59);
-[; ;proc\pic18f4550.h: 9199: extern volatile __bit CRC5EF __at(0x7B51);
-[; ;proc\pic18f4550.h: 9202: extern volatile __bit CREN __at(0x7D5C);
-[; ;proc\pic18f4550.h: 9205: extern volatile __bit CS __at(0x7C22);
-[; ;proc\pic18f4550.h: 9208: extern volatile __bit CSEN __at(0x7B1D);
-[; ;proc\pic18f4550.h: 9211: extern volatile __bit CSRC __at(0x7D67);
-[; ;proc\pic18f4550.h: 9214: extern volatile __bit CSRC1 __at(0x7D67);
-[; ;proc\pic18f4550.h: 9217: extern volatile __bit CVR0 __at(0x7DA8);
-[; ;proc\pic18f4550.h: 9220: extern volatile __bit CVR1 __at(0x7DA9);
-[; ;proc\pic18f4550.h: 9223: extern volatile __bit CVR2 __at(0x7DAA);
-[; ;proc\pic18f4550.h: 9226: extern volatile __bit CVR3 __at(0x7DAB);
-[; ;proc\pic18f4550.h: 9229: extern volatile __bit CVREF __at(0x7DAC);
-[; ;proc\pic18f4550.h: 9232: extern volatile __bit CVREN __at(0x7DAF);
-[; ;proc\pic18f4550.h: 9235: extern volatile __bit CVROE __at(0x7DAE);
-[; ;proc\pic18f4550.h: 9238: extern volatile __bit CVROEN __at(0x7DAE);
-[; ;proc\pic18f4550.h: 9241: extern volatile __bit CVRR __at(0x7DAD);
-[; ;proc\pic18f4550.h: 9244: extern volatile __bit CVRSS __at(0x7DAC);
-[; ;proc\pic18f4550.h: 9247: extern volatile __bit DA __at(0x7E3D);
-[; ;proc\pic18f4550.h: 9250: extern volatile __bit DATA_ADDRESS __at(0x7E3D);
-[; ;proc\pic18f4550.h: 9253: extern volatile __bit DC __at(0x7EC1);
-[; ;proc\pic18f4550.h: 9256: extern volatile __bit DC1B0 __at(0x7DEC);
-[; ;proc\pic18f4550.h: 9259: extern volatile __bit DC1B1 __at(0x7DED);
-[; ;proc\pic18f4550.h: 9262: extern volatile __bit DC2B0 __at(0x7DD4);
-[; ;proc\pic18f4550.h: 9265: extern volatile __bit DC2B1 __at(0x7DD5);
-[; ;proc\pic18f4550.h: 9268: extern volatile __bit DFN8EE __at(0x7B5B);
-[; ;proc\pic18f4550.h: 9271: extern volatile __bit DFN8EF __at(0x7B53);
-[; ;proc\pic18f4550.h: 9274: extern volatile __bit DIR __at(0x7B62);
-[; ;proc\pic18f4550.h: 9277: extern volatile __bit DONE __at(0x7E11);
-[; ;proc\pic18f4550.h: 9280: extern volatile __bit DT __at(0x7C17);
-[; ;proc\pic18f4550.h: 9283: extern volatile __bit D_A __at(0x7E3D);
-[; ;proc\pic18f4550.h: 9286: extern volatile __bit D_NOT_A __at(0x7E3D);
-[; ;proc\pic18f4550.h: 9289: extern volatile __bit D_nA __at(0x7E3D);
-[; ;proc\pic18f4550.h: 9292: extern volatile __bit EBDIS __at(0x7E5F);
-[; ;proc\pic18f4550.h: 9295: extern volatile __bit ECCPAS0 __at(0x7DB4);
-[; ;proc\pic18f4550.h: 9298: extern volatile __bit ECCPAS1 __at(0x7DB5);
-[; ;proc\pic18f4550.h: 9301: extern volatile __bit ECCPAS2 __at(0x7DB6);
-[; ;proc\pic18f4550.h: 9304: extern volatile __bit ECCPASE __at(0x7DB7);
-[; ;proc\pic18f4550.h: 9307: extern volatile __bit EEFS __at(0x7D36);
-[; ;proc\pic18f4550.h: 9310: extern volatile __bit EEIE __at(0x7D04);
-[; ;proc\pic18f4550.h: 9313: extern volatile __bit EEIF __at(0x7D0C);
-[; ;proc\pic18f4550.h: 9316: extern volatile __bit EEIP __at(0x7D14);
-[; ;proc\pic18f4550.h: 9319: extern volatile __bit EEPGD __at(0x7D37);
-[; ;proc\pic18f4550.h: 9322: extern volatile __bit ENDP0 __at(0x7B63);
-[; ;proc\pic18f4550.h: 9325: extern volatile __bit ENDP1 __at(0x7B64);
-[; ;proc\pic18f4550.h: 9328: extern volatile __bit ENDP2 __at(0x7B65);
-[; ;proc\pic18f4550.h: 9331: extern volatile __bit ENDP3 __at(0x7B66);
-[; ;proc\pic18f4550.h: 9334: extern volatile __bit EP0CONDIS __at(0x7B83);
-[; ;proc\pic18f4550.h: 9337: extern volatile __bit EP0HSHK __at(0x7B84);
-[; ;proc\pic18f4550.h: 9340: extern volatile __bit EP0INEN __at(0x7B81);
-[; ;proc\pic18f4550.h: 9343: extern volatile __bit EP0OUTEN __at(0x7B82);
-[; ;proc\pic18f4550.h: 9346: extern volatile __bit EP0STALL __at(0x7B80);
-[; ;proc\pic18f4550.h: 9349: extern volatile __bit EP1CONDIS __at(0x7B8B);
-[; ;proc\pic18f4550.h: 9352: extern volatile __bit EP1HSHK __at(0x7B8C);
-[; ;proc\pic18f4550.h: 9355: extern volatile __bit EP1INEN __at(0x7B89);
-[; ;proc\pic18f4550.h: 9358: extern volatile __bit EP1OUTEN __at(0x7B8A);
-[; ;proc\pic18f4550.h: 9361: extern volatile __bit EP1STALL __at(0x7B88);
-[; ;proc\pic18f4550.h: 9364: extern volatile __bit EP2CONDIS __at(0x7B93);
-[; ;proc\pic18f4550.h: 9367: extern volatile __bit EP2HSHK __at(0x7B94);
-[; ;proc\pic18f4550.h: 9370: extern volatile __bit EP2INEN __at(0x7B91);
-[; ;proc\pic18f4550.h: 9373: extern volatile __bit EP2OUTEN __at(0x7B92);
-[; ;proc\pic18f4550.h: 9376: extern volatile __bit EP2STALL __at(0x7B90);
-[; ;proc\pic18f4550.h: 9379: extern volatile __bit EP3CONDIS __at(0x7B9B);
-[; ;proc\pic18f4550.h: 9382: extern volatile __bit EP3HSHK __at(0x7B9C);
-[; ;proc\pic18f4550.h: 9385: extern volatile __bit EP3INEN __at(0x7B99);
-[; ;proc\pic18f4550.h: 9388: extern volatile __bit EP3OUTEN __at(0x7B9A);
-[; ;proc\pic18f4550.h: 9391: extern volatile __bit EP3STALL __at(0x7B98);
-[; ;proc\pic18f4550.h: 9394: extern volatile __bit EP4CONDIS __at(0x7BA3);
-[; ;proc\pic18f4550.h: 9397: extern volatile __bit EP4HSHK __at(0x7BA4);
-[; ;proc\pic18f4550.h: 9400: extern volatile __bit EP4INEN __at(0x7BA1);
-[; ;proc\pic18f4550.h: 9403: extern volatile __bit EP4OUTEN __at(0x7BA2);
-[; ;proc\pic18f4550.h: 9406: extern volatile __bit EP4STALL __at(0x7BA0);
-[; ;proc\pic18f4550.h: 9409: extern volatile __bit EP5CONDIS __at(0x7BAB);
-[; ;proc\pic18f4550.h: 9412: extern volatile __bit EP5HSHK __at(0x7BAC);
-[; ;proc\pic18f4550.h: 9415: extern volatile __bit EP5INEN __at(0x7BA9);
-[; ;proc\pic18f4550.h: 9418: extern volatile __bit EP5OUTEN __at(0x7BAA);
-[; ;proc\pic18f4550.h: 9421: extern volatile __bit EP5STALL __at(0x7BA8);
-[; ;proc\pic18f4550.h: 9424: extern volatile __bit EP6CONDIS __at(0x7BB3);
-[; ;proc\pic18f4550.h: 9427: extern volatile __bit EP6HSHK __at(0x7BB4);
-[; ;proc\pic18f4550.h: 9430: extern volatile __bit EP6INEN __at(0x7BB1);
-[; ;proc\pic18f4550.h: 9433: extern volatile __bit EP6OUTEN __at(0x7BB2);
-[; ;proc\pic18f4550.h: 9436: extern volatile __bit EP6STALL __at(0x7BB0);
-[; ;proc\pic18f4550.h: 9439: extern volatile __bit EP7CONDIS __at(0x7BBB);
-[; ;proc\pic18f4550.h: 9442: extern volatile __bit EP7HSHK __at(0x7BBC);
-[; ;proc\pic18f4550.h: 9445: extern volatile __bit EP7INEN __at(0x7BB9);
-[; ;proc\pic18f4550.h: 9448: extern volatile __bit EP7OUTEN __at(0x7BBA);
-[; ;proc\pic18f4550.h: 9451: extern volatile __bit EP7STALL __at(0x7BB8);
-[; ;proc\pic18f4550.h: 9454: extern volatile __bit EPCONDIS0 __at(0x7B83);
-[; ;proc\pic18f4550.h: 9457: extern volatile __bit EPCONDIS1 __at(0x7B8B);
-[; ;proc\pic18f4550.h: 9460: extern volatile __bit EPCONDIS10 __at(0x7BD3);
-[; ;proc\pic18f4550.h: 9463: extern volatile __bit EPCONDIS11 __at(0x7BDB);
-[; ;proc\pic18f4550.h: 9466: extern volatile __bit EPCONDIS12 __at(0x7BE3);
-[; ;proc\pic18f4550.h: 9469: extern volatile __bit EPCONDIS13 __at(0x7BEB);
-[; ;proc\pic18f4550.h: 9472: extern volatile __bit EPCONDIS14 __at(0x7BF3);
-[; ;proc\pic18f4550.h: 9475: extern volatile __bit EPCONDIS15 __at(0x7BFB);
-[; ;proc\pic18f4550.h: 9478: extern volatile __bit EPCONDIS2 __at(0x7B93);
-[; ;proc\pic18f4550.h: 9481: extern volatile __bit EPCONDIS3 __at(0x7B9B);
-[; ;proc\pic18f4550.h: 9484: extern volatile __bit EPCONDIS4 __at(0x7BA3);
-[; ;proc\pic18f4550.h: 9487: extern volatile __bit EPCONDIS5 __at(0x7BAB);
-[; ;proc\pic18f4550.h: 9490: extern volatile __bit EPCONDIS6 __at(0x7BB3);
-[; ;proc\pic18f4550.h: 9493: extern volatile __bit EPCONDIS7 __at(0x7BBB);
-[; ;proc\pic18f4550.h: 9496: extern volatile __bit EPCONDIS8 __at(0x7BC3);
-[; ;proc\pic18f4550.h: 9499: extern volatile __bit EPCONDIS9 __at(0x7BCB);
-[; ;proc\pic18f4550.h: 9502: extern volatile __bit EPHSHK0 __at(0x7B84);
-[; ;proc\pic18f4550.h: 9505: extern volatile __bit EPHSHK1 __at(0x7B8C);
-[; ;proc\pic18f4550.h: 9508: extern volatile __bit EPHSHK10 __at(0x7BD4);
-[; ;proc\pic18f4550.h: 9511: extern volatile __bit EPHSHK11 __at(0x7BDC);
-[; ;proc\pic18f4550.h: 9514: extern volatile __bit EPHSHK12 __at(0x7BE4);
-[; ;proc\pic18f4550.h: 9517: extern volatile __bit EPHSHK13 __at(0x7BEC);
-[; ;proc\pic18f4550.h: 9520: extern volatile __bit EPHSHK14 __at(0x7BF4);
-[; ;proc\pic18f4550.h: 9523: extern volatile __bit EPHSHK15 __at(0x7BFC);
-[; ;proc\pic18f4550.h: 9526: extern volatile __bit EPHSHK2 __at(0x7B94);
-[; ;proc\pic18f4550.h: 9529: extern volatile __bit EPHSHK3 __at(0x7B9C);
-[; ;proc\pic18f4550.h: 9532: extern volatile __bit EPHSHK4 __at(0x7BA4);
-[; ;proc\pic18f4550.h: 9535: extern volatile __bit EPHSHK5 __at(0x7BAC);
-[; ;proc\pic18f4550.h: 9538: extern volatile __bit EPHSHK6 __at(0x7BB4);
-[; ;proc\pic18f4550.h: 9541: extern volatile __bit EPHSHK7 __at(0x7BBC);
-[; ;proc\pic18f4550.h: 9544: extern volatile __bit EPHSHK8 __at(0x7BC4);
-[; ;proc\pic18f4550.h: 9547: extern volatile __bit EPHSHK9 __at(0x7BCC);
-[; ;proc\pic18f4550.h: 9550: extern volatile __bit EPINEN0 __at(0x7B81);
-[; ;proc\pic18f4550.h: 9553: extern volatile __bit EPINEN1 __at(0x7B89);
-[; ;proc\pic18f4550.h: 9556: extern volatile __bit EPINEN10 __at(0x7BD1);
-[; ;proc\pic18f4550.h: 9559: extern volatile __bit EPINEN11 __at(0x7BD9);
-[; ;proc\pic18f4550.h: 9562: extern volatile __bit EPINEN12 __at(0x7BE1);
-[; ;proc\pic18f4550.h: 9565: extern volatile __bit EPINEN13 __at(0x7BE9);
-[; ;proc\pic18f4550.h: 9568: extern volatile __bit EPINEN14 __at(0x7BF1);
-[; ;proc\pic18f4550.h: 9571: extern volatile __bit EPINEN15 __at(0x7BF9);
-[; ;proc\pic18f4550.h: 9574: extern volatile __bit EPINEN2 __at(0x7B91);
-[; ;proc\pic18f4550.h: 9577: extern volatile __bit EPINEN3 __at(0x7B99);
-[; ;proc\pic18f4550.h: 9580: extern volatile __bit EPINEN4 __at(0x7BA1);
-[; ;proc\pic18f4550.h: 9583: extern volatile __bit EPINEN5 __at(0x7BA9);
-[; ;proc\pic18f4550.h: 9586: extern volatile __bit EPINEN6 __at(0x7BB1);
-[; ;proc\pic18f4550.h: 9589: extern volatile __bit EPINEN7 __at(0x7BB9);
-[; ;proc\pic18f4550.h: 9592: extern volatile __bit EPINEN8 __at(0x7BC1);
-[; ;proc\pic18f4550.h: 9595: extern volatile __bit EPINEN9 __at(0x7BC9);
-[; ;proc\pic18f4550.h: 9598: extern volatile __bit EPOUTEN0 __at(0x7B82);
-[; ;proc\pic18f4550.h: 9601: extern volatile __bit EPOUTEN1 __at(0x7B8A);
-[; ;proc\pic18f4550.h: 9604: extern volatile __bit EPOUTEN10 __at(0x7BD2);
-[; ;proc\pic18f4550.h: 9607: extern volatile __bit EPOUTEN11 __at(0x7BDA);
-[; ;proc\pic18f4550.h: 9610: extern volatile __bit EPOUTEN12 __at(0x7BE2);
-[; ;proc\pic18f4550.h: 9613: extern volatile __bit EPOUTEN13 __at(0x7BEA);
-[; ;proc\pic18f4550.h: 9616: extern volatile __bit EPOUTEN14 __at(0x7BF2);
-[; ;proc\pic18f4550.h: 9619: extern volatile __bit EPOUTEN15 __at(0x7BFA);
-[; ;proc\pic18f4550.h: 9622: extern volatile __bit EPOUTEN2 __at(0x7B92);
-[; ;proc\pic18f4550.h: 9625: extern volatile __bit EPOUTEN3 __at(0x7B9A);
-[; ;proc\pic18f4550.h: 9628: extern volatile __bit EPOUTEN4 __at(0x7BA2);
-[; ;proc\pic18f4550.h: 9631: extern volatile __bit EPOUTEN5 __at(0x7BAA);
-[; ;proc\pic18f4550.h: 9634: extern volatile __bit EPOUTEN6 __at(0x7BB2);
-[; ;proc\pic18f4550.h: 9637: extern volatile __bit EPOUTEN7 __at(0x7BBA);
-[; ;proc\pic18f4550.h: 9640: extern volatile __bit EPOUTEN8 __at(0x7BC2);
-[; ;proc\pic18f4550.h: 9643: extern volatile __bit EPOUTEN9 __at(0x7BCA);
-[; ;proc\pic18f4550.h: 9646: extern volatile __bit EPSTALL0 __at(0x7B80);
-[; ;proc\pic18f4550.h: 9649: extern volatile __bit EPSTALL1 __at(0x7B88);
-[; ;proc\pic18f4550.h: 9652: extern volatile __bit EPSTALL10 __at(0x7BD0);
-[; ;proc\pic18f4550.h: 9655: extern volatile __bit EPSTALL11 __at(0x7BD8);
-[; ;proc\pic18f4550.h: 9658: extern volatile __bit EPSTALL12 __at(0x7BE0);
-[; ;proc\pic18f4550.h: 9661: extern volatile __bit EPSTALL13 __at(0x7BE8);
-[; ;proc\pic18f4550.h: 9664: extern volatile __bit EPSTALL14 __at(0x7BF0);
-[; ;proc\pic18f4550.h: 9667: extern volatile __bit EPSTALL15 __at(0x7BF8);
-[; ;proc\pic18f4550.h: 9670: extern volatile __bit EPSTALL2 __at(0x7B90);
-[; ;proc\pic18f4550.h: 9673: extern volatile __bit EPSTALL3 __at(0x7B98);
-[; ;proc\pic18f4550.h: 9676: extern volatile __bit EPSTALL4 __at(0x7BA0);
-[; ;proc\pic18f4550.h: 9679: extern volatile __bit EPSTALL5 __at(0x7BA8);
-[; ;proc\pic18f4550.h: 9682: extern volatile __bit EPSTALL6 __at(0x7BB0);
-[; ;proc\pic18f4550.h: 9685: extern volatile __bit EPSTALL7 __at(0x7BB8);
-[; ;proc\pic18f4550.h: 9688: extern volatile __bit EPSTALL8 __at(0x7BC0);
-[; ;proc\pic18f4550.h: 9691: extern volatile __bit EPSTALL9 __at(0x7BC8);
-[; ;proc\pic18f4550.h: 9694: extern volatile __bit FERR __at(0x7D5A);
-[; ;proc\pic18f4550.h: 9697: extern volatile __bit FLTS __at(0x7E9A);
-[; ;proc\pic18f4550.h: 9700: extern volatile __bit FREE __at(0x7D34);
-[; ;proc\pic18f4550.h: 9703: extern volatile __bit FRM0 __at(0x7B30);
-[; ;proc\pic18f4550.h: 9706: extern volatile __bit FRM1 __at(0x7B31);
-[; ;proc\pic18f4550.h: 9709: extern volatile __bit FRM10 __at(0x7B3A);
-[; ;proc\pic18f4550.h: 9712: extern volatile __bit FRM2 __at(0x7B32);
-[; ;proc\pic18f4550.h: 9715: extern volatile __bit FRM3 __at(0x7B33);
-[; ;proc\pic18f4550.h: 9718: extern volatile __bit FRM4 __at(0x7B34);
-[; ;proc\pic18f4550.h: 9721: extern volatile __bit FRM5 __at(0x7B35);
-[; ;proc\pic18f4550.h: 9724: extern volatile __bit FRM6 __at(0x7B36);
-[; ;proc\pic18f4550.h: 9727: extern volatile __bit FRM7 __at(0x7B37);
-[; ;proc\pic18f4550.h: 9730: extern volatile __bit FRM8 __at(0x7B38);
-[; ;proc\pic18f4550.h: 9733: extern volatile __bit FRM9 __at(0x7B39);
-[; ;proc\pic18f4550.h: 9736: extern volatile __bit FSEN __at(0x7B7A);
-[; ;proc\pic18f4550.h: 9739: extern volatile __bit GCEN __at(0x7E2F);
-[; ;proc\pic18f4550.h: 9742: extern volatile __bit GIE __at(0x7F97);
-[; ;proc\pic18f4550.h: 9745: extern volatile __bit GIEH __at(0x7F97);
-[; ;proc\pic18f4550.h: 9748: extern volatile __bit GIEL __at(0x7F96);
-[; ;proc\pic18f4550.h: 9751: extern volatile __bit GIE_GIEH __at(0x7F97);
-[; ;proc\pic18f4550.h: 9754: extern volatile __bit GO __at(0x7E11);
-[; ;proc\pic18f4550.h: 9757: extern volatile __bit GODONE __at(0x7E11);
-[; ;proc\pic18f4550.h: 9760: extern volatile __bit GO_DONE __at(0x7E11);
-[; ;proc\pic18f4550.h: 9763: extern volatile __bit GO_NOT_DONE __at(0x7E11);
-[; ;proc\pic18f4550.h: 9766: extern volatile __bit GO_nDONE __at(0x7E11);
-[; ;proc\pic18f4550.h: 9769: extern volatile __bit HLVDEN __at(0x7E94);
-[; ;proc\pic18f4550.h: 9772: extern volatile __bit HLVDIE __at(0x7D02);
-[; ;proc\pic18f4550.h: 9775: extern volatile __bit HLVDIF __at(0x7D0A);
-[; ;proc\pic18f4550.h: 9778: extern volatile __bit HLVDIN __at(0x7C05);
-[; ;proc\pic18f4550.h: 9781: extern volatile __bit HLVDIP __at(0x7D12);
-[; ;proc\pic18f4550.h: 9784: extern volatile __bit HLVDL0 __at(0x7E90);
-[; ;proc\pic18f4550.h: 9787: extern volatile __bit HLVDL1 __at(0x7E91);
-[; ;proc\pic18f4550.h: 9790: extern volatile __bit HLVDL2 __at(0x7E92);
-[; ;proc\pic18f4550.h: 9793: extern volatile __bit HLVDL3 __at(0x7E93);
-[; ;proc\pic18f4550.h: 9796: extern volatile __bit I2C_DAT __at(0x7E3D);
-[; ;proc\pic18f4550.h: 9799: extern volatile __bit I2C_READ __at(0x7E3A);
-[; ;proc\pic18f4550.h: 9802: extern volatile __bit I2C_START __at(0x7E3B);
-[; ;proc\pic18f4550.h: 9805: extern volatile __bit I2C_STOP __at(0x7E3C);
-[; ;proc\pic18f4550.h: 9808: extern volatile __bit IDLEIE __at(0x7B4C);
-[; ;proc\pic18f4550.h: 9811: extern volatile __bit IDLEIF __at(0x7B44);
-[; ;proc\pic18f4550.h: 9814: extern volatile __bit IDLEN __at(0x7E9F);
-[; ;proc\pic18f4550.h: 9817: extern volatile __bit INT0 __at(0x7C08);
-[; ;proc\pic18f4550.h: 9820: extern volatile __bit INT0E __at(0x7F94);
-[; ;proc\pic18f4550.h: 9823: extern volatile __bit INT0F __at(0x7F91);
-[; ;proc\pic18f4550.h: 9826: extern volatile __bit INT0IE __at(0x7F94);
-[; ;proc\pic18f4550.h: 9829: extern volatile __bit INT0IF __at(0x7F91);
-[; ;proc\pic18f4550.h: 9832: extern volatile __bit INT1 __at(0x7C09);
-[; ;proc\pic18f4550.h: 9835: extern volatile __bit INT1E __at(0x7F83);
-[; ;proc\pic18f4550.h: 9838: extern volatile __bit INT1F __at(0x7F80);
-[; ;proc\pic18f4550.h: 9841: extern volatile __bit INT1IE __at(0x7F83);
-[; ;proc\pic18f4550.h: 9844: extern volatile __bit INT1IF __at(0x7F80);
-[; ;proc\pic18f4550.h: 9847: extern volatile __bit INT1IP __at(0x7F86);
-[; ;proc\pic18f4550.h: 9850: extern volatile __bit INT1P __at(0x7F86);
-[; ;proc\pic18f4550.h: 9853: extern volatile __bit INT2 __at(0x7C0A);
-[; ;proc\pic18f4550.h: 9856: extern volatile __bit INT2E __at(0x7F84);
-[; ;proc\pic18f4550.h: 9859: extern volatile __bit INT2F __at(0x7F81);
-[; ;proc\pic18f4550.h: 9862: extern volatile __bit INT2IE __at(0x7F84);
-[; ;proc\pic18f4550.h: 9865: extern volatile __bit INT2IF __at(0x7F81);
-[; ;proc\pic18f4550.h: 9868: extern volatile __bit INT2IP __at(0x7F87);
-[; ;proc\pic18f4550.h: 9871: extern volatile __bit INT2P __at(0x7F87);
-[; ;proc\pic18f4550.h: 9874: extern volatile __bit INTEDG0 __at(0x7F8E);
-[; ;proc\pic18f4550.h: 9877: extern volatile __bit INTEDG1 __at(0x7F8D);
-[; ;proc\pic18f4550.h: 9880: extern volatile __bit INTEDG2 __at(0x7F8C);
-[; ;proc\pic18f4550.h: 9883: extern volatile __bit INTSRC __at(0x7CDF);
-[; ;proc\pic18f4550.h: 9886: extern volatile __bit IOFS __at(0x7E9A);
-[; ;proc\pic18f4550.h: 9889: extern volatile __bit IPEN __at(0x7E87);
-[; ;proc\pic18f4550.h: 9892: extern volatile __bit IRCF0 __at(0x7E9C);
-[; ;proc\pic18f4550.h: 9895: extern volatile __bit IRCF1 __at(0x7E9D);
-[; ;proc\pic18f4550.h: 9898: extern volatile __bit IRCF2 __at(0x7E9E);
-[; ;proc\pic18f4550.h: 9901: extern volatile __bit IRVST __at(0x7E95);
-[; ;proc\pic18f4550.h: 9904: extern volatile __bit IVRST __at(0x7E95);
-[; ;proc\pic18f4550.h: 9907: extern volatile __bit LA0 __at(0x7C48);
-[; ;proc\pic18f4550.h: 9910: extern volatile __bit LA1 __at(0x7C49);
-[; ;proc\pic18f4550.h: 9913: extern volatile __bit LA2 __at(0x7C4A);
-[; ;proc\pic18f4550.h: 9916: extern volatile __bit LA3 __at(0x7C4B);
-[; ;proc\pic18f4550.h: 9919: extern volatile __bit LA4 __at(0x7C4C);
-[; ;proc\pic18f4550.h: 9922: extern volatile __bit LA5 __at(0x7C4D);
-[; ;proc\pic18f4550.h: 9925: extern volatile __bit LA6 __at(0x7C4E);
-[; ;proc\pic18f4550.h: 9928: extern volatile __bit LATA0 __at(0x7C48);
-[; ;proc\pic18f4550.h: 9931: extern volatile __bit LATA1 __at(0x7C49);
-[; ;proc\pic18f4550.h: 9934: extern volatile __bit LATA2 __at(0x7C4A);
-[; ;proc\pic18f4550.h: 9937: extern volatile __bit LATA3 __at(0x7C4B);
-[; ;proc\pic18f4550.h: 9940: extern volatile __bit LATA4 __at(0x7C4C);
-[; ;proc\pic18f4550.h: 9943: extern volatile __bit LATA5 __at(0x7C4D);
-[; ;proc\pic18f4550.h: 9946: extern volatile __bit LATA6 __at(0x7C4E);
-[; ;proc\pic18f4550.h: 9949: extern volatile __bit LATB0 __at(0x7C50);
-[; ;proc\pic18f4550.h: 9952: extern volatile __bit LATB1 __at(0x7C51);
-[; ;proc\pic18f4550.h: 9955: extern volatile __bit LATB2 __at(0x7C52);
-[; ;proc\pic18f4550.h: 9958: extern volatile __bit LATB3 __at(0x7C53);
-[; ;proc\pic18f4550.h: 9961: extern volatile __bit LATB4 __at(0x7C54);
-[; ;proc\pic18f4550.h: 9964: extern volatile __bit LATB5 __at(0x7C55);
-[; ;proc\pic18f4550.h: 9967: extern volatile __bit LATB6 __at(0x7C56);
-[; ;proc\pic18f4550.h: 9970: extern volatile __bit LATB7 __at(0x7C57);
-[; ;proc\pic18f4550.h: 9973: extern volatile __bit LATC0 __at(0x7C58);
-[; ;proc\pic18f4550.h: 9976: extern volatile __bit LATC1 __at(0x7C59);
-[; ;proc\pic18f4550.h: 9979: extern volatile __bit LATC2 __at(0x7C5A);
-[; ;proc\pic18f4550.h: 9982: extern volatile __bit LATC6 __at(0x7C5E);
-[; ;proc\pic18f4550.h: 9985: extern volatile __bit LATC7 __at(0x7C5F);
-[; ;proc\pic18f4550.h: 9988: extern volatile __bit LATD0 __at(0x7C60);
-[; ;proc\pic18f4550.h: 9991: extern volatile __bit LATD1 __at(0x7C61);
-[; ;proc\pic18f4550.h: 9994: extern volatile __bit LATD2 __at(0x7C62);
-[; ;proc\pic18f4550.h: 9997: extern volatile __bit LATD3 __at(0x7C63);
-[; ;proc\pic18f4550.h: 10000: extern volatile __bit LATD4 __at(0x7C64);
-[; ;proc\pic18f4550.h: 10003: extern volatile __bit LATD5 __at(0x7C65);
-[; ;proc\pic18f4550.h: 10006: extern volatile __bit LATD6 __at(0x7C66);
-[; ;proc\pic18f4550.h: 10009: extern volatile __bit LATD7 __at(0x7C67);
-[; ;proc\pic18f4550.h: 10012: extern volatile __bit LATE0 __at(0x7C68);
-[; ;proc\pic18f4550.h: 10015: extern volatile __bit LATE1 __at(0x7C69);
-[; ;proc\pic18f4550.h: 10018: extern volatile __bit LATE2 __at(0x7C6A);
-[; ;proc\pic18f4550.h: 10021: extern volatile __bit LB0 __at(0x7C50);
-[; ;proc\pic18f4550.h: 10024: extern volatile __bit LB1 __at(0x7C51);
-[; ;proc\pic18f4550.h: 10027: extern volatile __bit LB2 __at(0x7C52);
-[; ;proc\pic18f4550.h: 10030: extern volatile __bit LB3 __at(0x7C53);
-[; ;proc\pic18f4550.h: 10033: extern volatile __bit LB4 __at(0x7C54);
-[; ;proc\pic18f4550.h: 10036: extern volatile __bit LB5 __at(0x7C55);
-[; ;proc\pic18f4550.h: 10039: extern volatile __bit LB6 __at(0x7C56);
-[; ;proc\pic18f4550.h: 10042: extern volatile __bit LB7 __at(0x7C57);
-[; ;proc\pic18f4550.h: 10045: extern volatile __bit LC0 __at(0x7C58);
-[; ;proc\pic18f4550.h: 10048: extern volatile __bit LC1 __at(0x7C59);
-[; ;proc\pic18f4550.h: 10051: extern volatile __bit LC2 __at(0x7C5A);
-[; ;proc\pic18f4550.h: 10054: extern volatile __bit LC6 __at(0x7C5E);
-[; ;proc\pic18f4550.h: 10057: extern volatile __bit LC7 __at(0x7C5F);
-[; ;proc\pic18f4550.h: 10060: extern volatile __bit LD0 __at(0x7C60);
-[; ;proc\pic18f4550.h: 10063: extern volatile __bit LD1 __at(0x7C61);
-[; ;proc\pic18f4550.h: 10066: extern volatile __bit LD2 __at(0x7C62);
-[; ;proc\pic18f4550.h: 10069: extern volatile __bit LD3 __at(0x7C63);
-[; ;proc\pic18f4550.h: 10072: extern volatile __bit LD4 __at(0x7C64);
-[; ;proc\pic18f4550.h: 10075: extern volatile __bit LD5 __at(0x7C65);
-[; ;proc\pic18f4550.h: 10078: extern volatile __bit LD6 __at(0x7C66);
-[; ;proc\pic18f4550.h: 10081: extern volatile __bit LD7 __at(0x7C67);
-[; ;proc\pic18f4550.h: 10084: extern volatile __bit LE0 __at(0x7C68);
-[; ;proc\pic18f4550.h: 10087: extern volatile __bit LE1 __at(0x7C69);
-[; ;proc\pic18f4550.h: 10090: extern volatile __bit LE2 __at(0x7C6A);
-[; ;proc\pic18f4550.h: 10093: extern volatile __bit LVDEN __at(0x7E94);
-[; ;proc\pic18f4550.h: 10096: extern volatile __bit LVDIE __at(0x7D02);
-[; ;proc\pic18f4550.h: 10099: extern volatile __bit LVDIF __at(0x7D0A);
-[; ;proc\pic18f4550.h: 10102: extern volatile __bit LVDIN __at(0x7C05);
-[; ;proc\pic18f4550.h: 10105: extern volatile __bit LVDIP __at(0x7D12);
-[; ;proc\pic18f4550.h: 10108: extern volatile __bit LVDL0 __at(0x7E90);
-[; ;proc\pic18f4550.h: 10111: extern volatile __bit LVDL1 __at(0x7E91);
-[; ;proc\pic18f4550.h: 10114: extern volatile __bit LVDL2 __at(0x7E92);
-[; ;proc\pic18f4550.h: 10117: extern volatile __bit LVDL3 __at(0x7E93);
-[; ;proc\pic18f4550.h: 10120: extern volatile __bit LVV0 __at(0x7E90);
-[; ;proc\pic18f4550.h: 10123: extern volatile __bit LVV1 __at(0x7E91);
-[; ;proc\pic18f4550.h: 10126: extern volatile __bit LVV2 __at(0x7E92);
-[; ;proc\pic18f4550.h: 10129: extern volatile __bit LVV3 __at(0x7E93);
-[; ;proc\pic18f4550.h: 10132: extern volatile __bit NEGATIVE __at(0x7EC4);
-[; ;proc\pic18f4550.h: 10135: extern volatile __bit NOT_A __at(0x7E3D);
-[; ;proc\pic18f4550.h: 10138: extern volatile __bit NOT_ADDRESS __at(0x7E3D);
-[; ;proc\pic18f4550.h: 10141: extern volatile __bit NOT_BOR __at(0x7E80);
-[; ;proc\pic18f4550.h: 10144: extern volatile __bit NOT_DONE __at(0x7E11);
-[; ;proc\pic18f4550.h: 10147: extern volatile __bit NOT_IPEN __at(0x7E87);
-[; ;proc\pic18f4550.h: 10150: extern volatile __bit NOT_PD __at(0x7E82);
-[; ;proc\pic18f4550.h: 10153: extern volatile __bit NOT_POR __at(0x7E81);
-[; ;proc\pic18f4550.h: 10156: extern volatile __bit NOT_RBPU __at(0x7F8F);
-[; ;proc\pic18f4550.h: 10159: extern volatile __bit NOT_RI __at(0x7E84);
-[; ;proc\pic18f4550.h: 10162: extern volatile __bit NOT_T1SYNC __at(0x7E6A);
-[; ;proc\pic18f4550.h: 10165: extern volatile __bit NOT_T3SYNC __at(0x7D8A);
-[; ;proc\pic18f4550.h: 10168: extern volatile __bit NOT_TO __at(0x7E83);
-[; ;proc\pic18f4550.h: 10171: extern volatile __bit NOT_W __at(0x7E3A);
-[; ;proc\pic18f4550.h: 10174: extern volatile __bit NOT_WRITE __at(0x7E3A);
-[; ;proc\pic18f4550.h: 10177: extern volatile __bit OERR __at(0x7D59);
-[; ;proc\pic18f4550.h: 10180: extern volatile __bit OESPP __at(0x7C22);
-[; ;proc\pic18f4550.h: 10183: extern volatile __bit OSC2 __at(0x7C06);
-[; ;proc\pic18f4550.h: 10186: extern volatile __bit OSCFIE __at(0x7D07);
-[; ;proc\pic18f4550.h: 10189: extern volatile __bit OSCFIF __at(0x7D0F);
-[; ;proc\pic18f4550.h: 10192: extern volatile __bit OSCFIP __at(0x7D17);
-[; ;proc\pic18f4550.h: 10195: extern volatile __bit OSTS __at(0x7E9B);
-[; ;proc\pic18f4550.h: 10198: extern volatile __bit OV __at(0x7EC3);
-[; ;proc\pic18f4550.h: 10201: extern volatile __bit OVERFLOW __at(0x7EC3);
-[; ;proc\pic18f4550.h: 10204: extern volatile __bit P1A __at(0x7C12);
-[; ;proc\pic18f4550.h: 10207: extern volatile __bit P1M0 __at(0x7DEE);
-[; ;proc\pic18f4550.h: 10210: extern volatile __bit P1M1 __at(0x7DEF);
-[; ;proc\pic18f4550.h: 10213: extern volatile __bit PA1 __at(0x7C12);
-[; ;proc\pic18f4550.h: 10216: extern volatile __bit PA2 __at(0x7C11);
-[; ;proc\pic18f4550.h: 10219: extern volatile __bit PA2E __at(0x7C27);
-[; ;proc\pic18f4550.h: 10222: extern volatile __bit PB2 __at(0x7C22);
-[; ;proc\pic18f4550.h: 10225: extern volatile __bit PC2 __at(0x7C21);
-[; ;proc\pic18f4550.h: 10228: extern volatile __bit PC3E __at(0x7C23);
-[; ;proc\pic18f4550.h: 10231: extern volatile __bit PCFG0 __at(0x7E08);
-[; ;proc\pic18f4550.h: 10234: extern volatile __bit PCFG1 __at(0x7E09);
-[; ;proc\pic18f4550.h: 10237: extern volatile __bit PCFG2 __at(0x7E0A);
-[; ;proc\pic18f4550.h: 10240: extern volatile __bit PCFG3 __at(0x7E0B);
-[; ;proc\pic18f4550.h: 10243: extern volatile __bit PD __at(0x7E82);
-[; ;proc\pic18f4550.h: 10246: extern volatile __bit PD2 __at(0x7C20);
-[; ;proc\pic18f4550.h: 10249: extern volatile __bit PDC0 __at(0x7DB8);
-[; ;proc\pic18f4550.h: 10252: extern volatile __bit PDC1 __at(0x7DB9);
-[; ;proc\pic18f4550.h: 10255: extern volatile __bit PDC2 __at(0x7DBA);
-[; ;proc\pic18f4550.h: 10258: extern volatile __bit PDC3 __at(0x7DBB);
-[; ;proc\pic18f4550.h: 10261: extern volatile __bit PDC4 __at(0x7DBC);
-[; ;proc\pic18f4550.h: 10264: extern volatile __bit PDC5 __at(0x7DBD);
-[; ;proc\pic18f4550.h: 10267: extern volatile __bit PDC6 __at(0x7DBE);
-[; ;proc\pic18f4550.h: 10270: extern volatile __bit PEIE __at(0x7F96);
-[; ;proc\pic18f4550.h: 10273: extern volatile __bit PEIE_GIEL __at(0x7F96);
-[; ;proc\pic18f4550.h: 10276: extern volatile __bit PEN __at(0x7E2A);
-[; ;proc\pic18f4550.h: 10279: extern volatile __bit PGC __at(0x7C0E);
-[; ;proc\pic18f4550.h: 10282: extern volatile __bit PGD __at(0x7C0F);
-[; ;proc\pic18f4550.h: 10285: extern volatile __bit PGM __at(0x7C0D);
-[; ;proc\pic18f4550.h: 10288: extern volatile __bit PIDEE __at(0x7B58);
-[; ;proc\pic18f4550.h: 10291: extern volatile __bit PIDEF __at(0x7B50);
-[; ;proc\pic18f4550.h: 10294: extern volatile __bit PKTDIS __at(0x7B6C);
-[; ;proc\pic18f4550.h: 10297: extern volatile __bit POR __at(0x7E81);
-[; ;proc\pic18f4550.h: 10300: extern volatile __bit PPB0 __at(0x7B78);
-[; ;proc\pic18f4550.h: 10303: extern volatile __bit PPB1 __at(0x7B79);
-[; ;proc\pic18f4550.h: 10306: extern volatile __bit PPBI __at(0x7B61);
-[; ;proc\pic18f4550.h: 10309: extern volatile __bit PPBRST __at(0x7B6E);
-[; ;proc\pic18f4550.h: 10312: extern volatile __bit PRSEN __at(0x7DBF);
-[; ;proc\pic18f4550.h: 10315: extern volatile __bit PSA __at(0x7EAB);
-[; ;proc\pic18f4550.h: 10318: extern volatile __bit PSPIE __at(0x7CEF);
-[; ;proc\pic18f4550.h: 10321: extern volatile __bit PSPIF __at(0x7CF7);
-[; ;proc\pic18f4550.h: 10324: extern volatile __bit PSPIP __at(0x7CFF);
-[; ;proc\pic18f4550.h: 10327: extern volatile __bit PSSAC0 __at(0x7DB2);
-[; ;proc\pic18f4550.h: 10330: extern volatile __bit PSSAC1 __at(0x7DB3);
-[; ;proc\pic18f4550.h: 10333: extern volatile __bit PSSBD0 __at(0x7DB0);
-[; ;proc\pic18f4550.h: 10336: extern volatile __bit PSSBD1 __at(0x7DB1);
-[; ;proc\pic18f4550.h: 10339: extern volatile __bit __attribute__((__deprecated__)) RA0 __at(0x7C00);
-[; ;proc\pic18f4550.h: 10342: extern volatile __bit __attribute__((__deprecated__)) RA1 __at(0x7C01);
-[; ;proc\pic18f4550.h: 10345: extern volatile __bit __attribute__((__deprecated__)) RA2 __at(0x7C02);
-[; ;proc\pic18f4550.h: 10348: extern volatile __bit __attribute__((__deprecated__)) RA3 __at(0x7C03);
-[; ;proc\pic18f4550.h: 10351: extern volatile __bit __attribute__((__deprecated__)) RA4 __at(0x7C04);
-[; ;proc\pic18f4550.h: 10354: extern volatile __bit __attribute__((__deprecated__)) RA5 __at(0x7C05);
-[; ;proc\pic18f4550.h: 10357: extern volatile __bit __attribute__((__deprecated__)) RA6 __at(0x7C06);
-[; ;proc\pic18f4550.h: 10360: extern volatile __bit __attribute__((__deprecated__)) RB0 __at(0x7C08);
-[; ;proc\pic18f4550.h: 10363: extern volatile __bit __attribute__((__deprecated__)) RB1 __at(0x7C09);
-[; ;proc\pic18f4550.h: 10366: extern volatile __bit __attribute__((__deprecated__)) RB2 __at(0x7C0A);
-[; ;proc\pic18f4550.h: 10369: extern volatile __bit __attribute__((__deprecated__)) RB3 __at(0x7C0B);
-[; ;proc\pic18f4550.h: 10372: extern volatile __bit __attribute__((__deprecated__)) RB4 __at(0x7C0C);
-[; ;proc\pic18f4550.h: 10375: extern volatile __bit __attribute__((__deprecated__)) RB5 __at(0x7C0D);
-[; ;proc\pic18f4550.h: 10378: extern volatile __bit __attribute__((__deprecated__)) RB6 __at(0x7C0E);
-[; ;proc\pic18f4550.h: 10381: extern volatile __bit __attribute__((__deprecated__)) RB7 __at(0x7C0F);
-[; ;proc\pic18f4550.h: 10384: extern volatile __bit RBIE __at(0x7F93);
-[; ;proc\pic18f4550.h: 10387: extern volatile __bit RBIF __at(0x7F90);
-[; ;proc\pic18f4550.h: 10390: extern volatile __bit RBIP __at(0x7F88);
-[; ;proc\pic18f4550.h: 10393: extern volatile __bit RBPU __at(0x7F8F);
-[; ;proc\pic18f4550.h: 10396: extern volatile __bit __attribute__((__deprecated__)) RC0 __at(0x7C10);
-[; ;proc\pic18f4550.h: 10399: extern volatile __bit __attribute__((__deprecated__)) RC1 __at(0x7C11);
-[; ;proc\pic18f4550.h: 10402: extern volatile __bit RC1IE __at(0x7CED);
-[; ;proc\pic18f4550.h: 10405: extern volatile __bit RC1IF __at(0x7CF5);
-[; ;proc\pic18f4550.h: 10408: extern volatile __bit RC1IP __at(0x7CFD);
-[; ;proc\pic18f4550.h: 10411: extern volatile __bit __attribute__((__deprecated__)) RC2 __at(0x7C12);
-[; ;proc\pic18f4550.h: 10414: extern volatile __bit RC4 __at(0x7C14);
-[; ;proc\pic18f4550.h: 10417: extern volatile __bit RC5 __at(0x7C15);
-[; ;proc\pic18f4550.h: 10420: extern volatile __bit __attribute__((__deprecated__)) RC6 __at(0x7C16);
-[; ;proc\pic18f4550.h: 10423: extern volatile __bit __attribute__((__deprecated__)) RC7 __at(0x7C17);
-[; ;proc\pic18f4550.h: 10426: extern volatile __bit RC8_9 __at(0x7D5E);
-[; ;proc\pic18f4550.h: 10429: extern volatile __bit RC9 __at(0x7D5E);
-[; ;proc\pic18f4550.h: 10432: extern volatile __bit RCD8 __at(0x7D58);
-[; ;proc\pic18f4550.h: 10435: extern volatile __bit RCEN __at(0x7E2B);
-[; ;proc\pic18f4550.h: 10438: extern volatile __bit RCIDL __at(0x7DC6);
-[; ;proc\pic18f4550.h: 10441: extern volatile __bit RCIE __at(0x7CED);
-[; ;proc\pic18f4550.h: 10444: extern volatile __bit RCIF __at(0x7CF5);
-[; ;proc\pic18f4550.h: 10447: extern volatile __bit RCIP __at(0x7CFD);
-[; ;proc\pic18f4550.h: 10450: extern volatile __bit RCMT __at(0x7DC6);
-[; ;proc\pic18f4550.h: 10453: extern volatile __bit RD __at(0x7D30);
-[; ;proc\pic18f4550.h: 10456: extern volatile __bit __attribute__((__deprecated__)) RD0 __at(0x7C18);
-[; ;proc\pic18f4550.h: 10459: extern volatile __bit __attribute__((__deprecated__)) RD1 __at(0x7C19);
-[; ;proc\pic18f4550.h: 10462: extern volatile __bit RD163 __at(0x7D8F);
-[; ;proc\pic18f4550.h: 10465: extern volatile __bit __attribute__((__deprecated__)) RD2 __at(0x7C1A);
-[; ;proc\pic18f4550.h: 10468: extern volatile __bit __attribute__((__deprecated__)) RD3 __at(0x7C1B);
-[; ;proc\pic18f4550.h: 10471: extern volatile __bit __attribute__((__deprecated__)) RD4 __at(0x7C1C);
-[; ;proc\pic18f4550.h: 10474: extern volatile __bit __attribute__((__deprecated__)) RD5 __at(0x7C1D);
-[; ;proc\pic18f4550.h: 10477: extern volatile __bit __attribute__((__deprecated__)) RD6 __at(0x7C1E);
-[; ;proc\pic18f4550.h: 10480: extern volatile __bit __attribute__((__deprecated__)) RD7 __at(0x7C1F);
-[; ;proc\pic18f4550.h: 10483: extern volatile __bit RDE __at(0x7C20);
-[; ;proc\pic18f4550.h: 10486: extern volatile __bit RDPU __at(0x7C27);
-[; ;proc\pic18f4550.h: 10489: extern volatile __bit RDSPP __at(0x7B27);
-[; ;proc\pic18f4550.h: 10492: extern volatile __bit __attribute__((__deprecated__)) RE0 __at(0x7C20);
-[; ;proc\pic18f4550.h: 10495: extern volatile __bit __attribute__((__deprecated__)) RE1 __at(0x7C21);
-[; ;proc\pic18f4550.h: 10498: extern volatile __bit __attribute__((__deprecated__)) RE2 __at(0x7C22);
-[; ;proc\pic18f4550.h: 10501: extern volatile __bit RE3 __at(0x7C23);
-[; ;proc\pic18f4550.h: 10504: extern volatile __bit RE7 __at(0x7C27);
-[; ;proc\pic18f4550.h: 10507: extern volatile __bit READ_WRITE __at(0x7E3A);
-[; ;proc\pic18f4550.h: 10510: extern volatile __bit RESUME __at(0x7B6A);
-[; ;proc\pic18f4550.h: 10513: extern volatile __bit RI __at(0x7E84);
-[; ;proc\pic18f4550.h: 10516: extern volatile __bit RSEN __at(0x7E29);
-[; ;proc\pic18f4550.h: 10519: extern volatile __bit RW __at(0x7E3A);
-[; ;proc\pic18f4550.h: 10522: extern volatile __bit RX __at(0x7C17);
-[; ;proc\pic18f4550.h: 10525: extern volatile __bit RX9 __at(0x7D5E);
-[; ;proc\pic18f4550.h: 10528: extern volatile __bit RX9D __at(0x7D58);
-[; ;proc\pic18f4550.h: 10531: extern volatile __bit RXCKP __at(0x7DC5);
-[; ;proc\pic18f4550.h: 10534: extern volatile __bit RXDTP __at(0x7DC5);
-[; ;proc\pic18f4550.h: 10537: extern volatile __bit R_NOT_W __at(0x7E3A);
-[; ;proc\pic18f4550.h: 10540: extern volatile __bit R_W __at(0x7E3A);
-[; ;proc\pic18f4550.h: 10543: extern volatile __bit R_nW __at(0x7E3A);
-[; ;proc\pic18f4550.h: 10546: extern volatile __bit SBOREN __at(0x7E86);
-[; ;proc\pic18f4550.h: 10549: extern volatile __bit SCKP __at(0x7DC4);
-[; ;proc\pic18f4550.h: 10552: extern volatile __bit SCS0 __at(0x7E98);
-[; ;proc\pic18f4550.h: 10555: extern volatile __bit SCS1 __at(0x7E99);
-[; ;proc\pic18f4550.h: 10558: extern volatile __bit SE0 __at(0x7B6D);
-[; ;proc\pic18f4550.h: 10561: extern volatile __bit SEN __at(0x7E28);
-[; ;proc\pic18f4550.h: 10564: extern volatile __bit SENDB __at(0x7D63);
-[; ;proc\pic18f4550.h: 10567: extern volatile __bit SENDB1 __at(0x7D63);
-[; ;proc\pic18f4550.h: 10570: extern volatile __bit SMP __at(0x7E3F);
-[; ;proc\pic18f4550.h: 10573: extern volatile __bit SOFIE __at(0x7B4E);
-[; ;proc\pic18f4550.h: 10576: extern volatile __bit SOFIF __at(0x7B46);
-[; ;proc\pic18f4550.h: 10579: extern volatile __bit SOSCEN __at(0x7E6B);
-[; ;proc\pic18f4550.h: 10582: extern volatile __bit SOSCEN3 __at(0x7D8B);
-[; ;proc\pic18f4550.h: 10585: extern volatile __bit SPEN __at(0x7D5F);
-[; ;proc\pic18f4550.h: 10588: extern volatile __bit SPP0 __at(0x7C18);
-[; ;proc\pic18f4550.h: 10591: extern volatile __bit SPP1 __at(0x7C19);
-[; ;proc\pic18f4550.h: 10594: extern volatile __bit SPP2 __at(0x7C1A);
-[; ;proc\pic18f4550.h: 10597: extern volatile __bit SPP3 __at(0x7C1B);
-[; ;proc\pic18f4550.h: 10600: extern volatile __bit SPP4 __at(0x7C1C);
-[; ;proc\pic18f4550.h: 10603: extern volatile __bit SPP5 __at(0x7C1D);
-[; ;proc\pic18f4550.h: 10606: extern volatile __bit SPP6 __at(0x7C1E);
-[; ;proc\pic18f4550.h: 10609: extern volatile __bit SPP7 __at(0x7C1F);
-[; ;proc\pic18f4550.h: 10612: extern volatile __bit SPPBUSY __at(0x7B24);
-[; ;proc\pic18f4550.h: 10615: extern volatile __bit SPPEN __at(0x7B28);
-[; ;proc\pic18f4550.h: 10618: extern volatile __bit SPPIE __at(0x7CEF);
-[; ;proc\pic18f4550.h: 10621: extern volatile __bit SPPIF __at(0x7CF7);
-[; ;proc\pic18f4550.h: 10624: extern volatile __bit SPPIP __at(0x7CFF);
-[; ;proc\pic18f4550.h: 10627: extern volatile __bit SPPOWN __at(0x7B29);
-[; ;proc\pic18f4550.h: 10630: extern volatile __bit SREN __at(0x7D5D);
-[; ;proc\pic18f4550.h: 10633: extern volatile __bit SRENA __at(0x7D5D);
-[; ;proc\pic18f4550.h: 10636: extern volatile __bit SS2 __at(0x7C1F);
-[; ;proc\pic18f4550.h: 10639: extern volatile __bit SSPEN __at(0x7E35);
-[; ;proc\pic18f4550.h: 10642: extern volatile __bit SSPIE __at(0x7CEB);
-[; ;proc\pic18f4550.h: 10645: extern volatile __bit SSPIF __at(0x7CF3);
-[; ;proc\pic18f4550.h: 10648: extern volatile __bit SSPIP __at(0x7CFB);
-[; ;proc\pic18f4550.h: 10651: extern volatile __bit SSPM0 __at(0x7E30);
-[; ;proc\pic18f4550.h: 10654: extern volatile __bit SSPM1 __at(0x7E31);
-[; ;proc\pic18f4550.h: 10657: extern volatile __bit SSPM2 __at(0x7E32);
-[; ;proc\pic18f4550.h: 10660: extern volatile __bit SSPM3 __at(0x7E33);
-[; ;proc\pic18f4550.h: 10663: extern volatile __bit SSPOV __at(0x7E36);
-[; ;proc\pic18f4550.h: 10666: extern volatile __bit STALLIE __at(0x7B4D);
-[; ;proc\pic18f4550.h: 10669: extern volatile __bit STALLIF __at(0x7B45);
-[; ;proc\pic18f4550.h: 10672: extern volatile __bit START __at(0x7E3B);
-[; ;proc\pic18f4550.h: 10675: extern volatile __bit STKFUL __at(0x7FE7);
-[; ;proc\pic18f4550.h: 10678: extern volatile __bit STKOVF __at(0x7FE7);
-[; ;proc\pic18f4550.h: 10681: extern volatile __bit STKPTR0 __at(0x7FE0);
-[; ;proc\pic18f4550.h: 10684: extern volatile __bit STKPTR1 __at(0x7FE1);
-[; ;proc\pic18f4550.h: 10687: extern volatile __bit STKPTR2 __at(0x7FE2);
-[; ;proc\pic18f4550.h: 10690: extern volatile __bit STKPTR3 __at(0x7FE3);
-[; ;proc\pic18f4550.h: 10693: extern volatile __bit STKPTR4 __at(0x7FE4);
-[; ;proc\pic18f4550.h: 10696: extern volatile __bit STKUNF __at(0x7FE6);
-[; ;proc\pic18f4550.h: 10699: extern volatile __bit STOP __at(0x7E3C);
-[; ;proc\pic18f4550.h: 10702: extern volatile __bit SUSPND __at(0x7B69);
-[; ;proc\pic18f4550.h: 10705: extern volatile __bit SWDTE __at(0x7E88);
-[; ;proc\pic18f4550.h: 10708: extern volatile __bit SWDTEN __at(0x7E88);
-[; ;proc\pic18f4550.h: 10711: extern volatile __bit SYNC __at(0x7D64);
-[; ;proc\pic18f4550.h: 10714: extern volatile __bit SYNC1 __at(0x7D64);
-[; ;proc\pic18f4550.h: 10717: extern volatile __bit T08BIT __at(0x7EAE);
-[; ;proc\pic18f4550.h: 10720: extern volatile __bit T0CKI __at(0x7C04);
-[; ;proc\pic18f4550.h: 10723: extern volatile __bit T0CS __at(0x7EAD);
-[; ;proc\pic18f4550.h: 10726: extern volatile __bit T0IE __at(0x7F95);
-[; ;proc\pic18f4550.h: 10729: extern volatile __bit T0IF __at(0x7F92);
-[; ;proc\pic18f4550.h: 10732: extern volatile __bit T0IP __at(0x7F8A);
-[; ;proc\pic18f4550.h: 10735: extern volatile __bit T0PS0 __at(0x7EA8);
-[; ;proc\pic18f4550.h: 10738: extern volatile __bit T0PS1 __at(0x7EA9);
-[; ;proc\pic18f4550.h: 10741: extern volatile __bit T0PS2 __at(0x7EAA);
-[; ;proc\pic18f4550.h: 10744: extern volatile __bit T0SE __at(0x7EAC);
-[; ;proc\pic18f4550.h: 10747: extern volatile __bit T13CKI __at(0x7C10);
-[; ;proc\pic18f4550.h: 10750: extern volatile __bit T1CKPS0 __at(0x7E6C);
-[; ;proc\pic18f4550.h: 10753: extern volatile __bit T1CKPS1 __at(0x7E6D);
-[; ;proc\pic18f4550.h: 10756: extern volatile __bit T1OSCEN __at(0x7E6B);
-[; ;proc\pic18f4550.h: 10759: extern volatile __bit T1OSI __at(0x7C11);
-[; ;proc\pic18f4550.h: 10762: extern volatile __bit T1OSO __at(0x7C10);
-[; ;proc\pic18f4550.h: 10765: extern volatile __bit T1RD16 __at(0x7E6F);
-[; ;proc\pic18f4550.h: 10768: extern volatile __bit T1RUN __at(0x7E6E);
-[; ;proc\pic18f4550.h: 10771: extern volatile __bit T1SYNC __at(0x7E6A);
-[; ;proc\pic18f4550.h: 10774: extern volatile __bit T2CKPS0 __at(0x7E50);
-[; ;proc\pic18f4550.h: 10777: extern volatile __bit T2CKPS1 __at(0x7E51);
-[; ;proc\pic18f4550.h: 10780: extern volatile __bit T2OUTPS0 __at(0x7E53);
-[; ;proc\pic18f4550.h: 10783: extern volatile __bit T2OUTPS1 __at(0x7E54);
-[; ;proc\pic18f4550.h: 10786: extern volatile __bit T2OUTPS2 __at(0x7E55);
-[; ;proc\pic18f4550.h: 10789: extern volatile __bit T2OUTPS3 __at(0x7E56);
-[; ;proc\pic18f4550.h: 10792: extern volatile __bit T3CCP1 __at(0x7D8B);
-[; ;proc\pic18f4550.h: 10795: extern volatile __bit T3CCP2 __at(0x7D8E);
-[; ;proc\pic18f4550.h: 10798: extern volatile __bit T3CKPS0 __at(0x7D8C);
-[; ;proc\pic18f4550.h: 10801: extern volatile __bit T3CKPS1 __at(0x7D8D);
-[; ;proc\pic18f4550.h: 10804: extern volatile __bit T3NSYNC __at(0x7D8A);
-[; ;proc\pic18f4550.h: 10807: extern volatile __bit T3RD16 __at(0x7D8F);
-[; ;proc\pic18f4550.h: 10810: extern volatile __bit T3SYNC __at(0x7D8A);
-[; ;proc\pic18f4550.h: 10813: extern volatile __bit TMR0IE __at(0x7F95);
-[; ;proc\pic18f4550.h: 10816: extern volatile __bit TMR0IF __at(0x7F92);
-[; ;proc\pic18f4550.h: 10819: extern volatile __bit TMR0IP __at(0x7F8A);
-[; ;proc\pic18f4550.h: 10822: extern volatile __bit TMR0ON __at(0x7EAF);
-[; ;proc\pic18f4550.h: 10825: extern volatile __bit TMR1CS __at(0x7E69);
-[; ;proc\pic18f4550.h: 10828: extern volatile __bit TMR1IE __at(0x7CE8);
-[; ;proc\pic18f4550.h: 10831: extern volatile __bit TMR1IF __at(0x7CF0);
-[; ;proc\pic18f4550.h: 10834: extern volatile __bit TMR1IP __at(0x7CF8);
-[; ;proc\pic18f4550.h: 10837: extern volatile __bit TMR1ON __at(0x7E68);
-[; ;proc\pic18f4550.h: 10840: extern volatile __bit TMR2IE __at(0x7CE9);
-[; ;proc\pic18f4550.h: 10843: extern volatile __bit TMR2IF __at(0x7CF1);
-[; ;proc\pic18f4550.h: 10846: extern volatile __bit TMR2IP __at(0x7CF9);
-[; ;proc\pic18f4550.h: 10849: extern volatile __bit TMR2ON __at(0x7E52);
-[; ;proc\pic18f4550.h: 10852: extern volatile __bit TMR3CS __at(0x7D89);
-[; ;proc\pic18f4550.h: 10855: extern volatile __bit TMR3IE __at(0x7D01);
-[; ;proc\pic18f4550.h: 10858: extern volatile __bit TMR3IF __at(0x7D09);
-[; ;proc\pic18f4550.h: 10861: extern volatile __bit TMR3IP __at(0x7D11);
-[; ;proc\pic18f4550.h: 10864: extern volatile __bit TMR3ON __at(0x7D88);
-[; ;proc\pic18f4550.h: 10867: extern volatile __bit TO __at(0x7E83);
-[; ;proc\pic18f4550.h: 10870: extern volatile __bit TOUTPS0 __at(0x7E53);
-[; ;proc\pic18f4550.h: 10873: extern volatile __bit TOUTPS1 __at(0x7E54);
-[; ;proc\pic18f4550.h: 10876: extern volatile __bit TOUTPS2 __at(0x7E55);
-[; ;proc\pic18f4550.h: 10879: extern volatile __bit TOUTPS3 __at(0x7E56);
-[; ;proc\pic18f4550.h: 10882: extern volatile __bit TRISA0 __at(0x7C90);
-[; ;proc\pic18f4550.h: 10885: extern volatile __bit TRISA1 __at(0x7C91);
-[; ;proc\pic18f4550.h: 10888: extern volatile __bit TRISA2 __at(0x7C92);
-[; ;proc\pic18f4550.h: 10891: extern volatile __bit TRISA3 __at(0x7C93);
-[; ;proc\pic18f4550.h: 10894: extern volatile __bit TRISA4 __at(0x7C94);
-[; ;proc\pic18f4550.h: 10897: extern volatile __bit TRISA5 __at(0x7C95);
-[; ;proc\pic18f4550.h: 10900: extern volatile __bit TRISA6 __at(0x7C96);
-[; ;proc\pic18f4550.h: 10903: extern volatile __bit TRISB0 __at(0x7C98);
-[; ;proc\pic18f4550.h: 10906: extern volatile __bit TRISB1 __at(0x7C99);
-[; ;proc\pic18f4550.h: 10909: extern volatile __bit TRISB2 __at(0x7C9A);
-[; ;proc\pic18f4550.h: 10912: extern volatile __bit TRISB3 __at(0x7C9B);
-[; ;proc\pic18f4550.h: 10915: extern volatile __bit TRISB4 __at(0x7C9C);
-[; ;proc\pic18f4550.h: 10918: extern volatile __bit TRISB5 __at(0x7C9D);
-[; ;proc\pic18f4550.h: 10921: extern volatile __bit TRISB6 __at(0x7C9E);
-[; ;proc\pic18f4550.h: 10924: extern volatile __bit TRISB7 __at(0x7C9F);
-[; ;proc\pic18f4550.h: 10927: extern volatile __bit TRISC0 __at(0x7CA0);
-[; ;proc\pic18f4550.h: 10930: extern volatile __bit TRISC1 __at(0x7CA1);
-[; ;proc\pic18f4550.h: 10933: extern volatile __bit TRISC2 __at(0x7CA2);
-[; ;proc\pic18f4550.h: 10936: extern volatile __bit TRISC6 __at(0x7CA6);
-[; ;proc\pic18f4550.h: 10939: extern volatile __bit TRISC7 __at(0x7CA7);
-[; ;proc\pic18f4550.h: 10942: extern volatile __bit TRISD0 __at(0x7CA8);
-[; ;proc\pic18f4550.h: 10945: extern volatile __bit TRISD1 __at(0x7CA9);
-[; ;proc\pic18f4550.h: 10948: extern volatile __bit TRISD2 __at(0x7CAA);
-[; ;proc\pic18f4550.h: 10951: extern volatile __bit TRISD3 __at(0x7CAB);
-[; ;proc\pic18f4550.h: 10954: extern volatile __bit TRISD4 __at(0x7CAC);
-[; ;proc\pic18f4550.h: 10957: extern volatile __bit TRISD5 __at(0x7CAD);
-[; ;proc\pic18f4550.h: 10960: extern volatile __bit TRISD6 __at(0x7CAE);
-[; ;proc\pic18f4550.h: 10963: extern volatile __bit TRISD7 __at(0x7CAF);
-[; ;proc\pic18f4550.h: 10966: extern volatile __bit TRISE0 __at(0x7CB0);
-[; ;proc\pic18f4550.h: 10969: extern volatile __bit TRISE1 __at(0x7CB1);
-[; ;proc\pic18f4550.h: 10972: extern volatile __bit TRISE2 __at(0x7CB2);
-[; ;proc\pic18f4550.h: 10975: extern volatile __bit TRMT __at(0x7D61);
-[; ;proc\pic18f4550.h: 10978: extern volatile __bit TRMT1 __at(0x7D61);
-[; ;proc\pic18f4550.h: 10981: extern volatile __bit TRNIE __at(0x7B4B);
-[; ;proc\pic18f4550.h: 10984: extern volatile __bit TRNIF __at(0x7B43);
-[; ;proc\pic18f4550.h: 10987: extern volatile __bit TUN0 __at(0x7CD8);
-[; ;proc\pic18f4550.h: 10990: extern volatile __bit TUN1 __at(0x7CD9);
-[; ;proc\pic18f4550.h: 10993: extern volatile __bit TUN2 __at(0x7CDA);
-[; ;proc\pic18f4550.h: 10996: extern volatile __bit TUN3 __at(0x7CDB);
-[; ;proc\pic18f4550.h: 10999: extern volatile __bit TUN4 __at(0x7CDC);
-[; ;proc\pic18f4550.h: 11002: extern volatile __bit TX __at(0x7C16);
-[; ;proc\pic18f4550.h: 11005: extern volatile __bit TX1IE __at(0x7CEC);
-[; ;proc\pic18f4550.h: 11008: extern volatile __bit TX1IF __at(0x7CF4);
-[; ;proc\pic18f4550.h: 11011: extern volatile __bit TX1IP __at(0x7CFC);
-[; ;proc\pic18f4550.h: 11014: extern volatile __bit TX8_9 __at(0x7D66);
-[; ;proc\pic18f4550.h: 11017: extern volatile __bit TX9 __at(0x7D66);
-[; ;proc\pic18f4550.h: 11020: extern volatile __bit TX91 __at(0x7D66);
-[; ;proc\pic18f4550.h: 11023: extern volatile __bit TX9D __at(0x7D60);
-[; ;proc\pic18f4550.h: 11026: extern volatile __bit TX9D1 __at(0x7D60);
-[; ;proc\pic18f4550.h: 11029: extern volatile __bit TXCKP __at(0x7DC4);
-[; ;proc\pic18f4550.h: 11032: extern volatile __bit TXD8 __at(0x7D60);
-[; ;proc\pic18f4550.h: 11035: extern volatile __bit TXEN __at(0x7D65);
-[; ;proc\pic18f4550.h: 11038: extern volatile __bit TXEN1 __at(0x7D65);
-[; ;proc\pic18f4550.h: 11041: extern volatile __bit TXIE __at(0x7CEC);
-[; ;proc\pic18f4550.h: 11044: extern volatile __bit TXIF __at(0x7CF4);
-[; ;proc\pic18f4550.h: 11047: extern volatile __bit TXIP __at(0x7CFC);
-[; ;proc\pic18f4550.h: 11050: extern volatile __bit UA __at(0x7E39);
-[; ;proc\pic18f4550.h: 11053: extern volatile __bit UERRIE __at(0x7B49);
-[; ;proc\pic18f4550.h: 11056: extern volatile __bit UERRIF __at(0x7B41);
-[; ;proc\pic18f4550.h: 11059: extern volatile __bit ULPWUIN __at(0x7C00);
-[; ;proc\pic18f4550.h: 11062: extern volatile __bit UOEMON __at(0x7B7E);
-[; ;proc\pic18f4550.h: 11065: extern volatile __bit UPP0 __at(0x7B78);
-[; ;proc\pic18f4550.h: 11068: extern volatile __bit UPP1 __at(0x7B79);
-[; ;proc\pic18f4550.h: 11071: extern volatile __bit UPUEN __at(0x7B7C);
-[; ;proc\pic18f4550.h: 11074: extern volatile __bit URSTIE __at(0x7B48);
-[; ;proc\pic18f4550.h: 11077: extern volatile __bit URSTIF __at(0x7B40);
-[; ;proc\pic18f4550.h: 11080: extern volatile __bit USBEN __at(0x7B6B);
-[; ;proc\pic18f4550.h: 11083: extern volatile __bit USBIE __at(0x7D05);
-[; ;proc\pic18f4550.h: 11086: extern volatile __bit USBIF __at(0x7D0D);
-[; ;proc\pic18f4550.h: 11089: extern volatile __bit USBIP __at(0x7D15);
-[; ;proc\pic18f4550.h: 11092: extern volatile __bit UTEYE __at(0x7B7F);
-[; ;proc\pic18f4550.h: 11095: extern volatile __bit UTRDIS __at(0x7B7B);
-[; ;proc\pic18f4550.h: 11098: extern volatile __bit VCFG0 __at(0x7E0C);
-[; ;proc\pic18f4550.h: 11101: extern volatile __bit VCFG01 __at(0x7E0C);
-[; ;proc\pic18f4550.h: 11104: extern volatile __bit VCFG1 __at(0x7E0D);
-[; ;proc\pic18f4550.h: 11107: extern volatile __bit VCFG11 __at(0x7E0D);
-[; ;proc\pic18f4550.h: 11110: extern volatile __bit VDIRMAG __at(0x7E97);
-[; ;proc\pic18f4550.h: 11113: extern volatile __bit VREFM __at(0x7C02);
-[; ;proc\pic18f4550.h: 11116: extern volatile __bit VREFP __at(0x7C03);
-[; ;proc\pic18f4550.h: 11119: extern volatile __bit W4E __at(0x7DC1);
-[; ;proc\pic18f4550.h: 11122: extern volatile __bit WAIT0 __at(0x7E5C);
-[; ;proc\pic18f4550.h: 11125: extern volatile __bit WAIT1 __at(0x7E5D);
-[; ;proc\pic18f4550.h: 11128: extern volatile __bit WCOL __at(0x7E37);
-[; ;proc\pic18f4550.h: 11131: extern volatile __bit WM0 __at(0x7E58);
-[; ;proc\pic18f4550.h: 11134: extern volatile __bit WM1 __at(0x7E59);
-[; ;proc\pic18f4550.h: 11137: extern volatile __bit WR __at(0x7D31);
-[; ;proc\pic18f4550.h: 11140: extern volatile __bit WRE __at(0x7C21);
-[; ;proc\pic18f4550.h: 11143: extern volatile __bit WREN __at(0x7D32);
-[; ;proc\pic18f4550.h: 11146: extern volatile __bit WRERR __at(0x7D33);
-[; ;proc\pic18f4550.h: 11149: extern volatile __bit WRSPP __at(0x7B26);
-[; ;proc\pic18f4550.h: 11152: extern volatile __bit WS0 __at(0x7B18);
-[; ;proc\pic18f4550.h: 11155: extern volatile __bit WS1 __at(0x7B19);
-[; ;proc\pic18f4550.h: 11158: extern volatile __bit WS2 __at(0x7B1A);
-[; ;proc\pic18f4550.h: 11161: extern volatile __bit WS3 __at(0x7B1B);
-[; ;proc\pic18f4550.h: 11164: extern volatile __bit WUE __at(0x7DC1);
-[; ;proc\pic18f4550.h: 11167: extern volatile __bit ZERO __at(0x7EC2);
-[; ;proc\pic18f4550.h: 11170: extern volatile __bit nA __at(0x7E3D);
-[; ;proc\pic18f4550.h: 11173: extern volatile __bit nADDRESS __at(0x7E3D);
-[; ;proc\pic18f4550.h: 11176: extern volatile __bit nBOR __at(0x7E80);
-[; ;proc\pic18f4550.h: 11179: extern volatile __bit nDONE __at(0x7E11);
-[; ;proc\pic18f4550.h: 11182: extern volatile __bit nIPEN __at(0x7E87);
-[; ;proc\pic18f4550.h: 11185: extern volatile __bit nPD __at(0x7E82);
-[; ;proc\pic18f4550.h: 11188: extern volatile __bit nPOR __at(0x7E81);
-[; ;proc\pic18f4550.h: 11191: extern volatile __bit nRBPU __at(0x7F8F);
-[; ;proc\pic18f4550.h: 11194: extern volatile __bit nRI __at(0x7E84);
-[; ;proc\pic18f4550.h: 11197: extern volatile __bit nT1SYNC __at(0x7E6A);
-[; ;proc\pic18f4550.h: 11200: extern volatile __bit nT3SYNC __at(0x7D8A);
-[; ;proc\pic18f4550.h: 11203: extern volatile __bit nTO __at(0x7E83);
-[; ;proc\pic18f4550.h: 11206: extern volatile __bit nW __at(0x7E3A);
-[; ;proc\pic18f4550.h: 11209: extern volatile __bit nWRITE __at(0x7E3A);
+[; ;proc\pic18f4550.h: 8909: extern volatile __bit ABDEN __at(0x7DC0);
+[; ;proc\pic18f4550.h: 8912: extern volatile __bit ABDOVF __at(0x7DC7);
+[; ;proc\pic18f4550.h: 8915: extern volatile __bit ACKDT __at(0x7E2D);
+[; ;proc\pic18f4550.h: 8918: extern volatile __bit ACKEN __at(0x7E2C);
+[; ;proc\pic18f4550.h: 8921: extern volatile __bit ACKSTAT __at(0x7E2E);
+[; ;proc\pic18f4550.h: 8924: extern volatile __bit ACQT0 __at(0x7E03);
+[; ;proc\pic18f4550.h: 8927: extern volatile __bit ACQT1 __at(0x7E04);
+[; ;proc\pic18f4550.h: 8930: extern volatile __bit ACQT2 __at(0x7E05);
+[; ;proc\pic18f4550.h: 8933: extern volatile __bit ACTVIE __at(0x7B4A);
+[; ;proc\pic18f4550.h: 8936: extern volatile __bit ACTVIF __at(0x7B42);
+[; ;proc\pic18f4550.h: 8939: extern volatile __bit ADCS0 __at(0x7E00);
+[; ;proc\pic18f4550.h: 8942: extern volatile __bit ADCS1 __at(0x7E01);
+[; ;proc\pic18f4550.h: 8945: extern volatile __bit ADCS2 __at(0x7E02);
+[; ;proc\pic18f4550.h: 8948: extern volatile __bit ADDEN __at(0x7D5B);
+[; ;proc\pic18f4550.h: 8951: extern volatile __bit __attribute__((__deprecated__)) ADDR0 __at(0x7B20);
+[; ;proc\pic18f4550.h: 8954: extern volatile __bit __attribute__((__deprecated__)) ADDR1 __at(0x7B21);
+[; ;proc\pic18f4550.h: 8957: extern volatile __bit __attribute__((__deprecated__)) ADDR2 __at(0x7B22);
+[; ;proc\pic18f4550.h: 8960: extern volatile __bit __attribute__((__deprecated__)) ADDR3 __at(0x7B23);
+[; ;proc\pic18f4550.h: 8963: extern volatile __bit ADDR4 __at(0x7B74);
+[; ;proc\pic18f4550.h: 8966: extern volatile __bit ADDR5 __at(0x7B75);
+[; ;proc\pic18f4550.h: 8969: extern volatile __bit ADDR6 __at(0x7B76);
+[; ;proc\pic18f4550.h: 8972: extern volatile __bit ADEN __at(0x7D5B);
+[; ;proc\pic18f4550.h: 8975: extern volatile __bit ADFM __at(0x7E07);
+[; ;proc\pic18f4550.h: 8978: extern volatile __bit ADIE __at(0x7CEE);
+[; ;proc\pic18f4550.h: 8981: extern volatile __bit ADIF __at(0x7CF6);
+[; ;proc\pic18f4550.h: 8984: extern volatile __bit ADIP __at(0x7CFE);
+[; ;proc\pic18f4550.h: 8987: extern volatile __bit ADON __at(0x7E10);
+[; ;proc\pic18f4550.h: 8990: extern volatile __bit AN0 __at(0x7C00);
+[; ;proc\pic18f4550.h: 8993: extern volatile __bit AN1 __at(0x7C01);
+[; ;proc\pic18f4550.h: 8996: extern volatile __bit AN2 __at(0x7C02);
+[; ;proc\pic18f4550.h: 8999: extern volatile __bit AN3 __at(0x7C03);
+[; ;proc\pic18f4550.h: 9002: extern volatile __bit AN4 __at(0x7C05);
+[; ;proc\pic18f4550.h: 9005: extern volatile __bit BCLIE __at(0x7D03);
+[; ;proc\pic18f4550.h: 9008: extern volatile __bit BCLIF __at(0x7D0B);
+[; ;proc\pic18f4550.h: 9011: extern volatile __bit BCLIP __at(0x7D13);
+[; ;proc\pic18f4550.h: 9014: extern volatile __bit BF __at(0x7E38);
+[; ;proc\pic18f4550.h: 9017: extern volatile __bit BGST __at(0x7E95);
+[; ;proc\pic18f4550.h: 9020: extern volatile __bit BOR __at(0x7E80);
+[; ;proc\pic18f4550.h: 9023: extern volatile __bit BRG16 __at(0x7DC3);
+[; ;proc\pic18f4550.h: 9026: extern volatile __bit BRGH __at(0x7D62);
+[; ;proc\pic18f4550.h: 9029: extern volatile __bit BRGH1 __at(0x7D62);
+[; ;proc\pic18f4550.h: 9032: extern volatile __bit BTOEE __at(0x7B5C);
+[; ;proc\pic18f4550.h: 9035: extern volatile __bit BTOEF __at(0x7B54);
+[; ;proc\pic18f4550.h: 9038: extern volatile __bit BTSEE __at(0x7B5F);
+[; ;proc\pic18f4550.h: 9041: extern volatile __bit BTSEF __at(0x7B57);
+[; ;proc\pic18f4550.h: 9044: extern volatile __bit BUSY __at(0x7B24);
+[; ;proc\pic18f4550.h: 9047: extern volatile __bit C1INV __at(0x7DA4);
+[; ;proc\pic18f4550.h: 9050: extern volatile __bit C1OUT __at(0x7DA6);
+[; ;proc\pic18f4550.h: 9053: extern volatile __bit C2INV __at(0x7DA5);
+[; ;proc\pic18f4550.h: 9056: extern volatile __bit C2OUT __at(0x7DA7);
+[; ;proc\pic18f4550.h: 9059: extern volatile __bit CARRY __at(0x7EC0);
+[; ;proc\pic18f4550.h: 9062: extern volatile __bit CCP1 __at(0x7C12);
+[; ;proc\pic18f4550.h: 9065: extern volatile __bit CCP10 __at(0x7C22);
+[; ;proc\pic18f4550.h: 9068: extern volatile __bit CCP1IE __at(0x7CEA);
+[; ;proc\pic18f4550.h: 9071: extern volatile __bit CCP1IF __at(0x7CF2);
+[; ;proc\pic18f4550.h: 9074: extern volatile __bit CCP1IP __at(0x7CFA);
+[; ;proc\pic18f4550.h: 9077: extern volatile __bit CCP1M0 __at(0x7DE8);
+[; ;proc\pic18f4550.h: 9080: extern volatile __bit CCP1M1 __at(0x7DE9);
+[; ;proc\pic18f4550.h: 9083: extern volatile __bit CCP1M2 __at(0x7DEA);
+[; ;proc\pic18f4550.h: 9086: extern volatile __bit CCP1M3 __at(0x7DEB);
+[; ;proc\pic18f4550.h: 9089: extern volatile __bit CCP2 __at(0x7C11);
+[; ;proc\pic18f4550.h: 9092: extern volatile __bit CCP2E __at(0x7C27);
+[; ;proc\pic18f4550.h: 9095: extern volatile __bit CCP2IE __at(0x7D00);
+[; ;proc\pic18f4550.h: 9098: extern volatile __bit CCP2IF __at(0x7D08);
+[; ;proc\pic18f4550.h: 9101: extern volatile __bit CCP2IP __at(0x7D10);
+[; ;proc\pic18f4550.h: 9104: extern volatile __bit CCP2M0 __at(0x7DD0);
+[; ;proc\pic18f4550.h: 9107: extern volatile __bit CCP2M1 __at(0x7DD1);
+[; ;proc\pic18f4550.h: 9110: extern volatile __bit CCP2M2 __at(0x7DD2);
+[; ;proc\pic18f4550.h: 9113: extern volatile __bit CCP2M3 __at(0x7DD3);
+[; ;proc\pic18f4550.h: 9116: extern volatile __bit CCP2_PA2 __at(0x7C0B);
+[; ;proc\pic18f4550.h: 9119: extern volatile __bit CCP9E __at(0x7C23);
+[; ;proc\pic18f4550.h: 9122: extern volatile __bit CFGS __at(0x7D36);
+[; ;proc\pic18f4550.h: 9125: extern volatile __bit CHS0 __at(0x7E12);
+[; ;proc\pic18f4550.h: 9128: extern volatile __bit CHS1 __at(0x7E13);
+[; ;proc\pic18f4550.h: 9131: extern volatile __bit CHS2 __at(0x7E14);
+[; ;proc\pic18f4550.h: 9134: extern volatile __bit CHS3 __at(0x7E15);
+[; ;proc\pic18f4550.h: 9137: extern volatile __bit CHSN3 __at(0x7E0B);
+[; ;proc\pic18f4550.h: 9140: extern volatile __bit CIS __at(0x7DA3);
+[; ;proc\pic18f4550.h: 9143: extern volatile __bit CK __at(0x7C16);
+[; ;proc\pic18f4550.h: 9146: extern volatile __bit CK1SPP __at(0x7C20);
+[; ;proc\pic18f4550.h: 9149: extern volatile __bit CK2SPP __at(0x7C21);
+[; ;proc\pic18f4550.h: 9152: extern volatile __bit CKE __at(0x7E3E);
+[; ;proc\pic18f4550.h: 9155: extern volatile __bit CKP __at(0x7E34);
+[; ;proc\pic18f4550.h: 9158: extern volatile __bit CLK1EN __at(0x7B1C);
+[; ;proc\pic18f4550.h: 9161: extern volatile __bit CLKCFG0 __at(0x7B1E);
+[; ;proc\pic18f4550.h: 9164: extern volatile __bit CLKCFG1 __at(0x7B1F);
+[; ;proc\pic18f4550.h: 9167: extern volatile __bit CM0 __at(0x7DA0);
+[; ;proc\pic18f4550.h: 9170: extern volatile __bit CM1 __at(0x7DA1);
+[; ;proc\pic18f4550.h: 9173: extern volatile __bit CM2 __at(0x7DA2);
+[; ;proc\pic18f4550.h: 9176: extern volatile __bit CMEN0 __at(0x7DA0);
+[; ;proc\pic18f4550.h: 9179: extern volatile __bit CMEN1 __at(0x7DA1);
+[; ;proc\pic18f4550.h: 9182: extern volatile __bit CMEN2 __at(0x7DA2);
+[; ;proc\pic18f4550.h: 9185: extern volatile __bit CMIE __at(0x7D06);
+[; ;proc\pic18f4550.h: 9188: extern volatile __bit CMIF __at(0x7D0E);
+[; ;proc\pic18f4550.h: 9191: extern volatile __bit CMIP __at(0x7D16);
+[; ;proc\pic18f4550.h: 9194: extern volatile __bit CRC16EE __at(0x7B5A);
+[; ;proc\pic18f4550.h: 9197: extern volatile __bit CRC16EF __at(0x7B52);
+[; ;proc\pic18f4550.h: 9200: extern volatile __bit CRC5EE __at(0x7B59);
+[; ;proc\pic18f4550.h: 9203: extern volatile __bit CRC5EF __at(0x7B51);
+[; ;proc\pic18f4550.h: 9206: extern volatile __bit CREN __at(0x7D5C);
+[; ;proc\pic18f4550.h: 9209: extern volatile __bit CS __at(0x7C22);
+[; ;proc\pic18f4550.h: 9212: extern volatile __bit CSEN __at(0x7B1D);
+[; ;proc\pic18f4550.h: 9215: extern volatile __bit CSRC __at(0x7D67);
+[; ;proc\pic18f4550.h: 9218: extern volatile __bit CSRC1 __at(0x7D67);
+[; ;proc\pic18f4550.h: 9221: extern volatile __bit CVR0 __at(0x7DA8);
+[; ;proc\pic18f4550.h: 9224: extern volatile __bit CVR1 __at(0x7DA9);
+[; ;proc\pic18f4550.h: 9227: extern volatile __bit CVR2 __at(0x7DAA);
+[; ;proc\pic18f4550.h: 9230: extern volatile __bit CVR3 __at(0x7DAB);
+[; ;proc\pic18f4550.h: 9233: extern volatile __bit CVREF __at(0x7DAC);
+[; ;proc\pic18f4550.h: 9236: extern volatile __bit CVREN __at(0x7DAF);
+[; ;proc\pic18f4550.h: 9239: extern volatile __bit CVROE __at(0x7DAE);
+[; ;proc\pic18f4550.h: 9242: extern volatile __bit CVROEN __at(0x7DAE);
+[; ;proc\pic18f4550.h: 9245: extern volatile __bit CVRR __at(0x7DAD);
+[; ;proc\pic18f4550.h: 9248: extern volatile __bit CVRSS __at(0x7DAC);
+[; ;proc\pic18f4550.h: 9251: extern volatile __bit DA __at(0x7E3D);
+[; ;proc\pic18f4550.h: 9254: extern volatile __bit DATA_ADDRESS __at(0x7E3D);
+[; ;proc\pic18f4550.h: 9257: extern volatile __bit DC __at(0x7EC1);
+[; ;proc\pic18f4550.h: 9260: extern volatile __bit DC1B0 __at(0x7DEC);
+[; ;proc\pic18f4550.h: 9263: extern volatile __bit DC1B1 __at(0x7DED);
+[; ;proc\pic18f4550.h: 9266: extern volatile __bit DC2B0 __at(0x7DD4);
+[; ;proc\pic18f4550.h: 9269: extern volatile __bit DC2B1 __at(0x7DD5);
+[; ;proc\pic18f4550.h: 9272: extern volatile __bit DFN8EE __at(0x7B5B);
+[; ;proc\pic18f4550.h: 9275: extern volatile __bit DFN8EF __at(0x7B53);
+[; ;proc\pic18f4550.h: 9278: extern volatile __bit DIR __at(0x7B62);
+[; ;proc\pic18f4550.h: 9281: extern volatile __bit DONE __at(0x7E11);
+[; ;proc\pic18f4550.h: 9284: extern volatile __bit DT __at(0x7C17);
+[; ;proc\pic18f4550.h: 9287: extern volatile __bit D_A __at(0x7E3D);
+[; ;proc\pic18f4550.h: 9290: extern volatile __bit D_NOT_A __at(0x7E3D);
+[; ;proc\pic18f4550.h: 9293: extern volatile __bit D_nA __at(0x7E3D);
+[; ;proc\pic18f4550.h: 9296: extern volatile __bit EBDIS __at(0x7E5F);
+[; ;proc\pic18f4550.h: 9299: extern volatile __bit ECCPAS0 __at(0x7DB4);
+[; ;proc\pic18f4550.h: 9302: extern volatile __bit ECCPAS1 __at(0x7DB5);
+[; ;proc\pic18f4550.h: 9305: extern volatile __bit ECCPAS2 __at(0x7DB6);
+[; ;proc\pic18f4550.h: 9308: extern volatile __bit ECCPASE __at(0x7DB7);
+[; ;proc\pic18f4550.h: 9311: extern volatile __bit EEFS __at(0x7D36);
+[; ;proc\pic18f4550.h: 9314: extern volatile __bit EEIE __at(0x7D04);
+[; ;proc\pic18f4550.h: 9317: extern volatile __bit EEIF __at(0x7D0C);
+[; ;proc\pic18f4550.h: 9320: extern volatile __bit EEIP __at(0x7D14);
+[; ;proc\pic18f4550.h: 9323: extern volatile __bit EEPGD __at(0x7D37);
+[; ;proc\pic18f4550.h: 9326: extern volatile __bit ENDP0 __at(0x7B63);
+[; ;proc\pic18f4550.h: 9329: extern volatile __bit ENDP1 __at(0x7B64);
+[; ;proc\pic18f4550.h: 9332: extern volatile __bit ENDP2 __at(0x7B65);
+[; ;proc\pic18f4550.h: 9335: extern volatile __bit ENDP3 __at(0x7B66);
+[; ;proc\pic18f4550.h: 9338: extern volatile __bit EP0CONDIS __at(0x7B83);
+[; ;proc\pic18f4550.h: 9341: extern volatile __bit EP0HSHK __at(0x7B84);
+[; ;proc\pic18f4550.h: 9344: extern volatile __bit EP0INEN __at(0x7B81);
+[; ;proc\pic18f4550.h: 9347: extern volatile __bit EP0OUTEN __at(0x7B82);
+[; ;proc\pic18f4550.h: 9350: extern volatile __bit EP0STALL __at(0x7B80);
+[; ;proc\pic18f4550.h: 9353: extern volatile __bit EP1CONDIS __at(0x7B8B);
+[; ;proc\pic18f4550.h: 9356: extern volatile __bit EP1HSHK __at(0x7B8C);
+[; ;proc\pic18f4550.h: 9359: extern volatile __bit EP1INEN __at(0x7B89);
+[; ;proc\pic18f4550.h: 9362: extern volatile __bit EP1OUTEN __at(0x7B8A);
+[; ;proc\pic18f4550.h: 9365: extern volatile __bit EP1STALL __at(0x7B88);
+[; ;proc\pic18f4550.h: 9368: extern volatile __bit EP2CONDIS __at(0x7B93);
+[; ;proc\pic18f4550.h: 9371: extern volatile __bit EP2HSHK __at(0x7B94);
+[; ;proc\pic18f4550.h: 9374: extern volatile __bit EP2INEN __at(0x7B91);
+[; ;proc\pic18f4550.h: 9377: extern volatile __bit EP2OUTEN __at(0x7B92);
+[; ;proc\pic18f4550.h: 9380: extern volatile __bit EP2STALL __at(0x7B90);
+[; ;proc\pic18f4550.h: 9383: extern volatile __bit EP3CONDIS __at(0x7B9B);
+[; ;proc\pic18f4550.h: 9386: extern volatile __bit EP3HSHK __at(0x7B9C);
+[; ;proc\pic18f4550.h: 9389: extern volatile __bit EP3INEN __at(0x7B99);
+[; ;proc\pic18f4550.h: 9392: extern volatile __bit EP3OUTEN __at(0x7B9A);
+[; ;proc\pic18f4550.h: 9395: extern volatile __bit EP3STALL __at(0x7B98);
+[; ;proc\pic18f4550.h: 9398: extern volatile __bit EP4CONDIS __at(0x7BA3);
+[; ;proc\pic18f4550.h: 9401: extern volatile __bit EP4HSHK __at(0x7BA4);
+[; ;proc\pic18f4550.h: 9404: extern volatile __bit EP4INEN __at(0x7BA1);
+[; ;proc\pic18f4550.h: 9407: extern volatile __bit EP4OUTEN __at(0x7BA2);
+[; ;proc\pic18f4550.h: 9410: extern volatile __bit EP4STALL __at(0x7BA0);
+[; ;proc\pic18f4550.h: 9413: extern volatile __bit EP5CONDIS __at(0x7BAB);
+[; ;proc\pic18f4550.h: 9416: extern volatile __bit EP5HSHK __at(0x7BAC);
+[; ;proc\pic18f4550.h: 9419: extern volatile __bit EP5INEN __at(0x7BA9);
+[; ;proc\pic18f4550.h: 9422: extern volatile __bit EP5OUTEN __at(0x7BAA);
+[; ;proc\pic18f4550.h: 9425: extern volatile __bit EP5STALL __at(0x7BA8);
+[; ;proc\pic18f4550.h: 9428: extern volatile __bit EP6CONDIS __at(0x7BB3);
+[; ;proc\pic18f4550.h: 9431: extern volatile __bit EP6HSHK __at(0x7BB4);
+[; ;proc\pic18f4550.h: 9434: extern volatile __bit EP6INEN __at(0x7BB1);
+[; ;proc\pic18f4550.h: 9437: extern volatile __bit EP6OUTEN __at(0x7BB2);
+[; ;proc\pic18f4550.h: 9440: extern volatile __bit EP6STALL __at(0x7BB0);
+[; ;proc\pic18f4550.h: 9443: extern volatile __bit EP7CONDIS __at(0x7BBB);
+[; ;proc\pic18f4550.h: 9446: extern volatile __bit EP7HSHK __at(0x7BBC);
+[; ;proc\pic18f4550.h: 9449: extern volatile __bit EP7INEN __at(0x7BB9);
+[; ;proc\pic18f4550.h: 9452: extern volatile __bit EP7OUTEN __at(0x7BBA);
+[; ;proc\pic18f4550.h: 9455: extern volatile __bit EP7STALL __at(0x7BB8);
+[; ;proc\pic18f4550.h: 9458: extern volatile __bit EPCONDIS0 __at(0x7B83);
+[; ;proc\pic18f4550.h: 9461: extern volatile __bit EPCONDIS1 __at(0x7B8B);
+[; ;proc\pic18f4550.h: 9464: extern volatile __bit EPCONDIS10 __at(0x7BD3);
+[; ;proc\pic18f4550.h: 9467: extern volatile __bit EPCONDIS11 __at(0x7BDB);
+[; ;proc\pic18f4550.h: 9470: extern volatile __bit EPCONDIS12 __at(0x7BE3);
+[; ;proc\pic18f4550.h: 9473: extern volatile __bit EPCONDIS13 __at(0x7BEB);
+[; ;proc\pic18f4550.h: 9476: extern volatile __bit EPCONDIS14 __at(0x7BF3);
+[; ;proc\pic18f4550.h: 9479: extern volatile __bit EPCONDIS15 __at(0x7BFB);
+[; ;proc\pic18f4550.h: 9482: extern volatile __bit EPCONDIS2 __at(0x7B93);
+[; ;proc\pic18f4550.h: 9485: extern volatile __bit EPCONDIS3 __at(0x7B9B);
+[; ;proc\pic18f4550.h: 9488: extern volatile __bit EPCONDIS4 __at(0x7BA3);
+[; ;proc\pic18f4550.h: 9491: extern volatile __bit EPCONDIS5 __at(0x7BAB);
+[; ;proc\pic18f4550.h: 9494: extern volatile __bit EPCONDIS6 __at(0x7BB3);
+[; ;proc\pic18f4550.h: 9497: extern volatile __bit EPCONDIS7 __at(0x7BBB);
+[; ;proc\pic18f4550.h: 9500: extern volatile __bit EPCONDIS8 __at(0x7BC3);
+[; ;proc\pic18f4550.h: 9503: extern volatile __bit EPCONDIS9 __at(0x7BCB);
+[; ;proc\pic18f4550.h: 9506: extern volatile __bit EPHSHK0 __at(0x7B84);
+[; ;proc\pic18f4550.h: 9509: extern volatile __bit EPHSHK1 __at(0x7B8C);
+[; ;proc\pic18f4550.h: 9512: extern volatile __bit EPHSHK10 __at(0x7BD4);
+[; ;proc\pic18f4550.h: 9515: extern volatile __bit EPHSHK11 __at(0x7BDC);
+[; ;proc\pic18f4550.h: 9518: extern volatile __bit EPHSHK12 __at(0x7BE4);
+[; ;proc\pic18f4550.h: 9521: extern volatile __bit EPHSHK13 __at(0x7BEC);
+[; ;proc\pic18f4550.h: 9524: extern volatile __bit EPHSHK14 __at(0x7BF4);
+[; ;proc\pic18f4550.h: 9527: extern volatile __bit EPHSHK15 __at(0x7BFC);
+[; ;proc\pic18f4550.h: 9530: extern volatile __bit EPHSHK2 __at(0x7B94);
+[; ;proc\pic18f4550.h: 9533: extern volatile __bit EPHSHK3 __at(0x7B9C);
+[; ;proc\pic18f4550.h: 9536: extern volatile __bit EPHSHK4 __at(0x7BA4);
+[; ;proc\pic18f4550.h: 9539: extern volatile __bit EPHSHK5 __at(0x7BAC);
+[; ;proc\pic18f4550.h: 9542: extern volatile __bit EPHSHK6 __at(0x7BB4);
+[; ;proc\pic18f4550.h: 9545: extern volatile __bit EPHSHK7 __at(0x7BBC);
+[; ;proc\pic18f4550.h: 9548: extern volatile __bit EPHSHK8 __at(0x7BC4);
+[; ;proc\pic18f4550.h: 9551: extern volatile __bit EPHSHK9 __at(0x7BCC);
+[; ;proc\pic18f4550.h: 9554: extern volatile __bit EPINEN0 __at(0x7B81);
+[; ;proc\pic18f4550.h: 9557: extern volatile __bit EPINEN1 __at(0x7B89);
+[; ;proc\pic18f4550.h: 9560: extern volatile __bit EPINEN10 __at(0x7BD1);
+[; ;proc\pic18f4550.h: 9563: extern volatile __bit EPINEN11 __at(0x7BD9);
+[; ;proc\pic18f4550.h: 9566: extern volatile __bit EPINEN12 __at(0x7BE1);
+[; ;proc\pic18f4550.h: 9569: extern volatile __bit EPINEN13 __at(0x7BE9);
+[; ;proc\pic18f4550.h: 9572: extern volatile __bit EPINEN14 __at(0x7BF1);
+[; ;proc\pic18f4550.h: 9575: extern volatile __bit EPINEN15 __at(0x7BF9);
+[; ;proc\pic18f4550.h: 9578: extern volatile __bit EPINEN2 __at(0x7B91);
+[; ;proc\pic18f4550.h: 9581: extern volatile __bit EPINEN3 __at(0x7B99);
+[; ;proc\pic18f4550.h: 9584: extern volatile __bit EPINEN4 __at(0x7BA1);
+[; ;proc\pic18f4550.h: 9587: extern volatile __bit EPINEN5 __at(0x7BA9);
+[; ;proc\pic18f4550.h: 9590: extern volatile __bit EPINEN6 __at(0x7BB1);
+[; ;proc\pic18f4550.h: 9593: extern volatile __bit EPINEN7 __at(0x7BB9);
+[; ;proc\pic18f4550.h: 9596: extern volatile __bit EPINEN8 __at(0x7BC1);
+[; ;proc\pic18f4550.h: 9599: extern volatile __bit EPINEN9 __at(0x7BC9);
+[; ;proc\pic18f4550.h: 9602: extern volatile __bit EPOUTEN0 __at(0x7B82);
+[; ;proc\pic18f4550.h: 9605: extern volatile __bit EPOUTEN1 __at(0x7B8A);
+[; ;proc\pic18f4550.h: 9608: extern volatile __bit EPOUTEN10 __at(0x7BD2);
+[; ;proc\pic18f4550.h: 9611: extern volatile __bit EPOUTEN11 __at(0x7BDA);
+[; ;proc\pic18f4550.h: 9614: extern volatile __bit EPOUTEN12 __at(0x7BE2);
+[; ;proc\pic18f4550.h: 9617: extern volatile __bit EPOUTEN13 __at(0x7BEA);
+[; ;proc\pic18f4550.h: 9620: extern volatile __bit EPOUTEN14 __at(0x7BF2);
+[; ;proc\pic18f4550.h: 9623: extern volatile __bit EPOUTEN15 __at(0x7BFA);
+[; ;proc\pic18f4550.h: 9626: extern volatile __bit EPOUTEN2 __at(0x7B92);
+[; ;proc\pic18f4550.h: 9629: extern volatile __bit EPOUTEN3 __at(0x7B9A);
+[; ;proc\pic18f4550.h: 9632: extern volatile __bit EPOUTEN4 __at(0x7BA2);
+[; ;proc\pic18f4550.h: 9635: extern volatile __bit EPOUTEN5 __at(0x7BAA);
+[; ;proc\pic18f4550.h: 9638: extern volatile __bit EPOUTEN6 __at(0x7BB2);
+[; ;proc\pic18f4550.h: 9641: extern volatile __bit EPOUTEN7 __at(0x7BBA);
+[; ;proc\pic18f4550.h: 9644: extern volatile __bit EPOUTEN8 __at(0x7BC2);
+[; ;proc\pic18f4550.h: 9647: extern volatile __bit EPOUTEN9 __at(0x7BCA);
+[; ;proc\pic18f4550.h: 9650: extern volatile __bit EPSTALL0 __at(0x7B80);
+[; ;proc\pic18f4550.h: 9653: extern volatile __bit EPSTALL1 __at(0x7B88);
+[; ;proc\pic18f4550.h: 9656: extern volatile __bit EPSTALL10 __at(0x7BD0);
+[; ;proc\pic18f4550.h: 9659: extern volatile __bit EPSTALL11 __at(0x7BD8);
+[; ;proc\pic18f4550.h: 9662: extern volatile __bit EPSTALL12 __at(0x7BE0);
+[; ;proc\pic18f4550.h: 9665: extern volatile __bit EPSTALL13 __at(0x7BE8);
+[; ;proc\pic18f4550.h: 9668: extern volatile __bit EPSTALL14 __at(0x7BF0);
+[; ;proc\pic18f4550.h: 9671: extern volatile __bit EPSTALL15 __at(0x7BF8);
+[; ;proc\pic18f4550.h: 9674: extern volatile __bit EPSTALL2 __at(0x7B90);
+[; ;proc\pic18f4550.h: 9677: extern volatile __bit EPSTALL3 __at(0x7B98);
+[; ;proc\pic18f4550.h: 9680: extern volatile __bit EPSTALL4 __at(0x7BA0);
+[; ;proc\pic18f4550.h: 9683: extern volatile __bit EPSTALL5 __at(0x7BA8);
+[; ;proc\pic18f4550.h: 9686: extern volatile __bit EPSTALL6 __at(0x7BB0);
+[; ;proc\pic18f4550.h: 9689: extern volatile __bit EPSTALL7 __at(0x7BB8);
+[; ;proc\pic18f4550.h: 9692: extern volatile __bit EPSTALL8 __at(0x7BC0);
+[; ;proc\pic18f4550.h: 9695: extern volatile __bit EPSTALL9 __at(0x7BC8);
+[; ;proc\pic18f4550.h: 9698: extern volatile __bit FERR __at(0x7D5A);
+[; ;proc\pic18f4550.h: 9701: extern volatile __bit FLTS __at(0x7E9A);
+[; ;proc\pic18f4550.h: 9704: extern volatile __bit FREE __at(0x7D34);
+[; ;proc\pic18f4550.h: 9707: extern volatile __bit FRM0 __at(0x7B30);
+[; ;proc\pic18f4550.h: 9710: extern volatile __bit FRM1 __at(0x7B31);
+[; ;proc\pic18f4550.h: 9713: extern volatile __bit FRM10 __at(0x7B3A);
+[; ;proc\pic18f4550.h: 9716: extern volatile __bit FRM2 __at(0x7B32);
+[; ;proc\pic18f4550.h: 9719: extern volatile __bit FRM3 __at(0x7B33);
+[; ;proc\pic18f4550.h: 9722: extern volatile __bit FRM4 __at(0x7B34);
+[; ;proc\pic18f4550.h: 9725: extern volatile __bit FRM5 __at(0x7B35);
+[; ;proc\pic18f4550.h: 9728: extern volatile __bit FRM6 __at(0x7B36);
+[; ;proc\pic18f4550.h: 9731: extern volatile __bit FRM7 __at(0x7B37);
+[; ;proc\pic18f4550.h: 9734: extern volatile __bit FRM8 __at(0x7B38);
+[; ;proc\pic18f4550.h: 9737: extern volatile __bit FRM9 __at(0x7B39);
+[; ;proc\pic18f4550.h: 9740: extern volatile __bit FSEN __at(0x7B7A);
+[; ;proc\pic18f4550.h: 9743: extern volatile __bit GCEN __at(0x7E2F);
+[; ;proc\pic18f4550.h: 9746: extern volatile __bit GIE __at(0x7F97);
+[; ;proc\pic18f4550.h: 9749: extern volatile __bit GIEH __at(0x7F97);
+[; ;proc\pic18f4550.h: 9752: extern volatile __bit GIEL __at(0x7F96);
+[; ;proc\pic18f4550.h: 9755: extern volatile __bit GIE_GIEH __at(0x7F97);
+[; ;proc\pic18f4550.h: 9758: extern volatile __bit GO __at(0x7E11);
+[; ;proc\pic18f4550.h: 9761: extern volatile __bit GODONE __at(0x7E11);
+[; ;proc\pic18f4550.h: 9764: extern volatile __bit GO_DONE __at(0x7E11);
+[; ;proc\pic18f4550.h: 9767: extern volatile __bit GO_NOT_DONE __at(0x7E11);
+[; ;proc\pic18f4550.h: 9770: extern volatile __bit GO_nDONE __at(0x7E11);
+[; ;proc\pic18f4550.h: 9773: extern volatile __bit HLVDEN __at(0x7E94);
+[; ;proc\pic18f4550.h: 9776: extern volatile __bit HLVDIE __at(0x7D02);
+[; ;proc\pic18f4550.h: 9779: extern volatile __bit HLVDIF __at(0x7D0A);
+[; ;proc\pic18f4550.h: 9782: extern volatile __bit HLVDIN __at(0x7C05);
+[; ;proc\pic18f4550.h: 9785: extern volatile __bit HLVDIP __at(0x7D12);
+[; ;proc\pic18f4550.h: 9788: extern volatile __bit HLVDL0 __at(0x7E90);
+[; ;proc\pic18f4550.h: 9791: extern volatile __bit HLVDL1 __at(0x7E91);
+[; ;proc\pic18f4550.h: 9794: extern volatile __bit HLVDL2 __at(0x7E92);
+[; ;proc\pic18f4550.h: 9797: extern volatile __bit HLVDL3 __at(0x7E93);
+[; ;proc\pic18f4550.h: 9800: extern volatile __bit I2C_DAT __at(0x7E3D);
+[; ;proc\pic18f4550.h: 9803: extern volatile __bit I2C_READ __at(0x7E3A);
+[; ;proc\pic18f4550.h: 9806: extern volatile __bit I2C_START __at(0x7E3B);
+[; ;proc\pic18f4550.h: 9809: extern volatile __bit I2C_STOP __at(0x7E3C);
+[; ;proc\pic18f4550.h: 9812: extern volatile __bit IDLEIE __at(0x7B4C);
+[; ;proc\pic18f4550.h: 9815: extern volatile __bit IDLEIF __at(0x7B44);
+[; ;proc\pic18f4550.h: 9818: extern volatile __bit IDLEN __at(0x7E9F);
+[; ;proc\pic18f4550.h: 9821: extern volatile __bit INT0 __at(0x7C08);
+[; ;proc\pic18f4550.h: 9824: extern volatile __bit INT0E __at(0x7F94);
+[; ;proc\pic18f4550.h: 9827: extern volatile __bit INT0F __at(0x7F91);
+[; ;proc\pic18f4550.h: 9830: extern volatile __bit INT0IE __at(0x7F94);
+[; ;proc\pic18f4550.h: 9833: extern volatile __bit INT0IF __at(0x7F91);
+[; ;proc\pic18f4550.h: 9836: extern volatile __bit INT1 __at(0x7C09);
+[; ;proc\pic18f4550.h: 9839: extern volatile __bit INT1E __at(0x7F83);
+[; ;proc\pic18f4550.h: 9842: extern volatile __bit INT1F __at(0x7F80);
+[; ;proc\pic18f4550.h: 9845: extern volatile __bit INT1IE __at(0x7F83);
+[; ;proc\pic18f4550.h: 9848: extern volatile __bit INT1IF __at(0x7F80);
+[; ;proc\pic18f4550.h: 9851: extern volatile __bit INT1IP __at(0x7F86);
+[; ;proc\pic18f4550.h: 9854: extern volatile __bit INT1P __at(0x7F86);
+[; ;proc\pic18f4550.h: 9857: extern volatile __bit INT2 __at(0x7C0A);
+[; ;proc\pic18f4550.h: 9860: extern volatile __bit INT2E __at(0x7F84);
+[; ;proc\pic18f4550.h: 9863: extern volatile __bit INT2F __at(0x7F81);
+[; ;proc\pic18f4550.h: 9866: extern volatile __bit INT2IE __at(0x7F84);
+[; ;proc\pic18f4550.h: 9869: extern volatile __bit INT2IF __at(0x7F81);
+[; ;proc\pic18f4550.h: 9872: extern volatile __bit INT2IP __at(0x7F87);
+[; ;proc\pic18f4550.h: 9875: extern volatile __bit INT2P __at(0x7F87);
+[; ;proc\pic18f4550.h: 9878: extern volatile __bit INTEDG0 __at(0x7F8E);
+[; ;proc\pic18f4550.h: 9881: extern volatile __bit INTEDG1 __at(0x7F8D);
+[; ;proc\pic18f4550.h: 9884: extern volatile __bit INTEDG2 __at(0x7F8C);
+[; ;proc\pic18f4550.h: 9887: extern volatile __bit INTSRC __at(0x7CDF);
+[; ;proc\pic18f4550.h: 9890: extern volatile __bit IOFS __at(0x7E9A);
+[; ;proc\pic18f4550.h: 9893: extern volatile __bit IPEN __at(0x7E87);
+[; ;proc\pic18f4550.h: 9896: extern volatile __bit IRCF0 __at(0x7E9C);
+[; ;proc\pic18f4550.h: 9899: extern volatile __bit IRCF1 __at(0x7E9D);
+[; ;proc\pic18f4550.h: 9902: extern volatile __bit IRCF2 __at(0x7E9E);
+[; ;proc\pic18f4550.h: 9905: extern volatile __bit IRVST __at(0x7E95);
+[; ;proc\pic18f4550.h: 9908: extern volatile __bit IVRST __at(0x7E95);
+[; ;proc\pic18f4550.h: 9911: extern volatile __bit LA0 __at(0x7C48);
+[; ;proc\pic18f4550.h: 9914: extern volatile __bit LA1 __at(0x7C49);
+[; ;proc\pic18f4550.h: 9917: extern volatile __bit LA2 __at(0x7C4A);
+[; ;proc\pic18f4550.h: 9920: extern volatile __bit LA3 __at(0x7C4B);
+[; ;proc\pic18f4550.h: 9923: extern volatile __bit LA4 __at(0x7C4C);
+[; ;proc\pic18f4550.h: 9926: extern volatile __bit LA5 __at(0x7C4D);
+[; ;proc\pic18f4550.h: 9929: extern volatile __bit LA6 __at(0x7C4E);
+[; ;proc\pic18f4550.h: 9932: extern volatile __bit LATA0 __at(0x7C48);
+[; ;proc\pic18f4550.h: 9935: extern volatile __bit LATA1 __at(0x7C49);
+[; ;proc\pic18f4550.h: 9938: extern volatile __bit LATA2 __at(0x7C4A);
+[; ;proc\pic18f4550.h: 9941: extern volatile __bit LATA3 __at(0x7C4B);
+[; ;proc\pic18f4550.h: 9944: extern volatile __bit LATA4 __at(0x7C4C);
+[; ;proc\pic18f4550.h: 9947: extern volatile __bit LATA5 __at(0x7C4D);
+[; ;proc\pic18f4550.h: 9950: extern volatile __bit LATA6 __at(0x7C4E);
+[; ;proc\pic18f4550.h: 9953: extern volatile __bit LATB0 __at(0x7C50);
+[; ;proc\pic18f4550.h: 9956: extern volatile __bit LATB1 __at(0x7C51);
+[; ;proc\pic18f4550.h: 9959: extern volatile __bit LATB2 __at(0x7C52);
+[; ;proc\pic18f4550.h: 9962: extern volatile __bit LATB3 __at(0x7C53);
+[; ;proc\pic18f4550.h: 9965: extern volatile __bit LATB4 __at(0x7C54);
+[; ;proc\pic18f4550.h: 9968: extern volatile __bit LATB5 __at(0x7C55);
+[; ;proc\pic18f4550.h: 9971: extern volatile __bit LATB6 __at(0x7C56);
+[; ;proc\pic18f4550.h: 9974: extern volatile __bit LATB7 __at(0x7C57);
+[; ;proc\pic18f4550.h: 9977: extern volatile __bit LATC0 __at(0x7C58);
+[; ;proc\pic18f4550.h: 9980: extern volatile __bit LATC1 __at(0x7C59);
+[; ;proc\pic18f4550.h: 9983: extern volatile __bit LATC2 __at(0x7C5A);
+[; ;proc\pic18f4550.h: 9986: extern volatile __bit LATC6 __at(0x7C5E);
+[; ;proc\pic18f4550.h: 9989: extern volatile __bit LATC7 __at(0x7C5F);
+[; ;proc\pic18f4550.h: 9992: extern volatile __bit LATD0 __at(0x7C60);
+[; ;proc\pic18f4550.h: 9995: extern volatile __bit LATD1 __at(0x7C61);
+[; ;proc\pic18f4550.h: 9998: extern volatile __bit LATD2 __at(0x7C62);
+[; ;proc\pic18f4550.h: 10001: extern volatile __bit LATD3 __at(0x7C63);
+[; ;proc\pic18f4550.h: 10004: extern volatile __bit LATD4 __at(0x7C64);
+[; ;proc\pic18f4550.h: 10007: extern volatile __bit LATD5 __at(0x7C65);
+[; ;proc\pic18f4550.h: 10010: extern volatile __bit LATD6 __at(0x7C66);
+[; ;proc\pic18f4550.h: 10013: extern volatile __bit LATD7 __at(0x7C67);
+[; ;proc\pic18f4550.h: 10016: extern volatile __bit LATE0 __at(0x7C68);
+[; ;proc\pic18f4550.h: 10019: extern volatile __bit LATE1 __at(0x7C69);
+[; ;proc\pic18f4550.h: 10022: extern volatile __bit LATE2 __at(0x7C6A);
+[; ;proc\pic18f4550.h: 10025: extern volatile __bit LB0 __at(0x7C50);
+[; ;proc\pic18f4550.h: 10028: extern volatile __bit LB1 __at(0x7C51);
+[; ;proc\pic18f4550.h: 10031: extern volatile __bit LB2 __at(0x7C52);
+[; ;proc\pic18f4550.h: 10034: extern volatile __bit LB3 __at(0x7C53);
+[; ;proc\pic18f4550.h: 10037: extern volatile __bit LB4 __at(0x7C54);
+[; ;proc\pic18f4550.h: 10040: extern volatile __bit LB5 __at(0x7C55);
+[; ;proc\pic18f4550.h: 10043: extern volatile __bit LB6 __at(0x7C56);
+[; ;proc\pic18f4550.h: 10046: extern volatile __bit LB7 __at(0x7C57);
+[; ;proc\pic18f4550.h: 10049: extern volatile __bit LC0 __at(0x7C58);
+[; ;proc\pic18f4550.h: 10052: extern volatile __bit LC1 __at(0x7C59);
+[; ;proc\pic18f4550.h: 10055: extern volatile __bit LC2 __at(0x7C5A);
+[; ;proc\pic18f4550.h: 10058: extern volatile __bit LC6 __at(0x7C5E);
+[; ;proc\pic18f4550.h: 10061: extern volatile __bit LC7 __at(0x7C5F);
+[; ;proc\pic18f4550.h: 10064: extern volatile __bit LD0 __at(0x7C60);
+[; ;proc\pic18f4550.h: 10067: extern volatile __bit LD1 __at(0x7C61);
+[; ;proc\pic18f4550.h: 10070: extern volatile __bit LD2 __at(0x7C62);
+[; ;proc\pic18f4550.h: 10073: extern volatile __bit LD3 __at(0x7C63);
+[; ;proc\pic18f4550.h: 10076: extern volatile __bit LD4 __at(0x7C64);
+[; ;proc\pic18f4550.h: 10079: extern volatile __bit LD5 __at(0x7C65);
+[; ;proc\pic18f4550.h: 10082: extern volatile __bit LD6 __at(0x7C66);
+[; ;proc\pic18f4550.h: 10085: extern volatile __bit LD7 __at(0x7C67);
+[; ;proc\pic18f4550.h: 10088: extern volatile __bit LE0 __at(0x7C68);
+[; ;proc\pic18f4550.h: 10091: extern volatile __bit LE1 __at(0x7C69);
+[; ;proc\pic18f4550.h: 10094: extern volatile __bit LE2 __at(0x7C6A);
+[; ;proc\pic18f4550.h: 10097: extern volatile __bit LVDEN __at(0x7E94);
+[; ;proc\pic18f4550.h: 10100: extern volatile __bit LVDIE __at(0x7D02);
+[; ;proc\pic18f4550.h: 10103: extern volatile __bit LVDIF __at(0x7D0A);
+[; ;proc\pic18f4550.h: 10106: extern volatile __bit LVDIN __at(0x7C05);
+[; ;proc\pic18f4550.h: 10109: extern volatile __bit LVDIP __at(0x7D12);
+[; ;proc\pic18f4550.h: 10112: extern volatile __bit LVDL0 __at(0x7E90);
+[; ;proc\pic18f4550.h: 10115: extern volatile __bit LVDL1 __at(0x7E91);
+[; ;proc\pic18f4550.h: 10118: extern volatile __bit LVDL2 __at(0x7E92);
+[; ;proc\pic18f4550.h: 10121: extern volatile __bit LVDL3 __at(0x7E93);
+[; ;proc\pic18f4550.h: 10124: extern volatile __bit LVV0 __at(0x7E90);
+[; ;proc\pic18f4550.h: 10127: extern volatile __bit LVV1 __at(0x7E91);
+[; ;proc\pic18f4550.h: 10130: extern volatile __bit LVV2 __at(0x7E92);
+[; ;proc\pic18f4550.h: 10133: extern volatile __bit LVV3 __at(0x7E93);
+[; ;proc\pic18f4550.h: 10136: extern volatile __bit NEGATIVE __at(0x7EC4);
+[; ;proc\pic18f4550.h: 10139: extern volatile __bit NOT_A __at(0x7E3D);
+[; ;proc\pic18f4550.h: 10142: extern volatile __bit NOT_ADDRESS __at(0x7E3D);
+[; ;proc\pic18f4550.h: 10145: extern volatile __bit NOT_BOR __at(0x7E80);
+[; ;proc\pic18f4550.h: 10148: extern volatile __bit NOT_DONE __at(0x7E11);
+[; ;proc\pic18f4550.h: 10151: extern volatile __bit NOT_IPEN __at(0x7E87);
+[; ;proc\pic18f4550.h: 10154: extern volatile __bit NOT_PD __at(0x7E82);
+[; ;proc\pic18f4550.h: 10157: extern volatile __bit NOT_POR __at(0x7E81);
+[; ;proc\pic18f4550.h: 10160: extern volatile __bit NOT_RBPU __at(0x7F8F);
+[; ;proc\pic18f4550.h: 10163: extern volatile __bit NOT_RI __at(0x7E84);
+[; ;proc\pic18f4550.h: 10166: extern volatile __bit NOT_T1SYNC __at(0x7E6A);
+[; ;proc\pic18f4550.h: 10169: extern volatile __bit NOT_T3SYNC __at(0x7D8A);
+[; ;proc\pic18f4550.h: 10172: extern volatile __bit NOT_TO __at(0x7E83);
+[; ;proc\pic18f4550.h: 10175: extern volatile __bit NOT_W __at(0x7E3A);
+[; ;proc\pic18f4550.h: 10178: extern volatile __bit NOT_WRITE __at(0x7E3A);
+[; ;proc\pic18f4550.h: 10181: extern volatile __bit OERR __at(0x7D59);
+[; ;proc\pic18f4550.h: 10184: extern volatile __bit OESPP __at(0x7C22);
+[; ;proc\pic18f4550.h: 10187: extern volatile __bit OSC2 __at(0x7C06);
+[; ;proc\pic18f4550.h: 10190: extern volatile __bit OSCFIE __at(0x7D07);
+[; ;proc\pic18f4550.h: 10193: extern volatile __bit OSCFIF __at(0x7D0F);
+[; ;proc\pic18f4550.h: 10196: extern volatile __bit OSCFIP __at(0x7D17);
+[; ;proc\pic18f4550.h: 10199: extern volatile __bit OSTS __at(0x7E9B);
+[; ;proc\pic18f4550.h: 10202: extern volatile __bit OV __at(0x7EC3);
+[; ;proc\pic18f4550.h: 10205: extern volatile __bit OVERFLOW __at(0x7EC3);
+[; ;proc\pic18f4550.h: 10208: extern volatile __bit P1A __at(0x7C12);
+[; ;proc\pic18f4550.h: 10211: extern volatile __bit P1M0 __at(0x7DEE);
+[; ;proc\pic18f4550.h: 10214: extern volatile __bit P1M1 __at(0x7DEF);
+[; ;proc\pic18f4550.h: 10217: extern volatile __bit PA1 __at(0x7C12);
+[; ;proc\pic18f4550.h: 10220: extern volatile __bit PA2 __at(0x7C11);
+[; ;proc\pic18f4550.h: 10223: extern volatile __bit PA2E __at(0x7C27);
+[; ;proc\pic18f4550.h: 10226: extern volatile __bit PB2 __at(0x7C22);
+[; ;proc\pic18f4550.h: 10229: extern volatile __bit PC2 __at(0x7C21);
+[; ;proc\pic18f4550.h: 10232: extern volatile __bit PC3E __at(0x7C23);
+[; ;proc\pic18f4550.h: 10235: extern volatile __bit PCFG0 __at(0x7E08);
+[; ;proc\pic18f4550.h: 10238: extern volatile __bit PCFG1 __at(0x7E09);
+[; ;proc\pic18f4550.h: 10241: extern volatile __bit PCFG2 __at(0x7E0A);
+[; ;proc\pic18f4550.h: 10244: extern volatile __bit PCFG3 __at(0x7E0B);
+[; ;proc\pic18f4550.h: 10247: extern volatile __bit PD __at(0x7E82);
+[; ;proc\pic18f4550.h: 10250: extern volatile __bit PD2 __at(0x7C20);
+[; ;proc\pic18f4550.h: 10253: extern volatile __bit PDC0 __at(0x7DB8);
+[; ;proc\pic18f4550.h: 10256: extern volatile __bit PDC1 __at(0x7DB9);
+[; ;proc\pic18f4550.h: 10259: extern volatile __bit PDC2 __at(0x7DBA);
+[; ;proc\pic18f4550.h: 10262: extern volatile __bit PDC3 __at(0x7DBB);
+[; ;proc\pic18f4550.h: 10265: extern volatile __bit PDC4 __at(0x7DBC);
+[; ;proc\pic18f4550.h: 10268: extern volatile __bit PDC5 __at(0x7DBD);
+[; ;proc\pic18f4550.h: 10271: extern volatile __bit PDC6 __at(0x7DBE);
+[; ;proc\pic18f4550.h: 10274: extern volatile __bit PEIE __at(0x7F96);
+[; ;proc\pic18f4550.h: 10277: extern volatile __bit PEIE_GIEL __at(0x7F96);
+[; ;proc\pic18f4550.h: 10280: extern volatile __bit PEN __at(0x7E2A);
+[; ;proc\pic18f4550.h: 10283: extern volatile __bit PGC __at(0x7C0E);
+[; ;proc\pic18f4550.h: 10286: extern volatile __bit PGD __at(0x7C0F);
+[; ;proc\pic18f4550.h: 10289: extern volatile __bit PGM __at(0x7C0D);
+[; ;proc\pic18f4550.h: 10292: extern volatile __bit PIDEE __at(0x7B58);
+[; ;proc\pic18f4550.h: 10295: extern volatile __bit PIDEF __at(0x7B50);
+[; ;proc\pic18f4550.h: 10298: extern volatile __bit PKTDIS __at(0x7B6C);
+[; ;proc\pic18f4550.h: 10301: extern volatile __bit POR __at(0x7E81);
+[; ;proc\pic18f4550.h: 10304: extern volatile __bit PPB0 __at(0x7B78);
+[; ;proc\pic18f4550.h: 10307: extern volatile __bit PPB1 __at(0x7B79);
+[; ;proc\pic18f4550.h: 10310: extern volatile __bit PPBI __at(0x7B61);
+[; ;proc\pic18f4550.h: 10313: extern volatile __bit PPBRST __at(0x7B6E);
+[; ;proc\pic18f4550.h: 10316: extern volatile __bit PRSEN __at(0x7DBF);
+[; ;proc\pic18f4550.h: 10319: extern volatile __bit PSA __at(0x7EAB);
+[; ;proc\pic18f4550.h: 10322: extern volatile __bit PSPIE __at(0x7CEF);
+[; ;proc\pic18f4550.h: 10325: extern volatile __bit PSPIF __at(0x7CF7);
+[; ;proc\pic18f4550.h: 10328: extern volatile __bit PSPIP __at(0x7CFF);
+[; ;proc\pic18f4550.h: 10331: extern volatile __bit PSSAC0 __at(0x7DB2);
+[; ;proc\pic18f4550.h: 10334: extern volatile __bit PSSAC1 __at(0x7DB3);
+[; ;proc\pic18f4550.h: 10337: extern volatile __bit PSSBD0 __at(0x7DB0);
+[; ;proc\pic18f4550.h: 10340: extern volatile __bit PSSBD1 __at(0x7DB1);
+[; ;proc\pic18f4550.h: 10343: extern volatile __bit __attribute__((__deprecated__)) RA0 __at(0x7C00);
+[; ;proc\pic18f4550.h: 10346: extern volatile __bit __attribute__((__deprecated__)) RA1 __at(0x7C01);
+[; ;proc\pic18f4550.h: 10349: extern volatile __bit __attribute__((__deprecated__)) RA2 __at(0x7C02);
+[; ;proc\pic18f4550.h: 10352: extern volatile __bit __attribute__((__deprecated__)) RA3 __at(0x7C03);
+[; ;proc\pic18f4550.h: 10355: extern volatile __bit __attribute__((__deprecated__)) RA4 __at(0x7C04);
+[; ;proc\pic18f4550.h: 10358: extern volatile __bit __attribute__((__deprecated__)) RA5 __at(0x7C05);
+[; ;proc\pic18f4550.h: 10361: extern volatile __bit __attribute__((__deprecated__)) RA6 __at(0x7C06);
+[; ;proc\pic18f4550.h: 10364: extern volatile __bit __attribute__((__deprecated__)) RB0 __at(0x7C08);
+[; ;proc\pic18f4550.h: 10367: extern volatile __bit __attribute__((__deprecated__)) RB1 __at(0x7C09);
+[; ;proc\pic18f4550.h: 10370: extern volatile __bit __attribute__((__deprecated__)) RB2 __at(0x7C0A);
+[; ;proc\pic18f4550.h: 10373: extern volatile __bit __attribute__((__deprecated__)) RB3 __at(0x7C0B);
+[; ;proc\pic18f4550.h: 10376: extern volatile __bit __attribute__((__deprecated__)) RB4 __at(0x7C0C);
+[; ;proc\pic18f4550.h: 10379: extern volatile __bit __attribute__((__deprecated__)) RB5 __at(0x7C0D);
+[; ;proc\pic18f4550.h: 10382: extern volatile __bit __attribute__((__deprecated__)) RB6 __at(0x7C0E);
+[; ;proc\pic18f4550.h: 10385: extern volatile __bit __attribute__((__deprecated__)) RB7 __at(0x7C0F);
+[; ;proc\pic18f4550.h: 10388: extern volatile __bit RBIE __at(0x7F93);
+[; ;proc\pic18f4550.h: 10391: extern volatile __bit RBIF __at(0x7F90);
+[; ;proc\pic18f4550.h: 10394: extern volatile __bit RBIP __at(0x7F88);
+[; ;proc\pic18f4550.h: 10397: extern volatile __bit RBPU __at(0x7F8F);
+[; ;proc\pic18f4550.h: 10400: extern volatile __bit __attribute__((__deprecated__)) RC0 __at(0x7C10);
+[; ;proc\pic18f4550.h: 10403: extern volatile __bit __attribute__((__deprecated__)) RC1 __at(0x7C11);
+[; ;proc\pic18f4550.h: 10406: extern volatile __bit RC1IE __at(0x7CED);
+[; ;proc\pic18f4550.h: 10409: extern volatile __bit RC1IF __at(0x7CF5);
+[; ;proc\pic18f4550.h: 10412: extern volatile __bit RC1IP __at(0x7CFD);
+[; ;proc\pic18f4550.h: 10415: extern volatile __bit __attribute__((__deprecated__)) RC2 __at(0x7C12);
+[; ;proc\pic18f4550.h: 10418: extern volatile __bit RC4 __at(0x7C14);
+[; ;proc\pic18f4550.h: 10421: extern volatile __bit RC5 __at(0x7C15);
+[; ;proc\pic18f4550.h: 10424: extern volatile __bit __attribute__((__deprecated__)) RC6 __at(0x7C16);
+[; ;proc\pic18f4550.h: 10427: extern volatile __bit __attribute__((__deprecated__)) RC7 __at(0x7C17);
+[; ;proc\pic18f4550.h: 10430: extern volatile __bit RC8_9 __at(0x7D5E);
+[; ;proc\pic18f4550.h: 10433: extern volatile __bit RC9 __at(0x7D5E);
+[; ;proc\pic18f4550.h: 10436: extern volatile __bit RCD8 __at(0x7D58);
+[; ;proc\pic18f4550.h: 10439: extern volatile __bit RCEN __at(0x7E2B);
+[; ;proc\pic18f4550.h: 10442: extern volatile __bit RCIDL __at(0x7DC6);
+[; ;proc\pic18f4550.h: 10445: extern volatile __bit RCIE __at(0x7CED);
+[; ;proc\pic18f4550.h: 10448: extern volatile __bit RCIF __at(0x7CF5);
+[; ;proc\pic18f4550.h: 10451: extern volatile __bit RCIP __at(0x7CFD);
+[; ;proc\pic18f4550.h: 10454: extern volatile __bit RCMT __at(0x7DC6);
+[; ;proc\pic18f4550.h: 10457: extern volatile __bit RD __at(0x7D30);
+[; ;proc\pic18f4550.h: 10460: extern volatile __bit __attribute__((__deprecated__)) RD0 __at(0x7C18);
+[; ;proc\pic18f4550.h: 10463: extern volatile __bit __attribute__((__deprecated__)) RD1 __at(0x7C19);
+[; ;proc\pic18f4550.h: 10466: extern volatile __bit RD163 __at(0x7D8F);
+[; ;proc\pic18f4550.h: 10469: extern volatile __bit __attribute__((__deprecated__)) RD2 __at(0x7C1A);
+[; ;proc\pic18f4550.h: 10472: extern volatile __bit __attribute__((__deprecated__)) RD3 __at(0x7C1B);
+[; ;proc\pic18f4550.h: 10475: extern volatile __bit __attribute__((__deprecated__)) RD4 __at(0x7C1C);
+[; ;proc\pic18f4550.h: 10478: extern volatile __bit __attribute__((__deprecated__)) RD5 __at(0x7C1D);
+[; ;proc\pic18f4550.h: 10481: extern volatile __bit __attribute__((__deprecated__)) RD6 __at(0x7C1E);
+[; ;proc\pic18f4550.h: 10484: extern volatile __bit __attribute__((__deprecated__)) RD7 __at(0x7C1F);
+[; ;proc\pic18f4550.h: 10487: extern volatile __bit RDE __at(0x7C20);
+[; ;proc\pic18f4550.h: 10490: extern volatile __bit RDPU __at(0x7C27);
+[; ;proc\pic18f4550.h: 10493: extern volatile __bit RDSPP __at(0x7B27);
+[; ;proc\pic18f4550.h: 10496: extern volatile __bit __attribute__((__deprecated__)) RE0 __at(0x7C20);
+[; ;proc\pic18f4550.h: 10499: extern volatile __bit __attribute__((__deprecated__)) RE1 __at(0x7C21);
+[; ;proc\pic18f4550.h: 10502: extern volatile __bit __attribute__((__deprecated__)) RE2 __at(0x7C22);
+[; ;proc\pic18f4550.h: 10505: extern volatile __bit RE3 __at(0x7C23);
+[; ;proc\pic18f4550.h: 10508: extern volatile __bit RE7 __at(0x7C27);
+[; ;proc\pic18f4550.h: 10511: extern volatile __bit READ_WRITE __at(0x7E3A);
+[; ;proc\pic18f4550.h: 10514: extern volatile __bit RESUME __at(0x7B6A);
+[; ;proc\pic18f4550.h: 10517: extern volatile __bit RI __at(0x7E84);
+[; ;proc\pic18f4550.h: 10520: extern volatile __bit RSEN __at(0x7E29);
+[; ;proc\pic18f4550.h: 10523: extern volatile __bit RW __at(0x7E3A);
+[; ;proc\pic18f4550.h: 10526: extern volatile __bit RX __at(0x7C17);
+[; ;proc\pic18f4550.h: 10529: extern volatile __bit RX9 __at(0x7D5E);
+[; ;proc\pic18f4550.h: 10532: extern volatile __bit RX9D __at(0x7D58);
+[; ;proc\pic18f4550.h: 10535: extern volatile __bit RXCKP __at(0x7DC5);
+[; ;proc\pic18f4550.h: 10538: extern volatile __bit RXDTP __at(0x7DC5);
+[; ;proc\pic18f4550.h: 10541: extern volatile __bit R_NOT_W __at(0x7E3A);
+[; ;proc\pic18f4550.h: 10544: extern volatile __bit R_W __at(0x7E3A);
+[; ;proc\pic18f4550.h: 10547: extern volatile __bit R_nW __at(0x7E3A);
+[; ;proc\pic18f4550.h: 10550: extern volatile __bit SBOREN __at(0x7E86);
+[; ;proc\pic18f4550.h: 10553: extern volatile __bit SCKP __at(0x7DC4);
+[; ;proc\pic18f4550.h: 10556: extern volatile __bit SCS0 __at(0x7E98);
+[; ;proc\pic18f4550.h: 10559: extern volatile __bit SCS1 __at(0x7E99);
+[; ;proc\pic18f4550.h: 10562: extern volatile __bit SE0 __at(0x7B6D);
+[; ;proc\pic18f4550.h: 10565: extern volatile __bit SEN __at(0x7E28);
+[; ;proc\pic18f4550.h: 10568: extern volatile __bit SENDB __at(0x7D63);
+[; ;proc\pic18f4550.h: 10571: extern volatile __bit SENDB1 __at(0x7D63);
+[; ;proc\pic18f4550.h: 10574: extern volatile __bit SMP __at(0x7E3F);
+[; ;proc\pic18f4550.h: 10577: extern volatile __bit SOFIE __at(0x7B4E);
+[; ;proc\pic18f4550.h: 10580: extern volatile __bit SOFIF __at(0x7B46);
+[; ;proc\pic18f4550.h: 10583: extern volatile __bit SOSCEN __at(0x7E6B);
+[; ;proc\pic18f4550.h: 10586: extern volatile __bit SOSCEN3 __at(0x7D8B);
+[; ;proc\pic18f4550.h: 10589: extern volatile __bit SPEN __at(0x7D5F);
+[; ;proc\pic18f4550.h: 10592: extern volatile __bit SPP0 __at(0x7C18);
+[; ;proc\pic18f4550.h: 10595: extern volatile __bit SPP1 __at(0x7C19);
+[; ;proc\pic18f4550.h: 10598: extern volatile __bit SPP2 __at(0x7C1A);
+[; ;proc\pic18f4550.h: 10601: extern volatile __bit SPP3 __at(0x7C1B);
+[; ;proc\pic18f4550.h: 10604: extern volatile __bit SPP4 __at(0x7C1C);
+[; ;proc\pic18f4550.h: 10607: extern volatile __bit SPP5 __at(0x7C1D);
+[; ;proc\pic18f4550.h: 10610: extern volatile __bit SPP6 __at(0x7C1E);
+[; ;proc\pic18f4550.h: 10613: extern volatile __bit SPP7 __at(0x7C1F);
+[; ;proc\pic18f4550.h: 10616: extern volatile __bit SPPBUSY __at(0x7B24);
+[; ;proc\pic18f4550.h: 10619: extern volatile __bit SPPEN __at(0x7B28);
+[; ;proc\pic18f4550.h: 10622: extern volatile __bit SPPIE __at(0x7CEF);
+[; ;proc\pic18f4550.h: 10625: extern volatile __bit SPPIF __at(0x7CF7);
+[; ;proc\pic18f4550.h: 10628: extern volatile __bit SPPIP __at(0x7CFF);
+[; ;proc\pic18f4550.h: 10631: extern volatile __bit SPPOWN __at(0x7B29);
+[; ;proc\pic18f4550.h: 10634: extern volatile __bit SREN __at(0x7D5D);
+[; ;proc\pic18f4550.h: 10637: extern volatile __bit SRENA __at(0x7D5D);
+[; ;proc\pic18f4550.h: 10640: extern volatile __bit SS2 __at(0x7C1F);
+[; ;proc\pic18f4550.h: 10643: extern volatile __bit SSPEN __at(0x7E35);
+[; ;proc\pic18f4550.h: 10646: extern volatile __bit SSPIE __at(0x7CEB);
+[; ;proc\pic18f4550.h: 10649: extern volatile __bit SSPIF __at(0x7CF3);
+[; ;proc\pic18f4550.h: 10652: extern volatile __bit SSPIP __at(0x7CFB);
+[; ;proc\pic18f4550.h: 10655: extern volatile __bit SSPM0 __at(0x7E30);
+[; ;proc\pic18f4550.h: 10658: extern volatile __bit SSPM1 __at(0x7E31);
+[; ;proc\pic18f4550.h: 10661: extern volatile __bit SSPM2 __at(0x7E32);
+[; ;proc\pic18f4550.h: 10664: extern volatile __bit SSPM3 __at(0x7E33);
+[; ;proc\pic18f4550.h: 10667: extern volatile __bit SSPOV __at(0x7E36);
+[; ;proc\pic18f4550.h: 10670: extern volatile __bit STALLIE __at(0x7B4D);
+[; ;proc\pic18f4550.h: 10673: extern volatile __bit STALLIF __at(0x7B45);
+[; ;proc\pic18f4550.h: 10676: extern volatile __bit START __at(0x7E3B);
+[; ;proc\pic18f4550.h: 10679: extern volatile __bit STKFUL __at(0x7FE7);
+[; ;proc\pic18f4550.h: 10682: extern volatile __bit STKOVF __at(0x7FE7);
+[; ;proc\pic18f4550.h: 10685: extern volatile __bit STKPTR0 __at(0x7FE0);
+[; ;proc\pic18f4550.h: 10688: extern volatile __bit STKPTR1 __at(0x7FE1);
+[; ;proc\pic18f4550.h: 10691: extern volatile __bit STKPTR2 __at(0x7FE2);
+[; ;proc\pic18f4550.h: 10694: extern volatile __bit STKPTR3 __at(0x7FE3);
+[; ;proc\pic18f4550.h: 10697: extern volatile __bit STKPTR4 __at(0x7FE4);
+[; ;proc\pic18f4550.h: 10700: extern volatile __bit STKUNF __at(0x7FE6);
+[; ;proc\pic18f4550.h: 10703: extern volatile __bit STOP __at(0x7E3C);
+[; ;proc\pic18f4550.h: 10706: extern volatile __bit SUSPND __at(0x7B69);
+[; ;proc\pic18f4550.h: 10709: extern volatile __bit SWDTE __at(0x7E88);
+[; ;proc\pic18f4550.h: 10712: extern volatile __bit SWDTEN __at(0x7E88);
+[; ;proc\pic18f4550.h: 10715: extern volatile __bit SYNC __at(0x7D64);
+[; ;proc\pic18f4550.h: 10718: extern volatile __bit SYNC1 __at(0x7D64);
+[; ;proc\pic18f4550.h: 10721: extern volatile __bit T08BIT __at(0x7EAE);
+[; ;proc\pic18f4550.h: 10724: extern volatile __bit T0CKI __at(0x7C04);
+[; ;proc\pic18f4550.h: 10727: extern volatile __bit T0CS __at(0x7EAD);
+[; ;proc\pic18f4550.h: 10730: extern volatile __bit T0IE __at(0x7F95);
+[; ;proc\pic18f4550.h: 10733: extern volatile __bit T0IF __at(0x7F92);
+[; ;proc\pic18f4550.h: 10736: extern volatile __bit T0IP __at(0x7F8A);
+[; ;proc\pic18f4550.h: 10739: extern volatile __bit T0PS0 __at(0x7EA8);
+[; ;proc\pic18f4550.h: 10742: extern volatile __bit T0PS1 __at(0x7EA9);
+[; ;proc\pic18f4550.h: 10745: extern volatile __bit T0PS2 __at(0x7EAA);
+[; ;proc\pic18f4550.h: 10748: extern volatile __bit T0SE __at(0x7EAC);
+[; ;proc\pic18f4550.h: 10751: extern volatile __bit T13CKI __at(0x7C10);
+[; ;proc\pic18f4550.h: 10754: extern volatile __bit T1CKPS0 __at(0x7E6C);
+[; ;proc\pic18f4550.h: 10757: extern volatile __bit T1CKPS1 __at(0x7E6D);
+[; ;proc\pic18f4550.h: 10760: extern volatile __bit T1OSCEN __at(0x7E6B);
+[; ;proc\pic18f4550.h: 10763: extern volatile __bit T1OSI __at(0x7C11);
+[; ;proc\pic18f4550.h: 10766: extern volatile __bit T1OSO __at(0x7C10);
+[; ;proc\pic18f4550.h: 10769: extern volatile __bit T1RD16 __at(0x7E6F);
+[; ;proc\pic18f4550.h: 10772: extern volatile __bit T1RUN __at(0x7E6E);
+[; ;proc\pic18f4550.h: 10775: extern volatile __bit T1SYNC __at(0x7E6A);
+[; ;proc\pic18f4550.h: 10778: extern volatile __bit T2CKPS0 __at(0x7E50);
+[; ;proc\pic18f4550.h: 10781: extern volatile __bit T2CKPS1 __at(0x7E51);
+[; ;proc\pic18f4550.h: 10784: extern volatile __bit T2OUTPS0 __at(0x7E53);
+[; ;proc\pic18f4550.h: 10787: extern volatile __bit T2OUTPS1 __at(0x7E54);
+[; ;proc\pic18f4550.h: 10790: extern volatile __bit T2OUTPS2 __at(0x7E55);
+[; ;proc\pic18f4550.h: 10793: extern volatile __bit T2OUTPS3 __at(0x7E56);
+[; ;proc\pic18f4550.h: 10796: extern volatile __bit T3CCP1 __at(0x7D8B);
+[; ;proc\pic18f4550.h: 10799: extern volatile __bit T3CCP2 __at(0x7D8E);
+[; ;proc\pic18f4550.h: 10802: extern volatile __bit T3CKPS0 __at(0x7D8C);
+[; ;proc\pic18f4550.h: 10805: extern volatile __bit T3CKPS1 __at(0x7D8D);
+[; ;proc\pic18f4550.h: 10808: extern volatile __bit T3NSYNC __at(0x7D8A);
+[; ;proc\pic18f4550.h: 10811: extern volatile __bit T3RD16 __at(0x7D8F);
+[; ;proc\pic18f4550.h: 10814: extern volatile __bit T3SYNC __at(0x7D8A);
+[; ;proc\pic18f4550.h: 10817: extern volatile __bit TMR0IE __at(0x7F95);
+[; ;proc\pic18f4550.h: 10820: extern volatile __bit TMR0IF __at(0x7F92);
+[; ;proc\pic18f4550.h: 10823: extern volatile __bit TMR0IP __at(0x7F8A);
+[; ;proc\pic18f4550.h: 10826: extern volatile __bit TMR0ON __at(0x7EAF);
+[; ;proc\pic18f4550.h: 10829: extern volatile __bit TMR1CS __at(0x7E69);
+[; ;proc\pic18f4550.h: 10832: extern volatile __bit TMR1IE __at(0x7CE8);
+[; ;proc\pic18f4550.h: 10835: extern volatile __bit TMR1IF __at(0x7CF0);
+[; ;proc\pic18f4550.h: 10838: extern volatile __bit TMR1IP __at(0x7CF8);
+[; ;proc\pic18f4550.h: 10841: extern volatile __bit TMR1ON __at(0x7E68);
+[; ;proc\pic18f4550.h: 10844: extern volatile __bit TMR2IE __at(0x7CE9);
+[; ;proc\pic18f4550.h: 10847: extern volatile __bit TMR2IF __at(0x7CF1);
+[; ;proc\pic18f4550.h: 10850: extern volatile __bit TMR2IP __at(0x7CF9);
+[; ;proc\pic18f4550.h: 10853: extern volatile __bit TMR2ON __at(0x7E52);
+[; ;proc\pic18f4550.h: 10856: extern volatile __bit TMR3CS __at(0x7D89);
+[; ;proc\pic18f4550.h: 10859: extern volatile __bit TMR3IE __at(0x7D01);
+[; ;proc\pic18f4550.h: 10862: extern volatile __bit TMR3IF __at(0x7D09);
+[; ;proc\pic18f4550.h: 10865: extern volatile __bit TMR3IP __at(0x7D11);
+[; ;proc\pic18f4550.h: 10868: extern volatile __bit TMR3ON __at(0x7D88);
+[; ;proc\pic18f4550.h: 10871: extern volatile __bit TO __at(0x7E83);
+[; ;proc\pic18f4550.h: 10874: extern volatile __bit TOUTPS0 __at(0x7E53);
+[; ;proc\pic18f4550.h: 10877: extern volatile __bit TOUTPS1 __at(0x7E54);
+[; ;proc\pic18f4550.h: 10880: extern volatile __bit TOUTPS2 __at(0x7E55);
+[; ;proc\pic18f4550.h: 10883: extern volatile __bit TOUTPS3 __at(0x7E56);
+[; ;proc\pic18f4550.h: 10886: extern volatile __bit TRISA0 __at(0x7C90);
+[; ;proc\pic18f4550.h: 10889: extern volatile __bit TRISA1 __at(0x7C91);
+[; ;proc\pic18f4550.h: 10892: extern volatile __bit TRISA2 __at(0x7C92);
+[; ;proc\pic18f4550.h: 10895: extern volatile __bit TRISA3 __at(0x7C93);
+[; ;proc\pic18f4550.h: 10898: extern volatile __bit TRISA4 __at(0x7C94);
+[; ;proc\pic18f4550.h: 10901: extern volatile __bit TRISA5 __at(0x7C95);
+[; ;proc\pic18f4550.h: 10904: extern volatile __bit TRISA6 __at(0x7C96);
+[; ;proc\pic18f4550.h: 10907: extern volatile __bit TRISB0 __at(0x7C98);
+[; ;proc\pic18f4550.h: 10910: extern volatile __bit TRISB1 __at(0x7C99);
+[; ;proc\pic18f4550.h: 10913: extern volatile __bit TRISB2 __at(0x7C9A);
+[; ;proc\pic18f4550.h: 10916: extern volatile __bit TRISB3 __at(0x7C9B);
+[; ;proc\pic18f4550.h: 10919: extern volatile __bit TRISB4 __at(0x7C9C);
+[; ;proc\pic18f4550.h: 10922: extern volatile __bit TRISB5 __at(0x7C9D);
+[; ;proc\pic18f4550.h: 10925: extern volatile __bit TRISB6 __at(0x7C9E);
+[; ;proc\pic18f4550.h: 10928: extern volatile __bit TRISB7 __at(0x7C9F);
+[; ;proc\pic18f4550.h: 10931: extern volatile __bit TRISC0 __at(0x7CA0);
+[; ;proc\pic18f4550.h: 10934: extern volatile __bit TRISC1 __at(0x7CA1);
+[; ;proc\pic18f4550.h: 10937: extern volatile __bit TRISC2 __at(0x7CA2);
+[; ;proc\pic18f4550.h: 10940: extern volatile __bit TRISC6 __at(0x7CA6);
+[; ;proc\pic18f4550.h: 10943: extern volatile __bit TRISC7 __at(0x7CA7);
+[; ;proc\pic18f4550.h: 10946: extern volatile __bit TRISD0 __at(0x7CA8);
+[; ;proc\pic18f4550.h: 10949: extern volatile __bit TRISD1 __at(0x7CA9);
+[; ;proc\pic18f4550.h: 10952: extern volatile __bit TRISD2 __at(0x7CAA);
+[; ;proc\pic18f4550.h: 10955: extern volatile __bit TRISD3 __at(0x7CAB);
+[; ;proc\pic18f4550.h: 10958: extern volatile __bit TRISD4 __at(0x7CAC);
+[; ;proc\pic18f4550.h: 10961: extern volatile __bit TRISD5 __at(0x7CAD);
+[; ;proc\pic18f4550.h: 10964: extern volatile __bit TRISD6 __at(0x7CAE);
+[; ;proc\pic18f4550.h: 10967: extern volatile __bit TRISD7 __at(0x7CAF);
+[; ;proc\pic18f4550.h: 10970: extern volatile __bit TRISE0 __at(0x7CB0);
+[; ;proc\pic18f4550.h: 10973: extern volatile __bit TRISE1 __at(0x7CB1);
+[; ;proc\pic18f4550.h: 10976: extern volatile __bit TRISE2 __at(0x7CB2);
+[; ;proc\pic18f4550.h: 10979: extern volatile __bit TRMT __at(0x7D61);
+[; ;proc\pic18f4550.h: 10982: extern volatile __bit TRMT1 __at(0x7D61);
+[; ;proc\pic18f4550.h: 10985: extern volatile __bit TRNIE __at(0x7B4B);
+[; ;proc\pic18f4550.h: 10988: extern volatile __bit TRNIF __at(0x7B43);
+[; ;proc\pic18f4550.h: 10991: extern volatile __bit TUN0 __at(0x7CD8);
+[; ;proc\pic18f4550.h: 10994: extern volatile __bit TUN1 __at(0x7CD9);
+[; ;proc\pic18f4550.h: 10997: extern volatile __bit TUN2 __at(0x7CDA);
+[; ;proc\pic18f4550.h: 11000: extern volatile __bit TUN3 __at(0x7CDB);
+[; ;proc\pic18f4550.h: 11003: extern volatile __bit TUN4 __at(0x7CDC);
+[; ;proc\pic18f4550.h: 11006: extern volatile __bit TX __at(0x7C16);
+[; ;proc\pic18f4550.h: 11009: extern volatile __bit TX1IE __at(0x7CEC);
+[; ;proc\pic18f4550.h: 11012: extern volatile __bit TX1IF __at(0x7CF4);
+[; ;proc\pic18f4550.h: 11015: extern volatile __bit TX1IP __at(0x7CFC);
+[; ;proc\pic18f4550.h: 11018: extern volatile __bit TX8_9 __at(0x7D66);
+[; ;proc\pic18f4550.h: 11021: extern volatile __bit TX9 __at(0x7D66);
+[; ;proc\pic18f4550.h: 11024: extern volatile __bit TX91 __at(0x7D66);
+[; ;proc\pic18f4550.h: 11027: extern volatile __bit TX9D __at(0x7D60);
+[; ;proc\pic18f4550.h: 11030: extern volatile __bit TX9D1 __at(0x7D60);
+[; ;proc\pic18f4550.h: 11033: extern volatile __bit TXCKP __at(0x7DC4);
+[; ;proc\pic18f4550.h: 11036: extern volatile __bit TXD8 __at(0x7D60);
+[; ;proc\pic18f4550.h: 11039: extern volatile __bit TXEN __at(0x7D65);
+[; ;proc\pic18f4550.h: 11042: extern volatile __bit TXEN1 __at(0x7D65);
+[; ;proc\pic18f4550.h: 11045: extern volatile __bit TXIE __at(0x7CEC);
+[; ;proc\pic18f4550.h: 11048: extern volatile __bit TXIF __at(0x7CF4);
+[; ;proc\pic18f4550.h: 11051: extern volatile __bit TXIP __at(0x7CFC);
+[; ;proc\pic18f4550.h: 11054: extern volatile __bit UA __at(0x7E39);
+[; ;proc\pic18f4550.h: 11057: extern volatile __bit UERRIE __at(0x7B49);
+[; ;proc\pic18f4550.h: 11060: extern volatile __bit UERRIF __at(0x7B41);
+[; ;proc\pic18f4550.h: 11063: extern volatile __bit ULPWUIN __at(0x7C00);
+[; ;proc\pic18f4550.h: 11066: extern volatile __bit UOEMON __at(0x7B7E);
+[; ;proc\pic18f4550.h: 11069: extern volatile __bit UPP0 __at(0x7B78);
+[; ;proc\pic18f4550.h: 11072: extern volatile __bit UPP1 __at(0x7B79);
+[; ;proc\pic18f4550.h: 11075: extern volatile __bit UPUEN __at(0x7B7C);
+[; ;proc\pic18f4550.h: 11078: extern volatile __bit URSTIE __at(0x7B48);
+[; ;proc\pic18f4550.h: 11081: extern volatile __bit URSTIF __at(0x7B40);
+[; ;proc\pic18f4550.h: 11084: extern volatile __bit USBEN __at(0x7B6B);
+[; ;proc\pic18f4550.h: 11087: extern volatile __bit USBIE __at(0x7D05);
+[; ;proc\pic18f4550.h: 11090: extern volatile __bit USBIF __at(0x7D0D);
+[; ;proc\pic18f4550.h: 11093: extern volatile __bit USBIP __at(0x7D15);
+[; ;proc\pic18f4550.h: 11096: extern volatile __bit UTEYE __at(0x7B7F);
+[; ;proc\pic18f4550.h: 11099: extern volatile __bit UTRDIS __at(0x7B7B);
+[; ;proc\pic18f4550.h: 11102: extern volatile __bit VCFG0 __at(0x7E0C);
+[; ;proc\pic18f4550.h: 11105: extern volatile __bit VCFG01 __at(0x7E0C);
+[; ;proc\pic18f4550.h: 11108: extern volatile __bit VCFG1 __at(0x7E0D);
+[; ;proc\pic18f4550.h: 11111: extern volatile __bit VCFG11 __at(0x7E0D);
+[; ;proc\pic18f4550.h: 11114: extern volatile __bit VDIRMAG __at(0x7E97);
+[; ;proc\pic18f4550.h: 11117: extern volatile __bit VREFM __at(0x7C02);
+[; ;proc\pic18f4550.h: 11120: extern volatile __bit VREFP __at(0x7C03);
+[; ;proc\pic18f4550.h: 11123: extern volatile __bit W4E __at(0x7DC1);
+[; ;proc\pic18f4550.h: 11126: extern volatile __bit WAIT0 __at(0x7E5C);
+[; ;proc\pic18f4550.h: 11129: extern volatile __bit WAIT1 __at(0x7E5D);
+[; ;proc\pic18f4550.h: 11132: extern volatile __bit WCOL __at(0x7E37);
+[; ;proc\pic18f4550.h: 11135: extern volatile __bit WM0 __at(0x7E58);
+[; ;proc\pic18f4550.h: 11138: extern volatile __bit WM1 __at(0x7E59);
+[; ;proc\pic18f4550.h: 11141: extern volatile __bit WR __at(0x7D31);
+[; ;proc\pic18f4550.h: 11144: extern volatile __bit WRE __at(0x7C21);
+[; ;proc\pic18f4550.h: 11147: extern volatile __bit WREN __at(0x7D32);
+[; ;proc\pic18f4550.h: 11150: extern volatile __bit WRERR __at(0x7D33);
+[; ;proc\pic18f4550.h: 11153: extern volatile __bit WRSPP __at(0x7B26);
+[; ;proc\pic18f4550.h: 11156: extern volatile __bit WS0 __at(0x7B18);
+[; ;proc\pic18f4550.h: 11159: extern volatile __bit WS1 __at(0x7B19);
+[; ;proc\pic18f4550.h: 11162: extern volatile __bit WS2 __at(0x7B1A);
+[; ;proc\pic18f4550.h: 11165: extern volatile __bit WS3 __at(0x7B1B);
+[; ;proc\pic18f4550.h: 11168: extern volatile __bit WUE __at(0x7DC1);
+[; ;proc\pic18f4550.h: 11171: extern volatile __bit ZERO __at(0x7EC2);
+[; ;proc\pic18f4550.h: 11174: extern volatile __bit nA __at(0x7E3D);
+[; ;proc\pic18f4550.h: 11177: extern volatile __bit nADDRESS __at(0x7E3D);
+[; ;proc\pic18f4550.h: 11180: extern volatile __bit nBOR __at(0x7E80);
+[; ;proc\pic18f4550.h: 11183: extern volatile __bit nDONE __at(0x7E11);
+[; ;proc\pic18f4550.h: 11186: extern volatile __bit nIPEN __at(0x7E87);
+[; ;proc\pic18f4550.h: 11189: extern volatile __bit nPD __at(0x7E82);
+[; ;proc\pic18f4550.h: 11192: extern volatile __bit nPOR __at(0x7E81);
+[; ;proc\pic18f4550.h: 11195: extern volatile __bit nRBPU __at(0x7F8F);
+[; ;proc\pic18f4550.h: 11198: extern volatile __bit nRI __at(0x7E84);
+[; ;proc\pic18f4550.h: 11201: extern volatile __bit nT1SYNC __at(0x7E6A);
+[; ;proc\pic18f4550.h: 11204: extern volatile __bit nT3SYNC __at(0x7D8A);
+[; ;proc\pic18f4550.h: 11207: extern volatile __bit nTO __at(0x7E83);
+[; ;proc\pic18f4550.h: 11210: extern volatile __bit nW __at(0x7E3A);
+[; ;proc\pic18f4550.h: 11213: extern volatile __bit nWRITE __at(0x7E3A);
 [; ;include\pic18.h: 19: __attribute__((__unsupported__("The " "flash_write" " routine is no longer supported. Please use the MPLAB X MCC."))) void flash_write(const unsigned char *, unsigned int, __far unsigned char *);
 [; ;include\pic18.h: 20: __attribute__((__unsupported__("The " "EraseFlash" " routine is no longer supported. Please use the MPLAB X MCC."))) void EraseFlash(unsigned long startaddr, unsigned long endaddr);
 [; ;include\pic18.h: 156: __attribute__((__unsupported__("The " "Read_b_eep" " routine is no longer supported. Please use the MPLAB X MCC."))) unsigned char Read_b_eep(unsigned int badd);
@@ -3709,157 +3709,157 @@ Version 3.2 HI-TECH Software Intermediate Code
 [; ;include\pic18.h: 158: __attribute__((__unsupported__("The " "Write_b_eep" " routine is no longer supported. Please use the MPLAB X MCC."))) void Write_b_eep(unsigned int badd, unsigned char bdat);
 [; ;include\pic18.h: 192: unsigned char __t1rd16on(void);
 [; ;include\pic18.h: 193: unsigned char __t3rd16on(void);
-"13 mainTecMatric.c
+"15 mainTecMatric.c
 [v _tecla `uc ~T0 @X0 1 e ]
-[; ;mainTecMatric.c: 13: char tecla;
-[; ;mainTecMatric.c: 32: unsigned char teclado(void);
+[; ;mainTecMatric.c: 15: char tecla;
+[; ;mainTecMatric.c: 34: unsigned char teclado(void);
 [v $root$_main `(v ~T0 @X0 0 e ]
-"34
+"36
 [v _main `(v ~T0 @X0 1 ef ]
-"35
+"37
 {
-[; ;mainTecMatric.c: 34: void main(void)
-[; ;mainTecMatric.c: 35: {
+[; ;mainTecMatric.c: 36: void main(void)
+[; ;mainTecMatric.c: 37: {
 [e :U _main ]
 [f ]
-[; ;mainTecMatric.c: 36: ADCON0 = 0b00000000;
-"36
+[; ;mainTecMatric.c: 38: ADCON0 = 0b00000000;
+"38
 [e = _ADCON0 -> -> 0 `i `uc ]
-[; ;mainTecMatric.c: 37: ADCON1 = 0b00001111;
-"37
+[; ;mainTecMatric.c: 39: ADCON1 = 0b00001111;
+"39
 [e = _ADCON1 -> -> 15 `i `uc ]
-[; ;mainTecMatric.c: 41: INTCON2bits.RBPU = 1;
-"41
-[e = . . _INTCON2bits 2 3 -> -> 1 `i `uc ]
-[; ;mainTecMatric.c: 43: TRISB = 0b00000000;
+[; ;mainTecMatric.c: 43: INTCON2bits.RBPU = 1;
 "43
-[e = _TRISB -> -> 0 `i `uc ]
-[; ;mainTecMatric.c: 44: TRISC = 0b00000000;
-"44
-[e = _TRISC -> -> 0 `i `uc ]
-[; ;mainTecMatric.c: 45: TRISD = 0b00001111;
+[e = . . _INTCON2bits 2 3 -> -> 1 `i `uc ]
+[; ;mainTecMatric.c: 45: TRISB = 0b00000000;
 "45
-[e = _TRISD -> -> 15 `i `uc ]
-[; ;mainTecMatric.c: 46: TRISE = 0b00000000;
+[e = _TRISB -> -> 0 `i `uc ]
+[; ;mainTecMatric.c: 46: TRISC = 0b00000000;
 "46
-[e = _TRISE -> -> 0 `i `uc ]
-[; ;mainTecMatric.c: 48: PORTB = 0xFF;
+[e = _TRISC -> -> 0 `i `uc ]
+[; ;mainTecMatric.c: 47: TRISD = 0b00001111;
+"47
+[e = _TRISD -> -> 15 `i `uc ]
+[; ;mainTecMatric.c: 48: TRISE = 0b00000000;
 "48
-[e = _PORTB -> -> 255 `i `uc ]
-[; ;mainTecMatric.c: 49: LATB = 0xFF;
-"49
-[e = _LATB -> -> 255 `i `uc ]
-[; ;mainTecMatric.c: 50: PORTC = 0;
+[e = _TRISE -> -> 0 `i `uc ]
+[; ;mainTecMatric.c: 50: PORTB = 0xFF;
 "50
-[e = _PORTC -> -> 0 `i `uc ]
-[; ;mainTecMatric.c: 51: LATC = 0;
+[e = _PORTB -> -> 255 `i `uc ]
+[; ;mainTecMatric.c: 51: LATB = 0xFF;
 "51
-[e = _LATC -> -> 0 `i `uc ]
-[; ;mainTecMatric.c: 52: PORTD = 0;
+[e = _LATB -> -> 255 `i `uc ]
+[; ;mainTecMatric.c: 52: PORTC = 0;
 "52
-[e = _PORTD -> -> 0 `i `uc ]
-[; ;mainTecMatric.c: 53: LATD = 0;
+[e = _PORTC -> -> 0 `i `uc ]
+[; ;mainTecMatric.c: 53: LATC = 0;
 "53
-[e = _LATD -> -> 0 `i `uc ]
-[; ;mainTecMatric.c: 54: PORTE = 0;
+[e = _LATC -> -> 0 `i `uc ]
+[; ;mainTecMatric.c: 54: PORTD = 0;
 "54
-[e = _PORTE -> -> 0 `i `uc ]
-[; ;mainTecMatric.c: 55: LATE = 0;
+[e = _PORTD -> -> 0 `i `uc ]
+[; ;mainTecMatric.c: 55: LATD = 0;
 "55
-[e = _LATE -> -> 0 `i `uc ]
-[; ;mainTecMatric.c: 56: while(1)
+[e = _LATD -> -> 0 `i `uc ]
+[; ;mainTecMatric.c: 56: PORTE = 0;
 "56
-[e :U 364 ]
-[; ;mainTecMatric.c: 57: {
+[e = _PORTE -> -> 0 `i `uc ]
+[; ;mainTecMatric.c: 57: LATE = 0;
 "57
-{
-[; ;mainTecMatric.c: 58: asm(" clrwdt");
+[e = _LATE -> -> 0 `i `uc ]
+[; ;mainTecMatric.c: 58: while(1)
 "58
-[; <"  clrwdt ;# ">
-[; ;mainTecMatric.c: 59: tecla = teclado();
+[e :U 364 ]
+[; ;mainTecMatric.c: 59: {
 "59
-[e = _tecla ( _teclado ..  ]
-[; ;mainTecMatric.c: 60: if (tecla == '1')
-"60
-[e $ ! == -> _tecla `ui -> 49 `ui 366  ]
-[; ;mainTecMatric.c: 61: {
-"61
 {
-[; ;mainTecMatric.c: 62: LATCbits.LC0 = 1;
+[; ;mainTecMatric.c: 60: asm(" clrwdt");
+"60
+[; <"  clrwdt ;# ">
+[; ;mainTecMatric.c: 61: tecla = teclado();
+"61
+[e = _tecla ( _teclado ..  ]
+[; ;mainTecMatric.c: 62: if (tecla == '1')
 "62
-[e = . . _LATCbits 1 0 -> -> 1 `i `uc ]
+[e $ ! == -> _tecla `ui -> 49 `ui 366  ]
+[; ;mainTecMatric.c: 63: {
 "63
+{
+[; ;mainTecMatric.c: 64: LATCbits.LC0 = 1;
+"64
+[e = . . _LATCbits 1 0 -> -> 1 `i `uc ]
+"65
 }
 [e :U 366 ]
-[; ;mainTecMatric.c: 63: }
-[; ;mainTecMatric.c: 64: if (tecla == '2')
-"64
-[e $ ! == -> _tecla `ui -> 50 `ui 367  ]
-[; ;mainTecMatric.c: 65: {
-"65
-{
-[; ;mainTecMatric.c: 66: LATEbits.LE0 = 1;
+[; ;mainTecMatric.c: 65: }
+[; ;mainTecMatric.c: 66: if (tecla == '2')
 "66
-[e = . . _LATEbits 1 0 -> -> 1 `i `uc ]
+[e $ ! == -> _tecla `ui -> 50 `ui 367  ]
+[; ;mainTecMatric.c: 67: {
 "67
+{
+[; ;mainTecMatric.c: 68: LATEbits.LE0 = 1;
+"68
+[e = . . _LATEbits 1 0 -> -> 1 `i `uc ]
+"69
 }
 [e :U 367 ]
-[; ;mainTecMatric.c: 67: }
-[; ;mainTecMatric.c: 68: if (tecla == '3')
-"68
-[e $ ! == -> _tecla `ui -> 51 `ui 368  ]
-[; ;mainTecMatric.c: 69: {
-"69
-{
-[; ;mainTecMatric.c: 70: LATCbits.LC0 = 0;
+[; ;mainTecMatric.c: 69: }
+[; ;mainTecMatric.c: 70: if (tecla == '3')
 "70
-[e = . . _LATCbits 1 0 -> -> 0 `i `uc ]
-[; ;mainTecMatric.c: 71: LATEbits.LE0 = 0;
+[e $ ! == -> _tecla `ui -> 51 `ui 368  ]
+[; ;mainTecMatric.c: 71: {
 "71
-[e = . . _LATEbits 1 0 -> -> 0 `i `uc ]
+{
+[; ;mainTecMatric.c: 72: LATCbits.LC0 = 0;
 "72
-}
-[e :U 368 ]
+[e = . . _LATCbits 1 0 -> -> 0 `i `uc ]
+[; ;mainTecMatric.c: 73: LATEbits.LE0 = 0;
+"73
+[e = . . _LATEbits 1 0 -> -> 0 `i `uc ]
 "74
 }
+[e :U 368 ]
+"76
+}
 [e :U 363 ]
-"56
+"58
 [e $U 364  ]
 [e :U 365 ]
-[; ;mainTecMatric.c: 72: }
 [; ;mainTecMatric.c: 74: }
-[; ;mainTecMatric.c: 75: return;
-"75
-[e $UE 362  ]
 [; ;mainTecMatric.c: 76: }
-"76
+[; ;mainTecMatric.c: 77: return;
+"77
+[e $UE 362  ]
+[; ;mainTecMatric.c: 78: }
+"78
 [e :UE 362 ]
 }
-"78
+"80
 [v _teclado `(uc ~T0 @X0 1 ef ]
-"79
+"81
 {
-[; ;mainTecMatric.c: 78: unsigned char teclado(void)
-[; ;mainTecMatric.c: 79: {
+[; ;mainTecMatric.c: 80: unsigned char teclado(void)
+[; ;mainTecMatric.c: 81: {
 [e :U _teclado ]
 [f ]
-"80
+"82
 [v _key `uc ~T0 @X0 1 a ]
-[; ;mainTecMatric.c: 80: char key = ' ';
+[; ;mainTecMatric.c: 82: char key = ' ';
 [e = _key -> -> 32 `ui `uc ]
-[; ;mainTecMatric.c: 81: LATBbits.LB0 = 1; LATBbits.LB1 = 1; LATBbits.LB2 = 1;
-"81
+[; ;mainTecMatric.c: 83: LATBbits.LB0 = 1; LATBbits.LB1 = 1; LATBbits.LB2 = 1;
+"83
 [e = . . _LATBbits 1 0 -> -> 1 `i `uc ]
 [e = . . _LATBbits 1 1 -> -> 1 `i `uc ]
 [e = . . _LATBbits 1 2 -> -> 1 `i `uc ]
-[; ;mainTecMatric.c: 82: LATBbits.LB0 = 0;
-"82
+[; ;mainTecMatric.c: 84: LATBbits.LB0 = 0;
+"84
 [e = . . _LATBbits 1 0 -> -> 0 `i `uc ]
-[; ;mainTecMatric.c: 83: if(!PORTDbits.RD3) {_delay((unsigned long)((20)*(8000000/4000.0))); if (!PORTDbits.RD3){key = '1'; }}
-"83
+[; ;mainTecMatric.c: 85: if(!PORTDbits.RD3) {_delaywdt((unsigned long)((20)*(8000000/4000.0))); if (!PORTDbits.RD3){key = '1'; }}
+"85
 [e $ ! ! != -> . . _PORTDbits 0 3 `i -> -> -> 0 `i `Vuc `i 370  ]
 {
-[e ( __delay (1 -> * -> -> 20 `i `d / -> -> 8000000 `l `d .4000.0 `ul ]
+[e ( __delaywdt (1 -> * -> -> 20 `i `d / -> -> 8000000 `l `d .4000.0 `ul ]
 [e $ ! ! != -> . . _PORTDbits 0 3 `i -> -> -> 0 `i `Vuc `i 371  ]
 {
 [e = _key -> -> 49 `ui `uc ]
@@ -3867,12 +3867,12 @@ Version 3.2 HI-TECH Software Intermediate Code
 [e :U 371 ]
 }
 [e $U 372  ]
-"84
+"86
 [e :U 370 ]
-[; ;mainTecMatric.c: 84: else if(!PORTDbits.RD2) {_delay((unsigned long)((20)*(8000000/4000.0))); if (!PORTDbits.RD2){key = '4'; }}
+[; ;mainTecMatric.c: 86: else if(!PORTDbits.RD2) {_delaywdt((unsigned long)((20)*(8000000/4000.0))); if (!PORTDbits.RD2){key = '4'; }}
 [e $ ! ! != -> . . _PORTDbits 0 2 `i -> -> -> 0 `i `Vuc `i 373  ]
 {
-[e ( __delay (1 -> * -> -> 20 `i `d / -> -> 8000000 `l `d .4000.0 `ul ]
+[e ( __delaywdt (1 -> * -> -> 20 `i `d / -> -> 8000000 `l `d .4000.0 `ul ]
 [e $ ! ! != -> . . _PORTDbits 0 2 `i -> -> -> 0 `i `Vuc `i 374  ]
 {
 [e = _key -> -> 52 `ui `uc ]
@@ -3880,12 +3880,12 @@ Version 3.2 HI-TECH Software Intermediate Code
 [e :U 374 ]
 }
 [e $U 375  ]
-"85
+"87
 [e :U 373 ]
-[; ;mainTecMatric.c: 85: else if(!PORTDbits.RD1) {_delay((unsigned long)((20)*(8000000/4000.0))); if (!PORTDbits.RD1){key = '7'; }}
+[; ;mainTecMatric.c: 87: else if(!PORTDbits.RD1) {_delaywdt((unsigned long)((20)*(8000000/4000.0))); if (!PORTDbits.RD1){key = '7'; }}
 [e $ ! ! != -> . . _PORTDbits 0 1 `i -> -> -> 0 `i `Vuc `i 376  ]
 {
-[e ( __delay (1 -> * -> -> 20 `i `d / -> -> 8000000 `l `d .4000.0 `ul ]
+[e ( __delaywdt (1 -> * -> -> 20 `i `d / -> -> 8000000 `l `d .4000.0 `ul ]
 [e $ ! ! != -> . . _PORTDbits 0 1 `i -> -> -> 0 `i `Vuc `i 377  ]
 {
 [e = _key -> -> 55 `ui `uc ]
@@ -3893,12 +3893,12 @@ Version 3.2 HI-TECH Software Intermediate Code
 [e :U 377 ]
 }
 [e $U 378  ]
-"86
+"88
 [e :U 376 ]
-[; ;mainTecMatric.c: 86: else if(!PORTDbits.RD0) {_delay((unsigned long)((20)*(8000000/4000.0))); if (!PORTDbits.RD0){key = 'x'; }}
+[; ;mainTecMatric.c: 88: else if(!PORTDbits.RD0) {_delaywdt((unsigned long)((20)*(8000000/4000.0))); if (!PORTDbits.RD0){key = 'x'; }}
 [e $ ! ! != -> . . _PORTDbits 0 0 `i -> -> -> 0 `i `Vuc `i 379  ]
 {
-[e ( __delay (1 -> * -> -> 20 `i `d / -> -> 8000000 `l `d .4000.0 `ul ]
+[e ( __delaywdt (1 -> * -> -> 20 `i `d / -> -> 8000000 `l `d .4000.0 `ul ]
 [e $ ! ! != -> . . _PORTDbits 0 0 `i -> -> -> 0 `i `Vuc `i 380  ]
 {
 [e = _key -> -> 120 `ui `uc ]
@@ -3906,20 +3906,20 @@ Version 3.2 HI-TECH Software Intermediate Code
 [e :U 380 ]
 }
 [e :U 379 ]
-"88
+"90
 [e :U 378 ]
 [e :U 375 ]
 [e :U 372 ]
-[; ;mainTecMatric.c: 88: LATBbits.LB0 = 1;
+[; ;mainTecMatric.c: 90: LATBbits.LB0 = 1;
 [e = . . _LATBbits 1 0 -> -> 1 `i `uc ]
-[; ;mainTecMatric.c: 89: LATBbits.LB1 = 0;
-"89
-[e = . . _LATBbits 1 1 -> -> 0 `i `uc ]
-[; ;mainTecMatric.c: 91: if(!PORTDbits.RD3) {_delay((unsigned long)((20)*(8000000/4000.0))); if (!PORTDbits.RD3){key = '2'; }}
+[; ;mainTecMatric.c: 91: LATBbits.LB1 = 0;
 "91
+[e = . . _LATBbits 1 1 -> -> 0 `i `uc ]
+[; ;mainTecMatric.c: 93: if(!PORTDbits.RD3) {_delaywdt((unsigned long)((20)*(8000000/4000.0))); if (!PORTDbits.RD3){key = '2'; }}
+"93
 [e $ ! ! != -> . . _PORTDbits 0 3 `i -> -> -> 0 `i `Vuc `i 381  ]
 {
-[e ( __delay (1 -> * -> -> 20 `i `d / -> -> 8000000 `l `d .4000.0 `ul ]
+[e ( __delaywdt (1 -> * -> -> 20 `i `d / -> -> 8000000 `l `d .4000.0 `ul ]
 [e $ ! ! != -> . . _PORTDbits 0 3 `i -> -> -> 0 `i `Vuc `i 382  ]
 {
 [e = _key -> -> 50 `ui `uc ]
@@ -3927,12 +3927,12 @@ Version 3.2 HI-TECH Software Intermediate Code
 [e :U 382 ]
 }
 [e $U 383  ]
-"92
+"94
 [e :U 381 ]
-[; ;mainTecMatric.c: 92: else if(!PORTDbits.RD2) {_delay((unsigned long)((20)*(8000000/4000.0))); if (!PORTDbits.RD2){key = '5'; }}
+[; ;mainTecMatric.c: 94: else if(!PORTDbits.RD2) {_delaywdt((unsigned long)((20)*(8000000/4000.0))); if (!PORTDbits.RD2){key = '5'; }}
 [e $ ! ! != -> . . _PORTDbits 0 2 `i -> -> -> 0 `i `Vuc `i 384  ]
 {
-[e ( __delay (1 -> * -> -> 20 `i `d / -> -> 8000000 `l `d .4000.0 `ul ]
+[e ( __delaywdt (1 -> * -> -> 20 `i `d / -> -> 8000000 `l `d .4000.0 `ul ]
 [e $ ! ! != -> . . _PORTDbits 0 2 `i -> -> -> 0 `i `Vuc `i 385  ]
 {
 [e = _key -> -> 53 `ui `uc ]
@@ -3940,12 +3940,12 @@ Version 3.2 HI-TECH Software Intermediate Code
 [e :U 385 ]
 }
 [e $U 386  ]
-"93
+"95
 [e :U 384 ]
-[; ;mainTecMatric.c: 93: else if(!PORTDbits.RD1) {_delay((unsigned long)((20)*(8000000/4000.0))); if (!PORTDbits.RD1){key = '8'; }}
+[; ;mainTecMatric.c: 95: else if(!PORTDbits.RD1) {_delaywdt((unsigned long)((20)*(8000000/4000.0))); if (!PORTDbits.RD1){key = '8'; }}
 [e $ ! ! != -> . . _PORTDbits 0 1 `i -> -> -> 0 `i `Vuc `i 387  ]
 {
-[e ( __delay (1 -> * -> -> 20 `i `d / -> -> 8000000 `l `d .4000.0 `ul ]
+[e ( __delaywdt (1 -> * -> -> 20 `i `d / -> -> 8000000 `l `d .4000.0 `ul ]
 [e $ ! ! != -> . . _PORTDbits 0 1 `i -> -> -> 0 `i `Vuc `i 388  ]
 {
 [e = _key -> -> 56 `ui `uc ]
@@ -3953,12 +3953,12 @@ Version 3.2 HI-TECH Software Intermediate Code
 [e :U 388 ]
 }
 [e $U 389  ]
-"94
+"96
 [e :U 387 ]
-[; ;mainTecMatric.c: 94: else if(!PORTDbits.RD0) {_delay((unsigned long)((20)*(8000000/4000.0))); if (!PORTDbits.RD0){key = '0'; }}
+[; ;mainTecMatric.c: 96: else if(!PORTDbits.RD0) {_delaywdt((unsigned long)((20)*(8000000/4000.0))); if (!PORTDbits.RD0){key = '0'; }}
 [e $ ! ! != -> . . _PORTDbits 0 0 `i -> -> -> 0 `i `Vuc `i 390  ]
 {
-[e ( __delay (1 -> * -> -> 20 `i `d / -> -> 8000000 `l `d .4000.0 `ul ]
+[e ( __delaywdt (1 -> * -> -> 20 `i `d / -> -> 8000000 `l `d .4000.0 `ul ]
 [e $ ! ! != -> . . _PORTDbits 0 0 `i -> -> -> 0 `i `Vuc `i 391  ]
 {
 [e = _key -> -> 48 `ui `uc ]
@@ -3966,20 +3966,20 @@ Version 3.2 HI-TECH Software Intermediate Code
 [e :U 391 ]
 }
 [e :U 390 ]
-"96
+"98
 [e :U 389 ]
 [e :U 386 ]
 [e :U 383 ]
-[; ;mainTecMatric.c: 96: LATBbits.LB1 = 1;
+[; ;mainTecMatric.c: 98: LATBbits.LB1 = 1;
 [e = . . _LATBbits 1 1 -> -> 1 `i `uc ]
-[; ;mainTecMatric.c: 97: LATBbits.LB2 = 0;
-"97
-[e = . . _LATBbits 1 2 -> -> 0 `i `uc ]
-[; ;mainTecMatric.c: 99: if(!PORTDbits.RD3) {_delay((unsigned long)((20)*(8000000/4000.0))); if (!PORTDbits.RD3){key = '3'; }}
+[; ;mainTecMatric.c: 99: LATBbits.LB2 = 0;
 "99
+[e = . . _LATBbits 1 2 -> -> 0 `i `uc ]
+[; ;mainTecMatric.c: 101: if(!PORTDbits.RD3) {_delaywdt((unsigned long)((20)*(8000000/4000.0))); if (!PORTDbits.RD3){key = '3'; }}
+"101
 [e $ ! ! != -> . . _PORTDbits 0 3 `i -> -> -> 0 `i `Vuc `i 392  ]
 {
-[e ( __delay (1 -> * -> -> 20 `i `d / -> -> 8000000 `l `d .4000.0 `ul ]
+[e ( __delaywdt (1 -> * -> -> 20 `i `d / -> -> 8000000 `l `d .4000.0 `ul ]
 [e $ ! ! != -> . . _PORTDbits 0 3 `i -> -> -> 0 `i `Vuc `i 393  ]
 {
 [e = _key -> -> 51 `ui `uc ]
@@ -3987,12 +3987,12 @@ Version 3.2 HI-TECH Software Intermediate Code
 [e :U 393 ]
 }
 [e $U 394  ]
-"100
+"102
 [e :U 392 ]
-[; ;mainTecMatric.c: 100: else if(!PORTDbits.RD2) {_delay((unsigned long)((20)*(8000000/4000.0))); if (!PORTDbits.RD2){key = '6'; }}
+[; ;mainTecMatric.c: 102: else if(!PORTDbits.RD2) {_delaywdt((unsigned long)((20)*(8000000/4000.0))); if (!PORTDbits.RD2){key = '6'; }}
 [e $ ! ! != -> . . _PORTDbits 0 2 `i -> -> -> 0 `i `Vuc `i 395  ]
 {
-[e ( __delay (1 -> * -> -> 20 `i `d / -> -> 8000000 `l `d .4000.0 `ul ]
+[e ( __delaywdt (1 -> * -> -> 20 `i `d / -> -> 8000000 `l `d .4000.0 `ul ]
 [e $ ! ! != -> . . _PORTDbits 0 2 `i -> -> -> 0 `i `Vuc `i 396  ]
 {
 [e = _key -> -> 54 `ui `uc ]
@@ -4000,12 +4000,12 @@ Version 3.2 HI-TECH Software Intermediate Code
 [e :U 396 ]
 }
 [e $U 397  ]
-"101
+"103
 [e :U 395 ]
-[; ;mainTecMatric.c: 101: else if(!PORTDbits.RD1) {_delay((unsigned long)((20)*(8000000/4000.0))); if (!PORTDbits.RD1){key = '9'; }}
+[; ;mainTecMatric.c: 103: else if(!PORTDbits.RD1) {_delaywdt((unsigned long)((20)*(8000000/4000.0))); if (!PORTDbits.RD1){key = '9'; }}
 [e $ ! ! != -> . . _PORTDbits 0 1 `i -> -> -> 0 `i `Vuc `i 398  ]
 {
-[e ( __delay (1 -> * -> -> 20 `i `d / -> -> 8000000 `l `d .4000.0 `ul ]
+[e ( __delaywdt (1 -> * -> -> 20 `i `d / -> -> 8000000 `l `d .4000.0 `ul ]
 [e $ ! ! != -> . . _PORTDbits 0 1 `i -> -> -> 0 `i `Vuc `i 399  ]
 {
 [e = _key -> -> 57 `ui `uc ]
@@ -4013,12 +4013,12 @@ Version 3.2 HI-TECH Software Intermediate Code
 [e :U 399 ]
 }
 [e $U 400  ]
-"102
+"104
 [e :U 398 ]
-[; ;mainTecMatric.c: 102: else if(!PORTDbits.RD0) {_delay((unsigned long)((20)*(8000000/4000.0))); if (!PORTDbits.RD0){key = '-'; }}
+[; ;mainTecMatric.c: 104: else if(!PORTDbits.RD0) {_delaywdt((unsigned long)((20)*(8000000/4000.0))); if (!PORTDbits.RD0){key = '-'; }}
 [e $ ! ! != -> . . _PORTDbits 0 0 `i -> -> -> 0 `i `Vuc `i 401  ]
 {
-[e ( __delay (1 -> * -> -> 20 `i `d / -> -> 8000000 `l `d .4000.0 `ul ]
+[e ( __delaywdt (1 -> * -> -> 20 `i `d / -> -> 8000000 `l `d .4000.0 `ul ]
 [e $ ! ! != -> . . _PORTDbits 0 0 `i -> -> -> 0 `i `Vuc `i 402  ]
 {
 [e = _key -> -> 45 `ui `uc ]
@@ -4026,20 +4026,20 @@ Version 3.2 HI-TECH Software Intermediate Code
 [e :U 402 ]
 }
 [e :U 401 ]
-"104
+"106
 [e :U 400 ]
 [e :U 397 ]
 [e :U 394 ]
-[; ;mainTecMatric.c: 104: LATBbits.LB2 = 1;
+[; ;mainTecMatric.c: 106: LATBbits.LB2 = 1;
 [e = . . _LATBbits 1 2 -> -> 1 `i `uc ]
-[; ;mainTecMatric.c: 105: _delay((unsigned long)((5)*(8000000/4000.0)));
-"105
-[e ( __delay (1 -> * -> -> 5 `i `d / -> -> 8000000 `l `d .4000.0 `ul ]
-[; ;mainTecMatric.c: 107: return(key);
+[; ;mainTecMatric.c: 107: _delaywdt((unsigned long)((5)*(8000000/4000.0)));
 "107
+[e ( __delaywdt (1 -> * -> -> 5 `i `d / -> -> 8000000 `l `d .4000.0 `ul ]
+[; ;mainTecMatric.c: 109: return(key);
+"109
 [e ) _key ]
 [e $UE 369  ]
-[; ;mainTecMatric.c: 108: }
-"108
+[; ;mainTecMatric.c: 110: }
+"110
 [e :UE 369 ]
 }
