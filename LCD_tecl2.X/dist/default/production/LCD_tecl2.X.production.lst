@@ -1,7 +1,7 @@
 
 
 Microchip MPLAB XC8 Assembler V2.36 build 20220127204148 
-                                                                                               Thu Jun 15 19:13:51 2023
+                                                                                               Thu Jun 22 18:34:05 2023
 
 Microchip MPLAB XC8 C Compiler v2.36 (Free license) build 20220127204148 Og1 
      1                           	processor	18F4520
@@ -853,7 +853,7 @@ Microchip MPLAB XC8 C Compiler v2.36 (Free license) build 20220127204148 Og1
    839                           
    840 ;; *************** function _tc_tecla *****************
    841 ;; Defined at:
-   842 ;;		line 7 in file "teclado.c"
+   842 ;;		line 49 in file "teclado.c"
    843 ;; Parameters:    Size  Location     Type
    844 ;;		None
    845 ;; Auto vars:     Size  Location     Type
@@ -886,17 +886,17 @@ Microchip MPLAB XC8 C Compiler v2.36 (Free license) build 20220127204148 Og1
    872  0009A2                     _tc_tecla:
    873                           	callstack 30
    874  0009A2                     
-   875                           ;teclado.c: 9: unsigned char key;;teclado.c: 11: LATBbits.LB4 = 1; LATBbits.LB5 = 1; LAT
-      +                          Bbits.LB6 = 1; LATBbits.LB7 = 1;
+   875                           ;teclado.c: 52: unsigned char key;;teclado.c: 54: LATBbits.LB4 = 1; LATBbits.LB5 = 1; LA
+      +                          TBbits.LB6 = 1; LATBbits.LB7 = 1;
    876  0009A2  888A               	bsf	138,4,c	;volatile
    877  0009A4  8A8A               	bsf	138,5,c	;volatile
    878  0009A6  8C8A               	bsf	138,6,c	;volatile
    879  0009A8  8E8A               	bsf	138,7,c	;volatile
    880                           
-   881                           ;teclado.c: 12: LATBbits.LB4 = 0;
+   881                           ;teclado.c: 55: LATBbits.LB4 = 0;
    882  0009AA  988A               	bcf	138,4,c	;volatile
    883                           
-   884                           ;teclado.c: 13: if(!PORTBbits.RB3) {_delay((unsigned long)((20)*(8000000/4000.0))); if (
+   884                           ;teclado.c: 56: if(!PORTBbits.RB3) {_delay((unsigned long)((20)*(8000000/4000.0))); if (
       +                          !PORTBbits.RB3){key = '1'; }}
    885  0009AC  B681               	btfsc	129,3,c	;volatile
    886  0009AE  EFDB  F004         	goto	u71
@@ -923,7 +923,7 @@ Microchip MPLAB XC8 C Compiler v2.36 (Free license) build 20220127204148 Og1
    907  0009DA  EF38  F005         	goto	l1021
    908  0009DE                     l9:
    909                           
-   910                           ;teclado.c: 14: else if(!PORTBbits.RB2) {_delay((unsigned long)((20)*(8000000/4000.0)));
+   910                           ;teclado.c: 57: else if(!PORTBbits.RB2) {_delay((unsigned long)((20)*(8000000/4000.0)));
       +                           if (!PORTBbits.RB2){key = '2'; }}
    911  0009DE  B481               	btfsc	129,2,c	;volatile
    912  0009E0  EFF4  F004         	goto	u91
@@ -950,7 +950,7 @@ Microchip MPLAB XC8 C Compiler v2.36 (Free license) build 20220127204148 Og1
    933  000A0C  EF38  F005         	goto	l1021
    934  000A10                     l12:
    935                           
-   936                           ;teclado.c: 15: else if(!PORTBbits.RB1) {_delay((unsigned long)((20)*(8000000/4000.0)));
+   936                           ;teclado.c: 58: else if(!PORTBbits.RB1) {_delay((unsigned long)((20)*(8000000/4000.0)));
       +                           if (!PORTBbits.RB1){key = '3'; }}
    937  000A10  B281               	btfsc	129,1,c	;volatile
    938  000A12  EF0D  F005         	goto	u111
@@ -977,7 +977,7 @@ Microchip MPLAB XC8 C Compiler v2.36 (Free license) build 20220127204148 Og1
    959  000A3E  EF38  F005         	goto	l1021
    960  000A42                     l15:
    961                           
-   962                           ;teclado.c: 16: else if(!PORTBbits.RB0) {_delay((unsigned long)((20)*(8000000/4000.0)));
+   962                           ;teclado.c: 59: else if(!PORTBbits.RB0) {_delay((unsigned long)((20)*(8000000/4000.0)));
       +                           if (!PORTBbits.RB0){key = 'A'; }}
    963  000A42  B081               	btfsc	129,0,c	;volatile
    964  000A44  EF26  F005         	goto	u131
@@ -1003,13 +1003,13 @@ Microchip MPLAB XC8 C Compiler v2.36 (Free license) build 20220127204148 Og1
    984  000A6E  6E02               	movwf	tc_tecla@key^0,c
    985  000A70                     l1021:
    986                           
-   987                           ;teclado.c: 18: LATBbits.LB4 = 1;
+   987                           ;teclado.c: 61: LATBbits.LB4 = 1;
    988  000A70  888A               	bsf	138,4,c	;volatile
    989  000A72                     
-   990                           ;teclado.c: 19: LATBbits.LB5 = 0;
+   990                           ;teclado.c: 62: LATBbits.LB5 = 0;
    991  000A72  9A8A               	bcf	138,5,c	;volatile
    992  000A74                     
-   993                           ;teclado.c: 21: if(!PORTBbits.RB3) {_delay((unsigned long)((20)*(8000000/4000.0))); if (
+   993                           ;teclado.c: 64: if(!PORTBbits.RB3) {_delay((unsigned long)((20)*(8000000/4000.0))); if (
       +                          !PORTBbits.RB3){key = '4'; }}
    994  000A74  B681               	btfsc	129,3,c	;volatile
    995  000A76  EF3F  F005         	goto	u151
@@ -1036,7 +1036,7 @@ Microchip MPLAB XC8 C Compiler v2.36 (Free license) build 20220127204148 Og1
   1016  000AA2  EF9C  F005         	goto	l1051
   1017  000AA6                     l20:
   1018                           
-  1019                           ;teclado.c: 22: else if(!PORTBbits.RB2) {_delay((unsigned long)((20)*(8000000/4000.0)));
+  1019                           ;teclado.c: 65: else if(!PORTBbits.RB2) {_delay((unsigned long)((20)*(8000000/4000.0)));
       +                           if (!PORTBbits.RB2){key = '5'; }}
   1020  000AA6  B481               	btfsc	129,2,c	;volatile
   1021  000AA8  EF58  F005         	goto	u171
@@ -1063,7 +1063,7 @@ Microchip MPLAB XC8 C Compiler v2.36 (Free license) build 20220127204148 Og1
   1042  000AD4  EF9C  F005         	goto	l1051
   1043  000AD8                     l23:
   1044                           
-  1045                           ;teclado.c: 23: else if(!PORTBbits.RB1) {_delay((unsigned long)((20)*(8000000/4000.0)));
+  1045                           ;teclado.c: 66: else if(!PORTBbits.RB1) {_delay((unsigned long)((20)*(8000000/4000.0)));
       +                           if (!PORTBbits.RB1){key = '6'; }}
   1046  000AD8  B281               	btfsc	129,1,c	;volatile
   1047  000ADA  EF71  F005         	goto	u191
@@ -1090,7 +1090,7 @@ Microchip MPLAB XC8 C Compiler v2.36 (Free license) build 20220127204148 Og1
   1068  000B06  EF9C  F005         	goto	l1051
   1069  000B0A                     l26:
   1070                           
-  1071                           ;teclado.c: 24: else if(!PORTBbits.RB0) {_delay((unsigned long)((20)*(8000000/4000.0)));
+  1071                           ;teclado.c: 67: else if(!PORTBbits.RB0) {_delay((unsigned long)((20)*(8000000/4000.0)));
       +                           if (!PORTBbits.RB0){key = 'B'; }}
   1072  000B0A  B081               	btfsc	129,0,c	;volatile
   1073  000B0C  EF8A  F005         	goto	u211
@@ -1116,13 +1116,13 @@ Microchip MPLAB XC8 C Compiler v2.36 (Free license) build 20220127204148 Og1
   1093  000B36  6E02               	movwf	tc_tecla@key^0,c
   1094  000B38                     l1051:
   1095                           
-  1096                           ;teclado.c: 26: LATBbits.LB5 = 1;
+  1096                           ;teclado.c: 69: LATBbits.LB5 = 1;
   1097  000B38  8A8A               	bsf	138,5,c	;volatile
   1098  000B3A                     
-  1099                           ;teclado.c: 27: LATBbits.LB6 = 0;
+  1099                           ;teclado.c: 70: LATBbits.LB6 = 0;
   1100  000B3A  9C8A               	bcf	138,6,c	;volatile
   1101  000B3C                     
-  1102                           ;teclado.c: 29: if(!PORTBbits.RB3) {_delay((unsigned long)((20)*(8000000/4000.0))); if (
+  1102                           ;teclado.c: 72: if(!PORTBbits.RB3) {_delay((unsigned long)((20)*(8000000/4000.0))); if (
       +                          !PORTBbits.RB3){key = '7'; }}
   1103  000B3C  B681               	btfsc	129,3,c	;volatile
   1104  000B3E  EFA3  F005         	goto	u231
@@ -1149,7 +1149,7 @@ Microchip MPLAB XC8 C Compiler v2.36 (Free license) build 20220127204148 Og1
   1125  000B6A  EF00  F006         	goto	l1081
   1126  000B6E                     l31:
   1127                           
-  1128                           ;teclado.c: 30: else if(!PORTBbits.RB2) {_delay((unsigned long)((20)*(8000000/4000.0)));
+  1128                           ;teclado.c: 73: else if(!PORTBbits.RB2) {_delay((unsigned long)((20)*(8000000/4000.0)));
       +                           if (!PORTBbits.RB2){key = '8'; }}
   1129  000B6E  B481               	btfsc	129,2,c	;volatile
   1130  000B70  EFBC  F005         	goto	u251
@@ -1176,7 +1176,7 @@ Microchip MPLAB XC8 C Compiler v2.36 (Free license) build 20220127204148 Og1
   1151  000B9C  EF00  F006         	goto	l1081
   1152  000BA0                     l34:
   1153                           
-  1154                           ;teclado.c: 31: else if(!PORTBbits.RB1) {_delay((unsigned long)((20)*(8000000/4000.0)));
+  1154                           ;teclado.c: 74: else if(!PORTBbits.RB1) {_delay((unsigned long)((20)*(8000000/4000.0)));
       +                           if (!PORTBbits.RB1){key = '9'; }}
   1155  000BA0  B281               	btfsc	129,1,c	;volatile
   1156  000BA2  EFD5  F005         	goto	u271
@@ -1203,7 +1203,7 @@ Microchip MPLAB XC8 C Compiler v2.36 (Free license) build 20220127204148 Og1
   1177  000BCE  EF00  F006         	goto	l1081
   1178  000BD2                     l37:
   1179                           
-  1180                           ;teclado.c: 32: else if(!PORTBbits.RB0) {_delay((unsigned long)((20)*(8000000/4000.0)));
+  1180                           ;teclado.c: 75: else if(!PORTBbits.RB0) {_delay((unsigned long)((20)*(8000000/4000.0)));
       +                           if (!PORTBbits.RB0){key = 'C'; }}
   1181  000BD2  B081               	btfsc	129,0,c	;volatile
   1182  000BD4  EFEE  F005         	goto	u291
@@ -1229,13 +1229,13 @@ Microchip MPLAB XC8 C Compiler v2.36 (Free license) build 20220127204148 Og1
   1202  000BFE  6E02               	movwf	tc_tecla@key^0,c
   1203  000C00                     l1081:
   1204                           
-  1205                           ;teclado.c: 34: LATBbits.LB6 = 1;
+  1205                           ;teclado.c: 77: LATBbits.LB6 = 1;
   1206  000C00  8C8A               	bsf	138,6,c	;volatile
   1207  000C02                     
-  1208                           ;teclado.c: 35: LATBbits.LB7 = 0;
+  1208                           ;teclado.c: 78: LATBbits.LB7 = 0;
   1209  000C02  9E8A               	bcf	138,7,c	;volatile
   1210  000C04                     
-  1211                           ;teclado.c: 37: if(!PORTBbits.RB3) {_delay((unsigned long)((20)*(8000000/4000.0))); if (
+  1211                           ;teclado.c: 80: if(!PORTBbits.RB3) {_delay((unsigned long)((20)*(8000000/4000.0))); if (
       +                          !PORTBbits.RB3){key = 'x'; }}
   1212  000C04  B681               	btfsc	129,3,c	;volatile
   1213  000C06  EF07  F006         	goto	u311
@@ -1262,7 +1262,7 @@ Microchip MPLAB XC8 C Compiler v2.36 (Free license) build 20220127204148 Og1
   1234  000C32  EF64  F006         	goto	l1111
   1235  000C36                     l42:
   1236                           
-  1237                           ;teclado.c: 38: else if(!PORTBbits.RB2) {_delay((unsigned long)((20)*(8000000/4000.0)));
+  1237                           ;teclado.c: 81: else if(!PORTBbits.RB2) {_delay((unsigned long)((20)*(8000000/4000.0)));
       +                           if (!PORTBbits.RB2){key = '0'; }}
   1238  000C36  B481               	btfsc	129,2,c	;volatile
   1239  000C38  EF20  F006         	goto	u331
@@ -1289,7 +1289,7 @@ Microchip MPLAB XC8 C Compiler v2.36 (Free license) build 20220127204148 Og1
   1260  000C64  EF64  F006         	goto	l1111
   1261  000C68                     l45:
   1262                           
-  1263                           ;teclado.c: 39: else if(!PORTBbits.RB1) {_delay((unsigned long)((20)*(8000000/4000.0)));
+  1263                           ;teclado.c: 82: else if(!PORTBbits.RB1) {_delay((unsigned long)((20)*(8000000/4000.0)));
       +                           if (!PORTBbits.RB1){key = 'F'; }}
   1264  000C68  B281               	btfsc	129,1,c	;volatile
   1265  000C6A  EF39  F006         	goto	u351
@@ -1316,7 +1316,7 @@ Microchip MPLAB XC8 C Compiler v2.36 (Free license) build 20220127204148 Og1
   1286  000C96  EF64  F006         	goto	l1111
   1287  000C9A                     l48:
   1288                           
-  1289                           ;teclado.c: 40: else if(!PORTBbits.RB0) {_delay((unsigned long)((20)*(8000000/4000.0)));
+  1289                           ;teclado.c: 83: else if(!PORTBbits.RB0) {_delay((unsigned long)((20)*(8000000/4000.0)));
       +                           if (!PORTBbits.RB0){key = 'D'; }}
   1290  000C9A  B081               	btfsc	129,0,c	;volatile
   1291  000C9C  EF52  F006         	goto	u371
@@ -1342,10 +1342,10 @@ Microchip MPLAB XC8 C Compiler v2.36 (Free license) build 20220127204148 Og1
   1311  000CC6  6E02               	movwf	tc_tecla@key^0,c
   1312  000CC8                     l1111:
   1313                           
-  1314                           ;teclado.c: 42: LATBbits.LB7 = 1;
+  1314                           ;teclado.c: 85: LATBbits.LB7 = 1;
   1315  000CC8  8E8A               	bsf	138,7,c	;volatile
   1316  000CCA                     
-  1317                           ;teclado.c: 44: _delay((unsigned long)((20)*(8000000/4000.0)));
+  1317                           ;teclado.c: 87: _delay((unsigned long)((20)*(8000000/4000.0)));
   1318  000CCA  0E34               	movlw	52
   1319  000CCC  6E01               	movwf	??_tc_tecla^0,c
   1320  000CCE  0EF2               	movlw	242
@@ -1355,7 +1355,7 @@ Microchip MPLAB XC8 C Compiler v2.36 (Free license) build 20220127204148 Og1
   1324  000CD4  2E01               	decfsz	??_tc_tecla^0,f,c
   1325  000CD6  D7FC               	bra	u977
   1326  000CD8                     
-  1327                           ;teclado.c: 48: return key;
+  1327                           ;teclado.c: 91: return key;
   1328  000CD8  5002               	movf	tc_tecla@key^0,w,c
   1329  000CDA  0012               	return		;funcret
   1330  000CDC                     __end_of_tc_tecla:
@@ -1410,7 +1410,7 @@ Microchip MPLAB XC8 C Compiler v2.36 (Free license) build 20220127204148 Og1
   1379                           ;Lcd_Out@y stored from wreg
   1380  001050  6E07               	movwf	Lcd_Out@y^0,c
   1381  001052                     
-  1382                           ;flexlcd.c: 55: unsigned char data;;flexlcd.c: 56: switch (y)
+  1382                           ;flexlcd.c: 56: unsigned char data;;flexlcd.c: 57: switch (y)
   1383  001052  EF3F  F008         	goto	l1343
   1384  001056                     l1333:
   1385  001056  5004               	movf	Lcd_Out@x^0,w,c
@@ -1456,15 +1456,15 @@ Microchip MPLAB XC8 C Compiler v2.36 (Free license) build 20220127204148 Og1
   1425  0010A0  EF52  F008         	goto	l1345
   1426  0010A4                     l1345:
   1427                           
-  1428                           ;flexlcd.c: 64: Lcd_Cmd(data);
+  1428                           ;flexlcd.c: 65: Lcd_Cmd(data);
   1429  0010A4  5008               	movf	Lcd_Out@data^0,w,c
   1430  0010A6  EC08  F007         	call	_Lcd_Cmd
   1431                           
-  1432                           ;flexlcd.c: 65: while(*buffer)
+  1432                           ;flexlcd.c: 66: while(*buffer)
   1433  0010AA  EF61  F008         	goto	l1351
   1434  0010AE                     l1347:
   1435                           
-  1436                           ;flexlcd.c: 66: {;flexlcd.c: 67: Lcd_Chr_CP(*buffer);
+  1436                           ;flexlcd.c: 67: {;flexlcd.c: 68: Lcd_Chr_CP(*buffer);
   1437  0010AE  C005  FFF6         	movff	Lcd_Out@buffer,tblptrl
   1438  0010B2  C006  FFF7         	movff	Lcd_Out@buffer+1,tblptrh
   1439  0010B6                     	if	0	;tblptru may be non-zero
@@ -1475,7 +1475,7 @@ Microchip MPLAB XC8 C Compiler v2.36 (Free license) build 20220127204148 Og1
   1444  0010B8  50F5               	movf	tablat,w,c
   1445  0010BA  EC6E  F006         	call	_Lcd_Chr_CP
   1446  0010BE                     
-  1447                           ;flexlcd.c: 68: buffer++;
+  1447                           ;flexlcd.c: 69: buffer++;
   1448  0010BE  4A05               	infsnz	Lcd_Out@buffer^0,f,c
   1449  0010C0  2A06               	incf	(Lcd_Out@buffer+1)^0,f,c
   1450  0010C2                     l1351:
@@ -1500,7 +1500,7 @@ Microchip MPLAB XC8 C Compiler v2.36 (Free license) build 20220127204148 Og1
   1469                           
   1470 ;; *************** function _Lcd_Chr_CP *****************
   1471 ;; Defined at:
-  1472 ;;		line 95 in file "flexlcd.c"
+  1472 ;;		line 97 in file "flexlcd.c"
   1473 ;; Parameters:    Size  Location     Type
   1474 ;;  data            1    wreg     unsigned char 
   1475 ;; Auto vars:     Size  Location     Type
@@ -1538,12 +1538,12 @@ Microchip MPLAB XC8 C Compiler v2.36 (Free license) build 20220127204148 Og1
   1507                           ;Lcd_Chr_CP@data stored from wreg
   1508  000CDC  6E03               	movwf	Lcd_Chr_CP@data^0,c
   1509  000CDE                     
-  1510                           ;flexlcd.c: 96: PORTEbits.RE1 = 0; PORTEbits.RE0 = 1;
+  1510                           ;flexlcd.c: 99: PORTEbits.RE1 = 0; PORTEbits.RE0 = 1;
   1511  000CDE  9284               	bcf	132,1,c	;volatile
   1512  000CE0  8084               	bsf	132,0,c	;volatile
   1513  000CE2                     
-  1514                           ;flexlcd.c: 97: PORTDbits.RD7 = (data & 0b10000000)>>7; PORTDbits.RD6 = (data & 0b010000
-      +                          00)>>6;
+  1514                           ;flexlcd.c: 100: PORTDbits.RD7 = (data & 0b10000000)>>7; PORTDbits.RD6 = (data & 0b01000
+      +                          000)>>6;
   1515  000CE2  6A01               	clrf	??_Lcd_Chr_CP^0,c
   1516  000CE4  AE03               	btfss	Lcd_Chr_CP@data^0,7,c
   1517  000CE6  D001               	bra	u45
@@ -1577,8 +1577,8 @@ Microchip MPLAB XC8 C Compiler v2.36 (Free license) build 20220127204148 Og1
   1545  000D1E  1801               	xorwf	??_Lcd_Chr_CP^0,w,c
   1546  000D20  6E83               	movwf	131,c	;volatile
   1547                           
-  1548                           ;flexlcd.c: 98: PORTDbits.RD5 = (data & 0b00100000)>>5; PORTDbits.RD4 = (data & 0b000100
-      +                          00)>>4;
+  1548                           ;flexlcd.c: 101: PORTDbits.RD5 = (data & 0b00100000)>>5; PORTDbits.RD4 = (data & 0b00010
+      +                          000)>>4;
   1549  000D22  C003  F001         	movff	Lcd_Chr_CP@data,??_Lcd_Chr_CP
   1550  000D26  0E05               	movlw	5
   1551  000D28  6E02               	movwf	(??_Lcd_Chr_CP+1)^0,c
@@ -1609,14 +1609,14 @@ Microchip MPLAB XC8 C Compiler v2.36 (Free license) build 20220127204148 Og1
   1576  000D5C  1801               	xorwf	??_Lcd_Chr_CP^0,w,c
   1577  000D5E  6E83               	movwf	131,c	;volatile
   1578  000D60                     
-  1579                           ;flexlcd.c: 99: _delay(10);
+  1579                           ;flexlcd.c: 102: _delay(10);
   1580  000D60  0E03               	movlw	3
   1581  000D62                     u987:
   1582  000D62  2EE8               	decfsz	wreg,f,c
   1583  000D64  D7FE               	bra	u987
   1584  000D66  F000               	nop	
   1585  000D68                     
-  1586                           ;flexlcd.c: 100: PORTEbits.RE1 = 1; _delay((unsigned long)((5)*(8000000/4000000.0))); PO
+  1586                           ;flexlcd.c: 103: PORTEbits.RE1 = 1; _delay((unsigned long)((5)*(8000000/4000000.0))); PO
       +                          RTEbits.RE1 = 0;
   1587  000D68  8284               	bsf	132,1,c	;volatile
   1588  000D6A  0E03               	movlw	3
@@ -1626,7 +1626,7 @@ Microchip MPLAB XC8 C Compiler v2.36 (Free license) build 20220127204148 Og1
   1592  000D70  F000               	nop	
   1593  000D72  9284               	bcf	132,1,c	;volatile
   1594                           
-  1595                           ;flexlcd.c: 101: PORTDbits.RD7 = (data & 0b00001000)>>3; PORTDbits.RD6 = (data & 0b00000
+  1595                           ;flexlcd.c: 104: PORTDbits.RD7 = (data & 0b00001000)>>3; PORTDbits.RD6 = (data & 0b00000
       +                          100)>>2;
   1596  000D74  C003  F001         	movff	Lcd_Chr_CP@data,??_Lcd_Chr_CP
   1597  000D78  90D8               	bcf	status,0,c
@@ -1660,7 +1660,7 @@ Microchip MPLAB XC8 C Compiler v2.36 (Free license) build 20220127204148 Og1
   1625  000DB2  1801               	xorwf	??_Lcd_Chr_CP^0,w,c
   1626  000DB4  6E83               	movwf	131,c	;volatile
   1627                           
-  1628                           ;flexlcd.c: 102: PORTDbits.RD5 = (data & 0b00000010)>>1; PORTDbits.RD4 = (data & 0b00000
+  1628                           ;flexlcd.c: 105: PORTDbits.RD5 = (data & 0b00000010)>>1; PORTDbits.RD4 = (data & 0b00000
       +                          001);
   1629  000DB6  C003  F001         	movff	Lcd_Chr_CP@data,??_Lcd_Chr_CP
   1630  000DBA  90D8               	bcf	status,0,c
@@ -1684,14 +1684,14 @@ Microchip MPLAB XC8 C Compiler v2.36 (Free license) build 20220127204148 Og1
   1648  000DE0  1801               	xorwf	??_Lcd_Chr_CP^0,w,c
   1649  000DE2  6E83               	movwf	131,c	;volatile
   1650  000DE4                     
-  1651                           ;flexlcd.c: 103: _delay(10);
+  1651                           ;flexlcd.c: 106: _delay(10);
   1652  000DE4  0E03               	movlw	3
   1653  000DE6                     u1007:
   1654  000DE6  2EE8               	decfsz	wreg,f,c
   1655  000DE8  D7FE               	bra	u1007
   1656  000DEA  F000               	nop	
   1657  000DEC                     
-  1658                           ;flexlcd.c: 104: PORTEbits.RE1 = 1; _delay((unsigned long)((5)*(8000000/4000000.0))); PO
+  1658                           ;flexlcd.c: 107: PORTEbits.RE1 = 1; _delay((unsigned long)((5)*(8000000/4000000.0))); PO
       +                          RTEbits.RE1 = 0;
   1659  000DEC  8284               	bsf	132,1,c	;volatile
   1660  000DEE  0E03               	movlw	3
@@ -1701,7 +1701,7 @@ Microchip MPLAB XC8 C Compiler v2.36 (Free license) build 20220127204148 Og1
   1664  000DF4  F000               	nop	
   1665  000DF6  9284               	bcf	132,1,c	;volatile
   1666  000DF8                     
-  1667                           ;flexlcd.c: 105: _delay((unsigned long)((5)*(8000000/4000000.0))); _delay((unsigned long
+  1667                           ;flexlcd.c: 108: _delay((unsigned long)((5)*(8000000/4000000.0))); _delay((unsigned long
       +                          )((5500)*(8000000/4000000.0)));
   1668  000DF8  0E03               	movlw	3
   1669  000DFA                     u1027:
@@ -1976,7 +1976,7 @@ Microchip MPLAB XC8 C Compiler v2.36 (Free license) build 20220127204148 Og1
   1932                           
   1933 ;; *************** function _Lcd_Cmd *****************
   1934 ;; Defined at:
-  1935 ;;		line 109 in file "flexlcd.c"
+  1935 ;;		line 112 in file "flexlcd.c"
   1936 ;; Parameters:    Size  Location     Type
   1937 ;;  data            1    wreg     unsigned char 
   1938 ;; Auto vars:     Size  Location     Type
@@ -2016,11 +2016,11 @@ Microchip MPLAB XC8 C Compiler v2.36 (Free license) build 20220127204148 Og1
   1972                           ;Lcd_Cmd@data stored from wreg
   1973  000E10  6E03               	movwf	Lcd_Cmd@data^0,c
   1974  000E12                     
-  1975                           ;flexlcd.c: 110: PORTEbits.RE1 = 0; PORTEbits.RE0 = 0;
+  1975                           ;flexlcd.c: 114: PORTEbits.RE1 = 0; PORTEbits.RE0 = 0;
   1976  000E12  9284               	bcf	132,1,c	;volatile
   1977  000E14  9084               	bcf	132,0,c	;volatile
   1978  000E16                     
-  1979                           ;flexlcd.c: 111: PORTDbits.RD7 = (data & 0b10000000)>>7; PORTDbits.RD6 = (data & 0b01000
+  1979                           ;flexlcd.c: 115: PORTDbits.RD7 = (data & 0b10000000)>>7; PORTDbits.RD6 = (data & 0b01000
       +                          000)>>6;
   1980  000E16  6A01               	clrf	??_Lcd_Cmd^0,c
   1981  000E18  AE03               	btfss	Lcd_Cmd@data^0,7,c
@@ -2055,7 +2055,7 @@ Microchip MPLAB XC8 C Compiler v2.36 (Free license) build 20220127204148 Og1
   2010  000E52  1801               	xorwf	??_Lcd_Cmd^0,w,c
   2011  000E54  6E83               	movwf	131,c	;volatile
   2012                           
-  2013                           ;flexlcd.c: 112: PORTDbits.RD5 = (data & 0b00100000)>>5; PORTDbits.RD4 = (data & 0b00010
+  2013                           ;flexlcd.c: 116: PORTDbits.RD5 = (data & 0b00100000)>>5; PORTDbits.RD4 = (data & 0b00010
       +                          000)>>4;
   2014  000E56  C003  F001         	movff	Lcd_Cmd@data,??_Lcd_Cmd
   2015  000E5A  0E05               	movlw	5
@@ -2087,14 +2087,14 @@ Microchip MPLAB XC8 C Compiler v2.36 (Free license) build 20220127204148 Og1
   2041  000E90  1801               	xorwf	??_Lcd_Cmd^0,w,c
   2042  000E92  6E83               	movwf	131,c	;volatile
   2043  000E94                     
-  2044                           ;flexlcd.c: 113: _delay(10);
+  2044                           ;flexlcd.c: 117: _delay(10);
   2045  000E94  0E03               	movlw	3
   2046  000E96                     u1147:
   2047  000E96  2EE8               	decfsz	wreg,f,c
   2048  000E98  D7FE               	bra	u1147
   2049  000E9A  F000               	nop	
   2050  000E9C                     
-  2051                           ;flexlcd.c: 114: PORTEbits.RE1 = 1; _delay((unsigned long)((5)*(8000000/4000000.0))); PO
+  2051                           ;flexlcd.c: 118: PORTEbits.RE1 = 1; _delay((unsigned long)((5)*(8000000/4000000.0))); PO
       +                          RTEbits.RE1 = 0;
   2052  000E9C  8284               	bsf	132,1,c	;volatile
   2053  000E9E  0E03               	movlw	3
@@ -2104,7 +2104,7 @@ Microchip MPLAB XC8 C Compiler v2.36 (Free license) build 20220127204148 Og1
   2057  000EA4  F000               	nop	
   2058  000EA6  9284               	bcf	132,1,c	;volatile
   2059                           
-  2060                           ;flexlcd.c: 115: PORTDbits.RD7 = (data & 0b00001000)>>3; PORTDbits.RD6 = (data & 0b00000
+  2060                           ;flexlcd.c: 119: PORTDbits.RD7 = (data & 0b00001000)>>3; PORTDbits.RD6 = (data & 0b00000
       +                          100)>>2;
   2061  000EA8  C003  F001         	movff	Lcd_Cmd@data,??_Lcd_Cmd
   2062  000EAC  90D8               	bcf	status,0,c
@@ -2138,7 +2138,7 @@ Microchip MPLAB XC8 C Compiler v2.36 (Free license) build 20220127204148 Og1
   2090  000EE6  1801               	xorwf	??_Lcd_Cmd^0,w,c
   2091  000EE8  6E83               	movwf	131,c	;volatile
   2092                           
-  2093                           ;flexlcd.c: 116: PORTDbits.RD5 = (data & 0b00000010)>>1; PORTDbits.RD4 = (data & 0b00000
+  2093                           ;flexlcd.c: 120: PORTDbits.RD5 = (data & 0b00000010)>>1; PORTDbits.RD4 = (data & 0b00000
       +                          001);
   2094  000EEA  C003  F001         	movff	Lcd_Cmd@data,??_Lcd_Cmd
   2095  000EEE  90D8               	bcf	status,0,c
@@ -2162,14 +2162,14 @@ Microchip MPLAB XC8 C Compiler v2.36 (Free license) build 20220127204148 Og1
   2113  000F14  1801               	xorwf	??_Lcd_Cmd^0,w,c
   2114  000F16  6E83               	movwf	131,c	;volatile
   2115  000F18                     
-  2116                           ;flexlcd.c: 117: _delay(10);
+  2116                           ;flexlcd.c: 121: _delay(10);
   2117  000F18  0E03               	movlw	3
   2118  000F1A                     u1167:
   2119  000F1A  2EE8               	decfsz	wreg,f,c
   2120  000F1C  D7FE               	bra	u1167
   2121  000F1E  F000               	nop	
   2122  000F20                     
-  2123                           ;flexlcd.c: 118: PORTEbits.RE1 = 1; _delay((unsigned long)((5)*(8000000/4000000.0))); PO
+  2123                           ;flexlcd.c: 122: PORTEbits.RE1 = 1; _delay((unsigned long)((5)*(8000000/4000000.0))); PO
       +                          RTEbits.RE1 = 0;
   2124  000F20  8284               	bsf	132,1,c	;volatile
   2125  000F22  0E03               	movlw	3
@@ -2179,7 +2179,7 @@ Microchip MPLAB XC8 C Compiler v2.36 (Free license) build 20220127204148 Og1
   2129  000F28  F000               	nop	
   2130  000F2A  9284               	bcf	132,1,c	;volatile
   2131  000F2C                     
-  2132                           ;flexlcd.c: 119: _delay((unsigned long)((5500)*(8000000/4000000.0)));
+  2132                           ;flexlcd.c: 123: _delay((unsigned long)((5500)*(8000000/4000000.0)));
   2133  000F2C  0E0F               	movlw	15
   2134  000F2E  6E01               	movwf	??_Lcd_Cmd^0,c
   2135  000F30  0E48               	movlw	72
@@ -2543,7 +2543,7 @@ CODE                 0      0       0       0        0.0%
 
 
 Microchip Technology PIC18 Macro Assembler V2.36 build 20220127204148 
-Symbol Table                                                                                   Thu Jun 15 19:13:51 2023
+Symbol Table                                                                                   Thu Jun 22 18:34:05 2023
 
                       l9 09DE                       l20 0AA6                       l12 0A10  
                      l31 0B6E                       l23 0AD8                       l15 0A42  

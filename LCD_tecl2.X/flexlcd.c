@@ -52,6 +52,7 @@ data = 15; Lcd_Cmd(data);
 
 void Lcd_Out(unsigned char y, unsigned char x, const char *buffer)
 {
+
 unsigned char data;
 switch (y)
 {   
@@ -73,6 +74,7 @@ return;
 
 void Lcd_Out2(unsigned char y, unsigned char x, char *buffer)
 {
+
 unsigned char data;
 switch (y)
 {
@@ -93,6 +95,7 @@ return;
 
 
 void Lcd_Chr_CP(char data){
+
 LCD_EN = 0; LCD_RS = 1;
 LCD_RD7 = (data & 0b10000000)>>7; LCD_RD6 = (data & 0b01000000)>>6;
 LCD_RD5 = (data & 0b00100000)>>5; LCD_RD4 = (data & 0b00010000)>>4;
@@ -107,6 +110,7 @@ __delay_us(5); __delay_us(5500);
 
 
 void Lcd_Cmd(unsigned char data){
+
 LCD_EN = 0; LCD_RS = 0;
 LCD_RD7 = (data & 0b10000000)>>7; LCD_RD6 = (data & 0b01000000)>>6;
 LCD_RD5 = (data & 0b00100000)>>5; LCD_RD4 = (data & 0b00010000)>>4;

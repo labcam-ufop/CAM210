@@ -4579,7 +4579,14 @@ unsigned char __t3rd16on(void);
 
 #pragma config EBTRB = OFF
 
-# 41 "teclado.h"
+# 82 "flexlcd.h"
+void Lcd_Init(void);
+void Lcd_Out(unsigned char y, unsigned char x, const char *buffer);
+void Lcd_Out2(unsigned char y, unsigned char x, char *buffer);
+void Lcd_Chr_CP(char data);
+void Lcd_Cmd(unsigned char data);
+
+# 34 "teclado.h"
 unsigned char tc_tecla();
 
 # 82 "flexlcd.h"

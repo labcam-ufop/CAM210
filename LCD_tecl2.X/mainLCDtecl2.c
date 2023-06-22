@@ -32,7 +32,7 @@ void main(void)
     INTCON2bits.RBPU = 0;
     INTCON3 = 0b00000000; 
     // Input or Output
-    TRISB = 0b00001111; // colunas são entradas e linhas são saídas
+    TRISB = 0b00001111; // configurado dentro da biblioteca
     TRISC = 0b00000000;
     TRISD = 0; 
     TRISE = 0b00000000;

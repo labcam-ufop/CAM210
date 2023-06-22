@@ -4523,12 +4523,27 @@ __attribute__((__unsupported__("The " "Write_b_eep" " routine is no longer suppo
 unsigned char __t1rd16on(void);
 unsigned char __t3rd16on(void);
 
-# 41 "teclado.h"
+# 82 "flexlcd.h"
+void Lcd_Init(void);
+void Lcd_Out(unsigned char y, unsigned char x, const char *buffer);
+void Lcd_Out2(unsigned char y, unsigned char x, char *buffer);
+void Lcd_Chr_CP(char data);
+void Lcd_Cmd(unsigned char data);
+
+# 34 "teclado.h"
 unsigned char tc_tecla();
 
-# 7 "teclado.c"
+# 82 "flexlcd.h"
+void Lcd_Init(void);
+void Lcd_Out(unsigned char y, unsigned char x, const char *buffer);
+void Lcd_Out2(unsigned char y, unsigned char x, char *buffer);
+void Lcd_Chr_CP(char data);
+void Lcd_Cmd(unsigned char data);
+
+# 49 "teclado.c"
 unsigned char tc_tecla()
 {
+
 unsigned char key;
 
 LATBbits.LB4 = 1; LATBbits.LB5 = 1; LATBbits.LB6 = 1; LATBbits.LB7 = 1;

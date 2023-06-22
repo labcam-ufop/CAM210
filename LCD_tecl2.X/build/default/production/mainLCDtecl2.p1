@@ -58,7 +58,7 @@ Version 3.2 HI-TECH Software Intermediate Code
 "12 ../../../../../../Program Files/Microchip/xc8/v2.36/pic/include\builtins.h
 [v __delay `JF38 ~T0 @X0 0 e ]
 [p i __delay ]
-"41 teclado.h
+"34 teclado.h
 [v _tc_tecla `(uc ~T0 @X0 0 ef ]
 [; ;include\xc.h: 18: extern const char __xc8_OPTIM_SPEED;
 [; ;include\xc.h: 20: extern double __fpnormalize(double);
@@ -2934,7 +2934,12 @@ Version 3.2 HI-TECH Software Intermediate Code
 [p x EBTR3=OFF ]
 "59
 [p x EBTRB=OFF ]
-[; ;teclado.h: 41: unsigned char tc_tecla();
+[; ;flexlcd.h: 82: void Lcd_Init(void);
+[; ;flexlcd.h: 83: void Lcd_Out(unsigned char y, unsigned char x, const char *buffer);
+[; ;flexlcd.h: 84: void Lcd_Out2(unsigned char y, unsigned char x, char *buffer);
+[; ;flexlcd.h: 85: void Lcd_Chr_CP(char data);
+[; ;flexlcd.h: 86: void Lcd_Cmd(unsigned char data);
+[; ;teclado.h: 34: unsigned char tc_tecla();
 [; ;flexlcd.h: 82: void Lcd_Init(void);
 [; ;flexlcd.h: 83: void Lcd_Out(unsigned char y, unsigned char x, const char *buffer);
 [; ;flexlcd.h: 84: void Lcd_Out2(unsigned char y, unsigned char x, char *buffer);

@@ -1,30 +1,21 @@
-/* ########################################################################
+#include "flexlcd.h"
 
-   PICsim - PIC simulator http://sourceforge.net/projects/picsim/
+# if (BOARD == 0)
+// PLACA PICGENIOS
 
-   ########################################################################
+// saídas (colunas), ativadas por 0
+#define C1 LATBbits.LB0
+#define C2 LATBbits.LB1
+#define C3 LATBbits.LB2
 
-   Copyright (c) : 2015  Luis Claudio Gambôa Lopes
+// entradas (linhas), com pull-up externo
+#define L1 PORTDbits.RD3
+#define L2 PORTDbits.RD2
+#define L3 PORTDbits.RD1
+#define L4 PORTDbits.RD0
 
-   This program is free software; you can redistribute it and/or modify
-   it under the terms of the GNU General Public License as published by
-   the Free Software Foundation; either version 2, or (at your option)
-   any later version.
-
-   This program is distributed in the hope that it will be useful,
-   but WITHOUT ANY WARRANTY; without even the implied warranty of
-   MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
-   GNU General Public License for more details.
-
-   You should have received a copy of the GNU General Public License
-   along with this program; if not, write to the Free Software
-   Foundation, Inc., 675 Mass Ave, Cambridge, MA 02139, USA.
-
-   For e-mail suggestions :  lcgamboa@yahoo.com
-   ######################################################################## */
-
+#else
 // PLACA NEXSTO NE0201
-
 
 // ENTRADAS (colunas)
 #define C1 PORTBbits.RB3
@@ -37,5 +28,7 @@
 #define L2 LATBbits.LB5 // problema
 #define L3 LATBbits.LB6
 #define L4 LATBbits.LB7
+
+#endif
 
 unsigned char tc_tecla(); /*timeout=0 no time out*/ 
