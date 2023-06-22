@@ -27,21 +27,21 @@
 [v ___lmul __lmul `(ul  1 e 4 0 ]
 "91 C:\Program Files\Microchip\xc8\v2.36\pic\sources\c90\common\Umul64.c
 [v ___omul __omul `(ul  1 e 4 0 ]
-"76 C:\Users\ufop\Downloads\CAM210-main\CAM210-main\LCD_tecl2.X\flexlcd.h
+"9 C:\Users\ufop\Downloads\CAM210-main\CAM210-main\LCD_tecl2.X\flexlcd.c
 [v _Lcd_Init Lcd_Init `(v  1 e 1 0 ]
-"120
+"53
 [v _Lcd_Out Lcd_Out `(v  1 e 1 0 ]
-"162
+"95
 [v _Lcd_Chr_CP Lcd_Chr_CP `(v  1 e 1 0 ]
-"176
+"109
 [v _Lcd_Cmd Lcd_Cmd `(v  1 e 1 0 ]
-"24 C:\Users\ufop\Downloads\CAM210-main\CAM210-main\LCD_tecl2.X\mainLCDtecl2.c
+"25 C:\Users\ufop\Downloads\CAM210-main\CAM210-main\LCD_tecl2.X\mainLCDtecl2.c
 [v _main main `(v  1 e 1 0 ]
 "7 C:\Users\ufop\Downloads\CAM210-main\CAM210-main\LCD_tecl2.X\teclado.c
 [v _tc_tecla tc_tecla `(uc  1 e 1 0 ]
 "271 C:/Users/ufop/.mchp_packs/Microchip/PIC18Fxxxx_DFP/1.2.26/xc8\pic\include\proc\pic18f4520.h
 [v _PORTB PORTB `VEuc  1 e 1 @3969 ]
-[s S24 . 1 `uc 1 RB0 1 0 :1:0 
+[s S64 . 1 `uc 1 RB0 1 0 :1:0 
 `uc 1 RB1 1 0 :1:1 
 `uc 1 RB2 1 0 :1:2 
 `uc 1 RB3 1 0 :1:3 
@@ -51,7 +51,7 @@
 `uc 1 RB7 1 0 :1:7 
 ]
 "315
-[s S33 . 1 `uc 1 INT0 1 0 :1:0 
+[s S73 . 1 `uc 1 INT0 1 0 :1:0 
 `uc 1 INT1 1 0 :1:1 
 `uc 1 INT2 1 0 :1:2 
 `uc 1 CCP2 1 0 :1:3 
@@ -60,7 +60,7 @@
 `uc 1 KBI2 1 0 :1:6 
 `uc 1 KBI3 1 0 :1:7 
 ]
-[s S42 . 1 `uc 1 AN12 1 0 :1:0 
+[s S82 . 1 `uc 1 AN12 1 0 :1:0 
 `uc 1 AN10 1 0 :1:1 
 `uc 1 AN8 1 0 :1:2 
 `uc 1 AN9 1 0 :1:3 
@@ -69,18 +69,18 @@
 `uc 1 PGC 1 0 :1:6 
 `uc 1 PGD 1 0 :1:7 
 ]
-[s S51 . 1 `uc 1 FLT0 1 0 :1:0 
+[s S91 . 1 `uc 1 FLT0 1 0 :1:0 
 ]
-[s S53 . 1 `uc 1 . 1 0 :3:0 
+[s S93 . 1 `uc 1 . 1 0 :3:0 
 `uc 1 CCP2_PA2 1 0 :1:3 
 ]
-[u S56 . 1 `S24 1 . 1 0 `S33 1 . 1 0 `S42 1 . 1 0 `S51 1 . 1 0 `S53 1 . 1 0 ]
-[v _PORTBbits PORTBbits `VES56  1 e 1 @3969 ]
+[u S96 . 1 `S64 1 . 1 0 `S73 1 . 1 0 `S82 1 . 1 0 `S91 1 . 1 0 `S93 1 . 1 0 ]
+[v _PORTBbits PORTBbits `VES96  1 e 1 @3969 ]
 "450
 [v _PORTC PORTC `VEuc  1 e 1 @3970 ]
 "632
 [v _PORTD PORTD `VEuc  1 e 1 @3971 ]
-[s S120 . 1 `uc 1 RD0 1 0 :1:0 
+[s S271 . 1 `uc 1 RD0 1 0 :1:0 
 `uc 1 RD1 1 0 :1:1 
 `uc 1 RD2 1 0 :1:2 
 `uc 1 RD3 1 0 :1:3 
@@ -90,7 +90,7 @@
 `uc 1 RD7 1 0 :1:7 
 ]
 "669
-[s S286 . 1 `uc 1 PSP0 1 0 :1:0 
+[s S437 . 1 `uc 1 PSP0 1 0 :1:0 
 `uc 1 PSP1 1 0 :1:1 
 `uc 1 PSP2 1 0 :1:2 
 `uc 1 PSP3 1 0 :1:3 
@@ -99,62 +99,85 @@
 `uc 1 PSP6 1 0 :1:6 
 `uc 1 PSP7 1 0 :1:7 
 ]
-[s S295 . 1 `uc 1 . 1 0 :5:0 
+[s S446 . 1 `uc 1 . 1 0 :5:0 
 `uc 1 P1B 1 0 :1:5 
 `uc 1 P1C 1 0 :1:6 
 `uc 1 P1D 1 0 :1:7 
 ]
-[s S300 . 1 `uc 1 . 1 0 :7:0 
+[s S451 . 1 `uc 1 . 1 0 :7:0 
 `uc 1 SS2 1 0 :1:7 
 ]
-[u S303 . 1 `S120 1 . 1 0 `S286 1 . 1 0 `S295 1 . 1 0 `S300 1 . 1 0 ]
-[v _PORTDbits PORTDbits `VES303  1 e 1 @3971 ]
+[u S454 . 1 `S271 1 . 1 0 `S437 1 . 1 0 `S446 1 . 1 0 `S451 1 . 1 0 ]
+[v _PORTDbits PORTDbits `VES454  1 e 1 @3971 ]
 "774
 [v _PORTE PORTE `VEuc  1 e 1 @3972 ]
-[s S160 . 1 `uc 1 RE0 1 0 :1:0 
+[s S311 . 1 `uc 1 RE0 1 0 :1:0 
 `uc 1 RE1 1 0 :1:1 
 `uc 1 RE2 1 0 :1:2 
 `uc 1 RE3 1 0 :1:3 
 ]
 "832
-[s S188 . 1 `uc 1 RD 1 0 :1:0 
+[s S339 . 1 `uc 1 RD 1 0 :1:0 
 `uc 1 WR 1 0 :1:1 
 `uc 1 CS 1 0 :1:2 
 `uc 1 MCLR 1 0 :1:3 
 ]
-[s S193 . 1 `uc 1 NOT_RD 1 0 :1:0 
+[s S344 . 1 `uc 1 NOT_RD 1 0 :1:0 
 ]
-[s S195 . 1 `uc 1 . 1 0 :1:0 
+[s S346 . 1 `uc 1 . 1 0 :1:0 
 `uc 1 NOT_WR 1 0 :1:1 
 ]
-[s S198 . 1 `uc 1 . 1 0 :2:0 
+[s S349 . 1 `uc 1 . 1 0 :2:0 
 `uc 1 NOT_CS 1 0 :1:2 
 ]
-[s S201 . 1 `uc 1 . 1 0 :3:0 
+[s S352 . 1 `uc 1 . 1 0 :3:0 
 `uc 1 NOT_MCLR 1 0 :1:3 
 ]
-[s S204 . 1 `uc 1 nRD 1 0 :1:0 
+[s S355 . 1 `uc 1 nRD 1 0 :1:0 
 `uc 1 nWR 1 0 :1:1 
 `uc 1 nCS 1 0 :1:2 
 `uc 1 nMCLR 1 0 :1:3 
 ]
-[s S209 . 1 `uc 1 AN5 1 0 :1:0 
+[s S360 . 1 `uc 1 AN5 1 0 :1:0 
 `uc 1 AN6 1 0 :1:1 
 `uc 1 AN7 1 0 :1:2 
 `uc 1 VPP 1 0 :1:3 
 ]
-[s S214 . 1 `uc 1 PD2 1 0 :1:0 
+[s S365 . 1 `uc 1 PD2 1 0 :1:0 
 `uc 1 PC2 1 0 :1:1 
 `uc 1 CCP10 1 0 :1:2 
 `uc 1 CCP9E 1 0 :1:3 
 ]
-[s S219 . 1 `uc 1 RDE 1 0 :1:0 
+[s S370 . 1 `uc 1 RDE 1 0 :1:0 
 `uc 1 WRE 1 0 :1:1 
 `uc 1 PB2 1 0 :1:2 
 `uc 1 PC3E 1 0 :1:3 
 ]
-[u S224 . 1 `S160 1 . 1 0 `S188 1 . 1 0 `S193 1 . 1 0 `S195 1 . 1 0 `S198 1 . 1 0 `S201 1 . 1 0 `S204 1 . 1 0 `S209 1 . 1 0 `S214 1 . 1 0 `S219 1 . 1 0 ]
-[v _PORTEbits PORTEbits `VES224  1 e 1 @3972 ]
+[u S375 . 1 `S311 1 . 1 0 `S339 1 . 1 0 `S344 1 . 1 0 `S346 1 . 1 0 `S349 1 . 1 0 `S352 1 . 1 0 `S355 1 . 1 0 `S360 1 . 1 0 `S365 1 . 1 0 `S370 1 . 1 0 ]
+[v _PORTEbits PORTEbits `VES375  1 e 1 @3972 ]
+"1089
+[v _LATB LATB `VEuc  1 e 1 @3978 ]
+[s S24 . 1 `uc 1 LATB0 1 0 :1:0 
+`uc 1 LATB1 1 0 :1:1 
+`uc 1 LATB2 1 0 :1:2 
+`uc 1 LATB3 1 0 :1:3 
+`uc 1 LATB4 1 0 :1:4 
+`uc 1 LATB5 1 0 :1:5 
+`uc 1 LATB6 1 0 :1:6 
+`uc 1 LATB7 1 0 :1:7 
+]
+"1116
+[s S33 . 1 `uc 1 LB0 1 0 :1:0 
+`uc 1 LB1 1 0 :1:1 
+`uc 1 LB2 1 0 :1:2 
+`uc 1 LB3 1 0 :1:3 
+`uc 1 LB4 1 0 :1:4 
+`uc 1 LB5 1 0 :1:5 
+`uc 1 LB6 1 0 :1:6 
+`uc 1 LB7 1 0 :1:7 
+]
+[u S42 . 1 `S24 1 . 1 0 `S33 1 . 1 0 ]
+[v _LATBbits LATBbits `VES42  1 e 1 @3978 ]
 "1201
 [v _LATC LATC `VEuc  1 e 1 @3979 ]
 "1313
@@ -167,7 +190,7 @@
 [v _TRISC TRISC `VEuc  1 e 1 @3988 ]
 "2143
 [v _TRISD TRISD `VEuc  1 e 1 @3989 ]
-[s S111 . 1 `uc 1 TRISD0 1 0 :1:0 
+[s S262 . 1 `uc 1 TRISD0 1 0 :1:0 
 `uc 1 TRISD1 1 0 :1:1 
 `uc 1 TRISD2 1 0 :1:2 
 `uc 1 TRISD3 1 0 :1:3 
@@ -177,11 +200,11 @@
 `uc 1 TRISD7 1 0 :1:7 
 ]
 "2175
-[u S129 . 1 `S111 1 . 1 0 `S120 1 . 1 0 ]
-[v _TRISDbits TRISDbits `VES129  1 e 1 @3989 ]
+[u S280 . 1 `S262 1 . 1 0 `S271 1 . 1 0 ]
+[v _TRISDbits TRISDbits `VES280  1 e 1 @3989 ]
 "2365
 [v _TRISE TRISE `VEuc  1 e 1 @3990 ]
-[s S151 . 1 `uc 1 TRISE0 1 0 :1:0 
+[s S302 . 1 `uc 1 TRISE0 1 0 :1:0 
 `uc 1 TRISE1 1 0 :1:1 
 `uc 1 TRISE2 1 0 :1:2 
 `uc 1 . 1 0 :1:3 
@@ -191,8 +214,8 @@
 `uc 1 IBF 1 0 :1:7 
 ]
 "2393
-[u S165 . 1 `S151 1 . 1 0 `S160 1 . 1 0 ]
-[v _TRISEbits TRISEbits `VES165  1 e 1 @3990 ]
+[u S316 . 1 `S302 1 . 1 0 `S311 1 . 1 0 ]
+[v _TRISEbits TRISEbits `VES316  1 e 1 @3990 ]
 "4690
 [v _ADCON1 ADCON1 `VEuc  1 e 1 @4033 ]
 "4775
@@ -201,11 +224,11 @@
 [v _INTCON3 INTCON3 `VEuc  1 e 1 @4080 ]
 "6622
 [v _INTCON2 INTCON2 `VEuc  1 e 1 @4081 ]
-[s S351 . 1 `uc 1 . 1 0 :7:0 
+[s S163 . 1 `uc 1 . 1 0 :7:0 
 `uc 1 NOT_RBPU 1 0 :1:7 
 ]
 "6647
-[s S354 . 1 `uc 1 RBIP 1 0 :1:0 
+[s S166 . 1 `uc 1 RBIP 1 0 :1:0 
 `uc 1 . 1 0 :1:1 
 `uc 1 TMR0IP 1 0 :1:2 
 `uc 1 . 1 0 :1:3 
@@ -214,19 +237,19 @@
 `uc 1 INTEDG0 1 0 :1:6 
 `uc 1 nRBPU 1 0 :1:7 
 ]
-[s S363 . 1 `uc 1 . 1 0 :7:0 
+[s S175 . 1 `uc 1 . 1 0 :7:0 
 `uc 1 RBPU 1 0 :1:7 
 ]
-[u S366 . 1 `S351 1 . 1 0 `S354 1 . 1 0 `S363 1 . 1 0 ]
-[v _INTCON2bits INTCON2bits `VES366  1 e 1 @4081 ]
+[u S178 . 1 `S163 1 . 1 0 `S166 1 . 1 0 `S175 1 . 1 0 ]
+[v _INTCON2bits INTCON2bits `VES178  1 e 1 @4081 ]
 "6692
 [v _INTCON INTCON `VEuc  1 e 1 @4082 ]
-"22 C:\Users\ufop\Downloads\CAM210-main\CAM210-main\LCD_tecl2.X\mainLCDtecl2.c
+"23 C:\Users\ufop\Downloads\CAM210-main\CAM210-main\LCD_tecl2.X\mainLCDtecl2.c
 [v _tecla tecla `uc  1 e 1 0 ]
-"24
+"25
 [v _main main `(v  1 e 1 0 ]
 {
-"120
+"141
 } 0
 "7 C:\Users\ufop\Downloads\CAM210-main\CAM210-main\LCD_tecl2.X\teclado.c
 [v _tc_tecla tc_tecla `(uc  1 e 1 0 ]
@@ -235,39 +258,39 @@
 [v tc_tecla@key key `uc  1 a 1 1 ]
 "50
 } 0
-"120 C:\Users\ufop\Downloads\CAM210-main\CAM210-main\LCD_tecl2.X\flexlcd.h
+"53 C:\Users\ufop\Downloads\CAM210-main\CAM210-main\LCD_tecl2.X\flexlcd.c
 [v _Lcd_Out Lcd_Out `(v  1 e 1 0 ]
 {
 [v Lcd_Out@y y `uc  1 a 1 wreg ]
-"122
+"55
 [v Lcd_Out@data data `uc  1 a 1 7 ]
-"120
+"53
 [v Lcd_Out@y y `uc  1 a 1 wreg ]
 [v Lcd_Out@x x `uc  1 p 1 3 ]
 [v Lcd_Out@buffer buffer `*.25Cuc  1 p 2 4 ]
 [v Lcd_Out@y y `uc  1 a 1 6 ]
-"138
+"71
 } 0
-"162
+"95
 [v _Lcd_Chr_CP Lcd_Chr_CP `(v  1 e 1 0 ]
 {
 [v Lcd_Chr_CP@data data `uc  1 a 1 wreg ]
 [v Lcd_Chr_CP@data data `uc  1 a 1 wreg ]
 [v Lcd_Chr_CP@data data `uc  1 a 1 2 ]
-"173
+"106
 } 0
-"76
+"9
 [v _Lcd_Init Lcd_Init `(v  1 e 1 0 ]
 {
-"77
+"10
 [v Lcd_Init@data data `uc  1 a 1 4 ]
-"117
+"50
 } 0
-"176
+"109
 [v _Lcd_Cmd Lcd_Cmd `(v  1 e 1 0 ]
 {
 [v Lcd_Cmd@data data `uc  1 a 1 wreg ]
 [v Lcd_Cmd@data data `uc  1 a 1 wreg ]
 [v Lcd_Cmd@data data `uc  1 a 1 2 ]
-"187
+"120
 } 0

@@ -11,22 +11,22 @@
 # All addresses and the length are given in unqualified hexadecimal
 # in delta units.  Any other numeric values are decimal.
 %PSECTS
-$C:\Users\ufop\AppData\Local\Temp\xcAsfms.o
+$C:\Users\ufop\AppData\Local\Temp\xcAsfok.o
 idloc IDLOC 5 200000 200000 8 1 1
 init CODE 0 0 0 4 1 2
 config CONFIG 4 300000 300000 E 1 1
 $dist/default/production\LCD_tecl2.X.production.o
-cinit CODE 0 1008 1008 1C 1 2
+cinit CODE 0 10E0 10E0 1C 1 2
 idloc IDLOC 5 200000 200000 8 1 1
-text0 CODE 0 976 976 28E 1 2
-text1 CODE 0 63C 63C 33A 1 2
-text2 CODE 0 F78 F78 90 1 2
-text3 CODE 0 C04 C04 134 1 2
-text4 CODE 0 E64 E64 114 1 2
-text5 CODE 0 D38 D38 12C 1 2
-idataCOMRAM CODE 0 1024 1024 1 1 1
+text0 CODE 0 646 646 35C 1 2
+text1 CODE 0 9A2 9A2 33A 1 2
+text2 CODE 0 1050 1050 90 1 2
+text3 CODE 0 CDC CDC 134 1 2
+text4 CODE 0 F3C F3C 114 1 2
+text5 CODE 0 E10 E10 12C 1 2
+idataCOMRAM CODE 0 10FC 10FC 1 1 1
 cstackCOMRAM COMRAM 1 1 1 A 1 1
-smallconst SMALLCONST 0 600 600 3C 1 2
+smallconst SMALLCONST 0 600 600 46 1 2
 dataCOMRAM COMRAM 1 B B 1 1 1
 config CONFIG 4 300000 300000 E 1 1
 # %UNUSED Section
@@ -44,15 +44,15 @@ BANK3 300-3FF 1
 BANK4 400-4FF 1
 BANK5 500-5FF 1
 CONST 4-5FF 1
-CONST 1025-7FFF 1
-SMALLCONST 1025-7FFF 1
+CONST 10FD-7FFF 1
+SMALLCONST 10FD-7FFF 1
 CODE 4-5FF 1
-CODE 1025-7FFF 1
+CODE 10FD-7FFF 1
 BIGRAM C-5FF 1
 BIGSFR F80-FFF 1
 COMRAM C-7F 1
 EEDATA F00000-F000FF 1
-MEDIUMCONST 1025-7FFF 1
+MEDIUMCONST 10FD-7FFF 1
 # %LINETAB Section
 # This section enumerates the file/line to address mappings.
 # The beginning of the section is indicated by %LINETAB.
@@ -67,191 +67,207 @@ MEDIUMCONST 1025-7FFF 1
 # All other numeric values are in decimal.
 %LINETAB
 $dist/default/production\LCD_tecl2.X.production.o
-D38 text5 CODE >176:C:\Users\ufop\Downloads\CAM210-main\CAM210-main\LCD_tecl2.X\flexlcd.h
-D3A text5 CODE >177:C:\Users\ufop\Downloads\CAM210-main\CAM210-main\LCD_tecl2.X\flexlcd.h
-D3E text5 CODE >178:C:\Users\ufop\Downloads\CAM210-main\CAM210-main\LCD_tecl2.X\flexlcd.h
-D7E text5 CODE >179:C:\Users\ufop\Downloads\CAM210-main\CAM210-main\LCD_tecl2.X\flexlcd.h
-DBC text5 CODE >180:C:\Users\ufop\Downloads\CAM210-main\CAM210-main\LCD_tecl2.X\flexlcd.h
-DC4 text5 CODE >181:C:\Users\ufop\Downloads\CAM210-main\CAM210-main\LCD_tecl2.X\flexlcd.h
-DD0 text5 CODE >182:C:\Users\ufop\Downloads\CAM210-main\CAM210-main\LCD_tecl2.X\flexlcd.h
-E12 text5 CODE >183:C:\Users\ufop\Downloads\CAM210-main\CAM210-main\LCD_tecl2.X\flexlcd.h
-E40 text5 CODE >184:C:\Users\ufop\Downloads\CAM210-main\CAM210-main\LCD_tecl2.X\flexlcd.h
-E48 text5 CODE >185:C:\Users\ufop\Downloads\CAM210-main\CAM210-main\LCD_tecl2.X\flexlcd.h
-E54 text5 CODE >186:C:\Users\ufop\Downloads\CAM210-main\CAM210-main\LCD_tecl2.X\flexlcd.h
-E62 text5 CODE >187:C:\Users\ufop\Downloads\CAM210-main\CAM210-main\LCD_tecl2.X\flexlcd.h
-E64 text4 CODE >76:C:\Users\ufop\Downloads\CAM210-main\CAM210-main\LCD_tecl2.X\flexlcd.h
-E64 text4 CODE >78:C:\Users\ufop\Downloads\CAM210-main\CAM210-main\LCD_tecl2.X\flexlcd.h
-E66 text4 CODE >79:C:\Users\ufop\Downloads\CAM210-main\CAM210-main\LCD_tecl2.X\flexlcd.h
-E68 text4 CODE >80:C:\Users\ufop\Downloads\CAM210-main\CAM210-main\LCD_tecl2.X\flexlcd.h
-E6A text4 CODE >81:C:\Users\ufop\Downloads\CAM210-main\CAM210-main\LCD_tecl2.X\flexlcd.h
-E6C text4 CODE >82:C:\Users\ufop\Downloads\CAM210-main\CAM210-main\LCD_tecl2.X\flexlcd.h
-E6E text4 CODE >83:C:\Users\ufop\Downloads\CAM210-main\CAM210-main\LCD_tecl2.X\flexlcd.h
-E70 text4 CODE >84:C:\Users\ufop\Downloads\CAM210-main\CAM210-main\LCD_tecl2.X\flexlcd.h
-E72 text4 CODE >85:C:\Users\ufop\Downloads\CAM210-main\CAM210-main\LCD_tecl2.X\flexlcd.h
-E74 text4 CODE >86:C:\Users\ufop\Downloads\CAM210-main\CAM210-main\LCD_tecl2.X\flexlcd.h
-E76 text4 CODE >87:C:\Users\ufop\Downloads\CAM210-main\CAM210-main\LCD_tecl2.X\flexlcd.h
-E78 text4 CODE >88:C:\Users\ufop\Downloads\CAM210-main\CAM210-main\LCD_tecl2.X\flexlcd.h
-E7A text4 CODE >89:C:\Users\ufop\Downloads\CAM210-main\CAM210-main\LCD_tecl2.X\flexlcd.h
-E7C text4 CODE >90:C:\Users\ufop\Downloads\CAM210-main\CAM210-main\LCD_tecl2.X\flexlcd.h
-E7E text4 CODE >91:C:\Users\ufop\Downloads\CAM210-main\CAM210-main\LCD_tecl2.X\flexlcd.h
-E80 text4 CODE >92:C:\Users\ufop\Downloads\CAM210-main\CAM210-main\LCD_tecl2.X\flexlcd.h
-E8E text4 CODE >93:C:\Users\ufop\Downloads\CAM210-main\CAM210-main\LCD_tecl2.X\flexlcd.h
-E9C text4 CODE >94:C:\Users\ufop\Downloads\CAM210-main\CAM210-main\LCD_tecl2.X\flexlcd.h
-EAA text4 CODE >95:C:\Users\ufop\Downloads\CAM210-main\CAM210-main\LCD_tecl2.X\flexlcd.h
-EB8 text4 CODE >96:C:\Users\ufop\Downloads\CAM210-main\CAM210-main\LCD_tecl2.X\flexlcd.h
-EC6 text4 CODE >97:C:\Users\ufop\Downloads\CAM210-main\CAM210-main\LCD_tecl2.X\flexlcd.h
-ED4 text4 CODE >98:C:\Users\ufop\Downloads\CAM210-main\CAM210-main\LCD_tecl2.X\flexlcd.h
-ED8 text4 CODE >99:C:\Users\ufop\Downloads\CAM210-main\CAM210-main\LCD_tecl2.X\flexlcd.h
-ED8 text4 CODE >100:C:\Users\ufop\Downloads\CAM210-main\CAM210-main\LCD_tecl2.X\flexlcd.h
-EE2 text4 CODE >101:C:\Users\ufop\Downloads\CAM210-main\CAM210-main\LCD_tecl2.X\flexlcd.h
-EEC text4 CODE >102:C:\Users\ufop\Downloads\CAM210-main\CAM210-main\LCD_tecl2.X\flexlcd.h
-EF0 text4 CODE >103:C:\Users\ufop\Downloads\CAM210-main\CAM210-main\LCD_tecl2.X\flexlcd.h
-EF8 text4 CODE >104:C:\Users\ufop\Downloads\CAM210-main\CAM210-main\LCD_tecl2.X\flexlcd.h
-F02 text4 CODE >105:C:\Users\ufop\Downloads\CAM210-main\CAM210-main\LCD_tecl2.X\flexlcd.h
-F04 text4 CODE >106:C:\Users\ufop\Downloads\CAM210-main\CAM210-main\LCD_tecl2.X\flexlcd.h
-F12 text4 CODE >98:C:\Users\ufop\Downloads\CAM210-main\CAM210-main\LCD_tecl2.X\flexlcd.h
-F24 text4 CODE >108:C:\Users\ufop\Downloads\CAM210-main\CAM210-main\LCD_tecl2.X\flexlcd.h
-F30 text4 CODE >109:C:\Users\ufop\Downloads\CAM210-main\CAM210-main\LCD_tecl2.X\flexlcd.h
-F3C text4 CODE >110:C:\Users\ufop\Downloads\CAM210-main\CAM210-main\LCD_tecl2.X\flexlcd.h
-F44 text4 CODE >111:C:\Users\ufop\Downloads\CAM210-main\CAM210-main\LCD_tecl2.X\flexlcd.h
-F50 text4 CODE >112:C:\Users\ufop\Downloads\CAM210-main\CAM210-main\LCD_tecl2.X\flexlcd.h
-F5E text4 CODE >113:C:\Users\ufop\Downloads\CAM210-main\CAM210-main\LCD_tecl2.X\flexlcd.h
-F64 text4 CODE >114:C:\Users\ufop\Downloads\CAM210-main\CAM210-main\LCD_tecl2.X\flexlcd.h
-F6A text4 CODE >115:C:\Users\ufop\Downloads\CAM210-main\CAM210-main\LCD_tecl2.X\flexlcd.h
-F70 text4 CODE >116:C:\Users\ufop\Downloads\CAM210-main\CAM210-main\LCD_tecl2.X\flexlcd.h
-F76 text4 CODE >117:C:\Users\ufop\Downloads\CAM210-main\CAM210-main\LCD_tecl2.X\flexlcd.h
-C04 text3 CODE >162:C:\Users\ufop\Downloads\CAM210-main\CAM210-main\LCD_tecl2.X\flexlcd.h
-C06 text3 CODE >163:C:\Users\ufop\Downloads\CAM210-main\CAM210-main\LCD_tecl2.X\flexlcd.h
-C0A text3 CODE >164:C:\Users\ufop\Downloads\CAM210-main\CAM210-main\LCD_tecl2.X\flexlcd.h
-C4A text3 CODE >165:C:\Users\ufop\Downloads\CAM210-main\CAM210-main\LCD_tecl2.X\flexlcd.h
-C88 text3 CODE >166:C:\Users\ufop\Downloads\CAM210-main\CAM210-main\LCD_tecl2.X\flexlcd.h
-C90 text3 CODE >167:C:\Users\ufop\Downloads\CAM210-main\CAM210-main\LCD_tecl2.X\flexlcd.h
-C9C text3 CODE >168:C:\Users\ufop\Downloads\CAM210-main\CAM210-main\LCD_tecl2.X\flexlcd.h
-CDE text3 CODE >169:C:\Users\ufop\Downloads\CAM210-main\CAM210-main\LCD_tecl2.X\flexlcd.h
-D0C text3 CODE >170:C:\Users\ufop\Downloads\CAM210-main\CAM210-main\LCD_tecl2.X\flexlcd.h
-D14 text3 CODE >171:C:\Users\ufop\Downloads\CAM210-main\CAM210-main\LCD_tecl2.X\flexlcd.h
-D20 text3 CODE >172:C:\Users\ufop\Downloads\CAM210-main\CAM210-main\LCD_tecl2.X\flexlcd.h
-D36 text3 CODE >173:C:\Users\ufop\Downloads\CAM210-main\CAM210-main\LCD_tecl2.X\flexlcd.h
-F78 text2 CODE >120:C:\Users\ufop\Downloads\CAM210-main\CAM210-main\LCD_tecl2.X\flexlcd.h
-F7A text2 CODE >123:C:\Users\ufop\Downloads\CAM210-main\CAM210-main\LCD_tecl2.X\flexlcd.h
-F7E text2 CODE >125:C:\Users\ufop\Downloads\CAM210-main\CAM210-main\LCD_tecl2.X\flexlcd.h
-F88 text2 CODE >126:C:\Users\ufop\Downloads\CAM210-main\CAM210-main\LCD_tecl2.X\flexlcd.h
-F92 text2 CODE >127:C:\Users\ufop\Downloads\CAM210-main\CAM210-main\LCD_tecl2.X\flexlcd.h
-F9C text2 CODE >128:C:\Users\ufop\Downloads\CAM210-main\CAM210-main\LCD_tecl2.X\flexlcd.h
-FA6 text2 CODE >123:C:\Users\ufop\Downloads\CAM210-main\CAM210-main\LCD_tecl2.X\flexlcd.h
-FAA text2 CODE >123:C:\Users\ufop\Downloads\CAM210-main\CAM210-main\LCD_tecl2.X\flexlcd.h
-FB2 text2 CODE >123:C:\Users\ufop\Downloads\CAM210-main\CAM210-main\LCD_tecl2.X\flexlcd.h
-FBA text2 CODE >123:C:\Users\ufop\Downloads\CAM210-main\CAM210-main\LCD_tecl2.X\flexlcd.h
-FC2 text2 CODE >123:C:\Users\ufop\Downloads\CAM210-main\CAM210-main\LCD_tecl2.X\flexlcd.h
-FCC text2 CODE >131:C:\Users\ufop\Downloads\CAM210-main\CAM210-main\LCD_tecl2.X\flexlcd.h
-FD2 text2 CODE >132:C:\Users\ufop\Downloads\CAM210-main\CAM210-main\LCD_tecl2.X\flexlcd.h
-FD6 text2 CODE >134:C:\Users\ufop\Downloads\CAM210-main\CAM210-main\LCD_tecl2.X\flexlcd.h
-FE6 text2 CODE >135:C:\Users\ufop\Downloads\CAM210-main\CAM210-main\LCD_tecl2.X\flexlcd.h
-FEA text2 CODE >132:C:\Users\ufop\Downloads\CAM210-main\CAM210-main\LCD_tecl2.X\flexlcd.h
-1006 text2 CODE >138:C:\Users\ufop\Downloads\CAM210-main\CAM210-main\LCD_tecl2.X\flexlcd.h
-63C text1 CODE >7:C:\Users\ufop\Downloads\CAM210-main\CAM210-main\LCD_tecl2.X\teclado.c
-63C text1 CODE >11:C:\Users\ufop\Downloads\CAM210-main\CAM210-main\LCD_tecl2.X\teclado.c
-644 text1 CODE >12:C:\Users\ufop\Downloads\CAM210-main\CAM210-main\LCD_tecl2.X\teclado.c
-646 text1 CODE >13:C:\Users\ufop\Downloads\CAM210-main\CAM210-main\LCD_tecl2.X\teclado.c
-678 text1 CODE >14:C:\Users\ufop\Downloads\CAM210-main\CAM210-main\LCD_tecl2.X\teclado.c
-6AA text1 CODE >15:C:\Users\ufop\Downloads\CAM210-main\CAM210-main\LCD_tecl2.X\teclado.c
-6DC text1 CODE >16:C:\Users\ufop\Downloads\CAM210-main\CAM210-main\LCD_tecl2.X\teclado.c
-70A text1 CODE >18:C:\Users\ufop\Downloads\CAM210-main\CAM210-main\LCD_tecl2.X\teclado.c
-70C text1 CODE >19:C:\Users\ufop\Downloads\CAM210-main\CAM210-main\LCD_tecl2.X\teclado.c
-70E text1 CODE >21:C:\Users\ufop\Downloads\CAM210-main\CAM210-main\LCD_tecl2.X\teclado.c
-740 text1 CODE >22:C:\Users\ufop\Downloads\CAM210-main\CAM210-main\LCD_tecl2.X\teclado.c
-772 text1 CODE >23:C:\Users\ufop\Downloads\CAM210-main\CAM210-main\LCD_tecl2.X\teclado.c
-7A4 text1 CODE >24:C:\Users\ufop\Downloads\CAM210-main\CAM210-main\LCD_tecl2.X\teclado.c
-7D2 text1 CODE >26:C:\Users\ufop\Downloads\CAM210-main\CAM210-main\LCD_tecl2.X\teclado.c
-7D4 text1 CODE >27:C:\Users\ufop\Downloads\CAM210-main\CAM210-main\LCD_tecl2.X\teclado.c
-7D6 text1 CODE >29:C:\Users\ufop\Downloads\CAM210-main\CAM210-main\LCD_tecl2.X\teclado.c
-808 text1 CODE >30:C:\Users\ufop\Downloads\CAM210-main\CAM210-main\LCD_tecl2.X\teclado.c
-83A text1 CODE >31:C:\Users\ufop\Downloads\CAM210-main\CAM210-main\LCD_tecl2.X\teclado.c
-86C text1 CODE >32:C:\Users\ufop\Downloads\CAM210-main\CAM210-main\LCD_tecl2.X\teclado.c
-89A text1 CODE >34:C:\Users\ufop\Downloads\CAM210-main\CAM210-main\LCD_tecl2.X\teclado.c
-89C text1 CODE >35:C:\Users\ufop\Downloads\CAM210-main\CAM210-main\LCD_tecl2.X\teclado.c
-89E text1 CODE >37:C:\Users\ufop\Downloads\CAM210-main\CAM210-main\LCD_tecl2.X\teclado.c
-8D0 text1 CODE >38:C:\Users\ufop\Downloads\CAM210-main\CAM210-main\LCD_tecl2.X\teclado.c
-902 text1 CODE >39:C:\Users\ufop\Downloads\CAM210-main\CAM210-main\LCD_tecl2.X\teclado.c
-934 text1 CODE >40:C:\Users\ufop\Downloads\CAM210-main\CAM210-main\LCD_tecl2.X\teclado.c
-962 text1 CODE >42:C:\Users\ufop\Downloads\CAM210-main\CAM210-main\LCD_tecl2.X\teclado.c
-964 text1 CODE >44:C:\Users\ufop\Downloads\CAM210-main\CAM210-main\LCD_tecl2.X\teclado.c
-972 text1 CODE >48:C:\Users\ufop\Downloads\CAM210-main\CAM210-main\LCD_tecl2.X\teclado.c
-974 text1 CODE >50:C:\Users\ufop\Downloads\CAM210-main\CAM210-main\LCD_tecl2.X\teclado.c
-976 text0 CODE >24:C:\Users\ufop\Downloads\CAM210-main\CAM210-main\LCD_tecl2.X\mainLCDtecl2.c
-976 text0 CODE >26:C:\Users\ufop\Downloads\CAM210-main\CAM210-main\LCD_tecl2.X\mainLCDtecl2.c
-97A text0 CODE >27:C:\Users\ufop\Downloads\CAM210-main\CAM210-main\LCD_tecl2.X\mainLCDtecl2.c
-97E text0 CODE >29:C:\Users\ufop\Downloads\CAM210-main\CAM210-main\LCD_tecl2.X\mainLCDtecl2.c
-982 text0 CODE >30:C:\Users\ufop\Downloads\CAM210-main\CAM210-main\LCD_tecl2.X\mainLCDtecl2.c
-986 text0 CODE >31:C:\Users\ufop\Downloads\CAM210-main\CAM210-main\LCD_tecl2.X\mainLCDtecl2.c
-988 text0 CODE >32:C:\Users\ufop\Downloads\CAM210-main\CAM210-main\LCD_tecl2.X\mainLCDtecl2.c
-98C text0 CODE >34:C:\Users\ufop\Downloads\CAM210-main\CAM210-main\LCD_tecl2.X\mainLCDtecl2.c
-990 text0 CODE >35:C:\Users\ufop\Downloads\CAM210-main\CAM210-main\LCD_tecl2.X\mainLCDtecl2.c
-994 text0 CODE >36:C:\Users\ufop\Downloads\CAM210-main\CAM210-main\LCD_tecl2.X\mainLCDtecl2.c
-998 text0 CODE >37:C:\Users\ufop\Downloads\CAM210-main\CAM210-main\LCD_tecl2.X\mainLCDtecl2.c
-99C text0 CODE >39:C:\Users\ufop\Downloads\CAM210-main\CAM210-main\LCD_tecl2.X\mainLCDtecl2.c
-99E text0 CODE >41:C:\Users\ufop\Downloads\CAM210-main\CAM210-main\LCD_tecl2.X\mainLCDtecl2.c
-9A2 text0 CODE >42:C:\Users\ufop\Downloads\CAM210-main\CAM210-main\LCD_tecl2.X\mainLCDtecl2.c
-9A6 text0 CODE >43:C:\Users\ufop\Downloads\CAM210-main\CAM210-main\LCD_tecl2.X\mainLCDtecl2.c
-9AA text0 CODE >44:C:\Users\ufop\Downloads\CAM210-main\CAM210-main\LCD_tecl2.X\mainLCDtecl2.c
-9AE text0 CODE >45:C:\Users\ufop\Downloads\CAM210-main\CAM210-main\LCD_tecl2.X\mainLCDtecl2.c
-9B2 text0 CODE >46:C:\Users\ufop\Downloads\CAM210-main\CAM210-main\LCD_tecl2.X\mainLCDtecl2.c
-9B6 text0 CODE >48:C:\Users\ufop\Downloads\CAM210-main\CAM210-main\LCD_tecl2.X\mainLCDtecl2.c
-9BA text0 CODE >50:C:\Users\ufop\Downloads\CAM210-main\CAM210-main\LCD_tecl2.X\mainLCDtecl2.c
-9C0 text0 CODE >51:C:\Users\ufop\Downloads\CAM210-main\CAM210-main\LCD_tecl2.X\mainLCDtecl2.c
-9D2 text0 CODE >52:C:\Users\ufop\Downloads\CAM210-main\CAM210-main\LCD_tecl2.X\mainLCDtecl2.c
-9E4 text0 CODE >53:C:\Users\ufop\Downloads\CAM210-main\CAM210-main\LCD_tecl2.X\mainLCDtecl2.c
-9FC text0 CODE >54:C:\Users\ufop\Downloads\CAM210-main\CAM210-main\LCD_tecl2.X\mainLCDtecl2.c
-9FC text0 CODE >56:C:\Users\ufop\Downloads\CAM210-main\CAM210-main\LCD_tecl2.X\mainLCDtecl2.c
-9FE text0 CODE >60:C:\Users\ufop\Downloads\CAM210-main\CAM210-main\LCD_tecl2.X\mainLCDtecl2.c
-A04 text0 CODE >63:C:\Users\ufop\Downloads\CAM210-main\CAM210-main\LCD_tecl2.X\mainLCDtecl2.c
-A16 text0 CODE >65:C:\Users\ufop\Downloads\CAM210-main\CAM210-main\LCD_tecl2.X\mainLCDtecl2.c
-A28 text0 CODE >66:C:\Users\ufop\Downloads\CAM210-main\CAM210-main\LCD_tecl2.X\mainLCDtecl2.c
-A40 text0 CODE >67:C:\Users\ufop\Downloads\CAM210-main\CAM210-main\LCD_tecl2.X\mainLCDtecl2.c
-A44 text0 CODE >68:C:\Users\ufop\Downloads\CAM210-main\CAM210-main\LCD_tecl2.X\mainLCDtecl2.c
-A56 text0 CODE >70:C:\Users\ufop\Downloads\CAM210-main\CAM210-main\LCD_tecl2.X\mainLCDtecl2.c
-A6C text0 CODE >73:C:\Users\ufop\Downloads\CAM210-main\CAM210-main\LCD_tecl2.X\mainLCDtecl2.c
-A7E text0 CODE >75:C:\Users\ufop\Downloads\CAM210-main\CAM210-main\LCD_tecl2.X\mainLCDtecl2.c
-A94 text0 CODE >78:C:\Users\ufop\Downloads\CAM210-main\CAM210-main\LCD_tecl2.X\mainLCDtecl2.c
-AA6 text0 CODE >80:C:\Users\ufop\Downloads\CAM210-main\CAM210-main\LCD_tecl2.X\mainLCDtecl2.c
-ABC text0 CODE >83:C:\Users\ufop\Downloads\CAM210-main\CAM210-main\LCD_tecl2.X\mainLCDtecl2.c
-ACE text0 CODE >85:C:\Users\ufop\Downloads\CAM210-main\CAM210-main\LCD_tecl2.X\mainLCDtecl2.c
-AE4 text0 CODE >88:C:\Users\ufop\Downloads\CAM210-main\CAM210-main\LCD_tecl2.X\mainLCDtecl2.c
-AF6 text0 CODE >90:C:\Users\ufop\Downloads\CAM210-main\CAM210-main\LCD_tecl2.X\mainLCDtecl2.c
-B0C text0 CODE >93:C:\Users\ufop\Downloads\CAM210-main\CAM210-main\LCD_tecl2.X\mainLCDtecl2.c
-B1E text0 CODE >95:C:\Users\ufop\Downloads\CAM210-main\CAM210-main\LCD_tecl2.X\mainLCDtecl2.c
-B30 text0 CODE >96:C:\Users\ufop\Downloads\CAM210-main\CAM210-main\LCD_tecl2.X\mainLCDtecl2.c
-B34 text0 CODE >97:C:\Users\ufop\Downloads\CAM210-main\CAM210-main\LCD_tecl2.X\mainLCDtecl2.c
-B46 text0 CODE >99:C:\Users\ufop\Downloads\CAM210-main\CAM210-main\LCD_tecl2.X\mainLCDtecl2.c
-B58 text0 CODE >100:C:\Users\ufop\Downloads\CAM210-main\CAM210-main\LCD_tecl2.X\mainLCDtecl2.c
-B5C text0 CODE >101:C:\Users\ufop\Downloads\CAM210-main\CAM210-main\LCD_tecl2.X\mainLCDtecl2.c
-B6E text0 CODE >103:C:\Users\ufop\Downloads\CAM210-main\CAM210-main\LCD_tecl2.X\mainLCDtecl2.c
-B80 text0 CODE >104:C:\Users\ufop\Downloads\CAM210-main\CAM210-main\LCD_tecl2.X\mainLCDtecl2.c
-B84 text0 CODE >105:C:\Users\ufop\Downloads\CAM210-main\CAM210-main\LCD_tecl2.X\mainLCDtecl2.c
-B96 text0 CODE >107:C:\Users\ufop\Downloads\CAM210-main\CAM210-main\LCD_tecl2.X\mainLCDtecl2.c
-BA8 text0 CODE >108:C:\Users\ufop\Downloads\CAM210-main\CAM210-main\LCD_tecl2.X\mainLCDtecl2.c
-BAC text0 CODE >109:C:\Users\ufop\Downloads\CAM210-main\CAM210-main\LCD_tecl2.X\mainLCDtecl2.c
-BBE text0 CODE >111:C:\Users\ufop\Downloads\CAM210-main\CAM210-main\LCD_tecl2.X\mainLCDtecl2.c
-BD0 text0 CODE >112:C:\Users\ufop\Downloads\CAM210-main\CAM210-main\LCD_tecl2.X\mainLCDtecl2.c
-BD4 text0 CODE >113:C:\Users\ufop\Downloads\CAM210-main\CAM210-main\LCD_tecl2.X\mainLCDtecl2.c
-BE6 text0 CODE >115:C:\Users\ufop\Downloads\CAM210-main\CAM210-main\LCD_tecl2.X\mainLCDtecl2.c
-BFC text0 CODE >118:C:\Users\ufop\Downloads\CAM210-main\CAM210-main\LCD_tecl2.X\mainLCDtecl2.c
-1008 cinit CODE >854:C:\Users\ufop\AppData\Local\Temp\xcAsfms.s
-1008 cinit CODE >856:C:\Users\ufop\AppData\Local\Temp\xcAsfms.s
-1008 cinit CODE >859:C:\Users\ufop\AppData\Local\Temp\xcAsfms.s
-1008 cinit CODE >874:C:\Users\ufop\AppData\Local\Temp\xcAsfms.s
-100A cinit CODE >875:C:\Users\ufop\AppData\Local\Temp\xcAsfms.s
-100C cinit CODE >876:C:\Users\ufop\AppData\Local\Temp\xcAsfms.s
-100E cinit CODE >877:C:\Users\ufop\AppData\Local\Temp\xcAsfms.s
-1010 cinit CODE >878:C:\Users\ufop\AppData\Local\Temp\xcAsfms.s
-1012 cinit CODE >879:C:\Users\ufop\AppData\Local\Temp\xcAsfms.s
-1014 cinit CODE >880:C:\Users\ufop\AppData\Local\Temp\xcAsfms.s
-1016 cinit CODE >881:C:\Users\ufop\AppData\Local\Temp\xcAsfms.s
-101A cinit CODE >887:C:\Users\ufop\AppData\Local\Temp\xcAsfms.s
-101A cinit CODE >890:C:\Users\ufop\AppData\Local\Temp\xcAsfms.s
-101C cinit CODE >891:C:\Users\ufop\AppData\Local\Temp\xcAsfms.s
-101E cinit CODE >892:C:\Users\ufop\AppData\Local\Temp\xcAsfms.s
-1020 cinit CODE >893:C:\Users\ufop\AppData\Local\Temp\xcAsfms.s
+E10 text5 CODE >109:C:\Users\ufop\Downloads\CAM210-main\CAM210-main\LCD_tecl2.X\flexlcd.c
+E12 text5 CODE >110:C:\Users\ufop\Downloads\CAM210-main\CAM210-main\LCD_tecl2.X\flexlcd.c
+E16 text5 CODE >111:C:\Users\ufop\Downloads\CAM210-main\CAM210-main\LCD_tecl2.X\flexlcd.c
+E56 text5 CODE >112:C:\Users\ufop\Downloads\CAM210-main\CAM210-main\LCD_tecl2.X\flexlcd.c
+E94 text5 CODE >113:C:\Users\ufop\Downloads\CAM210-main\CAM210-main\LCD_tecl2.X\flexlcd.c
+E9C text5 CODE >114:C:\Users\ufop\Downloads\CAM210-main\CAM210-main\LCD_tecl2.X\flexlcd.c
+EA8 text5 CODE >115:C:\Users\ufop\Downloads\CAM210-main\CAM210-main\LCD_tecl2.X\flexlcd.c
+EEA text5 CODE >116:C:\Users\ufop\Downloads\CAM210-main\CAM210-main\LCD_tecl2.X\flexlcd.c
+F18 text5 CODE >117:C:\Users\ufop\Downloads\CAM210-main\CAM210-main\LCD_tecl2.X\flexlcd.c
+F20 text5 CODE >118:C:\Users\ufop\Downloads\CAM210-main\CAM210-main\LCD_tecl2.X\flexlcd.c
+F2C text5 CODE >119:C:\Users\ufop\Downloads\CAM210-main\CAM210-main\LCD_tecl2.X\flexlcd.c
+F3A text5 CODE >120:C:\Users\ufop\Downloads\CAM210-main\CAM210-main\LCD_tecl2.X\flexlcd.c
+F3C text4 CODE >9:C:\Users\ufop\Downloads\CAM210-main\CAM210-main\LCD_tecl2.X\flexlcd.c
+F3C text4 CODE >11:C:\Users\ufop\Downloads\CAM210-main\CAM210-main\LCD_tecl2.X\flexlcd.c
+F3E text4 CODE >12:C:\Users\ufop\Downloads\CAM210-main\CAM210-main\LCD_tecl2.X\flexlcd.c
+F40 text4 CODE >13:C:\Users\ufop\Downloads\CAM210-main\CAM210-main\LCD_tecl2.X\flexlcd.c
+F42 text4 CODE >14:C:\Users\ufop\Downloads\CAM210-main\CAM210-main\LCD_tecl2.X\flexlcd.c
+F44 text4 CODE >15:C:\Users\ufop\Downloads\CAM210-main\CAM210-main\LCD_tecl2.X\flexlcd.c
+F46 text4 CODE >16:C:\Users\ufop\Downloads\CAM210-main\CAM210-main\LCD_tecl2.X\flexlcd.c
+F48 text4 CODE >17:C:\Users\ufop\Downloads\CAM210-main\CAM210-main\LCD_tecl2.X\flexlcd.c
+F4A text4 CODE >18:C:\Users\ufop\Downloads\CAM210-main\CAM210-main\LCD_tecl2.X\flexlcd.c
+F4C text4 CODE >19:C:\Users\ufop\Downloads\CAM210-main\CAM210-main\LCD_tecl2.X\flexlcd.c
+F4E text4 CODE >20:C:\Users\ufop\Downloads\CAM210-main\CAM210-main\LCD_tecl2.X\flexlcd.c
+F50 text4 CODE >21:C:\Users\ufop\Downloads\CAM210-main\CAM210-main\LCD_tecl2.X\flexlcd.c
+F52 text4 CODE >22:C:\Users\ufop\Downloads\CAM210-main\CAM210-main\LCD_tecl2.X\flexlcd.c
+F54 text4 CODE >23:C:\Users\ufop\Downloads\CAM210-main\CAM210-main\LCD_tecl2.X\flexlcd.c
+F56 text4 CODE >24:C:\Users\ufop\Downloads\CAM210-main\CAM210-main\LCD_tecl2.X\flexlcd.c
+F58 text4 CODE >25:C:\Users\ufop\Downloads\CAM210-main\CAM210-main\LCD_tecl2.X\flexlcd.c
+F66 text4 CODE >26:C:\Users\ufop\Downloads\CAM210-main\CAM210-main\LCD_tecl2.X\flexlcd.c
+F74 text4 CODE >27:C:\Users\ufop\Downloads\CAM210-main\CAM210-main\LCD_tecl2.X\flexlcd.c
+F82 text4 CODE >28:C:\Users\ufop\Downloads\CAM210-main\CAM210-main\LCD_tecl2.X\flexlcd.c
+F90 text4 CODE >29:C:\Users\ufop\Downloads\CAM210-main\CAM210-main\LCD_tecl2.X\flexlcd.c
+F9E text4 CODE >30:C:\Users\ufop\Downloads\CAM210-main\CAM210-main\LCD_tecl2.X\flexlcd.c
+FAC text4 CODE >31:C:\Users\ufop\Downloads\CAM210-main\CAM210-main\LCD_tecl2.X\flexlcd.c
+FB0 text4 CODE >32:C:\Users\ufop\Downloads\CAM210-main\CAM210-main\LCD_tecl2.X\flexlcd.c
+FB0 text4 CODE >33:C:\Users\ufop\Downloads\CAM210-main\CAM210-main\LCD_tecl2.X\flexlcd.c
+FBA text4 CODE >34:C:\Users\ufop\Downloads\CAM210-main\CAM210-main\LCD_tecl2.X\flexlcd.c
+FC4 text4 CODE >35:C:\Users\ufop\Downloads\CAM210-main\CAM210-main\LCD_tecl2.X\flexlcd.c
+FC8 text4 CODE >36:C:\Users\ufop\Downloads\CAM210-main\CAM210-main\LCD_tecl2.X\flexlcd.c
+FD0 text4 CODE >37:C:\Users\ufop\Downloads\CAM210-main\CAM210-main\LCD_tecl2.X\flexlcd.c
+FDA text4 CODE >38:C:\Users\ufop\Downloads\CAM210-main\CAM210-main\LCD_tecl2.X\flexlcd.c
+FDC text4 CODE >39:C:\Users\ufop\Downloads\CAM210-main\CAM210-main\LCD_tecl2.X\flexlcd.c
+FEA text4 CODE >31:C:\Users\ufop\Downloads\CAM210-main\CAM210-main\LCD_tecl2.X\flexlcd.c
+FFC text4 CODE >41:C:\Users\ufop\Downloads\CAM210-main\CAM210-main\LCD_tecl2.X\flexlcd.c
+1008 text4 CODE >42:C:\Users\ufop\Downloads\CAM210-main\CAM210-main\LCD_tecl2.X\flexlcd.c
+1014 text4 CODE >43:C:\Users\ufop\Downloads\CAM210-main\CAM210-main\LCD_tecl2.X\flexlcd.c
+101C text4 CODE >44:C:\Users\ufop\Downloads\CAM210-main\CAM210-main\LCD_tecl2.X\flexlcd.c
+1028 text4 CODE >45:C:\Users\ufop\Downloads\CAM210-main\CAM210-main\LCD_tecl2.X\flexlcd.c
+1036 text4 CODE >46:C:\Users\ufop\Downloads\CAM210-main\CAM210-main\LCD_tecl2.X\flexlcd.c
+103C text4 CODE >47:C:\Users\ufop\Downloads\CAM210-main\CAM210-main\LCD_tecl2.X\flexlcd.c
+1042 text4 CODE >48:C:\Users\ufop\Downloads\CAM210-main\CAM210-main\LCD_tecl2.X\flexlcd.c
+1048 text4 CODE >49:C:\Users\ufop\Downloads\CAM210-main\CAM210-main\LCD_tecl2.X\flexlcd.c
+104E text4 CODE >50:C:\Users\ufop\Downloads\CAM210-main\CAM210-main\LCD_tecl2.X\flexlcd.c
+CDC text3 CODE >95:C:\Users\ufop\Downloads\CAM210-main\CAM210-main\LCD_tecl2.X\flexlcd.c
+CDE text3 CODE >96:C:\Users\ufop\Downloads\CAM210-main\CAM210-main\LCD_tecl2.X\flexlcd.c
+CE2 text3 CODE >97:C:\Users\ufop\Downloads\CAM210-main\CAM210-main\LCD_tecl2.X\flexlcd.c
+D22 text3 CODE >98:C:\Users\ufop\Downloads\CAM210-main\CAM210-main\LCD_tecl2.X\flexlcd.c
+D60 text3 CODE >99:C:\Users\ufop\Downloads\CAM210-main\CAM210-main\LCD_tecl2.X\flexlcd.c
+D68 text3 CODE >100:C:\Users\ufop\Downloads\CAM210-main\CAM210-main\LCD_tecl2.X\flexlcd.c
+D74 text3 CODE >101:C:\Users\ufop\Downloads\CAM210-main\CAM210-main\LCD_tecl2.X\flexlcd.c
+DB6 text3 CODE >102:C:\Users\ufop\Downloads\CAM210-main\CAM210-main\LCD_tecl2.X\flexlcd.c
+DE4 text3 CODE >103:C:\Users\ufop\Downloads\CAM210-main\CAM210-main\LCD_tecl2.X\flexlcd.c
+DEC text3 CODE >104:C:\Users\ufop\Downloads\CAM210-main\CAM210-main\LCD_tecl2.X\flexlcd.c
+DF8 text3 CODE >105:C:\Users\ufop\Downloads\CAM210-main\CAM210-main\LCD_tecl2.X\flexlcd.c
+E0E text3 CODE >106:C:\Users\ufop\Downloads\CAM210-main\CAM210-main\LCD_tecl2.X\flexlcd.c
+1050 text2 CODE >53:C:\Users\ufop\Downloads\CAM210-main\CAM210-main\LCD_tecl2.X\flexlcd.c
+1052 text2 CODE >56:C:\Users\ufop\Downloads\CAM210-main\CAM210-main\LCD_tecl2.X\flexlcd.c
+1056 text2 CODE >58:C:\Users\ufop\Downloads\CAM210-main\CAM210-main\LCD_tecl2.X\flexlcd.c
+1060 text2 CODE >59:C:\Users\ufop\Downloads\CAM210-main\CAM210-main\LCD_tecl2.X\flexlcd.c
+106A text2 CODE >60:C:\Users\ufop\Downloads\CAM210-main\CAM210-main\LCD_tecl2.X\flexlcd.c
+1074 text2 CODE >61:C:\Users\ufop\Downloads\CAM210-main\CAM210-main\LCD_tecl2.X\flexlcd.c
+107E text2 CODE >56:C:\Users\ufop\Downloads\CAM210-main\CAM210-main\LCD_tecl2.X\flexlcd.c
+1082 text2 CODE >56:C:\Users\ufop\Downloads\CAM210-main\CAM210-main\LCD_tecl2.X\flexlcd.c
+108A text2 CODE >56:C:\Users\ufop\Downloads\CAM210-main\CAM210-main\LCD_tecl2.X\flexlcd.c
+1092 text2 CODE >56:C:\Users\ufop\Downloads\CAM210-main\CAM210-main\LCD_tecl2.X\flexlcd.c
+109A text2 CODE >56:C:\Users\ufop\Downloads\CAM210-main\CAM210-main\LCD_tecl2.X\flexlcd.c
+10A4 text2 CODE >64:C:\Users\ufop\Downloads\CAM210-main\CAM210-main\LCD_tecl2.X\flexlcd.c
+10AA text2 CODE >65:C:\Users\ufop\Downloads\CAM210-main\CAM210-main\LCD_tecl2.X\flexlcd.c
+10AE text2 CODE >67:C:\Users\ufop\Downloads\CAM210-main\CAM210-main\LCD_tecl2.X\flexlcd.c
+10BE text2 CODE >68:C:\Users\ufop\Downloads\CAM210-main\CAM210-main\LCD_tecl2.X\flexlcd.c
+10C2 text2 CODE >65:C:\Users\ufop\Downloads\CAM210-main\CAM210-main\LCD_tecl2.X\flexlcd.c
+10DE text2 CODE >71:C:\Users\ufop\Downloads\CAM210-main\CAM210-main\LCD_tecl2.X\flexlcd.c
+9A2 text1 CODE >7:C:\Users\ufop\Downloads\CAM210-main\CAM210-main\LCD_tecl2.X\teclado.c
+9A2 text1 CODE >11:C:\Users\ufop\Downloads\CAM210-main\CAM210-main\LCD_tecl2.X\teclado.c
+9AA text1 CODE >12:C:\Users\ufop\Downloads\CAM210-main\CAM210-main\LCD_tecl2.X\teclado.c
+9AC text1 CODE >13:C:\Users\ufop\Downloads\CAM210-main\CAM210-main\LCD_tecl2.X\teclado.c
+9DE text1 CODE >14:C:\Users\ufop\Downloads\CAM210-main\CAM210-main\LCD_tecl2.X\teclado.c
+A10 text1 CODE >15:C:\Users\ufop\Downloads\CAM210-main\CAM210-main\LCD_tecl2.X\teclado.c
+A42 text1 CODE >16:C:\Users\ufop\Downloads\CAM210-main\CAM210-main\LCD_tecl2.X\teclado.c
+A70 text1 CODE >18:C:\Users\ufop\Downloads\CAM210-main\CAM210-main\LCD_tecl2.X\teclado.c
+A72 text1 CODE >19:C:\Users\ufop\Downloads\CAM210-main\CAM210-main\LCD_tecl2.X\teclado.c
+A74 text1 CODE >21:C:\Users\ufop\Downloads\CAM210-main\CAM210-main\LCD_tecl2.X\teclado.c
+AA6 text1 CODE >22:C:\Users\ufop\Downloads\CAM210-main\CAM210-main\LCD_tecl2.X\teclado.c
+AD8 text1 CODE >23:C:\Users\ufop\Downloads\CAM210-main\CAM210-main\LCD_tecl2.X\teclado.c
+B0A text1 CODE >24:C:\Users\ufop\Downloads\CAM210-main\CAM210-main\LCD_tecl2.X\teclado.c
+B38 text1 CODE >26:C:\Users\ufop\Downloads\CAM210-main\CAM210-main\LCD_tecl2.X\teclado.c
+B3A text1 CODE >27:C:\Users\ufop\Downloads\CAM210-main\CAM210-main\LCD_tecl2.X\teclado.c
+B3C text1 CODE >29:C:\Users\ufop\Downloads\CAM210-main\CAM210-main\LCD_tecl2.X\teclado.c
+B6E text1 CODE >30:C:\Users\ufop\Downloads\CAM210-main\CAM210-main\LCD_tecl2.X\teclado.c
+BA0 text1 CODE >31:C:\Users\ufop\Downloads\CAM210-main\CAM210-main\LCD_tecl2.X\teclado.c
+BD2 text1 CODE >32:C:\Users\ufop\Downloads\CAM210-main\CAM210-main\LCD_tecl2.X\teclado.c
+C00 text1 CODE >34:C:\Users\ufop\Downloads\CAM210-main\CAM210-main\LCD_tecl2.X\teclado.c
+C02 text1 CODE >35:C:\Users\ufop\Downloads\CAM210-main\CAM210-main\LCD_tecl2.X\teclado.c
+C04 text1 CODE >37:C:\Users\ufop\Downloads\CAM210-main\CAM210-main\LCD_tecl2.X\teclado.c
+C36 text1 CODE >38:C:\Users\ufop\Downloads\CAM210-main\CAM210-main\LCD_tecl2.X\teclado.c
+C68 text1 CODE >39:C:\Users\ufop\Downloads\CAM210-main\CAM210-main\LCD_tecl2.X\teclado.c
+C9A text1 CODE >40:C:\Users\ufop\Downloads\CAM210-main\CAM210-main\LCD_tecl2.X\teclado.c
+CC8 text1 CODE >42:C:\Users\ufop\Downloads\CAM210-main\CAM210-main\LCD_tecl2.X\teclado.c
+CCA text1 CODE >44:C:\Users\ufop\Downloads\CAM210-main\CAM210-main\LCD_tecl2.X\teclado.c
+CD8 text1 CODE >48:C:\Users\ufop\Downloads\CAM210-main\CAM210-main\LCD_tecl2.X\teclado.c
+CDA text1 CODE >50:C:\Users\ufop\Downloads\CAM210-main\CAM210-main\LCD_tecl2.X\teclado.c
+646 text0 CODE >25:C:\Users\ufop\Downloads\CAM210-main\CAM210-main\LCD_tecl2.X\mainLCDtecl2.c
+646 text0 CODE >27:C:\Users\ufop\Downloads\CAM210-main\CAM210-main\LCD_tecl2.X\mainLCDtecl2.c
+64A text0 CODE >28:C:\Users\ufop\Downloads\CAM210-main\CAM210-main\LCD_tecl2.X\mainLCDtecl2.c
+64E text0 CODE >30:C:\Users\ufop\Downloads\CAM210-main\CAM210-main\LCD_tecl2.X\mainLCDtecl2.c
+652 text0 CODE >31:C:\Users\ufop\Downloads\CAM210-main\CAM210-main\LCD_tecl2.X\mainLCDtecl2.c
+656 text0 CODE >32:C:\Users\ufop\Downloads\CAM210-main\CAM210-main\LCD_tecl2.X\mainLCDtecl2.c
+658 text0 CODE >33:C:\Users\ufop\Downloads\CAM210-main\CAM210-main\LCD_tecl2.X\mainLCDtecl2.c
+65C text0 CODE >35:C:\Users\ufop\Downloads\CAM210-main\CAM210-main\LCD_tecl2.X\mainLCDtecl2.c
+660 text0 CODE >36:C:\Users\ufop\Downloads\CAM210-main\CAM210-main\LCD_tecl2.X\mainLCDtecl2.c
+664 text0 CODE >37:C:\Users\ufop\Downloads\CAM210-main\CAM210-main\LCD_tecl2.X\mainLCDtecl2.c
+668 text0 CODE >38:C:\Users\ufop\Downloads\CAM210-main\CAM210-main\LCD_tecl2.X\mainLCDtecl2.c
+66C text0 CODE >40:C:\Users\ufop\Downloads\CAM210-main\CAM210-main\LCD_tecl2.X\mainLCDtecl2.c
+670 text0 CODE >41:C:\Users\ufop\Downloads\CAM210-main\CAM210-main\LCD_tecl2.X\mainLCDtecl2.c
+674 text0 CODE >42:C:\Users\ufop\Downloads\CAM210-main\CAM210-main\LCD_tecl2.X\mainLCDtecl2.c
+678 text0 CODE >43:C:\Users\ufop\Downloads\CAM210-main\CAM210-main\LCD_tecl2.X\mainLCDtecl2.c
+67C text0 CODE >44:C:\Users\ufop\Downloads\CAM210-main\CAM210-main\LCD_tecl2.X\mainLCDtecl2.c
+680 text0 CODE >45:C:\Users\ufop\Downloads\CAM210-main\CAM210-main\LCD_tecl2.X\mainLCDtecl2.c
+684 text0 CODE >46:C:\Users\ufop\Downloads\CAM210-main\CAM210-main\LCD_tecl2.X\mainLCDtecl2.c
+688 text0 CODE >47:C:\Users\ufop\Downloads\CAM210-main\CAM210-main\LCD_tecl2.X\mainLCDtecl2.c
+68C text0 CODE >49:C:\Users\ufop\Downloads\CAM210-main\CAM210-main\LCD_tecl2.X\mainLCDtecl2.c
+690 text0 CODE >51:C:\Users\ufop\Downloads\CAM210-main\CAM210-main\LCD_tecl2.X\mainLCDtecl2.c
+696 text0 CODE >52:C:\Users\ufop\Downloads\CAM210-main\CAM210-main\LCD_tecl2.X\mainLCDtecl2.c
+6A8 text0 CODE >53:C:\Users\ufop\Downloads\CAM210-main\CAM210-main\LCD_tecl2.X\mainLCDtecl2.c
+6BA text0 CODE >54:C:\Users\ufop\Downloads\CAM210-main\CAM210-main\LCD_tecl2.X\mainLCDtecl2.c
+6D2 text0 CODE >55:C:\Users\ufop\Downloads\CAM210-main\CAM210-main\LCD_tecl2.X\mainLCDtecl2.c
+6D2 text0 CODE >57:C:\Users\ufop\Downloads\CAM210-main\CAM210-main\LCD_tecl2.X\mainLCDtecl2.c
+6D4 text0 CODE >61:C:\Users\ufop\Downloads\CAM210-main\CAM210-main\LCD_tecl2.X\mainLCDtecl2.c
+6DA text0 CODE >64:C:\Users\ufop\Downloads\CAM210-main\CAM210-main\LCD_tecl2.X\mainLCDtecl2.c
+6EC text0 CODE >66:C:\Users\ufop\Downloads\CAM210-main\CAM210-main\LCD_tecl2.X\mainLCDtecl2.c
+6FE text0 CODE >67:C:\Users\ufop\Downloads\CAM210-main\CAM210-main\LCD_tecl2.X\mainLCDtecl2.c
+716 text0 CODE >68:C:\Users\ufop\Downloads\CAM210-main\CAM210-main\LCD_tecl2.X\mainLCDtecl2.c
+71A text0 CODE >69:C:\Users\ufop\Downloads\CAM210-main\CAM210-main\LCD_tecl2.X\mainLCDtecl2.c
+72C text0 CODE >71:C:\Users\ufop\Downloads\CAM210-main\CAM210-main\LCD_tecl2.X\mainLCDtecl2.c
+742 text0 CODE >74:C:\Users\ufop\Downloads\CAM210-main\CAM210-main\LCD_tecl2.X\mainLCDtecl2.c
+754 text0 CODE >76:C:\Users\ufop\Downloads\CAM210-main\CAM210-main\LCD_tecl2.X\mainLCDtecl2.c
+76A text0 CODE >79:C:\Users\ufop\Downloads\CAM210-main\CAM210-main\LCD_tecl2.X\mainLCDtecl2.c
+77C text0 CODE >81:C:\Users\ufop\Downloads\CAM210-main\CAM210-main\LCD_tecl2.X\mainLCDtecl2.c
+792 text0 CODE >84:C:\Users\ufop\Downloads\CAM210-main\CAM210-main\LCD_tecl2.X\mainLCDtecl2.c
+7A4 text0 CODE >86:C:\Users\ufop\Downloads\CAM210-main\CAM210-main\LCD_tecl2.X\mainLCDtecl2.c
+7BA text0 CODE >89:C:\Users\ufop\Downloads\CAM210-main\CAM210-main\LCD_tecl2.X\mainLCDtecl2.c
+7CC text0 CODE >91:C:\Users\ufop\Downloads\CAM210-main\CAM210-main\LCD_tecl2.X\mainLCDtecl2.c
+7E2 text0 CODE >94:C:\Users\ufop\Downloads\CAM210-main\CAM210-main\LCD_tecl2.X\mainLCDtecl2.c
+7F4 text0 CODE >96:C:\Users\ufop\Downloads\CAM210-main\CAM210-main\LCD_tecl2.X\mainLCDtecl2.c
+806 text0 CODE >97:C:\Users\ufop\Downloads\CAM210-main\CAM210-main\LCD_tecl2.X\mainLCDtecl2.c
+80A text0 CODE >98:C:\Users\ufop\Downloads\CAM210-main\CAM210-main\LCD_tecl2.X\mainLCDtecl2.c
+81C text0 CODE >100:C:\Users\ufop\Downloads\CAM210-main\CAM210-main\LCD_tecl2.X\mainLCDtecl2.c
+82E text0 CODE >101:C:\Users\ufop\Downloads\CAM210-main\CAM210-main\LCD_tecl2.X\mainLCDtecl2.c
+832 text0 CODE >102:C:\Users\ufop\Downloads\CAM210-main\CAM210-main\LCD_tecl2.X\mainLCDtecl2.c
+844 text0 CODE >104:C:\Users\ufop\Downloads\CAM210-main\CAM210-main\LCD_tecl2.X\mainLCDtecl2.c
+856 text0 CODE >105:C:\Users\ufop\Downloads\CAM210-main\CAM210-main\LCD_tecl2.X\mainLCDtecl2.c
+85A text0 CODE >106:C:\Users\ufop\Downloads\CAM210-main\CAM210-main\LCD_tecl2.X\mainLCDtecl2.c
+86C text0 CODE >108:C:\Users\ufop\Downloads\CAM210-main\CAM210-main\LCD_tecl2.X\mainLCDtecl2.c
+87E text0 CODE >109:C:\Users\ufop\Downloads\CAM210-main\CAM210-main\LCD_tecl2.X\mainLCDtecl2.c
+882 text0 CODE >110:C:\Users\ufop\Downloads\CAM210-main\CAM210-main\LCD_tecl2.X\mainLCDtecl2.c
+894 text0 CODE >112:C:\Users\ufop\Downloads\CAM210-main\CAM210-main\LCD_tecl2.X\mainLCDtecl2.c
+8A6 text0 CODE >113:C:\Users\ufop\Downloads\CAM210-main\CAM210-main\LCD_tecl2.X\mainLCDtecl2.c
+8AA text0 CODE >114:C:\Users\ufop\Downloads\CAM210-main\CAM210-main\LCD_tecl2.X\mainLCDtecl2.c
+8BC text0 CODE >116:C:\Users\ufop\Downloads\CAM210-main\CAM210-main\LCD_tecl2.X\mainLCDtecl2.c
+8CE text0 CODE >117:C:\Users\ufop\Downloads\CAM210-main\CAM210-main\LCD_tecl2.X\mainLCDtecl2.c
+8D2 text0 CODE >118:C:\Users\ufop\Downloads\CAM210-main\CAM210-main\LCD_tecl2.X\mainLCDtecl2.c
+8E4 text0 CODE >120:C:\Users\ufop\Downloads\CAM210-main\CAM210-main\LCD_tecl2.X\mainLCDtecl2.c
+8F6 text0 CODE >121:C:\Users\ufop\Downloads\CAM210-main\CAM210-main\LCD_tecl2.X\mainLCDtecl2.c
+8FA text0 CODE >122:C:\Users\ufop\Downloads\CAM210-main\CAM210-main\LCD_tecl2.X\mainLCDtecl2.c
+90C text0 CODE >124:C:\Users\ufop\Downloads\CAM210-main\CAM210-main\LCD_tecl2.X\mainLCDtecl2.c
+91E text0 CODE >125:C:\Users\ufop\Downloads\CAM210-main\CAM210-main\LCD_tecl2.X\mainLCDtecl2.c
+922 text0 CODE >126:C:\Users\ufop\Downloads\CAM210-main\CAM210-main\LCD_tecl2.X\mainLCDtecl2.c
+934 text0 CODE >128:C:\Users\ufop\Downloads\CAM210-main\CAM210-main\LCD_tecl2.X\mainLCDtecl2.c
+946 text0 CODE >129:C:\Users\ufop\Downloads\CAM210-main\CAM210-main\LCD_tecl2.X\mainLCDtecl2.c
+94A text0 CODE >130:C:\Users\ufop\Downloads\CAM210-main\CAM210-main\LCD_tecl2.X\mainLCDtecl2.c
+95C text0 CODE >132:C:\Users\ufop\Downloads\CAM210-main\CAM210-main\LCD_tecl2.X\mainLCDtecl2.c
+96E text0 CODE >133:C:\Users\ufop\Downloads\CAM210-main\CAM210-main\LCD_tecl2.X\mainLCDtecl2.c
+972 text0 CODE >134:C:\Users\ufop\Downloads\CAM210-main\CAM210-main\LCD_tecl2.X\mainLCDtecl2.c
+984 text0 CODE >136:C:\Users\ufop\Downloads\CAM210-main\CAM210-main\LCD_tecl2.X\mainLCDtecl2.c
+99A text0 CODE >139:C:\Users\ufop\Downloads\CAM210-main\CAM210-main\LCD_tecl2.X\mainLCDtecl2.c
+10E0 cinit CODE >1154:C:\Users\ufop\AppData\Local\Temp\xcAsfok.s
+10E0 cinit CODE >1156:C:\Users\ufop\AppData\Local\Temp\xcAsfok.s
+10E0 cinit CODE >1159:C:\Users\ufop\AppData\Local\Temp\xcAsfok.s
+10E0 cinit CODE >1174:C:\Users\ufop\AppData\Local\Temp\xcAsfok.s
+10E2 cinit CODE >1175:C:\Users\ufop\AppData\Local\Temp\xcAsfok.s
+10E4 cinit CODE >1176:C:\Users\ufop\AppData\Local\Temp\xcAsfok.s
+10E6 cinit CODE >1177:C:\Users\ufop\AppData\Local\Temp\xcAsfok.s
+10E8 cinit CODE >1178:C:\Users\ufop\AppData\Local\Temp\xcAsfok.s
+10EA cinit CODE >1179:C:\Users\ufop\AppData\Local\Temp\xcAsfok.s
+10EC cinit CODE >1180:C:\Users\ufop\AppData\Local\Temp\xcAsfok.s
+10EE cinit CODE >1181:C:\Users\ufop\AppData\Local\Temp\xcAsfok.s
+10F2 cinit CODE >1187:C:\Users\ufop\AppData\Local\Temp\xcAsfok.s
+10F2 cinit CODE >1190:C:\Users\ufop\AppData\Local\Temp\xcAsfok.s
+10F4 cinit CODE >1191:C:\Users\ufop\AppData\Local\Temp\xcAsfok.s
+10F6 cinit CODE >1192:C:\Users\ufop\AppData\Local\Temp\xcAsfok.s
+10F8 cinit CODE >1193:C:\Users\ufop\AppData\Local\Temp\xcAsfok.s
 # %SYMTAB Section
 # An enumeration of all symbols in the program.
 # The beginning of the section is indicated by %SYMTAB.
@@ -265,56 +281,57 @@ BFC text0 CODE >118:C:\Users\ufop\Downloads\CAM210-main\CAM210-main\LCD_tecl2.X\
 # is the name of the object file in which the symbol was defined.
 %SYMTAB
 __Lmediumconst 0 0 MEDIUMCONST 0 mediumconst dist/default/production\LCD_tecl2.X.production.o
-__Hspace_0 1025 0 ABS 0 - dist/default/production\LCD_tecl2.X.production.o
+__Hspace_0 10FD 0 ABS 0 - dist/default/production\LCD_tecl2.X.production.o
 __Hspace_1 C 0 ABS 0 - dist/default/production\LCD_tecl2.X.production.o
 __Hspace_2 0 0 ABS 0 - dist/default/production\LCD_tecl2.X.production.o
 __Hspace_4 60000E 0 ABS 0 - dist/default/production\LCD_tecl2.X.production.o
-_Lcd_Init E64 0 CODE 0 text4 dist/default/production\LCD_tecl2.X.production.o
+_Lcd_Init F3C 0 CODE 0 text4 dist/default/production\LCD_tecl2.X.production.o
 __Hibigdata 0 0 CODE 0 ibigdata dist/default/production\LCD_tecl2.X.production.o
-__mediumconst 0 0 MEDIUMCONST 0 mediumconst C:\Users\ufop\AppData\Local\Temp\xcAsfms.o
+__mediumconst 0 0 MEDIUMCONST 0 mediumconst C:\Users\ufop\AppData\Local\Temp\xcAsfok.o
 __Heeprom_data 0 0 EEDATA 0 eeprom_data dist/default/production\LCD_tecl2.X.production.o
-__end_of_Lcd_Init F78 0 CODE 0 text4 dist/default/production\LCD_tecl2.X.production.o
+__end_of_Lcd_Init 1050 0 CODE 0 text4 dist/default/production\LCD_tecl2.X.production.o
 __Lsmallconst 600 0 SMALLCONST 0 smallconst dist/default/production\LCD_tecl2.X.production.o
+_LATB F8A 0 ABS 0 - dist/default/production\LCD_tecl2.X.production.o
 _LATC F8B 0 ABS 0 - dist/default/production\LCD_tecl2.X.production.o
 _LATD F8C 0 ABS 0 - dist/default/production\LCD_tecl2.X.production.o
 _LATE F8D 0 ABS 0 - dist/default/production\LCD_tecl2.X.production.o
-___sp 0 0 STACK 2 stack C:\Users\ufop\AppData\Local\Temp\xcAsfms.o
-_main 976 0 CODE 0 text0 dist/default/production\LCD_tecl2.X.production.o
-start 0 0 CODE 0 init C:\Users\ufop\AppData\Local\Temp\xcAsfms.o
+___sp 0 0 STACK 2 stack C:\Users\ufop\AppData\Local\Temp\xcAsfok.o
+_main 646 0 CODE 0 text0 dist/default/production\LCD_tecl2.X.production.o
+start 0 0 CODE 0 init C:\Users\ufop\AppData\Local\Temp\xcAsfok.o
 __Hpowerup 0 0 CODE 0 powerup dist/default/production\LCD_tecl2.X.production.o
 __HdataCOMRAM 0 0 ABS 0 dataCOMRAM dist/default/production\LCD_tecl2.X.production.o
-__accesstop 80 0 ABS 0 - C:\Users\ufop\AppData\Local\Temp\xcAsfms.o
-intlevel0 0 0 CODE 0 text C:\Users\ufop\AppData\Local\Temp\xcAsfms.o
-intlevel1 0 0 CODE 0 text C:\Users\ufop\AppData\Local\Temp\xcAsfms.o
-intlevel2 0 0 CODE 0 text C:\Users\ufop\AppData\Local\Temp\xcAsfms.o
-intlevel3 0 0 CODE 0 text C:\Users\ufop\AppData\Local\Temp\xcAsfms.o
+__accesstop 80 0 ABS 0 - C:\Users\ufop\AppData\Local\Temp\xcAsfok.o
+intlevel0 0 0 CODE 0 text C:\Users\ufop\AppData\Local\Temp\xcAsfok.o
+intlevel1 0 0 CODE 0 text C:\Users\ufop\AppData\Local\Temp\xcAsfok.o
+intlevel2 0 0 CODE 0 text C:\Users\ufop\AppData\Local\Temp\xcAsfok.o
+intlevel3 0 0 CODE 0 text C:\Users\ufop\AppData\Local\Temp\xcAsfok.o
 Lcd_Chr_CP@data 3 0 COMRAM 1 cstackCOMRAM dist/default/production\LCD_tecl2.X.production.o
 __LnvFARRAM 0 0 FARRAM 0 nvFARRAM dist/default/production\LCD_tecl2.X.production.o
-_Lcd_Chr_CP C04 0 CODE 0 text3 dist/default/production\LCD_tecl2.X.production.o
+_Lcd_Chr_CP CDC 0 CODE 0 text3 dist/default/production\LCD_tecl2.X.production.o
 __Hifardata 0 0 CODE 0 ifardata dist/default/production\LCD_tecl2.X.production.o
 __Hclrtext 0 0 ABS 0 clrtext dist/default/production\LCD_tecl2.X.production.o
-__pidataCOMRAM 1024 0 CODE 0 idataCOMRAM dist/default/production\LCD_tecl2.X.production.o
+__pidataCOMRAM 10FC 0 CODE 0 idataCOMRAM dist/default/production\LCD_tecl2.X.production.o
 _ADCON0 FC2 0 ABS 0 - dist/default/production\LCD_tecl2.X.production.o
 _ADCON1 FC1 0 ABS 0 - dist/default/production\LCD_tecl2.X.production.o
-___inthi_sp 0 0 STACK 2 stack C:\Users\ufop\AppData\Local\Temp\xcAsfms.o
-___intlo_sp 0 0 STACK 2 stack C:\Users\ufop\AppData\Local\Temp\xcAsfms.o
+___inthi_sp 0 0 STACK 2 stack C:\Users\ufop\AppData\Local\Temp\xcAsfok.o
+___intlo_sp 0 0 STACK 2 stack C:\Users\ufop\AppData\Local\Temp\xcAsfok.o
 __LdataCOMRAM 0 0 ABS 0 dataCOMRAM dist/default/production\LCD_tecl2.X.production.o
 __Hintcode_body 0 0 ABS 0 intcode_body dist/default/production\LCD_tecl2.X.production.o
 __Lintsave_regs 0 0 BIGRAM 1 intsave_regs dist/default/production\LCD_tecl2.X.production.o
 __Hmediumconst 0 0 MEDIUMCONST 0 mediumconst dist/default/production\LCD_tecl2.X.production.o
 __Hintcodelo 0 0 CODE 0 intcodelo dist/default/production\LCD_tecl2.X.production.o
 _INTCON FF2 0 ABS 0 - dist/default/production\LCD_tecl2.X.production.o
-__end_of_Lcd_Chr_CP D38 0 CODE 0 text3 dist/default/production\LCD_tecl2.X.production.o
+__end_of_Lcd_Chr_CP E10 0 CODE 0 text3 dist/default/production\LCD_tecl2.X.production.o
 __LidataCOMRAM 0 0 ABS 0 idataCOMRAM dist/default/production\LCD_tecl2.X.production.o
 _INTCON2bits FF1 0 ABS 0 - dist/default/production\LCD_tecl2.X.production.o
 __Lintcodelo 0 0 CODE 0 intcodelo dist/default/production\LCD_tecl2.X.production.o
-start_initialization 1008 0 CODE 0 cinit dist/default/production\LCD_tecl2.X.production.o
+start_initialization 10E0 0 CODE 0 cinit dist/default/production\LCD_tecl2.X.production.o
 __HnvFARRAM 0 0 FARRAM 0 nvFARRAM dist/default/production\LCD_tecl2.X.production.o
 _TRISDbits F95 0 ABS 0 - dist/default/production\LCD_tecl2.X.production.o
 _TRISEbits F96 0 ABS 0 - dist/default/production\LCD_tecl2.X.production.o
 ___rparam_used 1 0 ABS 0 - dist/default/production\LCD_tecl2.X.production.o
 tc_tecla@key 2 0 COMRAM 1 cstackCOMRAM dist/default/production\LCD_tecl2.X.production.o
-isa$xinst 0 0 ABS 0 - C:\Users\ufop\AppData\Local\Temp\xcAsfms.o
+isa$xinst 0 0 ABS 0 - C:\Users\ufop\AppData\Local\Temp\xcAsfok.o
 __Hbank0 0 0 ABS 0 bank0 dist/default/production\LCD_tecl2.X.production.o
 __Hbank1 0 0 ABS 0 bank1 dist/default/production\LCD_tecl2.X.production.o
 __Hbank2 0 0 ABS 0 bank2 dist/default/production\LCD_tecl2.X.production.o
@@ -338,7 +355,7 @@ __Htext5 0 0 ABS 0 text5 dist/default/production\LCD_tecl2.X.production.o
 __Hbigbss 0 0 BIGRAM 1 bigbss dist/default/production\LCD_tecl2.X.production.o
 __Hbigram 0 0 ABS 0 bigram dist/default/production\LCD_tecl2.X.production.o
 __Hbigsfr 0 0 ABS 0 bigsfr dist/default/production\LCD_tecl2.X.production.o
-__smallconst 600 0 SMALLCONST 0 smallconst C:\Users\ufop\AppData\Local\Temp\xcAsfms.o
+__smallconst 600 0 SMALLCONST 0 smallconst C:\Users\ufop\AppData\Local\Temp\xcAsfok.o
 Lcd_Out@data 8 0 COMRAM 1 cstackCOMRAM dist/default/production\LCD_tecl2.X.production.o
 __Hcomram 0 0 ABS 0 comram dist/default/production\LCD_tecl2.X.production.o
 __Hconfig 30000E 0 CONFIG 4 config dist/default/production\LCD_tecl2.X.production.o
@@ -386,7 +403,7 @@ __Ltext 0 0 ABS 0 text dist/default/production\LCD_tecl2.X.production.o
 __HcstackCOMRAM 0 0 ABS 0 cstackCOMRAM dist/default/production\LCD_tecl2.X.production.o
 __Hintret 0 0 ABS 0 intret dist/default/production\LCD_tecl2.X.production.o
 __Hirdata 0 0 CODE 0 irdata dist/default/production\LCD_tecl2.X.production.o
-__S0 1025 0 ABS 0 - dist/default/production\LCD_tecl2.X.production.o
+__S0 10FD 0 ABS 0 - dist/default/production\LCD_tecl2.X.production.o
 __S1 C 0 ABS 0 - dist/default/production\LCD_tecl2.X.production.o
 __S4 0 0 ABS 0 - dist/default/production\LCD_tecl2.X.production.o
 __S5 0 0 ABS 0 - dist/default/production\LCD_tecl2.X.production.o
@@ -397,20 +414,21 @@ __Lintentry 0 0 ABS 0 intentry dist/default/production\LCD_tecl2.X.production.o
 __Hramtop 600 0 RAM 0 ramtop dist/default/production\LCD_tecl2.X.production.o
 __Hrparam 0 0 COMRAM 1 rparam dist/default/production\LCD_tecl2.X.production.o
 __activetblptr 2 0 ABS 0 - dist/default/production\LCD_tecl2.X.production.o
-__end_of_Lcd_Cmd E64 0 CODE 0 text5 dist/default/production\LCD_tecl2.X.production.o
-__end_of_Lcd_Out 1008 0 CODE 0 text2 dist/default/production\LCD_tecl2.X.production.o
+__end_of_Lcd_Cmd F3C 0 CODE 0 text5 dist/default/production\LCD_tecl2.X.production.o
+__end_of_Lcd_Out 10E0 0 CODE 0 text2 dist/default/production\LCD_tecl2.X.production.o
 __Hstruct 0 0 COMRAM 1 struct dist/default/production\LCD_tecl2.X.production.o
 __Lbigbss 0 0 BIGRAM 1 bigbss dist/default/production\LCD_tecl2.X.production.o
 __Lbigram 0 0 ABS 0 bigram dist/default/production\LCD_tecl2.X.production.o
 __Lbigsfr 0 0 ABS 0 bigsfr dist/default/production\LCD_tecl2.X.production.o
 __Lcomram 0 0 ABS 0 comram dist/default/production\LCD_tecl2.X.production.o
 __Lconfig 0 0 CONFIG 4 config dist/default/production\LCD_tecl2.X.production.o
+_LATBbits F8A 0 ABS 0 - dist/default/production\LCD_tecl2.X.production.o
 Lcd_Out@buffer 5 0 COMRAM 1 cstackCOMRAM dist/default/production\LCD_tecl2.X.production.o
 __Lfarbss 0 0 FARRAM 0 farbss dist/default/production\LCD_tecl2.X.production.o
 __Lfardata 0 0 FARRAM 0 fardata dist/default/production\LCD_tecl2.X.production.o
-isa$std 1 0 ABS 0 - C:\Users\ufop\AppData\Local\Temp\xcAsfms.o
-stackhi 0 0 ABS 0 - C:\Users\ufop\AppData\Local\Temp\xcAsfms.o
-stacklo 0 0 ABS 0 - C:\Users\ufop\AppData\Local\Temp\xcAsfms.o
+isa$std 1 0 ABS 0 - C:\Users\ufop\AppData\Local\Temp\xcAsfok.o
+stackhi 0 0 ABS 0 - C:\Users\ufop\AppData\Local\Temp\xcAsfok.o
+stacklo 0 0 ABS 0 - C:\Users\ufop\AppData\Local\Temp\xcAsfok.o
 __Lintcode 0 0 CODE 0 intcode dist/default/production\LCD_tecl2.X.production.o
 __Lintret 0 0 ABS 0 intret dist/default/production\LCD_tecl2.X.production.o
 __Lirdata 0 0 CODE 0 irdata dist/default/production\LCD_tecl2.X.production.o
@@ -419,31 +437,31 @@ __Lspace_1 0 0 ABS 0 - dist/default/production\LCD_tecl2.X.production.o
 __Lspace_2 0 0 ABS 0 - dist/default/production\LCD_tecl2.X.production.o
 __Lspace_4 0 0 ABS 0 - dist/default/production\LCD_tecl2.X.production.o
 __LcstackCOMRAM 0 0 ABS 0 cstackCOMRAM dist/default/production\LCD_tecl2.X.production.o
-end_of_initialization 101A 0 CODE 0 cinit dist/default/production\LCD_tecl2.X.production.o
+end_of_initialization 10F2 0 CODE 0 cinit dist/default/production\LCD_tecl2.X.production.o
 __Lnvrram 0 0 COMRAM 1 nvrram dist/default/production\LCD_tecl2.X.production.o
 __Hintentry 0 0 ABS 0 intentry dist/default/production\LCD_tecl2.X.production.o
 __Hreset_vec 0 0 CODE 0 reset_vec dist/default/production\LCD_tecl2.X.production.o
 __Lramtop 600 0 RAM 0 ramtop dist/default/production\LCD_tecl2.X.production.o
 __Lrparam 0 0 COMRAM 1 rparam dist/default/production\LCD_tecl2.X.production.o
-__pcinit 1008 0 CODE 0 cinit dist/default/production\LCD_tecl2.X.production.o
-__ptext0 976 0 CODE 0 text0 dist/default/production\LCD_tecl2.X.production.o
-__ptext1 63C 0 CODE 0 text1 dist/default/production\LCD_tecl2.X.production.o
-__ptext2 F78 0 CODE 0 text2 dist/default/production\LCD_tecl2.X.production.o
-__ptext3 C04 0 CODE 0 text3 dist/default/production\LCD_tecl2.X.production.o
-__ptext4 E64 0 CODE 0 text4 dist/default/production\LCD_tecl2.X.production.o
-__ptext5 D38 0 CODE 0 text5 dist/default/production\LCD_tecl2.X.production.o
+__pcinit 10E0 0 CODE 0 cinit dist/default/production\LCD_tecl2.X.production.o
+__ptext0 646 0 CODE 0 text0 dist/default/production\LCD_tecl2.X.production.o
+__ptext1 9A2 0 CODE 0 text1 dist/default/production\LCD_tecl2.X.production.o
+__ptext2 1050 0 CODE 0 text2 dist/default/production\LCD_tecl2.X.production.o
+__ptext3 CDC 0 CODE 0 text3 dist/default/production\LCD_tecl2.X.production.o
+__ptext4 F3C 0 CODE 0 text4 dist/default/production\LCD_tecl2.X.production.o
+__ptext5 E10 0 CODE 0 text5 dist/default/production\LCD_tecl2.X.production.o
 __Lstruct 0 0 COMRAM 1 struct dist/default/production\LCD_tecl2.X.production.o
-__ramtop 600 0 RAM 0 ramtop C:\Users\ufop\AppData\Local\Temp\xcAsfms.o
+__ramtop 600 0 RAM 0 ramtop C:\Users\ufop\AppData\Local\Temp\xcAsfok.o
 Lcd_Cmd@data 3 0 COMRAM 1 cstackCOMRAM dist/default/production\LCD_tecl2.X.production.o
 __Lpowerup 0 0 CODE 0 powerup dist/default/production\LCD_tecl2.X.production.o
 __Leeprom_data 0 0 EEDATA 0 eeprom_data dist/default/production\LCD_tecl2.X.production.o
 __psmallconst 600 0 SMALLCONST 0 smallconst dist/default/production\LCD_tecl2.X.production.o
 __Lreset_vec 0 0 CODE 0 reset_vec dist/default/production\LCD_tecl2.X.production.o
-___heap_hi 0 0 ABS 0 - C:\Users\ufop\AppData\Local\Temp\xcAsfms.o
-___heap_lo 0 0 ABS 0 - C:\Users\ufop\AppData\Local\Temp\xcAsfms.o
+___heap_hi 0 0 ABS 0 - C:\Users\ufop\AppData\Local\Temp\xcAsfok.o
+___heap_lo 0 0 ABS 0 - C:\Users\ufop\AppData\Local\Temp\xcAsfok.o
 ___param_bank 0 0 ABS 0 - dist/default/production\LCD_tecl2.X.production.o
 __Hbigdata 0 0 BIGRAM 1 bigdata dist/default/production\LCD_tecl2.X.production.o
-__end_of__initialization 101A 0 CODE 0 cinit dist/default/production\LCD_tecl2.X.production.o
+__end_of__initialization 10F2 0 CODE 0 cinit dist/default/production\LCD_tecl2.X.production.o
 _INTCON2 FF1 0 ABS 0 - dist/default/production\LCD_tecl2.X.production.o
 _INTCON3 FF0 0 ABS 0 - dist/default/production\LCD_tecl2.X.production.o
 __Libigdata 0 0 CODE 0 ibigdata dist/default/production\LCD_tecl2.X.production.o
@@ -451,9 +469,9 @@ Lcd_Out@x 4 0 COMRAM 1 cstackCOMRAM dist/default/production\LCD_tecl2.X.producti
 Lcd_Out@y 7 0 COMRAM 1 cstackCOMRAM dist/default/production\LCD_tecl2.X.production.o
 __Lclrtext 0 0 ABS 0 clrtext dist/default/production\LCD_tecl2.X.production.o
 __pcstackCOMRAM 1 0 COMRAM 1 cstackCOMRAM dist/default/production\LCD_tecl2.X.production.o
-_tc_tecla 63C 0 CODE 0 text1 dist/default/production\LCD_tecl2.X.production.o
+_tc_tecla 9A2 0 CODE 0 text1 dist/default/production\LCD_tecl2.X.production.o
 Lcd_Init@data 5 0 COMRAM 1 cstackCOMRAM dist/default/production\LCD_tecl2.X.production.o
-__end_of_main C04 0 CODE 0 text0 dist/default/production\LCD_tecl2.X.production.o
+__end_of_main 9A2 0 CODE 0 text0 dist/default/production\LCD_tecl2.X.production.o
 _PORTB F81 0 ABS 0 - dist/default/production\LCD_tecl2.X.production.o
 _PORTC F82 0 ABS 0 - dist/default/production\LCD_tecl2.X.production.o
 _PORTD F83 0 ABS 0 - dist/default/production\LCD_tecl2.X.production.o
@@ -462,7 +480,7 @@ _TRISB F93 0 ABS 0 - dist/default/production\LCD_tecl2.X.production.o
 _TRISC F94 0 ABS 0 - dist/default/production\LCD_tecl2.X.production.o
 _TRISD F95 0 ABS 0 - dist/default/production\LCD_tecl2.X.production.o
 _TRISE F96 0 ABS 0 - dist/default/production\LCD_tecl2.X.production.o
-__end_of_tc_tecla 976 0 CODE 0 text1 dist/default/production\LCD_tecl2.X.production.o
+__end_of_tc_tecla CDC 0 CODE 0 text1 dist/default/production\LCD_tecl2.X.production.o
 __HRAM 0 0 ABS 0 - dist/default/production\LCD_tecl2.X.production.o
 __Hbss 0 0 RAM 1 bss dist/default/production\LCD_tecl2.X.production.o
 __Hram 0 0 ABS 0 ram dist/default/production\LCD_tecl2.X.production.o
@@ -472,12 +490,12 @@ __Lbss 0 0 RAM 1 bss dist/default/production\LCD_tecl2.X.production.o
 __Lram 0 0 ABS 0 ram dist/default/production\LCD_tecl2.X.production.o
 __Lsfr 0 0 ABS 0 sfr dist/default/production\LCD_tecl2.X.production.o
 _tecla B 0 COMRAM 1 dataCOMRAM dist/default/production\LCD_tecl2.X.production.o
-_Lcd_Cmd D38 0 CODE 0 text5 dist/default/production\LCD_tecl2.X.production.o
-_Lcd_Out F78 0 CODE 0 text2 dist/default/production\LCD_tecl2.X.production.o
-__initialization 1008 0 CODE 0 cinit dist/default/production\LCD_tecl2.X.production.o
+_Lcd_Cmd E10 0 CODE 0 text5 dist/default/production\LCD_tecl2.X.production.o
+_Lcd_Out 1050 0 CODE 0 text2 dist/default/production\LCD_tecl2.X.production.o
+__initialization 10E0 0 CODE 0 cinit dist/default/production\LCD_tecl2.X.production.o
 __pdataCOMRAM B 0 COMRAM 1 dataCOMRAM dist/default/production\LCD_tecl2.X.production.o
 __Hfardata 0 0 FARRAM 0 fardata dist/default/production\LCD_tecl2.X.production.o
-__Hsmallconst 63C 0 SMALLCONST 0 smallconst dist/default/production\LCD_tecl2.X.production.o
+__Hsmallconst 646 0 SMALLCONST 0 smallconst dist/default/production\LCD_tecl2.X.production.o
 __Lifardata 0 0 CODE 0 ifardata dist/default/production\LCD_tecl2.X.production.o
 __Hintsave_regs 0 0 BIGRAM 1 intsave_regs dist/default/production\LCD_tecl2.X.production.o
 __Hintcode 0 0 CODE 0 intcode dist/default/production\LCD_tecl2.X.production.o
@@ -505,10 +523,10 @@ __Hintcode 0 0 CODE 0 intcode dist/default/production\LCD_tecl2.X.production.o
 # and size are in units of delta. The file address is in units of bytes.
 # All other numeric quantities are in decimal.
 %SEGMENTS
-text1 0 63C 63C 9E9 1
+text0 0 646 646 AB7 1
 cstackCOMRAM 1 1 1 B 1
 reset_vec 0 0 0 4 1
-smallconst 0 600 600 3C 1
+smallconst 0 600 600 46 1
 # %NOTES Section
 # This section contains data of all the note-psects.  The beginning of the section
 # is indicated by %NOTES. The first line indicates the name and decimal

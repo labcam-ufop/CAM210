@@ -13,31 +13,31 @@ unsigned char tc_tecla()
     if(!C1)        {__delay_ms(20); if (!C1){key = '1';  }}
     else if(!C2)   {__delay_ms(20); if (!C2){key = '2';  }}
     else if(!C3)   {__delay_ms(20); if (!C3){key = '3';  }}
-    else if(!C4)   {__delay_ms(20); if (!C4){key = '4';  }}
+    else if(!C4)   {__delay_ms(20); if (!C4){key = 'A';  }}
 
     L1 = 1;
     L2 = 0;
 
-//    if(!C1)        {__delay_ms(20); if (!C1){key = '4';  }}
-//    else if(!C2)   {__delay_ms(20); if (!C2){key = '5';  }}
-//    else if(!C3)   {__delay_ms(20); if (!C3){key = '6';  }}
-//    else if(!C4)   {__delay_ms(20); if (!C4){key = 'B';  }}
+    if(!C1)        {__delay_ms(20); if (!C1){key = '4';  }}
+    else if(!C2)   {__delay_ms(20); if (!C2){key = '5';  }}
+    else if(!C3)   {__delay_ms(20); if (!C3){key = '6';  }}
+    else if(!C4)   {__delay_ms(20); if (!C4){key = 'B';  }}
 
     L2 = 1;
     L3 = 0;
 
-    if(!C1)        {__delay_ms(20); if (!C1){key = '5';  }}
-    else if(!C2)   {__delay_ms(20); if (!C2){key = '6';  }}
-    else if(!C3)   {__delay_ms(20); if (!C3){key = '7';  }}
-    else if(!C4)   {__delay_ms(20); if (!C4){key = '8';  }}
+    if(!C1)        {__delay_ms(20); if (!C1){key = '7';  }}
+    else if(!C2)   {__delay_ms(20); if (!C2){key = '8';  }}
+    else if(!C3)   {__delay_ms(20); if (!C3){key = '9';  }}
+    else if(!C4)   {__delay_ms(20); if (!C4){key = 'C';  }}
 
     L3 = 1;
     L4 = 0;
 
-    if(!C1)        {__delay_ms(20); if (!C1){key = '9';  }}
+    if(!C1)        {__delay_ms(20); if (!C1){key = 'x';  }}
     else if(!C2)   {__delay_ms(20); if (!C2){key = '0';  }}
-    else if(!C3)   {__delay_ms(20); if (!C3){key = '-';  }}
-    else if(!C4)   {__delay_ms(20); if (!C4){key = 'x';  }}
+    else if(!C3)   {__delay_ms(20); if (!C3){key = 'F';  }}
+    else if(!C4)   {__delay_ms(20); if (!C4){key = 'D';  }}
 
     L4 = 1;
 

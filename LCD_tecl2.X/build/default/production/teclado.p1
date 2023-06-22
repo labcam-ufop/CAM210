@@ -1,5 +1,16 @@
 Version 3.2 HI-TECH Software Intermediate Code
-"277 C:/Users/ufop/.mchp_packs/Microchip/PIC18Fxxxx_DFP/1.2.26/xc8\pic\include\proc\pic18f4520.h
+"1095 C:/Users/ufop/.mchp_packs/Microchip/PIC18Fxxxx_DFP/1.2.26/xc8\pic\include\proc\pic18f4520.h
+[s S43 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 ]
+[n S43 . LATB0 LATB1 LATB2 LATB3 LATB4 LATB5 LATB6 LATB7 ]
+"1105
+[s S44 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 ]
+[n S44 . LB0 LB1 LB2 LB3 LB4 LB5 LB6 LB7 ]
+"1094
+[u S42 `S43 1 `S44 1 ]
+[n S42 . . . ]
+"1116
+[v _LATBbits `VS42 ~T0 @X0 0 e@3978 ]
+"277
 [s S12 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 ]
 [n S12 . RB0 RB1 RB2 RB3 RB4 RB5 RB6 RB7 ]
 "287
@@ -2843,15 +2854,15 @@ Version 3.2 HI-TECH Software Intermediate Code
 "9
 [v _key `uc ~T0 @X0 1 a ]
 [; ;teclado.c: 9: unsigned char key;
-[; ;teclado.c: 11: PORTBbits.RB4 = 1; PORTBbits.RB5 = 1; PORTBbits.RB6 = 1; PORTBbits.RB7 = 1;
+[; ;teclado.c: 11: LATBbits.LB4 = 1; LATBbits.LB5 = 1; LATBbits.LB6 = 1; LATBbits.LB7 = 1;
 "11
-[e = . . _PORTBbits 0 4 -> -> 1 `i `uc ]
-[e = . . _PORTBbits 0 5 -> -> 1 `i `uc ]
-[e = . . _PORTBbits 0 6 -> -> 1 `i `uc ]
-[e = . . _PORTBbits 0 7 -> -> 1 `i `uc ]
-[; ;teclado.c: 12: PORTBbits.RB4 = 0;
+[e = . . _LATBbits 1 4 -> -> 1 `i `uc ]
+[e = . . _LATBbits 1 5 -> -> 1 `i `uc ]
+[e = . . _LATBbits 1 6 -> -> 1 `i `uc ]
+[e = . . _LATBbits 1 7 -> -> 1 `i `uc ]
+[; ;teclado.c: 12: LATBbits.LB4 = 0;
 "12
-[e = . . _PORTBbits 0 4 -> -> 0 `i `uc ]
+[e = . . _LATBbits 1 4 -> -> 0 `i `uc ]
 [; ;teclado.c: 13: if(!PORTBbits.RB3) {_delay((unsigned long)((20)*(8000000/4000.0))); if (!PORTBbits.RB3){key = '1'; }}
 "13
 [e $ ! ! != -> . . _PORTBbits 0 3 `i -> -> -> 0 `i `Vuc `i 277  ]
@@ -2892,13 +2903,13 @@ Version 3.2 HI-TECH Software Intermediate Code
 [e $U 285  ]
 "16
 [e :U 283 ]
-[; ;teclado.c: 16: else if(!PORTBbits.RB0) {_delay((unsigned long)((20)*(8000000/4000.0))); if (!PORTBbits.RB0){key = '4'; }}
+[; ;teclado.c: 16: else if(!PORTBbits.RB0) {_delay((unsigned long)((20)*(8000000/4000.0))); if (!PORTBbits.RB0){key = 'A'; }}
 [e $ ! ! != -> . . _PORTBbits 0 0 `i -> -> -> 0 `i `Vuc `i 286  ]
 {
 [e ( __delay (1 -> * -> -> 20 `i `d / -> -> 8000000 `l `d .4000.0 `ul ]
 [e $ ! ! != -> . . _PORTBbits 0 0 `i -> -> -> 0 `i `Vuc `i 287  ]
 {
-[e = _key -> -> 52 `ui `uc ]
+[e = _key -> -> 65 `ui `uc ]
 }
 [e :U 287 ]
 }
@@ -2907,11 +2918,11 @@ Version 3.2 HI-TECH Software Intermediate Code
 [e :U 285 ]
 [e :U 282 ]
 [e :U 279 ]
-[; ;teclado.c: 18: PORTBbits.RB4 = 1;
-[e = . . _PORTBbits 0 4 -> -> 1 `i `uc ]
-[; ;teclado.c: 19: PORTBbits.RB5 = 0;
+[; ;teclado.c: 18: LATBbits.LB4 = 1;
+[e = . . _LATBbits 1 4 -> -> 1 `i `uc ]
+[; ;teclado.c: 19: LATBbits.LB5 = 0;
 "19
-[e = . . _PORTBbits 0 5 -> -> 0 `i `uc ]
+[e = . . _LATBbits 1 5 -> -> 0 `i `uc ]
 [; ;teclado.c: 21: if(!PORTBbits.RB3) {_delay((unsigned long)((20)*(8000000/4000.0))); if (!PORTBbits.RB3){key = '4'; }}
 "21
 [e $ ! ! != -> . . _PORTBbits 0 3 `i -> -> -> 0 `i `Vuc `i 288  ]
@@ -2967,58 +2978,58 @@ Version 3.2 HI-TECH Software Intermediate Code
 [e :U 296 ]
 [e :U 293 ]
 [e :U 290 ]
-[; ;teclado.c: 26: PORTBbits.RB5 = 1;
-[e = . . _PORTBbits 0 5 -> -> 1 `i `uc ]
-[; ;teclado.c: 27: PORTBbits.RB6 = 0;
+[; ;teclado.c: 26: LATBbits.LB5 = 1;
+[e = . . _LATBbits 1 5 -> -> 1 `i `uc ]
+[; ;teclado.c: 27: LATBbits.LB6 = 0;
 "27
-[e = . . _PORTBbits 0 6 -> -> 0 `i `uc ]
-[; ;teclado.c: 29: if(!PORTBbits.RB3) {_delay((unsigned long)((20)*(8000000/4000.0))); if (!PORTBbits.RB3){key = '5'; }}
+[e = . . _LATBbits 1 6 -> -> 0 `i `uc ]
+[; ;teclado.c: 29: if(!PORTBbits.RB3) {_delay((unsigned long)((20)*(8000000/4000.0))); if (!PORTBbits.RB3){key = '7'; }}
 "29
 [e $ ! ! != -> . . _PORTBbits 0 3 `i -> -> -> 0 `i `Vuc `i 299  ]
 {
 [e ( __delay (1 -> * -> -> 20 `i `d / -> -> 8000000 `l `d .4000.0 `ul ]
 [e $ ! ! != -> . . _PORTBbits 0 3 `i -> -> -> 0 `i `Vuc `i 300  ]
 {
-[e = _key -> -> 53 `ui `uc ]
+[e = _key -> -> 55 `ui `uc ]
 }
 [e :U 300 ]
 }
 [e $U 301  ]
 "30
 [e :U 299 ]
-[; ;teclado.c: 30: else if(!PORTBbits.RB2) {_delay((unsigned long)((20)*(8000000/4000.0))); if (!PORTBbits.RB2){key = '6'; }}
+[; ;teclado.c: 30: else if(!PORTBbits.RB2) {_delay((unsigned long)((20)*(8000000/4000.0))); if (!PORTBbits.RB2){key = '8'; }}
 [e $ ! ! != -> . . _PORTBbits 0 2 `i -> -> -> 0 `i `Vuc `i 302  ]
 {
 [e ( __delay (1 -> * -> -> 20 `i `d / -> -> 8000000 `l `d .4000.0 `ul ]
 [e $ ! ! != -> . . _PORTBbits 0 2 `i -> -> -> 0 `i `Vuc `i 303  ]
 {
-[e = _key -> -> 54 `ui `uc ]
+[e = _key -> -> 56 `ui `uc ]
 }
 [e :U 303 ]
 }
 [e $U 304  ]
 "31
 [e :U 302 ]
-[; ;teclado.c: 31: else if(!PORTBbits.RB1) {_delay((unsigned long)((20)*(8000000/4000.0))); if (!PORTBbits.RB1){key = '7'; }}
+[; ;teclado.c: 31: else if(!PORTBbits.RB1) {_delay((unsigned long)((20)*(8000000/4000.0))); if (!PORTBbits.RB1){key = '9'; }}
 [e $ ! ! != -> . . _PORTBbits 0 1 `i -> -> -> 0 `i `Vuc `i 305  ]
 {
 [e ( __delay (1 -> * -> -> 20 `i `d / -> -> 8000000 `l `d .4000.0 `ul ]
 [e $ ! ! != -> . . _PORTBbits 0 1 `i -> -> -> 0 `i `Vuc `i 306  ]
 {
-[e = _key -> -> 55 `ui `uc ]
+[e = _key -> -> 57 `ui `uc ]
 }
 [e :U 306 ]
 }
 [e $U 307  ]
 "32
 [e :U 305 ]
-[; ;teclado.c: 32: else if(!PORTBbits.RB0) {_delay((unsigned long)((20)*(8000000/4000.0))); if (!PORTBbits.RB0){key = '8'; }}
+[; ;teclado.c: 32: else if(!PORTBbits.RB0) {_delay((unsigned long)((20)*(8000000/4000.0))); if (!PORTBbits.RB0){key = 'C'; }}
 [e $ ! ! != -> . . _PORTBbits 0 0 `i -> -> -> 0 `i `Vuc `i 308  ]
 {
 [e ( __delay (1 -> * -> -> 20 `i `d / -> -> 8000000 `l `d .4000.0 `ul ]
 [e $ ! ! != -> . . _PORTBbits 0 0 `i -> -> -> 0 `i `Vuc `i 309  ]
 {
-[e = _key -> -> 56 `ui `uc ]
+[e = _key -> -> 67 `ui `uc ]
 }
 [e :U 309 ]
 }
@@ -3027,19 +3038,19 @@ Version 3.2 HI-TECH Software Intermediate Code
 [e :U 307 ]
 [e :U 304 ]
 [e :U 301 ]
-[; ;teclado.c: 34: PORTBbits.RB6 = 1;
-[e = . . _PORTBbits 0 6 -> -> 1 `i `uc ]
-[; ;teclado.c: 35: PORTBbits.RB7 = 0;
+[; ;teclado.c: 34: LATBbits.LB6 = 1;
+[e = . . _LATBbits 1 6 -> -> 1 `i `uc ]
+[; ;teclado.c: 35: LATBbits.LB7 = 0;
 "35
-[e = . . _PORTBbits 0 7 -> -> 0 `i `uc ]
-[; ;teclado.c: 37: if(!PORTBbits.RB3) {_delay((unsigned long)((20)*(8000000/4000.0))); if (!PORTBbits.RB3){key = '9'; }}
+[e = . . _LATBbits 1 7 -> -> 0 `i `uc ]
+[; ;teclado.c: 37: if(!PORTBbits.RB3) {_delay((unsigned long)((20)*(8000000/4000.0))); if (!PORTBbits.RB3){key = 'x'; }}
 "37
 [e $ ! ! != -> . . _PORTBbits 0 3 `i -> -> -> 0 `i `Vuc `i 310  ]
 {
 [e ( __delay (1 -> * -> -> 20 `i `d / -> -> 8000000 `l `d .4000.0 `ul ]
 [e $ ! ! != -> . . _PORTBbits 0 3 `i -> -> -> 0 `i `Vuc `i 311  ]
 {
-[e = _key -> -> 57 `ui `uc ]
+[e = _key -> -> 120 `ui `uc ]
 }
 [e :U 311 ]
 }
@@ -3059,26 +3070,26 @@ Version 3.2 HI-TECH Software Intermediate Code
 [e $U 315  ]
 "39
 [e :U 313 ]
-[; ;teclado.c: 39: else if(!PORTBbits.RB1) {_delay((unsigned long)((20)*(8000000/4000.0))); if (!PORTBbits.RB1){key = '-'; }}
+[; ;teclado.c: 39: else if(!PORTBbits.RB1) {_delay((unsigned long)((20)*(8000000/4000.0))); if (!PORTBbits.RB1){key = 'F'; }}
 [e $ ! ! != -> . . _PORTBbits 0 1 `i -> -> -> 0 `i `Vuc `i 316  ]
 {
 [e ( __delay (1 -> * -> -> 20 `i `d / -> -> 8000000 `l `d .4000.0 `ul ]
 [e $ ! ! != -> . . _PORTBbits 0 1 `i -> -> -> 0 `i `Vuc `i 317  ]
 {
-[e = _key -> -> 45 `ui `uc ]
+[e = _key -> -> 70 `ui `uc ]
 }
 [e :U 317 ]
 }
 [e $U 318  ]
 "40
 [e :U 316 ]
-[; ;teclado.c: 40: else if(!PORTBbits.RB0) {_delay((unsigned long)((20)*(8000000/4000.0))); if (!PORTBbits.RB0){key = 'x'; }}
+[; ;teclado.c: 40: else if(!PORTBbits.RB0) {_delay((unsigned long)((20)*(8000000/4000.0))); if (!PORTBbits.RB0){key = 'D'; }}
 [e $ ! ! != -> . . _PORTBbits 0 0 `i -> -> -> 0 `i `Vuc `i 319  ]
 {
 [e ( __delay (1 -> * -> -> 20 `i `d / -> -> 8000000 `l `d .4000.0 `ul ]
 [e $ ! ! != -> . . _PORTBbits 0 0 `i -> -> -> 0 `i `Vuc `i 320  ]
 {
-[e = _key -> -> 120 `ui `uc ]
+[e = _key -> -> 68 `ui `uc ]
 }
 [e :U 320 ]
 }
@@ -3087,8 +3098,8 @@ Version 3.2 HI-TECH Software Intermediate Code
 [e :U 318 ]
 [e :U 315 ]
 [e :U 312 ]
-[; ;teclado.c: 42: PORTBbits.RB7 = 1;
-[e = . . _PORTBbits 0 7 -> -> 1 `i `uc ]
+[; ;teclado.c: 42: LATBbits.LB7 = 1;
+[e = . . _LATBbits 1 7 -> -> 1 `i `uc ]
 [; ;teclado.c: 44: _delay((unsigned long)((20)*(8000000/4000.0)));
 "44
 [e ( __delay (1 -> * -> -> 20 `i `d / -> -> 8000000 `l `d .4000.0 `ul ]

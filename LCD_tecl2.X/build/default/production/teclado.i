@@ -4531,38 +4531,38 @@ unsigned char tc_tecla()
 {
 unsigned char key;
 
-PORTBbits.RB4 = 1; PORTBbits.RB5 = 1; PORTBbits.RB6 = 1; PORTBbits.RB7 = 1;
-PORTBbits.RB4 = 0;
+LATBbits.LB4 = 1; LATBbits.LB5 = 1; LATBbits.LB6 = 1; LATBbits.LB7 = 1;
+LATBbits.LB4 = 0;
 if(!PORTBbits.RB3) {_delay((unsigned long)((20)*(8000000/4000.0))); if (!PORTBbits.RB3){key = '1'; }}
 else if(!PORTBbits.RB2) {_delay((unsigned long)((20)*(8000000/4000.0))); if (!PORTBbits.RB2){key = '2'; }}
 else if(!PORTBbits.RB1) {_delay((unsigned long)((20)*(8000000/4000.0))); if (!PORTBbits.RB1){key = '3'; }}
-else if(!PORTBbits.RB0) {_delay((unsigned long)((20)*(8000000/4000.0))); if (!PORTBbits.RB0){key = '4'; }}
+else if(!PORTBbits.RB0) {_delay((unsigned long)((20)*(8000000/4000.0))); if (!PORTBbits.RB0){key = 'A'; }}
 
-PORTBbits.RB4 = 1;
-PORTBbits.RB5 = 0;
+LATBbits.LB4 = 1;
+LATBbits.LB5 = 0;
 
 if(!PORTBbits.RB3) {_delay((unsigned long)((20)*(8000000/4000.0))); if (!PORTBbits.RB3){key = '4'; }}
 else if(!PORTBbits.RB2) {_delay((unsigned long)((20)*(8000000/4000.0))); if (!PORTBbits.RB2){key = '5'; }}
 else if(!PORTBbits.RB1) {_delay((unsigned long)((20)*(8000000/4000.0))); if (!PORTBbits.RB1){key = '6'; }}
 else if(!PORTBbits.RB0) {_delay((unsigned long)((20)*(8000000/4000.0))); if (!PORTBbits.RB0){key = 'B'; }}
 
-PORTBbits.RB5 = 1;
-PORTBbits.RB6 = 0;
+LATBbits.LB5 = 1;
+LATBbits.LB6 = 0;
 
-if(!PORTBbits.RB3) {_delay((unsigned long)((20)*(8000000/4000.0))); if (!PORTBbits.RB3){key = '5'; }}
-else if(!PORTBbits.RB2) {_delay((unsigned long)((20)*(8000000/4000.0))); if (!PORTBbits.RB2){key = '6'; }}
-else if(!PORTBbits.RB1) {_delay((unsigned long)((20)*(8000000/4000.0))); if (!PORTBbits.RB1){key = '7'; }}
-else if(!PORTBbits.RB0) {_delay((unsigned long)((20)*(8000000/4000.0))); if (!PORTBbits.RB0){key = '8'; }}
+if(!PORTBbits.RB3) {_delay((unsigned long)((20)*(8000000/4000.0))); if (!PORTBbits.RB3){key = '7'; }}
+else if(!PORTBbits.RB2) {_delay((unsigned long)((20)*(8000000/4000.0))); if (!PORTBbits.RB2){key = '8'; }}
+else if(!PORTBbits.RB1) {_delay((unsigned long)((20)*(8000000/4000.0))); if (!PORTBbits.RB1){key = '9'; }}
+else if(!PORTBbits.RB0) {_delay((unsigned long)((20)*(8000000/4000.0))); if (!PORTBbits.RB0){key = 'C'; }}
 
-PORTBbits.RB6 = 1;
-PORTBbits.RB7 = 0;
+LATBbits.LB6 = 1;
+LATBbits.LB7 = 0;
 
-if(!PORTBbits.RB3) {_delay((unsigned long)((20)*(8000000/4000.0))); if (!PORTBbits.RB3){key = '9'; }}
+if(!PORTBbits.RB3) {_delay((unsigned long)((20)*(8000000/4000.0))); if (!PORTBbits.RB3){key = 'x'; }}
 else if(!PORTBbits.RB2) {_delay((unsigned long)((20)*(8000000/4000.0))); if (!PORTBbits.RB2){key = '0'; }}
-else if(!PORTBbits.RB1) {_delay((unsigned long)((20)*(8000000/4000.0))); if (!PORTBbits.RB1){key = '-'; }}
-else if(!PORTBbits.RB0) {_delay((unsigned long)((20)*(8000000/4000.0))); if (!PORTBbits.RB0){key = 'x'; }}
+else if(!PORTBbits.RB1) {_delay((unsigned long)((20)*(8000000/4000.0))); if (!PORTBbits.RB1){key = 'F'; }}
+else if(!PORTBbits.RB0) {_delay((unsigned long)((20)*(8000000/4000.0))); if (!PORTBbits.RB0){key = 'D'; }}
 
-PORTBbits.RB7 = 1;
+LATBbits.LB7 = 1;
 
 _delay((unsigned long)((20)*(8000000/4000.0)));
 

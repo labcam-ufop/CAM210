@@ -4582,130 +4582,17 @@ unsigned char __t3rd16on(void);
 # 41 "teclado.h"
 unsigned char tc_tecla();
 
-# 70 "flexlcd.h"
+# 82 "flexlcd.h"
 void Lcd_Init(void);
 void Lcd_Out(unsigned char y, unsigned char x, const char *buffer);
 void Lcd_Out2(unsigned char y, unsigned char x, char *buffer);
 void Lcd_Chr_CP(char data);
 void Lcd_Cmd(unsigned char data);
 
-void Lcd_Init(void){
-unsigned char data;
-TRISDbits.TRISD7 = 0;
-TRISDbits.TRISD6 = 0;
-TRISDbits.TRISD5 = 0;
-TRISDbits.TRISD4 = 0;
-TRISEbits.TRISE1 = 0;
-TRISEbits.TRISE0 = 0;
-TRISEbits.TRISE2 = 0;
-PORTEbits.RE2 = 0;
-PORTDbits.RD7 = 0;
-PORTDbits.RD6 = 0;
-PORTDbits.RD5 = 0;
-PORTDbits.RD4 = 0;
-PORTEbits.RE1 = 0;
-PORTEbits.RE0 = 0;
-_delay((unsigned long)((5500)*(8000000/4000000.0)));
-_delay((unsigned long)((5500)*(8000000/4000000.0)));
-_delay((unsigned long)((5500)*(8000000/4000000.0)));
-_delay((unsigned long)((5500)*(8000000/4000000.0)));
-_delay((unsigned long)((5500)*(8000000/4000000.0)));
-_delay((unsigned long)((5500)*(8000000/4000000.0)));
-for(data = 1; data < 4; data ++)
-{
-PORTDbits.RD7 = 0; PORTDbits.RD6 = 0; PORTDbits.RD5 = 1; PORTDbits.RD4 = 1; PORTEbits.RE1 = 0;
-PORTEbits.RE0 = 0; PORTDbits.RD7 = 0; PORTDbits.RD6 = 0; PORTDbits.RD5 = 1; PORTDbits.RD4 = 1;
-PORTEbits.RE1 = 1; PORTEbits.RE0 = 0;
-_delay((unsigned long)((5)*(8000000/4000000.0)));
-PORTDbits.RD7 = 0; PORTDbits.RD6 = 0; PORTDbits.RD5 = 1; PORTDbits.RD4 = 1; PORTEbits.RE1 = 0;
-PORTEbits.RE0 = 0;
-_delay((unsigned long)((5500)*(8000000/4000000.0)));
-}
-PORTDbits.RD7 = 0; PORTDbits.RD6 = 0; PORTDbits.RD5 = 1; PORTDbits.RD4 = 0; PORTEbits.RE1 = 0; PORTEbits.RE0 = 0;
-PORTDbits.RD7 = 0; PORTDbits.RD6 = 0; PORTDbits.RD5 = 1; PORTDbits.RD4 = 0; PORTEbits.RE1 = 1; PORTEbits.RE0 = 0;
-_delay((unsigned long)((5)*(8000000/4000000.0)));
-PORTDbits.RD7 = 0; PORTDbits.RD6 = 0; PORTDbits.RD5 = 1; PORTDbits.RD4 = 0; PORTEbits.RE1 = 0; PORTEbits.RE0 = 0;
-_delay((unsigned long)((5500)*(8000000/4000000.0)));
-data = 40; Lcd_Cmd(data);
-data = 16; Lcd_Cmd(data);
-data = 1; Lcd_Cmd(data);
-data = 15; Lcd_Cmd(data);
-}
-
-
-void Lcd_Out(unsigned char y, unsigned char x, const char *buffer)
-{
-unsigned char data;
-switch (y)
-{
-case 1: data = 128 + x; break;
-case 2: data = 192 + x; break;
-case 3: data = 148 + x; break;
-case 4: data = 212 + x; break;
-default: break;
-}
-Lcd_Cmd(data);
-while(*buffer)
-{
-Lcd_Chr_CP(*buffer);
-buffer++;
-}
-return;
-}
-
-
-void Lcd_Out2(unsigned char y, unsigned char x, char *buffer)
-{
-unsigned char data;
-switch (y)
-{
-case 1: data = 128 + x; break;
-case 2: data = 192 + x; break;
-case 3: data = 148 + x; break;
-case 4: data = 212 + x; break;
-default: break;
-}
-Lcd_Cmd(data);
-while(*buffer)
-{
-Lcd_Chr_CP(*buffer);
-buffer++;
-}
-return;
-}
-
-
-void Lcd_Chr_CP(char data){
-PORTEbits.RE1 = 0; PORTEbits.RE0 = 1;
-PORTDbits.RD7 = (data & 0b10000000)>>7; PORTDbits.RD6 = (data & 0b01000000)>>6;
-PORTDbits.RD5 = (data & 0b00100000)>>5; PORTDbits.RD4 = (data & 0b00010000)>>4;
-_delay(10);
-PORTEbits.RE1 = 1; _delay((unsigned long)((5)*(8000000/4000000.0))); PORTEbits.RE1 = 0;
-PORTDbits.RD7 = (data & 0b00001000)>>3; PORTDbits.RD6 = (data & 0b00000100)>>2;
-PORTDbits.RD5 = (data & 0b00000010)>>1; PORTDbits.RD4 = (data & 0b00000001);
-_delay(10);
-PORTEbits.RE1 = 1; _delay((unsigned long)((5)*(8000000/4000000.0))); PORTEbits.RE1 = 0;
-_delay((unsigned long)((5)*(8000000/4000000.0))); _delay((unsigned long)((5500)*(8000000/4000000.0)));
-}
-
-
-void Lcd_Cmd(unsigned char data){
-PORTEbits.RE1 = 0; PORTEbits.RE0 = 0;
-PORTDbits.RD7 = (data & 0b10000000)>>7; PORTDbits.RD6 = (data & 0b01000000)>>6;
-PORTDbits.RD5 = (data & 0b00100000)>>5; PORTDbits.RD4 = (data & 0b00010000)>>4;
-_delay(10);
-PORTEbits.RE1 = 1; _delay((unsigned long)((5)*(8000000/4000000.0))); PORTEbits.RE1 = 0;
-PORTDbits.RD7 = (data & 0b00001000)>>3; PORTDbits.RD6 = (data & 0b00000100)>>2;
-PORTDbits.RD5 = (data & 0b00000010)>>1; PORTDbits.RD4 = (data & 0b00000001);
-_delay(10);
-PORTEbits.RE1 = 1; _delay((unsigned long)((5)*(8000000/4000000.0))); PORTEbits.RE1 = 0;
-_delay((unsigned long)((5500)*(8000000/4000000.0)));
-}
-
 # 26 "atraso.h"
 void atraso_ms(unsigned int valor);
 
-# 22 "mainLCDtecl2.c"
+# 23 "mainLCDtecl2.c"
 unsigned char tecla = ' ';
 
 void main(void)
@@ -4715,16 +4602,16 @@ ADCON1 = 0b00001111;
 
 INTCON = 0b00000000;
 INTCON2 = 0b10000000;
-INTCON2bits.RBPU = 1;
+INTCON2bits.RBPU = 0;
 INTCON3 = 0b00000000;
 
 TRISB = 0b00001111;
 TRISC = 0b00000000;
-TRISD = 0b00001111;
+TRISD = 0;
 TRISE = 0b00000000;
 
-PORTB = 0b11111111;
-
+PORTB = 0;
+LATB = 0;
 PORTC = 0;
 LATC = 0;
 PORTD = 0;
@@ -4800,6 +4687,26 @@ Lcd_Out(1, 0, "x");
 else if (tecla == '-')
 {
 Lcd_Out(1, 0, "-");
+}
+else if (tecla == 'A')
+{
+Lcd_Out(1, 0, "A");
+}
+else if (tecla == 'B')
+{
+Lcd_Out(1, 0, "B");
+}
+else if (tecla == 'C')
+{
+Lcd_Out(1, 0, "C");
+}
+else if (tecla == 'D')
+{
+Lcd_Out(1, 0, "D");
+}
+else if (tecla == 'F')
+{
+Lcd_Out(1, 0, "F");
 }
 
 }

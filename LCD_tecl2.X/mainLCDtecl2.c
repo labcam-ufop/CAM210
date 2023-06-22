@@ -18,6 +18,7 @@
 #include "flexlcd.h"
 #include "atraso.h"
 
+
 //Variables
 unsigned char tecla = ' ';
 
@@ -28,16 +29,16 @@ void main(void)
     //ADCON2 = 0b00000000;
     INTCON = 0b00000000;
     INTCON2 = 0b10000000; // All PORTB pull-ups are disabled
-    INTCON2bits.RBPU = 1;
+    INTCON2bits.RBPU = 0;
     INTCON3 = 0b00000000; 
     // Input or Output
     TRISB = 0b00001111; // colunas são entradas e linhas são saídas
     TRISC = 0b00000000;
-    TRISD = 0b00001111; 
+    TRISD = 0; 
     TRISE = 0b00000000;
     // Clear ports
-    PORTB = 0b11111111; 
-    //LATB = 0;
+    PORTB = 0; 
+    LATB = 0;
     PORTC = 0; 
     LATC = 0;
     PORTD = 0; 
@@ -113,6 +114,26 @@ void main(void)
         else if (tecla == '-')
         {
             Lcd_Out(1, 0, "-");
+        }
+        else if (tecla == 'A')
+        {
+            Lcd_Out(1, 0, "A");
+        }
+        else if (tecla == 'B')
+        {
+            Lcd_Out(1, 0, "B");
+        }
+        else if (tecla == 'C')
+        {
+            Lcd_Out(1, 0, "C");
+        }
+        else if (tecla == 'D')
+        {
+            Lcd_Out(1, 0, "D");
+        }
+        else if (tecla == 'F')
+        {
+            Lcd_Out(1, 0, "F");
         }
         
     }

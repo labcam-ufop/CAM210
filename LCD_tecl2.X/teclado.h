@@ -33,9 +33,9 @@
 #define C4 PORTBbits.RB0
 
 // SAÍDAS (linhas)
-#define L1 PORTBbits.RB4 // 
-#define L2 PORTBbits.RB5
-#define L3 PORTBbits.RB6
-#define L4 PORTBbits.RB7
+#define L1 LATBbits.LB4 // 
+#define L2 LATBbits.LB5 // problema
+#define L3 LATBbits.LB6
+#define L4 LATBbits.LB7
 
 unsigned char tc_tecla(); /*timeout=0 no time out*/ 
