@@ -5,7 +5,7 @@
  * Created on 12 de Novembro de 2020, 12:13
  */
 
-// Funciona apenas na PICGênios
+// Funciona apenas na PICGï¿½nios
 
 #include "configbits.h"
 
@@ -20,7 +20,7 @@ char tecla;
 
 
 
-// saídas (colunas), ativadas por 0
+// saï¿½das (colunas), ativadas por 0
 #define C1 LATBbits.LB0
 #define C2 LATBbits.LB1
 #define C3 LATBbits.LB2
@@ -42,13 +42,16 @@ void main(void)
     //INTCON2 = 0b00000000;
     INTCON2bits.RBPU = 1; // Pull-up resistors off
     // Input or Output
+    TRISA = 0b00000000; 
     TRISB = 0b00000000; 
     TRISC = 0b00000000;
     TRISD = 0b00001111; 
     TRISE = 0b00000000;
     // Clear ports
-    PORTB = 0xFF; 
-    LATB = 0xFF;
+    PORTA = 0; 
+    LATA = 0;
+    PORTB = 0; 
+    LATB = 0;
     PORTC = 0; 
     LATC = 0;
     PORTD = 0; 
@@ -80,8 +83,8 @@ void main(void)
 unsigned char teclado(void)
 {
    char key = ' ';
-   C1 = 1; C2 = 1; C3 = 1;
-   C1 = 0; //habilita primeira coluna
+   C1 = 0; C2 = 1; C3 = 1; //habilita primeira coluna
+
    if(!L1)        {__delaywdt_ms(20); if (!L1){key = '1'; }}
    else if(!L2)   {__delaywdt_ms(20); if (!L2){key = '4'; }}
    else if(!L3)   {__delaywdt_ms(20); if (!L3){key = '7'; }}
