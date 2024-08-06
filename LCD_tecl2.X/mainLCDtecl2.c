@@ -32,7 +32,12 @@ void main(void)
     INTCON2bits.RBPU = 1; // All PORTB pull-ups are disabled
     INTCON3 = 0b00000000; 
     // Input or Output
-    TRISB = 0b00000000; // configurado dentro da biblioteca
+    TRISA = 0b00000000;
+    # if (BOARD == 0)
+        TRISB = 0b00000000;    
+    #else   
+        TRISB = 0b00001111; // configurado dentro da biblioteca    
+    #endif
     TRISC = 0b00000000;
     TRISD = 0b00001111; 
     TRISE = 0b00000000;
@@ -64,7 +69,7 @@ void main(void)
         CLRWDT();
         
         //C2 = 0;
-
+        
         tecla = tc_tecla();  
 
         if (tecla == '1')

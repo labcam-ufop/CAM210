@@ -5,7 +5,7 @@
 //  Hector Ramos
 //******************************************
 
-#define BOARD 0
+#define BOARD 1
 //0 para PICGenios
 //1 para Exsto NEO
 
