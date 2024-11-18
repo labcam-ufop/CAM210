@@ -1,0 +1,70 @@
+{
+    "importedFrom": "file:///c:/CAM210/InterruptExt.X",
+    "version": "1.3",
+    "configurations": [
+        {
+            "name": "config_1",
+            "id": "",
+            "targetDevice": "PIC18F4520",
+            "imageType": "application",
+            "packs": [
+                {
+                    "name": "PIC18Fxxxx_DFP",
+                    "vendor": "Microchip",
+                    "version": "1.6.159"
+                }
+            ],
+            "fileSet": "Source Files",
+            "toolchain": "toolchain XC8 2.50",
+            "userVariables": "config_1-uservariables"
+        }
+    ],
+    "propertyGroups": [
+        {
+            "name": "default-uservariables",
+            "type": "uservariables",
+            "properties": {}
+        },
+        {
+            "name": "config_1-uservariables",
+            "type": "uservariables",
+            "properties": {}
+        },
+        {
+            "name": "toolchain XC8 2.50",
+            "extend": "",
+            "type": "toolchain",
+            "provider": "microchip.toolchains:xc8@2.50",
+            "properties": {
+                "XC8-config-global.gcc-opt-std": "-std=c90",
+                "HI-TECH-LINK.link-in-c-library-gcc": "-mc90lib"
+            }
+        }
+    ],
+    "fileSets": [
+        {
+            "name": "Header Files",
+            "files": [
+                "configbits.h"
+            ],
+            "encoding": "ISO-8859-1"
+        },
+        {
+            "name": "Linker Files"
+        },
+        {
+            "name": "Source Files",
+            "files": [
+                "mainInt0.c"
+            ],
+            "encoding": "ISO-8859-1"
+        },
+        {
+            "name": "Important Files",
+            "files": [
+                "Makefile"
+            ],
+            "encoding": "ISO-8859-1"
+        }
+    ]
+}
