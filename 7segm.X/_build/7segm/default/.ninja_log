@@ -1,0 +1,4 @@
+# ninja log v5
+1	182	7536692242748228	CMakeFiles/A_7segm_default_compile.dir/C_/CAM210/7segm.X/display7s.c.p1	6c066a1fb57712cf
+211	929	7536692249412615	7segm_default_default.elf	90cce85758cd6343
+7	211	7536692243028221	CMakeFiles/A_7segm_default_compile.dir/C_/CAM210/7segm.X/main7seg.c.p1	dd5465af14a2da4b

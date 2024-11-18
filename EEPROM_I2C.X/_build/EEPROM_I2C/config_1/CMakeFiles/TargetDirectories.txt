@@ -1,0 +1,4 @@
+C:/CAM210/EEPROM_I2C.X/_build/EEPROM_I2C/config_1/CMakeFiles/EEPROM_I2C_config_1_compile.dir
+C:/CAM210/EEPROM_I2C.X/_build/EEPROM_I2C/config_1/CMakeFiles/EEPROM_I2C_config_1_default.elf.dir
+C:/CAM210/EEPROM_I2C.X/_build/EEPROM_I2C/config_1/CMakeFiles/edit_cache.dir
+C:/CAM210/EEPROM_I2C.X/_build/EEPROM_I2C/config_1/CMakeFiles/rebuild_cache.dir

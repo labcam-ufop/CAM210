@@ -1,0 +1,6 @@
+{
+    "mplab.clangd.arguments": [
+        "--compile-commands-dir=c:\\CAM210\\DigitalPorts.X\\_build\\DigitalPorts\\default"
+    ],
+    "mplab.clangd.path": ""
+}

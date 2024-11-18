@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project>
+  <executable name="EEPROM_I2C_config_1_default.hex">
+    <memory name="program">
+      <units>bytes</units>
+      <length>32768</length>
+      <used>2300</used>
+      <free>30468</free>
+    </memory>
+    <memory name="data">
+      <units>bytes</units>
+      <length>1536</length>
+      <used>51</used>
+      <free>1485</free>
+    </memory>
+  </executable>
+</project>

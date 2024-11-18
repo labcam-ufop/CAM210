@@ -1,0 +1,6 @@
+{
+    "mplab.clangd.arguments": [
+        "--compile-commands-dir=c:\\CAM210\\7segm.X\\_build\\7segm\\default"
+    ],
+    "mplab.clangd.path": ""
+}

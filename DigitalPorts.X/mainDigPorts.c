@@ -5,7 +5,7 @@
  * Created on 12 de Novembro de 2020, 12:13
  */
 
-#include "configbits.h" // fuses de gravação
+#include "configbits.h" // fuses de gravaï¿½ï¿½o
 #define _XTAL_FREQ 8000000
 #include <xc.h>
 

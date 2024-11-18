@@ -1,0 +1,20 @@
+[
+{
+  "directory": "C:/CAM210/ADC.X/_build/ADC/default",
+  "command": "c:\\PROGRA~1\\MICROC~1\\xc8\\v2.50\\bin\\xc8-cc.exe -mcpu=18F4520 -c -mdfp=C:/Users/alank/.mchp_packs/Microchip/PIC18Fxxxx_DFP/1.6.159/xc8 -fno-short-double -fno-short-float -O0 -maddrqual=ignore -mwarn=-3 -DXPRJ_default=default -msummary=-psect,-class,+mem,-hex,-file -ginhx32 -Wl,--data-init -mno-keep-startup -mno-download -mno-default-config-bits -mc90lib -std=c90 -gdwarf-3 -mstack=compiled:auto:auto:auto -o CMakeFiles\\ADC_default_compile.dir\\C_\\CAM210\\ADC.X\\mainADC.c.p1 -c C:\\CAM210\\ADC.X\\mainADC.c",
+  "file": "C:\\CAM210\\ADC.X\\mainADC.c",
+  "output": "CMakeFiles\\ADC_default_compile.dir\\C_\\CAM210\\ADC.X\\mainADC.c.p1"
+},
+{
+  "directory": "C:/CAM210/ADC.X/_build/ADC/default",
+  "command": "c:\\PROGRA~1\\MICROC~1\\xc8\\v2.50\\bin\\xc8-cc.exe -mcpu=18F4520 -c -mdfp=C:/Users/alank/.mchp_packs/Microchip/PIC18Fxxxx_DFP/1.6.159/xc8 -fno-short-double -fno-short-float -O0 -maddrqual=ignore -mwarn=-3 -DXPRJ_default=default -msummary=-psect,-class,+mem,-hex,-file -ginhx32 -Wl,--data-init -mno-keep-startup -mno-download -mno-default-config-bits -mc90lib -std=c90 -gdwarf-3 -mstack=compiled:auto:auto:auto -o CMakeFiles\\ADC_default_compile.dir\\C_\\CAM210\\ADC.X\\adc.c.p1 -c C:\\CAM210\\ADC.X\\adc.c",
+  "file": "C:\\CAM210\\ADC.X\\adc.c",
+  "output": "CMakeFiles\\ADC_default_compile.dir\\C_\\CAM210\\ADC.X\\adc.c.p1"
+},
+{
+  "directory": "C:/CAM210/ADC.X/_build/ADC/default",
+  "command": "c:\\PROGRA~1\\MICROC~1\\xc8\\v2.50\\bin\\xc8-cc.exe -mcpu=18F4520 -c -mdfp=C:/Users/alank/.mchp_packs/Microchip/PIC18Fxxxx_DFP/1.6.159/xc8 -fno-short-double -fno-short-float -O0 -maddrqual=ignore -mwarn=-3 -DXPRJ_default=default -msummary=-psect,-class,+mem,-hex,-file -ginhx32 -Wl,--data-init -mno-keep-startup -mno-download -mno-default-config-bits -mc90lib -std=c90 -gdwarf-3 -mstack=compiled:auto:auto:auto -o CMakeFiles\\ADC_default_compile.dir\\C_\\CAM210\\ADC.X\\itoa.c.p1 -c C:\\CAM210\\ADC.X\\itoa.c",
+  "file": "C:\\CAM210\\ADC.X\\itoa.c",
+  "output": "CMakeFiles\\ADC_default_compile.dir\\C_\\CAM210\\ADC.X\\itoa.c.p1"
+}
+]

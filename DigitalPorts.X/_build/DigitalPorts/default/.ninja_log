@@ -1,0 +1,7 @@
+# ninja log v5
+1	192	7536690155526802	CMakeFiles/DigitalPorts_default_compile.dir/C_/CAM210/DigitalPorts.X/mainDigPorts.c.p1	5cf551a680008b2a
+193	886	7536690161799940	DigitalPorts_default_default.elf	ead2bb86a3f5fe70
+2	202	7536711281557680	CMakeFiles/DigitalPorts_default_compile.dir/C_/CAM210/DigitalPorts.X/mainDigPorts.c.p1	5cf551a680008b2a
+202	914	7536711287967243	DigitalPorts_default_default.elf	ead2bb86a3f5fe70
+2	208	7536711388163090	CMakeFiles/DigitalPorts_default_compile.dir/C_/CAM210/DigitalPorts.X/mainDigPorts.c.p1	5cf551a680008b2a
+209	875	7536711394183826	DigitalPorts_default_default.elf	ead2bb86a3f5fe70

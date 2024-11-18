@@ -1,0 +1,4 @@
+C:/CAM210/ADC.X/_build/ADC/default/CMakeFiles/ADC_default_compile.dir
+C:/CAM210/ADC.X/_build/ADC/default/CMakeFiles/ADC_default_default.elf.dir
+C:/CAM210/ADC.X/_build/ADC/default/CMakeFiles/edit_cache.dir
+C:/CAM210/ADC.X/_build/ADC/default/CMakeFiles/rebuild_cache.dir

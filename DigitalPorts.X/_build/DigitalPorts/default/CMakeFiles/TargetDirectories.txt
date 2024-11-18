@@ -1,0 +1,4 @@
+C:/CAM210/DigitalPorts.X/_build/DigitalPorts/default/CMakeFiles/DigitalPorts_default_compile.dir
+C:/CAM210/DigitalPorts.X/_build/DigitalPorts/default/CMakeFiles/DigitalPorts_default_default.elf.dir
+C:/CAM210/DigitalPorts.X/_build/DigitalPorts/default/CMakeFiles/edit_cache.dir
+C:/CAM210/DigitalPorts.X/_build/DigitalPorts/default/CMakeFiles/rebuild_cache.dir

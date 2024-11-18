@@ -1,0 +1,32 @@
+[
+{
+  "directory": "C:/CAM210/EEPROM_I2C.X/_build/EEPROM_I2C/config_1",
+  "command": "c:\\PROGRA~1\\MICROC~1\\xc8\\v2.50\\bin\\xc8-cc.exe -mcpu=18F4520 -c -mdfp=C:/Users/alank/.mchp_packs/Microchip/PIC18Fxxxx_DFP/1.6.159/xc8 -fno-short-double -fno-short-float -O0 -maddrqual=ignore -mwarn=-3 -DXPRJ_config_1=config_1 -msummary=-psect,-class,+mem,-hex,-file -ginhx32 -Wl,--data-init -mno-keep-startup -mno-download -mno-default-config-bits -mc90lib -std=c90 -gdwarf-3 -mstack=compiled:auto:auto:auto -o CMakeFiles\\EEPROM_I2C_config_1_compile.dir\\C_\\CAM210\\EEPROM_I2C.X\\i2c.c.p1 -c C:\\CAM210\\EEPROM_I2C.X\\i2c.c",
+  "file": "C:\\CAM210\\EEPROM_I2C.X\\i2c.c",
+  "output": "CMakeFiles\\EEPROM_I2C_config_1_compile.dir\\C_\\CAM210\\EEPROM_I2C.X\\i2c.c.p1"
+},
+{
+  "directory": "C:/CAM210/EEPROM_I2C.X/_build/EEPROM_I2C/config_1",
+  "command": "c:\\PROGRA~1\\MICROC~1\\xc8\\v2.50\\bin\\xc8-cc.exe -mcpu=18F4520 -c -mdfp=C:/Users/alank/.mchp_packs/Microchip/PIC18Fxxxx_DFP/1.6.159/xc8 -fno-short-double -fno-short-float -O0 -maddrqual=ignore -mwarn=-3 -DXPRJ_config_1=config_1 -msummary=-psect,-class,+mem,-hex,-file -ginhx32 -Wl,--data-init -mno-keep-startup -mno-download -mno-default-config-bits -mc90lib -std=c90 -gdwarf-3 -mstack=compiled:auto:auto:auto -o CMakeFiles\\EEPROM_I2C_config_1_compile.dir\\C_\\CAM210\\EEPROM_I2C.X\\mainEEPROM.c.p1 -c C:\\CAM210\\EEPROM_I2C.X\\mainEEPROM.c",
+  "file": "C:\\CAM210\\EEPROM_I2C.X\\mainEEPROM.c",
+  "output": "CMakeFiles\\EEPROM_I2C_config_1_compile.dir\\C_\\CAM210\\EEPROM_I2C.X\\mainEEPROM.c.p1"
+},
+{
+  "directory": "C:/CAM210/EEPROM_I2C.X/_build/EEPROM_I2C/config_1",
+  "command": "c:\\PROGRA~1\\MICROC~1\\xc8\\v2.50\\bin\\xc8-cc.exe -mcpu=18F4520 -c -mdfp=C:/Users/alank/.mchp_packs/Microchip/PIC18Fxxxx_DFP/1.6.159/xc8 -fno-short-double -fno-short-float -O0 -maddrqual=ignore -mwarn=-3 -DXPRJ_config_1=config_1 -msummary=-psect,-class,+mem,-hex,-file -ginhx32 -Wl,--data-init -mno-keep-startup -mno-download -mno-default-config-bits -mc90lib -std=c90 -gdwarf-3 -mstack=compiled:auto:auto:auto -o CMakeFiles\\EEPROM_I2C_config_1_compile.dir\\C_\\CAM210\\EEPROM_I2C.X\\rtc_r.c.p1 -c C:\\CAM210\\EEPROM_I2C.X\\rtc_r.c",
+  "file": "C:\\CAM210\\EEPROM_I2C.X\\rtc_r.c",
+  "output": "CMakeFiles\\EEPROM_I2C_config_1_compile.dir\\C_\\CAM210\\EEPROM_I2C.X\\rtc_r.c.p1"
+},
+{
+  "directory": "C:/CAM210/EEPROM_I2C.X/_build/EEPROM_I2C/config_1",
+  "command": "c:\\PROGRA~1\\MICROC~1\\xc8\\v2.50\\bin\\xc8-cc.exe -mcpu=18F4520 -c -mdfp=C:/Users/alank/.mchp_packs/Microchip/PIC18Fxxxx_DFP/1.6.159/xc8 -fno-short-double -fno-short-float -O0 -maddrqual=ignore -mwarn=-3 -DXPRJ_config_1=config_1 -msummary=-psect,-class,+mem,-hex,-file -ginhx32 -Wl,--data-init -mno-keep-startup -mno-download -mno-default-config-bits -mc90lib -std=c90 -gdwarf-3 -mstack=compiled:auto:auto:auto -o CMakeFiles\\EEPROM_I2C_config_1_compile.dir\\C_\\CAM210\\EEPROM_I2C.X\\eeprom.c.p1 -c C:\\CAM210\\EEPROM_I2C.X\\eeprom.c",
+  "file": "C:\\CAM210\\EEPROM_I2C.X\\eeprom.c",
+  "output": "CMakeFiles\\EEPROM_I2C_config_1_compile.dir\\C_\\CAM210\\EEPROM_I2C.X\\eeprom.c.p1"
+},
+{
+  "directory": "C:/CAM210/EEPROM_I2C.X/_build/EEPROM_I2C/config_1",
+  "command": "c:\\PROGRA~1\\MICROC~1\\xc8\\v2.50\\bin\\xc8-cc.exe -mcpu=18F4520 -c -mdfp=C:/Users/alank/.mchp_packs/Microchip/PIC18Fxxxx_DFP/1.6.159/xc8 -fno-short-double -fno-short-float -O0 -maddrqual=ignore -mwarn=-3 -DXPRJ_config_1=config_1 -msummary=-psect,-class,+mem,-hex,-file -ginhx32 -Wl,--data-init -mno-keep-startup -mno-download -mno-default-config-bits -mc90lib -std=c90 -gdwarf-3 -mstack=compiled:auto:auto:auto -o CMakeFiles\\EEPROM_I2C_config_1_compile.dir\\C_\\CAM210\\EEPROM_I2C.X\\eeprom_ext.c.p1 -c C:\\CAM210\\EEPROM_I2C.X\\eeprom_ext.c",
+  "file": "C:\\CAM210\\EEPROM_I2C.X\\eeprom_ext.c",
+  "output": "CMakeFiles\\EEPROM_I2C_config_1_compile.dir\\C_\\CAM210\\EEPROM_I2C.X\\eeprom_ext.c.p1"
+}
+]

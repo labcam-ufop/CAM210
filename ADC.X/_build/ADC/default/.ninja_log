@@ -1,0 +1,10 @@
+# ninja log v5
+7	180	7536703092127370	CMakeFiles/ADC_default_compile.dir/C_/CAM210/ADC.X/itoa.c.p1	472eb4a4baeb4c53
+4	207	7536703092398930	CMakeFiles/ADC_default_compile.dir/C_/CAM210/ADC.X/adc.c.p1	9ec7124be15ffe81
+210	2354	7536703113161177	ADC_default_default.elf	2b6cae14ff10973c
+1	210	7536703092428361	CMakeFiles/ADC_default_compile.dir/C_/CAM210/ADC.X/mainADC.c.p1	dc06eccbdc6ac9b
+1	10	0	clean	3ea8a176bd4a2962
+9	192	7536704464081996	CMakeFiles/ADC_default_compile.dir/C_/CAM210/ADC.X/itoa.c.p1	472eb4a4baeb4c53
+6	222	7536704464392551	CMakeFiles/ADC_default_compile.dir/C_/CAM210/ADC.X/adc.c.p1	9ec7124be15ffe81
+1	223	7536704464403016	CMakeFiles/ADC_default_compile.dir/C_/CAM210/ADC.X/mainADC.c.p1	dc06eccbdc6ac9b
+223	2451	7536704486015893	ADC_default_default.elf	2b6cae14ff10973c

@@ -1,0 +1,4 @@
+C:/CAM210/Debouncing.X/_build/Debouncing/default/CMakeFiles/Debouncing_default_compile.dir
+C:/CAM210/Debouncing.X/_build/Debouncing/default/CMakeFiles/Debouncing_default_default.elf.dir
+C:/CAM210/Debouncing.X/_build/Debouncing/default/CMakeFiles/edit_cache.dir
+C:/CAM210/Debouncing.X/_build/Debouncing/default/CMakeFiles/rebuild_cache.dir

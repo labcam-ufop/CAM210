@@ -1,0 +1,6 @@
+{
+    "mplab.clangd.arguments": [
+        "--compile-commands-dir=c:\\CAM210\\Debouncing.X\\_build\\Debouncing\\default"
+    ],
+    "mplab.clangd.path": ""
+}

@@ -1,0 +1,4 @@
+C:/CAM210/7segm.X/_build/7segm/default/CMakeFiles/A_7segm_default_compile.dir
+C:/CAM210/7segm.X/_build/7segm/default/CMakeFiles/7segm_default_default.elf.dir
+C:/CAM210/7segm.X/_build/7segm/default/CMakeFiles/edit_cache.dir
+C:/CAM210/7segm.X/_build/7segm/default/CMakeFiles/rebuild_cache.dir

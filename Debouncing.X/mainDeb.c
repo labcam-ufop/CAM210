@@ -38,25 +38,25 @@ void main(void)
     while(1) 
     {
         CLRWDT();
-        if (bt_up==0)            // O botão UP está pressionado ?
+        if (bt_up==0)            // O botï¿½o UP estï¿½ pressionado ?
         {               // sim,
-            if (!(bt_press))      // O botão UP já foi tratado ?
-            {            // não.
-                if (filtro0 > 0)   // Fim do filtro do botão UP ?
+            if (!(bt_press))      // O botï¿½o UP jï¿½ foi tratado ?
+            {            // nï¿½o.
+                if (filtro0 > 0)   // Fim do filtro do botï¿½o UP ?
                 {
-                    filtro0--;   // Não, então decrementa o filtro
+                    filtro0--;   // Nï¿½o, entï¿½o decrementa o filtro
                 }
                 else 
-                {         // Sim, Faz a ação do botão
-                    bt_press = 1;   // Marca que o botão está pressionado
+                {         // Sim, Faz a aï¿½ï¿½o do botï¿½o
+                    bt_press = 1;   // Marca que o botï¿½o estï¿½ pressionado
                     led1 = ~led1;
                 }
             }
         }
         else
-        {               // botão liberado
-            filtro0 = t_filtro; // inicia o filtro do botão 
-            bt_press = 0;   // marca que o botão foi liberado
+        {               // botï¿½o liberado
+            filtro0 = t_filtro; // inicia o filtro do botï¿½o 
+            bt_press = 0;   // marca que o botï¿½o foi liberado
         }     
         if (bt_up2 == 0)
         {

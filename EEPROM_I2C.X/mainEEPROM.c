@@ -18,7 +18,7 @@
 //Variables
 unsigned int duty = 100, count = 0; // 0 a 255
 unsigned char str[5];
-// saídas (colunas), ativadas por 0
+// saï¿½das (colunas), ativadas por 0
 #define C1 LATBbits.LB0
 #define C2 LATBbits.LB1
 #define C3 LATBbits.LB2

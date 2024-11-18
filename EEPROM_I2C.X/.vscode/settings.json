@@ -1,0 +1,7 @@
+{
+    "mplab.clangd.arguments": [
+        "--compile-commands-dir=c:\\CAM210\\EEPROM_I2C.X\\_build\\EEPROM_I2C\\default"
+    ],
+    "mplab.clangd.path": "",
+    "cmake.sourceDirectory": "C:/CAM210/EEPROM_I2C.X/cmake/EEPROM_I2C/config_1"
+}

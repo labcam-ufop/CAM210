@@ -1,0 +1,11 @@
+# ninja log v5
+1	228	7536708362881460	CMakeFiles/Debouncing_default_compile.dir/C_/CAM210/Debouncing.X/mainDeb.c.p1	7c6fea2a0ac4ebec
+230	892	7536708368913854	Debouncing_default_default.elf	6b3cd97521fe12c3
+2	218	7536708578991958	CMakeFiles/Debouncing_default_compile.dir/C_/CAM210/Debouncing.X/mainDeb.c.p1	7c6fea2a0ac4ebec
+218	942	7536708585516458	Debouncing_default_default.elf	6b3cd97521fe12c3
+2	190	7536708646874473	CMakeFiles/Debouncing_default_compile.dir/C_/CAM210/Debouncing.X/mainDeb.c.p1	7c6fea2a0ac4ebec
+191	918	7536708653434801	Debouncing_default_default.elf	6b3cd97521fe12c3
+1	199	7536710754346660	CMakeFiles/Debouncing_default_compile.dir/C_/CAM210/Debouncing.X/mainDeb.c.p1	7c6fea2a0ac4ebec
+200	924	7536710760965612	Debouncing_default_default.elf	6b3cd97521fe12c3
+1	190	7536710832026425	CMakeFiles/Debouncing_default_compile.dir/C_/CAM210/Debouncing.X/mainDeb.c.p1	7c6fea2a0ac4ebec
+190	873	7536710838321795	Debouncing_default_default.elf	6b3cd97521fe12c3
