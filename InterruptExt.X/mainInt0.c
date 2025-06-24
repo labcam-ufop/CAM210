@@ -11,6 +11,7 @@
 
 void main(void) 
 {
+	__delaywdt_ms(1000); // apenas para garantir que o simulador PicSimLab iniciou e que nenhum botão está pressionado
     ////////////////////////
     /// Configure Ports
     ////////////////////////
@@ -40,7 +41,7 @@ void main(void)
 //    INT1IE = 1;
     
     INTCONbits.GIE = 1;
-    //ei(); // Enable global interrupt
+    //ei(); // Enable global interrupt 
     while(1) 
     {
         CLRWDT();
