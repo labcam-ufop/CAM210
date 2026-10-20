@@ -1,6 +1,6 @@
 Version 3.2 HI-TECH Software Intermediate Code
 [p mainexit ]
-"6628 C:/Users/ufop/.mchp_packs/Microchip/PIC18Fxxxx_DFP/1.2.26/xc8\pic\include\proc\pic18f4520.h
+"6628 C:/Program Files (x86)/Microchip/MPLABX/v5.40/packs/Microchip/PIC18Fxxxx_DFP/1.2.26/xc8\pic\include\proc\pic18f4520.h
 [s S266 :7 `uc 1 :1 `uc 1 ]
 [n S266 . . NOT_RBPU ]
 "6632
@@ -133,7 +133,7 @@ Version 3.2 HI-TECH Software Intermediate Code
 [; ;xc8\pic\include\xc.h: 20: extern double __fpnormalize(double);
 [; ;xc8debug.h: 14: extern void __builtin_software_breakpoint(void);
 [; ;xc8\pic\include\proc\pic18f4520.h: 52: extern volatile unsigned char PORTA __at(0xF80);
-"54 C:/Users/ufop/.mchp_packs/Microchip/PIC18Fxxxx_DFP/1.2.26/xc8\pic\include\proc\pic18f4520.h
+"54 C:/Program Files (x86)/Microchip/MPLABX/v5.40/packs/Microchip/PIC18Fxxxx_DFP/1.2.26/xc8\pic\include\proc\pic18f4520.h
 [; ;xc8\pic\include\proc\pic18f4520.h: 54: asm("PORTA equ 0F80h");
 [; <" PORTA equ 0F80h ;# ">
 [; ;xc8\pic\include\proc\pic18f4520.h: 57: typedef union {
@@ -2990,10 +2990,7 @@ Version 3.2 HI-TECH Software Intermediate Code
 [e :U 279 ]
 [; ;mainDigPorts.c: 45: }
 [; ;mainDigPorts.c: 46: }
-[; ;mainDigPorts.c: 47: return;
+[; ;mainDigPorts.c: 47: }
 "47
-[e $UE 276  ]
-[; ;mainDigPorts.c: 48: }
-"48
 [e :UE 276 ]
 }

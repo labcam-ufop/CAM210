@@ -1,0 +1,36 @@
+### HEXMate logfile and output summary ###
+
+### Command-line arguments ###
+ C:\Users\alank\AppData\Local\Temp\xcAsbb0.\driver_tmp_3.o
+ -Odist/default/production\InitialProject.X.production.hex
+ -logfile=dist/default/production\InitialProject.X.production.hxl
+ -format=INHX032
+ -addressing=1
+ -break=300000
+
+### Memory Usage ###
+ Input file ranges:
+  0h - 3h		(C:\Users\alank\AppData\Local\Temp\xcAsbb0.\driver_tmp_3.o)
+  600h - 60Bh		(C:\Users\alank\AppData\Local\Temp\xcAsbb0.\driver_tmp_3.o)
+  200000h - 200007h		(C:\Users\alank\AppData\Local\Temp\xcAsbb0.\driver_tmp_3.o)
+  300000h - 30000Dh		(C:\Users\alank\AppData\Local\Temp\xcAsbb0.\driver_tmp_3.o)
+ Unused ranges:
+  4h - 5FFh
+  60Ch - 1FFFFFh
+  200008h - 2FFFFFh
+
+### Hex Memory Map ###
+ Legend:
+  -- = Unused memory
+  H1 = Input file             (C:\Users\alank\AppData\Local\Temp\xcAsbb0.\driver_tmp_3.o)
+----------------------------------------------------------
+         | 00 01 02 03 04 05 06 07 08 09 0A 0B 0C 0D 0E 0F
+----------------------------------------------------------
+00000000 | H1 H1 H1 H1 -- -- -- -- -- -- -- -- -- -- -- --
+----------------------------------------------------------
+00000600 | H1 H1 H1 H1 H1 H1 H1 H1 H1 H1 H1 H1 -- -- -- --
+----------------------------------------------------------
+00200000 | H1 H1 H1 H1 H1 H1 H1 H1 -- -- -- -- -- -- -- --
+----------------------------------------------------------
+00300000 | H1 H1 H1 H1 H1 H1 H1 H1 H1 H1 H1 H1 H1 H1 -- --
+00300010 | --

@@ -44,6 +44,5 @@ void main(void)
             Led1 = 0; //Turn RB1 off
         }
     }
-    return;
 }
 
