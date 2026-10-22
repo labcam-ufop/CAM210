@@ -46,6 +46,7 @@ void main(void)
     
     PWM1_Init(1000);  // configura frequencia do PWM para 1kHz
     PWM1_Start(); // configura registradores e inicia PWM
+    PWM1_Set_Duty(128);
     
     while(1) 
     {

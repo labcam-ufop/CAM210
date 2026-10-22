@@ -63,12 +63,10 @@ void main(void)
     //adc_init(); // configura registradores ADCON
     Lcd_Init();
     Lcd_Cmd(LCD_CURSOR_OFF); 
-
-    i2c_init();
-    i2c_start();
     
+    i2c_init();
     //day, mth, year, dow, hr, min, sec)
-    rtc_w(02, 12, 20, 4, 10, 40, 15);
+    rtc_w(22, 9, 26, 3, 11, 41, 15);
     __delaywdt_ms(200);
     
     
@@ -87,13 +85,14 @@ void main(void)
             
         Lcd_Out(1, 0, date);
         Lcd_Out(2, 0, time);
+        
         if(e2prom_r(0) == 33)
         {
-            LATBbits.LB0 = 1;
+            LATDbits.LD0 = 1;
         }
         if(e2pext_r(0) == 47)
         {
-            LATBbits.LB1 = 1;
+            LATDbits.LD1 = 1;
         }
         __delaywdt_ms(2000);
     }
